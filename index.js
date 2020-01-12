@@ -54,10 +54,6 @@ async function run() {
             if(contents && contents.data && contents.data.sha){
                 sha = contents.data.sha;
                 existingInput = Buffer.from(contents.data.content, "base64").toString();
-
-                if(path === 'data/flood.geojson'){
-                    console.log({existingInput, contents});
-                }
             }
         }catch(e){
             console.warn('error thrown when fetching contents of '+path);
