@@ -1,12 +1,12 @@
-name: NSW Live Traffic Data Updater
+name: NSW Live Traffic Archiver
 on:
   push:
     branches:
       - master
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
-  triage:
+  archive:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
