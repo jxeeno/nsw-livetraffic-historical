@@ -42,7 +42,7 @@ async function run() {
 
     const updateFile = async (path, input) => {
         let sha;
-        let existingContent;
+        let existingInput;
         try{
             const contents = await octokit.repos.getContents({
                 ...COMMON_CREATE_OR_UPDATE_FILE,
@@ -53,14 +53,14 @@ async function run() {
 
             if(contents && contents.data && contents.data.sha){
                 sha = contents.data.sha;
-                existingContent = contents.data.content;
+                existingInput = Buffer.from(contents.data.content, "base64");
             }
         }catch(e){
             console.warn('error thrown when fetching contents of '+path);
         }
         const content = toBase64(input);
 
-        if(content === existingContent){
+        if(input === existingInput){
             console.warn('no change found for '+path)
             return
         }
