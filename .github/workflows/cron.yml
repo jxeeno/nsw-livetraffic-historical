@@ -1,0 +1,21 @@
+name: NSW Live Traffic Data Updater
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '*/15 * * * *'
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: yarn
+    - name: Run script
+      run: node index.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
