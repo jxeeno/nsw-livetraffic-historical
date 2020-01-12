@@ -2,12 +2,12 @@ const github = require('@actions/github');
 const axios = require('axios');
 
 const LIVE_TRAFFIC_ENDPOINTS = {
-    'incident': 'https://www.livetraffic.com/traffic/hazards/incident.json',
-    'roadwork': 'https://www.livetraffic.com/traffic/hazards/roadwork.json',
-    'majorevent': 'https://www.livetraffic.com/traffic/hazards/majorevent.json',
-    'fire': 'https://www.livetraffic.com/traffic/hazards/fire.json',
-    'flood': 'https://www.livetraffic.com/traffic/hazards/flood.json',
-    'alpine': 'https://www.livetraffic.com/traffic/hazards/alpine.json'
+    'incident': 'https://api.transport.nsw.gov.au/v1/live/hazards/incident/all',
+    'roadwork': 'https://api.transport.nsw.gov.au/v1/live/hazards/roadwork/all',
+    'majorevent': 'https://api.transport.nsw.gov.au/v1/live/hazards/majorevent/all',
+    'fire': 'https://api.transport.nsw.gov.au/v1/live/hazards/fire/all',
+    'flood': 'https://api.transport.nsw.gov.au/v1/live/hazards/flood/all',
+    'alpine': 'https://api.transport.nsw.gov.au/v1/live/hazards/alpine/all'
 }
 const toBase64 = (str) => {
     return Buffer.from(str || '').toString('base64');
@@ -37,6 +37,7 @@ const COMMON_CREATE_OR_UPDATE_FILE = {
 
 async function run() {
     const repoToken = process.env.GITHUB_TOKEN;
+    const tfnswApiKey = process.env.TFNSW_API_KEY;
     const octokit = new github.GitHub(repoToken);
 
     const updateFile = async (path, input) => {
@@ -75,7 +76,11 @@ async function run() {
     }
 
     for(const filename in LIVE_TRAFFIC_ENDPOINTS){
-        const { data } = await axios.get(LIVE_TRAFFIC_ENDPOINTS[filename]);
+        const { data } = await axios.get(LIVE_TRAFFIC_ENDPOINTS[filename], {
+            headers: {
+                Authorization: `apikey ${tfnswApiKey}`
+            }
+        });
         const {type, features} = data;
         try{
             await updateFile(
