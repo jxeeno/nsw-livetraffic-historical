@@ -299,7 +299,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "FLOODING - MOUNT WHITE M1 Pacific Motorway just past Pacific Highway overpass",
+        "headline": "FLOODING - MOUNT WHITE M1 Pacific Motorway near Pacific Highway overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -312,14 +312,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1579214798930,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1579214798977,
+        "lastUpdated": 1579215461570,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -336,7 +336,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Pacific Highway overpass",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
@@ -345,15 +345,96 @@
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "near",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Mount White",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48738,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1492380784348,
+          -33.8939447316898
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "FLOODING - LEWISHAM Railway Terrace near West Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1579215629637,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Flooding",
+        "lastUpdated": 1579215629683,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "FLOODING",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "West Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Railway Terrace",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Lewisham",
             "trafficVolume": "Heavy"
           }
         ]
