@@ -1277,7 +1277,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1579311244957,
+        "lastUpdated": 1579312944723,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1792,7 +1792,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1579312122320,
+        "lastUpdated": 1579312851287,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1814,10 +1814,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -1980,17 +1980,17 @@
     },
     {
       "type": "Feature",
-      "id": 48882,
+      "id": 48883,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.73008320490726,
-          -34.17532189456165
+          151.32840596010737,
+          -29.787819752584088
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - DOUGLAS PARK Hume Motorway just past Moreton Park Road",
+        "headline": "CRASH 2 cars - ELSMORE (EAST OF INVERELL) Gwydir Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2002,15 +2002,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1579312422217,
+        "created": 1579312818000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Delay your journey",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1579312422263,
+        "mainCategory": "Crash",
+        "lastUpdated": 1579313182410,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2019,32 +2019,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW",
+          "Helicopter"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moreton Park Road",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Hume Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Gwydir Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Douglas Park",
+            "suburb": "Elsmore (east of Inverell)",
             "trafficVolume": ""
           }
         ]
@@ -8119,6 +8121,78 @@
             "secondLocation": " ",
             "suburb": "Wiley Park",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48882,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.73008320490726,
+          -34.17532189456165
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - DOUGLAS PARK Hume Motorway just past Moreton Park Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1579312422217,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1579312886353,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moreton Park Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Douglas Park",
+            "trafficVolume": ""
           }
         ]
       }
