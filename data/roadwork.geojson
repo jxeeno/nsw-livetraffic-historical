@@ -4499,7 +4499,7 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "direction": "Both directions",
+            "direction": "Eastbound",
             "finishTime": "5:00am",
             "fromDay": "Sunday",
             "startTime": "10:00pm",
@@ -4557,7 +4557,7 @@
         "end": 1579806000000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579418552463,
+        "lastUpdated": 1579419382673,
         "otherAdvice": "<p>Westbound, the Reserve Road on-ramp,&nbsp;and Pacific Hwy north and southbound ramps will also be closed.<br>Eastbound, the&nbsp;Epping Road on-ramp to the Lane Cove Tunnel will also be closed.</p>",
         "arrangementElements": [],
         "diversions": "<p>Westbound:&nbsp;Detour via Epping Rd.<br>Eastbound:&nbsp;Diverted off the M2 Mwy at Delhi Rd, detour via Epping Rd.<br></p>",
@@ -19335,78 +19335,6 @@
     },
     {
       "type": "Feature",
-      "id": 48956,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.187968194,
-          -33.926888715
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "ROADWORK Airport North Upgrade - MASCOT O'Riordan St between Coward Street AND King Street ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1579378806170,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Check signage",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Roadwork",
-        "lastUpdated": 1579380691437,
-        "otherAdvice": "<p>Lane closures on O’Riordan St are in place today through until 4pm.</p><ul><li>No right turn from O’Riordan St northbound into King St; motorists can continue on and turn right at Coward St.&nbsp;</li><li>1 of 2 right turn lanes from Bourke St into O’Riordan St will be closed.</li></ul>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "ROADWORK Airport North Upgrade",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Coward Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "O'Riordan St",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "King Street",
-            "suburb": "Mascot",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 41797,
       "geometry": {
         "type": "Point",
@@ -19590,6 +19518,78 @@
             "region": "SYD_MET",
             "secondLocation": "Meagher Street",
             "suburb": "Chippendale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48956,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.187968194,
+          -33.926888715
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ROADWORK Airport North Upgrade - MASCOT O'Riordan St between Coward Street AND King Street ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1579378806170,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Roadwork",
+        "lastUpdated": 1579419747273,
+        "otherAdvice": "<p>Lane closures on O’Riordan St are in place today through until 4pm.</p><ul><li>No right turn from O’Riordan St northbound into King St; motorists can continue on and turn right at Coward St.&nbsp;</li><li>1 of 2 right turn lanes from Bourke St into O’Riordan St will be closed.</li></ul>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "ROADWORK Airport North Upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Coward Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "O'Riordan St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": "King Street",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
