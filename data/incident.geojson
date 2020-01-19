@@ -1751,37 +1751,37 @@
     },
     {
       "type": "Feature",
-      "id": 48955,
+      "id": 49018,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1824749171967,
-          -33.88223056540592
+          150.99506882183005,
+          -33.79310005224383
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - GLEBE Bridge Road at Ross Street, Forest Lodge",
+        "headline": "BREAKDOWN Truck - NORTHMEAD James Ruse Drive just past Windsor Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1579376227390,
+        "created": 1579465260990,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1579379100203,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1579465261020,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1790,34 +1790,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
+          "Mechanic",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Ross Street",
+            "crossStreet": "Windsor Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Bridge Road",
+            "locationQualifier": "just past",
+            "mainStreet": "James Ruse Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Glebe",
+            "suburb": "Northmead",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49019,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02208403102804,
+          -33.818534233391524
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ROSEHILL James Ruse Drive approaching Grand Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1579465407887,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1579465407923,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Grand Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "James Ruse Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rosehill",
+            "trafficVolume": "Moderate"
           }
         ]
       }
