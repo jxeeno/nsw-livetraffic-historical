@@ -1704,12 +1704,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1579463173457,
-        "otherAdvice": " ",
+        "lastUpdated": 1579464374803,
+        "otherAdvice": "Traffic is heavy on Stacey Street",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1717,9 +1717,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH truck rolled over",
         "media": [],
@@ -1731,10 +1729,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -1824,17 +1822,17 @@
     },
     {
       "type": "Feature",
-      "id": 49015,
+      "id": 49017,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.46750395344236,
-          -33.18000088084397
+          150.867161513739,
+          -34.535902040979536
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD concrete - WYEE M1 Pacific Motorway near Hue Hue Rd",
+        "headline": "BREAKDOWN Car - WINDANG Windang Road on Windang Street, Lake Illawarra",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1846,15 +1844,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1579462684720,
+        "created": 1579464243587,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Car",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1579462684750,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1579464243633,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1863,32 +1861,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "HAZARD concrete",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hue Hue Rd",
+            "crossStreet": "Windang Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "on",
+            "mainStreet": "Windang Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Wyee",
+            "suburb": "Windang",
             "trafficVolume": ""
           }
         ]
@@ -5890,6 +5889,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Blacktown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49015,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46750395344236,
+          -33.18000088084397
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD concrete - WYEE M1 Pacific Motorway near Hue Hue Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1579462684720,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1579464269867,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD concrete",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hue Hue Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Wyee",
             "trafficVolume": ""
           }
         ]
