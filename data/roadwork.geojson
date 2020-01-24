@@ -4908,7 +4908,16 @@
       "properties": {
         "webLinks": [],
         "headline": "SCHEDULED ROADWORK Maintenance - BEROWRA Pacific Hwy on-ramp and off ramp at Windybanks interchange",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Weekday Nights",
+            "startTime": "9:00pm",
+            "toDay": ""
+          }
+        ],
         "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -4928,8 +4937,8 @@
         "end": 1590692400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579848813473,
-        "otherAdvice": " ",
+        "lastUpdated": 1579849066147,
+        "otherAdvice": "Day work may also be carried out between 7am and 5pm on weekdays.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13674,81 +13683,6 @@
     },
     {
       "type": "Feature",
-      "id": 48825,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.82895116875613,
-          -36.52138237824893
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - BEGA TO COBARGO Princes Hwy at various locations",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "5:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "7:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1579275455357,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "end": 1579849200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579275455387,
-        "otherAdvice": "<p>One lane will be closed for guardrail repairs. Alternating (stop/slow) traffic conditions may be in place.&nbsp;<br>Motorists are advised to allow up to 10 minutes extra travel time.</p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1579093200000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "various locations",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Hwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Bega to Cobargo",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 48829,
       "geometry": {
         "type": "Point",
@@ -13817,81 +13751,6 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Bowral",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 48830,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.5543400580109,
-          -34.847036404460056
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - WOLLOGORANG Federal Highway on Wollogorang Creek Bridge",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Northbound",
-            "finishTime": "6:00pm",
-            "fromDay": "Wednesday",
-            "startTime": "6:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1579280234367,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "end": 1579849200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579280234400,
-        "otherAdvice": "<p>One lane will be closed at a time.<br>Motorists are advised to allow around five minutes extra travel time.</p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1579438800000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wollogorang Creek Bridge",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "on",
-            "mainStreet": "Federal Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Wollogorang",
             "trafficVolume": ""
           }
         ]
@@ -14047,89 +13906,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Walgett",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 48949,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.1724958925903,
-          -33.1295527616717
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - PARKES Newell Hwy between Bushman St AND Thomas St ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Wednesday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Thursday",
-            "startTime": "7:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1579367157903,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "end": 1579849200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579367157950,
-        "otherAdvice": "One lane closed intermittently for crack sealing.<br>Motorists are advised to allow around five minutes extra travel time.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1579611600000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bushman St",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Newell Hwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": "Thomas St",
-            "suburb": "Parkes",
             "trafficVolume": ""
           }
         ]
@@ -18948,6 +18724,81 @@
     },
     {
       "type": "Feature",
+      "id": 48825,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.82895116875613,
+          -36.52138237824893
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - BEGA TO COBARGO Princes Hwy at various locations",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "5:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "7:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1579275455357,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "end": 1579849200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1579849238067,
+        "otherAdvice": "<p>One lane will be closed for guardrail repairs. Alternating (stop/slow) traffic conditions may be in place.&nbsp;<br>Motorists are advised to allow up to 10 minutes extra travel time.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1579093200000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "various locations",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bega to Cobargo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 48826,
       "geometry": {
         "type": "Point",
@@ -19023,45 +18874,24 @@
     },
     {
       "type": "Feature",
-      "id": 48831,
+      "id": 48830,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.18354098930206,
-          -35.699606854785344
+          149.5543400580109,
+          -34.847036404460056
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Batemans Bay Bridge replacement project",
-            "linkURL": "https://www.rms.nsw.gov.au/projects/batemans-bay-bridge/index.html"
-          }
-        ],
-        "headline": "SCHEDULED ROADWORK Batemans Bay Bridge replacement project - NORTH BATEMANS BAY Kings Highway between Old Punt Road AND Princes Highway ",
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - WOLLOGORANG Federal Highway on Wollogorang Creek Bridge",
         "periods": [
           {
             "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "5:00pm",
-            "fromDay": "Monday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "5:00pm",
-            "fromDay": "Tuesday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "5:00pm",
+            "direction": "Northbound",
+            "finishTime": "6:00pm",
             "fromDay": "Wednesday",
-            "startTime": "7:00am",
+            "startTime": "6:00am",
             "toDay": ""
           }
         ],
@@ -19075,17 +18905,17 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1579280715263,
+        "created": 1579280234367,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution; Check signage",
+        "adviceB": "Check signage; Exercise caution",
         "adviceA": "Reduced speed limit",
-        "end": 1579762800000,
+        "end": 1579849200000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579762822977,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place as required.<br>Motorists are advised to allow around five minutes extra travel time.</p>",
+        "lastUpdated": 1579849238330,
+        "otherAdvice": "<p>One lane will be closed at a time.<br>Motorists are advised to allow around five minutes extra travel time.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -19097,21 +18927,21 @@
         ],
         "duration": null,
         "start": 1579438800000,
-        "displayName": "SCHEDULED ROADWORK Batemans Bay Bridge replacement project",
+        "displayName": "SCHEDULED ROADWORK",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Old Punt Road",
+            "crossStreet": "Wollogorang Creek Bridge",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Kings Highway",
+            "locationQualifier": "on",
+            "mainStreet": "Federal Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_SOUTH",
-            "secondLocation": "Princes Highway",
-            "suburb": "North Batemans Bay",
+            "secondLocation": " ",
+            "suburb": "Wollogorang",
             "trafficVolume": ""
           }
         ]
@@ -19277,17 +19107,17 @@
     },
     {
       "type": "Feature",
-      "id": 48506,
+      "id": 48949,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.92249357920537,
-          -33.11157515424892
+          148.1724958925903,
+          -33.1295527616717
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "SCHEDULED ROADWORK Resurfacing - PARKES TO YARRABANDAI Henry Parkes Way at various locations between London Rd and Condobolin Rd",
+        "headline": "SCHEDULED ROADWORK - PARKES Newell Hwy between Bushman St AND Thomas St ",
         "periods": [
           {
             "closureType": "LANE_CLOSURE",
@@ -19316,17 +19146,17 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1579029785853,
+        "created": 1579367157903,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceB": "Exercise caution; Check signage",
+        "subCategoryA": null,
+        "adviceB": "Check signage; Exercise caution",
         "adviceA": "Reduced speed limit",
-        "end": 1579762800000,
+        "end": 1579849200000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1579762822707,
-        "otherAdvice": "Lane closures are expected during work hours and traffic controls will be in place (signals at London Rd will be switched off during the work).",
+        "lastUpdated": 1579849238613,
+        "otherAdvice": "One lane closed intermittently for crack sealing.<br>Motorists are advised to allow around five minutes extra travel time.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -19338,21 +19168,21 @@
         ],
         "duration": null,
         "start": 1579611600000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "displayName": "SCHEDULED ROADWORK",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "various locations between London Rd and Condobolin Rd",
+            "crossStreet": "Bushman St",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Henry Parkes Way",
+            "locationQualifier": "between",
+            "mainStreet": "Newell Hwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_WEST",
-            "secondLocation": " ",
-            "suburb": "Parkes to Yarrabandai",
+            "secondLocation": "Thomas St",
+            "suburb": "Parkes",
             "trafficVolume": ""
           }
         ]
