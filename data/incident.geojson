@@ -1543,7 +1543,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580335024690,
+        "lastUpdated": 1580336248900,
         "otherAdvice": "Expected to remain this way for the morning until the truck salvage operation is completed.",
         "arrangementElements": [],
         "diversions": "Motorists should consider using Main Rd to access the Hunter Expy as an alternative route.",
@@ -1554,7 +1554,8 @@
         "attendingGroups": [
           "Heavy vehicle tow truck",
           "Transport for NSW",
-          "Emergency services"
+          "Emergency services",
+          "Franna crane"
         ],
         "displayName": "CRASH Truck, Car",
         "media": [],
@@ -1587,17 +1588,17 @@
     },
     {
       "type": "Feature",
-      "id": 49933,
+      "id": 49935,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8462122,
-          -33.7477866
+          150.8772176,
+          -34.4259955
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - GLENDENNING M7 Motorway at Power Street",
+        "headline": "CRASH Bus, Car - WOLLONGONG Princes Highway at Rosemont Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1609,15 +1610,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580335363153,
+        "created": 1580336252697,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "3 vehicles",
+        "subCategoryA": "Bus, Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580335363183,
+        "lastUpdated": 1580336252730,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1626,18 +1627,19 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "CRASH 3 vehicles",
+        "displayName": "CRASH Bus, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Power Street",
+            "crossStreet": "Rosemont Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -1646,12 +1648,84 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M7 Motorway",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Glendenning",
+            "suburb": "Wollongong",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49936,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1377569,
+          -33.7577105
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - PYMBLE Ryde Rd at Kiparra Street, West Pymble",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580336466960,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580336466993,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kiparra Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Ryde Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Pymble",
             "trafficVolume": ""
           }
         ]
@@ -6314,6 +6388,78 @@
             "secondLocation": " ",
             "suburb": "Mosman",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49933,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8462122,
+          -33.7477866
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - GLENDENNING M7 Motorway at Power Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580335363153,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1580336499723,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Power Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Glendenning",
+            "trafficVolume": ""
           }
         ]
       }
