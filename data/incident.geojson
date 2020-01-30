@@ -1338,7 +1338,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1580371517530,
+        "lastUpdated": 1580373391083,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1453,17 +1453,17 @@
     },
     {
       "type": "Feature",
-      "id": 50001,
+      "id": 50002,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.06424045822757,
-          -33.74025036587941
+          145.844199712384,
+          -35.21877233317892
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car, trailer - PENNANT HILLS Pennant Hills Road at Beecroft Rd, Cheltenham",
+        "headline": "HAZARD Truck on fire - JERILDERIE Newell Highway near Six Mile Lane",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1475,16 +1475,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580372776900,
+        "created": 1580373294673,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck on fire",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1580372776933,
-        "otherAdvice": " ",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1580373294703,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.<br>Expected to be completed by 10pm.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1492,32 +1492,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Local Council"
         ],
-        "displayName": "BREAKDOWN Car, trailer",
+        "displayName": "HAZARD Truck on fire",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beecroft Rd",
+            "crossStreet": "Six Mile Lane",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Pennant Hills Road",
+            "locationQualifier": "near",
+            "mainStreet": "Newell Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Pennant Hills",
+            "suburb": "Jerilderie",
             "trafficVolume": ""
           }
         ]
@@ -1775,79 +1776,6 @@
             "secondLocation": " ",
             "suburb": "Canterbury",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 49910,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0456722740662,
-          -34.0195607253379
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - WORONORA River Road just past Woronora Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1580286158093,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1580286904157,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Tow Truck"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Woronora Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "River Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Woronora",
-            "trafficVolume": ""
           }
         ]
       }
@@ -7209,6 +7137,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "North Ryde",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06424045822757,
+          -33.74025036587941
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car, trailer - PENNANT HILLS Pennant Hills Road at Beecroft Rd, Cheltenham",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580372776900,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580373591263,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car, trailer",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beecroft Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Pennant Hills",
             "trafficVolume": ""
           }
         ]
