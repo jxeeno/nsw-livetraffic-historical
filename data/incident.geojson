@@ -2045,17 +2045,17 @@
     },
     {
       "type": "Feature",
-      "id": 50052,
+      "id": 50055,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.041912011,
-          -33.910710326
+          151.2069004,
+          -33.8388815
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - BANKSTOWN Stacey St at Greenacre Rd",
+        "headline": "BREAKDOWN Bus - NORTH SYDNEY Miller St approaching Pacific Hwy",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2067,15 +2067,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580435929797,
+        "created": 1580436815003,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Expect delays",
+        "subCategoryA": "Bus",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1580435929843,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580436815037,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2084,34 +2084,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Mechanic"
         ],
-        "displayName": "CRASH Truck, Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Greenacre Rd",
+            "crossStreet": "Pacific Hwy",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Stacey St",
+            "locationQualifier": "approaching",
+            "mainStreet": "Miller St",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Bankstown",
-            "trafficVolume": "Heavy"
+            "suburb": "North Sydney",
+            "trafficVolume": ""
           }
         ]
       }
@@ -7881,6 +7880,79 @@
             "secondLocation": " ",
             "suburb": "Casula",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50052,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.041912011,
+          -33.910710326
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - BANKSTOWN Stacey St at Greenacre Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580435929797,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1580436959267,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Greenacre Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Stacey St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bankstown",
+            "trafficVolume": "Heavy"
           }
         ]
       }
