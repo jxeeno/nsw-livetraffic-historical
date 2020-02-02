@@ -2442,7 +2442,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1580678226810,
         "isMajor": false,
         "name": null,
@@ -2451,7 +2451,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580678226857,
+        "lastUpdated": 1580680070897,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2460,8 +2460,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
         "displayName": "CRASH Truck, Car",
         "media": [],
@@ -2498,8 +2497,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.59623108042604,
-          -33.37892876936317
+          149.61352596415406,
+          -33.35808736606144
         ]
       },
       "properties": {
@@ -2515,7 +2514,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1580678676273,
         "isMajor": false,
         "name": null,
@@ -2524,7 +2523,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580678676320,
+        "lastUpdated": 1580680218310,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2533,6 +2532,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "CRASH Car",
@@ -2542,7 +2542,16 @@
             "conditionTendency": "",
             "crossStreet": "5km north of Kelso",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "approximately",
             "mainStreet": "Sofala Road",
             "quadrant": "",
@@ -2720,7 +2729,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - BARDIA Hume Motorway approaching Campbelltown Road, Denham Court",
+        "headline": "CRASH Multiple vehicles - BARDIA Hume Motorway approaching Campbelltown Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2733,14 +2742,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1580679407047,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Multiple vehicles",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580679407077,
+        "lastUpdated": 1580679966543,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2749,6 +2758,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -2758,14 +2768,14 @@
           {
             "conditionTendency": "",
             "crossStreet": "Campbelltown Road",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
@@ -2793,7 +2803,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Debris, mirror and frame - MILSON POINT Bradfield Highway on Sydney Harbour Bridge",
+        "headline": "HAZARD Debris, mirror and frame - MILSONS POINT Bradfield Highway on Sydney Harbour Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2813,7 +2823,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1580679661247,
+        "lastUpdated": 1580680301713,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2847,7 +2857,80 @@
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Milson Point",
+            "suburb": "Milsons Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50340,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1734685,
+          -33.9459451
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MASCOT General Holmes Drive at Foreshore Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580680276270,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580680276303,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Foreshore Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
