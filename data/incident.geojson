@@ -2233,7 +2233,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1580622795440,
+        "lastUpdated": 1580624472667,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2305,7 +2305,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1580622826917,
+        "lastUpdated": 1580624486383,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2450,7 +2450,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580622924980,
+        "lastUpdated": 1580624500683,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2568,8 +2568,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.11351068095087,
-          -33.78140556894781
+          151.1133175619018,
+          -33.781289642245305
         ]
       },
       "properties": {
@@ -2594,7 +2594,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1580623456400,
+        "lastUpdated": 1580624520380,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2640,13 +2640,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0993706993363,
-          -33.971384642957844
+          151.0992097667954,
+          -33.97113550969681
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - HURSTVILLE King Georges Road near Maher Street",
+        "headline": "CRASH Multiple vehicles - HURSTVILLE King Georges Road between Maher Street and Hillcrest Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2659,14 +2659,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1580623894947,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Multiple vehicles",
         "adviceB": "Use an alternative route",
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580624107020,
+        "lastUpdated": 1580624342490,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2678,6 +2678,12 @@
           "Emergency services",
           "Transport for NSW"
         ],
+        "encodedPolylines": [
+          {
+            "coords": "v{inEqnfy[|D}C",
+            "levels": "BB"
+          }
+        ],
         "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
@@ -2687,29 +2693,93 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
-              },
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "between",
             "mainStreet": "King Georges Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
+            "secondLocation": "Hillcrest Avenue",
             "suburb": "Hurstville",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2440123595245,
+          -33.81395680532244
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - MOSMAN Spit Road near Central Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580624261507,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1580624261537,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Central Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Spit Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Mosman",
             "trafficVolume": "Heavy"
           }
         ]
