@@ -2140,7 +2140,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -2155,7 +2155,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1580696995890,
+        "lastUpdated": 1580698558743,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2300,7 +2300,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1580696784563,
+        "lastUpdated": 1580698470753,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2321,7 +2321,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -2561,17 +2561,17 @@
     },
     {
       "type": "Feature",
-      "id": 50373,
+      "id": 50375,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0607214,
-          -33.7404288
+          151.0473730318771,
+          -33.76600751394331
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BEECROFT Pennant Hills Road just past Beecroft Rd",
+        "headline": "BREAKDOWN Car - CARLINGFORD Pennant Hills Road near North Rocks Road, North Rocks",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2583,7 +2583,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580697684003,
+        "created": 1580698373030,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
@@ -2591,7 +2591,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1580697684033,
+        "lastUpdated": 1580698373063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2600,32 +2600,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beecroft Rd",
+            "crossStreet": "North Rocks Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "near",
             "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Beecroft",
+            "suburb": "Carlingford",
             "trafficVolume": ""
           }
         ]
@@ -10142,6 +10142,150 @@
             "secondLocation": " ",
             "suburb": "Audley",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1713657269836,
+          -33.72209753957353
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK Water main repairs - ST IVES Mona Vale Road near Woodbury Road, Saint Ives",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580686158810,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1580698558743,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "EMERGENCY ROADWORK Water main repairs",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Woodbury Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Mona Vale Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "St Ives",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50373,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0607214,
+          -33.7404288
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BEECROFT Pennant Hills Road just past Beecroft Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580697684003,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580698529450,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beecroft Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Pennant Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Beecroft",
+            "trafficVolume": ""
           }
         ]
       }
