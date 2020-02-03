@@ -2570,8 +2570,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9425104021301,
-          -33.85233008264746
+          150.9427249788513,
+          -33.85213406151427
         ]
       },
       "properties": {
@@ -2596,7 +2596,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1580705807710,
+        "lastUpdated": 1580707409843,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2741,7 +2741,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1580706253757,
+        "lastUpdated": 1580707415303,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2885,7 +2885,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1580706916903,
+        "lastUpdated": 1580707632920,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2907,11 +2907,19 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
               }
             ],
             "locationQualifier": "approaching",
@@ -2958,15 +2966,17 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580706639443,
+        "lastUpdated": 1580707285860,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Person trapped"
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
+          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "CRASH 2 cars",
@@ -2978,19 +2988,11 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -3001,6 +3003,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Blacktown",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.17901467832644,
+          -35.7023001943624
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck - BATEMANS BAY Princes Highway on Batemans Bay Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580707638600,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Delay your journey",
+        "adviceA": "Stay away",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1580707639177,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Batemans Bay Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Bridge"
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Batemans Bay",
             "trafficVolume": "Heavy"
           }
         ]
