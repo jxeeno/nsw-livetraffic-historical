@@ -2160,7 +2160,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1580780923380,
+        "lastUpdated": 1580794731553,
         "otherAdvice": "Alternating (Stop/slow) traffic management is in place while repairs to the road take place.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -2378,7 +2378,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580792248427,
+        "lastUpdated": 1580794666207,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2451,8 +2451,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580793210953,
-        "otherAdvice": " ",
+        "lastUpdated": 1580794802807,
+        "otherAdvice": "Southbound traffic is heavy.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2639,37 +2639,109 @@
     },
     {
       "type": "Feature",
-      "id": 50387,
+      "id": 50492,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.03923809645084,
-          -33.84013159556102
+          151.195166519,
+          -33.8881079111
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - LIDCOMBE M4 Motorway approaching Silverwater Road",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - CHIPPENDALE Cleveland St at Shepherd St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580705116200,
+        "created": 1580794864947,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1580708254343,
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1580794864977,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Shepherd St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Cleveland St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Chippendale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50493,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2045565,
+          -33.8687023
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Medical Emergency - SYDNEY Kent Street at King Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580795033080,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Medical Emergency",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1580795033127,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2679,18 +2751,18 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Motorway Crew"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Medical Emergency",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Silverwater Road",
+            "crossStreet": "King Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -2698,14 +2770,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Kent Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Lidcombe",
-            "trafficVolume": ""
+            "suburb": "Sydney",
+            "trafficVolume": "Moderate"
           }
         ]
       }
