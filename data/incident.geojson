@@ -2304,7 +2304,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1580847870107,
+        "lastUpdated": 1580849524937,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2369,24 +2369,23 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1580846146003,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Multiple vehicles",
         "adviceB": "Exercise caution; Allow extra travel time",
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580849233887,
-        "otherAdvice": "<p>Both northbound lanes are OPEN but traffic's heavy.&nbsp;</p><p>*Disregard red dotted lines, which are from Google.</p><p>There are also delays for motorists on Picton Rd turning onto the Hume Mwy.</p>",
+        "lastUpdated": 1580849616220,
+        "otherAdvice": "<p><strong>Both northbound lanes are OPEN but traffic's heavy.&nbsp;</strong><br><strong>*Disregard red dotted lines, which are from Google.</strong></p><p>There are also delays for motorists on Picton Rd turning onto the Hume Mwy.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH Multiple vehicles",
         "media": [],
@@ -2394,7 +2393,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Picton Rd",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
@@ -2408,7 +2407,7 @@
             "locationQualifier": "just past",
             "mainStreet": "Hume Motorway",
             "quadrant": "",
-            "queueLength": 2,
+            "queueLength": 3,
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Wilton",
@@ -2485,6 +2484,78 @@
             "secondLocation": " ",
             "suburb": "West Pymble",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50540,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8839705936789,
+          -33.949967524692156
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CASULA M5 Mwy just past M7 Mwy",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580849363403,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580849363437,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M7 Mwy",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M5 Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Casula",
+            "trafficVolume": "Heavy"
           }
         ]
       }
