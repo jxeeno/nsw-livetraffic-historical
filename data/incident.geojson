@@ -2372,11 +2372,11 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Multiple vehicles",
-        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580849616220,
+        "lastUpdated": 1580850455640,
         "otherAdvice": "<p><strong>Both northbound lanes are OPEN but traffic's heavy.&nbsp;</strong><br><strong>*Disregard red dotted lines, which are from Google.</strong></p><p>There are also delays for motorists on Picton Rd turning onto the Hume Mwy.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -2407,7 +2407,7 @@
             "locationQualifier": "just past",
             "mainStreet": "Hume Motorway",
             "quadrant": "",
-            "queueLength": 3,
+            "queueLength": 0,
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Wilton",
@@ -2562,37 +2562,37 @@
     },
     {
       "type": "Feature",
-      "id": 50444,
+      "id": 50541,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.81562028354494,
-          -31.403423439799955
+          151.22638251719673,
+          -33.88506523288784
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - FERNBANK CREEK Pacific Hwy - 500m north of Hastings River Dr",
+        "headline": "CRASH Car, Bicycle - PADDINGTON Oxford Street approaching Oatley Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580759434893,
+        "created": 1580850470263,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580764307590,
+        "lastUpdated": 1580850470297,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2601,18 +2601,19 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "CRASH Car, Bicycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "500m north of Hastings River Dr",
+            "crossStreet": "Oatley Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -2620,13 +2621,85 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "-",
-            "mainStreet": "Pacific Hwy",
+            "locationQualifier": "approaching",
+            "mainStreet": "Oxford Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Fernbank Creek",
+            "suburb": "Paddington",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50542,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92021669296264,
+          -33.939275327195766
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Debris - MOOREBANK M5 Mwy at Moorebank Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580850718800,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1580850718833,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "HAZARD Debris",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorebank Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M5 Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ]
