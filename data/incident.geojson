@@ -2363,7 +2363,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -2378,7 +2378,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1580792213130,
+        "lastUpdated": 1580794149107,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2523,7 +2523,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1580793439760,
+        "lastUpdated": 1580794134213,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2558,7 +2558,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Wollongbar",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -2710,38 +2710,38 @@
     },
     {
       "type": "Feature",
-      "id": 50389,
+      "id": 50491,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0269412,
-          -33.8378483
+          153.544468005,
+          -28.2116639083
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - AUBURN Parramatta Road just past Rawson Street",
+        "headline": "TRAFFIC SIGNALS Faulty lights - BANORA POINT Sexton Hill Dr at Darlington Dr",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1580705552013,
+        "created": 1580793976327,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "subCategoryA": "Faulty lights",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1580707726300,
-        "otherAdvice": " ",
+        "mainCategory": "Traffic signals",
+        "lastUpdated": 1580793976373,
+        "otherAdvice": "One set of lights is stuck on green; the other, red. Police are on site to direct motorists. ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2752,31 +2752,31 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "TRAFFIC SIGNALS Faulty lights",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Rawson Street",
+            "crossStreet": "Darlington Dr",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Parramatta Road",
+            "locationQualifier": "at",
+            "mainStreet": "Sexton Hill Dr",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Auburn",
-            "trafficVolume": "Heavy"
+            "suburb": "Banora Point",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8405,6 +8405,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Seven Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2024062571777,
+          -33.93585514115601
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MASCOT Southern Cross Drive approaching Wentworth Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580792213100,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580794149107,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wentworth Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Southern Cross Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
