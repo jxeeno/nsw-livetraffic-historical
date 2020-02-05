@@ -2664,7 +2664,7 @@
         "webLinks": [],
         "headline": "BREAKDOWN Truck - RIVERWOOD M5 Mwy near Belmore Rd",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -2678,11 +2678,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1580936413590,
+        "lastUpdated": 1580936858507,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2863,78 +2863,6 @@
             "secondLocation": " ",
             "suburb": "Marulan",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 50539,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1378428539673,
-          -33.76098095621517
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - WEST PYMBLE Ryde Road approaching Kendall Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "Bus routes&nbsp;560, 571, 572, 573, 575, 576, 577, and 579 are being delayed up to 15 minutes.",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1580849236573,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1580850846993,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Kendall Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Ryde Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "West Pymble",
-            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -8723,6 +8651,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Wilton",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50636,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2384024,
+          -33.8244096
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - MOSMAN Military Road at Cowles Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1580937004823,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1580937211100,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowles Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Military Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Mosman",
             "trafficVolume": ""
           }
         ]
