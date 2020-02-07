@@ -2764,8 +2764,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1929811990202,
-          -33.576021927297695
+          151.18708033918745,
+          -33.58368210413337
         ]
       },
       "properties": {
@@ -2790,7 +2790,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1581109933487,
+        "lastUpdated": 1581111250110,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2832,17 +2832,17 @@
     },
     {
       "type": "Feature",
-      "id": 50959,
+      "id": 50960,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.63988183022457,
-          -33.76698549539064
+          151.37379647957425,
+          -33.338761669433595
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - GLENBROOK Great Western Highway on Lapstone Hill",
+        "headline": "BREAKDOWN Car - OURIMBAH M1 Pacific Mwy approaching Ourimbah interchange",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2854,15 +2854,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1581110358613,
+        "created": 1581111148383,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1581110358660,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1581111339187,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2871,34 +2871,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lapstone Hill",
+            "crossStreet": "Ourimbah interchange",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "on",
-            "mainStreet": "Great Western Highway",
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Glenbrook",
-            "trafficVolume": "Moderate"
+            "suburb": "Ourimbah",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12122,6 +12121,79 @@
             "region": "REG_SOUTH",
             "secondLocation": "Mullers Lane",
             "suburb": "Jaspers Brush (south of Berry)",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50959,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.63988183022457,
+          -33.76698549539064
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - GLENBROOK Great Western Highway on Lapstone Hill",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1581110358613,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1581111254373,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lapstone Hill",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Glenbrook",
             "trafficVolume": "Moderate"
           }
         ]
