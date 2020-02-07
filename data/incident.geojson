@@ -2647,7 +2647,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1581105945693,
+        "lastUpdated": 1581106168870,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2656,8 +2656,8 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Helicopter"
+          "Tow Truck",
+          "Emergency services"
         ],
         "displayName": "CRASH Car",
         "media": [],
@@ -2690,17 +2690,17 @@
     },
     {
       "type": "Feature",
-      "id": 50950,
+      "id": 50951,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1457531619019,
-          -33.83928415945522
+          151.21038731145325,
+          -33.93722203887745
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - HUNTLEYS POINT Victoria Road approaching Gladesville Bridge",
+        "headline": "HAZARD Fallen tree - MASCOT Wentworth Avenue approaching Southern Cross Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2712,15 +2712,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1581105540157,
+        "created": 1581106328633,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
+        "subCategoryA": "Fallen tree",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1581105540187,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1581106328680,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2729,33 +2729,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "HAZARD Fallen tree",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gladesville Bridge",
+            "crossStreet": "Southern Cross Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
-            "mainStreet": "Victoria Road",
+            "mainStreet": "Wentworth Avenue",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Huntleys Point",
-            "trafficVolume": "Moderate"
+            "suburb": "Mascot",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12120,6 +12121,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Pyrmont",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50950,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1457531619019,
+          -33.83928415945522
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - HUNTLEYS POINT Victoria Road approaching Gladesville Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1581105540157,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1581106241887,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gladesville Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Huntleys Point",
             "trafficVolume": "Moderate"
           }
         ]
