@@ -3364,8 +3364,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.89140833718716,
-          -33.89323131066349
+          150.89151562554775,
+          -33.89324912220682
         ]
       },
       "properties": {
@@ -3390,16 +3390,15 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1581736422947,
-        "otherAdvice": "Contra flow traffic conditions are in place. ",
+        "lastUpdated": 1581737512207,
+        "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Motorists should consider using Meadows Rd or Humphries Rd to travel between Cabramatta Rd and Elizabeth Dr.",
+        "diversions": "Westbound motorists should consider using Meadows Rd or Humphries Rd to access Elizabeth Dr.",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "CRASH Multiple vehicles",
@@ -3411,7 +3410,15 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -3460,10 +3467,10 @@
         "name": null,
         "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1581735158400,
+        "lastUpdated": 1581737321950,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3498,7 +3505,7 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Hammondville",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -3609,7 +3616,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1581736160010,
+        "lastUpdated": 1581737352727,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3753,7 +3760,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1581736380890,
+        "lastUpdated": 1581737375653,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3788,7 +3795,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Sydney",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52019,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1124959267579,
+          -33.93611807683219
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Motorcycle - BEXLEY NORTH M5 East Motorway approaching the tunnel exit",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1581737258090,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1581737258123,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "the tunnel exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 East Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bexley North",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -9744,6 +9823,78 @@
             "secondLocation": " ",
             "suburb": "Nowra Hill",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52018,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17379020317992,
+          -33.870670275633486
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ROZELLE The Crescent approaching City West Link",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1581737087193,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1581737401657,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "City West Link",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "The Crescent",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Rozelle",
+            "trafficVolume": ""
           }
         ]
       }
