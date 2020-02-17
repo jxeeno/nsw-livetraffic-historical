@@ -4136,26 +4136,34 @@
     },
     {
       "type": "Feature",
-      "id": 35840,
+      "id": 35838,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.85398359388114,
-          -33.795066194407724
+          150.85316744285274,
+          -33.80043450563407
         ]
       },
       "properties": {
         "webLinks": [
           {
-            "linkText": "M4 Smart Motorway project",
+            "linkText": "M4 Smart Motorway Project",
             "linkURL": "https://www.rms.nsw.gov.au/projects/m4/index.html"
           }
         ],
-        "headline": "SCHEDULED ROADWORK M4 Smart Motorway project - EASTERN CREEK M4 Motorway eastbound on-ramp from Wallgrove Road",
+        "headline": "SCHEDULED ROADWORK M4 Smart Motorway Project - EASTERN CREEK M7 Motorway northbound and southbound off-ramps to M4 Motorway",
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "direction": "Eastbound",
+            "direction": "Both directions",
+            "finishTime": "4:00am",
+            "fromDay": "Sunday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Both directions",
             "finishTime": "4:00am",
             "fromDay": "Monday",
             "startTime": "9:00pm",
@@ -4163,7 +4171,7 @@
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "direction": "Eastbound",
+            "direction": "Both directions",
             "finishTime": "4:00am",
             "fromDay": "Tuesday",
             "startTime": "9:00pm",
@@ -4171,7 +4179,7 @@
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "direction": "Eastbound",
+            "direction": "Both directions",
             "finishTime": "4:00am",
             "fromDay": "Wednesday",
             "startTime": "9:00pm",
@@ -4179,7 +4187,7 @@
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "direction": "Eastbound",
+            "direction": "Both directions",
             "finishTime": "4:00am",
             "fromDay": "Thursday",
             "startTime": "9:00pm",
@@ -4192,23 +4200,23 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1567101611230,
+        "created": 1567100898123,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Allow extra travel time",
         "adviceA": "Use diversions",
-        "end": 1582218000000,
+        "end": 1585242000000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1580696237160,
-        "otherAdvice": "<p>Only the on-ramp is closing, the motorway\nwill remain open.</p>",
+        "lastUpdated": 1581911210537,
+        "otherAdvice": "Only the four M7 Mwy off-ramps to M4 Mwy are closing. <br>The M7 Mwy and M4 Mwy remain open unless specified otherwise.",
         "arrangementElements": [],
-        "diversions": "<p>Use Great Western Hwy and Reservoir Rd eastbound on-ramp to join M4 Mwy.</p>",
+        "diversions": "<p>Northbound: Wallgrove Rd.<br>Southbound: Great Western Hwy.</p>",
         "additionalInfo": [
           " "
         ],
@@ -4217,17 +4225,17 @@
           " "
         ],
         "duration": null,
-        "start": 1581858000000,
-        "displayName": "SCHEDULED ROADWORK M4 Smart Motorway project",
+        "start": 1582376400000,
+        "displayName": "SCHEDULED ROADWORK M4 Smart Motorway Project",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wallgrove Road",
+            "crossStreet": "M4 Motorway",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "from",
-            "mainStreet": "M4 Motorway eastbound on-ramp",
+            "locationQualifier": "to",
+            "mainStreet": "M7 Motorway northbound and southbound off-ramps",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
@@ -19965,6 +19973,110 @@
             "region": "SYD_MET",
             "secondLocation": "Erskine Street",
             "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35840,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85398359388114,
+          -33.795066194407724
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "M4 Smart Motorway project",
+            "linkURL": "https://www.rms.nsw.gov.au/projects/m4/index.html"
+          }
+        ],
+        "headline": "SCHEDULED ROADWORK M4 Smart Motorway project - EASTERN CREEK M4 Motorway eastbound on-ramp from Wallgrove Road",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "4:00am",
+            "fromDay": "Monday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "4:00am",
+            "fromDay": "Tuesday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "4:00am",
+            "fromDay": "Wednesday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "4:00am",
+            "fromDay": "Thursday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1567101611230,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use diversions",
+        "end": 1582218000000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1581911309983,
+        "otherAdvice": "<p>Only the on-ramp is closing, the motorway\nwill remain open.</p>",
+        "arrangementElements": [],
+        "diversions": "<p>Use Great Western Hwy and Reservoir Rd eastbound on-ramp to join M4 Mwy.</p>",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1581858000000,
+        "displayName": "SCHEDULED ROADWORK M4 Smart Motorway project",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wallgrove Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway eastbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ]
