@@ -3518,7 +3518,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -3533,7 +3533,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1582048693817,
+        "lastUpdated": 1582055497923,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4733,37 +4733,37 @@
     },
     {
       "type": "Feature",
-      "id": 52203,
+      "id": 52363,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.7497387806702,
-          -30.396822902623082
+          151.1602819,
+          -33.8878161
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Rock fall - DORRIGO MOUNTAIN Waterfall Way approximately 8km south of Dorrigo",
+        "headline": "CRASH Car - PETERSHAM Parramatta Road at Charles Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1581961898607,
+        "created": 1582055218767,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Rock fall",
-        "adviceB": "Allow extra travel time; Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1581968961257,
+        "mainCategory": "Crash",
+        "lastUpdated": 1582055218797,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4772,19 +4772,91 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "HAZARD Rock fall",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "8km south of Dorrigo",
+            "crossStreet": "Charles Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Petersham",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52364,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.900753435,
+          -33.6676017664
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - BOX HILL Windsor Rd at Nelson Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582055418553,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1582055418583,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Nelson Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4792,13 +4864,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approximately",
-            "mainStreet": "Waterfall Way",
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Rd",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Dorrigo Mountain",
+            "suburb": "Box Hill",
             "trafficVolume": ""
           }
         ]
@@ -4871,78 +4943,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Glen Innes",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 51876,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.9242759,
-          -30.4650072
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Landslide - BELLINGEN Waterfall Way on Dorrigo Mountain",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1581617138650,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Landslide",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1581968885733,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Local Council"
-        ],
-        "displayName": "HAZARD Landslide",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Dorrigo Mountain",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "on",
-            "mainStreet": "Waterfall Way",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Bellingen",
             "trafficVolume": ""
           }
         ]
@@ -13210,6 +13210,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Rutherford",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52344,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8790787979384,
+          -31.382122450960583
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Fallen tree - GAROO (SOUTH OF TAMWORTH) New England Highway at Garoo Rd (35km south of Tamworth)",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582048693783,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1582055497923,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Garoo Rd (35km south of Tamworth)",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Garoo (south of Tamworth)",
             "trafficVolume": ""
           }
         ]
