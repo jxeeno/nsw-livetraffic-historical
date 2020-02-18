@@ -2915,7 +2915,7 @@
         "webLinks": [],
         "headline": "CRASH Truck - DEAN PARK M7 Mwy near Richmond Rd",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -2929,11 +2929,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceB": "Expect delays; Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1581991375977,
+        "lastUpdated": 1581992411923,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3193,17 +3193,17 @@
     },
     {
       "type": "Feature",
-      "id": 52244,
+      "id": 52245,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9207538,
-          -33.915144
+          150.95940842,
+          -33.8741657846
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - LIVERPOOL Cumberland Highway at Hume Highway",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - FAIRFIELD Lawson St at Vine St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -3215,15 +3215,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1581991688453,
+        "created": 1581992147857,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1581991860100,
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1581992147903,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3232,32 +3232,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Utility Company"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hume Highway",
+            "crossStreet": "Vine St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Cumberland Highway",
+            "mainStreet": "Lawson St",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Liverpool",
+            "suburb": "Fairfield",
             "trafficVolume": ""
           }
         ]
@@ -9180,6 +9180,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Seven Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52244,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9207538,
+          -33.915144
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LIVERPOOL Cumberland Highway at Hume Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1581991688453,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1581992250617,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hume Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Liverpool",
             "trafficVolume": ""
           }
         ]
