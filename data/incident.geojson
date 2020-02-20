@@ -2170,7 +2170,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1582236671520,
+        "lastUpdated": 1582238459457,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2205,24 +2205,24 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Braemar",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 52592,
+      "id": 52596,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.02236830737917,
-          -33.21941854133944
+          151.0413442,
+          -33.866404
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Faulty rail crossing lights - BEN BULLEN Castlereagh Highway",
+        "headline": "BREAKDOWN Bus - LIDCOMBE Olympic Drive at Kerrs Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2234,15 +2234,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582235199713,
+        "created": 1582238497313,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Police are directing traffic",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Bus",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1582237388070,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582238497360,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2251,32 +2251,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW",
+          "Mechanic"
         ],
-        "displayName": "HAZARD Faulty rail crossing lights",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Kerrs Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Castlereagh Highway",
+            "mainStreet": "Olympic Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Ben Bullen",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -7719,6 +7720,78 @@
             "secondLocation": " ",
             "suburb": "Bankstown",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52592,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.02236830737917,
+          -33.21941854133944
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Faulty rail crossing lights - BEN BULLEN Castlereagh Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582235199713,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Police are directing traffic",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1582238611217,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Faulty rail crossing lights",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Castlereagh Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Ben Bullen",
+            "trafficVolume": ""
           }
         ]
       }
