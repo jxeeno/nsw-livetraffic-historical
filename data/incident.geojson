@@ -1011,7 +1011,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1582119211743,
+        "lastUpdated": 1582164258337,
         "otherAdvice": "<p>No pedestrian access permitted on the bridge.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1232,7 +1232,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1582119090903,
+        "lastUpdated": 1582164228113,
         "otherAdvice": "<p>A number of roads within the shire are closed following bush fire damage or flooding.</p><p>For more information <a href=\"https://www.upperlachlan.nsw.gov.au/\" target=\"_blank\">visit&nbsp;the council&nbsp;website</a> or call Council on 02 4830 1000 during normal business hours.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1295,8 +1295,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1582119466647,
-        "otherAdvice": "<p><strong>Windsor Bridge has reopened.</strong> However, there is a 40km/h speed limit, a 15 tonne load limit, and no pedestrian access.</p>",
+        "lastUpdated": 1582164334617,
+        "otherAdvice": "<p><strong>Windsor Bridge is open.</strong> However, there is a 40km/h speed limit, a 15 tonne load limit, and no pedestrian access.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2324,8 +2324,8 @@
         "adviceA": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582162969420,
-        "otherAdvice": " ",
+        "lastUpdated": 1582163948693,
+        "otherAdvice": "Charles Hackett Dr is also being affected.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2345,11 +2345,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "3",
+                "description": "Lane 1, Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 3, Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": "Highway"
               }
             ],
@@ -2433,6 +2441,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "South Wentworthville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52526,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16132596998747,
+          -33.951574767662
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KYEEMAGH General Holmes Drive at Bestic Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582164208527,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582164208557,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bestic Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kyeemagh",
             "trafficVolume": ""
           }
         ]
@@ -2907,78 +2987,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Blacktown",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 52412,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.89911532728274,
-          -33.850904176878785
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - WETHERILL PARK Elizabeth St near The Horsley Dr",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1582075991557,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1582077574763,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The Horsley Dr",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Elizabeth St",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Wetherill Park",
             "trafficVolume": ""
           }
         ]
