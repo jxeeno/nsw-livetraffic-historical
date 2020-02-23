@@ -2023,8 +2023,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.278495,
-          -28.8140297
+          153.27907972156527,
+          -28.814227109993848
         ]
       },
       "properties": {
@@ -2040,16 +2040,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1582493881993,
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582493882040,
+        "lastUpdated": 1582495724477,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2068,7 +2068,16 @@
             "conditionTendency": "",
             "crossStreet": "Forbes Lane",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "Ballina Road",
             "quadrant": "",
@@ -2076,7 +2085,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Lismore",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -2113,7 +2122,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582493899690,
+        "lastUpdated": 1582495755850,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2159,13 +2168,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.08846322275392,
-          -33.83517778092739
+          151.08803943372956,
+          -33.83629620828105
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Semi trailer - CONCORD WEST Homebush Bay Drive approaching Concord Road",
+        "headline": "BREAKDOWN Semi trailer - CONCORD WEST Concord Road, Concord West just past Homebush Bay Drive, Rhodes",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2181,11 +2190,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Semi trailer",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582494017113,
+        "lastUpdated": 1582495616167,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2201,26 +2210,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Concord Road",
+            "crossStreet": "Homebush Bay Drive",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Homebush Bay Drive",
+            "locationQualifier": "just past",
+            "mainStreet": "Concord Road, Concord West",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Concord West",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52819,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21252562698368,
+          -33.84959119471829
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Motorcycle - MILSONS POINT Cahill Expressway on Sydney Harbour Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582495599037,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582495599067,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "Cahill Expressway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Milsons Point",
+            "trafficVolume": ""
           }
         ]
       }
