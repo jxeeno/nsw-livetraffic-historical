@@ -1873,7 +1873,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1582657031797,
+        "lastUpdated": 1582658255303,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1896,8 +1896,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -1935,7 +1935,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - COWAN M1 Pacific Motorway just past Hawkesbury River Bridge",
+        "headline": "CRASH 3 vehicles - COWAN M1 Pacific Motorway just past Hawkesbury River Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1950,12 +1950,12 @@
         "created": 1582656588667,
         "isMajor": true,
         "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": "3 vehicles",
         "adviceB": "Exercise caution",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582656905197,
+        "lastUpdated": 1582658460523,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1964,15 +1964,17 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
+          "Tow Truck",
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Hawkesbury River Bridge",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
@@ -2063,6 +2065,78 @@
             "secondLocation": " ",
             "suburb": "Cecil Hills",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52990,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6468309687866,
+          -30.502893614341705
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - ARMIDALE New England Highway near Martin Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582658222617,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1582658222680,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Martin Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Armidale",
+            "trafficVolume": ""
           }
         ]
       }
