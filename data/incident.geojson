@@ -1853,7 +1853,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -1868,7 +1868,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582590420480,
+        "lastUpdated": 1582592051070,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1937,20 +1937,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582590593630,
+        "lastUpdated": 1582592030170,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          " "
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
@@ -1962,10 +1962,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -1976,7 +1976,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Kingsgrove",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -2006,15 +2006,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1582590824533,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582590824580,
-        "otherAdvice": " ",
+        "lastUpdated": 1582591918417,
+        "otherAdvice": "Light vehicles can use Abbotts Rd, Aldington Rd and Bakers Lane, as an alternative route.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2024,6 +2024,12 @@
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "lzrmEgxiw[mYlXqCjCeA|@oBvAu@b@cClAOF",
+            "levels": "BBBBBBBB"
+          }
         ],
         "displayName": "CRASH Truck, Car",
         "media": [],
@@ -2037,9 +2043,9 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "-",
@@ -2196,8 +2202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1734685,
-          -33.9459451
+          151.1840042170105,
+          -33.94533987987064
         ]
       },
       "properties": {
@@ -2218,11 +2224,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582591413247,
+        "lastUpdated": 1582591909740,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2258,7 +2264,80 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Mascot",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52939,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18628144075313,
+          -33.58411355850457
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway near Jerusalem Bay Trail",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582591780897,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582591780930,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jerusalem Bay Trail",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8490,6 +8569,79 @@
             "secondLocation": " ",
             "suburb": "Haberfield",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52933,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00464299325412,
+          -33.82468062726037
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - PARRAMATTA Church Street approaching Raymond Street, Harris Park",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582590420450,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582592051070,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Raymond Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Church Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Parramatta",
+            "trafficVolume": ""
           }
         ]
       }
