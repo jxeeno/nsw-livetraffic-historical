@@ -1930,7 +1930,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -1945,7 +1945,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1582661205250,
+        "lastUpdated": 1582663106450,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2013,21 +2013,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582661449417,
+        "lastUpdated": 1582662895750,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -2132,37 +2131,37 @@
     },
     {
       "type": "Feature",
-      "id": 52909,
+      "id": 52996,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.10759493439335,
-          -33.980498073227814
+          151.23383419351808,
+          -33.42550114498393
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - SOUTH HURSTVILLE King Georges Rd at Blakesley Rd, Blakehurst",
+        "headline": "HAZARD Timber - CALGA M1 Pacific Motorway approaching Mooney Mooney Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582575484463,
+        "created": 1582662756987,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Timber",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1582576308177,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1582662757033,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2171,33 +2170,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "HAZARD Timber",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Blakesley Rd",
+            "crossStreet": "Mooney Mooney Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "King Georges Rd",
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "South Hurstville",
+            "suburb": "Calga",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52997,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.92699715799716,
+          -36.07575990742331
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 4 cars - EAST ALBURY Borella Road off-ramp from Hume Hwy",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582662984190,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1582662985020,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 4 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hume Hwy",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "from",
+            "mainStreet": "Borella Road off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "East Albury",
             "trafficVolume": ""
           }
         ]
@@ -7659,6 +7729,78 @@
             "secondLocation": " ",
             "suburb": "Cowan",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.907191493,
+          -34.3620291334
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - BELLAMBI Memorial Dr at Bellambi Lane",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582660458070,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1582663106450,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bellambi Lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Memorial Dr",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bellambi",
+            "trafficVolume": ""
           }
         ]
       }
