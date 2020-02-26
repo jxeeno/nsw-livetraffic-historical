@@ -1779,7 +1779,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - CAMMERAY Warringah Fwy below Miller Street",
+        "headline": "BREAKDOWN Truck - CAMMERAY Warringah Fwy below Miller Street, Cammeray",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -1792,14 +1792,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1582752268470,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582754597437,
+        "lastUpdated": 1582755483917,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1817,7 +1817,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Miller Street",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
@@ -1915,37 +1915,37 @@
     },
     {
       "type": "Feature",
-      "id": 53007,
+      "id": 53112,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.15652527669067,
-          -33.808751527615186
+          151.0523502,
+          -33.779633
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - LANE COVE NORTH Lane Cove Tunnel",
+        "headline": "BREAKDOWN Car - CARLINGFORD Pennant Hills Road at Marsden Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582668554797,
+        "created": 1582755562183,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582669249253,
+        "lastUpdated": 1582755562213,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1954,32 +1954,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          " "
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Marsden Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Lane Cove Tunnel",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Lane Cove North",
+            "suburb": "Carlingford",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03243199150998,
+          -33.96712235487256
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD ladder - PADSTOW Alfords Point Road near Henry Lawson Dr",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582755639780,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1582755639827,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD ladder",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Henry Lawson Dr",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Alfords Point Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Padstow",
             "trafficVolume": ""
           }
         ]
