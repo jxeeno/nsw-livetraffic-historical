@@ -1686,8 +1686,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582781070973,
-        "otherAdvice": "<ul><li>Lane 4 eastbound is now open for straight through traffic on Broadway; lane 1 can access Wattle St via the slip lane.</li><li>There is no access from Cleveland St to Abercrombie St.</li></ul>",
+        "lastUpdated": 1582782267610,
+        "otherAdvice": "<ul><li>Lane 4 eastbound is now open for straight through traffic on Broadway; lane 1 can access Wattle St via the slip lane.</li><li>There is no access from Cleveland St to Abercrombie St.</li></ul><p><strong>Short, intermittent closures are occurring for photogrammetry.</strong></p>",
         "arrangementElements": [],
         "diversions": "<p>Northbound traffic on Abercrombie St is being diverted left onto Broadway to travel west.</p>",
         "additionalInfo": [
@@ -1842,7 +1842,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582780668340,
+        "lastUpdated": 1582782037457,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2031,37 +2031,110 @@
     },
     {
       "type": "Feature",
-      "id": 53050,
+      "id": 53167,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6987922,
-          -32.8760419
+          146.92282993232422,
+          -36.09390453850877
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Fallen tree - SHORTLAND Newcastle Inner City Bypass (Main Road) near Sandgate Road",
+        "headline": "HAZARD Large metal object - SOUTH ALBURY Hume Highway just past East Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582693158427,
+        "created": 1582782154673,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Fallen tree",
+        "subCategoryA": "Debris",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1582695600283,
+        "lastUpdated": 1582782154707,
+        "otherAdvice": "Vehicles are swerving to avoid the object.&nbsp;",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Large metal object",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "East Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "South Albury",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.95703219676176,
+          -33.84039495962014
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MERRYLANDS WEST Cumberland Highway just past Woodpark Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582782227457,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582782227490,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2070,32 +2143,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Fallen tree",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sandgate Road",
+            "crossStreet": "Woodpark Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Newcastle Inner City Bypass (Main Road)",
+            "locationQualifier": "just past",
+            "mainStreet": "Cumberland Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Shortland",
+            "suburb": "Merrylands West",
             "trafficVolume": ""
           }
         ]
