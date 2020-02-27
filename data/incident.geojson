@@ -1534,7 +1534,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1582804223007,
+        "lastUpdated": 1582816515580,
         "otherAdvice": "The work is expected to continue until Friday morning.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -1576,17 +1576,17 @@
     },
     {
       "type": "Feature",
-      "id": 53198,
+      "id": 53199,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0997042,
-          -33.9389403
+          151.0179358063599,
+          -33.79387675542128
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - KINGSGROVE M5 East Mwy - main tunnel",
+        "headline": "CRASH Truck, Car - NORTH PARRAMATTA Pennant Hills Road near Masons Dr",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1598,15 +1598,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582816037363,
+        "created": 1582816368550,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Overheight vehicle",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Use an alternative route",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1582816037410,
+        "mainCategory": "Crash",
+        "lastUpdated": 1582816532410,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1615,32 +1615,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "main tunnel",
+            "crossStreet": "Masons Dr",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "-",
-            "mainStreet": "M5 East Mwy",
+            "locationQualifier": "near",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Kingsgrove",
+            "suburb": "North Parramatta",
             "trafficVolume": ""
           }
         ]
@@ -7661,6 +7662,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "lane cove west",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0997042,
+          -33.9389403
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - KINGSGROVE M5 East Mwy - main tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582816037363,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Overheight vehicle",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1582816277827,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "main tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "M5 East Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kingsgrove",
             "trafficVolume": ""
           }
         ]
