@@ -1686,8 +1686,8 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1582778326010,
-        "otherAdvice": "*There is no access from Cleveland St to Abercrombie St.",
+        "lastUpdated": 1582778622840,
+        "otherAdvice": "<ul><li>There is no access from Cleveland St to Abercrombie St.</li><li>There is no westbound access from Broadway into Mountain St</li></ul>",
         "arrangementElements": [],
         "diversions": "<p>Eastbound traffic on Broadway is being diverted into Bay St or City Rd.<br>Northbound traffic on Abercrombie St is being diverted left onto Broadway to travel west.</p>",
         "additionalInfo": [
@@ -1802,38 +1802,38 @@
     },
     {
       "type": "Feature",
-      "id": 53046,
+      "id": 53150,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1080673926077,
-          -33.777799457139636
+          151.03525438282068,
+          -33.94008534589979
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Bus, Car - MACQUARIE PARK Balaclava Road just past Epping Rd",
+        "headline": "BREAKDOWN Car - PADSTOW M5 Motorway off ramp at Fairford Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582691604503,
+        "created": 1582778693433,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus, Car",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1582692422153,
-        "otherAdvice": "<p>Westbound motorists on Balaclava Rd must turn left or right at Epping Rd.</p><p>Northbound on Epping Rd is also affected.</p>",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582778693480,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1841,35 +1841,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW",
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Bus, Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Epping Rd",
+            "crossStreet": "Fairford Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Balaclava Road",
+            "locationQualifier": "at",
+            "mainStreet": "M5 Motorway off ramp",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Macquarie Park",
-            "trafficVolume": "Moderate"
+            "suburb": "Padstow",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8242,6 +8241,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Constitution Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.1718667,
+          -33.1407737
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - PARKES Grenfell St at Bogan Street (Newell Hwy)",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582778466170,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1582778715840,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bogan Street (Newell Hwy)",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Grenfell St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Parkes",
             "trafficVolume": ""
           }
         ]
