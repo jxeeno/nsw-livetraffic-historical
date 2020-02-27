@@ -1798,7 +1798,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1582769253693,
+        "lastUpdated": 1582770795540,
         "otherAdvice": "The work is expected to continue until Friday morning.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -1816,7 +1816,16 @@
             "conditionTendency": "",
             "crossStreet": "Young Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Oxford Street",
             "quadrant": "",
@@ -1861,7 +1870,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1582770377713,
+        "lastUpdated": 1582770827650,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1882,8 +1891,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "City bound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -1903,17 +1912,17 @@
     },
     {
       "type": "Feature",
-      "id": 53133,
+      "id": 53135,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1515518494563,
-          -33.93699782030731
+          151.1069262,
+          -34.0222534
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East Mwy in tunnel",
+        "headline": "CRASH Truck, Car - MIRANDA Port Hacking Road at Box Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1925,49 +1934,50 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582768571260,
+        "created": 1582770874583,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1582769205690,
+        "mainCategory": "Crash",
+        "lastUpdated": 1582770874630,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "tunnel",
+            "crossStreet": "Box Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "in",
-            "mainStreet": "M5 East Mwy",
+            "locationQualifier": "at",
+            "mainStreet": "Port Hacking Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Arncliffe",
+            "suburb": "Miranda",
             "trafficVolume": "Heavy"
           }
         ]
@@ -8488,6 +8498,78 @@
             "secondLocation": " ",
             "suburb": "Dapto",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1515518494563,
+          -33.93699782030731
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East Mwy in tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582768571260,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582770555457,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "in",
+            "mainStreet": "M5 East Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
+            "trafficVolume": "Heavy"
           }
         ]
       }
