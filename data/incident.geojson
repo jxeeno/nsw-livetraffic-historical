@@ -1459,7 +1459,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1582929512103,
+        "lastUpdated": 1582932183533,
         "otherAdvice": "<p>Motorists are not able to turn right from Cowper Wharf Rd onto&nbsp;Eastern Distributor city bound</p><p>No access to Cowper Wharf Rd from Sir John Young Cres.</p>",
         "arrangementElements": [],
         "diversions": "Citybound motorists are diverted via&nbsp;Bourke St.",
@@ -1468,6 +1468,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -1653,17 +1654,17 @@
     },
     {
       "type": "Feature",
-      "id": 53331,
+      "id": 53335,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.900519593,
-          -34.4223977533
+          151.03938467301634,
+          -33.921071725839866
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - WOLLONGONG Corrimal St at Smith St",
+        "headline": "BREAKDOWN Car - BANKSTOWN Stacey Street at Stanley Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1675,15 +1676,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1582928462933,
+        "created": 1582932279020,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1582928462967,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1582932279050,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1692,32 +1693,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Smith St",
+            "crossStreet": "Stanley Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Corrimal St",
+            "mainStreet": "Stacey Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Wollongong",
+            "suburb": "Bankstown",
             "trafficVolume": ""
           }
         ]
@@ -7592,6 +7593,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Beverly Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.900519593,
+          -34.4223977533
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - WOLLONGONG Corrimal St at Smith St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1582928462933,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1582931962600,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Smith St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Corrimal St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Wollongong",
             "trafficVolume": ""
           }
         ]
