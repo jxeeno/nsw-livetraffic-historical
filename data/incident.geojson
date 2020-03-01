@@ -1594,7 +1594,7 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": " ",
+        "publicTransport": "Buses are delayed.",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
@@ -1607,7 +1607,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583104476080,
+        "lastUpdated": 1583105082270,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1866,17 +1866,17 @@
     },
     {
       "type": "Feature",
-      "id": 53488,
+      "id": 53490,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2053615,
-          -33.8634475
+          150.84263956892832,
+          -33.79471518499334
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Bus, Car - SYDNEY York Street at Grosvenor Street",
+        "headline": "BREAKDOWN Car - EASTERN CREEK M4 Motorway just past M7 Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1888,16 +1888,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583104970073,
+        "created": 1583105427897,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus, Car",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583104970120,
-        "otherAdvice": "Traffic is queued back onto the Sydney Harbour Bridge.&nbsp;",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583105427927,
+        "otherAdvice": "The car is in the centre median, also affecting lane 3.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1907,31 +1907,31 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "CRASH Bus, Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Grosvenor Street",
+            "crossStreet": "M7 Motorway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
                 "extent": "Affected",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "York Street",
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": "Heavy"
+            "suburb": "Eastern Creek",
+            "trafficVolume": ""
           }
         ]
       }
@@ -7579,6 +7579,78 @@
             "secondLocation": " ",
             "suburb": "West Pennant Hills",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53488,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2053615,
+          -33.8634475
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Bus, Car - SYDNEY York Street at Grosvenor Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583104970073,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583105242230,
+        "otherAdvice": "Traffic is queued back onto the Sydney Harbour Bridge.&nbsp;",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Bus, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Grosvenor Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "York Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": "Heavy"
           }
         ]
       }
