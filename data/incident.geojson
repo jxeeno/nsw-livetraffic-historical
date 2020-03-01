@@ -1850,7 +1850,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583056982093,
+        "lastUpdated": 1583058114867,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1868,7 +1868,16 @@
             "conditionTendency": "",
             "crossStreet": "Wardell Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "New Canterbury Road",
             "quadrant": "",
@@ -1956,17 +1965,17 @@
     },
     {
       "type": "Feature",
-      "id": 53448,
+      "id": 53449,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0755625,
-          -33.9396434
+          150.9452464,
+          -33.8551624
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - ROSELANDS King Georges Road at Moorefields Road",
+        "headline": "CRASH 2 cars - SMITHFIELD The Horsley Drive at Vineyard Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1978,7 +1987,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583056189040,
+        "created": 1583058512067,
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
@@ -1986,7 +1995,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583058017470,
+        "lastUpdated": 1583058512117,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1995,32 +2004,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moorefields Road",
+            "crossStreet": "Vineyard Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
+            "mainStreet": "The Horsley Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Roselands",
+            "suburb": "Smithfield",
             "trafficVolume": ""
           }
         ]
@@ -5916,6 +5926,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Wahroonga",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53448,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0755625,
+          -33.9396434
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - ROSELANDS King Georges Road at Moorefields Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583056189040,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583058190073,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorefields Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Roselands",
             "trafficVolume": ""
           }
         ]
