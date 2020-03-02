@@ -1504,17 +1504,17 @@
     },
     {
       "type": "Feature",
-      "id": 53476,
+      "id": 53492,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.22168514603274,
-          -33.94537789680966
+          151.00856778108982,
+          -34.02350312935554
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH truck, ambulance - EASTGARDENS Wentworth Avenue at Banks Avenue, Daceyville",
+        "headline": "BREAKDOWN Car - MENAI Bangor Bypass approaching New Illawarra Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1526,16 +1526,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583099457433,
+        "created": 1583107063290,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Car",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583104795167,
-        "otherAdvice": "<p><strong>NOTE: Road closure lines provided by Google Maps is out of date; only lane 1 is now closed.</strong></p><p>The heavy tow is now on site.</p>",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583107063320,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1543,33 +1543,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "CRASH truck, ambulance",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Banks Avenue",
+            "crossStreet": "New Illawarra Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Wentworth Avenue",
+            "locationQualifier": "approaching",
+            "mainStreet": "Bangor Bypass",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Eastgardens",
+            "suburb": "Menai",
             "trafficVolume": ""
           }
         ]
@@ -1577,19 +1576,19 @@
     },
     {
       "type": "Feature",
-      "id": 53489,
+      "id": 53493,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.0785618,
-          -30.3365583
+          151.0896526,
+          -33.9599001
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "EMERGENCY ROADWORK - BOAMBEE Pacific Highway at Sawtell Rd, Toormina",
+        "headline": "HAZARD Pothole - PENSHURST King Georges Road at Percival Street",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -1599,16 +1598,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583104973303,
+        "created": 1583107673233,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Reduced speed limit",
+        "subCategoryA": "Pothole",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1583106608547,
-        "otherAdvice": "Guard rail replacement is expected to take until 3pm.",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1583107673283,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1616,32 +1615,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "EMERGENCY ROADWORK",
+        "displayName": "HAZARD Pothole",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sawtell Rd",
+            "crossStreet": "Percival Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
+            "mainStreet": "King Georges Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Boambee",
+            "suburb": "Penshurst",
             "trafficVolume": ""
           }
         ]
@@ -7217,6 +7217,79 @@
             "secondLocation": " ",
             "suburb": "Drummoyne",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53476,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22168514603274,
+          -33.94537789680966
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH truck, ambulance - EASTGARDENS Wentworth Avenue at Banks Avenue, Daceyville",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583099457433,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583107393103,
+        "otherAdvice": "<p><strong>NOTE: Road closure lines provided by Google Maps is out of date; only lane 1 is now closed.</strong></p><p>The heavy tow is now on site.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Heavy vehicle tow truck",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH truck, ambulance",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Banks Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Wentworth Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Eastgardens",
+            "trafficVolume": ""
           }
         ]
       }
