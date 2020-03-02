@@ -1530,11 +1530,11 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583188182927,
+        "lastUpdated": 1583188643190,
         "otherAdvice": "The crash has brought down a tree.<br>Contra flow traffic conditions are in place. <br>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1569,7 +1569,7 @@
             "region": "REG_NORTH",
             "secondLocation": "The Entrance North",
             "suburb": "Magenta",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -1792,17 +1792,17 @@
     },
     {
       "type": "Feature",
-      "id": 53582,
+      "id": 53583,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0358776296692,
-          -33.940578752967525
+          150.7687459,
+          -33.76962779999999
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - PADSTOW M5 Motorway at Fairford Rd",
+        "headline": "BREAKDOWN Car - ST MARYS Great Western Highway at Pages Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1813,16 +1813,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1583187762890,
+        "isInitialReport": true,
+        "created": 1583188384110,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1583188032990,
+        "lastUpdated": 1583188384127,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1831,33 +1831,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Fairford Rd",
+            "crossStreet": "Pages Rd",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "at",
-            "mainStreet": "M5 Motorway",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Padstow",
-            "trafficVolume": "Moderate"
+            "suburb": "St Marys",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8595,6 +8587,78 @@
             "secondLocation": " ",
             "suburb": "Revesby",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53582,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0358776296692,
+          -33.940578752967525
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - PADSTOW M5 Motorway at Fairford Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583187762890,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583188677517,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Fairford Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Padstow",
+            "trafficVolume": "Moderate"
           }
         ]
       }
