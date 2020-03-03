@@ -1534,7 +1534,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583196748220,
+        "lastUpdated": 1583201218010,
         "otherAdvice": "The crash has brought down a tree.<br>Stop/slow traffic conditions are in place.<br>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1678,7 +1678,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1583198177663,
+        "lastUpdated": 1583201210320,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1720,17 +1720,17 @@
     },
     {
       "type": "Feature",
-      "id": 53598,
+      "id": 53602,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.15000914865723,
-          -33.84958372340179
+          151.1356613,
+          -33.8846627
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Gas leak - DRUMMOYNE Bayswater Road between Tavistock Street AND Westbourne Street ",
+        "headline": "BREAKDOWN Truck - ASHFIELD Parramatta Road at Dalhousie Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1742,15 +1742,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583199105380,
+        "created": 1583200898883,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Gas leak",
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1583200408783,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583200898930,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1759,33 +1759,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Gas leak",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Tavistock Street",
+            "crossStreet": "Dalhousie Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "between",
-            "mainStreet": "Bayswater Road",
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": "Westbourne Street",
-            "suburb": "Drummoyne",
+            "secondLocation": " ",
+            "suburb": "Ashfield",
             "trafficVolume": ""
           }
         ]
@@ -8081,6 +8080,79 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Leeton",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53598,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15000914865723,
+          -33.84958372340179
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Gas leak - DRUMMOYNE Bayswater Road between Tavistock Street AND Westbourne Street ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583199105380,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Gas leak",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1583200556790,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Gas leak",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Tavistock Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Bayswater Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": "Westbourne Street",
+            "suburb": "Drummoyne",
             "trafficVolume": ""
           }
         ]
