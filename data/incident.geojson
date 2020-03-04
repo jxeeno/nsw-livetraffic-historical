@@ -1441,7 +1441,7 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": "Some buses in the area are delayed up to 60 minutes.&nbsp; ",
+        "publicTransport": "Some buses in the area are delayed.&nbsp; ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
@@ -1454,7 +1454,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583294693140,
+        "lastUpdated": 1583295080917,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1485,7 +1485,7 @@
             "locationQualifier": "at",
             "mainStreet": "Pennant Hills Road",
             "quadrant": "",
-            "queueLength": 6,
+            "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Pennant Hills",
@@ -1496,17 +1496,17 @@
     },
     {
       "type": "Feature",
-      "id": 53724,
+      "id": 53725,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.17870417199708,
-          -33.94614090559107
+          153.101694,
+          -30.3055311
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH truck, cars - MASCOT General Holmes Drive approaching airport tunnel",
+        "headline": "BREAKDOWN Truck - COFFS HARBOUR Pacific Highway near Thompsons Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1518,35 +1518,36 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583292414460,
+        "created": 1583295056677,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Truck",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583293635460,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583295056723,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH truck, cars",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "airport tunnel",
+            "crossStreet": "Thompsons Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -1554,14 +1555,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "General Holmes Drive",
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Mascot",
-            "trafficVolume": "Heavy"
+            "suburb": "Coffs Harbour",
+            "trafficVolume": ""
           }
         ]
       }
@@ -1641,78 +1642,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Warnervale to Alison",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53609,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.02171321163942,
-          -33.82001370280894
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - ROSEHILL James Ruse Drive approaching Hassall Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1583207377263,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1583208669447,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hassall Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "James Ruse Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Rosehill",
             "trafficVolume": ""
           }
         ]
@@ -8849,6 +8778,78 @@
             "secondLocation": " ",
             "suburb": "Seaforth",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53724,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17870417199708,
+          -33.94614090559107
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH truck, cars - MASCOT General Holmes Drive approaching airport tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583292414460,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583294962980,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH truck, cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "airport tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
+            "trafficVolume": "Heavy"
           }
         ]
       }
