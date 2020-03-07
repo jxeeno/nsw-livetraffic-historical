@@ -1587,7 +1587,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1583559511717,
+        "lastUpdated": 1583559917053,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1605,7 +1605,16 @@
             "conditionTendency": "",
             "crossStreet": "Briens Rd",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Windsor Rd",
             "quadrant": "",
@@ -1723,7 +1732,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583559361310,
+        "lastUpdated": 1583559984083,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1744,10 +1753,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -2054,78 +2063,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Darlinghurst",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53997,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.92788450364387,
-          -33.74141273570677
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Medical Emergency - KINGS LANGLEY M7 Motorway approaching Sunnyholt Road, Blacktown",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1583470656517,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Medical Emergency",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1583473169387,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Medical Emergency",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Sunnyholt Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M7 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Kings Langley",
             "trafficVolume": "Heavy"
           }
         ]
