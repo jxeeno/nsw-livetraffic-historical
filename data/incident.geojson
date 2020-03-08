@@ -1442,8 +1442,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583692383003,
-        "otherAdvice": "Salvage and investigation is expected to continue until at least 8am.",
+        "lastUpdated": 1583694239987,
+        "otherAdvice": "<p>Salvage and investigation is expected to continue until at least 8am.</p><p>NOTE: Road closure lines provided by Google Maps may not be accurate.</p>",
         "arrangementElements": [],
         "diversions": "<p>Bannockburn Rd and Jardine Rd, in both directions. This route is suitable for all vehicles, including B-doubles.</p>",
         "additionalInfo": [
@@ -1522,7 +1522,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1583692638480,
+        "lastUpdated": 1583694258517,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1569,8 +1569,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.04102103707885,
-          -33.96360818821993
+          151.04087083337402,
+          -33.9637505627732
         ]
       },
       "properties": {
@@ -1592,10 +1592,10 @@
         "name": null,
         "subCategoryA": "3 vehicles",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583693503997,
+        "lastUpdated": 1583694367223,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1617,10 +1617,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -1631,24 +1631,24 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Padstow Heights",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 54177,
+      "id": 54178,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.15149804047547,
-          -33.93879819278356
+          151.0742467907074,
+          -33.94337094384089
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH - ARNCLIFFE West Botany Street approaching Marsh Street",
+        "headline": "BREAKDOWN Semi trailer - BEVERLY HILLS M5 Motorway eastbound off-ramp to King Georges Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1660,15 +1660,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583693635257,
+        "created": 1583694175753,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Semi trailer",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583693635287,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583694175783,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1677,33 +1677,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Tow Truck"
+          "Motorway Crew"
         ],
-        "displayName": "CRASH",
+        "displayName": "BREAKDOWN Semi trailer",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Marsh Street",
+            "crossStreet": "King Georges Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "West Botany Street",
+            "locationQualifier": "to",
+            "mainStreet": "M5 Motorway eastbound off-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Arncliffe",
+            "suburb": "Beverly Hills",
             "trafficVolume": "Moderate"
           }
         ]
@@ -5233,6 +5232,79 @@
             "secondLocation": " ",
             "suburb": "St Peters",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15149804047547,
+          -33.93879819278356
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - ARNCLIFFE West Botany Street approaching Marsh Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583693635257,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583694297967,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marsh Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "West Botany Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
+            "trafficVolume": "Moderate"
           }
         ]
       }
