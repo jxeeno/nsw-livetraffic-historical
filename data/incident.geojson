@@ -1442,10 +1442,10 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583719941547,
+        "lastUpdated": 1583722061430,
         "otherAdvice": "<p>NOTE: Road closure lines provided by Google Maps may not be accurate.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Bannockburn Rd and Jardine Rd, in both directions. This route is suitable for all vehicles, including B-doubles.</p>",
+        "diversions": "<p>Bannockburn Rd and Jardine Rd, in both directions. <br>This route is suitable for all vehicles, including B-doubles.</p>",
         "additionalInfo": [
           "Fatality"
         ],
@@ -1496,13 +1496,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16871123326987,
-          -33.94674653081769
+          151.17284719957084,
+          -33.94615021663025
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "EMERGENCY ROADWORK Pothole repair - KYEEMAGH M5 East Mwy off-ramp to General Holmes Drive",
+        "headline": "HAZARD Pothole - MASCOT General Holmes Drive just past the airport tunnel",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1517,12 +1517,12 @@
         "created": 1583717627203,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Pothole",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1583718810237,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1583722226737,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1533,30 +1533,30 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "EMERGENCY ROADWORK Pothole repair",
+        "displayName": "HAZARD Pothole",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "General Holmes Drive",
+            "crossStreet": "the airport tunnel",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
-                "extent": "Lanes closed",
+                "extent": "Affected",
                 "numberOfLanes": "4",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "M5 East Mwy off-ramp",
+            "locationQualifier": "just past",
+            "mainStreet": "General Holmes Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Kyeemagh",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -1666,7 +1666,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1583720489903,
+        "lastUpdated": 1583722121363,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1930,8 +1930,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84239362009885,
-          -34.69892271053996
+          150.8433914018524,
+          -34.69841110467715
         ]
       },
       "properties": {
@@ -1956,7 +1956,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583721417670,
+        "lastUpdated": 1583722109790,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1992,6 +1992,79 @@
             "secondLocation": " ",
             "suburb": "Kiama Heights",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.047796677771,
+          -33.74418887295481
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - WEST PENNANT HILLS Castle Hill Road near Church Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583722416517,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583722416547,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Church Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Castle Hill Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "West Pennant Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
