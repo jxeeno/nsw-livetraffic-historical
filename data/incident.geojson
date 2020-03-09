@@ -1530,7 +1530,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583790485070,
+        "lastUpdated": 1583792525597,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1552,10 +1552,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -1718,57 +1718,58 @@
     },
     {
       "type": "Feature",
-      "id": 54195,
+      "id": 54299,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.31642606997528,
-          -33.4268107790524
+          150.75796678488058,
+          -33.60010509531154
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - SOMERSBY Central Coast Highway near Manns Rd, West Gosford",
+        "headline": "CRASH Truck, 2 cars - RICHMOND Windsor Road at Moray Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583704590103,
+        "created": 1583792245300,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583705804027,
+        "lastUpdated": 1583792245333,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Person trapped"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "CRASH Truck, 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Manns Rd",
+            "crossStreet": "Moray Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -1776,86 +1777,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Central Coast Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Somersby",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54194,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2610332,
-          -33.6837727
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - INGLESIDE Mona Vale Rd near Powderworks Road, Elanora Heights",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1583704003877,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1583706033907,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Powderworks Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Mona Vale Rd",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Ingleside",
-            "trafficVolume": ""
+            "suburb": "Richmond",
+            "trafficVolume": "Heavy"
           }
         ]
       }
