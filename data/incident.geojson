@@ -1442,7 +1442,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583739737780,
+        "lastUpdated": 1583740158800,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1638,17 +1638,17 @@
     },
     {
       "type": "Feature",
-      "id": 54256,
+      "id": 54257,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.859406926809,
-          -34.78951082105011
+          150.91733939812323,
+          -33.80581174114365
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BOWNING Hume Highway at Lachlan Valley Way",
+        "headline": "CRASH 2 cars - PROSPECT M4 Motorway at Prospect Hwy",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1660,51 +1660,59 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583737891257,
+        "created": 1583740252630,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1583738217420,
+        "mainCategory": "Crash",
+        "lastUpdated": 1583740461913,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Person trapped"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lachlan Valley Way",
-            "delay": "",
+            "crossStreet": "Prospect Hwy",
+            "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Highway"
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Bowning",
-            "trafficVolume": ""
+            "suburb": "Prospect",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -1777,69 +1785,6 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Bankstown",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54142,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.7360837,
-          -32.8270893
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - TOMAGO Tomago Road between Old Punt Road AND Masonite Road ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1583631927250,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583654066533,
-        "otherAdvice": "The road is now OPEN. Diversions are lifted.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Old Punt Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Tomago Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": "Masonite Road",
-            "suburb": "Tomago",
             "trafficVolume": ""
           }
         ]
@@ -7488,6 +7433,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Moore Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.859406926809,
+          -34.78951082105011
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BOWNING Hume Highway at Lachlan Valley Way",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583737891257,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583740283147,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lachlan Valley Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bowning",
             "trafficVolume": ""
           }
         ]
