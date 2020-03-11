@@ -1499,13 +1499,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.65175012117922,
-          -32.96886918958227
+          151.65275863176882,
+          -32.96676289944334
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BURST WATER MAIN - WARNERS BAY King St near Hillsborough Rd",
+        "headline": "BURST WATER MAIN - WARNERS BAY King St at Hillsborough Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1525,8 +1525,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1583891270877,
-        "otherAdvice": " ",
+        "lastUpdated": 1583893343747,
+        "otherAdvice": "Westbound on Hillsborough Rd is also affected.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1553,14 +1553,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "at",
             "mainStreet": "King St",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Warners Bay",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -1597,7 +1597,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1583891264657,
+        "lastUpdated": 1583893202933,
         "otherAdvice": "<p>The road will be closed until further notice and access will only be provided for local residents, at the discretion of traffic crews on site.</p>",
         "arrangementElements": [],
         "diversions": "Oaks Ave.",
@@ -1789,17 +1789,17 @@
     },
     {
       "type": "Feature",
-      "id": 54432,
+      "id": 54433,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2191382,
-          -33.7592238
+          151.7479017,
+          -32.8943284
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - FORESTVILLE Warringah Road near Brown St",
+        "headline": "CRASH Car - MAYFIELD Industrial Drive at Ingall Street East",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1811,15 +1811,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583891604750,
+        "created": 1583893011017,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1583891604780,
+        "mainCategory": "Crash",
+        "lastUpdated": 1583893011050,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1828,32 +1828,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Brown St",
+            "crossStreet": "Ingall Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Warringah Road",
+            "locationQualifier": "at",
+            "mainStreet": "Industrial Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Forestville",
+            "suburb": "Mayfield",
             "trafficVolume": ""
           }
         ]
@@ -8232,6 +8233,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Roseville Chase",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2191382,
+          -33.7592238
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - FORESTVILLE Warringah Road near Brown St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583891604750,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583893136350,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Brown St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Warringah Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Forestville",
             "trafficVolume": ""
           }
         ]
