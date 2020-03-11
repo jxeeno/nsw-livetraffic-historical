@@ -1819,7 +1819,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1583889660653,
+        "lastUpdated": 1583891698137,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1934,17 +1934,17 @@
     },
     {
       "type": "Feature",
-      "id": 54429,
+      "id": 54431,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.5525562,
-          -28.2221166
+          151.11060492509364,
+          -33.93607821205176
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Box - BANORA POINT M1 Pacific Mwy near Sexton Hill Drive",
+        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - BEXLEY NORTH M5 East Mwy near main tunnel entrance",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1956,15 +1956,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583891073223,
-        "isMajor": false,
+        "created": 1583891570200,
+        "isMajor": true,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Exercise caution; Use an alternative route",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1583891073270,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1583891648490,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1973,33 +1973,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Motorway Crew"
         ],
-        "displayName": "HAZARD Box",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sexton Hill Drive",
+            "crossStreet": "main tunnel entrance",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M5 East Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bexley North",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2191382,
+          -33.7592238
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - FORESTVILLE Warringah Road near Brown St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583891604750,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583891604780,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Brown St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "M1 Pacific Mwy",
+            "mainStreet": "Warringah Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Banora Point",
+            "suburb": "Forestville",
             "trafficVolume": ""
           }
         ]
@@ -8233,6 +8304,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "West Pymble",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54429,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5525562,
+          -28.2221166
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Box - BANORA POINT M1 Pacific Mwy near Sexton Hill Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583891073223,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1583891394823,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Box",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sexton Hill Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Banora Point",
             "trafficVolume": ""
           }
         ]
