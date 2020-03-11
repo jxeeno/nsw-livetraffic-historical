@@ -1899,7 +1899,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1583900018157,
+        "lastUpdated": 1583901956757,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2014,37 +2014,37 @@
     },
     {
       "type": "Feature",
-      "id": 54340,
+      "id": 54445,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.5227273,
-          -33.1995096
+          150.8678064558197,
+          -34.39685370902068
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - DOYALSON Pacific Highway at Scenic Drive",
+        "headline": "BREAKDOWN Car - MOUNT PLEASANT M1 Princes Motorway (Mount Ousley Road) just past New Mount Pleasant Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1583815064723,
+        "isInitialReport": false,
+        "created": 1583901842160,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583815402623,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583902020327,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2053,23 +2053,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Scenic Drive",
+            "crossStreet": "New Mount Pleasant Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Princes Motorway (Mount Ousley Road)",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Doyalson",
+            "suburb": "Mount Pleasant",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54446,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0043084441803,
+          -33.822046137731945
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - PARRAMATTA Church Street just past Lansdowne Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583902007587,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583902007620,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lansdowne Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Church Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Parramatta",
             "trafficVolume": ""
           }
         ]
