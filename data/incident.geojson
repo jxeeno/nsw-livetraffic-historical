@@ -1603,8 +1603,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1583962442543,
-        "otherAdvice": "<p>The truck is off the road but the speed reduction will remain in place until salvage operation is completed. The salvage will commences later this morning.</p>",
+        "lastUpdated": 1583971474603,
+        "otherAdvice": "<p>The truck is off the road but the speed reduction will remain in place until salvage operation and clean-up is completed.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1747,7 +1747,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1583969687687,
+        "lastUpdated": 1583971315543,
         "otherAdvice": "There will be a lift of the southbound Hexham Bridge around 11:10am today.",
         "arrangementElements": [],
         "diversions": " ",
@@ -1789,17 +1789,17 @@
     },
     {
       "type": "Feature",
-      "id": 54512,
+      "id": 54513,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21813466197125,
-          -33.87463030393577
+          151.236631777771,
+          -33.87886866925321
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Bus, Car - DARLINGHURST William Street at Bourke Street, Surry Hills",
+        "headline": "BREAKDOWN Truck - EDGECLIFF New South Head Road approaching Ocean Ave",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1811,15 +1811,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1583970350277,
+        "created": 1583971085433,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus, Car",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Truck",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1583970350307,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1583971085480,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1831,31 +1831,104 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Bus, Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bourke Street",
+            "crossStreet": "Ocean Ave",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "William Street",
+            "locationQualifier": "approaching",
+            "mainStreet": "New South Head Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Darlinghurst",
-            "trafficVolume": "Moderate"
+            "suburb": "Edgecliff",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54515,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9764167,
+          -31.99400069999999
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier crash - NYMAGEE Kidman Way at Wallace Vale Rd",
+        "periods": [],
+        "speedLimit": 80,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583971402980,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1583971403027,
+        "otherAdvice": "The truck is off the road but the speed reduction will remain in place until salvage operation is completed.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier crash",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wallace Vale Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Kidman Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Nymagee",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8003,6 +8076,79 @@
             "secondLocation": " ",
             "suburb": "Rouse Hill",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54512,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21813466197125,
+          -33.87463030393577
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Bus, Car - DARLINGHURST William Street at Bourke Street, Surry Hills",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1583970350277,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1583971450513,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Bus, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bourke Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "William Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Darlinghurst",
+            "trafficVolume": "Moderate"
           }
         ]
       }
