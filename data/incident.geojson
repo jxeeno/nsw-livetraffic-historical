@@ -1673,7 +1673,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1584304508407,
+        "lastUpdated": 1584305021037,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Bowden Street&nbsp;",
@@ -1694,12 +1694,20 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -1746,7 +1754,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1584303240110,
+        "lastUpdated": 1584305198567,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1870,7 +1878,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Bus on fire - CAMMERAY Miller Street at Abbott Street",
+        "headline": "BREAKDOWN Bus - CAMMERAY Miller Street at Abbott Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1885,12 +1893,12 @@
         "created": 1584304466073,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus on fire",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1584304466107,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584305170580,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1902,7 +1910,7 @@
           "Transport for NSW",
           "Emergency services"
         ],
-        "displayName": "HAZARD Bus on fire",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
@@ -1926,6 +1934,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Cammeray",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54862,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5005479124878,
+          -33.00740931309882
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD excavator bucket - FREEMANS WATERHOLE M1 Pacific Motorway just past Freemans Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584304979110,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1584304979160,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD excavator bucket",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Freemans Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Freemans Waterhole",
             "trafficVolume": ""
           }
         ]
