@@ -1664,7 +1664,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1584559746100,
+        "lastUpdated": 1584561973607,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1683,7 +1683,16 @@
             "conditionTendency": "",
             "crossStreet": "Princes Hwy",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "M1 Princes Mwy",
             "quadrant": "",
@@ -1728,17 +1737,16 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1584561291593,
+        "lastUpdated": 1584562369827,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Motorway Crew"
+          " "
         ],
         "displayName": "CRASH 4 cars",
         "media": [],
@@ -1750,10 +1758,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -1843,37 +1851,37 @@
     },
     {
       "type": "Feature",
-      "id": 54990,
+      "id": 55063,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84676249604908,
-          -33.76051653667508
+          151.10402588623046,
+          -34.00833880035046
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - ROOTY HILL Woodstock Av at M7 Motorway northbound off-ramp",
+        "headline": "BREAKDOWN Truck - SYLVANIA Princes Highway approaching Port Hacking Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1584467951173,
+        "created": 1584562322717,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1584475833000,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584562322763,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1882,32 +1890,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M7 Motorway northbound off-ramp",
+            "crossStreet": "Port Hacking Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Woodstock Av",
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Rooty Hill",
+            "suburb": "Sylvania",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55064,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19414102488403,
+          -33.550476686346435
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway just past Hawkesbury River Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584562346380,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584562346410,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hawkesbury River Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
             "trafficVolume": ""
           }
         ]
