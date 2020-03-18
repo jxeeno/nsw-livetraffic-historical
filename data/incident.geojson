@@ -1664,7 +1664,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1584500424850,
+        "lastUpdated": 1584501020473,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1706,17 +1706,17 @@
     },
     {
       "type": "Feature",
-      "id": 55022,
+      "id": 55023,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2534163,
-          -33.8909775
+          151.0957244,
+          -33.8127647
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BONDI JUNCTION Syd Einfeld Drive at Oxford Street",
+        "headline": "BREAKDOWN Truck - WEST RYDE Victoria Road at Griffiths Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1728,7 +1728,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1584500845937,
+        "created": 1584500869647,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
@@ -1736,7 +1736,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1584500845967,
+        "lastUpdated": 1584500869680,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1747,21 +1747,103 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Oxford Street",
+            "crossStreet": "Griffiths Avenue",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
-            "mainStreet": "Syd Einfeld Drive",
+            "mainStreet": "Victoria Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Bondi Junction",
+            "suburb": "West Ryde",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55024,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1916018,
+          -33.7836653
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ROSEVILLE Boundary Street at Penshurst Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584500931580,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584500931613,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Penshurst Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Boundary Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Roseville",
             "trafficVolume": ""
           }
         ]
@@ -5816,6 +5898,69 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Greenacre",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55022,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2534163,
+          -33.8909775
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BONDI JUNCTION Syd Einfeld Drive at Oxford Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584500845937,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584500959063,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Oxford Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Syd Einfeld Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bondi Junction",
             "trafficVolume": ""
           }
         ]
