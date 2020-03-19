@@ -1588,11 +1588,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1584642452180,
+        "lastUpdated": 1584643835050,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1610,7 +1610,16 @@
             "conditionTendency": "",
             "crossStreet": "Jamison Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Mulgoa Road",
             "quadrant": "",
@@ -1691,6 +1700,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Eastern Creek",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.854185072,
+          -33.7933261079
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - MINCHINBURY Wallgrove Rd at Access Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584643659473,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1584643659520,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Access Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Wallgrove Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Minchinbury",
             "trafficVolume": ""
           }
         ]
