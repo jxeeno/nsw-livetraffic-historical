@@ -1663,7 +1663,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1584677903100,
+        "lastUpdated": 1584679274120,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1672,7 +1672,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Tow Truck"
         ],
         "displayName": "BREAKDOWN Car towing trailer",
         "media": [],
@@ -1777,17 +1777,17 @@
     },
     {
       "type": "Feature",
-      "id": 55196,
+      "id": 55197,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.17381182275392,
-          -33.94619430703775
+          151.1560633,
+          -33.8751123
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - MASCOT General Holmes Drive - Airport tunnel",
+        "headline": "CRASH 2 cars - LEICHHARDT City West Link near Norton St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1799,15 +1799,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1584678508513,
+        "created": 1584679363890,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1584678508577,
+        "mainCategory": "Crash",
+        "lastUpdated": 1584679363920,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1816,32 +1816,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Tow Truck",
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Airport tunnel",
+            "crossStreet": "Norton St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "City bound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "-",
-            "mainStreet": "General Holmes Drive",
+            "locationQualifier": "near",
+            "mainStreet": "City West Link",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Mascot",
+            "suburb": "Leichhardt",
             "trafficVolume": "Heavy"
           }
         ]
@@ -7451,6 +7453,78 @@
             "secondLocation": " ",
             "suburb": "Beverly Hills",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17381182275392,
+          -33.94619430703775
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MASCOT General Holmes Drive - Airport tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584678508513,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584679007010,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Airport tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
+            "trafficVolume": "Heavy"
           }
         ]
       }
