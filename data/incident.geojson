@@ -1759,13 +1759,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.07620623016354,
-          -33.94108533735664
+          151.07680704498287,
+          -33.942420442763
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ROSELANDS King Georges Road between Moorefields Road AND M5 Motorway ",
+        "headline": "BREAKDOWN Car - ROSELANDS King Georges Road approaching M5 Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1785,7 +1785,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1584946439000,
+        "lastUpdated": 1584946919360,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1801,24 +1801,24 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moorefields Road",
+            "crossStreet": "M5 Motorway",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 5",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "7",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "between",
+            "locationQualifier": "approaching",
             "mainStreet": "King Georges Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": "M5 Motorway",
+            "secondLocation": " ",
             "suburb": "Roselands",
             "trafficVolume": ""
           }
@@ -1831,13 +1831,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0834904,
-          -33.8644622
+          151.08354136197124,
+          -33.86445329122396
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - HOMEBUSH Parramatta Road near Underwood Road",
+        "headline": "CRASH 3 vehicles - HOMEBUSH Parramatta Road just past Underwood Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1848,17 +1848,17 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1584946452887,
         "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1584946452920,
-        "otherAdvice": " ",
+        "lastUpdated": 1584946785360,
+        "otherAdvice": "Traffic exiting Underwood Rd is also affected.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1866,6 +1866,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "CRASH 3 vehicles",
@@ -1875,14 +1876,96 @@
             "conditionTendency": "",
             "crossStreet": "Underwood Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
             "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Homebush",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55376,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.66670598703936,
+          -33.76972967846432
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - JAMISONTOWN M4 Motorway approaching Mulgoa Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584946762877,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1584946762907,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mulgoa Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Jamisontown",
             "trafficVolume": ""
           }
         ]
@@ -1949,78 +2032,6 @@
             "region": "SYD_MET",
             "secondLocation": "Devonshire Street",
             "suburb": "Surry Hills",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 55322,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.11825358596806,
-          -33.70104119835357
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - ASQUITH M1 Pacific Motorway at Pacific Highway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1584860417233,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1584860534237,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Pacific Highway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Asquith",
             "trafficVolume": ""
           }
         ]
