@@ -1169,9 +1169,23 @@
         ]
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "WestConnex",
+            "linkURL": "https://www.westconnex.com.au/traffic-changes"
+          }
+        ],
         "headline": "CHANGED TRAFFIC CONDITIONS - ST PETERS Sydney Park Road at Euston Rd and Huntley St",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "All directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -1188,11 +1202,11 @@
         "subCategoryA": "(p)",
         "adviceB": "Exercise caution",
         "adviceA": "Check signage",
-        "end": 1585832400000,
+        "end": 1586525400000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1584568320957,
-        "otherAdvice": "<p><strong>Permanent traffic changes at the intersection of Sydney Park Rd, Euston Rd and Huntley St from 9pm Friday 27th March.</strong><br></p><p>- Euston Rd will be opened to three&nbsp;lanes in both the northbound and&nbsp;southbound directions between&nbsp;Campbell Rd and Sydney Park&nbsp;Rd.<br>- The Euston Rd and Sydney Park&nbsp;Rd intersection will be opened to&nbsp;its permanent arrangement at the&nbsp;intersection. This will include the&nbsp;new&nbsp;‘No Right Turn’&nbsp;restriction for&nbsp;Euston Rd southbound&nbsp;traffic.<br>- The intersection of Euston Rd,&nbsp;Sydney Park Rd and Huntley&nbsp;St will be opened to its&nbsp;permanent&nbsp;arrangement.<br>- Euston Rd will be provided as two&nbsp;right turn lanes and one left turn&nbsp;lane in a temporary arrangement at&nbsp;the Campbell Rd&nbsp;intersection.<br>- Euston Rd southbound straight&nbsp;through lanes to the new&nbsp;M5&nbsp;Tunnel&nbsp;will be closed at the Campbell Rd&nbsp;intersection.&nbsp;</p><p><strong>In addition:</strong><br>From 9pm Friday 27th March to 7:30am Saturday 21st March:<br>- A full road closure will be in place on <strong>Euston Rd between Maddox St and Campbell Rd</strong>. Local business access will be provided on Euston Rd under the direction of traffic control.&nbsp;<br>- Stop/slow traffic management will also be in place along <strong>Sydney Park Rd between Mitchell Rd and Euston Rd, Alexandria.</strong>&nbsp;&nbsp;</p>",
+        "lastUpdated": 1584936392170,
+        "otherAdvice": "<p><strong>Permanent traffic changes at the intersection of Sydney Park Rd, Euston Rd and Huntley St from 9pm Friday 27 March.<br></strong>- Euston Rd will be increased to three&nbsp;lanes in both northbound and&nbsp;southbound directions between&nbsp;Campbell Rd and Sydney Park&nbsp;Rd.<br>- The Euston Rd and Sydney Park&nbsp;Rd intersection will be opened to&nbsp;its permanent arrangement at the&nbsp;intersection. This will include the&nbsp;new&nbsp;‘No Right Turn’&nbsp;restriction for&nbsp;Euston Rd southbound&nbsp;traffic.<br>- The intersection of Euston Rd,&nbsp;Sydney Park Rd and Huntley&nbsp;St will be opened to its&nbsp;permanent&nbsp;arrangement.<br>- Euston Rd will be provided as two&nbsp;right turn lanes and one left turn&nbsp;lane in a temporary arrangement at&nbsp;the Campbell Rd&nbsp;intersection.<br>- Euston Rd southbound straight&nbsp;through lanes to the new&nbsp;M5&nbsp;Tunnel&nbsp;will be closed at the Campbell Rd&nbsp;intersection.&nbsp;</p><p><strong>In addition - from 9pm Friday 27 to 7:30am Saturday 28 March:</strong><br>- A full road closure will be in place on Euston Rd between Maddox St and Campbell Rd. Local business access will be provided on Euston Rd under the direction of traffic control.&nbsp;<br>- Stop/slow traffic management will also be in place along Sydney Park Rd between Mitchell Rd and Euston Rd, Alexandria.&nbsp;&nbsp;</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1203,7 +1217,7 @@
           " "
         ],
         "duration": null,
-        "start": 1584363600000,
+        "start": 1585227600000,
         "displayName": "CHANGED TRAFFIC CONDITIONS",
         "media": [],
         "roads": [
@@ -1735,6 +1749,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Cabramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55363,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.78648522710571,
+          -34.0632830578393
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MOUNT ANNAN Hume Motorway southbound off ramp to Narellan Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584936609120,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584936609153,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Narellan Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Hume Motorway southbound off ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mount Annan",
             "trafficVolume": ""
           }
         ]
