@@ -1633,7 +1633,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1584989904593,
+        "lastUpdated": 1584991648200,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1655,10 +1655,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -1676,17 +1676,17 @@
     },
     {
       "type": "Feature",
-      "id": 55392,
+      "id": 55393,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.85601066879093,
-          -33.841714334750705
+          151.0912867,
+          -33.7234447
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - HORSLEY PARK M7 Motorway off ramp to The Horsley Drive",
+        "headline": "BREAKDOWN Truck - THORNLEIGH Pennant Hills Road just past Dartford Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1698,15 +1698,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1584990088547,
+        "created": 1584991952550,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1584990088577,
+        "lastUpdated": 1584991952583,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -1715,33 +1715,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Motorway Crew"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "The Horsley Drive",
+            "crossStreet": "Dartford Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "M7 Motorway off ramp",
+            "locationQualifier": "just past",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Horsley Park",
+            "suburb": "Thornleigh",
             "trafficVolume": ""
           }
         ]
@@ -5588,6 +5587,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Mosman",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55392,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85601066879093,
+          -33.841714334750705
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HORSLEY PARK M7 Motorway off ramp to The Horsley Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1584990088547,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1584991677883,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The Horsley Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M7 Motorway off ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Horsley Park",
             "trafficVolume": ""
           }
         ]
