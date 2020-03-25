@@ -2695,80 +2695,6 @@
     },
     {
       "type": "Feature",
-      "id": 55561,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.83906920762635,
-          -33.874680651452316
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - CECIL HILLS Elizabeth Drive approaching M7 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1585166817173,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1585169523673,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M7 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Elizabeth Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Cecil Hills",
-            "trafficVolume": "Moderate"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 55563,
       "geometry": {
         "type": "Point",
@@ -2845,13 +2771,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.04503938499454,
-          -33.843201534728856
+          151.04663798156741,
+          -33.84393223306127
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - AUBURN M4 Motorway just past Silverwater Road",
+        "headline": "BREAKDOWN Truck - AUBURN M4 Motorway eastbound on-ramp from Silverwater Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2871,7 +2797,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1585170123977,
+        "lastUpdated": 1585171137673,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2893,15 +2819,15 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Lanes closed",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "On-ramp"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway eastbound on-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
@@ -2979,6 +2905,152 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Strathfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21835905833586,
+          -33.868455252874554
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - WOOLLOOMOOLOO Eastern Distributor approaching the pedestrian footbridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585171015617,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585171015650,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "the pedestrian footbridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Woolloomooloo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55567,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19401111854089,
+          -33.93507080352586
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - MASCOT Botany Rd at Wentworth Av",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585171084897,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1585171084927,
+        "otherAdvice": "A number of other traffic lights are blacked out in the area due to a local power failure. ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company",
+          "Emergency services"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wentworth Av",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Botany Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -8511,6 +8583,80 @@
             "secondLocation": " ",
             "suburb": "Borenore (near Orange)",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55561,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.83906920762635,
+          -33.874680651452316
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - CECIL HILLS Elizabeth Drive approaching M7 Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585166817173,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1585171226477,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M7 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Elizabeth Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Cecil Hills",
+            "trafficVolume": "Moderate"
           }
         ]
       }
