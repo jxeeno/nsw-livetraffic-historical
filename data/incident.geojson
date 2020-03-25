@@ -2226,8 +2226,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0926193,
-          -33.92331420000001
+          151.09253346931152,
+          -33.92335648748234
         ]
       },
       "properties": {
@@ -2252,8 +2252,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1585109535957,
-        "otherAdvice": "<p>Contra flow traffic conditions are in place.</p><p>NOTE: Road closure lines provided by Google Maps may not be accurate.</p>",
+        "lastUpdated": 1585111270157,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2274,11 +2274,11 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -2679,37 +2679,109 @@
     },
     {
       "type": "Feature",
-      "id": 55431,
+      "id": 55505,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0411213,
-          -33.9165029
+          150.52850421676635,
+          -32.312694148219016
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - BANKSTOWN Stacey Street at Wattle Street",
+        "headline": "CRASH Car - SANDY HOLLOW Golden Highway approximately 5km west of Sandy Hollow",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1585111194140,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1585111326527,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "5km west of Sandy Hollow",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approximately",
+            "mainStreet": "Golden Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Sandy Hollow",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55506,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00679377669067,
+          -34.07472362185205
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - HEATHCOTE Heathcote Road approaching Princes Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1585022064040,
+        "created": 1585111307967,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1585024662723,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585111308000,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2718,15 +2790,14 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
           "Emergency services"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wattle Street",
+            "crossStreet": "Princes Highway",
             "delay": "",
             "impactedLanes": [
               {
@@ -2734,17 +2805,17 @@
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Stacey Street",
+            "locationQualifier": "approaching",
+            "mainStreet": "Heathcote Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Bankstown",
+            "suburb": "Heathcote",
             "trafficVolume": ""
           }
         ]
@@ -6533,6 +6604,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Mount Ousley",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55504,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6045803,
+          -34.8876158
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NOWRA Princes Highway at Kalandar Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585111113140,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585111238760,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kalandar Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Nowra",
             "trafficVolume": ""
           }
         ]
