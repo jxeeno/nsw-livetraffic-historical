@@ -2428,7 +2428,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1585096101027,
+        "lastUpdated": 1585096618840,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2450,10 +2450,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Affected",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -2475,13 +2475,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0746330240814,
-          -33.8878950559253
+          151.07364597116393,
+          -33.88746755102499
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Wires down - STRATHFIELD Hume Highway near Cosgrove Road South",
+        "headline": "HAZARD Wires down - STRATHFIELD Hume Highway at Cosgrove Road South",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2498,10 +2498,10 @@
         "name": null,
         "subCategoryA": "Wires down",
         "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1585096340107,
+        "lastUpdated": 1585096901833,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2522,22 +2522,103 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "at",
             "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Strathfield",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55486,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15167629176025,
+          -33.62548035220967
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - COWAN M1 Pacific Motorway just past Berowra off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585096532120,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585096532157,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Berowra off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": ""
           }
         ]
       }
