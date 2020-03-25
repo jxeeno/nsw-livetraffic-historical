@@ -2114,7 +2114,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1585168612697,
+        "lastUpdated": 1585170228673,
         "otherAdvice": "The left turn slip lane from Wyong Rd onto The Entrance Rd is closed but eastbound motorists can turn left at the roundabout, with caution.",
         "arrangementElements": [],
         "diversions": " ",
@@ -2554,8 +2554,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1525768,
-          -33.7380463
+          151.15237295211483,
+          -33.73820243388733
         ]
       },
       "properties": {
@@ -2577,10 +2577,10 @@
         "name": null,
         "subCategoryA": "Vehicle salvage due to earlier incident",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1585168622690,
+        "lastUpdated": 1585170266120,
         "otherAdvice": "One lane is expected to remain closed until the power pole/lines are repaired.",
         "arrangementElements": [],
         "diversions": " ",
@@ -2843,37 +2843,37 @@
     },
     {
       "type": "Feature",
-      "id": 55464,
+      "id": 55564,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.05661825962605,
-          -36.33687896773513
+          151.04503938499454,
+          -33.843201534728856
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck - TILBA TILBA Princes Highway near Bermagui Road",
+        "headline": "BREAKDOWN Truck - AUBURN M4 Motorway just past Silverwater Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1585082105603,
+        "created": 1585170123927,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1585084112420,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585170123977,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2883,32 +2883,104 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Motorway Crew"
         ],
-        "displayName": "CRASH Truck",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bermagui Road",
+            "crossStreet": "Silverwater Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Tilba Tilba",
+            "suburb": "Auburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55565,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06432778465577,
+          -33.87042741930995
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - STRATHFIELD Centenary Drive approaching Arthur Street, Homebush West",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585170342180,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585170342227,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Arthur Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Strathfield",
             "trafficVolume": ""
           }
         ]
