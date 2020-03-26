@@ -2771,13 +2771,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.77068690583496,
-          -33.805282919228624
+          150.77008609101563,
+          -33.804462740285516
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 trucks - ST CLAIR Mamre Road at McIntyre Avenue",
+        "headline": "CRASH 2 trucks - ST CLAIR Mamre Road near McIntyre Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2793,14 +2793,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 trucks",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1585192657843,
+        "lastUpdated": 1585193694943,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Luddenham Rd, Elizabeth Dr, and back to Mamre Rd.",
         "additionalInfo": [
           " "
         ],
@@ -2818,15 +2818,23 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "near",
             "mainStreet": "Mamre Road",
             "quadrant": "",
             "queueLength": 0,
@@ -2834,6 +2842,78 @@
             "secondLocation": " ",
             "suburb": "St Clair",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55596,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.83923919577023,
+          -33.950059795719746
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - EDMONDSON PARK Camden Valley Way approaching Cowpasture Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585193871500,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585193871547,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowpasture Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Camden Valley Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Edmondson Park",
+            "trafficVolume": ""
           }
         ]
       }
