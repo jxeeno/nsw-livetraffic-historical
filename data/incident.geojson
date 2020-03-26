@@ -2704,7 +2704,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - CLYDE M4 Motorway at James Ruse Dr",
+        "headline": "BREAKDOWN Truck - CLYDE M4 Motorway (upper viaduct) approaching James Ruse Dr",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -2720,11 +2720,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceB": "Exercise caution",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1585192721167,
+        "lastUpdated": 1585194712913,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2749,12 +2749,12 @@
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "5",
+                "numberOfLanes": "2",
                 "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway (upper viaduct)",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
@@ -2878,8 +2878,8 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1585193871547,
-        "otherAdvice": " ",
+        "lastUpdated": 1585194766473,
+        "otherAdvice": "Through traffic is using one of the right turn lanes.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2993,57 +2993,62 @@
     },
     {
       "type": "Feature",
-      "id": 55497,
+      "id": 55599,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.365025,
-          -33.7110007
+          151.1074999649644,
+          -33.8362861388142
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH Motorcycle - WENTWORTH FALLS Great Western Highway at Mitchell Street",
+        "webLinks": [
+          {
+            "linkText": "RMS Vehicle ferries",
+            "linkURL": "https://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
+          }
+        ],
+        "headline": "FERRY OUT OF SERVICE Breakdown - MORTLAKE TO PUTNEY Mortlake Ferry between Pellisier Road, Putney AND Hilly Street, Mortlake ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1585106575013,
+        "created": 1585194694087,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "subCategoryA": "Breakdown",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1585108265147,
-        "otherAdvice": " ",
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1585194694117,
+        "otherAdvice": "The Mortlake Ferry is out of service until further notice.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Motorcycle",
+        "displayName": "FERRY OUT OF SERVICE Breakdown",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mitchell Street",
+            "crossStreet": "Pellisier Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -3051,14 +3056,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
+            "locationQualifier": "between",
+            "mainStreet": "Mortlake Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Wentworth Falls",
-            "trafficVolume": "Heavy"
+            "region": "SYD_MET",
+            "secondLocation": "Hilly Street",
+            "suburb": "Mortlake to Putney",
+            "trafficVolume": ""
           }
         ]
       }
