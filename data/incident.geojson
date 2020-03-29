@@ -2383,7 +2383,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1585523242447,
+        "lastUpdated": 1585525210197,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2519,7 +2519,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1585524624743,
         "isMajor": false,
         "name": null,
@@ -2528,7 +2528,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1585524624773,
+        "lastUpdated": 1585525461360,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2547,7 +2547,16 @@
             "conditionTendency": "",
             "crossStreet": "Quay Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Ultimo Rd",
             "quadrant": "",
@@ -2555,6 +2564,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Haymarket",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55832,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12027333709568,
+          -33.68105753760455
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - ASQUITH M1 Pacific Mwy approaching Ku-Ring-Gai Chase Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585525394327,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Keep right",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1585525394373,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ku-Ring-Gai Chase Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Asquith",
             "trafficVolume": ""
           }
         ]
