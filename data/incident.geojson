@@ -2496,79 +2496,6 @@
     },
     {
       "type": "Feature",
-      "id": 55914,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.5156295454773,
-          -32.99306344191349
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Diesel spill - FREEMANS WATERHOLE M1 Pacific Mwy approaching Palmers Rd, Ryhope",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1585618191397,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Diesel spill",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1585626180973,
-        "otherAdvice": "The spill goes for around 1km.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Diesel spill",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Palmers Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Mwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Freemans Waterhole",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 55920,
       "geometry": {
         "type": "Point",
@@ -2714,38 +2641,48 @@
     },
     {
       "type": "Feature",
-      "id": 55846,
+      "id": 55927,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.96385155634457,
-          -33.814225666012305
+          151.1668991,
+          -33.8620059
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - GREYSTANES Great Western Highway near Cumberland Hwy",
-        "periods": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS WestConnex - ROZELLE Callan Street at Victoria Rd",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1585538396917,
+        "created": 1585627415120,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1585540785933,
-        "otherAdvice": " ",
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
+        "adviceA": "Exercise caution",
+        "end": 1587304800000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1585627415153,
+        "otherAdvice": "<ul><li>Callan St will be closed at Victoria Rd from&nbsp;7am Wednesday 1st&nbsp;April until Monday 20th&nbsp;April.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li><li>Motorists are advised to use Toelle St for\naccess to and exiting from Victoria Rd.&nbsp;\n\n</li></ul>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2753,32 +2690,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
+        "duration": null,
+        "start": 1585684800000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS WestConnex",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cumberland Hwy",
+            "crossStreet": "Victoria Rd",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 6",
-                "extent": "Lanes closed",
-                "numberOfLanes": "6",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Great Western Highway",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Callan Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Greystanes",
+            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
@@ -6535,6 +6465,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Engadine",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55914,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5156295454773,
+          -32.99306344191349
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Diesel spill - FREEMANS WATERHOLE M1 Pacific Mwy approaching Palmers Rd, Ryhope",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585618191397,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Diesel spill",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1585627373850,
+        "otherAdvice": "The spill goes for around 1km.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Diesel spill",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Palmers Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Freemans Waterhole",
             "trafficVolume": ""
           }
         ]
