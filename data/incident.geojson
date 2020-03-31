@@ -2792,13 +2792,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.02871226290742,
-          -33.83865980920171
+          151.02940014806688,
+          -33.839032745344085
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - AUBURN Parramatta Road near Junction Street",
+        "headline": "BREAKDOWN Car - AUBURN Parramatta Rd at Hampstead Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2818,7 +2818,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1585684226620,
+        "lastUpdated": 1585684654467,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2827,41 +2827,43 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Junction Street",
+            "crossStreet": "Hampstead Rd",
             "delay": "",
             "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              },
               {
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
-                "roadType": ""
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Parramatta Road",
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Rd",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Auburn",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -3081,6 +3083,79 @@
             "secondLocation": " ",
             "suburb": "Kangaroo Valley",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55958,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9968213,
+          -33.7820025
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Wires down - NORTHMEAD Windsor Road near Anderson Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585684484850,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Wires down",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1585684484880,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Wires down",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Anderson Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Northmead",
+            "trafficVolume": "Heavy"
           }
         ]
       }
