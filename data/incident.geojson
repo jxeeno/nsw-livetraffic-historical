@@ -2616,7 +2616,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1585808662487,
+        "lastUpdated": 1585810090423,
         "otherAdvice": "<p><strong>Parramatta Road is heavy wi</strong><strong></strong><strong>th significant delays as a result of this incident.</strong><br></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -2656,7 +2656,7 @@
             "locationQualifier": "between",
             "mainStreet": "M4 Motorway",
             "quadrant": "",
-            "queueLength": 6,
+            "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": "James Ruse Drive",
             "suburb": "Auburn",
@@ -2697,7 +2697,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1585808935853,
+        "lastUpdated": 1585810193363,
         "otherAdvice": "Contra flow traffic conditions are in place, with 2 lanes available to westbound traffic and 1 lane available eastbound.",
         "arrangementElements": [],
         "diversions": " ",
@@ -2815,17 +2815,17 @@
     },
     {
       "type": "Feature",
-      "id": 56074,
+      "id": 56076,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21747878465575,
-          -33.89043602500833
+          151.1762574,
+          -33.8689722
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SURRY HILLS Eastern Distributor approaching Cleveland Street",
+        "headline": "CRASH Car - ROZELLE Victoria Road approaching The Crescent",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2837,15 +2837,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1585809345010,
+        "created": 1585810301637,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1585809345043,
+        "mainCategory": "Crash",
+        "lastUpdated": 1585810301667,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2854,32 +2854,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cleveland Street",
+            "crossStreet": "The Crescent",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "5",
                 "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
-            "mainStreet": "Eastern Distributor",
+            "mainStreet": "Victoria Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Surry Hills",
+            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
@@ -6941,6 +6942,78 @@
     },
     {
       "type": "Feature",
+      "id": 56074,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21747878465575,
+          -33.89043602500833
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SURRY HILLS Eastern Distributor approaching Cleveland Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585809345010,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585810233350,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cleveland Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Surry Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 56048,
       "geometry": {
         "type": "Point",
@@ -7014,6 +7087,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Macquarie Pass",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56075,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.040724065744,
+          -33.84076181580162
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Truck - CLYDE M4 Motorway approximately James Ruse Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585810223333,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1585810258863,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car, Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approximately",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
