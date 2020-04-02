@@ -2834,7 +2834,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - REVESBY South Western Motorway just past The River Rd",
+        "headline": "BREAKDOWN Truck - REVESBY M5 Mwy just past The River Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2854,7 +2854,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1585869978423,
+        "lastUpdated": 1585870846923,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2883,7 +2883,7 @@
               }
             ],
             "locationQualifier": "just past",
-            "mainStreet": "South Western Motorway",
+            "mainStreet": "M5 Mwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
@@ -2917,7 +2917,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1585869002500,
         "isMajor": false,
         "name": null,
@@ -2926,7 +2926,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1585869002547,
+        "lastUpdated": 1585870821530,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -2968,17 +2968,17 @@
     },
     {
       "type": "Feature",
-      "id": 56116,
+      "id": 56117,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.98894173812866,
-          -33.94360656933649
+          150.8612164,
+          -34.435657
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Ladder - MILPERRA M5 Mwy between Henry Lawson Dr AND The River Rd ",
+        "headline": "HAZARD Diesel spill - FIGTREE Princes Highway near The Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -2990,15 +2990,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1585870279957,
+        "created": 1585870738907,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Ladder",
+        "subCategoryA": "Diesel spill",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1585870280003,
+        "lastUpdated": 1585870738937,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3007,18 +3007,92 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Ladder",
+        "displayName": "HAZARD Diesel spill",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Henry Lawson Dr",
+            "crossStreet": "The Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Figtree",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19794514553834,
+          -33.87480447439235
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - DARLING HARBOUR Western Distributor at Harris Street off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585871058780,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1585871058873,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Harris Street off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 2",
                 "extent": "Lanes closed",
@@ -3026,13 +3100,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "between",
-            "mainStreet": "M5 Mwy",
+            "locationQualifier": "at",
+            "mainStreet": "Western Distributor",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": "The River Rd",
-            "suburb": "Milperra",
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Darling Harbour",
             "trafficVolume": ""
           }
         ]
@@ -7011,6 +7085,78 @@
             "secondLocation": " ",
             "suburb": "Macquarie Park",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98894173812866,
+          -33.94360656933649
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Ladder - MILPERRA M5 Mwy between Henry Lawson Dr AND The River Rd ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1585870279957,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Ladder",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1585870861117,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Ladder",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Henry Lawson Dr",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "M5 Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": "The River Rd",
+            "suburb": "Milperra",
+            "trafficVolume": ""
           }
         ]
       }
