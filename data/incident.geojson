@@ -3524,38 +3524,53 @@
     },
     {
       "type": "Feature",
-      "id": 56368,
+      "id": 56369,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1530832,
-          -33.7571946
+          150.6876511212954,
+          -33.75071747922646
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - GORDON Pacific Hwy near Mona Vale Rd",
-        "periods": [],
+        "webLinks": [
+          {
+            "linkText": "The Northern Road upgrade",
+            "linkURL": "http://www.rms.nsw.gov.au/projects/sydney-west/the-northern-road/index.html"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Traffic switch - SOUTH PENRITH Castlereagh Street/Mulgoa Road at High Street",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1586233333873,
+        "created": 1586234795503,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1586233333907,
-        "otherAdvice": " ",
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
+        "adviceA": "Exercise caution",
+        "end": 1590847200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1586234795537,
+        "otherAdvice": "<p>From <strong>5am Wednesday 8th April </strong>there will be traffic\nchanges at Castlereagh Rd and High St, Penrith. This includes the following:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>-Lateral shift to the west on Castlereagh Rd at High St&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>-Lateral shift to the south on High St&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>-Removal of bus priority lane on High St on eastbound approach to\nCastlereagh Rd<br>-The existing “Keep Clear” line marking and traffic signal posts\non High St outside the old Ambulance station will be removed.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>-Eastbound on High St will be reduced to a single lane from the intersection of Castlereagh Rd/High St.&nbsp; &nbsp; &nbsp; &nbsp;<br>-Lane width reductions on Castlereagh Rd between High St and Jane\nSt.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -3563,33 +3578,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
+        "duration": null,
+        "start": 1586181600000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Traffic switch",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mona Vale Rd",
+            "crossStreet": "High Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "5",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Pacific Hwy",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Castlereagh Street/Mulgoa Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Gordon",
+            "suburb": "South Penrith",
             "trafficVolume": ""
           }
         ]
@@ -6704,6 +6711,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Camperdown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56368,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1530832,
+          -33.7571946
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - GORDON Pacific Hwy near Mona Vale Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1586233333873,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1586234647380,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mona Vale Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Gordon",
             "trafficVolume": ""
           }
         ]
