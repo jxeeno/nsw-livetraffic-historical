@@ -3398,7 +3398,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1586288440513,
+        "lastUpdated": 1586289113900,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3407,6 +3407,9 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
+          "Tow Truck",
+          "Heavy vehicle tow truck",
           "Transport for NSW"
         ],
         "displayName": "CRASH Truck, Car",
@@ -3419,6 +3422,14 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 3",
                 "extent": "Lanes closed",
@@ -3429,75 +3440,11 @@
             "locationQualifier": "approaching",
             "mainStreet": "M4 Motorway",
             "quadrant": "",
-            "queueLength": 5,
+            "queueLength": 7,
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Prospect",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56401,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.04173197301637,
-          -33.8648024428292
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - LIDCOMBE Olympic Drive just past Vaughan Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1586287496137,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1586287496183,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Vaughan Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "just past",
-            "mainStreet": "Olympic Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Lidcombe",
-            "trafficVolume": ""
           }
         ]
       }
@@ -3656,78 +3603,6 @@
             "secondLocation": "Caves House",
             "suburb": "Jenolan",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56338,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.93620034708252,
-          -33.80951334729079
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 3 cars - GREYSTANES M4 Mwy near Greystanes Road, Pemulwuy",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1586202584167,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1586202718593,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 3 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Greystanes Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "M4 Mwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Greystanes",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7574,6 +7449,70 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Bangor",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.04173197301637,
+          -33.8648024428292
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - LIDCOMBE Olympic Drive just past Vaughan Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1586287496137,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1586288950353,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Vaughan Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "just past",
+            "mainStreet": "Olympic Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
