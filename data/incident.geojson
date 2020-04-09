@@ -3565,22 +3565,23 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1586467134480,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Truck, Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1586467134527,
+        "lastUpdated": 1586467695580,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<p>Southbound traffic is being diverted left into Wentworth Av.<br>There is no right turn into Wentworth Av for northbound traffic on Botany Rd.</p><p>Eastbound traffic on Wentworth Av is being diverted left into Botany Rd.<br>There is no right turn into Botany Rd for westbound traffic on Wentworth Av.</p>",
         "additionalInfo": [
           "Person trapped"
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -3592,6 +3593,14 @@
             "crossStreet": "Wentworth Avenue",
             "delay": "",
             "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
               {
                 "affectedDirection": "All directions",
                 "closedLanes": "",
@@ -3758,80 +3767,6 @@
             "region": "SYD_WEST",
             "secondLocation": "George St",
             "suburb": "Windsor",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56459,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.36672082797242,
-          -33.3467082099257
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Semi trailer - OURIMBAH M1 Pacific Mwy northbound off-ramp approaching Ourimbah Interchange",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1586376185730,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Semi trailer",
-        "adviceB": "Exercise caution; Reduce your speed",
-        "adviceA": "Keep right",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1586380861783,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Mechanic",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Semi trailer",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Ourimbah Interchange",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Shoulder",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Mwy northbound off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Ourimbah",
             "trafficVolume": ""
           }
         ]
