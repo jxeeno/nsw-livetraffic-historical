@@ -1078,8 +1078,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1852720929537,
-          -33.91628397343048
+          151.18526136411765,
+          -33.91624835996432
         ]
       },
       "properties": {
@@ -1089,7 +1089,7 @@
             "linkURL": "https://www.westconnex.com.au/traffic-changes"
           }
         ],
-        "headline": "SCHEDULED ROADWORK WestConnex - ST PETERS Burrows Road at Campbell Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Intersection upgrade - ALEXANDRIA Burrows Road at Campbell Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -1097,21 +1097,21 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1548748164637,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Intersection upgrade",
         "adviceB": "Exercise caution",
         "adviceA": "Check signage",
-        "end": 1588255140000,
+        "end": 1590930000000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1586736705887,
-        "otherAdvice": "<p>Permanent traffic changes now in place at Campbell Rd and Burrows Rd intersection:</p><ul><li><strong>Left turn only</strong> from Campbell Rd to Burrows Rd (north), and</li><li><strong>Left turn only</strong> from Burrows Rd (south) to Campbell Rd.&nbsp;</li></ul><p>Temporary traffic changes until April 2020:<br></p><ul><li>Access from Burrows Rd (north) to Burrows Rd (south) is available for <strong>southbound only</strong> - there is no access northbound from Burrows Rd (south) to&nbsp;Burrows Rd (north), and<br><strong></strong></li><li><strong>No right turn</strong>&nbsp;from Burrows Rd (south) onto Campbell St.</li></ul>",
+        "lastUpdated": 1586829823510,
+        "otherAdvice": "<p>From Monday 20 April until the end of May:</p><ul><li>Southbound traffic on Burrows Rd <strong>cannot turn right</strong> at Campbell Rd,</li><li>Northbound traffic on Burrows Rd <strong>must turn left</strong>&nbsp;at Campbell Rd, and</li><li>Eastbound traffic on Campbell Rd <strong>must turn left</strong> at Burrows Rd.</li></ul>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -1122,22 +1122,31 @@
           " "
         ],
         "duration": null,
-        "start": 1586095200000,
-        "displayName": "SCHEDULED ROADWORK WestConnex",
+        "start": 1587304800000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Intersection upgrade",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Campbell Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Burrows Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "St Peters",
+            "suburb": "Alexandria",
             "trafficVolume": ""
           }
         ]
@@ -2431,86 +2440,6 @@
     },
     {
       "type": "Feature",
-      "id": 33369,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.75117569756696,
-          -33.94133638624983
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Bringelly Road upgrade",
-            "linkURL": "https://www.rms.nsw.gov.au/projects/bringelly-road-upgrade/index.html"
-          }
-        ],
-        "headline": "SCHEDULED ROADWORK - ROSSMORE Bringelly Road between The Northern Road AND Allenby Road ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "",
-            "fromDay": "Every Day",
-            "startTime": "all day",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1564657248733,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Check signage",
-        "end": 1593439200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1571980712170,
-        "otherAdvice": "<p><strong>Traffic has been switched onto the newly constructed eastbound carriageway. </strong></p><p><strong>Changes:</strong><br><strong>-</strong> Re-opening of Church St (left in/left out traffic arrangement).<br>- Opening of the newly constructed Masterfield northern link.<br>- Implementation of a 4-way roundabout at Bringelly Rd and Masterfields Rd.<br></p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1565272800000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The Northern Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Bringelly Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": "Allenby Road",
-            "suburb": "Rossmore",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 33688,
       "geometry": {
         "type": "Point",
@@ -2862,77 +2791,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Wirrinya",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35271,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.7722364027519,
-          -33.94594684795797
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Bringelly Road upgrade",
-            "linkURL": "https://www.rms.nsw.gov.au/projects/bringelly-road-upgrade/index.html"
-          }
-        ],
-        "headline": "CHANGED TRAFFIC CONDITIONS Traffic Switch - ROSSMORE Bringelly Road between Glen Allan Road AND Allenby Road ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1566537275097,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Use diversions",
-        "end": 1593439200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1571714928660,
-        "otherAdvice": "<p>Traffic has been switched onto the newly constructed eastbound carriageway and, as a result, motorists are unable to access North Av or Glen Allan Rd from Bringelly Rd.<br></p>",
-        "arrangementElements": [],
-        "diversions": "Use Church St and Rossmore Av West to access North Av or Glen Allan Rd.",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1566741600000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Traffic Switch",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Glen Allan Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Bringelly Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": "Allenby Road",
-            "suburb": "Rossmore",
             "trafficVolume": ""
           }
         ]
@@ -20141,6 +19999,157 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Grafton",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7722364027519,
+          -33.94594684795797
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Bringelly Road upgrade",
+            "linkURL": "https://www.rms.nsw.gov.au/projects/bringelly-road-upgrade/index.html"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Traffic Switch - ROSSMORE Bringelly Road between Glen Allan Road AND Allenby Road ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1566537275097,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use diversions",
+        "end": 1593439200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1586830070433,
+        "otherAdvice": "<p>Traffic has been switched onto the newly constructed eastbound carriageway and, as a result, motorists are unable to access North Av or Glen Allan Rd from Bringelly Rd.<br></p>",
+        "arrangementElements": [],
+        "diversions": "Use Church St and Rossmore Av West to access North Av or Glen Allan Rd.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1566741600000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Traffic Switch",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Glen Allan Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bringelly Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": "Allenby Road",
+            "suburb": "Rossmore",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.75117569756696,
+          -33.94133638624983
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Bringelly Road upgrade",
+            "linkURL": "https://www.rms.nsw.gov.au/projects/bringelly-road-upgrade/index.html"
+          }
+        ],
+        "headline": "SCHEDULED ROADWORK - ROSSMORE Bringelly Road between The Northern Road AND Allenby Road ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1564657248733,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Check signage",
+        "end": 1593439200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1586830120927,
+        "otherAdvice": "<p><strong>Traffic has been switched onto the newly constructed eastbound carriageway. </strong></p><p><strong>Changes:</strong><br><strong>-</strong> Re-opening of Church St (left in/left out traffic arrangement).<br>- Opening of the newly constructed Masterfield northern link.<br>- Implementation of a 4-way roundabout at Bringelly Rd and Masterfields Rd.<br></p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1565272800000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The Northern Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bringelly Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": "Allenby Road",
+            "suburb": "Rossmore",
             "trafficVolume": ""
           }
         ]
