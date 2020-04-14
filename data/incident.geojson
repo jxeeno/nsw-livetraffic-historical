@@ -1915,18 +1915,14 @@
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS WestConnex - ROZELLE Terry Street at Victoria Rd",
-        "periods": [
+        "webLinks": [
           {
-            "closureType": "ROAD_CLOSURE",
-            "direction": "Southbound",
-            "finishTime": "",
-            "fromDay": "Every Day",
-            "startTime": "all day",
-            "toDay": ""
+            "linkText": "WestConnex",
+            "linkURL": "https://www.westconnex.com.au/traffic-changes"
           }
         ],
+        "headline": "CHANGED TRAFFIC CONDITIONS WestConnex - ROZELLE Terry Street at Victoria Rd",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -1946,8 +1942,8 @@
         "end": 1596117600000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1586230922093,
-        "otherAdvice": "<p>From 10pm Thursday April 2:</p><ul><li>There will be no access to Victoria Rd\nfrom Terry St –&nbsp;Terry St will be one-way\nnorthbound&nbsp; </li><li>Southbound traffic wishing&nbsp;to access Victoria Rd,&nbsp;please use Wellington St&nbsp;\n</li><li>Motorists will still be able to enter\nTerry St from Victoria Rd, as per current arrangements&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li><li>There will be no access to Crystal St from\nTerry St&nbsp;\n\n</li><li>To access Crystal St,&nbsp;motorists are advised to use Victoria Rd westbound\nand turn around via Park Ave, Formosa St, Henley Marine&nbsp;Dr and Victoria Rd eastbound.&nbsp;</li></ul>",
+        "lastUpdated": 1586907514200,
+        "otherAdvice": "<p>Changed traffic conditions now in place:</p><ul><li>There will be no access to Victoria Rd from Terry St –&nbsp;Terry St will be one-way northbound,</li><li>Southbound traffic wishing&nbsp;to access Victoria Rd,&nbsp;please use Wellington St,</li><li>Motorists will still be able to enter Terry St from Victoria Rd, as per current arrangements,&nbsp; &nbsp; &nbsp;&nbsp;</li><li>There will be no access to Crystal St from Terry St, and</li><li>To access Crystal St,&nbsp;motorists are advised to use Victoria Rd westbound and turn around via Park Ave, Formosa St, Henley Marine&nbsp;Dr and Victoria Rd eastbound.</li></ul>",
         "arrangementElements": [],
         "diversions": "Wellington St",
         "additionalInfo": [
@@ -1966,7 +1962,16 @@
             "conditionTendency": "",
             "crossStreet": "Victoria Rd",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Terry Street",
             "quadrant": "",
@@ -3048,7 +3053,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1586906920130,
+        "lastUpdated": 1586907197030,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3070,9 +3075,9 @@
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Shoulder",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
