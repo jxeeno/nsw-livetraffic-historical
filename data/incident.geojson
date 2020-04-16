@@ -3051,7 +3051,7 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": "The T-Way is closed. Route 812 buses are diverting away from Widemere Road and Prospect Highway at Wetherill Park via Gipps Road. Four stops are being missed.&nbsp;",
+        "publicTransport": "Route 812 buses are diverting away from Widemere Road and Prospect Highway at Wetherill Park via Gipps Road. Four stops are being missed.&nbsp;",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
@@ -3064,10 +3064,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1587078345953,
+        "lastUpdated": 1587080673803,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Northbound traffic is diverted into Davis Road, Elizabeth Street, Victoria Street, Hassall Street, Gipps Street and Greystanes Road, southbound into Reconciliation Rise.&nbsp;</p><p>Motorists travelling between the Great Western Highway and The Horsley Road should use Greystanes Road, Gipps Road and Hassall Street.</p>",
+        "diversions": "<p>Northbound traffic is diverted into Davis Road, Elizabeth Street, Victoria Street, Hassall Street, Gipps Street and Greystanes Road.&nbsp;</p><p>Motorists travelling between the Great Western Highway and The Horsley Road should use Greystanes Road, Gipps Road and Hassall Street.</p>",
         "additionalInfo": [
           " "
         ],
@@ -3085,7 +3085,15 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -3137,7 +3145,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1587077197073,
+        "lastUpdated": 1587080384697,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3308,78 +3316,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bellingen",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56894,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.02010969940562,
-          -33.83099153519164
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Debris pallet - GRANVILLE M4 Motorway approaching James Ruse Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1587080191667,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Debris",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1587080191697,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "HAZARD Debris pallet",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "James Ruse Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Granville",
             "trafficVolume": ""
           }
         ]
@@ -5856,6 +5792,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Gosford",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56894,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02010969940562,
+          -33.83099153519164
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Debris pallet - GRANVILLE M4 Motorway approaching James Ruse Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1587080191667,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1587080653923,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "HAZARD Debris pallet",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Granville",
             "trafficVolume": ""
           }
         ]
