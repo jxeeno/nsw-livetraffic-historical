@@ -4054,7 +4054,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1587532204783,
+        "lastUpdated": 1587534165540,
         "otherAdvice": "Contra flow traffic conditions are in place. Expected to remain in place until around 6pm.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4270,8 +4270,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1587532867170,
-        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
+        "lastUpdated": 1587534412013,
+        "otherAdvice": "The truck is at the side of the road just affecting the shoulder northbound.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4291,7 +4291,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4313,17 +4313,17 @@
     },
     {
       "type": "Feature",
-      "id": 57192,
+      "id": 57193,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0203474539721,
-          -33.831762101154354
+          151.22886337091674,
+          -33.905495973336805
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CLYDE M4 Mwy at James Ruse Drive off-ramp",
+        "headline": "CRASH 3 vehicles - RANDWICK Alison Rd approaching Doncaster Avenue, Kensington",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4335,15 +4335,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1587533448413,
+        "created": 1587534177663,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1587533910150,
+        "mainCategory": "Crash",
+        "lastUpdated": 1587534177803,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4352,33 +4352,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "James Ruse Drive off-ramp",
+            "crossStreet": "Doncaster Avenue",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 4",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "M4 Mwy",
+            "locationQualifier": "approaching",
+            "mainStreet": "Alison Rd",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Clyde",
-            "trafficVolume": ""
+            "suburb": "Randwick",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -7503,6 +7504,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Lidcombe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0203474539721,
+          -33.831762101154354
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CLYDE M4 Mwy at James Ruse Drive off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1587533448413,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1587534492163,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
