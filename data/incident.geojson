@@ -4258,20 +4258,20 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": " ",
+        "publicTransport": "Buses in the area are delayed up to 15 minutes.",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1587535627437,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Truck, Car",
         "adviceB": "Exercise caution",
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1587535990440,
+        "lastUpdated": 1587536255700,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4289,7 +4289,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Rooty Hill Rd",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
@@ -4314,37 +4314,37 @@
     },
     {
       "type": "Feature",
-      "id": 57127,
+      "id": 57196,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0168277132141,
-          -33.82833917351886
+          150.56541520419924,
+          -34.589209960852564
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - CLYDE M4 Western Motorway at James Ruse Drive, Rosehill",
+        "headline": "CRASH Car, Bicycle - ROBERTSON Illawarra Highway near Pearsons Lane",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1587446275840,
+        "created": 1587536145223,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1587449709230,
+        "mainCategory": "Crash",
+        "lastUpdated": 1587536145273,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4353,34 +4353,107 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Motorway Crew"
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car, Bicycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pearsons Lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Illawarra Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Robertson",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.84356141416626,
+          -33.87730098965855
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - CECIL HILLS Elizabeth Drive at M7 Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1587536453797,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1587536511637,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "James Ruse Drive",
+            "crossStreet": "M7 Motorway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Off-ramp",
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
                 "extent": "Affected",
-                "numberOfLanes": "5",
-                "roadType": "Motorway"
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M4 Western Motorway",
+            "mainStreet": "Elizabeth Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Clyde",
-            "trafficVolume": ""
+            "suburb": "Cecil Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
