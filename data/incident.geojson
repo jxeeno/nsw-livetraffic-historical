@@ -4724,13 +4724,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84790955044508,
-          -33.86234863642227
+          150.84730873562575,
+          -33.864237322708604
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - CECILL HILLS M7 Mwy just past Elizabeth Dr",
+        "headline": "BREAKDOWN Truck - CECIL PARK M7 Mwy just past Elizabeth Dr",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -4750,7 +4750,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1588110037773,
+        "lastUpdated": 1588110906030,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4785,7 +4785,7 @@
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Cecill Hills",
+            "suburb": "Cecil Park",
             "trafficVolume": ""
           }
         ]
@@ -4866,17 +4866,17 @@
     },
     {
       "type": "Feature",
-      "id": 57552,
+      "id": 57553,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.01518822365878,
-          -33.82751175418227
+          151.4864907317383,
+          -32.816066050874376
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CLYDE M4 Mwy approaching James Ruse Dr",
+        "headline": "CRASH Truck, Pedestrian - KURRI KURRI Lang Street between Stanford Street AND Merthyr Street ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4888,15 +4888,88 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1588110675280,
+        "created": 1588110880800,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck, Pedestrian",
+        "adviceB": "Exercise caution",
+        "adviceA": "Use diversions",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1588110880863,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "Westbound motorists should use Stanford St, then Merthyr St. Eastbound motorists should use Merthyr St, then Stanford St.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Pedestrian",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Stanford Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Lang Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": "Merthyr Street",
+            "suburb": "Kurri Kurri",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57554,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.86434258227848,
+          -34.39484248976868
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MOUNT PLEASANT M1 Princes Mwy near New Mount Pleasant Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588111189727,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1588110675310,
+        "lastUpdated": 1588111189760,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4905,33 +4978,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW",
-          "Motorway Crew"
+          "Heavy vehicle tow truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "James Ruse Dr",
+            "crossStreet": "New Mount Pleasant Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Mwy",
+            "locationQualifier": "near",
+            "mainStreet": "M1 Princes Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Clyde",
+            "suburb": "Mount Pleasant",
             "trafficVolume": ""
           }
         ]
@@ -7603,6 +7677,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rozelle",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57552,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01518822365878,
+          -33.82751175418227
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CLYDE M4 Mwy approaching James Ruse Dr",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588110675280,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1588111010810,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Dr",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
