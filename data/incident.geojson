@@ -4843,7 +4843,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1588036779147,
+        "lastUpdated": 1588038031727,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4864,11 +4864,11 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -4886,37 +4886,37 @@
     },
     {
       "type": "Feature",
-      "id": 57519,
+      "id": 57520,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2142654984253,
-          -33.92466172713723
+          151.3012323365234,
+          -33.73173910067464
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Motorcycle - EASTLAKES Southern Cross Drive below Gardeners Rd",
+        "headline": "CRASH Car - COLLAROY Pittwater Rd at Stuart Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1588037791600,
+        "created": 1588038182207,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
+        "subCategoryA": "Car",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1588037791647,
+        "mainCategory": "Crash",
+        "lastUpdated": 1588038456280,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4925,33 +4925,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Motorcycle",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gardeners Rd",
+            "crossStreet": "Stuart Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "below",
-            "mainStreet": "Southern Cross Drive",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Pittwater Rd",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Eastlakes",
+            "suburb": "Collaroy",
             "trafficVolume": ""
           }
         ]
@@ -8374,6 +8364,142 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Concord West",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57519,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2142654984253,
+          -33.92466172713723
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Motorcycle - EASTLAKES Southern Cross Drive below Gardeners Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588037791600,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1588038052787,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gardeners Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "below",
+            "mainStreet": "Southern Cross Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Eastlakes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57520,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3012323365234,
+          -33.73173910067464
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - COLLAROY Pittwater Rd at Stuart Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588038182207,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1588038456280,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Stuart Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Pittwater Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Collaroy",
             "trafficVolume": ""
           }
         ]
