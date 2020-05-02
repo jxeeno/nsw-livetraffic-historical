@@ -4667,7 +4667,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1588425482400,
+        "lastUpdated": 1588426228800,
         "otherAdvice": "Motorists are advised to park and wait.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -4676,6 +4676,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Helicopter",
           "Transport for NSW",
           "Emergency services"
@@ -4711,53 +4712,38 @@
     },
     {
       "type": "Feature",
-      "id": 54984,
+      "id": 57861,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19017819052124,
-          -33.90807805275501
+          151.0360130258423,
+          -33.9403786681868
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "WestConnex",
-            "linkURL": "https://www.westconnex.com.au/traffic-changes"
-          }
-        ],
-        "headline": "CHANGED TRAFFIC CONDITIONS - ST PETERS Sydney Park Road at Euston Rd and Huntley St",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "All directions",
-            "finishTime": "",
-            "fromDay": "Every Day",
-            "startTime": "all day",
-            "toDay": ""
-          }
-        ],
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - PUNCHBOWL M5 Mwy near Fairford Rd",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1584440287513,
+        "created": 1588425665037,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Check signage",
-        "end": 1588339800000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1588339830173,
-        "otherAdvice": "<p><strong>Permanent traffic changes at the intersection of Sydney Park Rd, Euston Rd and Huntley St from 9pm Fri 17th Apr:<br></strong>- Euston Rd will be increased to three&nbsp;lanes in both northbound and&nbsp;southbound directions between&nbsp;Campbell Rd and Sydney Park&nbsp;Rd.<br>- The Euston Rd and Sydney Park&nbsp;Rd intersection will be opened to&nbsp;its permanent arrangement at the&nbsp;intersection. This will include the&nbsp;new&nbsp;‘No Right Turn’&nbsp;restriction for&nbsp;Euston Rd southbound&nbsp;traffic.<br>- The intersection of Euston Rd,&nbsp;Sydney Park Rd and Huntley&nbsp;St will be opened to its&nbsp;permanent&nbsp;arrangement.<br>- Euston Rd will be provided as two&nbsp;right turn lanes and one left turn&nbsp;lane in a temporary arrangement at&nbsp;the Campbell Rd&nbsp;intersection.<br>- Euston Rd southbound straight&nbsp;through lanes to the new&nbsp;M5&nbsp;Tunnel&nbsp;will be closed at the Campbell Rd&nbsp;intersection.&nbsp;</p><p><strong>In addition - from 9pm Fri 17 Apr there will be:</strong><br>- A full road closure will be in place on Euston Rd between Maddox St and Campbell Rd. Local business access will be provided on Euston Rd under the direction of traffic control.&nbsp;<br>- Stop/slow traffic management will also be in place along Sydney Park Rd between Mitchell Rd and Euston Rd, Alexandria.&nbsp;&nbsp;</p>",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1588425665070,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4765,25 +4751,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "duration": null,
-        "start": 1586181600000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Euston Rd and Huntley St",
+            "crossStreet": "Fairford Rd",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Park Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M5 Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "St Peters",
+            "suburb": "Punchbowl",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57862,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.871120372,
+          -33.7690295166
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - DOONSIDE Doonside Rd at Eastern Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588426043307,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1588426043357,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Eastern Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Doonside Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Doonside",
             "trafficVolume": ""
           }
         ]
