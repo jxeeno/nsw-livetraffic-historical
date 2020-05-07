@@ -4365,9 +4365,9 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "EMERGENCY ROADWORK Bridge work - YASS Barton Highway near Yass River Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Bridge work - YASS Barton Highway near Yass River Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 60,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -4380,12 +4380,12 @@
         "created": 1588739771907,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "(u\\p)",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1588827166320,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1588827896373,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4396,7 +4396,7 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "EMERGENCY ROADWORK Bridge work",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Bridge work",
         "media": [],
         "roads": [
           {
@@ -4421,79 +4421,6 @@
             "secondLocation": " ",
             "suburb": "Yass",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58130,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.97015782562255,
-          -33.81733692667579
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - GREYSTANES M4 Motorway approaching Cumberland Highway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1588824735183,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1588826566827,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cumberland Highway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Greystanes",
-            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -8716,6 +8643,79 @@
             "secondLocation": "Wharf Road",
             "suburb": "Ulmarra",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97015782562255,
+          -33.81733692667579
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - GREYSTANES M4 Motorway approaching Cumberland Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588824735183,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1588827788330,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cumberland Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Greystanes",
+            "trafficVolume": "Moderate"
           }
         ]
       }
