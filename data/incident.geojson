@@ -4568,8 +4568,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2282424,
-          -33.9467885
+          151.22837114603269,
+          -33.94671729856071
         ]
       },
       "properties": {
@@ -4594,10 +4594,10 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1588913219710,
+        "lastUpdated": 1588914295247,
         "otherAdvice": "Left turn only from Fitzgerald Ave onto&nbsp;Bunnerong Rd.",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Southbound: Fitzgerald Ave, Robey St or Anzac Ave, Beauchamp Rd to re-join Bunnerong Rd.",
         "additionalInfo": [
           " "
         ],
@@ -4614,19 +4614,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              },
-              {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
                 "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
                 "roadType": "Road"
               }
             ],
@@ -4789,6 +4789,78 @@
     },
     {
       "type": "Feature",
+      "id": 58218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19567628521264,
+          -33.88431217014711
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - ULTIMO Broadway just past City Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1588913975507,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1588913975540,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "City Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "1",
+                "description": "Bus lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Broadway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Ultimo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 57620,
       "geometry": {
         "type": "Point",
@@ -4940,79 +5012,6 @@
             "secondLocation": " ",
             "suburb": "Mororo to Devils Pulpit",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58130,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.97015782562255,
-          -33.81733692667579
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - GREYSTANES M4 Motorway approaching Cumberland Highway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1588824735183,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1588827788330,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cumberland Highway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Greystanes",
-            "trafficVolume": "Moderate"
           }
         ]
       }
