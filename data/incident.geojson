@@ -4308,7 +4308,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1589268285157,
+        "lastUpdated": 1589270071940,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4317,6 +4317,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -4672,7 +4673,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1589269527253,
+        "lastUpdated": 1589270189637,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4692,7 +4693,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Breakdown lane",
                 "extent": "Lanes closed",
@@ -4714,37 +4715,37 @@
     },
     {
       "type": "Feature",
-      "id": 58411,
+      "id": 58483,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.18114720632937,
-          -33.812639210946294
+          151.1603725,
+          -33.9250378
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ARTARMON Lane Cove Tunnel just past the tunnel exit",
+        "headline": "BREAKDOWN Truck - TEMPE Princes Hwy at Gannon Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1589181649147,
+        "created": 1589269989150,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1589183792057,
+        "lastUpdated": 1589269989213,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4753,32 +4754,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW",
+          "Mechanic"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "the tunnel exit",
+            "crossStreet": "Gannon Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Lane Cove Tunnel",
+            "locationQualifier": "at",
+            "mainStreet": "Princes Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Artarmon",
+            "suburb": "Tempe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.37048099465943,
+          -33.34502611704925
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - OURIMBAH Pacific Hwy near Burns Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589270046080,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1589270046110,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Burns Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ourimbah",
             "trafficVolume": ""
           }
         ]
