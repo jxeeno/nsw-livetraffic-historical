@@ -4381,7 +4381,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1589403053383,
+        "lastUpdated": 1589405295903,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4496,37 +4496,37 @@
     },
     {
       "type": "Feature",
-      "id": 58509,
+      "id": 58594,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1366259,
-          -33.9780053
+          151.1192276878357,
+          -33.82081298163817
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck, In clearway - KOGARAH Rocky Point Road at Production Avenue",
+        "headline": "HAZARD Wires down - RYDE Victoria Road approaching Margaret Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1589318753387,
+        "created": 1589405128257,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, In clearway",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Wires down",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1589318823813,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1589405128290,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4536,33 +4536,106 @@
         "webLinkName": null,
         "attendingGroups": [
           "Transport for NSW",
-          "Tow Truck"
+          "Utility Company"
         ],
-        "displayName": "BREAKDOWN Truck, In clearway",
+        "displayName": "HAZARD Wires down",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Production Avenue",
+            "crossStreet": "Margaret Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ryde",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58595,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03313422107925,
+          -33.9662565336932
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - PADSTOW HEIGHTS Clancy Street at Alfords Point Rd northbound off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589405155167,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1589405320867,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Alfords Point Rd northbound off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Rocky Point Road",
+            "mainStreet": "Clancy Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Kogarah",
-            "trafficVolume": ""
+            "suburb": "Padstow Heights",
+            "trafficVolume": "Moderate"
           }
         ]
       }
