@@ -4224,14 +4224,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Oil spill",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1589503083793,
+        "lastUpdated": 1589504360530,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Motorists can use The Northern Rd eastbound on-ramp to the M4 Mwy or the Great Western Hwy eastbound on-ramp to the M4 Mwy. ",
         "additionalInfo": [
           " "
         ],
@@ -4252,9 +4252,9 @@
                 "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "On-ramp"
               }
             ],
             "locationQualifier": "to",
@@ -4271,17 +4271,17 @@
     },
     {
       "type": "Feature",
-      "id": 58671,
+      "id": 58672,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.23481732222896,
-          -33.89021026877395
+          151.2327652,
+          -33.9072407
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Bus, Car - CENTENNIAL PARK Oxford Street approaching Moore Park Rd",
+        "headline": "BREAKDOWN Car - RANDWICK Alison Rd near John Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4293,15 +4293,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1589503314180,
+        "created": 1589504651390,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus, Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1589503443953,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1589504651423,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4311,33 +4311,33 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Tow Truck"
         ],
-        "displayName": "CRASH Bus, Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moore Park Rd",
+            "crossStreet": "John Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "City bound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 3",
+                "closedLanes": "1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Oxford Street",
+            "locationQualifier": "near",
+            "mainStreet": "Alison Rd",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Centennial Park",
-            "trafficVolume": "Heavy"
+            "suburb": "Randwick",
+            "trafficVolume": ""
           }
         ]
       }
@@ -7828,6 +7828,79 @@
             "secondLocation": " ",
             "suburb": "Moorebank",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58671,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.23481732222896,
+          -33.89021026877395
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Bus, Car - CENTENNIAL PARK Oxford Street approaching Moore Park Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589503314180,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1589504791880,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Bus, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moore Park Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Oxford Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Centennial Park",
+            "trafficVolume": "Heavy"
           }
         ]
       }
