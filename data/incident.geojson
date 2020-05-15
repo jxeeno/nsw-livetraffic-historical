@@ -4300,7 +4300,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1589528108760,
+        "lastUpdated": 1589529212353,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4323,7 +4323,7 @@
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
+                "description": "Lane 2, Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Road"
@@ -4416,37 +4416,37 @@
     },
     {
       "type": "Feature",
-      "id": 58630,
+      "id": 58699,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.94289337280193,
-          -33.81149868356949
+          151.20308855161983,
+          -33.869036777547514
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - GREYSTANES M4 Motorway approaching Beresford Road",
+        "headline": "CRASH Car, Motorcycle - SYDENY Western Distributor off-ramp to King Street, Sydney",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1589441150757,
+        "created": 1589529188693,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1589442901937,
+        "mainCategory": "Crash",
+        "lastUpdated": 1589529188740,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4455,32 +4455,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car, Motorcycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beresford Road",
+            "crossStreet": "King Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "City bound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
+                "numberOfLanes": "2",
+                "roadType": "Off-ramp"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "to",
+            "mainStreet": "Western Distributor off-ramp",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Greystanes",
+            "suburb": "Sydeny",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58700,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6986311000851,
+          -32.89723419136637
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - CALLAGHAN University Dr at Sunset Boulevard",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589529339800,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1589529339830,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sunset Boulevard",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "University Dr",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Callaghan",
             "trafficVolume": ""
           }
         ]
