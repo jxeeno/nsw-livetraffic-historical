@@ -25287,8 +25287,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0031273616894,
-          -33.80308454749239
+          151.00304153100092,
+          -33.80169376892042
         ]
       },
       "properties": {
@@ -25300,6 +25300,14 @@
         ],
         "headline": "SCHEDULED ROADWORK Parramatta Light Rail - NORTH PARRAMATTA O'Connell Street between Albert St AND Barney St ",
         "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "7:00am",
+            "fromDay": "Saturday",
+            "startTime": "12:00am",
+            "toDay": ""
+          },
           {
             "closureType": "ROAD_CLOSURE",
             "direction": "Both directions",
@@ -25339,6 +25347,30 @@
             "fromDay": "Thursday",
             "startTime": "7:00pm",
             "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "11:59pm",
+            "fromDay": "Friday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Weekend",
+            "startTime": "all day",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "12:00am",
+            "toDay": ""
           }
         ],
         "speedLimit": -1,
@@ -25355,13 +25387,13 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Light rail project",
-        "adviceB": "Use diversions; Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "end": 1590091200000,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use diversions",
+        "end": 1590346800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1589356132120,
-        "otherAdvice": "<p>Barney St will be also closed between Church St and O’Connell St during this time. Local and emergency services access will be maintained.</p>",
+        "lastUpdated": 1589501653750,
+        "otherAdvice": "<p>Barney St will be also closed between Church St and O’Connell St during this time. Local and emergency services access will be maintained.</p><p>This scheduled work and subsequent road closures will remain in place from 7pm Fri 22 May to 5am Mon 25 May inclusive.</p>",
         "arrangementElements": [],
         "diversions": "<p>Northbound: Albert St and Church St. Southbound: Church St, Grose St to return to O'Connell St.&nbsp;<br></p>",
         "additionalInfo": [
@@ -25372,7 +25404,7 @@
           " "
         ],
         "duration": null,
-        "start": 1589637600000,
+        "start": 1589551200000,
         "displayName": "SCHEDULED ROADWORK Parramatta Light Rail",
         "media": [],
         "roads": [
@@ -26854,6 +26886,105 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Lake Hume Village, NSW",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58668,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7124321373566,
+          -33.57299762238454
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Upgrade - NORTH RICHMOND Bells Line of Road between Redbank Rd AND Charles Street ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "3:00pm",
+            "fromDay": "Friday",
+            "startTime": "9:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "3:00pm",
+            "fromDay": "Monday",
+            "startTime": "9:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "3:00pm",
+            "fromDay": "Tuesday",
+            "startTime": "9:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "3:00pm",
+            "fromDay": "Wednesday",
+            "startTime": "9:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589500626360,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Upgrade",
+        "adviceB": "Exercise caution; Check signage",
+        "adviceA": "Reduced speed limit",
+        "end": 1591160400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1589500626423,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.  ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1590674400000,
+        "displayName": "SCHEDULED ROADWORK Upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Redbank Rd",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bells Line of Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": "Charles Street",
+            "suburb": "North Richmond",
             "trafficVolume": ""
           }
         ]
