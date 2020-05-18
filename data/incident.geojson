@@ -4438,17 +4438,22 @@
     },
     {
       "type": "Feature",
-      "id": 58889,
+      "id": 58890,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21136236109925,
-          -33.918660048797356
+          150.87472796518318,
+          -33.501354224696605
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - ZETLAND Southern Cross Dr approaching Link Rd",
+        "webLinks": [
+          {
+            "linkText": "NSW vehicle ferries",
+            "linkURL": "http://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
+          }
+        ],
+        "headline": "FERRY OUT OF SERVICE Maintenance - SACKVILLE Sackville Ferry between Sackville Road AND Sackville Ferry Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4460,16 +4465,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1589834222340,
+        "created": 1589834387223,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Breakdown",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1589834222373,
-        "otherAdvice": " ",
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1589834503437,
+        "otherAdvice": "The ferry is scheduled to be out of service until at least 5pm.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4477,107 +4482,38 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Tow Truck"
+          " "
         ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
+        "encodedPolylines": [
           {
-            "conditionTendency": "",
-            "crossStreet": "Link Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Southern Cross Dr",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Zetland",
-            "trafficVolume": "Moderate"
+            "coords": "x`nkEoqzw[RO??xAgA\\Yz@o@fBsA??`@]TW",
+            "levels": ""
           }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58826,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8883198,
-          -33.9573507
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - CASULA Hume Hwy near Campbelltown Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1589747936510,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1589748132027,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
         ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "FERRY OUT OF SERVICE Maintenance",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Campbelltown Rd",
+            "crossStreet": "Sackville Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Hume Hwy",
+            "locationQualifier": "between",
+            "mainStreet": "Sackville Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Casula",
+            "region": "SYD_WEST",
+            "secondLocation": "Sackville Ferry Road",
+            "suburb": "Sackville",
             "trafficVolume": ""
           }
         ]
@@ -8503,6 +8439,80 @@
             "secondLocation": " ",
             "suburb": "Smithfield",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58889,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21136236109925,
+          -33.918660048797356
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - ZETLAND Southern Cross Dr approaching Link Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589834222340,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1589834648647,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Link Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Southern Cross Dr",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Zetland",
+            "trafficVolume": "Moderate"
           }
         ]
       }
