@@ -4473,14 +4473,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1589840442293,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Multiple vehicles",
         "adviceB": "Allow extra travel time; Exercise caution",
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1589840843303,
+        "lastUpdated": 1589841608447,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4595,37 +4595,37 @@
     },
     {
       "type": "Feature",
-      "id": 58837,
+      "id": 58897,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.09876289807818,
-          -33.697274842921615
+          150.8999015,
+          -33.9428637
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - HORNSBY Bridge Road near Jersey Street",
+        "headline": "CRASH Truck, 7 Cars - CASULA M5 Mwy approaching Hume Hwy",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1589754158063,
-        "isMajor": false,
+        "created": 1589841304830,
+        "isMajor": true,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1589755108400,
+        "mainCategory": "Crash",
+        "lastUpdated": 1589841587413,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4634,33 +4634,108 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Heavy vehicle tow truck",
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, 7 Cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Jersey Street",
-            "delay": "",
+            "crossStreet": "Hume Hwy",
+            "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Bridge Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Hornsby",
-            "trafficVolume": ""
+            "suburb": "Casula",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58898,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21214020171357,
+          -33.91515437459591
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 4 cars - ZETLAND Southern Cross Drive just past Trevilyan Avenue, Rosebery",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1589841309493,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "4 vehicles",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1589841309527,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 4 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Trevilyan Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Southern Cross Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Zetland",
+            "trafficVolume": "Moderate"
           }
         ]
       }
