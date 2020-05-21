@@ -5344,14 +5344,31 @@
       "properties": {
         "webLinks": [],
         "headline": "SCHEDULED ROADWORK Maintenance - GRANVILLE M4 Motorway eastbound on-ramp from James Ruse Drive",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "4:30am",
+            "fromDay": "Thursday",
+            "startTime": "8:30pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "4:30am",
+            "fromDay": "Sunday",
+            "startTime": "8:30pm",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -5364,7 +5381,7 @@
         "end": 1590345000000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1590032270220,
+        "lastUpdated": 1590032363233,
         "otherAdvice": "Only the on-ramp is closing, not the motorway.",
         "arrangementElements": [],
         "diversions": "James Ruse Dr, Parramatta Rd, Silverwater Rd, and Silverwater Rd eastbound on-ramp to M4 Mwy.",
