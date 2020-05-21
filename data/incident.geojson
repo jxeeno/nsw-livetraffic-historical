@@ -5015,7 +5015,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1590100914753,
+        "lastUpdated": 1590102973110,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5209,8 +5209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.174789412,
-          -33.8727288512
+          151.17483903286674,
+          -33.87273998609041
         ]
       },
       "properties": {
@@ -5235,7 +5235,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1590101306447,
+        "lastUpdated": 1590103127407,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5277,17 +5277,17 @@
     },
     {
       "type": "Feature",
-      "id": 59179,
+      "id": 59180,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.31335587255245,
-          -33.42693028663654
+          150.84678978814398,
+          -33.76038654989823
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - WEST GOSFORD Central Coast Highway just past Grieve Close",
+        "headline": "CRASH Truck, Car - ROOTY HILL Woodstock Avenue at M7 Mwy underpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5299,15 +5299,88 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590101752863,
+        "created": 1590102975457,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1590101974997,
+        "mainCategory": "Crash",
+        "lastUpdated": 1590102975487,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M7 Mwy underpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Woodstock Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rooty Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.11112606958923,
+          -33.816654361624856
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Ratchet strap - RYDE Victoria Road approaching Blaxland Ryde",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590103088907,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1590103088940,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5318,31 +5391,31 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "HAZARD Ratchet strap",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Grieve Close",
+            "crossStreet": "Blaxland Ryde",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Central Coast Highway",
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "West Gosford",
-            "trafficVolume": "Moderate"
+            "suburb": "Ryde",
+            "trafficVolume": ""
           }
         ]
       }
@@ -11634,6 +11707,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Chatswood",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.31335587255245,
+          -33.42693028663654
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - WEST GOSFORD Central Coast Highway just past Grieve Close",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590101752863,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590102857027,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Grieve Close",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Central Coast Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "West Gosford",
             "trafficVolume": "Moderate"
           }
         ]
