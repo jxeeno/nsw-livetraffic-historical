@@ -5070,37 +5070,110 @@
     },
     {
       "type": "Feature",
-      "id": 59104,
+      "id": 59105,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20337812019042,
-          -33.868875247339936
+          150.3385405436554,
+          -33.71230451868734
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Western Distributor eastbound off-ramp to King Street",
+        "headline": "CRASH Car - LEURA Great Western Highway at Willow Park Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590043034197,
+        "created": 1590043625530,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1590043627597,
+        "mainCategory": "Crash",
+        "lastUpdated": 1590043625560,
+        "otherAdvice": "There are reports of hail in the area.&nbsp;",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Willow Park Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Leura",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1060251,
+          -33.8102014
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Pedestrian - RYDE Lane Cove Road at Blaxland Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590043742163,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Pedestrian",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1590043964990,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5109,33 +5182,42 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car, Pedestrian",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "King Street",
-            "delay": "",
+            "crossStreet": "Blaxland Road",
+            "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 3, Lane 4",
+                "affectedDirection": "Northbound",
+                "closedLanes": "3",
+                "description": "Lane 2, Lane 3, Lane 4",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
-                "roadType": "Off-ramp"
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "Western Distributor eastbound off-ramp",
+            "locationQualifier": "at",
+            "mainStreet": "Lane Cove Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": ""
+            "suburb": "Ryde",
+            "trafficVolume": "Heavy"
           }
         ]
       }
