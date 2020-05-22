@@ -4943,7 +4943,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1590129663197,
+        "lastUpdated": 1590130514540,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5057,17 +5057,17 @@
     },
     {
       "type": "Feature",
-      "id": 59216,
+      "id": 59217,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6375082724915,
-          -32.92744966329468
+          151.08131144337767,
+          -33.80646718533672
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Van - GLENDALE Main Road approaching Frederick Street",
+        "headline": "CRASH Multiple vehicles - WEST RYDE Victoria Road between Shaftsbury Road and Adelaide Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5079,15 +5079,96 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590129939840,
+        "created": 1590130122533,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1590130406530,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "All eastbound traffic is being diverted into Shaftsbury Rd.",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Shaftsbury Road",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": "Adelaide Street",
+            "suburb": "West Ryde",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.97099686557615,
+          -36.04318965206357
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Plasterboard - THURGOONA Hume Highway just past Thurgoona Drive, Lavington",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590130144490,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Van",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1590129939870,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1590130144537,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5096,32 +5177,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Van",
+        "displayName": "HAZARD Plasterboard",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Frederick Street",
+            "crossStreet": "Thurgoona Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
                 "extent": "Affected",
-                "numberOfLanes": "4",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Main Road",
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Glendale",
+            "suburb": "Thurgoona",
             "trafficVolume": ""
           }
         ]
@@ -10777,6 +10858,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Parramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6375082724915,
+          -32.92744966329468
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - GLENDALE Main Road approaching Frederick Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590129939840,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590130486940,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Frederick Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Affected",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Main Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Glendale",
             "trafficVolume": ""
           }
         ]
