@@ -4586,13 +4586,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.57671920873716,
-          -33.70254023854902
+          150.57674066640928,
+          -33.7024688334357
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - VALLEY HEIGHTS Great Western Highway near Macquarie Road",
+        "headline": "CRASH Car - VALLEY HEIGHTS Great Western Highway between Hawkesbury Road and Green Parade/The Valley Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4609,13 +4609,13 @@
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1590216202880,
-        "otherAdvice": "<p>There are wires down as a result of this crash.</p><p><strong>Heavy vehicles are unable to pass the crash site and must park up.</strong></p>",
+        "lastUpdated": 1590216557973,
+        "otherAdvice": "<p>There are wires down as a result of this crash.<br></p>",
         "arrangementElements": [],
-        "diversions": "<p><strong>&nbsp;</strong></p>",
+        "diversions": "<p><strong>Light vehicles only:</strong><br>Eastbound: Hawkesbury Rd, Macquarie Rd, Tusculum Rd, Green Pde, and return to Great Western Hwy.<br>Westbound: Green Pde, Tusculum Rd, Macquarie Rd, Ferguson Rd, and return to Great Western Hwy.</p><p><strong>Heavy vehicles are being parked.</strong></p>",
         "additionalInfo": [
           " "
         ],
@@ -4625,29 +4625,35 @@
           "Utility Company",
           "Emergency services"
         ],
+        "encodedPolylines": [
+          {
+            "coords": "dvtlEwp_v[R[Va@^i@Zg@JM^i@NUJOZc@\\c@t@{@JKp@q@JIr@m@VQNMb@YDCZSh@YVOLGROPKJKRSNONQPWJSJQJUHSHWFWDUDYFk@@G@Y@Y?S?]Cs@Es@AWEq@IcAOsAKgAc@iEGk@C]AYAS?_@?Q@I@W@W@MFc@DYDUHWFUBIJWHSHQJQLQLQJMPSVWh@g@b@c@NMHIFGXYt@s@HI",
+            "levels": ""
+          }
+        ],
         "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Macquarie Road",
+            "crossStreet": "Hawkesbury Road",
             "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "between",
             "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
-            "secondLocation": " ",
+            "secondLocation": "Green Parade/The Valley Road",
             "suburb": "Valley Heights",
             "trafficVolume": "Heavy"
           }
@@ -4723,6 +4729,79 @@
             "secondLocation": " ",
             "suburb": "Homebush West",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06865574868775,
+          -33.87975620593666
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HOMEBUSH WEST Centenary Drive just past Weeroona Road, Rookwood",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590216277633,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590216277663,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Weeroona Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Homebush West",
+            "trafficVolume": ""
           }
         ]
       }
