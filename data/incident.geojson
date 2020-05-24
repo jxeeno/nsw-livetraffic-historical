@@ -4597,7 +4597,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -4608,14 +4608,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1590301001980,
+        "lastUpdated": 1590301759827,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<strong>Northbound:</strong> Sydney Park Rd, Mitchell Rd, Copeland St, Swanson St and then Erskinville Rd to return to the Princes Hwy. ",
         "additionalInfo": [
           " "
         ],
@@ -4634,11 +4634,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               },
               {
                 "affectedDirection": "Southbound",
@@ -4657,78 +4657,6 @@
             "secondLocation": " ",
             "suburb": "Newtown",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59285,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.24482645679166,
-          -33.688386518760346
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - INGLESIDE Mona Vale Road approaching Kimbriki Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1590214000910,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1590214954513,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Kimbriki Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Mona Vale Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Ingleside",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7642,6 +7570,87 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Royal National Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1813916,
+          -33.9066851
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK Signage repair - NEWTOWN Princes Highway near Lord St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590297475577,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1590301759827,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "<strong>Northbound:</strong> Sydney Park Rd, Mitchell Rd, Copeland St, Swanson St and then Erskinville Rd to return to the Princes Hwy. ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "EMERGENCY ROADWORK Signage repair",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lord St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Newtown",
             "trafficVolume": ""
           }
         ]
