@@ -4582,17 +4582,17 @@
     },
     {
       "type": "Feature",
-      "id": 59346,
+      "id": 59347,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19202635767212,
-          -33.93341552550494
+          150.9729909,
+          -33.7864934
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - MASCOT Joyce Drive at General Holmes Drive",
+        "headline": "CRASH 2 cars - OLD TOONGABBIE Old Windsor Road at Fitzwilliam Road, Toongabbie",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4604,15 +4604,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590345925230,
+        "created": 1590348992133,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": "2 cars",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1590346824733,
+        "mainCategory": "Crash",
+        "lastUpdated": 1590348992167,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4622,32 +4622,40 @@
         "webLinkName": null,
         "attendingGroups": [
           "Transport for NSW",
-          "Emergency services"
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "General Holmes Drive",
+            "crossStreet": "Fitzwilliam Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Affected",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Joyce Drive",
+            "mainStreet": "Old Windsor Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Mascot",
+            "suburb": "Old Toongabbie",
             "trafficVolume": ""
           }
         ]
@@ -7710,6 +7718,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Glenhaven",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59346,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19202635767212,
+          -33.93341552550494
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MASCOT Joyce Drive at General Holmes Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590345925230,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590348999673,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "General Holmes Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Joyce Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
