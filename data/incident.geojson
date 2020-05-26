@@ -4655,8 +4655,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.8357969,
-          -36.8568663
+          149.83689124127804,
+          -36.858308487890945
         ]
       },
       "properties": {
@@ -4681,7 +4681,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1590530121183,
+        "lastUpdated": 1590532986813,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5226,37 +5226,37 @@
     },
     {
       "type": "Feature",
-      "id": 59439,
+      "id": 59521,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.09067515634464,
-          -33.723511625945
+          151.20491963743436,
+          -33.87092828646316
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - NORMANHURST Pennant Hills Road at Dartford Road, Thornleigh",
+        "headline": "BREAKDOWN Bus - SYDNEY Market Street approaching Kent Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590446933800,
+        "created": 1590533408953,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1590447092427,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590533409000,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5265,18 +5265,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Mechanic"
         ],
-        "displayName": "CRASH Truck, Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Dartford Road",
+            "crossStreet": "Kent Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
@@ -5284,14 +5284,86 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Pennant Hills Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Market Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Normanhurst",
+            "suburb": "Sydney",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59522,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1538187564909,
+          -33.93827809069094
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East Motorway approaching the main tunnel exit",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590533445773,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590533445803,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "the main tunnel exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 East Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
+            "trafficVolume": "Moderate"
           }
         ]
       }
