@@ -4811,7 +4811,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -4826,7 +4826,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1590563401973,
+        "lastUpdated": 1590564509907,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4878,7 +4878,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS due to train broken down on level crossing - SCONE Liverpool Street between Muffett Street AND Belmore Street ",
+        "headline": "CHANGED TRAFFIC CONDITIONS due to train broken down on level crossing - SCONE Kelly Street between Muffett Street AND Belmore Street ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4898,7 +4898,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1590563595437,
+        "lastUpdated": 1590564298923,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p>Light vehicles: Liverpool St and Guernsey St, in both directions.</p><p>Heavy vehicles must park up.</p>",
@@ -4933,7 +4933,7 @@
               }
             ],
             "locationQualifier": "between",
-            "mainStreet": "Liverpool Street",
+            "mainStreet": "Kelly Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
@@ -5019,37 +5019,37 @@
     },
     {
       "type": "Feature",
-      "id": 59484,
+      "id": 59555,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.78296435671388,
-          -34.06093945885472
+          151.10347587553255,
+          -33.94946750031606
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - MOUNT ANNAN Narellan Rd near Hume Mwy",
+        "headline": "BREAKDOWN Car - KINGSGROVE Stoney Creek Road approaching Kingsgrove Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590477275910,
+        "created": 1590564029847,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1590477726103,
+        "lastUpdated": 1590564029880,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5058,15 +5058,14 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hume Mwy",
+            "crossStreet": "Kingsgrove Rd",
             "delay": "",
             "impactedLanes": [
               {
@@ -5074,18 +5073,91 @@
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Stoney Creek Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kingsgrove",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59556,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1531187023468,
+          -33.792588365079894
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - NORTH RYDE Delhi Road near Lady Game Drive, Killara",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590564433127,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1590564433160,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lady Game Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "Narellan Rd",
+            "mainStreet": "Delhi Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Mount Annan",
-            "trafficVolume": ""
+            "suburb": "North Ryde",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8849,6 +8921,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Artarmon",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59552,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21564820912323,
+          -33.898310279564846
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MOORE PARK Eastern Distributor approaching Dacey Avenue, Waterloo",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590563219640,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590564509907,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Dacey Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Moore Park",
             "trafficVolume": ""
           }
         ]
