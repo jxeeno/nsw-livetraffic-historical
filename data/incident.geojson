@@ -4655,13 +4655,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0275476,
-          -33.7152663
+          151.02703261586916,
+          -33.71433816643664
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 cars, truck - DURAL New Line Rd at James Henty Drive",
+        "headline": "CRASH 3 cars, truck - DURAL New Line Rd approaching James Henty Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4672,7 +4672,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1590611255073,
         "isMajor": false,
         "name": null,
@@ -4681,7 +4681,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1590611255107,
+        "lastUpdated": 1590612308227,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4700,8 +4700,17 @@
             "conditionTendency": "",
             "crossStreet": "James Henty Drive",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
             "mainStreet": "New Line Rd",
             "quadrant": "",
             "queueLength": 0,
@@ -4715,37 +4724,37 @@
     },
     {
       "type": "Feature",
-      "id": 59505,
+      "id": 59574,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.512191443,
-          -33.2137159074
+          151.21664490393673,
+          -33.874428503373785
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - SAN REMO Pacific Hwy at Goorama Av",
+        "headline": "BREAKDOWN Truck - DARLINGHURST Cross City Tunnel in main tunnel",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590522594957,
+        "created": 1590612226427,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1590525802567,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1590612226473,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4754,32 +4763,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Motorway Crew"
         ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Goorama Av",
+            "crossStreet": "main tunnel",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Tunnel"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Hwy",
+            "locationQualifier": "in",
+            "mainStreet": "Cross City Tunnel",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "San Remo",
+            "suburb": "Darlinghurst",
             "trafficVolume": ""
           }
         ]
