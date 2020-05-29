@@ -4829,8 +4829,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8836418724609,
-          -33.9579035921398
+          150.8826119041992,
+          -33.95749423652241
         ]
       },
       "properties": {
@@ -4851,21 +4851,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1590721669017,
+        "lastUpdated": 1590723454043,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH Car",
         "media": [],
@@ -4877,10 +4876,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -4891,7 +4890,7 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Casula",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -4970,17 +4969,17 @@
     },
     {
       "type": "Feature",
-      "id": 59675,
+      "id": 59676,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16413693824504,
-          -33.945299719508185
+          151.5917740292999,
+          -32.89416155117043
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Water in tunnel - MASCOT M5 East Mwy in Cooks River Tunnel",
+        "headline": "CRASH Truck, Bicycle - CAMERON PARK Pacific Motorway approaching Hunter Expressway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4992,15 +4991,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1590722004607,
+        "created": 1590723333040,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Water on road",
+        "subCategoryA": "Truck, Bicycle",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1590722004640,
+        "mainCategory": "Crash",
+        "lastUpdated": 1590723333073,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5009,32 +5008,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "HAZARD Water in tunnel",
+        "displayName": "CRASH Truck, Bicycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cooks River Tunnel",
+            "crossStreet": "Hunter Expressway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
                 "extent": "Affected",
-                "numberOfLanes": "",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "in",
-            "mainStreet": "M5 East Mwy",
+            "locationQualifier": "approaching",
+            "mainStreet": "Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Mascot",
+            "suburb": "Cameron Park",
             "trafficVolume": ""
           }
         ]
@@ -8662,6 +8662,78 @@
             "secondLocation": " ",
             "suburb": "Rozelle",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59675,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16413693824504,
+          -33.945299719508185
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Water in tunnel - MASCOT M5 East Mwy in Cooks River Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1590722004607,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water on road",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1590723246063,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "HAZARD Water in tunnel",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cooks River Tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "in",
+            "mainStreet": "M5 East Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
+            "trafficVolume": ""
           }
         ]
       }
