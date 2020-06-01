@@ -5214,7 +5214,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591043490623,
+        "lastUpdated": 1591044514807,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5235,11 +5235,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -5250,7 +5258,81 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "St Leonards",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59939,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.83567076158616,
+          -33.88875713125401
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - CECIL HILLS M7 Motorway just past Elizabeth Drive",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591044306693,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Exercise caution; Expect delays",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1591044306740,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Elizabeth Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Cecil Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5540,79 +5622,6 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Blakehurst",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59860,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.85431962327883,
-          -33.79301976102909
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 3 vehicles - EASTERN CREEK Wallgrove Road just past Great Western Highway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1590957420750,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "3 vehicles",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1590957969443,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 3 vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Great Western Highway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Wallgrove Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ]
