@@ -4897,7 +4897,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1591161873887,
+        "lastUpdated": 1591166462983,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4970,7 +4970,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591164144657,
+        "lastUpdated": 1591166173880,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p>Northbound traffic is diverted via Muttama Rd to Cootamundra, Olympic Hwy to Wallendbeen, then Burley Griffin Way through Harden to return to Hume Hwy. Suitable for all vehicles.&nbsp;</p><p>The diversion will add approx 70km to your journey.</p>",
@@ -4997,6 +4997,14 @@
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
@@ -5043,12 +5051,12 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591164746510,
+        "lastUpdated": 1591166082860,
         "otherAdvice": "Alternating (stop/slow) traffic conditions&nbsp; in place.  ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Person trapped"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
@@ -5116,7 +5124,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1591164280610,
+        "lastUpdated": 1591166235930,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5125,6 +5133,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services"
         ],
         "displayName": "BREAKDOWN Truck",
@@ -5188,8 +5197,8 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591164615910,
-        "otherAdvice": " ",
+        "lastUpdated": 1591166116773,
+        "otherAdvice": "There's&nbsp;<strong>no right turn</strong> into Beresford Av for northbound traffic.",
         "arrangementElements": [],
         "diversions": "Rookwood Rd to Hume Hwy.",
         "additionalInfo": [
@@ -5216,6 +5225,14 @@
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -5225,78 +5242,6 @@
             "region": "SYD_SOUTH",
             "secondLocation": "Beresford Avenue",
             "suburb": "Bankstown",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60071,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21368160740965,
-          -33.86131496322927
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - SYDNEY Sydney Harbour Tunnel just past the tunnel entry",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1591163773253,
-        "isMajor": true,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1591165030407,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "the tunnel entry",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Sydney Harbour Tunnel",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
             "trafficVolume": "Heavy"
           }
         ]
@@ -5442,78 +5387,6 @@
             "secondLocation": " ",
             "suburb": "Mosman",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59981,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0957412,
-          -33.7239946
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN B-Double - NORMANHURST Pennant Hills Road at Buckingham Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1591077489530,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "B-Double",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1591079818587,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN B-Double",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Buckingham Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Pennant Hills Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Normanhurst",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10865,6 +10738,78 @@
             "secondLocation": " ",
             "suburb": "Sans Souci",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60071,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21368160740965,
+          -33.86131496322927
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - SYDNEY Sydney Harbour Tunnel just past the tunnel entry",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591163773253,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1591166164533,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "the tunnel entry",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": "Heavy"
           }
         ]
       }
