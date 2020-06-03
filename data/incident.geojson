@@ -5042,7 +5042,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1591158355163,
+        "lastUpdated": 1591160613667,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5162,8 +5162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.5030933334961,
-          -34.800499670248854
+          148.5031791641846,
+          -34.800711108102014
         ]
       },
       "properties": {
@@ -5185,10 +5185,10 @@
         "name": null,
         "subCategoryA": "Truck on fire",
         "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1591160008003,
+        "lastUpdated": 1591160397167,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5224,7 +5224,7 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Berremangra",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5235,13 +5235,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.12314117381896,
-          -33.88026335770838
+          151.12531912753906,
+          -33.87906979441046
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - ASHFIELD Frederick Street near John Street",
+        "headline": "CRASH 2 cars - ASHFIELD Frederick Street between Church Street AND John Street ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5252,16 +5252,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1591159747637,
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591160123423,
+        "lastUpdated": 1591160657613,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5270,6 +5270,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -5278,26 +5279,26 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "John Street",
+            "crossStreet": "Church Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Affected",
-                "numberOfLanes": "",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "between",
             "mainStreet": "Frederick Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
+            "secondLocation": "John Street",
             "suburb": "Ashfield",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5442,6 +5443,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Cobargo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60066,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0603527,
+          -33.7976533
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Fallen tree - ERMINGTON Stewart Street at King Street, Dundas Valley",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591160590190,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1591160590220,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "King Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Stewart Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ermington",
             "trafficVolume": ""
           }
         ]
