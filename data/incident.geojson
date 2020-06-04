@@ -5293,7 +5293,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1591239489363,
+        "lastUpdated": 1591242065210,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5481,17 +5481,17 @@
     },
     {
       "type": "Feature",
-      "id": 60128,
+      "id": 60131,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.10462692023773,
-          -34.01406407254856
+          151.34673721747436,
+          -33.50699337610295
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - SYLVANIA Port Hacking Road near Evelyn Street",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - BOOKER BAY Maitland Bay Drive on Rip Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5503,15 +5503,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1591239777940,
-        "isMajor": false,
+        "created": 1591241819677,
+        "isMajor": true,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Police operation",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1591239778017,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1591242026570,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5520,33 +5520,112 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Truck, Car",
+        "encodedPolylines": [
+          {
+            "coords": "nynkE{pwz[`@|@DHj@~@Xd@j@t@^f@X`@n@z@^f@^d@DFFFZb@p@`AdArAnAbBfAtAFJPTDDBDX^TXn@x@LNV^BB\\j@NVN\\@BL\\Nh@Hf@BL",
+            "levels": ""
+          }
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Evelyn Street",
+            "crossStreet": "Rip Bridge",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Bridge"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Port Hacking Road",
+            "locationQualifier": "on",
+            "mainStreet": "Maitland Bay Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Sylvania",
-            "trafficVolume": ""
+            "suburb": "Booker Bay",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2133929979004,
+          -33.83022965568168
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway northbound off-ramp to Falcon Street, Crows Nest",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591241956653,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1591241956700,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Falcon Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Warringah Freeway northbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -9815,6 +9894,78 @@
             "secondLocation": " ",
             "suburb": "Lansvale",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.10462692023773,
+          -34.01406407254856
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - SYLVANIA Port Hacking Road near Evelyn Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591239777940,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1591241812020,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Evelyn Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Port Hacking Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Sylvania",
+            "trafficVolume": ""
           }
         ]
       }
