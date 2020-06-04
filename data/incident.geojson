@@ -5402,17 +5402,17 @@
     },
     {
       "type": "Feature",
-      "id": 60177,
+      "id": 60180,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.15031948573608,
-          -33.93645469553715
+          147.87320356190185,
+          -34.49969405764671
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East Mwy near Princes Hwy",
+        "headline": "CRASH Truck - STOCKINBINGAL (NORTH WEST OF COOTAMUNDRA) Burley Griffin Way (Hibernia St) near West St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5424,15 +5424,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1591276537373,
+        "created": 1591277313513,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1591276537423,
+        "mainCategory": "Crash",
+        "lastUpdated": 1591277377397,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5441,32 +5441,39 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "encodedPolylines": [
+          {
+            "coords": "ldqqEqope[BFHFJLLDD@VDTBx@LD?",
+            "levels": ""
+          }
+        ],
+        "displayName": "CRASH Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Princes Hwy",
+            "crossStreet": "West St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "M5 East Mwy",
+            "mainStreet": "Burley Griffin Way (Hibernia St)",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Arncliffe",
+            "suburb": "Stockinbingal (north west of Cootamundra)",
             "trafficVolume": ""
           }
         ]
@@ -10258,6 +10265,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Boambee",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15031948573608,
+          -33.93645469553715
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East Mwy near Princes Hwy",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591276537373,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1591277452990,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Princes Hwy",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M5 East Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
             "trafficVolume": ""
           }
         ]
