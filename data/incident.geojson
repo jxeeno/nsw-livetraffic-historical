@@ -5279,7 +5279,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1591308812573,
+        "lastUpdated": 1591310059963,
         "otherAdvice": "There is no access into or out of Sylvan St at Princes Hwy.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5300,10 +5300,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -5465,17 +5465,17 @@
     },
     {
       "type": "Feature",
-      "id": 60208,
+      "id": 60209,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.22674696190182,
-          -33.94545938869563
+          150.86524134550783,
+          -33.88229598862033
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - EASTGARDENS Bunnerong Road just past Wentworth Avenue, Mascot",
+        "headline": "CRASH 3 vehicles - ABBOTSBURY Cowpasture Road just past Elizabeth Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5487,15 +5487,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1591309409843,
+        "created": 1591310346950,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1591309409877,
+        "mainCategory": "Crash",
+        "lastUpdated": 1591310346983,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5504,33 +5504,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wentworth Avenue",
+            "crossStreet": "Elizabeth Drive",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "just past",
-            "mainStreet": "Bunnerong Road",
+            "mainStreet": "Cowpasture Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Eastgardens",
-            "trafficVolume": ""
+            "suburb": "Abbotsbury",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11330,6 +11330,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Leppington",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22674696190182,
+          -33.94545938869563
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - EASTGARDENS Bunnerong Road just past Wentworth Avenue, Mascot",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591309409843,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1591310076217,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wentworth Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Bunnerong Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Eastgardens",
             "trafficVolume": ""
           }
         ]
