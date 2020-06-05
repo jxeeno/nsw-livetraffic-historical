@@ -5354,7 +5354,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1591317445797,
+        "lastUpdated": 1591319298227,
         "otherAdvice": "Sylvan St is closed at Princes Hwy, motorists can access/exit Sylvan St via Holt Rd.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5400,8 +5400,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1875056094154,
-          -33.496765662044744
+          151.1879347628578,
+          -33.49762456580386
         ]
       },
       "properties": {
@@ -5422,11 +5422,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1591317927023,
+        "lastUpdated": 1591319211440,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5462,44 +5462,44 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bar Point",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 60119,
+      "id": 60220,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.07739784966162,
-          -33.94368247264621
+          152.79172090859834,
+          -31.52756760353312
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BEVERLY HILLS M5 Mwy at eastbound off-ramp to King Georges Road",
+        "headline": "CRASH Car, Motorcycle - LAKE INNES Pacific Highway near Houston Mitchell Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1591232113063,
+        "created": 1591318823970,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1591232981150,
+        "mainCategory": "Crash",
+        "lastUpdated": 1591318824017,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5508,34 +5508,107 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew",
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car, Motorcycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "eastbound off-ramp to King Georges Road",
+            "crossStreet": "Houston Mitchell Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Lake Innes",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.23127985819704,
+          -33.87663622762862
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Truck on fire - RUSHCUTTERS BAY New South Head Road approaching New Beach Road, Darling Point",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591318966000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck on fire",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1591318966030,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Truck on fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "New Beach Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "M5 Mwy",
+            "locationQualifier": "approaching",
+            "mainStreet": "New South Head Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Beverly Hills",
-            "trafficVolume": ""
+            "suburb": "Rushcutters Bay",
+            "trafficVolume": "Moderate"
           }
         ]
       }
