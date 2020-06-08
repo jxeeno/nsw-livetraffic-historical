@@ -5868,7 +5868,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy holiday traffic",
-        "lastUpdated": 1591590363637,
+        "lastUpdated": 1591595204597,
         "otherAdvice": "<p><strong>Northbound motorists are advised to allow up to 10 minutes extra travel time.</strong><strong></strong><br></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -6161,8 +6161,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy holiday traffic",
-        "lastUpdated": 1591593849437,
-        "otherAdvice": "<p><strong>Motorists are advised to allow around 15 minutes extra travel time.</strong><br></p>",
+        "lastUpdated": 1591595071923,
+        "otherAdvice": "<p><strong>Motorists are advised to allow around 5 minutes extra travel time.</strong><br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6207,8 +6207,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.652366672052,
-          -36.6643394912287
+          149.71768382598268,
+          -36.64547258983377
         ]
       },
       "properties": {
@@ -6224,7 +6224,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1591591405043,
         "isMajor": false,
         "name": null,
@@ -6233,8 +6233,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591591405077,
-        "otherAdvice": " ",
+        "lastUpdated": 1591595010763,
+        "otherAdvice": "Both directions are closed for a short time for vehicle recovery.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6257,9 +6257,9 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "approximately",
@@ -6378,15 +6378,16 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591594231330,
+        "lastUpdated": 1591594965547,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Person trapped"
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Helicopter",
           "Emergency services"
         ],
         "displayName": "CRASH Multiple vehicles",
@@ -6395,7 +6396,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Both directions",
@@ -6413,7 +6414,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Colo Heights",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -6486,6 +6487,78 @@
             "secondLocation": " ",
             "suburb": "Helensburgh to Heathcote",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60464,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.33952842275392,
+          -35.48488914504042
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - TERMEIL Princes Hwy near Bawley Point Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591595277747,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1591595277793,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bawley Point Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Termeil",
+            "trafficVolume": ""
           }
         ]
       }
