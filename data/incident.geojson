@@ -5007,17 +5007,17 @@
     },
     {
       "type": "Feature",
-      "id": 60505,
+      "id": 60506,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.01838911429445,
-          -33.941597384763156
+          151.1586658870026,
+          -33.927056892524234
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - REVESBY The River Rd above M5 Mwy",
+        "headline": "CRASH Truck, Car - TEMPE Princes Hwy just past Holbeach Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5029,16 +5029,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1591663769440,
+        "created": 1591664725483,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1591663769487,
-        "otherAdvice": "The eastbound off-ramp to The River Rd is also affected.",
+        "lastUpdated": 1591664725513,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5047,18 +5047,26 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Motorway Crew"
+          "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M5 Mwy",
+            "crossStreet": "Holbeach Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5066,14 +5074,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "above",
-            "mainStreet": "The River Rd",
+            "locationQualifier": "just past",
+            "mainStreet": "Princes Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Revesby",
-            "trafficVolume": ""
+            "suburb": "Tempe",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5540,79 +5548,6 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Kosciuszko National Park",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60442,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.85611445717777,
-          -33.78929886686587
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - EASTERN CREEK Great Western Highway below M7 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1591576931347,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1591577997930,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M7 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "below",
-            "mainStreet": "Great Western Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ]
@@ -10325,6 +10260,79 @@
             ],
             "locationQualifier": "near",
             "mainStreet": "The River Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Revesby",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60505,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01838911429445,
+          -33.941597384763156
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - REVESBY The River Rd above M5 Mwy",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591663769440,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1591664422920,
+        "otherAdvice": "The eastbound off-ramp to The River Rd is also affected.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Motorway Crew"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M5 Mwy",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "above",
+            "mainStreet": "The River Rd",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
