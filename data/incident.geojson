@@ -5004,17 +5004,17 @@
     },
     {
       "type": "Feature",
-      "id": 60615,
+      "id": 60616,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.23171141434173,
-          -33.58206224186705
+          151.0002019,
+          -33.8194836
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - MOUNT VICTORIA Great Western Highway approximately 1km east Coxs River Rd",
+        "headline": "BREAKDOWN Truck - PARRAMATTA Great Western Highway at Marsden St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5026,15 +5026,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1591770481333,
+        "created": 1591771242870,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1591770481363,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1591771242920,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5043,33 +5043,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "1km east Coxs River Rd",
+            "crossStreet": "Marsden St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approximately",
+            "locationQualifier": "at",
             "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Mount Victoria",
+            "suburb": "Parramatta",
             "trafficVolume": ""
           }
         ]
@@ -10647,6 +10646,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Mayfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.23171141434173,
+          -33.58206224186705
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - MOUNT VICTORIA Great Western Highway approximately 1km east Coxs River Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1591770481333,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1591771024090,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "1km east Coxs River Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approximately",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Mount Victoria",
             "trafficVolume": ""
           }
         ]
