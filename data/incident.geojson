@@ -4745,7 +4745,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1592086683537,
+        "lastUpdated": 1592088701290,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4819,7 +4819,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1592085530250,
+        "lastUpdated": 1592088712140,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4861,19 +4861,19 @@
     },
     {
       "type": "Feature",
-      "id": 60868,
+      "id": 60869,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.06954743652346,
-          -33.88456393133017
+          151.0536800607132,
+          -33.84994876784564
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - STRATHFIELD Centenary Drive just past Hume Highway",
+        "headline": "BREAKDOWN Truck - LIDCOMBE M4 Motorway near Hill Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -4883,15 +4883,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1592088023453,
+        "created": 1592088686033,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1592088112493,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1592088686093,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4900,105 +4900,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Motorway Crew"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hume Highway",
+            "crossStreet": "Hill Road",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Centenary Drive",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Strathfield",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60806,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.63491172380367,
-          -32.83428873948063
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - BERESFIELD M1 Pacific Motorway approximately 2km before John Renshaw Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1592001465053,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1592002388993,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "2km before John Renshaw Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approximately",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Beresfield",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -8411,6 +8329,79 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Mount Victoria",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60868,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06954743652346,
+          -33.88456393133017
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - STRATHFIELD Centenary Drive just past Hume Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1592088023453,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1592088553987,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hume Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Strathfield",
             "trafficVolume": ""
           }
         ]
