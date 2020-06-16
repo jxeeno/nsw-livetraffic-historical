@@ -4809,7 +4809,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - WENTWORTHVILLE Cumberland approaching Great Western Highway",
+        "headline": "BREAKDOWN Car - WENTWORTHVILLE Cumberland Hwy approaching Great Western Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4825,11 +4825,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1592291506670,
+        "lastUpdated": 1592293020407,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4847,15 +4847,24 @@
             "conditionTendency": "",
             "crossStreet": "Great Western Highway",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Left turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Highway"
+              }
+            ],
             "locationQualifier": "approaching",
-            "mainStreet": "Cumberland",
+            "mainStreet": "Cumberland Hwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Wentworthville",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -4928,6 +4937,78 @@
             "secondLocation": " ",
             "suburb": "Kanahooka",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61031,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93860599154053,
+          -33.72266228720893
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - KELLYVILLE Old Windsor Road approaching Memorial Ave",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1592293178180,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1592293178227,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Memorial Ave",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Old Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Kellyville",
+            "trafficVolume": "Heavy"
           }
         ]
       }
