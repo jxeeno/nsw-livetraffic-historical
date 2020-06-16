@@ -4986,7 +4986,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1592280701897,
+        "lastUpdated": 1592283453063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5100,38 +5100,43 @@
     },
     {
       "type": "Feature",
-      "id": 60931,
+      "id": 61012,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.86237052499396,
-          -33.79968096916486
+          151.101645201,
+          -33.8876568891
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - EASTERN CREEK M4 Mwy just past M7 Mwy",
+        "webLinks": [
+          {
+            "linkText": "Ausgrid",
+            "linkURL": "https://www.ausgrid.com.au/Outages/Power-outages#!?q=-33.88717357510585,151.0972483784619&z=15"
+          }
+        ],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - BURWOOD Hume Hwy at Burwood Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1592195232723,
+        "created": 1592282995187,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1592196882803,
-        "otherAdvice": " ",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1592282995237,
+        "otherAdvice": "<p>A number of other traffic lights are blacked out in the area due to a local power failure. </p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5139,32 +5144,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Utility Company",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M7 Mwy",
+            "crossStreet": "Burwood Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Lanes closed",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M4 Mwy",
+            "locationQualifier": "at",
+            "mainStreet": "Hume Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Eastern Creek",
+            "suburb": "Burwood",
             "trafficVolume": ""
           }
         ]
@@ -5310,78 +5316,6 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Welby",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60930,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.069159783,
-          -33.9581584908
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - PEAKHURST Forest Rd at Stoney Creek Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1592194124877,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1592196840733,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Stoney Creek Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Forest Rd",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Peakhurst",
             "trafficVolume": ""
           }
         ]
