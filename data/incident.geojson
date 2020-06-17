@@ -5042,7 +5042,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1592392203263,
+        "lastUpdated": 1592393090520,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5051,6 +5051,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "BREAKDOWN Truck",
@@ -5084,17 +5085,17 @@
     },
     {
       "type": "Feature",
-      "id": 61122,
+      "id": 61123,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9950776803955,
-          -33.82774404808493
+          151.00788650000004,
+          -34.02386770657579
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - HOLROYD M4 Motorway approaching Pitt Street",
+        "headline": "HAZARD Lost trailer - MENAI New Illawarra Rd slip-lane from Bangor Bypass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5106,15 +5107,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1592392543527,
+        "created": 1592392969030,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
+        "subCategoryA": "Lost load",
+        "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1592392543573,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1592392969077,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5123,105 +5124,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Lost trailer",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pitt Street",
+            "crossStreet": "Bangor Bypass",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Holroyd",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61035,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.08239209734498,
-          -33.95143224895237
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Oil spill - BEXLEY King Georges Rd just past Stoney Creek Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1592294758383,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Oil spill",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1592306253137,
-        "otherAdvice": "Rolling closure to clean-up the oil spill trail.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Oil spill",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Stoney Creek Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "King Georges Rd",
+            "locationQualifier": "from",
+            "mainStreet": "New Illawarra Rd slip-lane",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Bexley",
+            "suburb": "Menai",
             "trafficVolume": ""
           }
         ]
@@ -9949,6 +9877,79 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "South Nowra",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9950776803955,
+          -33.82774404808493
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HOLROYD M4 Motorway approaching Pitt Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1592392543527,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1592392847943,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pitt Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Holroyd",
             "trafficVolume": ""
           }
         ]
