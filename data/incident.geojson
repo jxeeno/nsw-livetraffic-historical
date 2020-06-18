@@ -5024,7 +5024,7 @@
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS due to earlier incident - BEWONG (SOUTH OF NOWRA) Princes Hwy near Bewong Roadhouse, south of The Wool Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 60,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -5038,12 +5038,12 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "(u\\p)",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1592465618873,
-        "otherAdvice": "Speed limit is reduced to 60kph.<br>Work to restore the roadway will resume 7:30am Friday.",
+        "lastUpdated": 1592466338103,
+        "otherAdvice": "Work to restore the highway will resume 7:30am Fri.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5077,7 +5077,7 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Bewong (south of Nowra)",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -5356,57 +5356,57 @@
     },
     {
       "type": "Feature",
-      "id": 61083,
+      "id": 61211,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84348122068485,
-          -33.87700577433072
+          151.07100682910865,
+          -33.8567250914471
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Due to earlier truck fire - CECIL HILLS M7 Mwy near Elizabeth Dr",
+        "headline": "BREAKDOWN Car - HOMEBUSH BAY Homebush Bay Drive above M4 Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1592362581447,
-        "isMajor": true,
+        "created": 1592466165580,
+        "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1592380171370,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1592466165613,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Due to earlier truck fire",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Elizabeth Dr",
+            "crossStreet": "M4 Motorway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5414,14 +5414,87 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M7 Mwy",
+            "locationQualifier": "above",
+            "mainStreet": "Homebush Bay Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Cecil Hills",
-            "trafficVolume": "Heavy"
+            "suburb": "Homebush Bay",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9818512,
+          -33.8179113
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WESTMEAD Great Western Highway at Hawkesbury Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1592466184850,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1592466184897,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hawkesbury Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Westmead",
+            "trafficVolume": ""
           }
         ]
       }
