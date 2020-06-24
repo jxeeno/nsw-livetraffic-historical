@@ -5166,7 +5166,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593040617237,
+        "lastUpdated": 1593041082063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5187,10 +5187,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -5208,17 +5208,17 @@
     },
     {
       "type": "Feature",
-      "id": 61718,
+      "id": 61722,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6355661828033,
-          -32.81401659978878
+          141.4629658,
+          -31.9403593
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Van - BERESFIELD M1 Pacific Motorway approaching John Renshaw Drive",
+        "headline": "testing please ignore - BROKEN HILL Uranium Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5230,15 +5230,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593039755227,
+        "created": 1593041521193,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Van",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1593040741670,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1593041521240,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5247,33 +5247,128 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
-        "displayName": "BREAKDOWN Van",
+        "displayName": "testing please ignore",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "John Renshaw Drive",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Right turn lane",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Uranium Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "REG_WEST",
             "secondLocation": " ",
-            "suburb": "Beresfield",
+            "suburb": "Broken Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61723,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.893515641687,
+          -31.856897492686098
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TEST Please ignore - BROKEN HILL Test - Please ignore",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593041565503,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1593041565533,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "TEST Please ignore",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Please ignore",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Affected",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "1",
+                "description": "Bus lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "Test",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Broken hill",
             "trafficVolume": ""
           }
         ]
@@ -10061,6 +10156,79 @@
             "secondLocation": " ",
             "suburb": "Bexley",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61718,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6355661828033,
+          -32.81401659978878
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - BERESFIELD M1 Pacific Motorway approaching John Renshaw Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593039755227,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593041111683,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "John Renshaw Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Beresfield",
+            "trafficVolume": ""
           }
         ]
       }
