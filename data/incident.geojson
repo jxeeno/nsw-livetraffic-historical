@@ -5151,7 +5151,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -5166,7 +5166,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593036116027,
+        "lastUpdated": 1593039441833,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5218,7 +5218,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH - POINT CLARE Brisbane Water Drive at Jirrah Avenue",
+        "headline": "HAZARD Truck lost load of dirt - POINT CLARE Brisbane Water Drive at Jirrah Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5233,12 +5233,12 @@
         "created": 1593037644517,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Lost load",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593037644563,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1593039376327,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5249,7 +5249,7 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "CRASH",
+        "displayName": "HAZARD Truck lost load of dirt",
         "media": [],
         "roads": [
           {
@@ -5280,17 +5280,17 @@
     },
     {
       "type": "Feature",
-      "id": 61713,
+      "id": 61715,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20501155449216,
-          -33.765204154851375
+          151.14738394498295,
+          -33.8416812929401
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - FORESTVILLE Warringah Road near Valley Road, Killarney Heights",
+        "headline": "HAZARD Ladder - HUNTLEYS POINT Victoria Road on Gladesville Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5302,15 +5302,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593038113407,
+        "created": 1593039265043,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Ladder",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1593038113440,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1593039265090,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5319,32 +5319,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Ladder",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Valley Road",
+            "crossStreet": "Gladesville Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "City bound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": "Bridge"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Warringah Road",
+            "locationQualifier": "on",
+            "mainStreet": "Victoria Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Forestville",
+            "suburb": "Huntleys Point",
             "trafficVolume": ""
           }
         ]
@@ -5418,78 +5419,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Campsie",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61633,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.5264653814758,
-          -35.58853264493201
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Livestock - LITTLE BILLABONG Hume Highway at Little Billabong Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1592950522523,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Livestock",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1592952843790,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Livestock",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Little Billabong Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Little Billabong",
             "trafficVolume": ""
           }
         ]
@@ -9777,6 +9706,78 @@
     },
     {
       "type": "Feature",
+      "id": 61709,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18519431667175,
+          -33.8850501466867
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - GLEBE Parramatta Road approaching Ross St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593036115997,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593039441833,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ross St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Glebe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 61710,
       "geometry": {
         "type": "Point",
@@ -9844,6 +9845,78 @@
             "secondLocation": " ",
             "suburb": "Northmead",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61713,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20501155449216,
+          -33.765204154851375
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - FORESTVILLE Warringah Road near Valley Road, Killarney Heights",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593038113407,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593039170020,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Valley Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Warringah Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Forestville",
+            "trafficVolume": ""
           }
         ]
       }
