@@ -5306,7 +5306,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -5321,7 +5321,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593119413163,
+        "lastUpdated": 1593121789687,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5508,37 +5508,37 @@
     },
     {
       "type": "Feature",
-      "id": 61706,
+      "id": 61807,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.03995564232787,
-          -33.88455738660438
+          151.0186548,
+          -33.9383243
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - LIDCOMBE Joseph Street at Amy Street, Regents Park",
+        "headline": "BREAKDOWN Bus - REVESBY Canterbury Road at The River Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593033788847,
+        "created": 1593121769333,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Bus",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593035318233,
+        "lastUpdated": 1593121769363,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5547,19 +5547,19 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Mechanic"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Amy Street",
+            "crossStreet": "The River Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
@@ -5568,13 +5568,13 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Joseph Street",
+            "mainStreet": "Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Lidcombe",
-            "trafficVolume": "Moderate"
+            "suburb": "Revesby",
+            "trafficVolume": ""
           }
         ]
       }
@@ -11293,6 +11293,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Warnervale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61804,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1432042,
+          -33.9028754
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - DULWICH HILL New Canterbury Road at Lewisham St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593119413133,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593121789687,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lewisham St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "New Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Dulwich Hill",
             "trafficVolume": ""
           }
         ]
