@@ -5175,7 +5175,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1593118063743,
+        "lastUpdated": 1593124440477,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5200,7 +5200,7 @@
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "on",
@@ -5247,7 +5247,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593119036140,
+        "lastUpdated": 1593124550207,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5364,17 +5364,17 @@
     },
     {
       "type": "Feature",
-      "id": 61808,
+      "id": 61810,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.09270519444274,
-          -33.96337644876796
+          151.17941000370482,
+          -33.804989682205715
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - HURSTVILLE King Georges Road at Forest Rd",
+        "headline": "BREAKDOWN Bus - CHATSWOOD Pacific Highway at Mowbray Road, Artarmon",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5386,15 +5386,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593122648700,
+        "created": 1593124398410,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
+        "subCategoryA": "Bus",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593122648760,
+        "lastUpdated": 1593124398440,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5403,32 +5403,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Mechanic",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Forest Rd",
+            "crossStreet": "Mowbray Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Hurstville",
+            "suburb": "Chatswood",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61811,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87608884788514,
+          -34.446033690545875
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - SPRING HILL Spring Hill Road near Masters Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593124847573,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593124847603,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Masters Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Spring Hill Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Spring Hill",
             "trafficVolume": ""
           }
         ]
@@ -11219,6 +11292,78 @@
             "secondLocation": " ",
             "suburb": "Bondi Junction",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61808,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09193271824645,
+          -33.96362560475857
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HURSTVILLE Forest Rd at King Georges Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593122648700,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593124776513,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "King Georges Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Forest Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Hurstville",
+            "trafficVolume": "Heavy"
           }
         ]
       }
