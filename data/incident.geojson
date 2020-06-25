@@ -4942,7 +4942,7 @@
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS - PARKESBOURNE Hume Highway on Wollogorang Creek Bridge",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": 60,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -4960,8 +4960,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1593038614567,
-        "otherAdvice": "The lane closure and reduced speed limit will remain in place due to damage to the road surface.",
+        "lastUpdated": 1593059300657,
+        "otherAdvice": "The lane closure and reduced speed limit will remain in place overnight due to damage to the road surface.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5467,7 +5467,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593058252727,
+        "lastUpdated": 1593059524017,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5586,13 +5586,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.89092912684475,
-          -33.89317432495752
+          150.89108469496762,
+          -33.893181004291165
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BONNYRIGG Cabramatta Road West just past Tarlington Parade",
+        "headline": "CRASH 2 cars - BONNYRIGG Cabramatta Road West near Tarlington Parade",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5612,7 +5612,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593058965950,
+        "lastUpdated": 1593059592847,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5621,6 +5621,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -5639,9 +5640,17 @@
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "near",
             "mainStreet": "Cabramatta Road West",
             "quadrant": "",
             "queueLength": 0,
@@ -5722,6 +5731,78 @@
             "secondLocation": " ",
             "suburb": "Paddington",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61755,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.324148699,
+          -33.4849345134
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Motorcycle - WOY WOY Brisbane Water Dr (Railway St) at Blackwall Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593059472147,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1593059572030,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car, Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Blackwall Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Brisbane Water Dr (Railway St)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Woy Woy",
+            "trafficVolume": "Heavy"
           }
         ]
       }
