@@ -5099,11 +5099,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593064150643,
+        "lastUpdated": 1593065123167,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5112,6 +5112,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -5121,7 +5122,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Balmain Rd",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
@@ -5139,7 +5140,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Leichhardt",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5245,21 +5246,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593064509297,
+        "lastUpdated": 1593065084147,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -5270,20 +5270,12 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Highway"
-              },
-              {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Highway"
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
@@ -5330,7 +5322,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1593064269990,
+        "lastUpdated": 1593065082277,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5339,6 +5331,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services"
         ],
         "displayName": "BREAKDOWN Truck",
@@ -5352,9 +5345,9 @@
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -5437,79 +5430,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Koolewong",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61764,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1424489,
-          -33.9032776
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Pedestrian - DULWICH HILL New Canterbury Road at Dulwich St",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1593064107173,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Pedestrian",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593064107203,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Pedestrian",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Dulwich St",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "New Canterbury Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Dulwich Hill",
             "trafficVolume": ""
           }
         ]
@@ -10746,6 +10666,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Frenchs Forest",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61764,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1424489,
+          -33.9032776
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Pedestrian - DULWICH HILL New Canterbury Road at Dulwich St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593064107173,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Pedestrian",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1593064965313,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Pedestrian",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Dulwich St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "New Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Dulwich Hill",
             "trafficVolume": ""
           }
         ]
