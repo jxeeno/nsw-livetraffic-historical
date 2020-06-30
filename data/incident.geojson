@@ -5077,7 +5077,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1593505884403,
+        "lastUpdated": 1593508392493,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5124,13 +5124,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0844958,
-          -33.7772103
+          151.08451725767213,
+          -33.77812883562323
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - EPPING Blaxland Road at Maida Road",
+        "headline": "CRASH 2 cars - EPPING Blaxland Road between Maida Road AND Brigg Rd ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5150,7 +5150,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593507973587,
+        "lastUpdated": 1593508308963,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Maida Rd, Essex St, Brigg Rd.",
@@ -5171,29 +5171,94 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
-              },
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Blaxland Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
-            "secondLocation": " ",
+            "secondLocation": "Brigg Rd",
             "suburb": "Epping",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7527502800578,
+          -33.783058904129646
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CLAREMONT MEADOWS M4 Motorway near Kent Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593508507677,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593508507707,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kent Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Claremont Meadows",
             "trafficVolume": ""
           }
         ]
