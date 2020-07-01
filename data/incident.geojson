@@ -5220,11 +5220,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593579513787,
+        "lastUpdated": 1593580947033,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5440,19 +5440,19 @@
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593580142470,
+        "lastUpdated": 1593580806163,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -5464,10 +5464,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -5478,45 +5478,50 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rozelle",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 62125,
+      "id": 62235,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.37886641963266,
-          -36.37566643891341
+          150.87472796518318,
+          -33.501354224696605
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - GUTHEGA Guthega Road at Guthega Ski resort",
+        "webLinks": [
+          {
+            "linkText": "NSW vehicle ferries",
+            "linkURL": "http://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
+          }
+        ],
+        "headline": "FERRY OUT OF SERVICE Breakdown - SACKVILLE Sackville Ferry between Sackville Road AND Sackville Ferry Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593485761377,
+        "created": 1593580874107,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Breakdown",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593494477910,
-        "otherAdvice": " ",
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1593580874153,
+        "otherAdvice": "The ferry will be out of service until further notice.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5524,34 +5529,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW",
-          "Emergency services"
+          "Mechanic"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "FERRY OUT OF SERVICE Breakdown",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Guthega Ski resort",
+            "crossStreet": "Sackville Road",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Guthega Road",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Sackville Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Guthega",
+            "region": "SYD_WEST",
+            "secondLocation": "Sackville Ferry Road",
+            "suburb": "Sackville",
             "trafficVolume": ""
           }
         ]
