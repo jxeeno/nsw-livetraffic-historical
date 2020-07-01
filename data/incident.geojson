@@ -5217,14 +5217,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1593578441440,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Truck",
         "adviceB": "Allow extra travel time",
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593580947033,
+        "lastUpdated": 1593581636363,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5242,7 +5242,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Muir Rd",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
@@ -5277,7 +5277,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Paint spill - COWAN Pacific Hwy near M1 Pacific Mwy",
+        "headline": "HAZARD Oil spill - COWAN Pacific Hwy near M1 Pacific Mwy",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5292,12 +5292,12 @@
         "created": 1593579363670,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Fuel spill",
+        "subCategoryA": "Oil spill",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1593579363700,
+        "lastUpdated": 1593581529390,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5309,7 +5309,7 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Paint spill",
+        "displayName": "HAZARD Oil spill",
         "media": [],
         "roads": [
           {
@@ -5318,11 +5318,11 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Affected",
-                "numberOfLanes": "",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -5333,79 +5333,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Cowan",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62233,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2782492,
-          -33.8610873
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Bicycle - VAUCLUSE Old South Head Road near Diamond Bay Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1593579572727,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Bicycle",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593579572773,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Truck, Bicycle",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Diamond Bay Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Old South Head Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Vaucluse",
             "trafficVolume": ""
           }
         ]
@@ -5516,14 +5443,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Breakdown",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Use an alternative route",
+        "adviceB": "Use an alternative route; Allow extra travel time",
+        "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1593580874153,
+        "lastUpdated": 1593581246947,
         "otherAdvice": "The ferry will be out of service until further notice.&nbsp;",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "West Portland Rd and River Rd.",
         "additionalInfo": [
           " "
         ],
@@ -5546,6 +5473,78 @@
             "region": "SYD_WEST",
             "secondLocation": "Sackville Ferry Road",
             "suburb": "Sackville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62236,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.009892,
+          -33.7312287
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - CASTLE HILL Old Northern Road near McMullen Ave",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593581453467,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593581453500,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "McMullen Ave",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Old Northern Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Castle Hill",
             "trafficVolume": ""
           }
         ]
@@ -5619,78 +5618,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Cowan",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62140,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.92827392559312,
-          -33.94025933123314
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD mattress - MOOREBANK M5 Motorway approaching Moorebank Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1593494674677,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593494929067,
-        "otherAdvice": "In lane 3.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "HAZARD mattress",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Moorebank Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M5 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ]
@@ -11046,6 +10973,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Revesby",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2782492,
+          -33.8610873
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Bicycle - VAUCLUSE Old South Head Road near Diamond Bay Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593579572727,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Bicycle",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1593581571597,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, Bicycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Diamond Bay Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Old South Head Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Vaucluse",
             "trafficVolume": ""
           }
         ]
