@@ -5501,7 +5501,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -5516,7 +5516,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1593748984203,
+        "lastUpdated": 1593750541643,
         "otherAdvice": "All vehicles are in the median island. Delays are back to the M5 Mwy.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5784,17 +5784,17 @@
     },
     {
       "type": "Feature",
-      "id": 62435,
+      "id": 62437,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1213537764068,
-          -33.69449972895117
+          150.87774732750856,
+          -33.94648165776033
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH WAHROONGA M1 Pacific Mwy at Big Dipper",
+        "headline": "CRASH Truck, Car - PRESTONS M7 Mwy at Kurrajong Rd, Casula",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5806,15 +5806,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593749463473,
-        "isMajor": false,
+        "created": 1593750069693,
+        "isMajor": true,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1593749463520,
+        "mainCategory": "Crash",
+        "lastUpdated": 1593750372800,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5823,50 +5823,52 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Transport for NSW",
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Big Dipper",
-            "delay": "",
+            "crossStreet": "Kurrajong Rd",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Shoulder",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M1 Pacific Mwy",
+            "mainStreet": "M7 Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "North Wahroonga",
-            "trafficVolume": ""
+            "suburb": "Prestons",
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 62436,
+      "id": 62438,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.686300902,
-          -33.8340027004
+          151.08299077303633,
+          -33.6623957489764
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - COWRA Kendal St at Lachlan St",
+        "headline": "BREAKDOWN Campervan - GALSTON Galston Rd in Galston Gorge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5878,15 +5880,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1593749806953,
+        "created": 1593750202873,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1593749806983,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593750202920,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5895,18 +5897,19 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "BREAKDOWN Campervan",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lachlan St",
+            "crossStreet": "Galston Gorge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5914,13 +5917,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Kendal St",
+            "locationQualifier": "in",
+            "mainStreet": "Galston Rd",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Cowra",
+            "suburb": "Galston",
             "trafficVolume": ""
           }
         ]
@@ -5990,152 +5993,6 @@
             "secondLocation": " ",
             "suburb": "Carrathool Shire Council",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62317,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9553554116394,
-          -33.758560675718606
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 4 vehicles - BAULKHAM HILLS Old Windsor Rd at Seven Hills Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1593662112300,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "4 vehicles",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593663687557,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 4 vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Seven Hills Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 4",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Old Windsor Rd",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Baulkham Hills",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62319,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0856613,
-          -33.9552023
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - PENSHURST King Georges Road at Warwick St",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1593663151173,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1593663878903,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Warwick St",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Penshurst",
-            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -11922,6 +11779,223 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Padstow",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62429,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8502213857666,
+          -33.993398475801996
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - INGLEBURN Hume Motorway just past Brooks Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593746398413,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1593750541643,
+        "otherAdvice": "All vehicles are in the median island. Delays are back to the M5 Mwy.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Brooks Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Ingleburn",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62435,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1213537764068,
+          -33.69449972895117
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH WAHROONGA M1 Pacific Mwy at Big Dipper",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593749463473,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1593750083787,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Big Dipper",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Wahroonga",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62436,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.686300902,
+          -33.8340027004
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - COWRA Kendal St at Lachlan St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1593749806953,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1593750465233,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lachlan St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Kendal St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Cowra",
             "trafficVolume": ""
           }
         ]
