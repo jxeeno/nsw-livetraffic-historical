@@ -5832,7 +5832,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -5847,7 +5847,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1594109537253,
+        "lastUpdated": 1594110530403,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5890,37 +5890,37 @@
     },
     {
       "type": "Feature",
-      "id": 62732,
+      "id": 62824,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8600966518774,
-          -34.380240425934176
+          151.2169413761963,
+          -33.89222815585616
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CATARACT M1 Princes Motorway (Mount Ousley Road) near Clive Bissell Dr",
+        "headline": "CRASH 2 cars - MOORE PARK Eastern Distributor approaching Cleveland Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1594023425777,
+        "created": 1594110140777,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1594023808767,
+        "mainCategory": "Crash",
+        "lastUpdated": 1594110140823,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5929,34 +5929,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Clive Bissell Dr",
+            "crossStreet": "Cleveland Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Motorway"
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M1 Princes Motorway (Mount Ousley Road)",
+            "locationQualifier": "approaching",
+            "mainStreet": "Eastern Distributor",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Cataract",
-            "trafficVolume": ""
+            "suburb": "Moore Park",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11316,6 +11315,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Orchard Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62823,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16220197514647,
+          -33.8102904175541
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 4 vehicles - LANE COVE NORTH Epping Road at Tantallon Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1594109537207,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "4 vehicles",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1594110530403,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 4 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Tantallon Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Epping Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Lane Cove North",
             "trafficVolume": ""
           }
         ]
