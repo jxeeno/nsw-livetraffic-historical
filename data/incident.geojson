@@ -6882,8 +6882,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1594169467430,
-        "otherAdvice": "<strong>It is planned to close lane 1 of 2 (lane 2) westbound shortly.</strong>",
+        "lastUpdated": 1594170558923,
+        "otherAdvice": "<strong></strong>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6900,7 +6900,16 @@
             "conditionTendency": "",
             "crossStreet": "Main Tunnel Entrance",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "just past",
             "mainStreet": "M5 East Motorway",
             "quadrant": "",
@@ -6919,13 +6928,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6513478683006,
-          -33.06970510913634
+          151.6133463309776,
+          -33.149202152584785
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car has lost caravan - CATHERINE HILL BAY Pacific Highway just past Awabakal Avenue, Blacksmiths",
+        "headline": "HAZARD Car has lost caravan - CATHERINE HILL BAY Pacific Highway just past Awabakal Drive, Nords Wharf",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6945,7 +6954,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1594169422713,
+        "lastUpdated": 1594170247063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6961,7 +6970,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Awabakal Avenue",
+            "crossStreet": "Awabakal Drive",
             "delay": "",
             "impactedLanes": [
               {
@@ -13145,6 +13154,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Johns River",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62879,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0379309,
+          -33.9250395
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN - BANKSTOWN Fairford Road at Stacey Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1594169888450,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1594170317060,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Stacey Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Fairford Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bankstown",
             "trafficVolume": ""
           }
         ]
