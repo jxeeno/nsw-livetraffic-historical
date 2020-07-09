@@ -7865,8 +7865,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.03861717745437,
-          -33.78613041149333
+          151.0385313467659,
+          -33.78605907593843
         ]
       },
       "properties": {
@@ -7891,10 +7891,10 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1594281903173,
+        "lastUpdated": 1594282436457,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "No diversion information is available at this stage.",
         "additionalInfo": [
           " "
         ],
@@ -7910,7 +7910,24 @@
             "conditionTendency": "",
             "crossStreet": "Tintern Avenue",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Pennant Hills Road",
             "quadrant": "",
@@ -7918,7 +7935,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Carlingford",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7991,78 +8008,6 @@
             "secondLocation": " ",
             "suburb": "Greystanes",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62928,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21275480370483,
-          -33.84870990423537
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Van - MILSONS POINT Sydney Harbour Bridge near Northern Toll Plaza",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1594195177453,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Van",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1594195747040,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Van",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Northern Toll Plaza",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 6",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Sydney Harbour Bridge",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Milsons Point",
-            "trafficVolume": ""
           }
         ]
       }
