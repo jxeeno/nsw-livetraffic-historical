@@ -2848,7 +2848,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1595399079177,
+        "lastUpdated": 1595401878920,
         "otherAdvice": "<p>The NSW Government has imposed restrictions on movements to/from Victoria as a result of the coronavirus pandemic.</p><p><strong>Motorists approaching this checkpoint must present a valid Border Crossing Permit to enter NSW. Locals are advised to use Lincoln Causeway.</strong></p><p><strong>Traffic volumes and operational requirements at checkpoints will cause delays. Please allow plenty of additional travel time to cross the Victorian-NSW border, particularly during peak periods.</strong></p><p>Transport for NSW is continuing to work closely with NSW Health, NSW Police and industry on a number of important issues including freight operations and logistics.</p><p>Visit&nbsp;<a href=\"http://www.health.nsw.gov.au\" target=\"_blank\">health.nsw.gov.au</a>&nbsp;for more details.</p><p><strong>OSOM operators should call 131 700 prior to arriving at border checkpoints so access can be arranged.</strong></p><ul><li>Most checkpoints have width restrictions which require movement of barriers before proceeding.</li><li>Calling ahead to seek instructions will reduce delays for all motorists.&nbsp;</li><li>OSOM operators are asked to be patient and follow direction of NSW Police and Transport for NSW officers.</li></ul><p><strong></strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -3208,7 +3208,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1595398469563,
+        "lastUpdated": 1595401861973,
         "otherAdvice": "<p>The NSW Government has imposed restrictions on movements to/from Victoria as a result of the coronavirus pandemic.</p><p><strong>Motorists approaching this checkpoint must present a vali</strong><strong>d Border Crossing Permit to enter NSW.</strong></p><p><strong>Traffic volumes and operational requirements at checkpoints will cause delays. Please allow plenty of additional travel time to cross the Victorian-NSW border, particularly during peak periods.</strong></p><p>Transport for NSW is continuing to work closely with NSW Health, NSW Police and industry on a number of important issues including freight operations and logistics.</p><p>Visit&nbsp;<a href=\"http://www.health.nsw.gov.au\" target=\"_blank\">health.nsw.gov.au</a>&nbsp;for more details.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -8802,7 +8802,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1595401350097,
+        "lastUpdated": 1595402270960,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8821,7 +8821,24 @@
             "conditionTendency": "",
             "crossStreet": "Riverview Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Henry Lawson Drive",
             "quadrant": "",
@@ -8830,78 +8847,6 @@
             "secondLocation": " ",
             "suburb": "Padstow Heights",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 64108,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1100037016052,
-          -34.00915591341926
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - SYLVANIA Princes Highway near Yeran Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1595400147287,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1595401672090,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Yeran Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Sylvania",
-            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -9010,8 +8955,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1595400936500,
-        "otherAdvice": " ",
+        "lastUpdated": 1595402180897,
+        "otherAdvice": "Northbound traffic is particularly heavy.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9045,7 +8990,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Mulgoa",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14092,6 +14037,78 @@
             "secondLocation": " ",
             "suburb": "Bomaderry",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1100037016052,
+          -34.00915591341926
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SYLVANIA Princes Highway near Yeran Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595400147287,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1595401845687,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Yeran Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Sylvania",
+            "trafficVolume": "Moderate"
           }
         ]
       }
