@@ -8776,8 +8776,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.03516684428024,
-          -33.940447465690625
+          151.03555308237839,
+          -33.940402961483024
         ]
       },
       "properties": {
@@ -8795,23 +8795,23 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1595394086607,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": null,
-        "adviceB": " ",
+        "adviceB": "Exercise caution",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1595396292347,
-        "otherAdvice": " ",
+        "lastUpdated": 1595396527730,
+        "otherAdvice": "Traffic is particularly heavy westbound.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Motorway Crew"
         ],
         "displayName": "EMERGENCY ROADWORK",
         "media": [],
@@ -8823,10 +8823,18 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -8910,6 +8918,78 @@
             "secondLocation": " ",
             "suburb": "Carlingford",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99755620867614,
+          -33.828132406034555
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HOLROYD M4 Motorway just past Church Street on-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595396636343,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1595396636373,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Church Street on-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Holroyd",
+            "trafficVolume": "Moderate"
           }
         ]
       }
