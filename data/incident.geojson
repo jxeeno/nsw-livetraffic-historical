@@ -1356,7 +1356,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1595469421127,
+        "lastUpdated": 1595470980927,
         "otherAdvice": "<p>Persons may enter Queensland subject to obtaining a&nbsp;<a href=\"https://www.qld.gov.au/border-pass/queensland-border-declaration-pass-july-10\" target=\"_blank\">Queensland Border Declaration Pass</a>&nbsp;and undertaking to present for a COVID-19 test if they develop symptoms.<br></p><p><strong>There are restrictions on entry for people who are from, or have recently been to a COVID-19 Hotspot; check the website before travelling or attempting to obtain a Border Declaration Pass:</strong>&nbsp;<a href=\"https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/hotspots-covid-19\" target=\"_blank\">https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/hotspots-covid-19</a></p><p><strong>Traffic volumes and operational requirements at checkpoints will cause delays. Please allow plenty of additional travel time to cross the NSW-Queensland border, particularly during peak periods.</strong></p><p>Heavy vehicles entering Queensland must hold and display a Queensland border pass. For more information: <a href=\"https://www.qld.gov.au/border-pass-confirmation\">https://www.qld.gov.au/border-pass-confirmation</a>.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -8664,7 +8664,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1595467955687,
+        "lastUpdated": 1595471190297,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8857,17 +8857,17 @@
     },
     {
       "type": "Feature",
-      "id": 64187,
+      "id": 64189,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.69122385135816,
-          -32.90511581111502
+          151.00113838224505,
+          -33.827437533326794
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - JESMOND Newcastle Road just past Main Rd",
+        "headline": "BREAKDOWN Truck - HOLROYD Church Street Off-Ramp from M4 Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8879,15 +8879,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1595470677947,
+        "created": 1595471107117,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
+        "subCategoryA": "Truck",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1595470677977,
+        "lastUpdated": 1595471107147,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8896,33 +8896,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic",
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Main Rd",
+            "crossStreet": "M4 Motorway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
+                "numberOfLanes": "4",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Newcastle Road",
+            "locationQualifier": "from",
+            "mainStreet": "Church Street Off-Ramp",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Jesmond",
+            "suburb": "Holroyd",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.18675917233887,
+          -34.46195967117476
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WOMBAT Olympic Highway near Koepang Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595471331737,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1595471331770,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Koepang Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Olympic Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Wombat",
             "trafficVolume": ""
           }
         ]
@@ -15318,6 +15390,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "North Richmond",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.69122385135816,
+          -32.90511581111502
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - JESMOND Newcastle Road just past Main Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595470677947,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1595471442503,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Main Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Newcastle Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Jesmond",
             "trafficVolume": ""
           }
         ]
