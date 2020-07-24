@@ -8960,11 +8960,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1595561663367,
+        "lastUpdated": 1595562774853,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8982,7 +8982,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Clive Bissel Drive",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
@@ -8996,7 +8996,7 @@
             "locationQualifier": "at",
             "mainStreet": "M1 Princes Motorway",
             "quadrant": "",
-            "queueLength": 0,
+            "queueLength": 5,
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Cataract",
@@ -9007,17 +9007,17 @@
     },
     {
       "type": "Feature",
-      "id": 64266,
+      "id": 64270,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9293836968201,
-          -33.92751115201324
+          151.0404679,
+          -33.7852668
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - LIVERPOOL Newbridge Road approaching Speed Street",
+        "headline": "CRASH 2 cars - CARLINGFORD Pennant Hills Road at Carlingford Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9029,15 +9029,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1595561267303,
+        "created": 1595562517867,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1595561267333,
+        "mainCategory": "Crash",
+        "lastUpdated": 1595562517900,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9046,34 +9046,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Speed Street",
+            "crossStreet": "Carlingford Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Newbridge Road",
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Liverpool",
-            "trafficVolume": "Heavy"
+            "suburb": "Carlingford",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12896,6 +12896,79 @@
             "secondLocation": " ",
             "suburb": "Wentworthville",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9293836968201,
+          -33.92751115201324
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - LIVERPOOL Newbridge Road approaching Speed Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595561267303,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1595562707367,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Speed Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Newbridge Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Liverpool",
+            "trafficVolume": "Heavy"
           }
         ]
       }
