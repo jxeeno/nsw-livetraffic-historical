@@ -9126,7 +9126,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1595799104967,
+        "lastUpdated": 1595801034530,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9145,7 +9145,16 @@
             "conditionTendency": "",
             "crossStreet": "2km South of Lyons Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Kings Highway",
             "quadrant": "",
@@ -9186,14 +9195,14 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Fallen tree",
-        "adviceB": "Avoid the area",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1595800835303,
-        "otherAdvice": " ",
+        "lastUpdated": 1595801241700,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
         "arrangementElements": [],
-        "diversions": "No diversion information is available at this stage.",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -9214,7 +9223,7 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
@@ -9227,6 +9236,78 @@
             "secondLocation": " ",
             "suburb": "Luddenham",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64513,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.68820488598328,
+          -33.74993307013999
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK - PENRITH Mulgoa Road between Jane Street AND High Street ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595801337277,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1595801337310,
+        "otherAdvice": "1 of 4 lanes (lane 1) is closed westbound on Jane Street.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "EMERGENCY ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jane Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Mulgoa Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": "High Street",
+            "suburb": "Penrith",
+            "trafficVolume": "Heavy"
           }
         ]
       }
