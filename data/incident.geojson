@@ -8921,7 +8921,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1595978094917,
+        "lastUpdated": 1595980601960,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8989,12 +8989,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Police are directing traffic",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1595979094200,
-        "otherAdvice": " ",
+        "lastUpdated": 1595980558657,
+        "otherAdvice": "<p>The eastbound right turn lane into Frederick St is closed.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9002,6 +9002,8 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
+          "Motorway Crew",
           "Transport for NSW"
         ],
         "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
@@ -9017,6 +9019,14 @@
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
@@ -9039,13 +9049,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9960712100174,
-          -33.784141626264606
+          150.99622141372222,
+          -33.78366901613044
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Semi trailer - NORTHMEAD Windsor Road approximately 1km north of Cumberland Highway",
+        "headline": "BREAKDOWN Semi trailer - NORTHMEAD Windsor Road approximately 1km north of James Ruse Dr",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9065,7 +9075,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1595979574683,
+        "lastUpdated": 1595980418523,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9082,11 +9092,11 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "1km north of Cumberland Highway",
+            "crossStreet": "1km north of James Ruse Dr",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -9102,6 +9112,79 @@
             "secondLocation": " ",
             "suburb": "Northmead",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64740,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.84159048499149,
+          -34.37537570690794
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck - CORDEAUX Picton Road at 1km east of Mount Keira Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1595981056877,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1595981056910,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "1km east of Mount Keira Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Picton Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Cordeaux",
+            "trafficVolume": ""
           }
         ]
       }
