@@ -9024,22 +9024,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1596178084163,
+        "lastUpdated": 1596178258857,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew",
-          "Emergency services",
-          "Heavy vehicle tow truck"
+          " "
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
@@ -9051,10 +9049,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -9072,17 +9070,17 @@
     },
     {
       "type": "Feature",
-      "id": 64940,
+      "id": 64941,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.05591625612794,
-          -34.065550025141015
+          151.21363869206542,
+          -33.86153769053776
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH - LOFTUS/ROYAL NATIONAL PARK Farnell Avenue/Audley Road",
+        "headline": "CRASH 2 cars - SYDNEY Sydney Harbour Tunnel at entrance",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9093,16 +9091,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1596177407183,
+        "isInitialReport": false,
+        "created": 1596178261127,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1596177407213,
+        "lastUpdated": 1596178661090,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9111,23 +9109,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "displayName": "CRASH",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "entrance",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "-",
-            "mainStreet": "Farnell Avenue/Audley Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Sydney Harbour Tunnel",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Loftus/Royal National Park",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
@@ -13748,6 +13755,69 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Tempe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64940,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05591625612794,
+          -34.065550025141015
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - LOFTUS/ROYAL NATIONAL PARK Farnell Avenue/Audley Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1596177407183,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1596178286133,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "-",
+            "mainStreet": "Farnell Avenue/Audley Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Loftus/Royal National Park",
             "trafficVolume": ""
           }
         ]
