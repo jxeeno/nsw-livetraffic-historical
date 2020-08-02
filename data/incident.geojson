@@ -8866,7 +8866,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -8881,7 +8881,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1596337090597,
+        "lastUpdated": 1596339977540,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9021,11 +9021,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1596339358410,
+        "lastUpdated": 1596339709180,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9034,6 +9034,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "CRASH 3 vehicles",
@@ -9060,45 +9061,50 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rhodes",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 64992,
+      "id": 65076,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.82744406681212,
-          -34.01234335077461
+          153.11508053409875,
+          -29.494579951900462
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - ST ANDREWS Hume Motorway near St Andrews Road",
+        "webLinks": [
+          {
+            "linkText": "Lawrence - Bluff Point Ferry",
+            "linkURL": "https://www.rms.nsw.gov.au/projects/northern-ferries/bluff-point-ferry.html"
+          }
+        ],
+        "headline": "FERRY OUT OF SERVICE Breakdown - LAWRENCE Bluff Point Ferry",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1596243718460,
+        "created": 1596339929803,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Breakdown",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1596253131127,
-        "otherAdvice": " ",
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1596339929850,
+        "otherAdvice": "Reduced capacity due to the larger of the two vessels is currently out of service due to mechanical inspection.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9106,32 +9112,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Mechanic"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "FERRY OUT OF SERVICE Breakdown",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "St Andrews Road",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Hume Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Bluff Point Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "St Andrews",
+            "suburb": "Lawrence",
             "trafficVolume": ""
           }
         ]
@@ -12607,6 +12614,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Hurstville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65073,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17003020439907,
+          -33.59779439275344
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN Pacific Highway near Glendale Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1596334640963,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596339977540,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Glendale Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
             "trafficVolume": ""
           }
         ]
