@@ -8751,7 +8751,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - ACACIA GARDENS Westlink M7 at 2km West of Sunnyholt Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - ACACIA GARDENS M7 Motorway at 2km West of Sunnyholt Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8766,12 +8766,12 @@
         "created": 1596485137677,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": "Police operation",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1596485137723,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1596486599717,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8783,31 +8783,103 @@
           "Motorway Crew",
           "Emergency services"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "2km West of Sunnyholt Road",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "City bound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 4,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Acacia Gardens",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16777658462524,
+          -33.94658187915746
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KYEEMAGH M5 East Motorway approaching General Holmes Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1596486588747,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596486588793,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "General Holmes Drive",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Westlink M7",
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 East Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Acacia Gardens",
-            "trafficVolume": ""
+            "suburb": "Kyeemagh",
+            "trafficVolume": "Heavy"
           }
         ]
       }
