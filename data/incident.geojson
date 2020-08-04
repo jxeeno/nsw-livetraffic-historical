@@ -8461,7 +8461,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - TWEED HEADS Pacific Mwy - south of Tugun tunnel",
+        "headline": "CRASH 2 cars - TWEED HEADS M1 Pacific Mwy - south of Tugun tunnel",
         "periods": [],
         "speedLimit": 80,
         "webLinkUrl": null,
@@ -8481,7 +8481,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1596572416893,
+        "lastUpdated": 1596573241697,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p>Southbound: Cordyline Drive then Kennedy Drive to rejoin the Pacific Motorway.<br></p><p><strong>This diversion is suitable for all vehicles.</strong></p>",
@@ -8512,7 +8512,7 @@
               }
             ],
             "locationQualifier": "-",
-            "mainStreet": "Pacific Mwy",
+            "mainStreet": "M1 Pacific Mwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
@@ -8627,7 +8627,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1596572996630,
+        "lastUpdated": 1596573293020,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8650,10 +8650,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -8664,7 +8664,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "South Wentworthville",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -8697,21 +8697,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution; Expect delays",
-        "adviceA": "Use an alternative route",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1596572126757,
+        "lastUpdated": 1596573077923,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -8725,9 +8724,9 @@
                 "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -8738,78 +8737,6 @@
             "secondLocation": " ",
             "suburb": "Campsie",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 65304,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1381955296387,
-          -33.79785930489012
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH RYDE Epping Road approaching Pittwater Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1596572195363,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1596572195397,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Pittwater Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Epping Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "North Ryde",
-            "trafficVolume": ""
           }
         ]
       }
@@ -13781,6 +13708,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Calga",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1381955296387,
+          -33.79785930489012
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH RYDE Epping Road approaching Pittwater Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1596572195363,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596573343290,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pittwater Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Epping Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Ryde",
             "trafficVolume": ""
           }
         ]
