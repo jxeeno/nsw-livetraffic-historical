@@ -8544,7 +8544,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -8559,7 +8559,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1596529345507,
+        "lastUpdated": 1596530230303,
         "otherAdvice": "All lanes are now open on the M4 Mwy and on the off-ramp.",
         "arrangementElements": [],
         "diversions": " ",
@@ -8673,37 +8673,37 @@
     },
     {
       "type": "Feature",
-      "id": 65135,
+      "id": 65278,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.07953113339312,
-          -35.62899157001335
+          151.2180837,
+          -33.8745969
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS due to earlier car fire - NELLINGEN Kings Highway",
+        "headline": "BREAKDOWN Car - DARLINGHURST William Street at Bourke Street, Surry Hills",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1596424516257,
+        "created": 1596529986973,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
+        "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1596443688147,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596529987003,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8712,34 +8712,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Local Council",
-          "Emergency services",
-          "Crime Scene"
+          "NRMA"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS due to earlier car fire",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Bourke Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "William Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Darlinghurst",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0981714,
+          -33.6971699
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HORNSBY Bridge Rd at Peats Ferry Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1596530072037,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596530072083,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Peats Ferry Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Highway"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "-",
-            "mainStreet": "Kings Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Bridge Rd",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Nellingen",
+            "suburb": "Hornsby",
             "trafficVolume": ""
           }
         ]
@@ -13263,6 +13334,78 @@
             "secondLocation": " ",
             "suburb": "Narwee",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01720809936523,
+          -33.82917865881529
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - GRANVILLE James Ruse Drive westbound on-ramp to M4 Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1596526366403,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596530230303,
+        "otherAdvice": "All lanes are now open on the M4 Mwy and on the off-ramp.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M4 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "James Ruse Drive westbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Granville",
+            "trafficVolume": "Heavy"
           }
         ]
       }
