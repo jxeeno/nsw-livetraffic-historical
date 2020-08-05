@@ -8468,7 +8468,7 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": "Routes 560, 562, and 575 are diverting away from the area.&nbsp;Visit transportnsw.info to plan your trip on public transport.",
+        "publicTransport": "Routes 560, 562, and 575 are delayed up to 30 minutes.&nbsp;Visit transportnsw.info to plan your trip on public transport.",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
@@ -8481,7 +8481,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1596599328047,
+        "lastUpdated": 1596601460153,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p><strong>Southbound: </strong>There is no access to Ryde Rd from Mona Vale Rd or the Pacific Highway. Traffic is&nbsp;being diverted onto the Pacific Highway.<strong></strong><br></p>",
@@ -8751,17 +8751,17 @@
     },
     {
       "type": "Feature",
-      "id": 65358,
+      "id": 65359,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.01968694802397,
-          -33.83398508307498
+          150.9371874,
+          -33.8084436
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CLYDE M4 Motorway near James Ruse Drive on-ramp",
+        "headline": "CRASH 2 cars - GREYSTANES Greystanes Road at Great Western Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8773,15 +8773,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1596600617297,
+        "created": 1596601340587,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "2 cars",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1596600617343,
+        "mainCategory": "Crash",
+        "lastUpdated": 1596601340633,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8790,32 +8790,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "James Ruse Drive on-ramp",
+            "crossStreet": "Great Western Highway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Greystanes Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Clyde",
+            "suburb": "Greystanes",
             "trafficVolume": ""
           }
         ]
@@ -14172,6 +14173,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Granville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65358,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01968694802397,
+          -33.83398508307498
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CLYDE M4 Motorway near James Ruse Drive on-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1596600617297,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1596601504187,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive on-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
