@@ -8805,8 +8805,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1596754611333,
-        "otherAdvice": "Expected to remain this way until Mon 17 Aug 2020.",
+        "lastUpdated": 1597099918987,
+        "otherAdvice": "Will remain this way until further notice.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -16773,7 +16773,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1597098010513,
+        "lastUpdated": 1597099815677,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16815,19 +16815,19 @@
     },
     {
       "type": "Feature",
-      "id": 65998,
+      "id": 65999,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6680597042297,
-          -33.020199574809986
+          151.01825969070245,
+          -33.829380827827656
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BELMONT NORTH Pacific Hwy near Park Street",
+        "headline": "HAZARD milk crate - CLYDE M4 Mwy near James Ruse Drive, Rosehill",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -16836,16 +16836,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1597099398983,
+        "isInitialReport": false,
+        "created": 1597099790777,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1597099399033,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1597099790827,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16854,33 +16854,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Motorway Crew"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "HAZARD milk crate",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Park Street",
+            "crossStreet": "James Ruse Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "Pacific Hwy",
+            "mainStreet": "M4 Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Belmont North",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
@@ -22292,6 +22291,78 @@
             "secondLocation": " ",
             "suburb": "Lane Cove North",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65998,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6680597042297,
+          -33.020199574809986
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BELMONT NORTH Pacific Hwy near Park Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1597099398983,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1597099742890,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Park Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Belmont North",
+            "trafficVolume": ""
           }
         ]
       }
