@@ -16347,7 +16347,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1597033622570,
+        "lastUpdated": 1597037066820,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16935,7 +16935,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1597035188370,
+        "lastUpdated": 1597037130360,
         "otherAdvice": "Traffic signals are blacked out at this location.&nbsp;",
         "arrangementElements": [],
         "diversions": "Light vehicles via Cumberland Street and Cooper Street. Heavy vehicles via Snape Street, South Avenue, Darwin Street, Wollombi Road.&nbsp;",
@@ -16979,17 +16979,22 @@
     },
     {
       "type": "Feature",
-      "id": 65962,
+      "id": 65963,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.80554963482666,
-          -34.05425081893688
+          150.59965101349178,
+          -34.86012013194739
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Tyre debris - WOODBINE Hume Motorway approaching Narellan Road",
+        "webLinks": [
+          {
+            "linkText": "Shoalhaven City Council road closures",
+            "linkURL": "https://www.shoalhaven.nsw.gov.au/Emergencies/Road-Closures"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS due to flooding - BOMADERRY Princes Highway at Bolong Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -17001,16 +17006,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1597036341337,
+        "created": 1597036877157,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Tyre debris",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1597036341370,
-        "otherAdvice": " ",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1597037042303,
+        "otherAdvice": "There is no access to Bolong Rd from the highway.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -17018,32 +17023,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Local Council"
         ],
-        "displayName": "HAZARD Tyre debris",
+        "displayName": "CHANGED TRAFFIC CONDITIONS due to flooding",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Narellan Road",
+            "crossStreet": "Bolong Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Hume Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Woodbine",
+            "suburb": "Bomaderry",
             "trafficVolume": ""
           }
         ]
@@ -25022,6 +25027,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Homebush West",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65962,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.80554963482666,
+          -34.05425081893688
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Tyre debris - WOODBINE Hume Motorway approaching Narellan Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1597036341337,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Tyre debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1597037093307,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Tyre debris",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Narellan Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Woodbine",
             "trafficVolume": ""
           }
         ]
