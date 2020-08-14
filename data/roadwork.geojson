@@ -14395,10 +14395,10 @@
         "end": 1598810400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1596431052187,
+        "lastUpdated": 1597399684197,
         "otherAdvice": "<p>This is in conjunction with the Picton Rd closure.<br></p>",
         "arrangementElements": [],
-        "diversions": "<p>Detour via Memorial Dr and Bulli Pass, which will add around 10 minutes to your travel time.</p><p>There is no detour for vehicles over 19m - they will have to park up until the motorway reopens.</p>",
+        "diversions": "<p>Detour via Memorial Dr and Bulli Pass, which will add around 15 minutes to your travel time.</p><p>There is no detour for vehicles over 19m - they will have to park up until the motorway reopens.</p>",
         "additionalInfo": [
           " "
         ],
@@ -14449,7 +14449,15 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "direction": "Both directions",
+            "direction": "Eastbound",
+            "finishTime": "4:00am",
+            "fromDay": "Sunday",
+            "startTime": "7:30pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "direction": "Westbound",
             "finishTime": "4:00am",
             "fromDay": "Sunday",
             "startTime": "8:00pm",
@@ -14475,7 +14483,7 @@
         "end": 1598810400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1596431008147,
+        "lastUpdated": 1597399894880,
         "otherAdvice": "This is in conjunction with the&nbsp;M1 Princes Mwy (Mount Ousley Rd) between Bulli Tops and Memorial Dr closure.",
         "arrangementElements": [],
         "diversions": "<p>Motorists travelling between Wollongong and the Hume Mwy will be detoured via Memorial Dr, Bulli Pass and Appin Rd, and should allow up to 40 minutes additional travel time. </p><p>Light vehicles can also use Broughton Pass between Appin Rd and Picton Rd.</p>",
@@ -23782,6 +23790,89 @@
             "region": "SYD_WEST",
             "secondLocation": "The Northern Rd",
             "suburb": "Orchard Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66329,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21031919101566,
+          -33.86347042012606
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - Sewer - SYDNEY Bridge Street between Pitt Street AND Young Street ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "11:59pm",
+            "fromDay": "Saturday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "",
+            "fromDay": "Sunday",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1597399330157,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time; Check signage",
+        "adviceA": "Exercise caution",
+        "end": 1597500000000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1597399330250,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1597413600000,
+        "displayName": "SCHEDULED ROADWORK - Sewer",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pitt Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bridge Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": "Young Street",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
