@@ -15411,10 +15411,10 @@
         "name": null,
         "subCategoryA": "2 trucks",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1598251722877,
+        "lastUpdated": 1598252757957,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15433,7 +15433,16 @@
             "conditionTendency": "",
             "crossStreet": "Sydney Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Great Western Highway",
             "quadrant": "",
@@ -15522,17 +15531,17 @@
     },
     {
       "type": "Feature",
-      "id": 67086,
+      "id": 67087,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.05599989422603,
-          -34.02561705845395
+          150.42912225822758,
+          -34.44595761267431
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SUTHERLAND River Road approaching Linden Road",
+        "headline": "CRASH Car - MITTAGONG Old Hume Highway near Gibbergunyah Creek",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -15544,15 +15553,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1598252206977,
+        "created": 1598253219187,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1598252207010,
+        "mainCategory": "Crash",
+        "lastUpdated": 1598253219217,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15561,33 +15570,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Tow Truck"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Linden Road",
+            "crossStreet": "Gibbergunyah Creek",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "River Road",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Old Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Sutherland",
+            "suburb": "Mittagong",
             "trafficVolume": ""
           }
         ]
@@ -15661,156 +15660,6 @@
             "secondLocation": "Oberon township",
             "suburb": "Hampton to Oberon",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67017,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.86534955236206,
-          -34.39510082828586
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - MOUNT PLEASANT M1 Princes Motorway (Mount Ousley Road) just past New Mount Pleasant Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1598165603550,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1598166101510,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "New Mount Pleasant Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "M1 Princes Motorway (Mount Ousley Road)",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Mount Pleasant",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67005,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.12251751915747,
-          -33.599950195112676
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "NSW vehicle ferries",
-            "linkURL": "http://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
-          }
-        ],
-        "headline": "HEAVY TRAFFIC - BEROWRA WATERS Bay Road and Berowra Waters Road approaching Berowra Waters Ferry",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1598154123447,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Heavy traffic",
-        "lastUpdated": 1598166438980,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "HEAVY TRAFFIC",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Berowra Waters Ferry",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Bay Road and Berowra Waters Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Berowra Waters",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -20006,6 +19855,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Woolloomooloo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67086,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05599989422603,
+          -34.02561705845395
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SUTHERLAND River Road approaching Linden Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598252206977,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1598252359207,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Linden Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "River Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Sutherland",
             "trafficVolume": ""
           }
         ]
