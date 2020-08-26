@@ -15384,7 +15384,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1598423730933,
+        "lastUpdated": 1598426158673,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15426,17 +15426,17 @@
     },
     {
       "type": "Feature",
-      "id": 67259,
+      "id": 67260,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0862063,
-          -33.9256044
+          150.9859778475928,
+          -33.94396960749414
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BELMORE Canterbury Road near Kingsgrove Road, Kingsgrove",
+        "headline": "CRASH Truck, Car - MILPERRA M5 Motorway near Henry Lawson Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -15448,15 +15448,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1598425033480,
+        "created": 1598425461547,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1598425033513,
+        "mainCategory": "Crash",
+        "lastUpdated": 1598425461593,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15465,33 +15465,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Motorway Crew",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Kingsgrove Road",
+            "crossStreet": "Henry Lawson Drive",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "Canterbury Road",
+            "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Belmore",
-            "trafficVolume": ""
+            "suburb": "Milperra",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -15713,79 +15714,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Pyrmont",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67163,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.09631141401675,
-          -33.68315957303116
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - HORNSBY HEIGHTS Galston Road at Bushlands Avenue, Springfield",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1598335402080,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1598339686757,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bushlands Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Galston Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Hornsby Heights",
             "trafficVolume": ""
           }
         ]
@@ -20906,6 +20834,78 @@
             "secondLocation": " ",
             "suburb": "Maldon",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0862063,
+          -33.9256044
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BELMORE Canterbury Road near Kingsgrove Road, Kingsgrove",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598425033480,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1598425689783,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kingsgrove Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Belmore",
+            "trafficVolume": ""
           }
         ]
       }
