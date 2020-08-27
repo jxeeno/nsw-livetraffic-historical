@@ -15512,7 +15512,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic signals",
-        "lastUpdated": 1598494099763,
+        "lastUpdated": 1598496106280,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15547,7 +15547,7 @@
             "region": "SYD_NORTH",
             "secondLocation": "Cabramatta Road",
             "suburb": "Cremorne",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -15690,17 +15690,17 @@
     },
     {
       "type": "Feature",
-      "id": 67327,
+      "id": 67328,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.99644475767212,
-          -33.81869844401231
+          151.0987235,
+          -33.9705772
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - PARRAMATTA Great Western Highway at Pitt Street, Holroyd",
+        "headline": "HAZARD Lost load - HURSTVILLE King Georges Road near Hilcrest Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -15712,15 +15712,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1598495554910,
+        "created": 1598495733717,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Lost load",
+        "adviceB": "Reduce your speed; Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1598495554943,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1598495733763,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15732,31 +15732,39 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "HAZARD Lost load",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pitt Street",
+            "crossStreet": "Hilcrest Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
+            "locationQualifier": "near",
+            "mainStreet": "King Georges Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Parramatta",
-            "trafficVolume": "Moderate"
+            "suburb": "Hurstville",
+            "trafficVolume": ""
           }
         ]
       }
@@ -21675,6 +21683,79 @@
             "secondLocation": " ",
             "suburb": "Brookvale",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99644475767212,
+          -33.81869844401231
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - PARRAMATTA Great Western Highway at Pitt Street, Holroyd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598495554910,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1598496147013,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pitt Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Parramatta",
+            "trafficVolume": "Moderate"
           }
         ]
       }
