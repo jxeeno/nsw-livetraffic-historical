@@ -8732,7 +8732,7 @@
         "adviceA": "Stay away",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1597435673780,
+        "lastUpdated": 1598580051107,
         "otherAdvice": "<p>The road will remain closed until further notice. For further information, please call Kiama Council on (02) 4232 0444.</p>",
         "arrangementElements": [],
         "diversions": "Illawarra Hwy can be used as an alternative route.",
@@ -8815,7 +8815,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1597620840313,
+        "lastUpdated": 1598580035540,
         "otherAdvice": "<p>The following roads are closed to all vehicles:<br></p><ul><li>Wallaby Rd</li><li>Gainsborough Rd</li><li>Heywoods Rd</li><li>Merrinbong Rd between Pineview Rd and Ewenmar Rd</li><li>Raeburn Lane between Wyanga Rd and Sharkeys Lane</li></ul><p>For an update on local road closures please contact Narromine Shire Council’s office on (02) 6889 9999 or go to their <a href=\"https://www.narromine.nsw.gov.au/residents/road-conditions\" target=\"_blank\">website</a>.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -15329,17 +15329,17 @@
     },
     {
       "type": "Feature",
-      "id": 67404,
+      "id": 67408,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.88784988465576,
-          -34.4879526363408
+          150.5877444,
+          -34.9833307
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - WARRAWONG King Street at Northcliff",
+        "headline": "CRASH Motorcycle - FALLS CREEK Princes Highway at Jervis Bay Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -15351,15 +15351,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1598574989870,
+        "created": 1598580380137,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Motorcycle",
+        "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1598574989917,
+        "mainCategory": "Crash",
+        "lastUpdated": 1598580380167,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15368,34 +15368,178 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Heavy vehicle tow truck"
+          "Emergency services"
+        ],
+        "displayName": "CRASH Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jervis Bay Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Falls Creek",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67410,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.04808222278444,
+          -33.75854350230017
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - CARLINGFORD M2 Motorway off-ramp to Pennant Hills Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598580814303,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1598580814337,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Northcliff",
+            "crossStreet": "Pennant Hills Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M2 Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Carlingford",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67411,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.64887641583394,
+          -32.81028969720632
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - TARRO John Renshaw Drive at New England Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598581017110,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1598581017157,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "New England Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "King Street",
+            "mainStreet": "John Renshaw Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Warrawong",
-            "trafficVolume": ""
+            "suburb": "Tarro",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -20753,6 +20897,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Minchinbury",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.88784988465576,
+          -34.4879526363408
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - WARRAWONG King Street at Northcliff",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598574989870,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1598580144427,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Northcliff",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "King Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Warrawong",
             "trafficVolume": ""
           }
         ]
