@@ -14424,7 +14424,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1599018412010,
+        "lastUpdated": 1599029203617,
         "otherAdvice": "George St will remain closed at this location until further notice.&nbsp;",
         "arrangementElements": [],
         "diversions": "<p>Moree St, Walker St and Narrabri St in both directions.&nbsp;</p>",
@@ -14467,17 +14467,17 @@
     },
     {
       "type": "Feature",
-      "id": 67831,
+      "id": 67835,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21490204973756,
-          -33.96167031663005
+          151.2131004325409,
+          -33.91097408694155
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HEAVY TRAFFIC - PORT BOTANY Botany Road at Foreshore Road",
+        "headline": "BREAKDOWN Car - ZETLAND Southern Cross Drive near Link Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14489,15 +14489,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1599027076057,
+        "created": 1599029488663,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Expect delays",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Heavy traffic",
-        "lastUpdated": 1599028638267,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1599029488710,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14506,34 +14506,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Emergency services",
+          "Motorway Crew"
         ],
-        "displayName": "HEAVY TRAFFIC",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Foreshore Road",
-            "delay": "Significant",
+            "crossStreet": "Link Rd",
+            "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Botany Road",
+            "locationQualifier": "near",
+            "mainStreet": "Southern Cross Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Port Botany",
-            "trafficVolume": "Heavy"
+            "suburb": "Zetland",
+            "trafficVolume": ""
           }
         ]
       }
@@ -20600,6 +20600,79 @@
             "secondLocation": " ",
             "suburb": "Auburn",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67831,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21490204973756,
+          -33.96167031663005
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HEAVY TRAFFIC - PORT BOTANY Botany Road at Foreshore Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599027076057,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Heavy traffic",
+        "lastUpdated": 1599029392173,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HEAVY TRAFFIC",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Foreshore Road",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Botany Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Port Botany",
+            "trafficVolume": "Heavy"
           }
         ]
       }
