@@ -14497,7 +14497,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1599017290177,
+        "lastUpdated": 1599019206930,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14569,7 +14569,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1599017264700,
+        "lastUpdated": 1599019163160,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14684,30 +14684,30 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - CARLINGFORD Pennant Hills Rd near Marsden Rd",
+        "headline": "CRASH 2 cars - CARLINGFORD Pennant Hills Rd just past Marsden Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": " ",
+        "publicTransport": "Route 625 buses to Parramatta are diverting via North Rocks Rd and Jenkins Rd. 6 stops are being missed",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1599019014407,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Use an alternative route; Allow extra travel time",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1599019014453,
+        "lastUpdated": 1599020192583,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Southbound motorists can use Marsden Rd, Kissing Point Rd and then James Ruse Dr to return to Pennant Hills Rd.&nbsp;",
         "additionalInfo": [
           " "
         ],
@@ -14722,18 +14722,26 @@
           {
             "conditionTendency": "",
             "crossStreet": "Marsden Rd",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "just past",
             "mainStreet": "Pennant Hills Rd",
             "quadrant": "",
             "queueLength": 0,
@@ -14741,6 +14749,78 @@
             "secondLocation": " ",
             "suburb": "Carlingford",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67819,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.215939,
+          -33.879826
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - DARLINGHURST Oxford Street near Palmer Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599020248267,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1599020248313,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Palmer Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Oxford Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Darlinghurst",
+            "trafficVolume": ""
           }
         ]
       }
