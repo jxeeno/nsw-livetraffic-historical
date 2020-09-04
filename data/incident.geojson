@@ -14554,7 +14554,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1599253723387,
         "isMajor": false,
         "name": null,
@@ -14563,7 +14563,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1599253723433,
+        "lastUpdated": 1599255295190,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14582,7 +14582,16 @@
             "conditionTendency": "",
             "crossStreet": "Epsom Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "Newbridge Road",
             "quadrant": "",
@@ -14597,17 +14606,17 @@
     },
     {
       "type": "Feature",
-      "id": 68085,
+      "id": 68087,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2118235306885,
-          -33.92269947753924
+          151.26478443992005,
+          -33.61528727129619
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ROSEBERY Southern Cross Drive just past Gardeners Road",
+        "headline": "HAZARD Fallen tree - KU-RING-GAI CHASE West Head Road between General San Martin Drive AND West Head Lookout ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14619,15 +14628,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1599253886900,
+        "created": 1599254886267,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Fallen tree",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1599253886947,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1599254886297,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14638,30 +14647,102 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
+        "displayName": "HAZARD Fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "General San Martin Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "West Head Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": "West Head Lookout",
+            "suburb": "Ku-Ring-Gai Chase",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68088,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0180909801872,
+          -33.82954830604113
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CLYDE M4 Motorway above Arthur Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599255272410,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1599255272440,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gardeners Road",
+            "crossStreet": "Arthur Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
-                "extent": "Affected",
-                "numberOfLanes": "3",
-                "roadType": "Road"
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Southern Cross Drive",
+            "locationQualifier": "above",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Rosebery",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
@@ -14735,78 +14816,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Mungindi (north of Moree)",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67965,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.710258966,
-          -33.7680359128
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - PENRITH Parker St at Smith St",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1599164961720,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1599168577903,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Smith St",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Parker St",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Penrith",
             "trafficVolume": ""
           }
         ]
@@ -22328,6 +22337,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Granville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68085,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2119683699753,
+          -33.9227217342721
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ROSEBERY Southern Cross Drive just past Gardeners Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599253886900,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1599255376097,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gardeners Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Southern Cross Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Rosebery",
             "trafficVolume": ""
           }
         ]
