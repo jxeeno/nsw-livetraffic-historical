@@ -14563,15 +14563,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1599354527743,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "(u\\p)",
         "adviceB": " ",
         "adviceA": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1599357259390,
-        "otherAdvice": "The Audley picnic areas are nearly full.",
+        "lastUpdated": 1599359450743,
+        "otherAdvice": "The Audley picnic areas are full.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -14675,17 +14675,17 @@
     },
     {
       "type": "Feature",
-      "id": 68171,
+      "id": 68172,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.11121279101565,
-          -33.93599553691214
+          151.1120710979004,
+          -33.93619136538845
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - KINGSGROVE M5 Motorway at Bexley Rd",
+        "headline": "CRASH 2 cars - KINGSGROVE Bexley Road at M5 East Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14697,16 +14697,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1599358945000,
+        "created": 1599359242520,
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1599358945047,
-        "otherAdvice": " ",
+        "lastUpdated": 1599359242550,
+        "otherAdvice": "The eastbound off-ramp from the M5 East Motorway is also affected.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -14715,33 +14715,106 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Motorway Crew"
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bexley Rd",
+            "crossStreet": "M5 East Motorway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "City bound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Affected",
-                "numberOfLanes": "3",
-                "roadType": "Off-ramp"
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M5 Motorway",
+            "mainStreet": "Bexley Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Kingsgrove",
-            "trafficVolume": "Moderate"
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.82193166146857,
+          -33.791162466210466
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - EASTERN CREEK M4 Motorway at Archbold Road Overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599359392833,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1599359392880,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Archbold Road Overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
+            "trafficVolume": ""
           }
         ]
       }
@@ -18522,6 +18595,79 @@
             "secondLocation": " ",
             "suburb": "Edgeworth",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.11121279101565,
+          -33.93599553691214
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - KINGSGROVE M5 Motorway at Bexley Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599358945000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1599359279087,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bexley Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Affected",
+                "numberOfLanes": "3",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kingsgrove",
+            "trafficVolume": "Moderate"
           }
         ]
       }
