@@ -13103,81 +13103,6 @@
     },
     {
       "type": "Feature",
-      "id": 67676,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.47922617116393,
-          -34.622499063944616
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK Maintenance - AVOCA Sheepwash Rd near Walkers Lane, Kangaroo Valley",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "direction": "Both directions",
-            "finishTime": "3:00pm",
-            "fromDay": "Monday",
-            "startTime": "9:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1598886003757,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceB": "Exercise caution; Check signage",
-        "adviceA": "Reduced speed limit",
-        "end": 1600059600000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1599875787367,
-        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place. Motorists are advised to allow around five minutes extra travel time.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1600005600000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Walkers Lane",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Sheepwash Rd",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Avoca",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 67700,
       "geometry": {
         "type": "Point",
@@ -17246,12 +17171,21 @@
       "properties": {
         "webLinks": [
           {
-            "linkText": "WestConnex Rozelle Interchange work notifications",
+            "linkText": "WestConnex Rozelle Interchange",
             "linkURL": "https://www.westconnex.com.au/document-library/"
           }
         ],
         "headline": "SCHEDULED ROADWORK Pedestrian bridge removal - ROZELLE City West Link eastbound underpass to Anzac Bridge",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Eastbound",
+            "finishTime": "7:00am",
+            "fromDay": "Saturday",
+            "startTime": "12:01am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -17271,10 +17205,10 @@
         "end": 1600462800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1600059163357,
-        "otherAdvice": "<p>Changed\ntraffic conditions will be in place at the intersection of Victoria Rd and The\nCrescent, with one lane maintained in each direction and traffic\ncontrol on-site. </p><p>Access to and\nfrom James Craig Rd will also be maintained. </p>",
+        "lastUpdated": 1600060071000,
+        "otherAdvice": "<p>The City-West Link eastbound lanes via the Victoria Rd underpass to the Anzac Bridge will be closed to allow for the final stage removal of the pedestrian and cyclist Beatrice Bush Bridge.</p><p>Changed traffic conditions will be in place at the intersection of Victoria Rd and The Crescent, with one lane maintained in each direction and traffic control on-site. </p><p>Access to and from James Craig Rd will also be maintained. </p>",
         "arrangementElements": [],
-        "diversions": "Motorists will be diverted onto the Victoria Rd eastbound on-ramp to access Anzac Bridge.",
+        "diversions": "Motorists travelling to the city from the City-West Link will be diverted onto the Victoria Rd eastbound on-ramp to access Anzac Bridge.",
         "additionalInfo": [
           " "
         ],
@@ -25097,6 +25031,81 @@
             "region": "SYD_NORTH",
             "secondLocation": "Cahill Expressway",
             "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67676,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.47922617116393,
+          -34.622499063944616
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Maintenance - AVOCA Sheepwash Rd near Walkers Lane, Kangaroo Valley",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "direction": "Both directions",
+            "finishTime": "3:00pm",
+            "fromDay": "Monday",
+            "startTime": "9:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1598886003757,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceB": "Exercise caution; Check signage",
+        "adviceA": "Reduced speed limit",
+        "end": 1600059600000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1600059657097,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place. Motorists are advised to allow around five minutes extra travel time.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1600005600000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Walkers Lane",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Sheepwash Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Avoca",
             "trafficVolume": ""
           }
         ]
