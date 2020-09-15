@@ -14562,7 +14562,7 @@
         "headline": "CHANGED TRAFFIC CONDITIONS The Northern Rd upgrade stage 3 - GLENMORE PARK The Northern Road at M4 Motorway",
         "periods": [
           {
-            "closureType": "ROAD_CLOSURE",
+            "closureType": "LANE_CLOSURE",
             "direction": "All directions",
             "finishTime": "9:00am",
             "fromDay": "Saturday",
@@ -14589,10 +14589,10 @@
         "end": 1600556400000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1600142108547,
-        "otherAdvice": "<p>The Northern Road/ M4 Motorway interchange will be switched to the ultimate alignment at 8am Sunday, 20 September 2020. This includes the ramps to and from the M4 Motorway.</p><ul><li>The Northern Rd northbound lanes will be shifted to the west</li><li>Right turn lanes to the M4 on and off-ramps will be opened</li><li>The Northern Road will have four lanes</li><li>The M4 Motorway speed limit will be 80km/h; The Northern Road will be 60km/h.</li></ul><p>From 8pm on Saturday, all the M4 motorway on and off ramps will close, and The Northern Road will be reduced to single lane in both directions.</p><p><br></p>",
+        "lastUpdated": 1600143757793,
+        "otherAdvice": "<p>The Northern Road/ M4 Motorway interchange will be switched to the ultimate alignment at 8am Sunday, 20 September 2020.  </p><p>Traffic changes:</p><ul><li>The Northern Rd northbound lanes will be shifted to the west</li><li>Right turn lanes to the M4 on and off-ramps will be opened</li><li>The Northern Road will have four lanes</li><li>The M4 Motorway speed limit will be 80km/h; The Northern Road will be 60km/h.</li></ul><p>In the work from 8pm on Saturday night, the M4 Motorway on and off ramps to/from the Northern Road will close, and The Northern Road will be reduced to one lane in both directions.<br></p>",
         "arrangementElements": [],
-        "diversions": "<p>M4 off ramps detour via Mulgoa Road and Great Western Highway</p><p>M4 on ramps detour via Great Western Highway and Mulgoa Road.</p>",
+        "diversions": "<p>Detour for the M4 off ramps: Mulgoa Road and Great Western Highway</p><p>Detour for M4 on ramps: Great Western Highway and Mulgoa Road.</p>",
         "additionalInfo": [
           " "
         ],
@@ -14989,37 +14989,37 @@
     },
     {
       "type": "Feature",
-      "id": 68819,
+      "id": 68909,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1470869,
-          -33.897627
+          151.206255,
+          -33.8379757
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - LEWISHAM New Canterbury Road approaching Toothill Street",
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Pacific Hwy at William Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1600056932900,
+        "isInitialReport": false,
+        "created": 1600144085757,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1600057563137,
+        "lastUpdated": 1600144085787,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15029,7 +15029,6 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW",
           "Tow Truck"
         ],
         "displayName": "BREAKDOWN Car",
@@ -15037,16 +15036,25 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Toothill Street",
+            "crossStreet": "William Street",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "approaching",
-            "mainStreet": "New Canterbury Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Lewisham",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
