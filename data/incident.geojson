@@ -14980,8 +14980,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.5056879,
-          -34.404643
+          150.51701755087888,
+          -34.39474586054946
         ]
       },
       "properties": {
@@ -15002,11 +15002,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Van on fire",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1600320496717,
+        "lastUpdated": 1600321479403,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15025,7 +15025,16 @@
             "conditionTendency": "",
             "crossStreet": "Church Avenue",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "Old Hume Highway",
             "quadrant": "",
@@ -15033,7 +15042,7 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Alpine",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -15177,110 +15186,37 @@
     },
     {
       "type": "Feature",
-      "id": 69016,
+      "id": 69133,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.80248324964597,
-          -33.776972355470555
+          150.7126517,
+          -33.7542482
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - MINCHINBURY Great Western Highway near Hewitt Street, Colyton",
+        "headline": "BREAKDOWN Bus - KINGSWOOD Parker Street approaching Copeland Street, Penrith",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1600233055263,
+        "created": 1600321409493,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": "Expect delays; Check signage",
-        "adviceA": "Use diversions",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1600235101123,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": "<p><strong>Light vehicles: </strong>Hewitt St, Roper Rd and Carlisle Av.</p><p><strong>Heavy vehicles: </strong>Hewitt St, Roper Rd, and Carlisle Av.</p>",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Multiple vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hewitt Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Great Western Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Minchinbury",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 69014,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1748747,
-          -33.7118977
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - ST IVES Mona Vale Road at Richmond Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1600232454837,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Bus",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1600235090443,
+        "lastUpdated": 1600321409540,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15289,32 +15225,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Richmond Avenue",
+            "crossStreet": "Copeland Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
-                "extent": "Affected",
-                "numberOfLanes": "2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Mona Vale Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Parker Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "St Ives",
+            "suburb": "Kingswood",
             "trafficVolume": ""
           }
         ]
