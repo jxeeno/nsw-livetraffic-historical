@@ -11130,8 +11130,8 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1600478856410,
-        "otherAdvice": "<p>The road is open with caution. </p><p>Road conditions for Unincorporated Area of the Western Region are available on 08 8082 6660.</p>",
+        "lastUpdated": 1600924477200,
+        "otherAdvice": "<p>The road is open with caution to 4WD only.<br>Road conditions for Unincorporated Area of the Western Region are available on 08 8082 6660.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -15940,10 +15940,10 @@
         "name": null,
         "subCategoryA": "Truck, Bicycle",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1600920094517,
+        "lastUpdated": 1600924444203,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15965,8 +15965,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -15979,7 +15979,7 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Engadine",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -16016,7 +16016,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1600921651173,
+        "lastUpdated": 1600924405217,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16088,7 +16088,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1600922153350,
+        "lastUpdated": 1600924369220,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16162,7 +16162,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1600921420790,
+        "lastUpdated": 1600924401367,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16307,7 +16307,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1600924124753,
+        "lastUpdated": 1600924874513,
         "otherAdvice": "Westbound traffic is also slow past the crash site.",
         "arrangementElements": [],
         "diversions": " ",
@@ -16421,17 +16421,17 @@
     },
     {
       "type": "Feature",
-      "id": 69830,
+      "id": 69831,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.25366566085202,
-          -33.79597735225874
+          151.04013032922208,
+          -33.85298199627951
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BALGOWLAH Burnt Bridge Creek Deviation approaching Sydney Road",
+        "headline": "CRASH Car, Bicycle - LIDCOMBE Boorea Street near Yarram Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -16442,16 +16442,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1600924186770,
+        "isInitialReport": true,
+        "created": 1600924931750,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1600924186817,
+        "mainCategory": "Crash",
+        "lastUpdated": 1600924931813,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16463,30 +16463,21 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car, Bicycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sydney Road",
+            "crossStreet": "Yarram Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Burnt Bridge Creek Deviation",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Boorea Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Balgowlah",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -22076,6 +22067,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Auburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69830,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.25366566085202,
+          -33.79597735225874
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BALGOWLAH Burnt Bridge Creek Deviation approaching Sydney Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1600924186770,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1600924947287,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Burnt Bridge Creek Deviation",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Balgowlah",
             "trafficVolume": ""
           }
         ]
