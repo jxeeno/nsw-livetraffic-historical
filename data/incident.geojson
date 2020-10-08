@@ -16528,7 +16528,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Motorcycle - HORSLEY PARK Westlink M7 between The Horsley Drive AND Wallgrove Road ",
+        "headline": "CRASH Motorcycle - HORSLEY PARK Westlink M7 between The Horsley Drive and Wallgrove Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -16541,15 +16541,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1602137969733,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Motorcycle",
-        "adviceB": " ",
-        "adviceA": " ",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1602137969767,
-        "otherAdvice": " ",
+        "lastUpdated": 1602139531940,
+        "otherAdvice": "<strong></strong>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -16557,6 +16557,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Helicopter",
           "Emergency services",
           "Motorway Crew"
         ],
@@ -16566,10 +16567,18 @@
           {
             "conditionTendency": "",
             "crossStreet": "The Horsley Drive",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -16584,7 +16593,7 @@
             "region": "SYD_WEST",
             "secondLocation": "Wallgrove Road",
             "suburb": "Horsley Park",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -16668,13 +16677,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16299131997206,
-          -33.92467239387438
+          151.18374088891127,
+          -33.915537951385
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Motorcycle - TEMPE M8 Motorway approaching Houston Road exit",
+        "headline": "BREAKDOWN Motorcycle - ST PETERS M8 Motorway approaching Euston Road exit",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -16694,7 +16703,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1602139020750,
+        "lastUpdated": 1602139400227,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16710,7 +16719,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Houston Road exit",
+            "crossStreet": "Euston Road exit",
             "delay": "",
             "impactedLanes": [
               {
@@ -16728,7 +16737,79 @@
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Tempe",
+            "suburb": "St Peters",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71145,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2271332,
+          -33.9457976
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - EASTGARDENS Wentworth Avenue at Bunnerong Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1602139158757,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1602139158803,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bunnerong Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Wentworth Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Eastgardens",
             "trafficVolume": ""
           }
         ]
@@ -16801,79 +16882,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Packsaddle to Tibooburra",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 71022,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.73284802071532,
-          -34.54694706835839
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - BOOROWA Lachlan Valley Way approximately 12km south of Boorowa",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1602038544300,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1602052852013,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Local Council"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "12km south of Boorowa",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approximately",
-            "mainStreet": "Lachlan Valley Way",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Boorowa",
             "trafficVolume": ""
           }
         ]
@@ -17019,78 +17027,6 @@
             "secondLocation": " ",
             "suburb": "Mooney Mooney",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 71035,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.77151386799775,
-          -33.78442854811586
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - CLAREMONT MEADOWS M4 Mwy near Mamre Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1602049214330,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1602053216650,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Mamre Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "M4 Mwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Claremont Meadows",
-            "trafficVolume": "Heavy"
           }
         ]
       }
