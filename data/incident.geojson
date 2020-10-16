@@ -1901,7 +1901,7 @@
         "adviceA": "24/7 Checkpoint",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1602298525573,
+        "lastUpdated": 1602827978117,
         "otherAdvice": "<p><strong>The Queensland Government has implemented enhanced border control measures, including border passes and identification screening.</strong></p><p>Any person that has been in a declared COVID-19 hotspot during the past 14 days must not enter Queensland. All of Victoria and Greater Sydney are currently declared COVID-19 hotspots. From 1am Saturday 8 August, all local government areas in NSW and ACT will also be declared COVID-19 hotspots.</p><p>Anyone attempting to enter Queensland from NSW at this 24/7 checkpoint must hold a valid Queensland Border Declaration Pass.</p><p><strong>Pass holders should allow plenty of additional travel time to cross the NSW-Queensland border, particularly during peak periods.</strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1936,7 +1936,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cobaki Lakes",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -15057,17 +15057,17 @@
     },
     {
       "type": "Feature",
-      "id": 71902,
+      "id": 71903,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.02202434788515,
-          -33.81912681383566
+          151.695394569,
+          -32.9621771557
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ROSEHILL James Ruse Drive approaching Hassall Street, Parramatta",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - CHARLESTOWN Ridley St at Pearson St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -15079,15 +15079,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1602826856490,
+        "created": 1602827881897,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Power failure",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1602826856537,
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1602827881943,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15096,34 +15096,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Utility Company"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hassall Street",
+            "crossStreet": "Pearson St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "James Ruse Drive",
+            "locationQualifier": "at",
+            "mainStreet": "Ridley St",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Rosehill",
-            "trafficVolume": "Moderate"
+            "suburb": "Charlestown",
+            "trafficVolume": ""
           }
         ]
       }
@@ -20639,6 +20638,79 @@
             "secondLocation": " ",
             "suburb": "West Pymble",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02202434788515,
+          -33.81912681383566
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ROSEHILL James Ruse Drive approaching Hassall Street, Parramatta",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1602826856490,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1602827932217,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hassall Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "James Ruse Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rosehill",
+            "trafficVolume": "Moderate"
           }
         ]
       }
