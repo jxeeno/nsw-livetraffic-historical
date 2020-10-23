@@ -15811,7 +15811,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH - COORANBONG M1 Pacific Motorway just past Freemans Drive overpass",
+        "headline": "HAZARD Spillage - COORANBONG M1 Pacific Motorway just past Freemans Drive overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -15826,12 +15826,12 @@
         "created": 1603429978560,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Spillage",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1603429978590,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1603431326767,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -15842,7 +15842,7 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "CRASH",
+        "displayName": "HAZARD Spillage",
         "media": [],
         "roads": [
           {
@@ -15853,9 +15853,9 @@
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -15866,7 +15866,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cooranbong",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -16099,37 +16099,37 @@
     },
     {
       "type": "Feature",
-      "id": 72398,
+      "id": 72528,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0504781,
-          -33.849202
+          151.14601166438752,
+          -33.83085876618669
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Semi trailer - LIDCOMBE Parramatta Rd at John Street",
+        "headline": "CRASH 2 cars - HUNTERS HILL Burns Bay Road on Fig Tree Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1603342766497,
+        "created": 1603430777500,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Semi trailer",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1603344304983,
+        "mainCategory": "Crash",
+        "lastUpdated": 1603430777530,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -16138,19 +16138,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Tow Truck"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Semi trailer",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "John Street",
+            "crossStreet": "Fig Tree Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -16158,13 +16157,86 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Parramatta Rd",
+            "locationQualifier": "on",
+            "mainStreet": "Burns Bay Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Hunters Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72530,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.04510057224425,
+          -33.84673726513569
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - AUBURN Parramatta Road approaching Silverwater Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1603431258517,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1603431258563,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Silverwater Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Lidcombe",
+            "suburb": "Auburn",
             "trafficVolume": "Heavy"
           }
         ]
@@ -16238,78 +16310,6 @@
             "secondLocation": " ",
             "suburb": "Warners Bay",
             "trafficVolume": "Moderate"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 72400,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.00320076502072,
-          -33.94146704874463
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 4 vehicles - REVESBY M5 Motorway approaching Beaconsfield Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1603342936167,
-        "isMajor": true,
-        "name": null,
-        "subCategoryA": "4 vehicles",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1603344664427,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 4 vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Beaconsfield Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M5 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Revesby",
-            "trafficVolume": "Heavy"
           }
         ]
       }
