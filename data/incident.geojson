@@ -14968,17 +14968,17 @@
     },
     {
       "type": "Feature",
-      "id": 73000,
+      "id": 73001,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.9710895,
-          -33.409635
+          150.8933296,
+          -33.6625406
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - FORBES Newell Highway near Greens Road",
+        "headline": "CRASH 2 cars - RIVERSTONE Windsor Road at Terry Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14990,16 +14990,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1603875382310,
+        "created": 1603875815920,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1603875382340,
-        "otherAdvice": " ",
+        "mainCategory": "Crash",
+        "lastUpdated": 1603877051777,
+        "otherAdvice": "<p>Access to Terry Rd has been restricted at the intersection. Motorists can use Nelson Rd and Hynds Rd instead.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -15007,32 +15007,41 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Greens Road",
+            "crossStreet": "Terry Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Bus lane, Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Newell Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Forbes",
+            "suburb": "Riverstone",
             "trafficVolume": ""
           }
         ]
@@ -20918,6 +20927,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Moore Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73000,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9710895,
+          -33.409635
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - FORBES Newell Highway near Greens Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1603875382310,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1603876568133,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Greens Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Newell Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Forbes",
             "trafficVolume": ""
           }
         ]
