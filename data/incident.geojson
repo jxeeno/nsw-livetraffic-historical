@@ -14798,7 +14798,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1604097445563,
+        "lastUpdated": 1604099892327,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14818,7 +14818,16 @@
             "conditionTendency": "",
             "crossStreet": "Glencoe Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "Pacific Highway",
             "quadrant": "",
@@ -14919,14 +14928,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1604099488200,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1604099488247,
+        "lastUpdated": 1604099921367,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14963,6 +14972,79 @@
             "secondLocation": " ",
             "suburb": "West Wollongong",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85478309527588,
+          -33.7981831471246
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - EASTERN CREEK M4 Motorway at Westlink M7",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1604099707980,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1604099708027,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Westlink M7",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
+            "trafficVolume": ""
           }
         ]
       }
@@ -15187,78 +15269,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "North Sydney/Sydney/Pyrmont/Rozelle",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 73131,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.8113784,
-          -36.7810365
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Lost load - WOLUMLA Princes Highway at Wanatta Lane",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1604009083240,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Lost load",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1604013663857,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Lost load",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wanatta Lane",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Wolumla",
             "trafficVolume": ""
           }
         ]
