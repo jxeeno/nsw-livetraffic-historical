@@ -1905,7 +1905,7 @@
         "adviceA": "24/7 Checkpoint",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1604261233997,
+        "lastUpdated": 1604270872540,
         "otherAdvice": "<p><strong>The Queensland Government has implemented enhanced border control measures, including border passes and identification screening.</strong></p><p>Any person that has been in a declared COVID-19 hotspot during the past 14 days must not enter Queensland. All of Victoria and Greater Sydney are currently declared COVID-19 hotspots. From 1am Saturday 8 August, all local government areas in NSW and ACT will also be declared COVID-19 hotspots.</p><p>Anyone attempting to enter Queensland from NSW at this 24/7 checkpoint must hold a valid Queensland Border Declaration Pass.</p><p><strong>Pass holders should allow plenty of additional travel time to cross the NSW-Queensland border, particularly during peak periods.</strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1940,7 +1940,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cobaki Lakes",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14771,7 +14771,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1604267700043,
+        "lastUpdated": 1604270608100,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14792,10 +14792,18 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Motorway"
               }
             ],
@@ -15121,79 +15129,6 @@
             "region": "SYD_WEST",
             "secondLocation": "Darcy Road",
             "suburb": "Westmead",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 73306,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1856365883911,
-          -33.86903010170506
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Debris bag - ROZELLE Victoria Road on Anzac Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1604181044763,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Debris",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1604184289740,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Debris bag",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Anzac Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "on",
-            "mainStreet": "Victoria Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
