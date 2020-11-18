@@ -14441,7 +14441,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Motorcycle - CARLINGFORD M2 Motorway at Pennant Hills Road",
+        "headline": "CRASH Car, Motorcycle - CARLINGFORD M2 Motorway at on-ramp from NorthConnex",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -14461,8 +14461,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1605686858750,
-        "otherAdvice": " ",
+        "lastUpdated": 1605689032063,
+        "otherAdvice": "Motorists are advised to expect intermittent closures of the westbound on-ramp.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -14479,7 +14479,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pennant Hills Road",
+            "crossStreet": "on-ramp from NorthConnex",
             "delay": "",
             "impactedLanes": [
               {
@@ -14488,6 +14488,14 @@
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
+                "roadType": "On-ramp"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -14577,17 +14585,17 @@
     },
     {
       "type": "Feature",
-      "id": 74902,
+      "id": 74903,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2118993871025,
-          -33.850310530174696
+          151.065229,
+          -33.7964767
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - MILSONS POINT Bradfield Highway at SHB",
+        "headline": "CRASH 2 cars - DUNDAS VALLEY Stewart Street at Marsden Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14599,15 +14607,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1605688690490,
+        "created": 1605688900050,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1605688690523,
+        "mainCategory": "Crash",
+        "lastUpdated": 1605688900097,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14616,25 +14624,35 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW",
           "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "SHB",
+            "crossStreet": "Marsden Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 3, Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
-            "mainStreet": "Bradfield Highway",
+            "mainStreet": "Stewart Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Milsons Point",
-            "trafficVolume": ""
+            "suburb": "Dundas Valley",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14710,78 +14728,6 @@
             "secondLocation": "The Grand Arch",
             "suburb": "Jenolan",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 74788,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9183829,
-          -33.924235
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - CASULA Hume Highway at Memorial Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1605599030510,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1605602566873,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Memorial Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Casula",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -21005,6 +20951,70 @@
             "region": "SYD_WEST",
             "secondLocation": "Windsor Road",
             "suburb": "Castle Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2118993871025,
+          -33.850310530174696
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MILSONS POINT Bradfield Highway on Sydney Harbour Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1605688690490,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1605689094413,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "on",
+            "mainStreet": "Bradfield Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Milsons Point",
             "trafficVolume": ""
           }
         ]
