@@ -1816,7 +1816,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1605753107187,
+        "lastUpdated": 1605762991343,
         "otherAdvice": "<p><strong>The Queensland Government has implemented enhanced border control measures, including border passes and identification screening.</strong></p><p>Any person that has been in a declared COVID-19 hotspot during the past 14 days must not enter Queensland. All of Victoria and Greater Sydney are currently declared COVID-19 hotspots. From 1am Saturday 8 August, all local government areas in NSW and ACT will also be declared COVID-19 hotspots.</p><p>Anyone attempting to enter Queensland from NSW at this 24/7 checkpoint must hold a valid Queensland Border Declaration Pass.</p><p><strong>Pass holders should allow plenty of additional travel time to cross the NSW-Queensland border, particularly during peak periods.</strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -1851,7 +1851,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cobaki Lakes",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14698,37 +14698,37 @@
     },
     {
       "type": "Feature",
-      "id": 74865,
+      "id": 74982,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9576539,
-          -32.3405812
+          150.77036504075318,
+          -33.787825675157386
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Livestock - MUSWELLBROOK New England Highway at Hebden Street",
+        "headline": "BREAKDOWN Car - ST CLAIR Mamre Road approaching M4 Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1605670654680,
+        "created": 1605762649207,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Livestock",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1605676302037,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1605762649240,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14737,18 +14737,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "HAZARD Livestock",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hebden Street",
+            "crossStreet": "M4 Motorway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -14756,13 +14756,85 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "New England Highway",
+            "locationQualifier": "approaching",
+            "mainStreet": "Mamre Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Muswellbrook",
+            "suburb": "St Clair",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74983,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8663296,
+          -33.92957390000001
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - HOXTON PARK M7 Motorway just past Cowpasture Road",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1605762772687,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays; Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1605762772733,
+        "otherAdvice": "The vehicles are in the centre median.&nbsp;",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowpasture Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Hoxton Park",
             "trafficVolume": ""
           }
         ]
