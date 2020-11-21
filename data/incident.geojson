@@ -14640,7 +14640,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1605993736737,
+        "lastUpdated": 1605995872387,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14756,40 +14756,40 @@
     },
     {
       "type": "Feature",
-      "id": 75166,
+      "id": 75256,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.91900947672121,
-          -33.91021755208529
+          151.0126919,
+          -33.8308817
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - WARWICK FARM Orange Grove Road approaching O'Brien Parade, Liverpool",
+        "headline": "CRASH 4 vehicles - GRANVILLE Parramatta Road at Kent St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1605909791013,
+        "created": 1605995872433,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "4 vehicles",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1605910422683,
+        "lastUpdated": 1605996334977,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Eastbound motorists detour via Good St, Gray St, Alfred St to re-join&nbsp;Parramatta Road",
         "additionalInfo": [
           " "
         ],
@@ -14798,31 +14798,39 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH 4 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "O'Brien Parade",
+            "crossStreet": "Kent St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Orange Grove Road",
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Warwick Farm",
-            "trafficVolume": ""
+            "suburb": "Granville",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -20320,6 +20328,150 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Beresfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1742713214264,
+          -33.915620248167556
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Panel - ST PETERS Princes Highway approaching Canal Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1605995806427,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1605996530610,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Panel",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Canal Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Affected",
+                "numberOfLanes": "3",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "St Peters",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21068945158993,
+          -33.84008862285316
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Carpet - NORTH SYDNEY Warringah Freeway approaching Sydney Harbour Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1605996044683,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1605996165510,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "HAZARD Carpet",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
