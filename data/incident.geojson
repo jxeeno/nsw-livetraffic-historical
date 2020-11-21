@@ -14561,11 +14561,11 @@
         "name": null,
         "subCategoryA": "Motorcycle",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1605934870890,
-        "otherAdvice": "The Ernest Street on-ramp to Warringah Freeway is closed.&nbsp;",
+        "lastUpdated": 1605936542037,
+        "otherAdvice": "Lanes 5 and 6 on the approach to the Sydney Harbour Bridge are closed while investigations take place. The Ernest Street on-ramp to Warringah Freeway is closed.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -14600,7 +14600,7 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "North Sydney",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14637,7 +14637,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1605934500740,
+        "lastUpdated": 1605936567870,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14709,7 +14709,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1605935594520,
+        "lastUpdated": 1605936450483,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14718,6 +14718,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -14752,17 +14753,17 @@
     },
     {
       "type": "Feature",
-      "id": 75212,
+      "id": 75213,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.35734855657364,
-          -33.35287162283728
+          150.34706426242676,
+          -33.7081257494958
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - OURIMBAH M1 Pacific Motorway just past Ourimbah Interchange",
+        "headline": "HAZARD Rubbish - LEURA Great Western Highway near Kitchener Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14774,15 +14775,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1605935008463,
+        "created": 1605936359440,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1605935646283,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1605936359550,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14791,33 +14792,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Rubbish",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kitchener Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Leura",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05350311653288,
+          -33.849452810266556
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LIDCOMBE M4 Motorway above Hill Road, Sydney Olympic Park",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1605936758270,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1605936758303,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Ourimbah Interchange",
+            "crossStreet": "Hill Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "above",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Ourimbah",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -22319,6 +22391,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Horsley Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35734855657364,
+          -33.35287162283728
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - OURIMBAH M1 Pacific Motorway just past Ourimbah Interchange",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1605935008463,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1605936598030,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ourimbah Interchange",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ourimbah",
             "trafficVolume": ""
           }
         ]
