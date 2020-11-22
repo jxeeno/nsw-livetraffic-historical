@@ -14557,7 +14557,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -14572,7 +14572,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1606035986867,
+        "lastUpdated": 1606038034480,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14644,7 +14644,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1606037121573,
+        "lastUpdated": 1606037961603,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14662,7 +14662,16 @@
             "conditionTendency": "",
             "crossStreet": "Cross Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Old Northern Road",
             "quadrant": "",
@@ -14743,78 +14752,6 @@
             "secondLocation": " ",
             "suburb": "Denistone East",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75223,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.79375271432494,
-          -34.5015415990223
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 3 vehicles - DAPTO Princes Motorway at Emerson Rd, Dapto",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1605949102403,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "3 vehicles",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1605951163733,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH 3 vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Emerson Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "DAPTO",
-            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -18590,6 +18527,83 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "East Lismore",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.1342544442444,
+          -34.33069629176378
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Railway crossings",
+            "linkURL": "https://www.rms.nsw.gov.au/roads/safety-rules/road-rules/railway-crossings.html"
+          }
+        ],
+        "headline": "HAZARD Faulty level crossing gates - WIDGELLI (EAST OF GRIFFITH) Irrigation Way near Widgelli Settlers Road, Widgelli",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606028882100,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution; Check for trains",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1606038034480,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Faulty level crossing gates",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Widgelli Settlers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Irrigation Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Widgelli (east of Griffith)",
             "trafficVolume": ""
           }
         ]
