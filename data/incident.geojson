@@ -8854,13 +8854,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.59993768005674,
-          -34.807310913984075
+          149.61781728535001,
+          -34.7935894525362
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck - YARRA Hume Highway approximately 1km south of Federal Hwy",
+        "headline": "CRASH Truck - YARRA Hume Highway near Federal Hwy",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8876,14 +8876,14 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time; Avoid the area",
-        "adviceA": "Use diversions",
+        "adviceB": "Delay your journey; Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1606057176463,
+        "lastUpdated": 1606060914860,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Traffic in both directions is being diverted via Barton Hwy and Federal Hwy, through Canberra. This diversion is suitable for all vehicles.</p><p>Motorists are advised to allow around 45 minutes extra travel time.</p>",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -8897,19 +8897,27 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "1km south of Federal Hwy",
+            "crossStreet": "Federal Hwy",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "approximately",
+            "locationQualifier": "near",
             "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
@@ -8917,79 +8925,6 @@
             "secondLocation": " ",
             "suburb": "Yarra",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75312,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.099171424,
-          -33.8681037486
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - STRATHFIELD Parramatta Rd at Wentworth Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1606056120670,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1606056120717,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wentworth Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Parramatta Rd",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Strathfield",
-            "trafficVolume": ""
           }
         ]
       }
@@ -12703,6 +12638,79 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Borambola",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.099171424,
+          -33.8681037486
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - STRATHFIELD Parramatta Rd at Wentworth Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606056120670,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1606060625693,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wentworth Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Strathfield",
             "trafficVolume": ""
           }
         ]
