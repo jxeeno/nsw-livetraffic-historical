@@ -9104,8 +9104,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.5491487644971,
-          -28.632269895943097
+          153.54892748225336,
+          -28.63547157315999
         ]
       },
       "properties": {
@@ -9130,7 +9130,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy traffic",
-        "lastUpdated": 1606166688510,
+        "lastUpdated": 1606168182063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9150,7 +9150,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -9275,7 +9275,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1606167720103,
+        "lastUpdated": 1606167952993,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9297,10 +9297,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -9311,6 +9311,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Blakehurst",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2563465,
+          -33.8928715
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Vehicle parked in \"No Stopping\" zone - BONDI JUNCTION Bondi Road at Paul Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606168178370,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle parked in clearway",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1606168178400,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Vehicle parked in \"No Stopping\" zone",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Paul Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bondi Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bondi Junction",
             "trafficVolume": ""
           }
         ]
