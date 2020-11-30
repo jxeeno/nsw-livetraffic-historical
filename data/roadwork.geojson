@@ -9017,7 +9017,7 @@
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
             "roadtype": "Tunnel",
-            "direction": "Southbound",
+            "direction": "Both directions",
             "finishTime": "5:00am",
             "fromDay": "Monday",
             "startTime": "10:30pm",
@@ -9073,8 +9073,8 @@
         "end": 1607623200000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1606417502593,
-        "otherAdvice": " ",
+        "lastUpdated": 1606724259910,
+        "otherAdvice": "<ul><li>Southbound closes at 10:30pm. </li><li>At 11:30pm the Sydney Harbour Tunnel closes northbound and Domain Tunnel closes in both directions.</li></ul>",
         "arrangementElements": [],
         "diversions": "Motorists can use the Sydney Harbour Bridge, then the Cahill Expy over Circular Quay to access the Eastern Distributor.",
         "additionalInfo": [
@@ -25686,6 +25686,83 @@
     },
     {
       "type": "Feature",
+      "id": 76160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21344196187135,
+          -33.86529782288707
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Maintenance - SYDNEY Domain Tunnel",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "11:30pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606724377253,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceB": "Allow extra travel time; Check signage",
+        "adviceA": "Use diversions",
+        "end": 1606741200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1606724377283,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "<p>The detour for Sydney Harbour Tunnel is via the Sydney Harbour Bridge.<br>Northbound motorists on the Eastern Distributor will exit at Macquarie St and can access Cahill Exp via Conservatorium Rd.</p><p>&nbsp;</p>",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1606654800000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Domain Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 70935,
       "geometry": {
         "type": "Point",
@@ -26689,93 +26766,6 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Greenacre",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 74002,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2100593952454,
-          -33.87909629489561
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - SURRY HILLS Wentworth Avenue between Campbell Street, Surry Hills AND Goulburn Street, Surry Hills ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "7:00pm",
-            "fromDay": "Saturday",
-            "startTime": "5:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "7:00pm",
-            "fromDay": "Sunday",
-            "startTime": "5:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1604921489917,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution; Allow extra travel time",
-        "adviceA": "Check signage",
-        "end": 1606636800000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1606636830380,
-        "otherAdvice": "Crane lifting operation. 2 of 4 lanes will close.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1606500000000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Campbell Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Wentworth Avenue",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Goulburn Street",
-            "suburb": "Surry hills",
             "trafficVolume": ""
           }
         ]
