@@ -1165,7 +1165,18 @@
       "properties": {
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS Damaged road surface - MERRIWA Merriwa Road between Tourles Road at Little Jacks Creek AND Coulsons Creek Rd at Coulsons Creek ",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -1179,12 +1190,13 @@
         "created": 1587412572093,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
+        "subCategoryA": "(p)",
         "adviceB": "Use an alternative route",
         "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
+        "end": 1614600000000,
+        "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1606875117650,
+        "lastUpdated": 1606877370490,
         "otherAdvice": "<p><strong>This road is not suitable for heavy vehicles.</strong><br>These conditions are expected to remain in place until at least early 2021.<strong></strong></p>",
         "arrangementElements": [],
         "diversions": "New England Highway and Merriwa Road. Motorists are advised this detour adds an additional 30 minutes travel time in order to complete the extra 44km distance.",
@@ -1195,6 +1207,8 @@
         "attendingGroups": [
           "Local Council"
         ],
+        "duration": null,
+        "start": 1606827600000,
         "displayName": "CHANGED TRAFFIC CONDITIONS Damaged road surface",
         "media": [],
         "roads": [
@@ -1202,16 +1216,7 @@
             "conditionTendency": "",
             "crossStreet": "Tourles Road at Little Jacks Creek",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "between",
             "mainStreet": "Merriwa Road",
             "quadrant": "",
@@ -4241,6 +4246,79 @@
     },
     {
       "type": "Feature",
+      "id": 76350,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16904709368265,
+          -33.600930531878134
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BEROWRA M1 Pacific Motorway at Pacifc Highway off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606877409010,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1606877409057,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacifc Highway off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Berowra",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 75676,
       "geometry": {
         "type": "Point",
@@ -4321,69 +4399,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rozelle to North Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76212,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.80300655653076,
-          -32.8574262468557
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - FERN BAY Nelson Bay Road at Seaside Boulevarde",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1606788178313,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1606790692437,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Seaside Boulevarde",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Nelson Bay Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Fern Bay",
             "trafficVolume": ""
           }
         ]
