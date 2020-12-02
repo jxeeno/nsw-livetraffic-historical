@@ -3971,13 +3971,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.3492606570587,
-          -34.46518204011305
+          150.34923785828207,
+          -34.465183975089346
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "EMERGENCY ROADWORK Bridge work - BERRIMA Hume Motorway approximately Greenhills Rd",
+        "headline": "EMERGENCY ROADWORK Bridge work - BERRIMA Hume Motorway near Greenhills Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -3997,7 +3997,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1606876909763,
+        "lastUpdated": 1606891814760,
         "otherAdvice": "Expected to remain this way until the repairs are completed.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4015,8 +4015,17 @@
             "conditionTendency": "",
             "crossStreet": "Greenhills Rd",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "approximately",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
             "mainStreet": "Hume Motorway",
             "quadrant": "",
             "queueLength": 0,
@@ -4327,6 +4336,150 @@
     },
     {
       "type": "Feature",
+      "id": 76378,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09452302383423,
+          -33.9656870076713
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - PENSHURST King Georges Road near Woniora Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606891619913,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1606891619947,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Woniora Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Penshurst",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.94563488902665,
+          -33.94290288182538
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - HAMMONDVILLE M5 Mwy at Heathcote Rd off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1606891761413,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1606891888767,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Heathcote Rd off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M5 Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Hammondville",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 75676,
       "geometry": {
         "type": "Point",
@@ -4407,151 +4560,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rozelle to North Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76251,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0512749465606,
-          -33.756822777609614
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - CARLINGFORD Northconnex tunnel approaching entry",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1606802349180,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1606805219183,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "entry",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Northconnex tunnel",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Carlingford",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76260,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21094798313314,
-          -33.829271443912816
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH SYDNEY Falcon Street between Miller Street, Cammeray AND Warringah Freeway, Milsons Point ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1606804251387,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1606805485630,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Miller Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Falcon Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": "Warringah Freeway",
-            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
