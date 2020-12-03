@@ -4277,8 +4277,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.87573666325991,
-          -33.7928303784714
+          150.881337115683,
+          -33.79375766271273
         ]
       },
       "properties": {
@@ -4296,14 +4296,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1607028169967,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car on fire",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1607028170013,
+        "lastUpdated": 1607028602583,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4327,9 +4327,9 @@
                 "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "just past",
@@ -4346,17 +4346,17 @@
     },
     {
       "type": "Feature",
-      "id": 76541,
+      "id": 76542,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.96227012327878,
-          -33.81894367586869
+          150.99657442806398,
+          -33.99533447867588
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - SOUTH WENTWORTHVILLE Cumberland Highway near Greenslope Street, Greystanes",
+        "headline": "BREAKDOWN Car - MENAI Heathcote Road - south of St George Cres",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4368,15 +4368,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1607028184903,
+        "created": 1607028699913,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1607028185230,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1607028699960,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4385,19 +4385,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Truck, Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Greenslope Street",
+            "crossStreet": "south of St George Cres",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4405,14 +4404,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Cumberland Highway",
+            "locationQualifier": "-",
+            "mainStreet": "Heathcote Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "South Wentworthville",
-            "trafficVolume": "Moderate"
+            "suburb": "Menai",
+            "trafficVolume": ""
           }
         ]
       }
@@ -10711,6 +10710,79 @@
             "secondLocation": " ",
             "suburb": "Tweed Heads",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76541,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.96227012327878,
+          -33.81894367586869
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - SOUTH WENTWORTHVILLE Cumberland Highway near Greenslope Street, Greystanes",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607028184903,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1607028606680,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Greenslope Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "South Wentworthville",
+            "trafficVolume": "Moderate"
           }
         ]
       }
