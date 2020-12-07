@@ -4545,7 +4545,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1607368205303,
+        "lastUpdated": 1607379181793,
         "otherAdvice": "The lane is expected to remain closed until at least Friday 11 December 2020.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4660,17 +4660,17 @@
     },
     {
       "type": "Feature",
-      "id": 76874,
+      "id": 76875,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1935102944086,
-          -33.87181005518017
+          151.06896271495822,
+          -33.88084531241623
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - PYRMONT Anzac Bridge off-ramp to Bank St/Pyrmont Bridge Road",
+        "headline": "CRASH 3 vehicles - STRATHFIELD Centenary Drive approaching Hume Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4682,15 +4682,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1607377758970,
+        "created": 1607378563817,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1607377759000,
+        "mainCategory": "Crash",
+        "lastUpdated": 1607378563863,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4699,32 +4699,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bank St/Pyrmont Bridge Road",
+            "crossStreet": "Hume Highway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Off-ramp"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "Anzac Bridge off-ramp",
+            "locationQualifier": "approaching",
+            "mainStreet": "Centenary Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Pyrmont",
+            "suburb": "Strathfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76877,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87462965017087,
+          -33.96806565885248
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - INGLEBURN Hume Motorway just past Campbelltown Road Overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607379098580,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1607379098613,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Campbelltown Road Overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Ingleburn",
             "trafficVolume": ""
           }
         ]
@@ -9339,6 +9412,78 @@
             "secondLocation": " ",
             "suburb": "Cronulla",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76874,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1935102944086,
+          -33.87181005518017
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - PYRMONT Anzac Bridge off-ramp to Bank St/Pyrmont Bridge Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607377758970,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1607379409353,
+        "otherAdvice": "The bus is now occupying a bus bay on Pyrmont Bridge Rd.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bank St/Pyrmont Bridge Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Anzac Bridge off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Pyrmont",
+            "trafficVolume": "Heavy"
           }
         ]
       }
