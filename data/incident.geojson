@@ -4587,19 +4587,19 @@
     },
     {
       "type": "Feature",
-      "id": 76881,
+      "id": 76882,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.05200184711302,
-          -33.74812496502268
+          151.2655096,
+          -33.75430619999999
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CARLINGFORD NorthConnex at Pennant Hills Rd exit",
+        "headline": "CRASH 2 cars - BEACON HILL Warringah Road at McKillop Road",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -4609,15 +4609,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1607383848390,
+        "created": 1607384977783,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1607383996073,
+        "mainCategory": "Crash",
+        "lastUpdated": 1607384977830,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4626,33 +4626,35 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pennant Hills Rd exit",
+            "crossStreet": "McKillop Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Off-ramp",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "NorthConnex",
+            "mainStreet": "Warringah Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Carlingford",
-            "trafficVolume": ""
+            "suburb": "Beacon Hill",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -9410,6 +9412,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "South Wentworthville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76881,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05200184711302,
+          -33.74812496502268
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CARLINGFORD NorthConnex at Pennant Hills Rd exit",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607383848390,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1607384924023,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pennant Hills Rd exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Off-ramp",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "NorthConnex",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Carlingford",
             "trafficVolume": ""
           }
         ]
