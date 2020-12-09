@@ -5025,18 +5025,34 @@
     },
     {
       "type": "Feature",
-      "id": 77067,
+      "id": 77068,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.91841469695893,
-          -33.924267212664
+          150.988275472,
+          -33.8065117074
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - LIVERPOOL Copeland St (Hume Hwy) at Memorial Avenue",
-        "periods": [],
+        "webLinks": [
+          {
+            "linkText": "Parramatta Light Rail",
+            "linkURL": "https://www.parramattalightrail.nsw.gov.au"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Parramatta Light Rail - WESTMEAD Macquarie St between Smith Street, Parramatta AND Horwood Place, Parramatta ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -5047,51 +5063,44 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1607515076807,
+        "created": 1607517009403,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
         "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1607515150240,
+        "end": 1608811200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1607517009453,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Motorists should use George Street to travel west across Parramatta during this time.",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
-        "displayName": "CRASH 2 cars",
+        "duration": null,
+        "start": 1607864400000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Parramatta Light Rail",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Memorial Avenue",
+            "crossStreet": "Smith Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 3, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Copeland St (Hume Hwy)",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Macquarie St",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Liverpool",
-            "trafficVolume": "Moderate"
+            "region": "SYD_WEST",
+            "secondLocation": "Horwood Place",
+            "suburb": "Westmead",
+            "trafficVolume": ""
           }
         ]
       }
@@ -5164,79 +5173,6 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Campbelltown",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76941,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.04227851443426,
-          -33.94136949003896
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Multiple vehicles - PADSTOW M5 Motorway approaching Fairford Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1607428224987,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1607430428560,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Multiple vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Fairford Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M5 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Padstow",
             "trafficVolume": ""
           }
         ]
@@ -12543,6 +12479,87 @@
             "secondLocation": " ",
             "suburb": "Stanmore",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77067,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91841469695893,
+          -33.924267212664
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - LIVERPOOL Copeland St (Hume Hwy) at Memorial Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607515076807,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1607516573283,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Memorial Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 3, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Copeland St (Hume Hwy)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Liverpool",
+            "trafficVolume": "Heavy"
           }
         ]
       }
