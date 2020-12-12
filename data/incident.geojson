@@ -5448,17 +5448,17 @@
     },
     {
       "type": "Feature",
-      "id": 77380,
+      "id": 77382,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.55257180011824,
-          -28.24466467989371
+          151.1665486,
+          -33.9164432
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - CHINDERAH Pacific Motorway near Tweed Coast Road",
+        "headline": "BREAKDOWN Bus - SYDENHAM Gleeson Avenue at Unwins Bridge Road, Tempe",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5469,36 +5469,46 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1607771891080,
+        "isInitialReport": false,
+        "created": 1607776686147,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Bus",
+        "adviceB": "Avoid the area; Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1607775862850,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1607776822473,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Person trapped"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Heavy vehicle tow truck",
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Tweed Coast Road",
+            "crossStreet": "Unwins Bridge Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5506,13 +5516,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Gleeson Avenue",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Chinderah",
+            "suburb": "Sydenham",
             "trafficVolume": ""
           }
         ]
@@ -9479,6 +9489,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Cataract",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77380,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.55257180011824,
+          -28.24466467989371
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - CHINDERAH Pacific Motorway near Tweed Coast Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1607771891080,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1607776072153,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Tweed Coast Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Chinderah",
             "trafficVolume": ""
           }
         ]
