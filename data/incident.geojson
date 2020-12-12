@@ -5399,15 +5399,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1607747577753,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "3 vehicles",
         "adviceB": "Exercise caution",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1607748975557,
-        "otherAdvice": "Northbound motorists should consider using an alternative route via Peats Ridge Rd or Central Coast Hwy.&nbsp;",
+        "lastUpdated": 1607750424960,
+        "otherAdvice": "<p>The helicopter has landed and the road will be closed for a while. <br>Northbound motorists should consider using an alternative route via Peats Ridge Rd at Calga.<br>Light vehicles can also use Central Coast Hwy.&nbsp;</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5428,10 +5428,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -5449,17 +5449,17 @@
     },
     {
       "type": "Feature",
-      "id": 77367,
+      "id": 77368,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1613327,
-          -33.9516385
+          151.0582037,
+          -33.8531529
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - KYEEMAGH General Holmes Drive at Bestic Street",
+        "headline": "BREAKDOWN Car - LIDCOMBE Parramatta Road at Ostend Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5471,15 +5471,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1607748603837,
+        "created": 1607750184563,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1607748603887,
+        "lastUpdated": 1607750184597,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5495,25 +5495,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bestic Street",
+            "crossStreet": "Ostend Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 4",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "5",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "General Holmes Drive",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Kyeemagh",
+            "suburb": "Lidcombe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9086209,
+          -33.8955927
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Bicycle - CABRAMATTA WEST Cabramatta Road West at Harrington Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607750480500,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1607750480530,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car, Bicycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Harrington Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Cabramatta Road West",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Cabramatta West",
             "trafficVolume": ""
           }
         ]
@@ -5666,79 +5739,6 @@
     },
     {
       "type": "Feature",
-      "id": 77285,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9182484,
-          -33.9242227
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - LIVERPOOL Copeland Street at Memorial Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1607662572800,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1607663747480,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Memorial Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Copeland Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Liverpool",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 77286,
       "geometry": {
         "type": "Point",
@@ -5804,79 +5804,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Glenbrook",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 77283,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.5208062035097,
-          -28.180316511347428
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - TWEED HEADS M1 Pacific Motorway at Gold Coast Highway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1607662316170,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1607663730757,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Gold Coast Highway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Tweed Heads",
             "trafficVolume": ""
           }
         ]
@@ -10566,6 +10493,78 @@
             "secondLocation": " ",
             "suburb": "Sydney",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77367,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1613327,
+          -33.9516385
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KYEEMAGH General Holmes Drive at Bestic Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607748603837,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1607749377667,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bestic Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kyeemagh",
+            "trafficVolume": ""
           }
         ]
       }
