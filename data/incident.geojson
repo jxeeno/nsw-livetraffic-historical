@@ -5543,55 +5543,38 @@
     },
     {
       "type": "Feature",
-      "id": 49431,
+      "id": 77471,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.6849561,
-          -33.8410101
+          150.9495206399111,
+          -33.89858555750869
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "The Northern Rd upgrade",
-            "linkURL": "https://www.rms.nsw.gov.au/projects/the-northern-road/index.html"
-          }
-        ],
-        "headline": "CHANGED TRAFFIC CONDITIONS Traffic switch to new roundabout - LUDDENHAM The Northern Road at Gates Road",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "",
-            "fromDay": "Every Day",
-            "startTime": "all day",
-            "toDay": ""
-          }
-        ],
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - CABRAMATTA Hume Highway approaching Cabramatta Road East",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1579768842903,
+        "created": 1607863900977,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Exercise caution",
-        "adviceA": "Check signage",
-        "end": 1607778000000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1607778039047,
-        "otherAdvice": "<p>All traffic has been switched to the new roundabout. The intersection of Gates Rd and The Northern Rd will remain closed for the duration of the project.</p>",
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1607863901023,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5599,25 +5582,112 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "duration": null,
-        "start": 1579352400000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Traffic switch to new roundabout",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gates Road",
+            "crossStreet": "Cabramatta Road East",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "The Northern Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Luddenham",
+            "suburb": "Cabramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1790186,
+          -33.7992943
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - CHATSWOOD Pacific Highway at Albert Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1607864028017,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1607864028050,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Albert Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Chatswood",
             "trafficVolume": ""
           }
         ]
