@@ -4902,10 +4902,10 @@
         "name": null,
         "subCategoryA": null,
         "adviceB": "Use an alternative route",
-        "adviceA": "Delay your journey",
+        "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1608054962703,
+        "lastUpdated": 1608067431603,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Motorists can use Grafton Bridge instead.",
@@ -4936,7 +4936,7 @@
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": "Freeway"
               }
             ],
             "locationQualifier": "between",
@@ -4957,8 +4957,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.0301935722939,
-          -29.62111932661446
+          153.0290563156716,
+          -29.6203918402542
         ]
       },
       "properties": {
@@ -4983,7 +4983,7 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1608016551600,
+        "lastUpdated": 1608067398357,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Motorists can use Grafton Bridge instead.",
@@ -5607,17 +5607,17 @@
     },
     {
       "type": "Feature",
-      "id": 77755,
+      "id": 77756,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.73647249178467,
-          -34.761237428403234
+          151.40567200529392,
+          -33.27639390373858
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - BERRY Princes Highway approximately 2km before Berry",
+        "headline": "BREAKDOWN Truck - WYONG M1 Pacific Motorway near Alison Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5629,15 +5629,167 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1608066897690,
+        "created": 1608067409020,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1608067409067,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Alison Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Wyong",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77758,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.07738468745833,
+          -33.943685271935976
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN B-Double - BEVERLY HILLS M5 East off-ramp at King Georges Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1608067801263,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "B-Double",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1608067801293,
+        "otherAdvice": "The B-Double has closed the 1 of 2 right turn lanes on the off ramp and is also partially obstructing traffic southbound on King Georges Rd.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN B-Double",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "King Georges Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Off-ramp"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M5 East off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Beverly Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77759,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90651095029298,
+          -34.31942536203486
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck - THIRROUL Princes Highway at the bottom of Bulli Pass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1608067830553,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1608066897993,
+        "lastUpdated": 1608067831023,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5648,16 +5800,16 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "CRASH Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "2km before Berry",
+            "crossStreet": "the bottom of Bulli Pass",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5665,13 +5817,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approximately",
+            "locationQualifier": "at",
             "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Berry",
+            "suburb": "Thirroul",
             "trafficVolume": ""
           }
         ]
@@ -5889,79 +6041,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Ebor",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 77595,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.79235052781823,
-          -29.977127690411663
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck - BELLATA Newell Highway near Valorban Lane",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1607977565097,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1607981038980,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Valorban Lane",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Newell Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": " ",
-            "suburb": "Bellata",
             "trafficVolume": ""
           }
         ]
@@ -14701,6 +14780,78 @@
             "secondLocation": " ",
             "suburb": "Guildford",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77755,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.73647249178467,
+          -34.761237428403234
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - BERRY Princes Highway approximately 2km before Berry",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1608066897690,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1608067844977,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "2km before Berry",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approximately",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Berry",
+            "trafficVolume": ""
           }
         ]
       }
