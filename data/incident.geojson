@@ -14100,7 +14100,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1608798451890,
+        "lastUpdated": 1608798832677,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14110,7 +14110,6 @@
         "webLinkName": null,
         "attendingGroups": [
           "Transport for NSW",
-          "Helicopter",
           "Emergency services"
         ],
         "displayName": "CRASH Car",
@@ -14137,24 +14136,24 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Balranald",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 78665,
+      "id": 78666,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19323980265503,
-          -33.57383741544602
+          151.17217772698484,
+          -33.91762205994056
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway approaching Cowan",
+        "headline": "HAZARD Pedestrian - ST PETERS M8 Tunnel just past the tunnel entrance",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14166,15 +14165,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1608797785943,
+        "created": 1608799678363,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Pedestrian(s)",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1608798315277,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1608799678413,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14183,34 +14182,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Emergency services",
-          "Transport for NSW"
+          "Motorway Crew",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Pedestrian",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cowan",
+            "crossStreet": "the tunnel entrance",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "just past",
+            "mainStreet": "M8 Tunnel",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Cowan",
+            "suburb": "St Peters",
             "trafficVolume": ""
           }
         ]
@@ -18273,6 +18271,80 @@
             "secondLocation": " ",
             "suburb": "Cootamundra",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78665,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19323980265503,
+          -33.57383741544602
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway approaching Cowan",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1608797785943,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1608800037117,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowan",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": ""
           }
         ]
       }
