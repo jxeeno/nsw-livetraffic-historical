@@ -12850,7 +12850,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1609359550970,
+        "lastUpdated": 1609361207103,
         "otherAdvice": "The salvage and clean-up is likely to take most of the day.",
         "arrangementElements": [],
         "diversions": "<p>East St, Atkins St, Riverina Hwy, Wodonga Pl, Lincoln Causeway, to rejoin the Hume Fwy.&nbsp;This diversion is suitable for all vehicles.</p>",
@@ -12898,13 +12898,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.4005249491089,
-          -34.82215323312918
+          148.96012736828004,
+          -34.829279422692316
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH B-Double - GUNNING Hume Highway",
+        "headline": "CRASH B-Double - GUNNING Hume Highway between Barton Highway and Federal Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12915,24 +12915,25 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1609359938147,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "B-Double",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Use diversions",
+        "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1609359938193,
+        "lastUpdated": 1609361136210,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "From Yass: Barton Hwy to ACT, Federal Hwy, and back to Hume Hwy. This will add around 50 minutes to your travel time.",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -12941,25 +12942,97 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Barton Highway",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_SOUTH",
-            "secondLocation": " ",
+            "secondLocation": "Federal Highway",
             "suburb": "Gunning",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79000,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17883736263505,
+          -33.89751977247359
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - NEWTOWN King Street at Enmore Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1609361589383,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1609361589413,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Enmore Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "King Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Newtown",
             "trafficVolume": ""
           }
         ]
