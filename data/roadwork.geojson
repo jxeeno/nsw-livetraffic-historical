@@ -6762,7 +6762,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -6775,7 +6775,7 @@
         "end": 1609934400000,
         "incidentKind": "Planned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1606870484410,
+        "lastUpdated": 1609869477000,
         "otherAdvice": "Ferry services do not operate on the first Wednesday of each month between 9:30am and 11:30am.",
         "arrangementElements": [],
         "diversions": "Use Lawrence Ferry or Grafton Bridge.",
@@ -17252,83 +17252,6 @@
     },
     {
       "type": "Feature",
-      "id": 79356,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20989004584357,
-          -33.85358055631598
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - MILLERS POINT TO MILSONS POINT Sydney Harbour Bridge",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "4:30am",
-            "fromDay": "Tuesday",
-            "startTime": "10:30pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1609835370520,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Check signage",
-        "end": 1609867800000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1609835583143,
-        "otherAdvice": "<p>Lanes 1 and 2 will close from 8.30pm to 4.30am.</p><p>Lane 3 will close from 10.30pm to 4.30am.</p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1609839000000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "-",
-            "mainStreet": "Sydney Harbour Bridge",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Millers Point to Milsons Point",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 75826,
       "geometry": {
         "type": "Point",
@@ -17563,6 +17486,83 @@
             "region": "SYD_NORTH",
             "secondLocation": "Macquarie Street",
             "suburb": "Milsons Point to Circular Quay",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20989004584357,
+          -33.85358055631598
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - MILLERS POINT TO MILSONS POINT Sydney Harbour Bridge",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "4:30am",
+            "fromDay": "Tuesday",
+            "startTime": "10:30pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1609835370520,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Check signage",
+        "end": 1609867800000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1609867828723,
+        "otherAdvice": "<p>Lanes 1 and 2 will close from 8.30pm to 4.30am.</p><p>Lane 3 will close from 10.30pm to 4.30am.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1609839000000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "-",
+            "mainStreet": "Sydney Harbour Bridge",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Millers Point to Milsons Point",
             "trafficVolume": ""
           }
         ]
