@@ -14505,7 +14505,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1610168483910,
+        "lastUpdated": 1610168991137,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14527,7 +14527,7 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
+                "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
@@ -14548,17 +14548,17 @@
     },
     {
       "type": "Feature",
-      "id": 79614,
+      "id": 79615,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20806358570556,
-          -33.76104265986074
+          151.02437180321044,
+          -33.69587635158604
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - FORESTVILLE Warringah Road at Forestville Avenue",
+        "headline": "HAZARD Wires down - DURAL Old Northern Road between Kenthurst Road and Derriwong Road, Dural",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14570,49 +14570,49 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1610167884333,
-        "isMajor": false,
+        "created": 1610169117403,
+        "isMajor": true,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
+        "subCategoryA": "Wires down",
+        "adviceB": "Use an alternative route",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1610167884367,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1610169117453,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Hastings Road.",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Wires down",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Forestville Avenue",
+            "crossStreet": "Kenthurst Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Warringah Road",
+            "locationQualifier": "between",
+            "mainStreet": "Old Northern Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Forestville",
+            "secondLocation": "Derriwong Road",
+            "suburb": "Dural",
             "trafficVolume": ""
           }
         ]
@@ -14620,72 +14620,136 @@
     },
     {
       "type": "Feature",
-      "id": 79549,
+      "id": 79617,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.82957939206543,
-          -34.04492150757544
+          150.9219967,
+          -34.3156989
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - LEUMEAH Campbelltown Road at Rose Payten Drive, Minto",
+        "headline": "BURST WATER MAIN - THIRROUL Lawrence Hargrave Drive at Raymond Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1610079721577,
+        "created": 1610170587573,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
+        "subCategoryA": null,
         "adviceB": " ",
-        "adviceA": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1610083171203,
+        "mainCategory": "Burst water main",
+        "lastUpdated": 1610170587590,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Utility Company"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BURST WATER MAIN",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Rose Payten Drive",
+            "crossStreet": "Raymond Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Lawrence Hargrave Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Thirroul",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79618,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2058403,
+          -33.8815953
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - HAYMARKET Pitt Street at Eddy Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1610171032827,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1610171032873,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Eddy Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Campbelltown Road",
+            "mainStreet": "Pitt Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Leumeah",
-            "trafficVolume": "Heavy"
+            "suburb": "Haymarket",
+            "trafficVolume": ""
           }
         ]
       }
@@ -18333,6 +18397,150 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Cowan",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79614,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20806358570556,
+          -33.76104265986074
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - FORESTVILLE Warringah Road at Forestville Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1610167884333,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1610170138537,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Forestville Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Warringah Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Forestville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79616,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15004703107397,
+          -33.87256905189952
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HABERFIELD City West link just past James St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1610169164160,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1610170197973,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James St",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "City West link",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Haberfield",
             "trafficVolume": ""
           }
         ]
