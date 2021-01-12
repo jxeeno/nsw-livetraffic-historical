@@ -13413,10 +13413,10 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1610448055433,
+        "lastUpdated": 1610450513040,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Westbound <strong>light vehicle</strong> diversion from Denman: Denman Rd to Muswellbrook, New England Hwy to Scone, then Bunnan Rd/Scone Rd to Merriwa. Eastbound is the same in reverse.&nbsp;<br></p><p><strong>Heavy vehicles are being parked.</strong></p>",
+        "diversions": "<p>Westbound <strong>light vehicles: </strong>From Denman; Denman Rd to Muswellbrook, New England Hwy to Scone, then Bunnan Rd/Scone Rd to Merriwa. Eastbound is the same in reverse.&nbsp;<br></p><p><strong>Heavy vehicles are being parked.</strong></p>",
         "additionalInfo": [
           " "
         ],
@@ -13554,17 +13554,17 @@
     },
     {
       "type": "Feature",
-      "id": 79831,
+      "id": 79835,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.07677348462528,
-          -33.942392287220024
+          151.20601981919265,
+          -33.8896163871443
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BEVERLY HILLS King Georges Road approaching M5 Motorway",
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - SURRY HILLS Cleveland St at Chalmers St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13576,15 +13576,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1610443706657,
+        "created": 1610450460610,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed; Exercise caution",
+        "adviceA": "Police are directing traffic",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1610447905703,
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1610451858070,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13593,32 +13593,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M5 Motorway",
+            "crossStreet": "Chalmers St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "5",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "King Georges Road",
+            "locationQualifier": "at",
+            "mainStreet": "Cleveland St",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Beverly Hills",
+            "suburb": "Surry Hills",
             "trafficVolume": ""
           }
         ]
@@ -18544,6 +18545,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "North Arm Cove",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79831,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.07677348462528,
+          -33.942392287220024
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BEVERLY HILLS King Georges Road approaching M5 Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1610443706657,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1610450409907,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M5 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Beverly Hills",
             "trafficVolume": ""
           }
         ]
