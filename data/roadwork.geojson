@@ -7514,9 +7514,9 @@
             "roadextent": "Lanes closed",
             "roadtype": "",
             "direction": "Northbound",
-            "finishTime": "7:00am",
+            "finishTime": "11:59pm",
             "fromDay": "Saturday",
-            "startTime": "8:00pm",
+            "startTime": "5:00am",
             "toDay": ""
           },
           {
@@ -7524,9 +7524,9 @@
             "roadextent": "Lanes closed",
             "roadtype": "",
             "direction": "Northbound",
-            "finishTime": "7:00am",
+            "finishTime": "",
             "fromDay": "Sunday",
-            "startTime": "8:00pm",
+            "startTime": "all day",
             "toDay": ""
           },
           {
@@ -7536,7 +7536,17 @@
             "direction": "Northbound",
             "finishTime": "7:00am",
             "fromDay": "Monday",
-            "startTime": "8:00pm",
+            "startTime": "12:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "7:00am",
+            "fromDay": "Monday",
+            "startTime": "10:00am",
             "toDay": ""
           },
           {
@@ -7576,7 +7586,7 @@
             "direction": "Northbound",
             "finishTime": "5:00am",
             "fromDay": "Friday",
-            "startTime": "10:00am",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
@@ -7599,8 +7609,8 @@
         "end": 1611943200000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1610136248997,
-        "otherAdvice": "<p>Between 7 and 11 Jan, lane closures may begin from 8pm each night.</p><p>2 of 4 lanes northbound will be closed for work at Inner Sydney High School.</p>",
+        "lastUpdated": 1610731831153,
+        "otherAdvice": "<p>2 of 4 lanes northbound will be closed for work at Inner Sydney High School.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7611,7 +7621,7 @@
           " "
         ],
         "duration": null,
-        "start": 1610110800000,
+        "start": 1610715600000,
         "displayName": "SCHEDULED ROADWORK",
         "media": [],
         "roads": [
@@ -23403,6 +23413,113 @@
     },
     {
       "type": "Feature",
+      "id": 80172,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6622809731548,
+          -34.23733096392053
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - PHEASANTS NEST TO DOUGLAS PARK Hume Motorway at Pheasants Nest Bridge, Moolgun Creek Bridge, Douglas Park Bridge",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1610732992570,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "end": 1611079200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1610732992617,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place. <br>Motorists are advised to allow around five minutes extra travel time.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1610802000000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pheasants Nest Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Pheasants Nest to Douglas Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 74796,
       "geometry": {
         "type": "Point",
@@ -23605,93 +23722,6 @@
             "region": "SYD_WEST",
             "secondLocation": "Watkin Tench Parade",
             "suburb": "Greystanes",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 77699,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.01900080907203,
-          -33.829666789300035
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - GRANVILLE M4 Motorway eastbound off-ramp to James Ruse Dr",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Eastbound",
-            "finishTime": "4:00am",
-            "fromDay": "Sunday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Eastbound",
-            "finishTime": "4:00am",
-            "fromDay": "Monday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1608015106227,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Bridge work",
-        "adviceB": "Allow extra travel time; Use diversions",
-        "adviceA": "Reduced speed limit",
-        "end": 1610643600000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1610643617997,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": "M4 Motorway Church St eastbound off-ramp and Parramatta Rd.",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1610362800000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "James Ruse Dr",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "M4 Motorway eastbound off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Granville",
             "trafficVolume": ""
           }
         ]
