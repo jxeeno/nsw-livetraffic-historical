@@ -13100,17 +13100,17 @@
     },
     {
       "type": "Feature",
-      "id": 80301,
+      "id": 80302,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.05588379073794,
-          -33.93183350696615
+          151.12412148014837,
+          -33.60029870935197
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - PUNCHBOWL Canterbury Road near Belmore Road, Riverwood",
+        "headline": "FERRY OUT OF SERVICE Breakdown - BEROWRA WATERS Berowra Waters Ferry between Bay Road AND Berowra Waters Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13122,41 +13122,55 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1610899924660,
+        "created": 1610900569330,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Breakdown",
+        "adviceB": "Plan your journey",
+        "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1610899924707,
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1610904321727,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Boundary Rd, New Line Rd, Galston Rd, Arcadia Rd and Bay Rd, in both directions.",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Mechanic"
         ],
-        "displayName": "CRASH Car",
+        "encodedPolylines": [
+          {
+            "coords": "lmalEe~jy[Dg@BY@M?U??B]FUF]@M?UCSAU@SBKFQJYHSVo@Ja@DKNk@`@gB??Is@CY?A?A",
+            "levels": ""
+          }
+        ],
+        "displayName": "FERRY OUT OF SERVICE Breakdown",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Belmore Road",
+            "crossStreet": "Bay Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Canterbury Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Ferry"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Berowra Waters Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Punchbowl",
+            "region": "SYD_NORTH",
+            "secondLocation": "Berowra Waters Road",
+            "suburb": "Berowra Waters",
             "trafficVolume": ""
           }
         ]
@@ -17209,6 +17223,81 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Moorebank",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05494501758272,
+          -33.931824605226005
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - PUNCHBOWL Canterbury Road approaching Belmore Road, Riverwood",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1610899924660,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1610904280213,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Utility Company",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Belmore Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Punchbowl",
             "trafficVolume": ""
           }
         ]
