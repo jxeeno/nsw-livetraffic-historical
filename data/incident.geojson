@@ -2460,7 +2460,28 @@
           }
         ],
         "headline": "COVID-19 Border Control - COBAKI LAKES M1 Pacific Motorway approaching Queensland border",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Motorway",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Motorway",
+            "direction": "Northbound",
+            "finishTime": "11:59pm",
+            "fromDay": "Monday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -2474,13 +2495,14 @@
         "created": 1608268237383,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
+        "subCategoryA": "(p)",
         "adviceB": " ",
         "adviceA": "Plan your journey",
-        "incidentKind": "Unplanned",
+        "end": 1612202400000,
+        "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1611979692107,
-        "otherAdvice": "<p><strong>The Queensland Government has imposed restrictions at the NSW-QLD border as a result of the coronavirus pandemic.</strong></p><p>Border control measures can change quickly with people intending to travel from NSW to Queensland advised to visit the <a href=\"https://www.covid19.qld.gov.au\" target=\"_blank\">covid19.qld.gov.au website</a>&nbsp;for up to date information on those eligible to travel, those who must obtain a border declaration pass, those who must quarantine and those ineligible to cross the border.<strong></strong></p><p>** Please note that due to operations required to reopen the Queensland border on Monday morning, the M1 Pacific Mwy will be closed at this location on Sunday night from 7pm until 5am. There will be another closure on Monday night from 7pm until around midnight. During these closures, motorists should use the Gold Coast Hwy.</p>",
+        "lastUpdated": 1612084412633,
+        "otherAdvice": "<p><strong>The Queensland border will reopen on Mon 1 Feb.</strong></p><p>In order to remove infrastructure related to the border control operation, the M1 Pacific Mwy will be closed at this location on Sunday night from 7pm until 5am. There will be another closure on Monday night from 7pm until around midnight. During these closures, motorists should use the Gold Coast Hwy.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2490,6 +2512,8 @@
         "attendingGroups": [
           " "
         ],
+        "duration": null,
+        "start": 1612011600000,
         "displayName": "COVID-19 Border Control",
         "media": [],
         "roads": [
@@ -2497,16 +2521,7 @@
             "conditionTendency": "",
             "crossStreet": "Queensland border",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "approaching",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
@@ -2514,7 +2529,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cobaki Lakes",
-            "trafficVolume": "Moderate"
+            "trafficVolume": ""
           }
         ]
       }
@@ -11772,8 +11787,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1612073383583,
-        "otherAdvice": "Lane 1 will remain closed until later tonight.",
+        "lastUpdated": 1612084243100,
+        "otherAdvice": "Lane 1 will remain closed until further notice.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -11912,14 +11927,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Reduce your speed; Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1612082865613,
-        "otherAdvice": " ",
+        "lastUpdated": 1612084038110,
+        "otherAdvice": "Motorists are not able to turn right in either direction at this intersection.",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Southbound can turn at Rouse Hill Dr.<br>Northbound can turn right at Sanctuary Dr.",
         "additionalInfo": [
           " "
         ],
@@ -11937,9 +11952,17 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
+                "closedLanes": "2",
                 "description": "",
                 "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
@@ -11951,6 +11974,151 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Rouse Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81577,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5489639,
+          -32.558356
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Livestock - MENAH Castlereagh Highway near Abbattoirs Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612084176270,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Livestock",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1612084176300,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "HAZARD Livestock",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Abbattoirs Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Castlereagh Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Menah",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81578,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.843507468,
+          -33.8771632422
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - CECIL PARK Elizabeth Dr at M7 Sbound On/Off Ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612085122487,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1612085122533,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Maintenance"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M7 Sbound On/Off Ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Elizabeth Dr",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Cecil Park",
             "trafficVolume": ""
           }
         ]
