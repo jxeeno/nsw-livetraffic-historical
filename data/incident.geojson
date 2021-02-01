@@ -7410,11 +7410,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "B-Double",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1612190675590,
+        "lastUpdated": 1612192126497,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7436,8 +7436,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -7457,39 +7457,38 @@
     },
     {
       "type": "Feature",
-      "id": 77246,
+      "id": 81693,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20723042963866,
-          -33.88550767202899
+          150.6740691,
+          -33.5488832
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations - SURRY HILLS Chalmers Street between Cleveland Street AND Devonshire Street ",
+        "headline": "CRASH Car rolled - KURRAJONG Bells Line of Road at Mill Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1610937320607,
+        "created": 1612192343620,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": " ",
-        "adviceA": "Check signage",
-        "end": 1612105200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1612105208793,
-        "otherAdvice": "<p><strong>Special event clearways will be in effect&nbsp;on the western side of&nbsp;</strong><strong>Chalmers St between Cleveland St and Devonshire St&nbsp;</strong><strong>to facilitate rail replacement&nbsp;bus operations for Sydney Trains trackwork from 2am Saturday 30 January until 2am 1 February. </strong><strong></strong></p><p>Clearways are strict no-parking zones and apply even to local residents or RMS Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.</p>",
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1612192343667,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7497,25 +7496,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "duration": null,
-        "start": 1611925200000,
-        "displayName": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations",
+        "displayName": "CRASH Car rolled",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cleveland Street",
+            "crossStreet": "Mill Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Chalmers Street",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bells Line of Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Devonshire Street",
-            "suburb": "Surry Hills",
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Kurrajong",
             "trafficVolume": ""
           }
         ]
