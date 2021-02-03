@@ -7520,37 +7520,37 @@
     },
     {
       "type": "Feature",
-      "id": 81724,
+      "id": 81898,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.78087686663915,
-          -34.55532286587116
+          150.9721036,
+          -33.7323658
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Water on road - ALBION PARK RAIL Illawarra Highway near Croome Lane",
+        "headline": "BREAKDOWN Car - CASTLE HILL Windsor Road at Norwest Boulevarde",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1612216355497,
+        "created": 1612381897123,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Water on road",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1612295717647,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1612381897157,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7559,33 +7559,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "HAZARD Water on road",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Croome Lane",
+            "crossStreet": "Norwest Boulevarde",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Illawarra Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Albion Park Rail",
+            "suburb": "Castle Hill",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81899,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21355286137694,
+          -33.85081048365203
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - MILSONS POINT Sydney Harbour Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1612382051270,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1612382111113,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Milsons Point",
+            "trafficVolume": "Moderate"
           }
         ]
       }
