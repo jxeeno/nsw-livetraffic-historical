@@ -5852,7 +5852,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1612493155583,
+        "lastUpdated": 1612495359287,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5874,8 +5874,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -5888,7 +5888,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Pyrmont",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5967,78 +5967,6 @@
     },
     {
       "type": "Feature",
-      "id": 82029,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.022973,
-          -34.6965271
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Tyre debris - MARULAN Hume Highway at Highland Way",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1612493492027,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Tyre debris",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1612493492057,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Tyre debris",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Highland Way",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Marulan",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 82030,
       "geometry": {
         "type": "Point",
@@ -6049,7 +5977,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Motorcycle - HOMEBUSH WEST Marlborough Road at Mandemar Avenue",
+        "headline": "CRASH Car, Motorcycle - HOMEBUSH WEST Marlborough Road between Parramatta Road AND Kerruish Avenue ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6069,7 +5997,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1612494492343,
+        "lastUpdated": 1612495202453,
         "otherAdvice": "There is no access to Marlborough Rd from either Parramatta Rd or Centenary Drive.",
         "arrangementElements": [],
         "diversions": " ",
@@ -6086,24 +6014,24 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mandemar Avenue",
+            "crossStreet": "Parramatta Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Marlborough Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
+            "secondLocation": "Kerruish Avenue",
             "suburb": "Homebush West",
             "trafficVolume": ""
           }
@@ -6260,13 +6188,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.4118878,
-          -33.2404001
+          151.41755262543944,
+          -33.23379545569803
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - JILLIBY M1 Pacific Motorway approaching Sparks Lane, Greenacre",
+        "headline": "CRASH Truck, Car - JILLIBY M1 Pacific Motorway approaching Sparks Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6286,7 +6214,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1612494578647,
+        "lastUpdated": 1612495488083,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6302,9 +6230,18 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sparks Lane",
+            "crossStreet": "Sparks Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "approaching",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
@@ -6334,7 +6271,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -6349,7 +6286,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1612494637087,
+        "lastUpdated": 1612495898883,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6384,6 +6321,222 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Coffs Harbour",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82035,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.594159,
+          -32.7606031
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - EAST MAITLAND New England Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612495081150,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1612495224670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "East Maitland",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82037,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5757858,
+          -33.7023528
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - SPRINGWOOD Great Western Highway at Macquarie Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612495408997,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1612495409043,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Macquarie Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Springwood",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82038,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.42047972268676,
+          -35.12545518923171
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - WAGGA WAGGA Sturt Highway at Tasman Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612495621560,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1612495621590,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Tasman Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Sturt Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Wagga Wagga",
             "trafficVolume": ""
           }
         ]
@@ -11546,6 +11699,150 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "North Narooma",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82029,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.022973,
+          -34.6965271
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Tyre debris - MARULAN Hume Highway at Highland Way",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612493492027,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Tyre debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1612495241817,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Tyre debris",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Highland Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Marulan",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82034,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.101694,
+          -30.3055311
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COFFS HARBOUR Pacific Highway at Thompsons Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612494637053,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1612495898883,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Thompsons Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Coffs Harbour",
             "trafficVolume": ""
           }
         ]
