@@ -5898,7 +5898,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1612908796387,
+        "lastUpdated": 1612909805140,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5970,17 +5970,16 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1612909111567,
+        "lastUpdated": 1612909751187,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
         "displayName": "CRASH Truck, Car",
         "media": [],
@@ -5992,10 +5991,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -6013,17 +6012,17 @@
     },
     {
       "type": "Feature",
-      "id": 82448,
+      "id": 82450,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0275476,
-          -33.7152663
+          150.8222101,
+          -33.6067707
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - DURAL New Line Road near David Road",
+        "headline": "BREAKDOWN Truck - WINDSOR Macquarie Street near Ross Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6035,15 +6034,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1612908773130,
+        "created": 1612910097820,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1612908773223,
+        "lastUpdated": 1612910097867,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6052,32 +6051,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Tow Truck",
+          "Mechanic"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "David Road",
+            "crossStreet": "Ross Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "New Line Road",
+            "mainStreet": "Macquarie Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Dural",
+            "suburb": "Windsor",
             "trafficVolume": ""
           }
         ]
@@ -10787,6 +10787,78 @@
             "secondLocation": " ",
             "suburb": "Blaxland",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82448,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0275476,
+          -33.7152663
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - DURAL New Line Road near David Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1612908773130,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1612909790830,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "David Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "New Line Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Dural",
+            "trafficVolume": ""
           }
         ]
       }
