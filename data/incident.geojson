@@ -5990,7 +5990,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1613185140860,
+        "lastUpdated": 1613188149467,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6062,7 +6062,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1613185907240,
+        "lastUpdated": 1613188228073,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6134,7 +6134,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1613186381963,
+        "lastUpdated": 1613188291307,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6394,37 +6394,37 @@
     },
     {
       "type": "Feature",
-      "id": 82677,
+      "id": 82810,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.13075399568976,
-          -33.65944623702419
+          151.7114885,
+          -32.9531009
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Motorcycle - MOUNT KURING-GAI M1 Pacific Motorway near Church Street overpass",
+        "headline": "HAZARD Potholes - CHARLESTOWN Pacific Highway at Kahibah Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1613100138473,
+        "created": 1613187878633,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Pothole",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1613101582107,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1613187879007,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6433,18 +6433,19 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Motorcycle",
+        "displayName": "HAZARD Potholes",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Church Street overpass",
+            "crossStreet": "Kahibah Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
                 "description": "Lane 3",
                 "extent": "Lanes closed",
@@ -6452,13 +6453,85 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Mount Kuring-Gai",
+            "suburb": "Charlestown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82811,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2678681,
+          -33.8850953
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK - BELLEVUE HILL Old South Head Road at Curlewis Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613188130550,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1613188130580,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "EMERGENCY ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Curlewis Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Old South Head Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bellevue Hill",
             "trafficVolume": ""
           }
         ]
