@@ -5826,8 +5826,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1613366978600,
-        "otherAdvice": "<p><strong>Both southbound lanes are closed, however motorists are passing the incident site via the shoulder.</strong></p><p>No right turn into Harrington Rd northbound.</p>",
+        "lastUpdated": 1613367789960,
+        "otherAdvice": "<p>The northbound right-hand turn into Harrington Rd has been restricted.</p>",
         "arrangementElements": [],
         "diversions": "Northbound motorists will need to continue to&nbsp;Jericho Rd and turn around to access&nbsp;Harrington Rd.",
         "additionalInfo": [
@@ -5848,11 +5848,19 @@
             "delay": "",
             "impactedLanes": [
               {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -6379,6 +6387,78 @@
     },
     {
       "type": "Feature",
+      "id": 82973,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99823538346232,
+          -33.827944149018776
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - GRANVILLE M4 Motorway approaching Church Street off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613367920660,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1613367920690,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Church Street off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Granville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 82871,
       "geometry": {
         "type": "Point",
@@ -6517,79 +6597,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 82875,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1625235,
-          -33.8111272
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - LANE COVE Centennial Avenue at Finlayson Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1613281003770,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1613281290870,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Finlayson Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Centennial Avenue",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Lane Cove",
             "trafficVolume": ""
           }
         ]
