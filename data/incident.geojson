@@ -5898,7 +5898,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1613450546043,
+        "lastUpdated": 1613452267957,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5908,12 +5908,6 @@
         "webLinkName": null,
         "attendingGroups": [
           "Local Council"
-        ],
-        "encodedPolylines": [
-          {
-            "coords": "h`gqE_glc[CG[yACK",
-            "levels": ""
-          }
         ],
         "displayName": "BURST WATER MAIN",
         "media": [],
@@ -6121,7 +6115,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1613451145810,
+        "lastUpdated": 1613452627400,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6148,14 +6142,6 @@
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Highway"
-              },
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
@@ -6176,8 +6162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.97841515285646,
-          -33.94532015163133
+          150.9786190007416,
+          -33.94526674963623
         ]
       },
       "properties": {
@@ -6202,7 +6188,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1613451302323,
+        "lastUpdated": 1613452449603,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6224,9 +6210,9 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Lanes closed",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "On-ramp"
               }
@@ -6271,12 +6257,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck, Motorcycle",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1613451518360,
-        "otherAdvice": " ",
+        "lastUpdated": 1613452194230,
+        "otherAdvice": "One lane is closed southbound on Milton St.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6284,6 +6270,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "CRASH Truck, Motorcycle",
@@ -6301,6 +6288,14 @@
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
@@ -6310,6 +6305,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Ashfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83071,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2021211,
+          -33.9034581
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - WATERLOO Botany Road at Mandible Street, Alexandria",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613452960867,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1613452960913,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mandible Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Botany Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Waterloo",
             "trafficVolume": ""
           }
         ]
