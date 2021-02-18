@@ -6134,7 +6134,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -6149,7 +6149,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1613600009157,
+        "lastUpdated": 1613607140710,
         "otherAdvice": "The diesel spill goes for approx 10km.",
         "arrangementElements": [],
         "diversions": " ",
@@ -6569,37 +6569,37 @@
     },
     {
       "type": "Feature",
-      "id": 83133,
+      "id": 83241,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1362624,
-          -33.7691625
+          150.9085451,
+          -33.9275785
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - WEST PYMBLE Ryde Road near Yanko Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Medical Emergency - LIVERPOOL Hoxton Park Road at Flowerdale Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1613519690687,
+        "created": 1613606708803,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Medical Emergency",
         "adviceB": " ",
-        "adviceA": " ",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1613520458117,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1613606708837,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6608,34 +6608,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
           "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Medical Emergency",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Yanko Road",
+            "crossStreet": "Flowerdale Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Ryde Road",
+            "locationQualifier": "at",
+            "mainStreet": "Hoxton Park Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Liverpool",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83242,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14386495362857,
+          -33.8007591382141
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - LANE COVE WEST Lane Cove Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613606847840,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Overheight vehicle",
+        "adviceB": "Use an alternative route; Expect delays",
+        "adviceA": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1613606847873,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "Epping Rd.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Lane Cove Tunnel",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "West Pymble",
-            "trafficVolume": ""
+            "suburb": "Lane Cove West",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11576,6 +11647,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Homebush West",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.48868090818482,
+          -34.6804587092335
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Diesel spill - BARRENGARRY TO MOSS VALE Moss Vale Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613600009107,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Diesel spill",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1613607140710,
+        "otherAdvice": "The diesel spill goes for approx 10km.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Diesel spill",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "Moss Vale Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Barrengarry to Moss Vale",
             "trafficVolume": ""
           }
         ]
