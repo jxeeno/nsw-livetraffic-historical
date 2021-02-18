@@ -5985,7 +5985,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -6000,7 +6000,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1613632398937,
+        "lastUpdated": 1613634481743,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -6308,8 +6308,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1613633267553,
-        "otherAdvice": "Contra flow traffic conditions are in place. ",
+        "lastUpdated": 1613634452007,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6329,11 +6329,11 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -6566,78 +6566,6 @@
             "secondLocation": " ",
             "suburb": "Clifton",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 83179,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.02054419632012,
-          -33.941166048701554
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - REVESBY M5 Mwy approaching The River Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1613544394110,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1613547728117,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The River Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M5 Mwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Revesby",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -12698,6 +12626,78 @@
             "secondLocation": " ",
             "suburb": "Arncliffe",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.4481635731987,
+          -36.60057579692279
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Removal of fallen tree - BEMBOKA Snowy Mountains Highway near Fred Piper Memorial Lookout",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613559849400,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceB": "Allow extra travel time; Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1613634481743,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Removal of fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Fred Piper Memorial Lookout",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Snowy Mountains Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bemboka",
+            "trafficVolume": ""
           }
         ]
       }
