@@ -6074,14 +6074,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceB": "Use an alternative route; Expect delays",
+        "adviceA": "Police are directing traffic",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1613715556017,
+        "lastUpdated": 1613716148067,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Westbound motorists are advised to use M4 Motorway.&nbsp;",
         "additionalInfo": [
           " "
         ],
@@ -6099,12 +6099,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "on",
@@ -6121,17 +6129,17 @@
     },
     {
       "type": "Feature",
-      "id": 83396,
+      "id": 83397,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2469539,
-          -33.8004363
+          150.86098445659184,
+          -34.39387750142416
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - SEAFORTH Manly Road at Battle Boulevard",
+        "headline": "BREAKDOWN Truck - MOUNT PLEASANT M1 Princes Mwy approaching New Mount Pleasant Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6143,15 +6151,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1613715228230,
+        "created": 1613716304973,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1613715228260,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1613716305003,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6162,30 +6170,30 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Battle Boulevard",
+            "crossStreet": "New Mount Pleasant Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Manly Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Princes Mwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Seaforth",
+            "suburb": "Mount Pleasant",
             "trafficVolume": ""
           }
         ]
@@ -6473,78 +6481,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Bexley North",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 83279,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0093998566803,
-          -33.76637251518551
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 3 cars - BAULKHAM HILLS M2 Motorway approaching Windsor Road off-ramp",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1613627470410,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1613629440170,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 3 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Windsor Road off-ramp",
-            "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M2 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Baulkham Hills",
             "trafficVolume": "Heavy"
           }
         ]
@@ -12958,6 +12894,78 @@
             "secondLocation": " ",
             "suburb": "Bar Point",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2469539,
+          -33.8004363
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - SEAFORTH Manly Road at Battle Boulevard",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1613715228230,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1613715792187,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Battle Boulevard",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Manly Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Seaforth",
+            "trafficVolume": ""
           }
         ]
       }
