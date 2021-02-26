@@ -5986,10 +5986,10 @@
         "name": null,
         "subCategoryA": "Car",
         "adviceB": " ",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1614363570640,
+        "lastUpdated": 1614366826063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5998,6 +5998,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Car",
@@ -6014,7 +6015,7 @@
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Motorway"
               }
             ],
             "locationQualifier": "at",
@@ -6113,17 +6114,17 @@
     },
     {
       "type": "Feature",
-      "id": 84099,
+      "id": 84101,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.11499087591855,
-          -34.00015059152674
+          150.84413282489635,
+          -34.689640183927146
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD An earlier car on fire - BLAKEHURST Princes Highway just past Tom Uglys Bridge",
+        "headline": "CRASH 2 cars - KIAMA Princes Hwy at South Kiama Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6135,15 +6136,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1614362197933,
+        "created": 1614366951277,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1614363626903,
+        "mainCategory": "Crash",
+        "lastUpdated": 1614366951307,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6152,15 +6153,14 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Tow Truck"
+          "Emergency services"
         ],
-        "displayName": "HAZARD An earlier car on fire",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Tom Uglys Bridge",
+            "crossStreet": "South Kiama Drive",
             "delay": "",
             "impactedLanes": [
               {
@@ -6169,16 +6169,16 @@
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Princes Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Blakehurst",
+            "suburb": "Kiama",
             "trafficVolume": ""
           }
         ]
@@ -12989,6 +12989,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Glen Innes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84099,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.11499087591855,
+          -34.00015059152674
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD An earlier car on fire - BLAKEHURST Princes Highway just past Tom Uglys Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1614362197933,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car on fire",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1614366220213,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "HAZARD An earlier car on fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Tom Uglys Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Blakehurst",
             "trafficVolume": ""
           }
         ]
