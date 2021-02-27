@@ -5912,7 +5912,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Late finishing roadwork",
-        "lastUpdated": 1614465426830,
+        "lastUpdated": 1614467149217,
         "otherAdvice": "The traffic lights are blacked out and traffic controllers are directing motorists.",
         "arrangementElements": [],
         "diversions": "Motorists should consider using The Northern Rd or M4 Mwy, to avoid lengthy delays.",
@@ -5984,7 +5984,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1614464687203,
+        "lastUpdated": 1614466902950,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.  ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6030,13 +6030,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.05899091617735,
-          -33.85284758288583
+          151.0594522561279,
+          -33.85309706216601
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Semi trailer - LIDCOMBE M4 Motorway eastbound on-ramp from Hill Road",
+        "headline": "BREAKDOWN Semi trailer - LIDCOMBE M4 Motorway just past Hill Road on-ramp",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6056,7 +6056,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1614465126963,
+        "lastUpdated": 1614467018310,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6072,20 +6072,20 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hill Road",
+            "crossStreet": "Hill Road on-ramp",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "On-ramp"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "from",
-            "mainStreet": "M4 Motorway eastbound on-ramp",
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
@@ -6108,7 +6108,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT - WARILLA Shellharbour Road at Terry Avenue",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - WARILLA Shellharbour Road at Terry Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6123,12 +6123,12 @@
         "created": 1614465617987,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Power failure",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1614465618033,
+        "lastUpdated": 1614467598087,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6139,7 +6139,7 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
         "media": [],
         "roads": [
           {
@@ -6324,7 +6324,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - LIVERPOOL Moore Street near Castlereagh Street",
+        "headline": "CRASH 2 cars - LIVERPOOL Moore Street at Castlereagh Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6344,7 +6344,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1614466505777,
+        "lastUpdated": 1614466655940,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6362,8 +6362,25 @@
             "conditionTendency": "",
             "crossStreet": "Castlereagh Street",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
             "mainStreet": "Moore Street",
             "quadrant": "",
             "queueLength": 0,
@@ -6371,6 +6388,78 @@
             "secondLocation": " ",
             "suburb": "Liverpool",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21471848603056,
+          -33.82983974063597
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Bicycle - NORTH SYDNEY Military Road approaching Warringah Freeway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1614467753380,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1614467753427,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car, Bicycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Warringah Freeway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "3",
+                "description": "Lane 1, Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "6",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Military Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": "Heavy"
           }
         ]
       }
