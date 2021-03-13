@@ -5733,17 +5733,17 @@
     },
     {
       "type": "Feature",
-      "id": 85464,
+      "id": 85465,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.10866777954757,
-          -33.93652700415332
+          151.11391886560668,
+          -34.002928450212906
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - BEXLEY M5 East Motorway just past Tunnel exit",
+        "headline": "CRASH Car - BLAKEHURST Princes Highway on Tom Uglys Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5755,15 +5755,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1615633786293,
+        "created": 1615634845973,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1615633786327,
+        "mainCategory": "Crash",
+        "lastUpdated": 1615635245397,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5772,33 +5772,107 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Tunnel exit",
+            "crossStreet": "Tom Uglys Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M5 East Motorway",
+            "locationQualifier": "on",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Bexley",
-            "trafficVolume": ""
+            "suburb": "Blakehurst",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85466,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5190792792847,
+          -28.178936555348734
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car rolled - TWEED HEADS M1 Pacific Motorway at Kennedy Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615635523617,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution; Expect delays",
+        "adviceA": "Use diversions",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1615635523677,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "Northbound traffic is diverted via Gold Coast Highway.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car rolled",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kennedy Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Tweed Heads",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10717,6 +10791,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Casino",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85464,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.10866777954757,
+          -33.93652700415332
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BEXLEY M5 East Motorway just past Tunnel exit",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615633786293,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1615635190367,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Tunnel exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M5 East Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bexley",
             "trafficVolume": ""
           }
         ]
