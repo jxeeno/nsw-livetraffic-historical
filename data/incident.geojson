@@ -6427,7 +6427,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1615678506167,
+        "lastUpdated": 1615678862667,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6436,6 +6436,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "HAZARD Water on road",
@@ -6859,37 +6860,37 @@
     },
     {
       "type": "Feature",
-      "id": 85420,
+      "id": 85500,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0505508209625,
-          -33.84758377028203
+          151.17315400157472,
+          -33.87075397708092
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - LIDCOMBE M4 Motorway approaching Silverwater Road",
+        "headline": "HAZARD Water on road - ROZELLE City West Link & The Crescent approaching James Craig Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1615588676847,
+        "created": 1615678843423,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Water on road",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1615592751937,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1615678843470,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6898,32 +6899,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "HAZARD Water on road",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Silverwater Road",
+            "crossStreet": "James Craig Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": "Motorway"
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
+            "mainStreet": "City West Link & The Crescent",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Lidcombe",
+            "suburb": "Rozelle",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85501,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.83164310805665,
+          -34.77167331130098
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Van - BOWNING Hume Highway just past Bowning Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615679586210,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1615679586240,
+        "otherAdvice": "The vehicle is in the centre median.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bowning Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bowning",
             "trafficVolume": ""
           }
         ]
