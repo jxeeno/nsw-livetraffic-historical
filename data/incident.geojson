@@ -5004,9 +5004,19 @@
             "roadextent": "Lanes closed",
             "roadtype": "",
             "direction": "Both directions",
-            "finishTime": "2:30pm",
+            "finishTime": "",
             "fromDay": "Monday",
-            "startTime": "12:00am",
+            "startTime": "all day",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "12:00pm",
             "toDay": ""
           }
         ],
@@ -5026,10 +5036,10 @@
         "subCategoryA": "(p)",
         "adviceB": "Allow extra travel time",
         "adviceA": "Expect delays",
-        "end": 1615779000000,
+        "end": 1615831200000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1615385143877,
+        "lastUpdated": 1615766410560,
         "otherAdvice": "<p>Traffic will frequently be held for up to five minutes with additional queuing expected on Railway Cr, The Ridgeway, Tuggerah St and Macdonalds Rd.</p><p>Motorists can consider Central Coast Hwy or M1 Mwy as alternative routes.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -5860,7 +5870,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1615762521653,
+        "lastUpdated": 1615766311050,
         "otherAdvice": "The truck's fuel tank has been ruptured and fuel has spilled onto the road.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5932,7 +5942,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1615765236153,
+        "lastUpdated": 1615767489693,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5984,7 +5994,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Low hanging branch - BELLINGEN Waterfall Way near Coronation Street",
+        "headline": "HAZARD Low hanging branch - BELLINGEN Waterfall Way - west of Coronation Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6004,7 +6014,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1615762551547,
+        "lastUpdated": 1615766360463,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6020,11 +6030,11 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Coronation Street",
+            "crossStreet": "west of Coronation Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -6032,86 +6042,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "-",
             "mainStreet": "Waterfall Way",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bellingen",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85598,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9180736,
-          -33.9286556
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - LIVERPOOL Hume Highway approaching Hoxton Park Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1615760531983,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1615763679667,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hoxton Park Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Liverpool",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -6192,152 +6130,6 @@
     },
     {
       "type": "Feature",
-      "id": 85603,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.70183441838532,
-          -32.921338607660246
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - NEW LAMBTON HEIGHTS Lookout Road approaching Russell Road, New Lambton",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1615762378360,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1615764287083,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Tow Truck"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Russell Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Lookout Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "New Lambton Heights",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85605,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.244188566201,
-          -33.740086914883165
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car, Car towing caravan - OXFORD FALLS Wakehurst Parkway just past Deadnought Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1615764626223,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1615765704320,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car, Car towing caravan",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Deadnought Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Wakehurst Parkway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Oxford Falls",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 85606,
       "geometry": {
         "type": "Point",
@@ -6368,7 +6160,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1615764853613,
+        "lastUpdated": 1615767207690,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6404,6 +6196,152 @@
             "secondLocation": " ",
             "suburb": "Revesby",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85607,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0671150619962,
+          -33.94373598305426
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 5 cars - BEVERLY HILLS M5 Motorway just past King Georges Road on-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615766780767,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1615766780813,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services",
+          "Motorway Crew"
+        ],
+        "displayName": "CRASH 5 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "King Georges Road on-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Beverly Hills",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85609,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17575037990113,
+          -33.869604821992084
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ROZELLE The Crescent approaching James Craig Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615767261730,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1615767261777,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Craig Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "The Crescent",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Rozelle",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -6624,150 +6562,6 @@
             "secondLocation": " ",
             "suburb": "Pyrmont to North Sydney",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85493,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2103563,
-          -33.9001469
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Building materials - WATERLOO Lachlan Street near Bourke Street, Surry Hills",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1615676744167,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Building materials",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1615679846110,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Building materials",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bourke Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Lachlan Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Waterloo",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85482,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.16016158410036,
-          -33.792662958130286
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Fallen tree and wires down - CHATSWOOD WEST Millwood Avenue near Lady Game Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1615672562247,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Fallen tree",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1615680240783,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "HAZARD Fallen tree and wires down",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Lady Game Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Millwood Avenue",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Chatswood West",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14278,6 +14072,295 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Regentville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85598,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9180736,
+          -33.9286556
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - LIVERPOOL Hume Highway approaching Hoxton Park Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615760531983,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1615766262380,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hoxton Park Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Liverpool",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85605,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.244188566201,
+          -33.740086914883165
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Car towing caravan - OXFORD FALLS Wakehurst Parkway just past Deadnought Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615764626223,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1615766425517,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car, Car towing caravan",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Deadnought Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Wakehurst Parkway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Oxford Falls",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85603,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.70183441838532,
+          -32.921338607660246
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NEW LAMBTON HEIGHTS Lookout Road approaching Russell Road, New Lambton",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615762378360,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1615767137303,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Russell Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Lookout Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "New Lambton Heights",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85608,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.13069068842768,
+          -33.65977867638871
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK - MOUNT KURING-GAI M1 Pacific Motorway just past Church Street overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1615767045673,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1615767460007,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "EMERGENCY ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Church Street overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Mount Kuring-Gai",
             "trafficVolume": ""
           }
         ]
