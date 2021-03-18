@@ -33,7 +33,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1616038184890,
+        "lastUpdated": 1616108590533,
         "otherAdvice": "Don't drive through floodwater. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -111,7 +111,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1616038166767,
+        "lastUpdated": 1616108623710,
         "otherAdvice": "Don't drive through floodwater. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -631,8 +631,8 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1616106072867,
-        "otherAdvice": " ",
+        "lastUpdated": 1616108365307,
+        "otherAdvice": "Don't drive through floodwater. ",
         "arrangementElements": [],
         "diversions": "Princes Hwy and Tongarra Rd, in both directions.",
         "additionalInfo": [
@@ -758,29 +758,29 @@
     },
     {
       "type": "Feature",
-      "id": 85942,
+      "id": 86126,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.0896732,
-          -32.6108461
+          152.80768873785397,
+          -31.465471425786816
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "FLOODING - TEA GARDENS Pacific Highway at Myall Way",
+        "headline": "FLOODING - THRUMSTER Oxley Highway - just west of Pacific Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1616021483637,
+        "created": 1616109684613,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
@@ -788,8 +788,8 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1616022431023,
-        "otherAdvice": "There is an accident 5km south of this location affecting southbound traffic.",
+        "lastUpdated": 1616109684673,
+        "otherAdvice": "Don't drive through floodwater. ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -797,7 +797,6 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
         "displayName": "FLOODING",
@@ -805,25 +804,93 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Myall Way",
+            "crossStreet": "just west of Pacific Highway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
+            "locationQualifier": "-",
+            "mainStreet": "Oxley Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Tea Gardens",
+            "suburb": "Thrumster",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.14082155544685,
+          -32.72459195544329
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Port Stephens Council Disaster Dashboard",
+            "linkURL": "https://disaster.portstephens.nsw.gov.au/dashboard/overview"
+          }
+        ],
+        "headline": "FLOODING - PORT STEPHENS COUNCIL Local roads",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616109735753,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Do not drive through floodwater",
+        "adviceA": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Flooding",
+        "lastUpdated": 1616109736333,
+        "otherAdvice": "<p>A number of local roads in the Port Stephens Council area are closed due to flooding or affected by wet weather.</p><p>Visit the <a href=\"https://www.portstephens.nsw.gov.au/\" target=\"_blank\">Council website</a> for the most up-to-date information.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
+        "displayName": "FLOODING",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Local roads",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Port Stephens Council",
             "trafficVolume": ""
           }
         ]
