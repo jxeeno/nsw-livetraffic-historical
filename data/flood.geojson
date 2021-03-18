@@ -553,7 +553,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -568,7 +568,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1616053575120,
+        "lastUpdated": 1616060074077,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -764,7 +764,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "FLOODING - LEWISHAM Railway Terrace at Gordon Street",
+        "headline": "FLOODING - LEWISHAM Railway Terrace between West Street AND Gordon Street ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -780,14 +780,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Use an alternative route; Reduce your speed",
+        "adviceA": "Do not drive through floodwater",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1616056848650,
+        "lastUpdated": 1616058690260,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Traffic is diverted into West St.",
         "additionalInfo": [
           " "
         ],
@@ -801,24 +801,24 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gordon Street",
+            "crossStreet": "West Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Railway Terrace",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
+            "secondLocation": "Gordon Street",
             "suburb": "Lewisham",
             "trafficVolume": ""
           }
@@ -1411,6 +1411,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Eastgardens",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86028,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6855966,
+          -32.9995692
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "FLOODING - JEWELLS Pacific Highway at South Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616053575090,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Do not drive through floodwater; Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Flooding",
+        "lastUpdated": 1616060074077,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "FLOODING",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "South Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Jewells",
             "trafficVolume": ""
           }
         ]
