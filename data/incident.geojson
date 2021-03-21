@@ -3842,7 +3842,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "FERRY OUT OF SERVICE Adverse Weather - WEBBS CREEK FERRY Wisemans Ferry between St Albans Road AND River Road ",
+        "headline": "FERRY OUT OF SERVICE Adverse weather - WEBBS CREEK FERRY Wisemans Ferry between St Albans Road AND River Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -3862,7 +3862,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1616294568997,
+        "lastUpdated": 1616308528540,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -3879,7 +3879,7 @@
             "levels": ""
           }
         ],
-        "displayName": "FERRY OUT OF SERVICE Adverse Weather",
+        "displayName": "FERRY OUT OF SERVICE Adverse weather",
         "media": [],
         "roads": [
           {
@@ -3914,8 +3914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.40850642528687,
-          -33.547143394804465
+          150.40477279033814,
+          -33.54614191312661
         ]
       },
       "properties": {
@@ -3933,17 +3933,17 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1616274055470,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Landslide",
         "adviceB": "Stay away",
         "adviceA": "Delay your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1616302573807,
-        "otherAdvice": "Traffic is heavy in both directions on the Great Western Hwy so allow extra travel time as there are significant delays.",
+        "lastUpdated": 1616308455777,
+        "otherAdvice": "<p>This closure will remain in place overnight and be reassessed in the morning.<br></p>",
         "arrangementElements": [],
-        "diversions": "Motorists could use the Great Western Hwy as an alternative route.",
+        "diversions": "Motorists could use the Great Western Hwy as an alternative route but traffic is heavy in both directions, so allow extra travel time.",
         "additionalInfo": [
           " "
         ],
@@ -5325,17 +5325,17 @@
     },
     {
       "type": "Feature",
-      "id": 86512,
+      "id": 86513,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.90169952659758,
-          -33.8037001203187
+          148.1736088,
+          -35.3357725
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - PROSPECT M4 Motorway approaching Prospect Highway, Seven Hills",
+        "headline": "CRASH 2 cars - GILMORE Snowy Mountains Highway at Batlow Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5347,15 +5347,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1616307519473,
+        "created": 1616308056777,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1616307519507,
+        "mainCategory": "Crash",
+        "lastUpdated": 1616308056823,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5364,34 +5364,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Prospect Highway",
+            "crossStreet": "Batlow Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Snowy Mountains Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Gilmore",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86514,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.37472453967285,
+          -33.336589032579056
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - OURIMBAH M1 Pacific Motorway just past Ourimbah Interchange",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616308919863,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1616308919893,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ourimbah Interchange",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Prospect",
-            "trafficVolume": ""
+            "suburb": "Ourimbah",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -5485,78 +5556,6 @@
     },
     {
       "type": "Feature",
-      "id": 86295,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.74032450108032,
-          -31.670351135891163
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - ROSSGLEN Pacific Hwy at Rossglen Rd",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1616201012663,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1616222397577,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Rossglen Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Hwy",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Rossglen",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 86343,
       "geometry": {
         "type": "Point",
@@ -5623,150 +5622,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Hornsby",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 86349,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.1670788,
-          -33.5424407
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Diesel spill - HARTLEY Great Western Highway between Jenolan Caves Rd AND River Lett Hill ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1616216311860,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Diesel spill",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1616222307653,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Diesel spill",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Jenolan Caves Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Great Western Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": "River Lett Hill",
-            "suburb": "Hartley",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 86351,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0955273,
-          -33.8858862
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Water on road - STRATHFIELD Liverpool Road approaching Wentworth Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1616217685360,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Water on road",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1616222761617,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Water on road",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wentworth Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Liverpool Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Strathfield",
             "trafficVolume": ""
           }
         ]
@@ -14182,6 +14037,79 @@
             "secondLocation": " ",
             "suburb": "Eastwood",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86512,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90169952659758,
+          -33.8037001203187
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - PROSPECT M4 Motorway approaching Prospect Highway, Seven Hills",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616307519473,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1616308360983,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Heavy vehicle tow truck",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Prospect Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Prospect",
+            "trafficVolume": ""
           }
         ]
       }
