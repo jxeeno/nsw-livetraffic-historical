@@ -8314,26 +8314,38 @@
       "properties": {
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS March - NEWTOWN TO CAMPERDOWN King Street and City Road between Enmore Road AND Victoria Park ",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "4:00pm",
+            "fromDay": "Saturday",
+            "startTime": "2:45pm",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": "Bus services may experience delays - check&nbsp;<a href=\"https://transportnsw.info/alerts#/bus\" target=\"_blank\">transportnsw.info</a>&nbsp;service alerts&nbsp;for details.",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1616797945007,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
+        "subCategoryA": "March",
         "adviceB": "Use an alternative route; Plan your journey",
         "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
+        "end": 1616823000000,
+        "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1616798472220,
+        "lastUpdated": 1616799139203,
         "otherAdvice": "<p>Between 2:45 and 4pm today, rolling road closures will take place, in both directions, along King St and City Rd from Enmore Rd to Victoria Park.</p><p>Avoid unnecessary travel through the area during this time, or allow plenty of extra travel time.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -8344,6 +8356,8 @@
         "attendingGroups": [
           " "
         ],
+        "duration": null,
+        "start": 1616763600000,
         "displayName": "CHANGED TRAFFIC CONDITIONS March",
         "media": [],
         "roads": [
@@ -8360,6 +8374,78 @@
             "secondLocation": "Victoria Park",
             "suburb": "Newtown to Camperdown",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21401099829,
+          -33.86045273722705
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - SYDNEY Sydney Harbour Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616799269387,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1616799544903,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8878,78 +8964,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "North Gosford",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 87238,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.922278643,
-          -33.6904569132
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - ROUSE HILL Windsor Road at Schofields Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1616710209103,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1616712765813,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Schofields Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Windsor Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Rouse Hill",
             "trafficVolume": ""
           }
         ]
