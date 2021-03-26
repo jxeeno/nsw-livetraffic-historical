@@ -8303,17 +8303,17 @@
     },
     {
       "type": "Feature",
-      "id": 87331,
+      "id": 87332,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.5461588,
-          -28.6162585
+          151.17471120370485,
+          -33.915557924106565
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - EWINGSDALE Pacific Motorway at Kennedys lane",
+        "headline": "CRASH Truck, Car - ST PETERS Canal Road at Princes Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8325,15 +8325,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1616784418260,
+        "created": 1616784893977,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1616784418290,
+        "mainCategory": "Crash",
+        "lastUpdated": 1616784894023,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8344,30 +8344,38 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Kennedys lane",
+            "crossStreet": "Princes Highway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Pacific Motorway",
+            "mainStreet": "Canal Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Ewingsdale",
+            "suburb": "St Peters",
             "trafficVolume": ""
           }
         ]
@@ -14956,6 +14964,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bateau Bay",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5461588,
+          -28.6162585
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - EWINGSDALE Pacific Motorway at Kennedys lane",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616784418260,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1616784755150,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kennedys lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ewingsdale",
             "trafficVolume": ""
           }
         ]
