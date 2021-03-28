@@ -2187,7 +2187,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1616957810067,
+        "lastUpdated": 1616958537367,
         "otherAdvice": "The road will remain closed until further notice.&nbsp;",
         "arrangementElements": [],
         "diversions": "<p><strong></strong> Great Western Hwy to Bathurst then O’Connell Rd to Oberon.</p>",
@@ -3373,7 +3373,7 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1616905718473,
+        "lastUpdated": 1616958525700,
         "otherAdvice": "The ferry is out of service until further notice.<br>Lawrence Ferry is also out of service.&nbsp;",
         "arrangementElements": [],
         "diversions": "Grafton Bridge.",
@@ -9578,11 +9578,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
-        "adviceB": "Exercise caution; Allow extra travel time",
-        "adviceA": "Use an alternative route",
+        "adviceB": "Use an alternative route; Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1616958263487,
+        "lastUpdated": 1616958824480,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Golden Hwy/Mitchell line of Rd, Putty Rd.",
@@ -9617,44 +9617,116 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Whittingham",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 87394,
+      "id": 87453,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.14173625714724,
-          -33.74478282542263
+          150.91826424412093,
+          -33.938927591255656
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Motorcycle - PYMBLE Pacific Highway at Grandview Street",
+        "headline": "BREAKDOWN Car - MOOREBANK M5 Motorway approaching Moorebank Ave",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1616870849620,
+        "created": 1616958633357,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1616958752017,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorebank Ave",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Moorebank",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87454,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.0346304,
+          -34.691649
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck - MARULAN Hume Highway at Red Hills Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616958701273,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1616872151253,
+        "lastUpdated": 1616958701320,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9663,33 +9735,107 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Motorcycle",
+        "displayName": "CRASH Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Grandview Street",
+            "crossStreet": "Red Hills Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Pymble",
+            "suburb": "Marulan",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87455,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.93541142701324,
+          -33.80912907766152
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, 2 Cars - GREYSTANES M4 Motorway at Greystanes Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1616958961897,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1616959059373,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, 2 Cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Greystanes Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Greystanes",
+            "trafficVolume": "Heavy"
           }
         ]
       }
