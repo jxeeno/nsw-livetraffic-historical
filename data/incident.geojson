@@ -8856,8 +8856,8 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1617170900533,
-        "otherAdvice": "There is a breakdown in the same location.&nbsp;",
+        "lastUpdated": 1617173461893,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8877,19 +8877,11 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Median",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -9061,22 +9053,17 @@
     },
     {
       "type": "Feature",
-      "id": 87738,
+      "id": 87739,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.714071809,
-          -32.9514483702
+          150.7816554,
+          -33.877679
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Ausgrid",
-            "linkURL": "https://www.ausgrid.com.au/Outages/Power-outages#!?q=-32.948297220545875,151.71363466147116&z=15"
-          }
-        ],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT - ADAMSTOWN HEIGHTS Pacific Hwy at Northcott Dr",
+        "webLinks": [],
+        "headline": "CRASH 2 cars - KEMPS CREEK Elizabeth Drive at Western Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9088,16 +9075,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1617171822903,
+        "created": 1617173535670,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1617173055640,
-        "otherAdvice": "A number of other traffic lights are blacked out in the area due to a local power failure. ",
+        "mainCategory": "Crash",
+        "lastUpdated": 1617173535703,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9105,23 +9092,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Northcott Dr",
+            "crossStreet": "Western Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
-            "mainStreet": "Pacific Hwy",
+            "mainStreet": "Elizabeth Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Adamstown Heights",
+            "suburb": "Kemps Creek",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87740,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7409517875275,
+          -34.03957741546534
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - NARELLAN Narellan Road just past Camden Valley Way",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617173879600,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1617173879650,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Camden Valley Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Narellan Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Narellan",
             "trafficVolume": ""
           }
         ]
@@ -15995,6 +16064,142 @@
             "secondLocation": " ",
             "suburb": "Macquarie Park",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87738,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.714071809,
+          -32.9514483702
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Ausgrid",
+            "linkURL": "https://www.ausgrid.com.au/Outages/Power-outages#!?q=-32.948297220545875,151.71363466147116&z=15"
+          }
+        ],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - ADAMSTOWN HEIGHTS Pacific Hwy at Northcott Dr",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617171822903,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1617173251660,
+        "otherAdvice": "A number of other traffic lights are blacked out in the area due to a local power failure. ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Northcott Dr",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Adamstown Heights",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87737,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.711517472,
+          -32.9530341942
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Ausgrid",
+            "linkURL": "https://www.ausgrid.com.au/Outages/Power-outages#!?q=-32.948297220545875,151.71363466147116&z=15"
+          }
+        ],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - HIGHFIELDS Pacific Hwy at Kahibah Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617171775380,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1617173260587,
+        "otherAdvice": "A number of other traffic lights are blacked out in the area due to a local power failure.  ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kahibah Rd",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Highfields",
+            "trafficVolume": ""
           }
         ]
       }
