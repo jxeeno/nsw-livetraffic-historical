@@ -10761,7 +10761,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1617352350877,
+        "lastUpdated": 1617354540483,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -10807,13 +10807,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.4156514,
-          -33.9219267
+          148.4548974823059,
+          -33.907716686199
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - BUMBALDRY Mid Western Highway between Greenthorpe Road AND Bumbaldry Road ",
+        "headline": "CRASH Car - BUMBALDRY Mid Western Highway at Bumbaldry Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -10833,7 +10833,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1617353118490,
+        "lastUpdated": 1617354151597,
         "otherAdvice": "The road is closed to allow the helicopter to land. It may have a lane open after that, so diversions may not be set up.",
         "arrangementElements": [],
         "diversions": " ",
@@ -10850,7 +10850,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Greenthorpe Road",
+            "crossStreet": "Bumbaldry Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -10862,13 +10862,85 @@
                 "roadType": "Highway"
               }
             ],
-            "locationQualifier": "between",
+            "locationQualifier": "at",
             "mainStreet": "Mid Western Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_WEST",
-            "secondLocation": "Bumbaldry Road",
+            "secondLocation": " ",
             "suburb": "Bumbaldry",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05825062648924,
+          -33.85249118265014
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LIDCOMBE M4 Motorway near Hill Rd, Sydney Olympic Park",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617354005923,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1617354005970,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hill Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -10950,78 +11022,6 @@
     },
     {
       "type": "Feature",
-      "id": 87908,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.01911241207358,
-          -33.83043335611445
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - GRANVILLE M4 Motorway near James Ruse Drive",
-        "periods": [],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1617266791393,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1617267671370,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "James Ruse Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Granville",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 87906,
       "geometry": {
         "type": "Point",
@@ -11088,79 +11088,6 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Leppington",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 87909,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8611882,
-          -34.3744504
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - MOUNT KEIRA M1 Princes Motorway approaching Clive Bissell Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1617267227200,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1617267662830,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Clive Bissell Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Princes Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Mount Keira",
             "trafficVolume": ""
           }
         ]
