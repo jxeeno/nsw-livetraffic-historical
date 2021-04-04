@@ -11152,7 +11152,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Fog",
-        "lastUpdated": 1617569064973,
+        "lastUpdated": 1617573311943,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11194,17 +11194,17 @@
     },
     {
       "type": "Feature",
-      "id": 88098,
+      "id": 88099,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16327264695886,
-          -33.60714362450874
+          150.621913,
+          -33.76516489999999
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway just past Pacific Highway overpass",
+        "headline": "CRASH 3 vehicles - GLENBROOK Great Western Highway at Ross Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11215,16 +11215,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1617572491990,
+        "isInitialReport": true,
+        "created": 1617573411497,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1617572587517,
+        "mainCategory": "Crash",
+        "lastUpdated": 1617573411543,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11233,34 +11233,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW",
-          "Tow Truck"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pacific Highway overpass",
+            "crossStreet": "Ross Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
+                "description": "Shoulder",
                 "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Cowan",
+            "suburb": "Glenbrook",
             "trafficVolume": ""
           }
         ]
@@ -13938,6 +13937,80 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Mount White",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88098,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16327264695886,
+          -33.60714362450874
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway just past Pacific Highway overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617572491990,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1617573057850,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
             "trafficVolume": ""
           }
         ]
