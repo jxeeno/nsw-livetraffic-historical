@@ -9599,7 +9599,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -9614,7 +9614,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1617740716310,
+        "lastUpdated": 1617742212000,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9759,7 +9759,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1617739413980,
+        "lastUpdated": 1617741769213,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9828,20 +9828,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1617740800660,
+        "lastUpdated": 1617741959333,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -9849,14 +9849,14 @@
           {
             "conditionTendency": "",
             "crossStreet": "",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -9867,7 +9867,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "North Sydney",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -9878,13 +9878,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.90283206448368,
-          -31.248205842806996
+          146.90353741494138,
+          -31.249068936470046
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - NYNGAN Mitchell Highway at Murrawombie Road",
+        "headline": "CRASH Car - GIRILAMBONE (NORTH OF NYNGAN) Mitchell Highway near Murrawombie Road (Arcturus Street)",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9897,14 +9897,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1617740902313,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Delay your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1617740902360,
+        "lastUpdated": 1617742129743,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9921,7 +9921,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Murrawombie Road",
+            "crossStreet": "Murrawombie Road (Arcturus Street)",
             "delay": "",
             "impactedLanes": [
               {
@@ -9933,13 +9933,85 @@
                 "roadType": "Highway"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "near",
             "mainStreet": "Mitchell Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_WEST",
             "secondLocation": " ",
-            "suburb": "Nyngan",
+            "suburb": "Girilambone (north of Nyngan)",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15127435501708,
+          -33.89700387009434
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - PETERSHAM New Canterbury Road approaching Livingstone Road, Marrickville",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617741861933,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1617741861980,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Livingstone Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "New Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Petersham",
             "trafficVolume": ""
           }
         ]
@@ -16758,6 +16830,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Hoxton Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47318638397218,
+          -33.08658900646665
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - DORA CREEK M1 Pacific Motorway just past Marshall Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1617735196250,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1617742212000,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marshall Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Dora Creek",
             "trafficVolume": ""
           }
         ]
