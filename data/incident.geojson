@@ -9743,59 +9743,37 @@
     },
     {
       "type": "Feature",
-      "id": 87040,
+      "id": 88858,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2059574,
-          -33.8680585
+          150.9774958,
+          -33.8818612
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS - filming - SYDNEY York Street/ Clarence Street between Druitt Street AND Market Street ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "",
-            "finishTime": "7:00pm",
-            "fromDay": "Saturday",
-            "startTime": "10:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "",
-            "finishTime": "7:00pm",
-            "fromDay": "Sunday",
-            "startTime": "5:00am",
-            "toDay": ""
-          }
-        ],
+        "headline": "CRASH Car, Motorcycle - VILLAWOOD Woodville Road at Llewellyn Ave",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1616570499003,
+        "created": 1618217940360,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
-        "end": 1618131600000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1618131651570,
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1618217940390,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9804,25 +9782,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "duration": null,
-        "start": 1618012800000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS - filming",
+        "displayName": "CRASH Car, Motorcycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Druitt Street",
+            "crossStreet": "Llewellyn Ave",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "York Street/ Clarence Street",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Woodville Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Market Street",
-            "suburb": "Sydney",
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Villawood",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88859,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91608241055908,
+          -33.80249353181534
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - PROSPECT Prospect Highway at Great Western Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1618218033600,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1618218033647,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Great Western Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Prospect Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Prospect",
             "trafficVolume": ""
           }
         ]
