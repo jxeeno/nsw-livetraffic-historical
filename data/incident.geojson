@@ -8411,13 +8411,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8583801,
-          -33.7038198
+          150.85728575872193,
+          -33.703917980471395
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SCHOFIELDS South Street at Carnarvon Road",
+        "headline": "BREAKDOWN Car - SCHOFIELDS South Street approaching Carnarvon Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8437,7 +8437,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1618283920940,
+        "lastUpdated": 1618285715333,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8446,6 +8446,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "BREAKDOWN Car",
@@ -8459,13 +8460,13 @@
               {
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
+                "description": "Left turn lane",
+                "extent": "Affected",
                 "numberOfLanes": "4",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "approaching",
             "mainStreet": "South Street",
             "quadrant": "",
             "queueLength": 0,
@@ -8479,19 +8480,19 @@
     },
     {
       "type": "Feature",
-      "id": 88921,
+      "id": 88922,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.83667913862308,
-          -33.8857079253792
+          150.08089978280336,
+          -35.90964451906287
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier bus breakdown - CECIL HILLS M7 Motorway approaching Elizabeth Drive",
+        "headline": "BREAKDOWN Truck - MORUYA Princes Highway near Church St",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -8501,15 +8502,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1618284930690,
+        "created": 1618285505200,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "subCategoryA": "Truck",
         "adviceB": "Allow extra travel time",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1618284930737,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1618285505233,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8518,33 +8519,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier bus breakdown",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Elizabeth Drive",
+            "crossStreet": "Church St",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Shoulder",
-                "extent": "Lanes closed",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M7 Motorway",
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Cecil Hills",
+            "suburb": "Moruya",
             "trafficVolume": "Moderate"
           }
         ]
@@ -14741,6 +14742,79 @@
             "secondLocation": " ",
             "suburb": "Prospect",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88921,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.83667913862308,
+          -33.8857079253792
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier bus breakdown - CECIL HILLS M7 Motorway approaching Elizabeth Drive",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1618284930690,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1618285848963,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Heavy vehicle tow truck",
+          "Motorway Crew"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier bus breakdown",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Elizabeth Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Cecil Hills",
+            "trafficVolume": "Moderate"
           }
         ]
       }
