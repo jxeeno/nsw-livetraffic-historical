@@ -8146,13 +8146,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.29872458454594,
-          -34.51859379189581
+          150.31254332539066,
+          -34.48662242918578
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BERRIMA Hume Motorway at Old Hume Highway",
+        "headline": "CRASH 2 cars - BERRIMA Hume Motorway approaching Old Hume Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8172,7 +8172,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1618650282813,
+        "lastUpdated": 1618652433403,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8190,8 +8190,17 @@
             "conditionTendency": "",
             "crossStreet": "Old Hume Highway",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
             "mainStreet": "Hume Motorway",
             "quadrant": "",
             "queueLength": 0,
@@ -8270,6 +8279,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bateau Bay",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89349,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0660842232788,
+          -34.03520263671863
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SUTHERLAND Acacia Road at President Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1618652320557,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1618652320587,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "President Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Acacia Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Sutherland",
             "trafficVolume": ""
           }
         ]
