@@ -3573,7 +3573,7 @@
         "webLinks": [],
         "headline": "HAZARD Landslip - PUTTY Putty Road near Yengo Dr (5km north of Grey Gum Cafe)",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -3587,11 +3587,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Landslide",
-        "adviceB": "Check signage",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Check signage",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1618475547713,
+        "lastUpdated": 1618810052490,
         "otherAdvice": "Portable traffic signals are in place to direct motorists past the site under alternating (stop/slow) traffic conditions.",
         "arrangementElements": [],
         "diversions": " ",
@@ -6904,17 +6904,17 @@
     },
     {
       "type": "Feature",
-      "id": 89467,
+      "id": 89468,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2033781201904,
-          -33.865637013391954
+          150.8383165158691,
+          -33.95052258583485
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - SYDNEY Western Distributor at Sussex Street, Sydney",
+        "headline": "BREAKDOWN Truck - LEPPINGTON Camden Valley Way approaching Bringelly Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6926,15 +6926,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1618809107957,
+        "created": 1618809127203,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Truck",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1618809108007,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1618809127720,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6943,34 +6943,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Tow Truck"
+          "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sussex Street",
+            "crossStreet": "Bringelly Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Freeway"
+                "numberOfLanes": "4",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Western Distributor",
+            "locationQualifier": "approaching",
+            "mainStreet": "Camden Valley Way",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "SYDNEY",
+            "suburb": "Leppington",
             "trafficVolume": ""
           }
         ]
@@ -11263,6 +11261,80 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Greystanes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89467,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2033781201904,
+          -33.865637013391954
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - SYDNEY Western Distributor at Sussex Street, Sydney",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1618809107957,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1618809330443,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sussex Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Freeway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Western Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "SYDNEY",
             "trafficVolume": ""
           }
         ]
