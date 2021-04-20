@@ -2913,7 +2913,7 @@
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS Damaged road surface - WEEMELAH TO QUEENSLAND BORDER Carnarvon Highway",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 80,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -2927,12 +2927,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "(u\\p)",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Check signage",
+        "adviceB": "Check signage",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1618882613930,
-        "otherAdvice": "<p>Motorists are urged to continue to exercise extreme caution due to the damaged road surface following the recent floods in the area.<strong></strong></p>",
+        "lastUpdated": 1618883608673,
+        "otherAdvice": "<p>Motorists are urged to continue to exercise extreme caution due to the damaged road surface following the recent floods in the area.&nbsp;<br>Traffic control crews will be located at various locations to assess and render repairs to the road surface.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7057,17 +7057,17 @@
     },
     {
       "type": "Feature",
-      "id": 89563,
+      "id": 89564,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.15376749422606,
-          -33.93814511222504
+          151.0204481,
+          -33.9072614
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East just past Marsh Street",
+        "headline": "CRASH 2 cars - YAGOONA Hume Highway at Auburn Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7079,15 +7079,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1618883028593,
+        "created": 1618884145420,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1618883028627,
+        "mainCategory": "Crash",
+        "lastUpdated": 1618884145467,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7096,32 +7096,168 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Marsh Street",
+            "crossStreet": "Auburn Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "",
+                "description": "",
                 "extent": "Affected",
-                "numberOfLanes": "2",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M5 East",
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Arncliffe",
+            "suburb": "Yagoona",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89565,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01052671042024,
+          -33.79299529838976
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD - NORTH PARRAMATTA James Ruse Drive just past Pennant Hills Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1618884214623,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1618884214670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pennant Hills Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "James Ruse Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "North Parramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89566,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1060891,
+          -32.0911724
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Caravan - CASSILIS Golden Highway near Pembroke Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1618884328370,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1618884328400,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Caravan",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pembroke Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Golden Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cassilis",
             "trafficVolume": ""
           }
         ]
@@ -7272,78 +7408,6 @@
             "secondLocation": " ",
             "suburb": "Mount Ousley",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 89431,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1560633,
-          -33.8751123
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car, Pedestrian - LEICHHARDT City-West Link at Norton Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1618784966607,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car, Pedestrian",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1618798351033,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH Car, Pedestrian",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Norton Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "City-West Link",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Leichhardt",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13722,6 +13786,78 @@
             "secondLocation": " ",
             "suburb": "Lidcombe",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89563,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15376749422606,
+          -33.93814511222504
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ARNCLIFFE M5 East just past Marsh Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1618883028593,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1618883361963,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marsh Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M5 East",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
+            "trafficVolume": ""
           }
         ]
       }
