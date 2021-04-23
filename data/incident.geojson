@@ -7200,7 +7200,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -7208,22 +7208,20 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
+        "adviceB": " ",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619135274420,
+        "lastUpdated": 1619135772650,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services",
-          "Tow Truck"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -7235,10 +7233,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -7616,17 +7614,17 @@
     },
     {
       "type": "Feature",
-      "id": 89883,
+      "id": 89884,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2950103341063,
-          -33.41723657096173
+          151.2170979,
+          -33.7125412
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - KARIONG M1 Pacific Motorway at Central Coast Highway",
+        "headline": "HAZARD Debris - BELROSE Forest Way near Bundaleer Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7638,15 +7636,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619135137350,
+        "created": 1619135920580,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Debris",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1619135137383,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1619135920610,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7655,33 +7653,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Debris",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Central Coast Highway",
+            "crossStreet": "Bundaleer Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "near",
+            "mainStreet": "Forest Way",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Kariong",
+            "suburb": "Belrose",
             "trafficVolume": ""
           }
         ]
@@ -14479,6 +14476,79 @@
             "secondLocation": " ",
             "suburb": "Kelso",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89883,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2950103341063,
+          -33.41723657096173
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KARIONG M1 Pacific Motorway at Central Coast Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619135137350,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619135506330,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Central Coast Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Kariong",
+            "trafficVolume": ""
           }
         ]
       }
