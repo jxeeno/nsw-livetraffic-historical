@@ -5345,7 +5345,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -5353,22 +5353,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Bus",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1619472932530,
+        "lastUpdated": 1619475301927,
         "otherAdvice": "City bound traffic is heavy on the M2 Mwy.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew",
-          "Tow Truck",
-          "Mechanic"
+          " "
         ],
         "displayName": "BREAKDOWN Bus",
         "media": [],
@@ -5380,10 +5378,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
+                "closedLanes": "",
                 "description": "",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -5411,7 +5409,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - TIGHES HILL Hannell Street near Elizabeth Street, Carrington",
+        "headline": "CRASH 2 cars - TIGHES HILL Hannell Street Bridge near Elizabeth Street, Carrington",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5431,7 +5429,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619474783683,
+        "lastUpdated": 1619474850250,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5461,7 +5459,7 @@
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "Hannell Street",
+            "mainStreet": "Hannell Street Bridge",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
@@ -5474,72 +5472,220 @@
     },
     {
       "type": "Feature",
-      "id": 90108,
+      "id": 90224,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84765449259953,
-          -33.73950511426669
+          150.95504978391824,
+          -33.758803503159015
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - OAKHURST M7 Motorway at Rooty Hill Road North, Rooty Hill",
+        "headline": "BREAKDOWN Car - SEVEN HILLS Seven Hills Road approaching Old Windsor Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619385865067,
+        "created": 1619475020170,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1619388919790,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619475020217,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Rooty Hill Road North",
+            "crossStreet": "Old Windsor Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "M7 Motorway",
+            "locationQualifier": "approaching",
+            "mainStreet": "Seven Hills Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Oakhurst",
+            "suburb": "Seven Hills",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05795412327882,
+          -33.96142840851769
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - PEAKHURST Henry Lawson Drive at Forest Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619475430923,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619475430970,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Forest Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Henry Lawson Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Peakhurst",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.31749375026246,
+          -33.427010925258955
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WEST GOSFORD Central Coast Highway at Brisbane Water Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619475645237,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619475645283,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Brisbane Water Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Central Coast Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "West Gosford",
+            "trafficVolume": ""
           }
         ]
       }
