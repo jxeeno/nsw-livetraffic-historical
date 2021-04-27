@@ -5141,7 +5141,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619506977603,
+        "lastUpdated": 1619508411707,
         "otherAdvice": "Heavy northbound traffic on the Old Hume Hwy approaching the Hume Mwy.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5214,12 +5214,12 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619506395953,
+        "lastUpdated": 1619508300830,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Person trapped"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
@@ -5266,17 +5266,17 @@
     },
     {
       "type": "Feature",
-      "id": 90270,
+      "id": 90272,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1473956,
-          -33.8556995
+          151.21088952513122,
+          -33.83749834454694
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Motorcycle, Car - DRUMMOYNE Lyons Road at Gipps Street",
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway near Berry Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5288,15 +5288,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619507589230,
+        "created": 1619508177600,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": " ",
-        "adviceA": " ",
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1619507589293,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619508551743,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5305,33 +5305,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Motorcycle, Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gipps Street",
+            "crossStreet": "Berry Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": "Freeway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8162446671814,
+          -34.470536909924874
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "Boom Gates Down due to incident on rail corridor - KEMBLA GRANGE West Dapto Road at Princes Hwy",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619508602353,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619508602383,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "Boom Gates Down due to incident on rail corridor",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Princes Hwy",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Lyons Road",
+            "mainStreet": "West Dapto Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Drummoyne",
+            "suburb": "Kembla Grange",
             "trafficVolume": ""
           }
         ]
@@ -10555,6 +10626,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Windsor",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1473956,
+          -33.8556995
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Motorcycle, Car - DRUMMOYNE Lyons Road at Gipps Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619507589230,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619508236853,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Motorcycle, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gipps Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Lyons Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Drummoyne",
             "trafficVolume": ""
           }
         ]
