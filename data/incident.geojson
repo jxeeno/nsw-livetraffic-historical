@@ -5280,37 +5280,37 @@
     },
     {
       "type": "Feature",
-      "id": 90260,
+      "id": 90350,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7258161383683,
-          -33.78504932904628
+          152.47679109052123,
+          -31.940723338529875
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ORCHARD HILLS M4 Motorway approaching Kingswood Road",
+        "headline": "CRASH Car - PURFLEET Pacific Highway near Old Bar Road",
         "periods": [],
-        "speedLimit": 60,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619503621237,
+        "created": 1619592908337,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Check signage; Allow extra travel time",
-        "adviceA": "Reduced speed limit",
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1619506791350,
+        "mainCategory": "Crash",
+        "lastUpdated": 1619592908367,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5319,34 +5319,97 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
           "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Kingswood Road",
+            "crossStreet": "Old Bar Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Purfleet",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05872239492365,
+          -33.853189765286224
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - SILVERWATER M4 Motorway approaching Hill Road, Sydney Olympic Park",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619593170650,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619593268807,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hill Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
             "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Orchard Hills",
-            "trafficVolume": ""
+            "suburb": "Silverwater",
+            "trafficVolume": "Heavy"
           }
         ]
       }
