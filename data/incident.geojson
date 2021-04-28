@@ -5382,7 +5382,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619587544517,
+        "lastUpdated": 1619588484387,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5391,7 +5391,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
+          "Tow Truck",
           "Transport for NSW"
         ],
         "displayName": "CRASH 3 vehicles",
@@ -5404,10 +5404,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
@@ -5425,37 +5425,37 @@
     },
     {
       "type": "Feature",
-      "id": 90254,
+      "id": 90341,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.462261007,
-          -33.3657739998
+          151.21383810388355,
+          -33.856943433470065
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT - KILLARNEY VALE Wyong Road at Davidson Avenue",
+        "headline": "BREAKDOWN Car - SYDNEY Sydney Harbour Tunnel",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619500330017,
+        "created": 1619588389563,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1619501910087,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619588389610,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5466,30 +5466,102 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Davidson Avenue",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Wyong Road",
+            "mainStreet": "Sydney Harbour Tunnel",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Killarney Vale",
+            "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90343,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03871964973754,
+          -33.84285737658719
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - AUBURN Parramatta Road approaching Northumberland Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619588503693,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1619588504020,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Northumberland Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Auburn",
             "trafficVolume": ""
           }
         ]
