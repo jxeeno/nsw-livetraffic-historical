@@ -5172,7 +5172,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1619676516757,
+        "lastUpdated": 1619678105347,
         "otherAdvice": "The centre median safety barrier has been damaged.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -5244,7 +5244,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619676630147,
+        "lastUpdated": 1619678276220,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5313,11 +5313,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619677804777,
+        "lastUpdated": 1619678584683,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5354,24 +5354,24 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Burrawang (between Robertson and Moss Vale)",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 90448,
+      "id": 90449,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.92363340793457,
-          -33.8840619105619
+          151.20535806375426,
+          -33.877697253697264
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Glass spill - CANLEY HEIGHTS Cumberland Highway approaching Canley Vale Road",
+        "headline": "BREAKDOWN Car - SYDNEY Goulburn Street just past George Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5383,15 +5383,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619677944673,
+        "created": 1619678041327,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Glass spill",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1619677944707,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619678041873,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5400,32 +5400,185 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Glass spill",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Canley Vale Road",
+            "crossStreet": "George Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Cumberland Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "Goulburn Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Canley Heights",
+            "suburb": "Sydney",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90450,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.69931190769043,
+          -33.78494413666644
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - ORCHARD HILLS Western Motorway just past The Northern Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619678203143,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619678203783,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The Northern Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Western Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Orchard Hills",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90451,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.48588443871458,
+          -33.25092974387331
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Motorcycle - WOONGARRAH Sparks Road between Warnervale Road AND Pacific Highway ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619678336670,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Avoid the area",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619679040083,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "dc}iEcqq{[FYVaAh@uBn@kCBMXoAVeAJc@Ja@F_@DOFWP}@@CBOLo@@GFYLk@DO@ENw@Ha@XgA@EJa@FQ",
+            "levels": ""
+          }
+        ],
+        "displayName": "CRASH Car, Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Warnervale Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Sparks Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": "Pacific Highway",
+            "suburb": "Woongarrah",
             "trafficVolume": ""
           }
         ]
@@ -5433,37 +5586,37 @@
     },
     {
       "type": "Feature",
-      "id": 90341,
+      "id": 90452,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21383810388355,
-          -33.856943433470065
+          151.2172273,
+          -33.8294979
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Sydney Harbour Tunnel",
+        "headline": "BREAKDOWN Car - NEUTRAL BAY Military Road at Park Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619588389563,
+        "created": 1619678446447,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1619592022503,
+        "lastUpdated": 1619678930130,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5479,83 +5632,11 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Park Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 90336,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.462261007,
-          -33.3657739998
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - KILLARNEY VALE Wyong Road at Davidson Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1619585501777,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1619592191033,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Davidson Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5564,13 +5645,13 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Wyong Road",
+            "mainStreet": "Military Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Killarney Vale",
-            "trafficVolume": ""
+            "suburb": "Neutral Bay",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11563,6 +11644,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Neutral Bay",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90448,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92393381534424,
+          -33.88273479747642
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Glass spill - CANLEY HEIGHTS Cumberland Highway just past Canley Vale Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619677944673,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Glass spill",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1619678345783,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Glass spill",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Canley Vale Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Canley Heights",
             "trafficVolume": ""
           }
         ]
