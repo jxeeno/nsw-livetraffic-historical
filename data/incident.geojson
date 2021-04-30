@@ -5246,7 +5246,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619751580997,
+        "lastUpdated": 1619753611273,
         "otherAdvice": "Oaklands Rd is also closed in both directions under the rail bridge.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5387,7 +5387,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BUDGEWOI Central Coast Highway just past Girraween Street",
+        "headline": "CRASH 2 cars - BUDGEWOI Central Coast Highway (Scenic Drive) between Girraween Street and Wills Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5400,14 +5400,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1619751963187,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Use an alternative route",
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619752476750,
+        "lastUpdated": 1619753511470,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5417,6 +5417,12 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "fmuiEuoz{[@Av@c@fAm@HCbAa@`Ai@HE`@STM|@c@LIf@Wr@_@RKTMNIf@YLGhA{@VUd@a@XWf@g@f@g@nAoAfAgAPQDE~@}@HIXWjAcAh@c@`CmBhCuB`@]d@W^O`@Ir@OhAI|AQrAKJA|@EbAAH?T?h@@~@?jC?L?B?hA?F?b@?hBA^Ah@CJ?pAOLAHC",
+            "levels": ""
+          }
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -5435,31 +5441,31 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Central Coast Highway",
+            "locationQualifier": "between",
+            "mainStreet": "Central Coast Highway (Scenic Drive)",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
-            "secondLocation": " ",
+            "secondLocation": "Wills Road",
             "suburb": "Budgewoi",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 90530,
+      "id": 90532,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1320309635548,
-          -33.88070099184764
+          151.09494252831115,
+          -33.9661987174957
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - ASHFIELD M4 East Tunnel at tunnel exit",
+        "headline": "BREAKDOWN Car - HURSTVILLE King Georges Road approaching Woniora Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5471,15 +5477,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1619752189643,
+        "created": 1619753287673,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1619752189693,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1619753287707,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5488,33 +5494,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "tunnel exit",
+            "crossStreet": "Woniora Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "M4 East Tunnel",
+            "locationQualifier": "approaching",
+            "mainStreet": "King Georges Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Ashfield",
-            "trafficVolume": ""
+            "suburb": "Hurstville",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5587,78 +5594,6 @@
             "secondLocation": " ",
             "suburb": "Gibraltar Range",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 90420,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2176677571472,
-          -33.88388973917561
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - DARLINGHURST Eastern Distributor",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1619660115243,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1619667140493,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Eastern Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Darlinghurst",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11525,6 +11460,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Mount White",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90530,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1320309635548,
+          -33.88070099184764
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - ASHFIELD M4 East Tunnel at tunnel exit",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619752189643,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619753001470,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "tunnel exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 East Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Ashfield",
             "trafficVolume": ""
           }
         ]
