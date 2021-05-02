@@ -4910,79 +4910,6 @@
     },
     {
       "type": "Feature",
-      "id": 90752,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21087971534425,
-          -33.81106544450681
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - NORTHBRIDGE Strathallen Avenue at Sailors Bay Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1619984457877,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1619985495313,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Sailors Bay Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Bus lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Strathallen Avenue",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Northbridge",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 90755,
       "geometry": {
         "type": "Point",
@@ -5006,14 +4933,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1619986970467,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Expect delays",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619987840097,
+        "lastUpdated": 1619988835650,
         "otherAdvice": "A secondary crash has closed lane 3 further north.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -5159,7 +5086,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1619988378190,
+        "lastUpdated": 1619988499870,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5181,10 +5108,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Motorway"
               }
             ],
@@ -5220,7 +5147,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -5228,21 +5155,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1619988317240,
+        "lastUpdated": 1619988718300,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Motorway Crew"
+          " "
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
@@ -5251,7 +5177,16 @@
             "conditionTendency": "",
             "crossStreet": "Cooks River Tunnel",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "in",
             "mainStreet": "M5 East Motorway",
             "quadrant": "",
@@ -9693,6 +9628,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Edmondson Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90752,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21087971534425,
+          -33.81106544450681
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - NORTHBRIDGE Strathallen Avenue at Sailors Bay Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1619984457877,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1619988871070,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sailors Bay Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Bus lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Strathallen Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Northbridge",
             "trafficVolume": ""
           }
         ]
