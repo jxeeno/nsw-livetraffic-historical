@@ -4910,7 +4910,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -4922,17 +4922,16 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1620160948533,
+        "lastUpdated": 1620161298903,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH Multiple vehicles",
         "media": [],
@@ -4944,10 +4943,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -5037,17 +5036,17 @@
     },
     {
       "type": "Feature",
-      "id": 91006,
+      "id": 91007,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0286930997735,
-          -33.982995897728095
+          151.50073702331764,
+          -33.08460021502574
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ALFORDS POINT Alfords Point Road just past Alfords Point Bridge",
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - DORA CREEK Main Road approaching Dora Creek Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5059,15 +5058,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1620160071077,
+        "created": 1620161504697,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1620160071170,
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1620161504730,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5076,32 +5075,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Local Council"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Alfords Point Bridge",
+            "crossStreet": "Dora Creek Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Alfords Point Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Main Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Alfords Point",
+            "suburb": "Dora Creek",
             "trafficVolume": ""
           }
         ]
@@ -12300,6 +12299,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Prestons",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91006,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0286930997735,
+          -33.982995897728095
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ALFORDS POINT Alfords Point Road just past Alfords Point Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620160071077,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1620161321117,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Alfords Point Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Alfords Point Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Alfords Point",
             "trafficVolume": ""
           }
         ]
