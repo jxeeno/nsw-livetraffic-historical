@@ -4944,15 +4944,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9831787560669,
-          -33.94485733322744
+          150.9586311791626,
+          -33.94677979319079
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - MILPERRA M5 Motorway at Henry Lawson Drive, Georges Hall",
+        "headline": "CRASH 2 cars - HAMMONDVILLE M5 Motorway - west of Georges River",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -4966,11 +4966,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1620365632373,
+        "lastUpdated": 1620366358303,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4987,26 +4987,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Henry Lawson Drive",
+            "crossStreet": "west of Georges River",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "-",
             "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Milperra",
-            "trafficVolume": ""
+            "suburb": "Hammondville",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85529290787355,
+          -33.73013691226417
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - DEAN PARK Westlink M7 approaching Richmond Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620366433093,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1620366523283,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Richmond Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Westlink M7",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Dean Park",
+            "trafficVolume": "Moderate"
           }
         ]
       }
