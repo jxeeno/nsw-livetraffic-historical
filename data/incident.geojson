@@ -4751,7 +4751,7 @@
             "linkURL": "https://www.rms.nsw.gov.au/projects/northern-ferries/bluff-point-ferry.html"
           }
         ],
-        "headline": "FERRY SERVICE Reduced Capacity - BLUFF POINT Lawrence ferry between Lawrence AND Woodford Island ",
+        "headline": "FERRY SERVICE Reduced Capacity - BLUFF POINT Bluff Point Ferry between Lawrence AND Woodford Island ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4771,10 +4771,10 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1620628468923,
+        "lastUpdated": 1620630081270,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "There's only one ferry instead of two crossing the river.",
+        "diversions": "In 5 minutes the second ferry is being re-instated.",
         "additionalInfo": [
           " "
         ],
@@ -4800,7 +4800,7 @@
               }
             ],
             "locationQualifier": "between",
-            "mainStreet": "Lawrence ferry",
+            "mainStreet": "Bluff Point Ferry",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
@@ -4885,17 +4885,17 @@
     },
     {
       "type": "Feature",
-      "id": 91570,
+      "id": 91572,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19205963068848,
-          -33.56587241186234
+          150.8471931814453,
+          -33.76019133325791
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway just past Pacific Highway, overpass",
+        "headline": "BREAKDOWN Truck - ROOTY HILL M7 Motorway at Woodstock Ave",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4907,15 +4907,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1620628925257,
+        "created": 1620629757153,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1620629039827,
+        "lastUpdated": 1620629757203,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4924,33 +4924,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Emergency services"
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pacific Highway",
+            "crossStreet": "Woodstock Ave",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
                 "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Cowan",
+            "suburb": "Rooty Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91573,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2610332,
+          -33.8934986
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Pedestrian - BONDI Bondi Road at Penkivil Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620629844357,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Pedestrian",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1620629951427,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Pedestrian",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Penkivil Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bondi Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Bondi",
             "trafficVolume": ""
           }
         ]
@@ -5175,78 +5246,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Silverton",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 91455,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21408642648922,
-          -33.827822020706975
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - CAMMERAY Warringah Freeway below Ernest Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1620543095467,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1620543714503,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Ernest Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "below",
-            "mainStreet": "Warringah Freeway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Cammeray",
             "trafficVolume": ""
           }
         ]
@@ -11328,6 +11327,79 @@
             "secondLocation": " ",
             "suburb": "Rozelle",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91570,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19205963068848,
+          -33.56587241186234
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway just past Pacific Highway, overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620628925257,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1620629767427,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": ""
           }
         ]
       }
