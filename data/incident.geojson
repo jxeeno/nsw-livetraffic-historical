@@ -5056,8 +5056,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.23655661793822,
-          -33.58142519570606
+          150.23526915761107,
+          -33.58138944289956
         ]
       },
       "properties": {
@@ -5082,8 +5082,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1620940004923,
-        "otherAdvice": "The oversize vehicle will be left in place overnight to be recovered on Friday morning.&nbsp;",
+        "lastUpdated": 1620941953640,
+        "otherAdvice": "The truck is being recovered now.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5091,7 +5091,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Heavy vehicle tow truck"
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
@@ -5104,9 +5104,9 @@
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Shoulder",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -5267,6 +5267,79 @@
     },
     {
       "type": "Feature",
+      "id": 91952,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8740090459412,
+          -33.971263448027095
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - WOODBINE Hume Motorway just past Campbelltown Rd overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620942091143,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1620942091190,
+        "otherAdvice": "The truck is in the fast shoulder.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Campbelltown Rd overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Woodbine",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 91656,
       "geometry": {
         "type": "Point",
@@ -5410,79 +5483,6 @@
             "secondLocation": " ",
             "suburb": "North Rocks",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 91832,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0870836,
-          -33.8651139
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Bus - HOMEBUSH Parramatta Road at Station Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1620853911440,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Bus",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1620855098337,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Mechanic",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Bus",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Station Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Parramatta Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Homebush",
-            "trafficVolume": ""
           }
         ]
       }
