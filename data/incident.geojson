@@ -5225,7 +5225,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1620953214717,
+        "lastUpdated": 1620955449283,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5362,15 +5362,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1620950390543,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed; Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1620951671967,
-        "otherAdvice": " ",
+        "lastUpdated": 1620955220863,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place, with occasional stoppages during salvage.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5386,7 +5386,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Blackbutt Range Road",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Both directions",
@@ -5415,8 +5415,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.37880027147216,
-          -31.02768056850326
+          148.40302598329467,
+          -31.116946637119472
         ]
       },
       "properties": {
@@ -5441,7 +5441,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1620953376713,
+        "lastUpdated": 1620954329283,
         "otherAdvice": "The truck is off the road but there are gouge marks on the road surface, so take care in the area.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5484,17 +5484,17 @@
     },
     {
       "type": "Feature",
-      "id": 91975,
+      "id": 91976,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.02205680256344,
-          -33.819304487800345
+          150.2316429988281,
+          -33.58199201252125
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - ROSEHILL Grand Ave at James Ruse Drive",
+        "headline": "BREAKDOWN Truck - MOUNT VICTORIA Great Western Hwy approaching Mount York Rd",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5506,15 +5506,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1620953675733,
+        "created": 1620954249440,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1620953675797,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1620954249490,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5523,34 +5523,255 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "CRASH Truck, Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "James Ruse Drive",
+            "crossStreet": "Mount York Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Great Western Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Mount Victoria",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91977,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68641528224794,
+          -32.822564308859334
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS - HEXHAM Pacific Highway on Hexham Bridge",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Bridge",
+            "direction": "Southbound",
+            "finishTime": "11:40am",
+            "fromDay": "Friday",
+            "startTime": "11:30am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620955057827,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
+        "adviceA": "Allow extra travel time",
+        "end": 1620957600000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1620955057857,
+        "otherAdvice": "The southbound bridge will be raised for around 5 minutes at 11.30am.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1620955800000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hexham Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "on",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Hexham",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91978,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26409815662234,
+          -33.755070457983216
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BEACON HILL Warringah Rd approaching Beacon Hill Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620955346560,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1620955346607,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beacon Hill Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Beacon Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91979,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1220202,
+          -33.7291705
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Motorcycle - WARRAWEE Pacific Hwy at Blytheswood Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620955711953,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1620955712000,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car, Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Blytheswood Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Grand Ave",
+            "mainStreet": "Pacific Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Rosehill",
-            "trafficVolume": "Moderate"
+            "suburb": "Warrawee",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -5772,78 +5993,6 @@
             "secondLocation": " ",
             "suburb": "Woy Woy",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 91860,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20782240867612,
-          -33.8567934086195
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - SYDNEY Sydney Harbour Bridge approaching the Southern Pylon",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1620868174793,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1620869344000,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "the Southern Pylon",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Sydney Harbour Bridge",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -12650,6 +12799,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Coffs Harbour",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91975,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02205680256344,
+          -33.819304487800345
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - ROSEHILL Grand Ave at James Ruse Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1620953675733,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1620955740160,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Grand Ave",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rosehill",
             "trafficVolume": "Moderate"
           }
         ]
