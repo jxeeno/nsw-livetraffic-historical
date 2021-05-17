@@ -4493,19 +4493,19 @@
     },
     {
       "type": "Feature",
-      "id": 92295,
+      "id": 92296,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.875305572978,
-          -33.9357087899719
+          151.04764335248913,
+          -33.844964210327156
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - HOXTON PARK M7 Motorway approaching Bernera Road, Prestons",
+        "headline": "HAZARD Lounge - AUBURN M4 Motorway just past Silverwater Road",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -4515,15 +4515,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621252226457,
+        "created": 1621253287350,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621252226490,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1621253287397,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4532,32 +4532,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Lounge",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bernera Road",
+            "crossStreet": "Silverwater Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M7 Motorway",
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Hoxton Park",
+            "suburb": "Auburn",
             "trafficVolume": ""
           }
         ]
@@ -11234,6 +11235,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Eungai Creek",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.875305572978,
+          -33.9357087899719
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HOXTON PARK M7 Motorway approaching Bernera Road, Prestons",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621252226457,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621252979307,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bernera Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Hoxton Park",
             "trafficVolume": ""
           }
         ]
