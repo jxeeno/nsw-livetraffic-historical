@@ -4579,8 +4579,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.01220511383056,
-          -30.440661422970372
+          153.0060896772766,
+          -30.44733963105027
         ]
       },
       "properties": {
@@ -4605,8 +4605,8 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621214674150,
-        "otherAdvice": " ",
+        "lastUpdated": 1621216167317,
+        "otherAdvice": "Contra flow traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4626,15 +4626,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Road"
-              },
-              {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4649,7 +4641,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Raleigh",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -4686,7 +4678,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621213105993,
+        "lastUpdated": 1621216609537,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4722,24 +4714,24 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Barrengarry",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 92227,
+      "id": 92234,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.54375918156742,
-          -28.20814821720604
+          151.10002241213377,
+          -33.81945084136529
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car bonnet - TWEED HEADS SOUTH M1 Pacific Mwy at Minjungbal Drive",
+        "headline": "CRASH 2 cars - RYDE Church Street approaching Ryde Bridge, Putney",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4751,15 +4743,87 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621211115007,
+        "created": 1621215021937,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Debris",
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1621216739027,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ryde Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Church Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ryde",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0411213,
+          -33.9165029
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BANKSTOWN Stacey Street at Wattle Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621215307657,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1621214660050,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621215307703,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4768,32 +4832,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "HAZARD Car bonnet",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Minjungbal Drive",
+            "crossStreet": "Wattle Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M1 Pacific Mwy",
+            "mainStreet": "Stacey Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Tweed Heads South",
+            "suburb": "Bankstown",
             "trafficVolume": ""
           }
         ]
@@ -5004,150 +5069,6 @@
             "region": "SYD_MET",
             "secondLocation": "Marian Street",
             "suburb": "Redfern",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92154,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0513368,
-          -33.7760016
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - CARLINGFORD Pennant Hills Road at Moseley Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621128324537,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621129221307,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Moseley Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Pennant Hills Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Carlingford",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92155,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20315151671636,
-          -33.87055620738666
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - DARLING HARBOUR Western Distributor approaching King Street off-ramp",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621128457890,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621129244683,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "King Street off-ramp",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Western Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Darling Harbour",
             "trafficVolume": ""
           }
         ]
@@ -9753,6 +9674,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Kyeemagh",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.54375918156742,
+          -28.20814821720604
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Car bonnet - TWEED HEADS SOUTH M1 Pacific Mwy at Minjungbal Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621211115007,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1621215111367,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Car bonnet",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Minjungbal Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Tweed Heads South",
             "trafficVolume": ""
           }
         ]
