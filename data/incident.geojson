@@ -4426,8 +4426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16928227532424,
-          -33.86341704671136
+          151.16762467015303,
+          -33.86239251883192
         ]
       },
       "properties": {
@@ -4445,21 +4445,20 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1620918847273,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
+        "subCategoryA": "(u\\p)",
         "adviceB": "Exercise caution",
         "adviceA": "Check signage",
-        "end": 1622469600000,
-        "incidentKind": "Planned",
+        "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1621227767547,
-        "otherAdvice": "<p>From 5am, Tuesday 18 May, the following changed traffic conditions will be in effect:<br></p><ul><li>The new permanent pedestrian and cyclist shared path will be open along Victoria Rd.</li><li>A work compound will be in place between the eastbound and westbound carriageways.</li><li>Westbound lanes on Victoria Rd will shift to a new alignment approaching Terry St.</li><li>Motorists will need to merge earlier into the right-hand turning lane on Victoria Rd westbound approaching Terry St.</li></ul>",
+        "lastUpdated": 1621280672613,
+        "otherAdvice": "<p><strong>Westbound lanes on Victoria Rd are now veering to the left of a new work compound separating the westbound and citybound carriageways.</strong></p><p>Motorists intending to turn right onto Terry St will need to merge into the new turning lane earlier.</p><p>A new permanent pedestrian and cyclist shared path will be open along Victoria Rd.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4469,8 +4468,6 @@
         "attendingGroups": [
           " "
         ],
-        "duration": null,
-        "start": 1621260000000,
         "displayName": "CHANGED TRAFFIC CONDITIONS WestConnex",
         "media": [],
         "roads": [
@@ -4478,7 +4475,16 @@
             "conditionTendency": "",
             "crossStreet": "Darling Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "between",
             "mainStreet": "Victoria Road",
             "quadrant": "",
@@ -4711,6 +4717,79 @@
     },
     {
       "type": "Feature",
+      "id": 92304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.76073941653289,
+          -34.01998736490056
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Spillage - HARRINGTON PARK Camden Valley Way at Oran Park Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1621280996710,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Spillage",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1621280996757,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Spillage",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Oran Park Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Left turn lane",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Camden Valley Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Harrington Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 91755,
       "geometry": {
         "type": "Point",
@@ -4848,78 +4927,6 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Greendale",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92193,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1927560921792,
-          -33.9360407224385
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - MASCOT General Holmes Drive approaching Wentworth Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621193441113,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621194412013,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wentworth Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "General Holmes Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
