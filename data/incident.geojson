@@ -4579,7 +4579,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1621312381240,
+        "lastUpdated": 1621315003640,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4651,7 +4651,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621313770953,
+        "lastUpdated": 1621315242627,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4660,6 +4660,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -4669,14 +4670,14 @@
           {
             "conditionTendency": "",
             "crossStreet": "Main Road",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": "Road"
               }
             ],
@@ -4767,37 +4768,37 @@
     },
     {
       "type": "Feature",
-      "id": 92248,
+      "id": 92361,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.97151090090765,
-          -33.94661770633438
+          151.0654190487488,
+          -34.03093911935358
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - MILPERRA M5 Motorway approaching Henry Lawson Drive",
+        "headline": "CRASH Car, Motorcycle - SUTHERLAND Old Princes Hwy at Auburn St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621223727933,
+        "isInitialReport": true,
+        "created": 1621314684413,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621228556253,
+        "mainCategory": "Crash",
+        "lastUpdated": 1621315070623,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4806,33 +4807,114 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew",
-          "Tow Truck"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car, Motorcycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Henry Lawson Drive",
+            "crossStreet": "Auburn St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Lanes closed",
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M5 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Old Princes Hwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Milperra",
+            "suburb": "Sutherland",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92363,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1951847,
+          -33.9420743
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BOTANY Botany Road at Daphne Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621315172593,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1621315172650,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Daphne Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Botany Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Botany",
             "trafficVolume": ""
           }
         ]
@@ -11101,6 +11183,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Darlington",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92362,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2105283986725,
+          -33.837038416799864
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - NORTH SYDNEY Warringah Freeway near Berry Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621314929183,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621315329037,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Berry Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
