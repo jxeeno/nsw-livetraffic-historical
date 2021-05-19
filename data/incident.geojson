@@ -4571,14 +4571,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1621378724100,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car, Pedestrian",
         "adviceB": "Exercise caution",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621388431407,
+        "lastUpdated": 1621390359693,
         "otherAdvice": "<p>Traffic signals at the intersection are flashing yellow; police are on site directing traffic.</p><p>The southbound right-hand turn in to Merriville Rd has been restricted.</p><p>Motorists are advised to expect intermittent closures of the road southbound.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -4597,7 +4597,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Merriville Road",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
@@ -4608,7 +4608,7 @@
                 "roadType": ""
               },
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4630,17 +4630,17 @@
     },
     {
       "type": "Feature",
-      "id": 92422,
+      "id": 92429,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.79348109472045,
-          -32.43523311662449
+          151.2974461,
+          -33.7154584
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Caravan, Car - JERRYS PLAINS Golden Highway near Woodlands road",
+        "headline": "CRASH Multiple vehicles - NARRABEEN Pittwater Road near King Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4652,88 +4652,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621381977727,
+        "created": 1621389676697,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Caravan, Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1621388441133,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Local Council",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Caravan, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Woodlands road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Golden Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Jerrys Plains",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92428,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1296016,
-          -33.9735367
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - BEVERLEY PARK Princes Highway at Jubilee Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621388983813,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": "Multiple vehicles",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621388983843,
+        "lastUpdated": 1621389770350,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4742,32 +4669,40 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Jubilee Avenue",
+            "crossStreet": "King Street",
             "delay": "",
             "impactedLanes": [
               {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "near",
+            "mainStreet": "Pittwater Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Beverley Park",
+            "suburb": "Narrabeen",
             "trafficVolume": ""
           }
         ]
@@ -4775,29 +4710,29 @@
     },
     {
       "type": "Feature",
-      "id": 92339,
+      "id": 92430,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0006816,
-          -33.7319532
+          150.8645923165227,
+          -34.394784336123514
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CASTLE HILL Showground Rd at Cheriton Avenue",
+        "headline": "BREAKDOWN Car - MOUNT KEIRA M1 Princes Motorway just past New Mount Pleasant Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621301300323,
+        "created": 1621389787133,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
@@ -4805,7 +4740,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1621303166837,
+        "lastUpdated": 1621389787273,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4821,25 +4756,244 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cheriton Avenue",
+            "crossStreet": "New Mount Pleasant Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Left turn lane",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Princes Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mount Keira",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92431,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00488400370483,
+          -33.827619932036505
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - GRANVILLE Parramatta Road at Woodville Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621390301873,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1621390815270,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Woodville Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
                 "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Showground Rd",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Castle Hill",
+            "suburb": "Granville",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.679536425,
+          -33.7661905954
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - JAMISONTOWN Mulgoa Road at Batt Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621390476943,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1621390476990,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Batt Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Mulgoa Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Jamisontown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92433,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2165780227539,
+          -33.89437721726301
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - MOORE PARK Eastern Distributor just past Cleveland Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621390945280,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1621391189090,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cleveland Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Moore Park",
             "trafficVolume": ""
           }
         ]
@@ -9967,6 +10121,151 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Beecroft",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.79348109472045,
+          -32.43523311662449
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Caravan, Car - JERRYS PLAINS Golden Highway near Woodlands road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621381977727,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Caravan, Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1621391099937,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Local Council",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Caravan, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Woodlands road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Golden Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Jerrys Plains",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92428,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1296016,
+          -33.9735367
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BEVERLEY PARK Princes Highway at Jubilee Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621388983813,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1621389543243,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jubilee Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Beverley Park",
             "trafficVolume": ""
           }
         ]
