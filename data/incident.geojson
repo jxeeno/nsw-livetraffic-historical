@@ -5373,7 +5373,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621500796827,
+        "lastUpdated": 1621501241657,
         "otherAdvice": "Traffic signal at the intersection of Kissing Point Road and Kirby St are flashing yellow on site.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5394,11 +5394,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
                 "roadType": "Road"
               }
             ],
@@ -5416,37 +5424,37 @@
     },
     {
       "type": "Feature",
-      "id": 92478,
+      "id": 92585,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.4669169,
-          -33.2139372
+          151.1442805,
+          -33.8894874
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - BUSHELLS RIDGE Doyalson Link Road at Tooheys Road",
+        "headline": "BREAKDOWN Car - SUMMER HILL Parramatta Road on Dover Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621411301273,
+        "created": 1621501206720,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1621414649603,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621501206753,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5455,106 +5463,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Tooheys Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Doyalson Link Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Bushells Ridge",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92479,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.8847051,
-          -30.7864955
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - VALLA Pacific Highway near Giinagay Way",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621412895243,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621414894033,
-        "otherAdvice": "The car is in the centre median.&nbsp;",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Giinagay Way",
+            "crossStreet": "Dover Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Pacific Highway",
+            "locationQualifier": "on",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Valla",
-            "trafficVolume": ""
+            "suburb": "Summer Hill",
+            "trafficVolume": "Heavy"
           }
         ]
       }
