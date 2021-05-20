@@ -5343,60 +5343,38 @@
     },
     {
       "type": "Feature",
-      "id": 92582,
+      "id": 92583,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.73122131661708,
-          -31.637332619986633
+          150.9197379,
+          -33.7761075
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS - 10KM NORTH OF GILGANDRA Newell Highway near Dustys Creek",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Weekend",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "8:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
+        "headline": "BREAKDOWN Truck - BLACKTOWN Blacktown Road at Wall Park Avenue, Seven Hills",
+        "periods": [],
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621499203463,
+        "created": 1621499649643,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Exercise caution; Check signage",
-        "adviceA": "Reduced speed limit",
-        "end": 1622620800000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1621499203497,
-        "otherAdvice": "Traffic control and a reduced speed limit of 40km/hr during work hours and 80km/hr after hours will be in place for the safety of workers and motorists. This work is to widen the northbound shoulder.",
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621499649677,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5404,26 +5382,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "duration": null,
-        "start": 1621605600000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Dustys Creek",
+            "crossStreet": "Wall Park Avenue",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Newell Highway",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Blacktown Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "10km north of Gilgandra",
-            "trafficVolume": ""
+            "suburb": "Blacktown",
+            "trafficVolume": "Moderate"
           }
         ]
       }
