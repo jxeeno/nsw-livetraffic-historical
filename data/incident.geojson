@@ -5378,7 +5378,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621507288623,
+        "lastUpdated": 1621509472713,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5421,17 +5421,17 @@
     },
     {
       "type": "Feature",
-      "id": 92597,
+      "id": 92598,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.47627972176514,
-          -33.14309959090354
+          149.137507,
+          -34.8021163
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car on fire - WYEE M1 Pacific Motorway just past Mandalong Road",
+        "headline": "BREAKDOWN Car - OOLONG Hume Highway at Chain of Ponds Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5443,15 +5443,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621507797293,
+        "created": 1621508885157,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Car",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1621507797327,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621508885203,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5460,32 +5460,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
-        "displayName": "HAZARD Car on fire",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mandalong Road",
+            "crossStreet": "Chain of Ponds Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Motorway"
+                "numberOfLanes": "",
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Wyee",
+            "suburb": "Oolong",
             "trafficVolume": ""
           }
         ]
@@ -11420,6 +11421,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Eastlakes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92597,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.47627972176514,
+          -33.14309959090354
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident - WYEE M1 Pacific Motorway just past Mandalong Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621507797293,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1621509461273,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mandalong Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Wyee",
             "trafficVolume": ""
           }
         ]
