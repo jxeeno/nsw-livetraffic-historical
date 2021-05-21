@@ -5295,7 +5295,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1621578668720,
+        "lastUpdated": 1621580770083,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5368,7 +5368,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621578344927,
+        "lastUpdated": 1621581173720,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5440,7 +5440,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621578928180,
+        "lastUpdated": 1621581199763,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5513,7 +5513,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1621579110390,
+        "lastUpdated": 1621581242117,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5658,7 +5658,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1621580451290,
+        "lastUpdated": 1621580942043,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5677,7 +5677,16 @@
             "conditionTendency": "",
             "crossStreet": "O'Riordan Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "approaching",
             "mainStreet": "Bourke Road",
             "quadrant": "",
@@ -5692,17 +5701,17 @@
     },
     {
       "type": "Feature",
-      "id": 92658,
+      "id": 92659,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16657571747436,
-          -33.87391799623889
+          151.1964946200002,
+          -33.52027594240839
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Van - LILYFIELD City-West Link Road at Catherine Street",
+        "headline": "CRASH Truck, Car - MOONEY MOONEY M1 Pacific Motorway near Jolls Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5714,15 +5723,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621580553670,
+        "created": 1621580739343,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Van",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1621580553717,
+        "mainCategory": "Crash",
+        "lastUpdated": 1621581050490,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5731,19 +5740,20 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Tow Truck"
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Van",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Catherine Street",
+            "crossStreet": "Jolls Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5751,13 +5761,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "City-West Link Road",
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Lilyfield",
+            "suburb": "Mooney Mooney",
             "trafficVolume": ""
           }
         ]
@@ -10385,6 +10395,79 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Parklea",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92658,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16657571747436,
+          -33.87391799623889
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - LILYFIELD City-West Link Road at Catherine Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621580553670,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1621580896493,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Catherine Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "City-West Link Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Lilyfield",
             "trafficVolume": ""
           }
         ]
