@@ -5327,13 +5327,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16938661645514,
-          -33.91923728211819
+          151.1623485,
+          -33.9233682
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - SYDENHAM TO TEMPE Princes Hwy between Railway Rd, Sydenham AND Smith St, Tempe ",
+        "headline": "CRASH Car - TEMPE Princes Hwy at Smith Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5349,14 +5349,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time; Exercise caution",
-        "adviceA": "Use diversions",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1621707914880,
+        "lastUpdated": 1621708902063,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Railway Rd, Unwins Bridge Rd and Gannon St.",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -5370,25 +5370,103 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Railway Rd",
+            "crossStreet": "Smith Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "between",
+            "locationQualifier": "at",
             "mainStreet": "Princes Hwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": "Smith St",
-            "suburb": "Sydenham to Tempe",
+            "secondLocation": " ",
+            "suburb": "Tempe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92764,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1475802467966,
+          -33.635998518408364
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Fire and Rescue Vehicle exercise - BEROWRA M1 Pacific Mwy at various crossovers from Berowra",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "9:00am",
+            "fromDay": "Sunday",
+            "startTime": "5:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621709277670,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(p)",
+        "adviceB": "Allow extra travel time; Use diversions",
+        "adviceA": "Exercise caution",
+        "end": 1621724400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1621709277733,
+        "otherAdvice": "<p>Fire and Rescue Vehicles will be assessed as they attempt to crossover the M1 and turn around at various points. There will be several crossovers, the first at Berowra Interchange, and the others further north.</p><p>Traffic control will be on site.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "duration": null,
+        "start": 1621692000000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Fire and Rescue Vehicle exercise",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "various crossovers from Berowra",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Mwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Berowra",
             "trafficVolume": ""
           }
         ]
