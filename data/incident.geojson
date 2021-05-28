@@ -4389,7 +4389,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW Repairs - THORNLEIGH Duffy Avenue at Chilvers Road",
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - THORNLEIGH Duffy Avenue at Chilvers Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4404,12 +4404,12 @@
         "created": 1622157255700,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Repairs",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time; Police are directing traffic",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1622159536213,
+        "lastUpdated": 1622160684233,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4420,7 +4420,7 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW Repairs",
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
         "media": [],
         "roads": [
           {
@@ -4481,10 +4481,10 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1622158092433,
+        "lastUpdated": 1622160098743,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "A local diversion is available.",
         "additionalInfo": [
           " "
         ],
@@ -4504,7 +4504,7 @@
                 "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
@@ -4668,38 +4668,50 @@
     },
     {
       "type": "Feature",
-      "id": 93149,
+      "id": 93247,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.61037308370555,
-          -34.80438440498392
+          151.68641528224794,
+          -32.822564308859334
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - YARRA Federal Highway at Hume Highway",
-        "periods": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Bridge opening - HEXHAM Pacific Highway on Hexham Bridge",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Bridge",
+            "direction": "Southbound",
+            "finishTime": "10:30am",
+            "fromDay": "Friday",
+            "startTime": "10:15am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1622072507950,
+        "created": 1622160484393,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1622073943193,
-        "otherAdvice": " ",
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
+        "adviceA": "Allow extra travel time",
+        "end": 1622161860000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1622160484423,
+        "otherAdvice": "The southbound bridge will be raised for a short time to allow for marine vessels to pass at 10.15am today.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4707,32 +4719,97 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
+        "duration": null,
+        "start": 1622124000000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Bridge opening",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hume Highway",
+            "crossStreet": "Hexham Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "on",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Hexham",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2121359,
+          -33.8768044
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - SYDNEY Oxford Street at Liverpool Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622160669270,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1622160669317,
+        "otherAdvice": "A number of other traffic lights are blacked out in the area due to a local power failure. ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Liverpool Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Federal Highway",
+            "mainStreet": "Oxford Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Yarra",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
