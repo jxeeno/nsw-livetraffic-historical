@@ -4403,13 +4403,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1673203196045,
-          -33.94749170620658
+          151.1654105867859,
+          -33.94882671113465
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - KYEEMAGH General Holmes Drive approaching Airport tunnel",
+        "headline": "BREAKDOWN Truck - KYEEMAGH General Holmes Drive just past Airport tunnel",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4424,12 +4424,12 @@
         "created": 1622331515700,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Overheight vehicle",
+        "subCategoryA": "Truck",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1622331515747,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1622332427320,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4440,22 +4440,31 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Airport tunnel",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "approaching",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
             "mainStreet": "General Holmes Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Kyeemagh",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -4599,78 +4608,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Wattle Springs",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93339,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.091083855638,
-          -33.76435229529375
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - EPPING M2 Motorway in Beecroft Tunnel",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1622246044457,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1622246468467,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Beecroft Tunnel",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "in",
-            "mainStreet": "M2 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Epping",
             "trafficVolume": ""
           }
         ]
