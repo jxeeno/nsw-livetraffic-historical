@@ -4281,8 +4281,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1622502800347,
-        "otherAdvice": "<p>Contra flow traffic conditions are now in place with two southbound lanes and one northbound lane in place in the northbound carriageway.</p><p>An alternative southbound route via Sparks Rd, Pacific Hwy, then Wyong Rd to rejoin the M1 is also available for all vehicles.</p><p>Motorists are strongly advised to delay travel through the area, if possible, or catch a train instead.</p>",
+        "lastUpdated": 1622504718653,
+        "otherAdvice": "<p>An alternative southbound route via Sparks Rd, Pacific Hwy, then Wyong Rd to rejoin the M1 is also available for all vehicles.<br></p><p>Motorists are strongly advised to delay travel through the area, if possible, or catch a train instead.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4292,7 +4292,6 @@
         "attendingGroups": [
           "Rural Fire Service",
           "Heavy vehicle tow truck",
-          "Crash Investigation Unit",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -4305,7 +4304,15 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4327,17 +4334,17 @@
     },
     {
       "type": "Feature",
-      "id": 93594,
+      "id": 93595,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.00257881318177,
-          -33.82724438370465
+          151.11427258264766,
+          -34.00218731684363
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - HOLROYD M4 Motorway approaching Church Street, Parramatta",
+        "headline": "HAZARD Plastic sheet - SYLVANIA Princes Highway on Tom Uglys Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4349,159 +4356,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1622502025777,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1622503452150,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Church Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Holroyd",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93488,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.980247913186,
-          -33.929642263914765
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - MILPERRA Newbridge Road at Henry Lawson Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1622413615937,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1622417887873,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Henry Lawson Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Newbridge Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Milperra",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93492,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.98087237301635,
-          -33.892481217204306
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - BASS HILL Hume Highway at Johnston Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1622416063790,
+        "created": 1622504141213,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1622417409770,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1622504141260,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4512,30 +4375,30 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Plastic sheet",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Johnston Road",
+            "crossStreet": "Tom Uglys Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "description": "Lane 3",
+                "extent": "Affected",
+                "numberOfLanes": "3",
+                "roadType": "Bridge"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
+            "locationQualifier": "on",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Bass Hill",
+            "suburb": "Sylvania",
             "trafficVolume": ""
           }
         ]
@@ -4543,57 +4406,130 @@
     },
     {
       "type": "Feature",
-      "id": 93491,
+      "id": 93596,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.88212042738647,
-          -34.41340242247506
+          150.69871577862568,
+          -33.86563017301274
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - NORTH WOLLONGONG Memorial Drive approaching M1 Princes Motorway",
+        "headline": "BREAKDOWN Truck - LUDDENHAM Elizabeth Drive approaching The Northern Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1622415440593,
+        "created": 1622504409633,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "3 vehicles",
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1622417902777,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1622504409667,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Heavy vehicle tow truck"
         ],
-        "displayName": "CRASH 3 vehicles",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M1 Princes Motorway",
+            "crossStreet": "The Northern Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Elizabeth Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Luddenham",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93597,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.817394758,
+          -33.7642621315
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - MOUNT DRUITT Carlisle Avenue at Luxford Road, Bidwill",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622504572607,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1622504572653,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Luxford Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4601,14 +4537,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Memorial Drive",
+            "locationQualifier": "at",
+            "mainStreet": "Carlisle Avenue",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "North Wollongong",
-            "trafficVolume": "Heavy"
+            "suburb": "Mount Druitt",
+            "trafficVolume": ""
           }
         ]
       }
@@ -10941,6 +10877,78 @@
             "secondLocation": " ",
             "suburb": "North Ryde",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93594,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00257881318177,
+          -33.82724438370465
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - HOLROYD M4 Motorway approaching Church Street, Parramatta",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622502025777,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1622504421267,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Church Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Holroyd",
+            "trafficVolume": "Heavy"
           }
         ]
       }
