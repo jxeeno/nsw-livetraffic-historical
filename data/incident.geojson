@@ -3975,7 +3975,7 @@
         "webLinks": [],
         "headline": "HAZARD Rocks - EASTERN CREEK M7 Motorway between Eastern Road and Wallgrove Road",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -3990,10 +3990,10 @@
         "name": null,
         "subCategoryA": "Debris",
         "adviceB": "Allow extra travel time",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1622591757387,
+        "lastUpdated": 1622594694370,
         "otherAdvice": "Rolling lane closures will be in place when the sweeper is operating.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4012,16 +4012,7 @@
             "conditionTendency": "",
             "crossStreet": "Eastern Road",
             "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "between",
             "mainStreet": "M7 Motorway",
             "quadrant": "",
@@ -4348,17 +4339,17 @@
     },
     {
       "type": "Feature",
-      "id": 93695,
+      "id": 93696,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0205092,
-          -33.8298169
+          150.8486257,
+          -33.73305570000001
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Debris - GRANVILLE James Ruse Drive at M4 East Motorway",
+        "headline": "BREAKDOWN Car - COLEBEE Richmond Road near Rooty Hill Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4369,16 +4360,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1622593560637,
+        "isInitialReport": false,
+        "created": 1622594645607,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Debris",
+        "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1622593561073,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1622594645653,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4389,21 +4380,102 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Debris",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M4 East Motorway",
+            "crossStreet": "Rooty Hill Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Richmond Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Colebee",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93697,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0144481,
+          -33.7975692
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH PARRAMATTA James Ruse Drive approaching Pennant Hills Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622595170603,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1622595170633,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pennant Hills Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
             "mainStreet": "James Ruse Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Granville",
+            "suburb": "North Parramatta",
             "trafficVolume": ""
           }
         ]
@@ -4548,151 +4620,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Hawker Gate to Yandama",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93596,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.69871577862568,
-          -33.86563017301274
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - LUDDENHAM Elizabeth Drive approaching The Northern Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1622504409633,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1622508156970,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The Northern Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Elizabeth Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Luddenham",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 93600,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.30842230067066,
-          -31.621373803420948
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - NYNGAN Mitchell Highway approximately 15km east of Nyngan",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1622506314783,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Delay your journey",
-        "adviceA": "Avoid the area",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1622508803980,
-        "otherAdvice": "The highway will reopen once vehicle salvage is completed.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Tow Truck"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "15km east of Nyngan",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "approximately",
-            "mainStreet": "Mitchell Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": " ",
-            "suburb": "Nyngan",
             "trafficVolume": ""
           }
         ]
@@ -10176,6 +10103,69 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Homebush West",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93695,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0205092,
+          -33.8298169
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Debris - GRANVILLE James Ruse Drive at M4 East Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1622593560637,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1622593739670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Debris",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M4 East Motorway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "James Ruse Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Granville",
             "trafficVolume": ""
           }
         ]
