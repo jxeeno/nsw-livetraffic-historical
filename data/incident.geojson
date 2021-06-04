@@ -21,8 +21,8 @@
         "headline": "CHANGED TRAFFIC CONDITIONS Albion Park Rail bypass - ALBION PARK RAIL/ALBION PARK Illawarra Hwy between Princes Highway AND Terry Street ",
         "periods": [
           {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
             "roadtype": "Highway",
             "direction": "Both directions",
             "finishTime": "7:00am",
@@ -31,7 +31,7 @@
             "toDay": ""
           }
         ],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -46,14 +46,14 @@
         "name": null,
         "subCategoryA": "(p)",
         "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "end": 1661868000000,
+        "adviceA": "Use diversions",
+        "end": 1623463200000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1622342500720,
-        "otherAdvice": "<p>A new section of the motorway between Yallah and Albion Park has opened with a temporary reduced speed limit in place.</p><p>This section of the motorway will only provide access to and from Albion Park as work continues on the southern end of the project site.</p><p>A section of the existing highway near the new motorway will permanently close to through traffic.</p>",
+        "lastUpdated": 1622842303197,
+        "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<strong>Southbound</strong>: Princes Hwy, Tongarra Rd<br><strong>Northbound</strong>: Tongarra Rd, Princes Hwy",
         "additionalInfo": [
           " "
         ],
@@ -62,7 +62,7 @@
           " "
         ],
         "duration": null,
-        "start": 1622383200000,
+        "start": 1622988000000,
         "displayName": "CHANGED TRAFFIC CONDITIONS Albion Park Rail bypass",
         "media": [],
         "roads": [
@@ -5002,37 +5002,37 @@
     },
     {
       "type": "Feature",
-      "id": 93905,
+      "id": 93990,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1124217,
-          -33.8943377
+          150.99742269808246,
+          -33.766672869483
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - CROYDON PARK Georges River Road at Greenhills Street",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - BAULKHAM HILLS Windsor Road at Oakland Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1622752533463,
+        "created": 1622841361307,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1622755312140,
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1622841361353,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5041,15 +5041,231 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Greenhills Street",
+            "crossStreet": "Oakland Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Baulkham Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93991,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.998327571,
+          -33.767796813
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - BAULKHAM HILLS M2 Motorway at Windsor Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622841366307,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1622841366353,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Windsor Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M2 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Baulkham Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93992,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14810764423237,
+          -33.938645235666414
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - ARNCLIFFE Princes Highway just past Forest Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622841670197,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1622842353230,
+        "otherAdvice": "All northbound traffic will be held for vehicle recovery.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Forest Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.10490263712853,
+          -33.91801040016785
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - CAMPSIE Canterbury Road just past Bexley Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622842085820,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1622842085867,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bexley Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -5061,13 +5277,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Georges River Road",
+            "locationQualifier": "just past",
+            "mainStreet": "Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Croydon Park",
+            "suburb": "Campsie",
             "trafficVolume": ""
           }
         ]
@@ -5075,71 +5291,144 @@
     },
     {
       "type": "Feature",
-      "id": 93906,
+      "id": 93994,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.3511544,
-          -33.4369648
+          151.21517570678063,
+          -33.900736558301716
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - GOSFORD Central Coast Highway (York St) at Henry Parry Drive",
+        "headline": "BREAKDOWN Truck - WATERLOO South Dowling Street approaching Lachlan Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1622753817417,
+        "created": 1622842152370,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1622755840763,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1622842152400,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Tow Truck"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Henry Parry Drive",
+            "crossStreet": "Lachlan Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "South Dowling Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Waterloo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93995,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85770942576025,
+          -33.88367541005843
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - CECIL HILLS Elizabeth Drive at Windsor Road, Abbotsbury",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622842270030,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1622842270060,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Windsor Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Central Coast Highway (York St)",
+            "mainStreet": "Elizabeth Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Gosford",
+            "suburb": "Cecil Hills",
             "trafficVolume": ""
           }
         ]
