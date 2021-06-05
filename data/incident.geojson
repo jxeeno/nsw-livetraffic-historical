@@ -4871,7 +4871,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1622888314003,
+        "lastUpdated": 1622890590983,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Police and traffic controllers are on site diverting all northbound traffic into St Johns Rd. &nbsp;",
@@ -5059,17 +5059,17 @@
     },
     {
       "type": "Feature",
-      "id": 94045,
+      "id": 94046,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84320500294288,
-          -33.78601834741214
+          151.3643135606835,
+          -32.669263702729744
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Motorcycle - ROOTY HILL Great Western Highway, Rooty Hill at Beaconsfield Road",
+        "headline": "HAZARD Car on fire - BRANXTON New Enlgland Highway near Wine Country Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5081,15 +5081,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1622888560333,
+        "created": 1622891050527,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car, Motorcycle",
+        "subCategoryA": "Car on fire",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1622889062330,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1622891050573,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5098,41 +5098,86 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "CRASH Car, Motorcycle",
+        "displayName": "HAZARD Car on fire",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beaconsfield Road",
+            "crossStreet": "Wine Country Drive",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Great Western Highway, Rooty Hill",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "New Enlgland Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Rooty Hill",
+            "suburb": "Branxton",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94047,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.23511481715178,
+          -33.92898712912114
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - KINGSWOOD Anzac Parade near Bass Street, Kingsford",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1622891803167,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1622891803200,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bass Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Anzac Parade",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kingswood",
             "trafficVolume": ""
           }
         ]
@@ -9740,6 +9785,87 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Prestons",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94045,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.84320500294288,
+          -33.78601834741214
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Motorcycle - ROOTY HILL Great Western Highway, Rooty Hill at Beaconsfield Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1622888560333,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Motorcycle",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1622891058207,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car, Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beaconsfield Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway, Rooty Hill",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rooty Hill",
             "trafficVolume": ""
           }
         ]
