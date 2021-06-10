@@ -5830,7 +5830,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - HOMEBUSH WEST Centenary Drive just past Arthur Street",
+        "headline": "BREAKDOWN Truck - HOMEBUSH WEST Centenary Drive approaching Arthur Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5850,7 +5850,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1623296959470,
+        "lastUpdated": 1623299811213,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5859,6 +5859,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Truck",
@@ -5878,7 +5879,7 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "approaching",
             "mainStreet": "Centenary Drive",
             "quadrant": "",
             "queueLength": 0,
@@ -6027,13 +6028,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.8815683063425,
-          -36.15181977233675
+          148.8816558134116,
+          -36.16607951352362
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Fallen tree - RHINE FALLS Snowy Mountains Highway near Middling Bank Road",
+        "headline": "HAZARD Fallen tree - RHINE FALLS (WEST OF COOMA) Snowy Mountains Highway near Middlingbank Road, Middlingbank",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6053,7 +6054,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1623298756177,
+        "lastUpdated": 1623300353453,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6070,7 +6071,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Middling Bank Road",
+            "crossStreet": "Middlingbank Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -6088,7 +6089,7 @@
             "queueLength": 0,
             "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Rhine Falls",
+            "suburb": "Rhine Falls (west of Cooma)",
             "trafficVolume": ""
           }
         ]
@@ -6168,38 +6169,38 @@
     },
     {
       "type": "Feature",
-      "id": 94346,
+      "id": 94470,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2133812,
-          -33.8536617
+          151.1069883860874,
+          -34.00813813521864
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Motorcycle - SYDNEY Sydney Harbour Tunnel",
+        "headline": "CRASH 2 cars - SYLVANIA Princes Highway near Port Hacking Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623212885757,
+        "created": 1623299301183,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1623213847587,
-        "otherAdvice": "The motorcycle is in the breakdown bay.",
+        "mainCategory": "Crash",
+        "lastUpdated": 1623300295353,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6207,32 +6208,114 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Tow Truck",
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Motorcycle",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Port Hacking Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "",
-                "extent": "Affected",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Sylvania",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94473,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21306036432048,
+          -33.91083720272149
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KENSINGTON Southern Cross Drive opposite Link Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623300488017,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623300488063,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Link Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
+            "locationQualifier": "opposite",
+            "mainStreet": "Southern Cross Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Sydney",
+            "suburb": "Kensington",
             "trafficVolume": ""
           }
         ]
@@ -12909,6 +12992,79 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Mount Pleasant",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94471,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.48918460293507,
+          -31.93431895195139
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - GLENTHORNE Pacific Highway approaching Old Bar Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623299677790,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623300147063,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Old Bar Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Glenthorne",
             "trafficVolume": ""
           }
         ]
