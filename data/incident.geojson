@@ -6044,7 +6044,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -6059,7 +6059,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1623296942910,
+        "lastUpdated": 1623298185700,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6175,38 +6175,43 @@
     },
     {
       "type": "Feature",
-      "id": 94343,
+      "id": 94465,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20552439682004,
-          -33.860883624613734
+          150.25620111436322,
+          -30.97817781401904
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - MILLERS POINT Western Distributor approaching Bradfield Highway",
+        "webLinks": [
+          {
+            "linkText": "Gunnedah Shire Council",
+            "linkURL": "https://gunnedah.nsw.gov.au/index.php/community/community-alerts/road-works-closures"
+          }
+        ],
+        "headline": "ADVERSE WEATHER - GUNNEDAH SHIRE COUNCIL Local roads",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623211080327,
+        "created": 1623297556527,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": null,
+        "adviceB": "Plan your journey",
+        "adviceA": "\tNever drive through floodwater",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1623211280963,
-        "otherAdvice": " ",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1623297756320,
+        "otherAdvice": "<p>Local roads in the Gunnedah Shire Council area may be closed due to flooding or affected by adverse weather - please see <a href=\"https://gunnedah.nsw.gov.au/index.php/community/community-alerts/road-works-closures\" target=\"_blank\">Council's&nbsp;website</a> for details.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6214,32 +6219,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck"
+          "Local Council"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "ADVERSE WEATHER",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bradfield Highway",
+            "crossStreet": "",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Western Distributor",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Local roads",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Millers Point",
+            "suburb": "Gunnedah Shire Council",
             "trafficVolume": ""
           }
         ]
@@ -12769,6 +12765,79 @@
             "secondLocation": " ",
             "suburb": "Wiley Park",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94463,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.90113142329616,
+          -34.4184247281621
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - WOLLONGONG Corrimal Street just past Gipps Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623296096303,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1623298185700,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gipps Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Corrimal Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Wollongong",
+            "trafficVolume": ""
           }
         ]
       }
