@@ -6696,7 +6696,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1623380812390,
+        "lastUpdated": 1623381006260,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6715,7 +6715,16 @@
             "conditionTendency": "",
             "crossStreet": "Old Wallgrove Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "just past",
             "mainStreet": "M7 Motorway",
             "quadrant": "",
@@ -6730,37 +6739,37 @@
     },
     {
       "type": "Feature",
-      "id": 94458,
+      "id": 94610,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.06772650383235,
-          -33.921544374364366
+          150.84746348955295,
+          -33.90875921376682
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - WILEY PARK King Georges Road near Lakemba Street, Lakemba",
+        "headline": "BREAKDOWN Car - MIDDLETON GRANGE M7 Motorway just past Cowpasture Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623292200950,
+        "created": 1623381191757,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1623294856513,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623381191803,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6769,33 +6778,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Motorway Crew",
+          "Tow Truck"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lakemba Street",
+            "crossStreet": "Cowpasture Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "King Georges Road",
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Wiley Park",
-            "trafficVolume": "Heavy"
+            "suburb": "Middleton Grange",
+            "trafficVolume": ""
           }
         ]
       }
