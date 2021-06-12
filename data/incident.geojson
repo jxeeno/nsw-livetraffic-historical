@@ -5980,44 +5980,38 @@
     },
     {
       "type": "Feature",
-      "id": 92581,
+      "id": 94721,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2104831600189,
-          -33.8414230077856
+          150.8445943,
+          -33.7865232
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Western Harbour Tunnel and Warringah Freeway Upgrade",
-            "linkURL": "https://caportal.com.au/rms/wht"
-          }
-        ],
-        "headline": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade – Early Work Project - NORTH SYDNEY Arthur Street between Mount Street AND High Street ",
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - EASTERN CREEK Great Western Highway at Minchinbury Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1621509877847,
+        "created": 1623502661940,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Exercise caution; Allow extra travel time",
-        "adviceA": "Check signage",
-        "end": 1623416400000,
-        "incidentKind": "Planned",
+        "subCategoryA": "Police operation",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1623416458960,
-        "otherAdvice": "<p>From 10pm Fri 28 May the following road configurations will change:</p><ul><li><strong>The Mount St reversible ramp will be closed.</strong></li><li>Lane 3 (eastern most reversible lane) on Arthur St between High St and Mount St will be closed.<br></li><li>Lane 2 of Arthur St will be shared between traffic and buses at all times (in other words, this lane will no longer be ‘bus only').</li><li>Access from Arthur St to the Sydney Harbour Bridge and the Cahill Expressway will be maintained at all times.</li><li>After the AM peak, motorists travelling to Kirribilli / Neutral Bay should take the Pacific Hwy exit lane and turn right into High St.</li></ul>",
+        "lastUpdated": 1623502661970,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6025,25 +6019,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "duration": null,
-        "start": 1622124000000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade – Early Work Project",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mount Street",
+            "crossStreet": "Minchinbury Street",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Arthur Street",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": "High Street",
-            "suburb": "North Sydney",
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ]
@@ -6126,78 +6129,6 @@
             "region": "REG_SOUTH",
             "secondLocation": "Terry Street",
             "suburb": "Albion Park Rail/Albion Park",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 94658,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8736732784974,
-          -33.92840769482086
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Multiple vehicles - PRESTONS Joadja Road at Hoxton Park Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1623415753710,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1623416232963,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Multiple vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hoxton Park Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Joadja Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Prestons",
             "trafficVolume": ""
           }
         ]
