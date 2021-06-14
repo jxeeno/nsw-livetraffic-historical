@@ -4610,7 +4610,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1623710999627,
+        "lastUpdated": 1623712116027,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4630,11 +4630,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
@@ -4652,17 +4660,17 @@
     },
     {
       "type": "Feature",
-      "id": 94830,
+      "id": 94831,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20714986548938,
-          -33.85787694805426
+          150.96490853389423,
+          -33.76728153688071
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Bradfield Highway on Sydney Harbour Bridge",
+        "headline": "CRASH Truck, Car - BAULKHAM HILLS M7 Motorway at M2 Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4674,15 +4682,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623711530433,
+        "created": 1623711967517,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck, Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1623711530467,
+        "mainCategory": "Crash",
+        "lastUpdated": 1623712231257,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4691,9 +4699,84 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Motorway Crew",
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M2 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Baulkham Hills",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94832,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2125466880374,
+          -33.84666626462822
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - NORTH SYDNEY Cahill Expressway approaching Sydney Harbour Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623712004377,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623712004410,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
@@ -4702,21 +4785,21 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Bus lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "on",
-            "mainStreet": "Bradfield Highway",
+            "locationQualifier": "approaching",
+            "mainStreet": "Cahill Expressway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Sydney",
+            "suburb": "North Sydney",
             "trafficVolume": "Moderate"
           }
         ]
@@ -8231,6 +8314,78 @@
             "secondLocation": " ",
             "suburb": "Hammondville",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94830,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20714986548938,
+          -33.85787694805426
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SYDNEY Bradfield Highway on Sydney Harbour Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623711530433,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623712204960,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "Bradfield Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": "Moderate"
           }
         ]
       }
