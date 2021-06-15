@@ -816,7 +816,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1623714757517,
+        "lastUpdated": 1623716339390,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -841,7 +841,7 @@
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "between",
@@ -2648,7 +2648,7 @@
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS Damaged bridge - TEMORA Goldfields Way near Research Station Road",
         "periods": [],
-        "speedLimit": 60,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -2662,12 +2662,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "(u\\p)",
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1621568888263,
-        "otherAdvice": " ",
+        "lastUpdated": 1623716197997,
+        "otherAdvice": "Speed restriction of 60km/h is enforced and will remain in place until the bridge repairs have been completed early July.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -2691,7 +2691,7 @@
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "near",
@@ -4669,13 +4669,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19296185874586,
-          -33.571021589059356
+          151.19257863813286,
+          -33.569056601834134
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - COWAN M1 Pacific Motorway just past Pacific Highway overpass",
+        "headline": "BREAKDOWN Campervan - COWAN M1 Pacific Motorway just past Pacific Highway overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4690,12 +4690,12 @@
         "created": 1623715840413,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
+        "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1623715840460,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623716441923,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4708,7 +4708,7 @@
           "Transport for NSW",
           "Heavy vehicle tow truck"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Campervan",
         "media": [],
         "roads": [
           {
@@ -4732,7 +4732,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Cowan",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94839,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.07046724904177,
+          -33.85625373141516
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - HOMEBUSH WEST M4 Motorway eastbound off-ramp at Homebush Bay Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623716728780,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623716728827,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Homebush Bay Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway eastbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Homebush West",
+            "trafficVolume": ""
           }
         ]
       }
