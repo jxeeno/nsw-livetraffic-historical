@@ -4497,7 +4497,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1623790890133,
+        "lastUpdated": 1623791785840,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4520,7 +4520,7 @@
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Bus lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Road"
@@ -4540,17 +4540,17 @@
     },
     {
       "type": "Feature",
-      "id": 94911,
+      "id": 94912,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1225103,
-          -33.9784688
+          150.97007044098999,
+          -33.94692565013744
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CARLTON Princes Highway near Park Road",
+        "headline": "HAZARD Debris - HAMMONDVILLE M5 Motorway just past Heathcote Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4562,15 +4562,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623791024587,
+        "created": 1623791592903,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Debris",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1623791308617,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1623791884593,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4579,34 +4579,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Debris",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Park Road",
+            "crossStreet": "Heathcote Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Affected",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Carlton",
-            "trafficVolume": "Heavy"
+            "suburb": "Hammondville",
+            "trafficVolume": ""
           }
         ]
       }
@@ -4822,78 +4822,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Jacky Bulbin Flat (between Woodburn and Harwood)",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 94823,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.8999731,
-          -36.3166472
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - BERRIDALE Kosciuszko Road at Rocky Plains Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1623700825217,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1623705378930,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Rocky Plains Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Kosciuszko Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Berridale",
             "trafficVolume": ""
           }
         ]
@@ -9533,6 +9461,78 @@
             "secondLocation": " ",
             "suburb": "Kings Langley",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94911,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1225103,
+          -33.9784688
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HEAVY TRAFFIC due to an earlier incident - CARLTON Princes Highway approaching Park Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623791024587,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "due to an earlier incident",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Heavy traffic",
+        "lastUpdated": 1623792041970,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "HEAVY TRAFFIC due to an earlier incident",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Park Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Carlton",
+            "trafficVolume": "Heavy"
           }
         ]
       }
