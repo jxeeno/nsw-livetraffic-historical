@@ -4190,7 +4190,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1623882750560,
+        "lastUpdated": 1623883028660,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4199,7 +4199,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Tow Truck"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
@@ -4304,17 +4304,17 @@
     },
     {
       "type": "Feature",
-      "id": 95008,
+      "id": 95009,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.999313,
-          -33.8397817
+          151.20201437252751,
+          -33.87390988794467
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - MERRYLANDS Woodville Road at Louis Street",
+        "headline": "CRASH 2 cars - DARLING HARBOUR Western Distributor off-ramp to Bathurst Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4326,15 +4326,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623881431347,
+        "created": 1623883413133,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1623881431393,
+        "mainCategory": "Crash",
+        "lastUpdated": 1623883413180,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4343,33 +4343,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW",
-          "Emergency services"
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Louis Street",
+            "crossStreet": "Bathurst Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Woodville Road",
+            "locationQualifier": "to",
+            "mainStreet": "Western Distributor off-ramp",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Merrylands",
+            "suburb": "Darling Harbour",
             "trafficVolume": ""
           }
         ]
@@ -9882,6 +9883,79 @@
             "secondLocation": " ",
             "suburb": "Elderslie",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95008,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.999313,
+          -33.8397817
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MERRYLANDS Woodville Road at Louis Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623881431347,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623882997053,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Louis Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Woodville Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Merrylands",
+            "trafficVolume": ""
           }
         ]
       }
