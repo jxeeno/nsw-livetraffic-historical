@@ -4245,7 +4245,7 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": " ",
+        "publicTransport": "Some buses are diverting away from the area and may experience delays.&nbsp;Visit transportnsw.info to plan your trip on public transport.",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
@@ -4258,8 +4258,8 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1623967821093,
-        "otherAdvice": "<p>The road is expected to remain closed for some time. <br>Traffic controllers are on site to direct motorists.<br></p>",
+        "lastUpdated": 1623968987107,
+        "otherAdvice": "<p>The road is expected to remain closed for some time. Traffic controllers are on site to direct motorists.</p>",
         "arrangementElements": [],
         "diversions": "Local diversions are in place.&nbsp;",
         "additionalInfo": [
@@ -4341,7 +4341,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1623967384687,
+        "lastUpdated": 1623969267750,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4604,17 +4604,17 @@
     },
     {
       "type": "Feature",
-      "id": 95114,
+      "id": 95115,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.85355468677932,
-          -33.79951063705057
+          151.26965424353773,
+          -33.43362749124439
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Metal - EASTERN CREEK M7 Motorway northbound off-ramp to M4 Motorway eastbound",
+        "headline": "BREAKDOWN Car - SOMERSBY M1 Pacific Motorway near Pacific Highway overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4626,15 +4626,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623968107343,
+        "created": 1623968946627,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Metal",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1623968107377,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1623968946657,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4643,18 +4643,91 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Transport for NSW"
         ],
-        "displayName": "HAZARD Metal",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M4 Motorway eastbound",
+            "crossStreet": "Pacific Highway overpass",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Somersby",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7432032,
+          -32.939883
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - MEREWETHER City Road at Alice Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623969170380,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1623969170413,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Alice Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4662,14 +4735,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "M7 Motorway northbound off-ramp",
+            "locationQualifier": "at",
+            "mainStreet": "City Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Eastern Creek",
-            "trafficVolume": ""
+            "suburb": "Merewether",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10919,6 +10992,78 @@
             "secondLocation": " ",
             "suburb": "Coffs Harbour",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85355468677932,
+          -33.79951063705057
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Metal - EASTERN CREEK M7 Motorway northbound off-ramp to M4 Motorway eastbound",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1623968107343,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Metal",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1623969226510,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "HAZARD Metal",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M4 Motorway eastbound",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M7 Motorway northbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
+            "trafficVolume": ""
           }
         ]
       }
