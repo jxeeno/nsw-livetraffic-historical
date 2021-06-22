@@ -4322,17 +4322,26 @@
     },
     {
       "type": "Feature",
-      "id": 95485,
+      "id": 95486,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.91878250696493,
-          -33.91924225499174
+          150.70424005456996,
+          -33.7856139550986
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - LIVERPOOL Elizabeth Drive approaching Hume Highway/Copeland Street",
+        "webLinks": [
+          {
+            "linkText": "M4 Smart Motorway project",
+            "linkURL": "https://roads-waterways.transport.nsw.gov.au/projects/m4/index.html"
+          },
+          {
+            "linkText": "Entry ramp metering fact sheet",
+            "linkURL": "https://roads-waterways.transport.nsw.gov.au/projects/01documents/m4/m4-smart-motorway-entry-ramp-metering-factsheet.pdf"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS M4 Smart Motorway entry ramp metering - SOUTH PENRITH M4 Motorway on-ramps from The Northern Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4340,20 +4349,21 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1624330119510,
+        "created": 1624330495440,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": "(p)",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1624330119543,
-        "otherAdvice": " ",
+        "adviceA": "Obey traffic signals",
+        "end": 1626355800000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1624330495470,
+        "otherAdvice": "From Thursday 1 July,&nbsp;eastbound and westbound entry ramp metering signals will begin operating.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4361,32 +4371,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "CRASH 2 cars",
+        "duration": null,
+        "start": 1625061600000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS M4 Smart Motorway entry ramp metering",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hume Highway/Copeland Street",
+            "crossStreet": "The Northern Road",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Elizabeth Drive",
+            "impactedLanes": [],
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway on-ramps",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Liverpool",
+            "suburb": "South Penrith",
             "trafficVolume": ""
           }
         ]
@@ -9405,6 +9408,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Edmondson Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95485,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91878250696493,
+          -33.91924225499174
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - LIVERPOOL Elizabeth Drive approaching Hume Highway/Copeland Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624330119510,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1624330756030,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hume Highway/Copeland Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Elizabeth Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Liverpool",
             "trafficVolume": ""
           }
         ]
