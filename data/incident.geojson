@@ -5130,7 +5130,7 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1624606050283,
+        "lastUpdated": 1624607748820,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "M1 Princes Mwy or Princes Hwy.",
@@ -5323,17 +5323,17 @@
     },
     {
       "type": "Feature",
-      "id": 95788,
+      "id": 95789,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.35034,
-          -33.4358584
+          151.06651232840872,
+          -33.87346416510768
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Pedestrian - EAST GOSFORD Henry Parry Drive at Wells Street, Springfield",
+        "headline": "BREAKDOWN Car - STRATHFIELD Centenary Drive approaching Weeroona Road, Rookwood",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5345,15 +5345,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1624607172090,
+        "created": 1624607589130,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car, Pedestrian",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1624607172497,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1624607590583,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5362,18 +5362,92 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "CRASH Car, Pedestrian",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wells Street",
+            "crossStreet": "Weeroona Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Strathfield",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95790,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1180736,
+          -33.9571308
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BEXLEY Forest Road near Shirley Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624607660550,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1624607660583,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Shirley Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5381,14 +5455,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Henry Parry Drive",
+            "locationQualifier": "near",
+            "mainStreet": "Forest Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "East Gosford",
-            "trafficVolume": ""
+            "suburb": "Bexley",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -11396,6 +11470,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Oakhurst",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95788,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.35034,
+          -33.4358584
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Pedestrian - EAST GOSFORD Henry Parry Drive at Wells Street, Springfield",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624607172090,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Pedestrian",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1624607552117,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car, Pedestrian",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wells Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Henry Parry Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "East Gosford",
             "trafficVolume": ""
           }
         ]
