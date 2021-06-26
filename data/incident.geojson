@@ -4981,7 +4981,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1624679936193,
+        "lastUpdated": 1624681919513,
         "otherAdvice": "Police are on site to direct motorists. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5168,50 +5168,38 @@
     },
     {
       "type": "Feature",
-      "id": 94835,
+      "id": 95842,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2391585853327,
-          -33.940740704105785
+          150.9191077,
+          -33.8993725
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Filming - KINGSFORD TO MAROUBRA Anzac Parade between Bass Street, Kingsford AND Beauchamp Road ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "2:30pm",
-            "fromDay": "Friday",
-            "startTime": "10:00am",
-            "toDay": ""
-          }
-        ],
+        "headline": "CRASH 2 cars - CABRAMATTA Joseph Street at Cabramatta Road West",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1623714411980,
+        "created": 1624682207507,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "end": 1624595400000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1624595459063,
-        "otherAdvice": "Rolling road closures will be in place during filming, under Police escort.",
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1624682207553,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5219,25 +5207,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Tow Truck",
+          "Emergency services"
         ],
-        "duration": null,
-        "start": 1624543200000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Filming",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bass Street",
+            "crossStreet": "Cabramatta Road West",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Anzac Parade",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Joseph Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Beauchamp Road",
-            "suburb": "Kingsford to Maroubra",
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Cabramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95843,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7510024678894,
+          -31.676439660100936
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident - WILLOW TREE New England Highway at Merriwa Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624682440757,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceB": "Vehicle salvage in progress",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1624682440790,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Merriwa Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Willow Tree",
             "trafficVolume": ""
           }
         ]
@@ -5397,138 +5466,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rozelle",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 95651,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20632920740965,
-          -33.88820632278845
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations - SURRY HILLS Chalmers Street between Cleveland Street AND Devonshire Street ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1624495667617,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": " ",
-        "adviceA": "Check signage",
-        "end": 1627228800000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1624595861947,
-        "otherAdvice": "<p><strong>Special event clearways will be in effect&nbsp;on both sides of&nbsp;</strong><strong>Chalmers St between Cleveland St and Devonshire St&nbsp;</strong><strong>to facilitate rail replacement&nbsp;bus operations for Sydney Trains trackwork from 2am Saturday 24 July until 2am Monday 26 July. </strong><strong></strong></p><p>Clearways are strict no-parking zones and apply even to local residents or RMS Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.</p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1627048800000,
-        "displayName": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cleveland Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Chalmers Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Devonshire Street",
-            "suburb": "Surry Hills",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 95652,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20607171534422,
-          -33.88943538295783
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations - SURRY HILLS Chalmers Street between Cleveland Street AND Devonshire Street ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1624495765650,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": " ",
-        "adviceA": "Check signage",
-        "end": 1627833600000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1624595870313,
-        "otherAdvice": "<p><strong>Special event clearways will be in effect&nbsp;on both sides of&nbsp;</strong><strong>Chalmers St between Cleveland St and Devonshire St&nbsp;</strong><strong>to facilitate rail replacement&nbsp;bus operations for Sydney Trains trackwork from 2am Saturday 31 July until 2am Monday 2 August. </strong><strong></strong></p><p>Clearways are strict no-parking zones and apply even to local residents or RMS Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.</p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1627653600000,
-        "displayName": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cleveland Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Chalmers Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Devonshire Street",
-            "suburb": "Surry Hills",
             "trafficVolume": ""
           }
         ]
