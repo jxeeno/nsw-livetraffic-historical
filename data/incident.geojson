@@ -5213,22 +5213,17 @@
     },
     {
       "type": "Feature",
-      "id": 95887,
+      "id": 95895,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.920239862,
-          -33.7334934583
+          151.1928445834671,
+          -33.9356783879978
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Endeavour Energy",
-            "linkURL": "https://www.endeavourenergy.com.au/"
-          }
-        ],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - GLENWOOD Sunnyholt Road at Malvern Road",
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - MASCOT General Holmes Drive near Wentworth Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5240,33 +5235,42 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1624771326483,
+        "created": 1624781614900,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
+        "subCategoryA": "Multiple vehicles",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1624779313783,
+        "mainCategory": "Crash",
+        "lastUpdated": 1624781717330,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Southbound traffic is being diverted in to Wentworth Ave.",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Malvern Road",
+            "crossStreet": "Wentworth Avenue",
             "delay": "",
             "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
               {
                 "affectedDirection": "All directions",
                 "closedLanes": "",
@@ -5276,13 +5280,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Sunnyholt Road",
+            "locationQualifier": "near",
+            "mainStreet": "General Holmes Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Glenwood",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -7696,6 +7700,83 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Jacky Bulbin Flat",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95887,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.920239862,
+          -33.7334934583
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Endeavour Energy",
+            "linkURL": "https://www.endeavourenergy.com.au/"
+          }
+        ],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - GLENWOOD Sunnyholt Road at Malvern Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624771326483,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1624781529097,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Malvern Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Sunnyholt Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Glenwood",
             "trafficVolume": ""
           }
         ]
