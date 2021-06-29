@@ -4630,7 +4630,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1624998029753,
+        "lastUpdated": 1625002739967,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4703,10 +4703,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1625002112630,
+        "lastUpdated": 1625002850213,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Eastbound traffic is diverted into Hermitage St. <br>Westbound diverted at Bowden St, Constitution Rd, Railway Rd, Bank St, Constitution Rd West, Station St, and back to Victoria Rd. <strong></strong></p>",
+        "diversions": "<p>Westbound diverted at Bowden St, Constitution Rd, Railway Rd, Bank St, Constitution Rd West, Station St, and back to Victoria Rd. <strong></strong></p>",
         "additionalInfo": [
           " "
         ],
@@ -4730,12 +4730,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -4834,7 +4842,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck and dog - WATERFALL Warabin Street at Kooraban Street",
+        "headline": "BREAKDOWN Truck and trailer - WATERFALL Warabin Street at Kooraban Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4850,11 +4858,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1625001619007,
+        "lastUpdated": 1625002719107,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4866,7 +4874,7 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck and dog",
+        "displayName": "BREAKDOWN Truck and trailer",
         "media": [],
         "roads": [
           {
@@ -4963,6 +4971,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Chullora",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96083,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20703147085808,
+          -33.79186782099089
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Bus, Car - MIDDLE COVE Eastern Valley Way near Greenfield Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1625002663317,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1625002663347,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Bus, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Greenfield Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Eastern Valley Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Middle Cove",
             "trafficVolume": ""
           }
         ]
