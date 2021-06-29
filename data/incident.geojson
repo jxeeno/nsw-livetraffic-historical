@@ -4772,12 +4772,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Faulty lights, Repairs",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Reduce your speed; Exercise caution",
+        "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic signals",
-        "lastUpdated": 1624947275477,
-        "otherAdvice": " ",
+        "lastUpdated": 1624948520760,
+        "otherAdvice": "Traffic signals are blacked out. Police are on site to direct motorists. ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4785,6 +4785,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
         "displayName": "TRAFFIC SIGNALS Repairs following earlier crash",
@@ -4797,10 +4798,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -4891,78 +4892,6 @@
     },
     {
       "type": "Feature",
-      "id": 96030,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.11973405768103,
-          -33.67650259733686
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - ASQUITH M1 Pacific Motorway approaching Ku-Ring-Gai Chase Road, Mount Colah",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1624946063090,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1624947891543,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Ku-Ring-Gai Chase Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Asquith",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 96034,
       "geometry": {
         "type": "Point",
@@ -4993,7 +4922,7 @@
         "adviceA": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1624946536740,
+        "lastUpdated": 1624948289093,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5174,6 +5103,70 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Bexley",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96038,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2706815,
+          -33.7754184
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - NORTH MANLY Pittwater Road at Kentwell Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624948271820,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1624948271867,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kentwell Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Pittwater Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Manly",
             "trafficVolume": ""
           }
         ]
@@ -10987,6 +10980,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Carlingford",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96030,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.11973405768103,
+          -33.67650259733686
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ASQUITH M1 Pacific Motorway approaching Ku-Ring-Gai Chase Road, Mount Colah",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624946063090,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1624948724227,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ku-Ring-Gai Chase Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Asquith",
             "trafficVolume": ""
           }
         ]
