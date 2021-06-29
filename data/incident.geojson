@@ -4525,13 +4525,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1302379,
-          -29.7812506
+          151.13112839339294,
+          -29.781362342228952
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - INVERELL Glen Innes Road (Gwydir Highway) at Moore Street",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - INVERELL Glen Innes Road (Gwydir Highway) between Brewery Street AND Moore Street ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4551,10 +4551,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1624994645720,
+        "lastUpdated": 1624995451563,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Westbound heavy vehicles, including B-Doubles, are being diverted via Runnymede Dr, Swanbrook Rd, Byron St and back onto the Gwydir Hwy. The eastbound diversion is the same but in reverse.</p><p>Westbound light vehicles are using Brewery St, Mather St and Moore St. The eastbound diversion is the same but in reverse.</p>",
+        "diversions": "<p><strong>Light vehicles:</strong><br>Westbound: Brewery St, Mather St and Moore St.<br>Eastbound: Moore St, Mather St and Brewery St.</p><p><strong>Heavy vehicles, including B-Doubles:</strong><br>Westbound: Runnymede Dr, Swanbrook Rd, Byron St and back to Gwydir Hwy.<br>Eastbound: Byron St, Swanbrook Rd, Runnymede St, and back to Gwydir Hwy.<br></p>",
         "additionalInfo": [
           " "
         ],
@@ -4562,16 +4562,22 @@
         "attendingGroups": [
           "Emergency services"
         ],
+        "encodedPolylines": [
+          {
+            "coords": "|swtDatly[LaB?I^kFDi@Fy@b@eGHkA@M",
+            "levels": ""
+          }
+        ],
         "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moore Street",
+            "crossStreet": "Brewery Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -4579,13 +4585,86 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Glen Innes Road (Gwydir Highway)",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
-            "secondLocation": " ",
+            "secondLocation": "Moore Street",
             "suburb": "Inverell",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96073,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97264422448484,
+          -33.786061486428906
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - OLD TOONGABBIE Old Windsor Road approaching Fitzwilliam Road, Toongabbie",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1624995753120,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1624995753167,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Fitzwilliam Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Old Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Old Toongabbie",
             "trafficVolume": ""
           }
         ]
