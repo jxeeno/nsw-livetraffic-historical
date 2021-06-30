@@ -4453,8 +4453,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1923532135083,
-          -33.55969794812049
+          151.19220300980348,
+          -33.561993936791715
         ]
       },
       "properties": {
@@ -4479,7 +4479,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1625092482323,
+        "lastUpdated": 1625093155300,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4523,17 +4523,17 @@
     },
     {
       "type": "Feature",
-      "id": 96146,
+      "id": 96147,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9426325,
-          -33.808582
+          150.7956855,
+          -34.5608341
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - GREYSTANES Great Western Highway near Beresford Road",
+        "headline": "BREAKDOWN Truck - ALBION PARK RAIL Princes Highway at Creamery Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4545,15 +4545,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1625092427103,
+        "created": 1625093457337,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Truck",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1625092427137,
+        "lastUpdated": 1625093457383,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4562,34 +4562,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beresford Road",
+            "crossStreet": "Creamery Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Great Western Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Greystanes",
-            "trafficVolume": ""
+            "suburb": "Albion Park Rail",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8568,6 +8568,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Greenacre",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9426325,
+          -33.808582
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - GREYSTANES Great Western Highway near Beresford Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1625092427103,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1625093475777,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beresford Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Greystanes",
             "trafficVolume": ""
           }
         ]
