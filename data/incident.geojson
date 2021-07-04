@@ -4207,7 +4207,7 @@
         "adviceA": "\tNever drive through floodwater",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1625099678987,
+        "lastUpdated": 1625440715023,
         "otherAdvice": "<p>Local roads in the Coonamble Shire may be affected or closed due to adverse\nweather or flooding - for details,&nbsp;please refer to the <a href=\"http://www.coonambleshire.nsw.gov.au/index.html\" target=\"_blank\">council&nbsp;website</a> or call (02) 6827 1900.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -4979,7 +4979,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1625438874637,
+        "lastUpdated": 1625440392077,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5021,17 +5021,22 @@
     },
     {
       "type": "Feature",
-      "id": 96386,
+      "id": 96387,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9792293,
-          -33.7912162
+          149.2707202300354,
+          -31.265417152223584
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - CONSTITUTION HILL Old Windsor Road at Hammers Road",
+        "webLinks": [
+          {
+            "linkText": "Warrumbungle Shire Council road closures",
+            "linkURL": "https://www.warrumbungle.nsw.gov.au/resident-services/warrumbungle-roads/road-closures/road-closures"
+          }
+        ],
+        "headline": "ADVERSE WEATHER - WARRUMBUNGLE SHIRE COUNCIL various roads",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5043,16 +5048,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1625439927460,
+        "created": 1625440595840,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Do not drive through floodwater",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1625439927507,
-        "otherAdvice": " ",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1625440647777,
+        "otherAdvice": "Some roads in the shire are\nclosed or affected by water.<br>For an update on local road closures please contact Council’s office on (02) 6849 2000 or see the website link.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5060,33 +5065,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "ADVERSE WEATHER",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hammers Road",
+            "crossStreet": "",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Old Windsor Road",
+            "impactedLanes": [],
+            "locationQualifier": "-",
+            "mainStreet": "various roads",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_WEST",
             "secondLocation": " ",
-            "suburb": "Constitution Hill",
+            "suburb": "Warrumbungle Shire Council",
             "trafficVolume": ""
           }
         ]
@@ -7330,6 +7325,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Dundas",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96386,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9792293,
+          -33.7912162
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - CONSTITUTION HILL Old Windsor Road at Hammers Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1625439927460,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1625440358550,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hammers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Old Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Constitution Hill",
             "trafficVolume": ""
           }
         ]
