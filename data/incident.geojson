@@ -4553,11 +4553,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1625730572393,
+        "lastUpdated": 1625731080440,
         "otherAdvice": "Traffic controllers and police are on site to direct motorists. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4601,17 +4601,17 @@
     },
     {
       "type": "Feature",
-      "id": 96639,
+      "id": 96641,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.87167725171147,
-          -33.845542615370675
+          151.3170665,
+          -33.4348504
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Rocks - HORSLEY PARK The Horsley Drive near Ferrers Road",
+        "headline": "BREAKDOWN Car - POINT CLARE Brisbane Water Drive at Sunshine Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4623,15 +4623,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1625730044790,
+        "created": 1625731025477,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Rock fall",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1625730044837,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1625731025523,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4640,18 +4640,19 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "HAZARD Rocks",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Ferrers Road",
+            "crossStreet": "Sunshine Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
@@ -4659,14 +4660,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "The Horsley Drive",
+            "locationQualifier": "at",
+            "mainStreet": "Brisbane Water Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Horsley Park",
-            "trafficVolume": "Moderate"
+            "suburb": "Point Clare",
+            "trafficVolume": ""
           }
         ]
       }
@@ -9396,6 +9397,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Merrylands",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96639,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87167725171147,
+          -33.845542615370675
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Rocks - HORSLEY PARK The Horsley Drive near Ferrers Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1625730044790,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Rock fall",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1625730872437,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Rocks",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ferrers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "The Horsley Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Horsley Park",
             "trafficVolume": "Moderate"
           }
         ]
