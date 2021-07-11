@@ -8140,7 +8140,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "SCHEDULED ROADWORK Line marking - BETWEEN DUBBO AND TOORAWEENAH Newell Highway between Dubbo AND Tooraweenah ",
+        "headline": "SCHEDULED ROADWORK Line marking - DUBBO TO TOORAWEENAH Newell Highway between Burraway Street AND Tooraweenah Road ",
         "periods": [
           {
             "closureType": "LANE_CLOSURE",
@@ -8182,7 +8182,7 @@
         "end": 1627718400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1622367784647,
+        "lastUpdated": 1626026378523,
         "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.<br>Motorists are advised to allow around five minutes extra travel time.",
         "arrangementElements": [],
         "diversions": " ",
@@ -8200,7 +8200,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Dubbo",
+            "crossStreet": "Burraway Street",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
@@ -8208,8 +8208,8 @@
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_WEST",
-            "secondLocation": "Tooraweenah",
-            "suburb": "Between Dubbo and Tooraweenah",
+            "secondLocation": "Tooraweenah Road",
+            "suburb": "Dubbo to Tooraweenah",
             "trafficVolume": ""
           }
         ]
@@ -8720,7 +8720,7 @@
             "toDay": ""
           }
         ],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -8734,13 +8734,13 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
         "end": 1638450000000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1622228809913,
-        "otherAdvice": "Traffic controllers will be on site to direct motorists. A reduced speed limit of between 40km/hr and 60km/hr will be in place during work hours, as well as a limit of between 60km/hr and 80km/hr outside work hours.&nbsp;&nbsp;",
+        "lastUpdated": 1626026121697,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists.</p><p>A reduced speed limit of 60km/h will be in place outside of work hours.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -16236,83 +16236,6 @@
     },
     {
       "type": "Feature",
-      "id": 96501,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2062379422705,
-          -33.85928544365501
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK Upgrade - SYDNEY Bradfield Highway (Sydney Harbour Bridge) between Cahill Expressway AND Lavender Street ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "4:00am",
-            "fromDay": "Sunday",
-            "startTime": "11:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1625563455457,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Upgrade",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Check signage",
-        "end": 1626026400000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1626018600327,
-        "otherAdvice": "3 of 4 northbound lanes will be closed.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1625925600000,
-        "displayName": "SCHEDULED ROADWORK Upgrade",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cahill Expressway",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Bradfield Highway (Sydney Harbour Bridge)",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Lavender Street",
-            "suburb": "Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 96503,
       "geometry": {
         "type": "Point",
@@ -20219,6 +20142,83 @@
             "region": "SYD_NORTH",
             "secondLocation": "Gantry 10",
             "suburb": "Millers Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96501,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2062379422705,
+          -33.85928544365501
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Upgrade - SYDNEY Bradfield Highway (Sydney Harbour Bridge) between Cahill Expressway AND Lavender Street ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "4:00am",
+            "fromDay": "Sunday",
+            "startTime": "11:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1625563455457,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Upgrade",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Check signage",
+        "end": 1626026400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1626026401730,
+        "otherAdvice": "3 of 4 northbound lanes will be closed.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1625925600000,
+        "displayName": "SCHEDULED ROADWORK Upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cahill Expressway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bradfield Highway (Sydney Harbour Bridge)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": "Lavender Street",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
