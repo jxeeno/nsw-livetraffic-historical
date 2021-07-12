@@ -8391,7 +8391,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1626074614203,
+        "lastUpdated": 1626076507553,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8433,17 +8433,17 @@
     },
     {
       "type": "Feature",
-      "id": 96908,
+      "id": 96909,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1094631,
-          -33.816485
+          151.00697123886283,
+          -33.826995057429734
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - RYDE Victoria Road approaching Blaxland Road",
+        "headline": "BREAKDOWN Car - HOLROYD M4 Motorway approaching Church St",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8455,15 +8455,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1626075866710,
+        "created": 1626076818530,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1626075866747,
+        "lastUpdated": 1626076818577,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8472,32 +8472,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Blaxland Road",
+            "crossStreet": "Church St",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Holroyd",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96910,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8726014,
+          -34.5160864
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - WINDANG Windang Road at Bakers Lane",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626076873283,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1626076873330,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bakers Lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Victoria Road",
+            "locationQualifier": "at",
+            "mainStreet": "Windang Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Ryde",
+            "suburb": "Windang",
             "trafficVolume": ""
           }
         ]
@@ -13138,6 +13212,78 @@
             "secondLocation": " ",
             "suburb": "Spring Hill",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96908,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1094631,
+          -33.816485
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - RYDE Victoria Road approaching Blaxland Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626075866710,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1626076480410,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Blaxland Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ryde",
+            "trafficVolume": ""
           }
         ]
       }
