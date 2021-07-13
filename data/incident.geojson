@@ -8524,37 +8524,42 @@
     },
     {
       "type": "Feature",
-      "id": 96940,
+      "id": 97001,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.32283206143794,
-          -35.59511715759156
+          150.92924721566087,
+          -33.92742909723545
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck - BLIGHTY Riverina Highway near Blighty Hall Road",
+        "webLinks": [
+          {
+            "linkText": "COVID-19 | NSW Government",
+            "linkURL": "https://www.nsw.gov.au/covid-19"
+          }
+        ],
+        "headline": "HEAVY TRAFFIC due to COVID testing site - LIVERPOOL Newbridge Road just past Heathcote Road, Moorebank",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
-        "publicTransport": " ",
+        "publicTransport": "Some route M90, 902 and 903 buses are being delayed up to 15 minutes.",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1626130789017,
+        "created": 1626218460443,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1626132100637,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1626218570553,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8563,18 +8568,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "CRASH Truck",
+        "displayName": "HEAVY TRAFFIC due to COVID testing site",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Blighty Hall Road",
+            "crossStreet": "Heathcote Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -8582,14 +8587,87 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Riverina Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "Newbridge Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Blighty",
-            "trafficVolume": ""
+            "suburb": "Liverpool",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97002,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21687895204542,
+          -33.88213348902131
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - SURRY HILLS Eastern Distributor",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626218877007,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1626218877053,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Emergency services"
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Surry Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
