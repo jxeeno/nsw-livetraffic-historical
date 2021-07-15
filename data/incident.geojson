@@ -8354,29 +8354,18 @@
     },
     {
       "type": "Feature",
-      "id": 97080,
+      "id": 97081,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.68641528224794,
-          -32.822564308859334
+          153.021143,
+          -28.8632311
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Bridge opening - HEXHAM Pacific Highway on Hexham Bridge",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Bridge",
-            "direction": "Southbound",
-            "finishTime": "3:00pm",
-            "fromDay": "Thursday",
-            "startTime": "2:30pm",
-            "toDay": ""
-          }
-        ],
+        "headline": "CRASH Car - CASINO Bruxner Highway near Sextonville Road",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -8387,17 +8376,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1626322291753,
+        "created": 1626322825153,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Check signage",
-        "adviceA": "Allow extra travel time",
-        "end": 1626325200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1626322291783,
-        "otherAdvice": "The southbound bridge will be raised for a short time to allow for marine vessels to pass at 2.30pm today.",
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1626322825187,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8405,25 +8393,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "duration": null,
-        "start": 1626271200000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Bridge opening",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hexham Bridge",
+            "crossStreet": "Sextonville Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "on",
-            "mainStreet": "Pacific Highway",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Bruxner Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Hexham",
+            "suburb": "Casino",
             "trafficVolume": ""
           }
         ]
@@ -11926,6 +11921,83 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "North Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97080,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68641528224794,
+          -32.822564308859334
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Bridge opening - HEXHAM Pacific Highway on Hexham Bridge",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Bridge",
+            "direction": "Southbound",
+            "finishTime": "2:30pm",
+            "fromDay": "Thursday",
+            "startTime": "2:15pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626322291753,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
+        "adviceA": "Allow extra travel time",
+        "end": 1626323400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1626322851620,
+        "otherAdvice": "The southbound bridge will be raised for a short time to allow for marine vessels to pass at 2.30pm today.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1626271200000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Bridge opening",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hexham Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "on",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Hexham",
             "trafficVolume": ""
           }
         ]
