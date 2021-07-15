@@ -8232,7 +8232,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1626327565683,
+        "lastUpdated": 1626329120523,
         "otherAdvice": "Stop / slow traffic management is in place.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -8374,19 +8374,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Use diversions",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1626328754933,
+        "lastUpdated": 1626329258577,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<p>Motorists to divert via Cessnock.</p>",
         "additionalInfo": [
           "Person trapped"
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Crash Investigation Unit",
           "Helicopter",
           "Transport for NSW",
           "Emergency services"
@@ -8408,7 +8409,16 @@
             "conditionTendency": "",
             "crossStreet": "Whitebridge Rd",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
             "locationQualifier": "between",
             "mainStreet": "Leggetts Drive",
             "quadrant": "",
@@ -8603,17 +8613,17 @@
     },
     {
       "type": "Feature",
-      "id": 97088,
+      "id": 97089,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.16798905291748,
-          -32.540354673829796
+          151.049881,
+          -33.7823098
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - NERONG Pacific Highway near Nerong Road",
+        "headline": "BREAKDOWN Car - CARLINGFORD Pennant Hills Road at Evans Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8625,15 +8635,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1626327984310,
+        "created": 1626328891400,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1626327984357,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1626328891557,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8642,14 +8652,15 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Nerong Road",
+            "crossStreet": "Evans Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -8661,86 +8672,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Nerong",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 97017,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.80758160705176,
-          -33.79120725081045
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - COLYTON Roper Road above M4 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1626234516717,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1626242944823,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M4 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "above",
-            "mainStreet": "Roper Road",
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Colyton",
-            "trafficVolume": "Heavy"
+            "suburb": "Carlingford",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12006,6 +11945,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Bondi Junction",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97088,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.16798905291748,
+          -32.540354673829796
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - NERONG Pacific Highway near Nerong Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626327984310,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1626329072800,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Nerong Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Nerong",
             "trafficVolume": ""
           }
         ]
