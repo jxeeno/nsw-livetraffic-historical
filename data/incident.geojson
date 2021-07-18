@@ -8559,7 +8559,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1626583307690,
+        "lastUpdated": 1626585373477,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8679,13 +8679,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.7593838779098,
-          -32.91939700915591
+          151.7591639367706,
+          -32.918700716862475
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - WICKHAM Hannell Street near Greenway Street",
+        "headline": "CRASH 3 vehicles - WICKHAM Hannell Street just past Cowper Street North, Carrington",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8696,7 +8696,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1626584351197,
         "isMajor": false,
         "name": null,
@@ -8705,7 +8705,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1626584351230,
+        "lastUpdated": 1626585543383,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8721,16 +8721,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Greenway Street",
+            "crossStreet": "Cowper Street North",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
             "mainStreet": "Hannell Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Wickham",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05235288220902,
+          -33.77963439337764
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - CARLINGFORD Pennant Hills Road at Marsden Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626585391147,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1626585644747,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marsden Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Carlingford",
             "trafficVolume": ""
           }
         ]
