@@ -8686,7 +8686,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -8701,7 +8701,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1626732094550,
+        "lastUpdated": 1626732692647,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8722,10 +8722,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -8743,37 +8743,37 @@
     },
     {
       "type": "Feature",
-      "id": 97285,
+      "id": 97333,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.6846026590289,
-          -34.951816303573445
+          151.1490397,
+          -33.889845
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - SANDIGO Sturt Highway",
+        "headline": "CRASH Ute and trailer - LEWISHAM Parramatta Road at West Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1626643787180,
+        "isInitialReport": false,
+        "created": 1626732383933,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1626645752953,
+        "mainCategory": "Crash",
+        "lastUpdated": 1626732383967,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8782,33 +8782,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH Ute and trailer",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "West Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Sturt Highway",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Sandigo",
+            "suburb": "Lewisham",
             "trafficVolume": ""
           }
         ]
@@ -11497,6 +11496,78 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Lithgow",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97332,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.96130852698363,
+          -33.774398718047706
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WINSTON HILLS Old Windsor Road approaching Powers Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626732094503,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1626732692647,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Powers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Old Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Winston Hills",
             "trafficVolume": ""
           }
         ]
