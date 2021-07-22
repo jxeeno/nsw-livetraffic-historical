@@ -9062,7 +9062,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1626934050120,
+        "lastUpdated": 1626935937020,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9134,7 +9134,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1626935319653,
+        "lastUpdated": 1626935762030,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9143,6 +9143,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -9177,114 +9178,37 @@
     },
     {
       "type": "Feature",
-      "id": 97417,
+      "id": 97521,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.35520482698365,
-          -35.12216175482553
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Railway level crossings",
-            "linkURL": "https://roads-waterways.transport.nsw.gov.au/roads/safety-rules/stopping-turning/railway-crossings.html"
-          }
-        ],
-        "headline": "HAZARD Faulty level crossing signals - TURVEY PARK (WAGGA WAGGA) Bourke Street/Docker Street between Chaston Street, Wagga Wagga AND Coleman Street, Turvey Park ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1626847120987,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1626849660277,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Rail Technician"
-        ],
-        "displayName": "HAZARD Faulty level crossing signals",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Chaston Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Bourke Street/Docker Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": "Coleman Street",
-            "suburb": "Turvey Park (Wagga Wagga)",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 97419,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3216301,
-          -33.4277059
+          153.1264005059182,
+          -30.284173360510717
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - WEST GOSFORD Central Coast Highway at Yallambee Avenue",
+        "headline": "CRASH Car - COFFS HARBOUR Pacific Highway at Orlando Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1626849358477,
+        "created": 1626936012090,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1626849591303,
+        "mainCategory": "Crash",
+        "lastUpdated": 1626936012603,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9293,34 +9217,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Yallambee Avenue",
+            "crossStreet": "Orlando Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
+                "affectedDirection": "Northbound",
+                "closedLanes": "3",
+                "description": "Lane 2, Lane 3, Lane 4",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Central Coast Highway",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "West Gosford",
-            "trafficVolume": ""
+            "suburb": "Coffs Harbour",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -12436,6 +12359,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Huntleys Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97520,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2015116079519,
+          -33.88965907841148
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - REDFERN Regent Street approaching Cleveland Street, Surry Hills",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1626935874583,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1626935996933,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cleveland Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Left turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Regent Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Redfern",
             "trafficVolume": ""
           }
         ]
