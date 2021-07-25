@@ -13895,7 +13895,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1627182682797,
+        "lastUpdated": 1627188653713,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13914,6 +13914,22 @@
             "crossStreet": "Foreshore Road",
             "delay": "",
             "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
               {
                 "affectedDirection": "All directions",
                 "closedLanes": "",
@@ -14009,6 +14025,79 @@
     },
     {
       "type": "Feature",
+      "id": 97674,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0774265659222,
+          -33.85389873114172
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Bicycle - HOMEBUSH Australia Avenue/Underwood Road below Homebush Bay Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1627188203197,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1627188203227,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car, Bicycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Homebush Bay Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "below",
+            "mainStreet": "Australia Avenue/Underwood Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Homebush",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 97542,
       "geometry": {
         "type": "Point",
@@ -14074,79 +14163,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Frenchs Forest",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 97621,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.03102522453693,
-          -33.975564641487566
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Metal - PADSTOW HEIGHTS Alfords Point Road approaching Alfords Point Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1627100151720,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Metal",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1627101855707,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Metal",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Alfords Point Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Alfords Point Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Padstow Heights",
             "trafficVolume": ""
           }
         ]
