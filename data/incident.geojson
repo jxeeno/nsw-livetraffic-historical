@@ -13542,7 +13542,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1627302507160,
+        "lastUpdated": 1627304423583,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13658,38 +13658,50 @@
     },
     {
       "type": "Feature",
-      "id": 97752,
+      "id": 97754,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.53274347553256,
-          -28.69998681724941
+          151.23544695683063,
+          -33.888749120642075
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Animal carcass - NEWRYBAR Pacific Motorway between Newrybar AND Bangalow ",
-        "periods": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Filming - WOOLLAHRA Queen Street between Oxford Street AND Moncur Street ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "12:30pm",
+            "fromDay": "Monday",
+            "startTime": "5:30am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1627301924947,
+        "isInitialReport": false,
+        "created": 1627304317213,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Animal carcass",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1627301924977,
-        "otherAdvice": " ",
+        "subCategoryA": "(p)",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Check signage",
+        "end": 1627871400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1627304317243,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place. Traffic will be held intermittently while filming takes place.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13697,32 +13709,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
-        "displayName": "HAZARD Animal carcass",
+        "duration": null,
+        "start": 1627826400000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Filming",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Newrybar",
+            "crossStreet": "Oxford Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Pacific Motorway",
+            "mainStreet": "Queen Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": "Bangalow",
-            "suburb": "Newrybar",
+            "region": "SYD_MET",
+            "secondLocation": "Moncur Street",
+            "suburb": "Woollahra",
             "trafficVolume": ""
           }
         ]
@@ -18303,6 +18308,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Hurstville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97752,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.53274347553256,
+          -28.69998681724941
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Animal carcass - NEWRYBAR Pacific Motorway between Newrybar AND Bangalow ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1627301924947,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Animal carcass",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1627304407463,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Animal carcass",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Newrybar",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": "Bangalow",
+            "suburb": "Newrybar",
             "trafficVolume": ""
           }
         ]
