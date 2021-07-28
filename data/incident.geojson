@@ -12460,8 +12460,8 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1627450513557,
-        "otherAdvice": "The ferry is out of service until further notice.&nbsp;",
+        "lastUpdated": 1627457244627,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Ryde Bridge could be used as an alternative route. &nbsp;",
         "additionalInfo": [
@@ -12491,7 +12491,7 @@
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": "Ferry"
               }
             ],
             "locationQualifier": "at",
@@ -12512,13 +12512,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.6532773,
-          -33.7541047
+          150.64324315607527,
+          -33.758021168393995
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "EMERGENCY ROADWORK Bridge repairs - LAPSTONE Great Western Highway just past Russell Street",
+        "headline": "EMERGENCY ROADWORK Bridge repairs - LAPSTONE M4 Motorway just past Russell Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12538,7 +12538,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1627454741210,
+        "lastUpdated": 1627457159567,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12558,22 +12558,30 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
             "locationQualifier": "just past",
-            "mainStreet": "Great Western Highway",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Lapstone",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -12794,6 +12802,79 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Unanderra",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97875,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.73397024195265,
+          -32.87685464182498
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - KOORAGANG Tourle Street just past Cormorant Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1627457554023,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1627457554070,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cormorant Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Tourle Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Kooragang",
             "trafficVolume": ""
           }
         ]
