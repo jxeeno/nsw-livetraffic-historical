@@ -5393,83 +5393,6 @@
     },
     {
       "type": "Feature",
-      "id": 92334,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9894639020434,
-          -33.727306779495365
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK Intersection upgrade - CASTLE HILL Carrington Road between Showground Road AND Andalusian Way (Middleton Ave) ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "Road",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Every Day",
-            "startTime": "7:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1621298006190,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Intersection upgrade",
-        "adviceB": "Allow extra travel time; Check signage",
-        "adviceA": "Use diversions",
-        "end": 1628449200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1626394603763,
-        "otherAdvice": "<p><strong>Carrington Rd will be closed.</strong></p><p>Additionally:</p><ul><li>Contraflow traffic conditions will be in place on Showground Rd between Carrington Rd and De Chambe Dr.</li><li>Alternating (stop/slow) traffic conditions will be in place at the intersection of De Chambe Dr and Showground Rd.</li></ul>",
-        "arrangementElements": [],
-        "diversions": "<strong>Eastbound: </strong>Andalusian Way, De Clambe Dr, then Showground Rd.<br><strong>Westbound: </strong>Showground Rd, De Clambe Dr, then Andalusian Way.",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1626530400000,
-        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Showground Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Carrington Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": "Andalusian Way (Middleton Ave)",
-            "suburb": "Castle Hill",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 92342,
       "geometry": {
         "type": "Point",
@@ -14333,7 +14256,27 @@
             "roadtype": "",
             "direction": "Southbound",
             "finishTime": "5:00am",
-            "fromDay": "Every Day",
+            "fromDay": "Weekdays",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "6:00am",
+            "fromDay": "Saturday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "7:00am",
+            "fromDay": "Sunday",
             "startTime": "8:00pm",
             "toDay": ""
           }
@@ -14357,8 +14300,8 @@
         "end": 1630436400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1627548349413,
-        "otherAdvice": "<p>While lanes 6, 7 and 8 are closed, southbound traffic will use lane 5.</p><p>On Saturdays the lanes will reopen at 6am and on Sundays at 7am.</p>",
+        "lastUpdated": 1627878589433,
+        "otherAdvice": "<p>While lanes 6 and 7 are closed, southbound traffic will use lanes 5 and 8.</p><p>&nbsp;</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -16264,6 +16207,83 @@
             "region": "SYD_WEST",
             "secondLocation": "Grose Street",
             "suburb": "North Parramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9894639020434,
+          -33.727306779495365
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Intersection upgrade - CASTLE HILL Carrington Road between Showground Road AND Andalusian Way (Middleton Ave) ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "Road",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Every Day",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1621298006190,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Intersection upgrade",
+        "adviceB": "Allow extra travel time; Check signage",
+        "adviceA": "Use diversions",
+        "end": 1628449200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1627878668263,
+        "otherAdvice": "<p><strong>Carrington Rd will be closed.</strong></p><p>Additionally:</p><ul><li>Contraflow traffic conditions will be in place on Showground Rd between Carrington Rd and De Chambe Dr.</li><li>Alternating (stop/slow) traffic conditions will be in place at the intersection of De Chambe Dr and Showground Rd.</li></ul>",
+        "arrangementElements": [],
+        "diversions": "<strong>Eastbound: </strong>Andalusian Way, De Clambe Dr, then Showground Rd.<br><strong>Westbound: </strong>Showground Rd, De Clambe Dr, then Andalusian Way.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1626530400000,
+        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Showground Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Carrington Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": "Andalusian Way (Middleton Ave)",
+            "suburb": "Castle Hill",
             "trafficVolume": ""
           }
         ]
