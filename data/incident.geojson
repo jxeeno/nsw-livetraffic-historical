@@ -12398,7 +12398,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1627953440993,
+        "lastUpdated": 1627956757290,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -12433,7 +12433,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Daleys Point",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -12470,7 +12470,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1627953448243,
+        "lastUpdated": 1627956834553,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12479,6 +12479,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Transport for NSW"
         ],
         "displayName": "CRASH 2 trucks",
@@ -12586,17 +12587,17 @@
     },
     {
       "type": "Feature",
-      "id": 98114,
+      "id": 98115,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.49040417703247,
-          -33.01334458175106
+          151.2172227,
+          -33.8744627
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Building materials - FREEMANS WATERHOLE M1 Pacific Motorway near Freemans Drive",
+        "headline": "CRASH 2 cars - WOOLLOOMOOLOO William Street at Palmer Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12608,15 +12609,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1627955192220,
+        "created": 1627957104123,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Building materials",
+        "subCategoryA": "2 cars",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1627955192267,
+        "mainCategory": "Crash",
+        "lastUpdated": 1627957104157,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12625,19 +12626,100 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Emergency services",
+          "Tow Truck"
         ],
-        "displayName": "HAZARD Building materials",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Freemans Drive",
+            "crossStreet": "Palmer Street",
             "delay": "",
             "impactedLanes": [
               {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
                 "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "William Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Woolloomooloo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8463387805443,
+          -33.747198191154126
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Tyre debris - GLENDENNING M7 Motorway approaching Power Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1627957227663,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Tyre debris",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1627957227697,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Tyre debris",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Power Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -12645,13 +12727,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "approaching",
+            "mainStreet": "M7 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Freemans Waterhole",
+            "suburb": "Glendenning",
             "trafficVolume": ""
           }
         ]
@@ -16234,6 +16316,79 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "The Rocks",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.49040417703247,
+          -33.01334458175106
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Building materials - FREEMANS WATERHOLE M1 Pacific Motorway near Freemans Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1627955192220,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Building materials",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1627956713483,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Building materials",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Freemans Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Freemans Waterhole",
             "trafficVolume": ""
           }
         ]
