@@ -11936,7 +11936,18 @@
       "properties": {
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident - KOSCIUSZKO NATIONAL PARK (KIANDRA) Snowy Mountains Highway approximately 5km south of Link Road",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Highway",
+            "direction": "Both directions",
+            "finishTime": "3:00pm",
+            "fromDay": "Friday",
+            "startTime": "10:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -11951,22 +11962,24 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Vehicle salvage due to earlier incident",
-        "adviceB": "Delay your journey; Use an alternative route",
-        "adviceA": "Avoid the area",
-        "incidentKind": "Unplanned",
+        "adviceB": "Plan your journey",
+        "adviceA": "Use diversions",
+        "end": 1628172000000,
+        "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1628075277423,
-        "otherAdvice": "<p>The highway will be closed between Tantangara Road\nand Link Road on Friday 6 August to allow for truck salvage due to an earlier crash.&nbsp;</p><p><strong>The road is expected to remain closed from 10am to 3pm. </strong><a href=\"https://www.livetraffic.com/incident-details/98124\" target=\"_blank\"></a></p>",
+        "lastUpdated": 1628116653610,
+        "otherAdvice": "<p>The highway will be closed between Tantangara Rd and Link Rd on Friday 6 August to allow for truck salvage due to an earlier crash.&nbsp;</p><p>The road is expected to remain closed from 10am to 3pm.<strong> </strong><a href=\"https://www.livetraffic.com/incident-details/98124\" target=\"_blank\"></a></p>",
         "arrangementElements": [],
-        "diversions": "Northbound diversions via Monaro Hwy, Barton Hwy and Hume Hwy.<br>Southbound diversion via Hume Hwy, Barton Hwy and Monaro Hwy. <br><strong>The diversion will add approximately 85km to the journey.</strong>",
+        "diversions": "<p>Northbound from Cooma: Monaro Hwy, Barton Hwy, and Hume Hwy to Mount Adrah.<br>Southbound from Mount Adrah: Hume Hwy, Barton Hwy, and Monaro Hwy to Cooma.</p><p>The route will add approximately 40 minutes to your travel time.</p>",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
+        "duration": null,
+        "start": 1628172000000,
         "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident",
         "media": [],
         "roads": [
@@ -11974,16 +11987,7 @@
             "conditionTendency": "",
             "crossStreet": "5km south of Link Road",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "approximately",
             "mainStreet": "Snowy Mountains Highway",
             "quadrant": "",
@@ -12702,6 +12706,84 @@
             "secondLocation": " ",
             "suburb": "Catherine Field",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.65869876871062,
+          -32.96447085358916
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "COVID-19 testing clinics",
+            "linkURL": "https://www.nsw.gov.au/covid-19/health-and-wellbeing/clinics"
+          }
+        ],
+        "headline": "HEAVY TRAFFIC approaching COVID testing clinic - WARNERS BAY Hillsborough Road, Medcalf Road, Macquaire Road and King Street approaching Central Church",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1628116467633,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Plan your journey",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Heavy holiday traffic",
+        "lastUpdated": 1628116557707,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Local Council"
+        ],
+        "displayName": "HEAVY TRAFFIC approaching COVID testing clinic",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Central Church",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hillsborough Road, Medcalf Road, Macquaire Road and King Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Warners Bay",
+            "trafficVolume": "Heavy"
           }
         ]
       }
