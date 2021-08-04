@@ -12419,7 +12419,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1628043320437,
+        "lastUpdated": 1628062975357,
         "otherAdvice": "Pole replacement due to an earlier incident.",
         "arrangementElements": [],
         "diversions": " ",
@@ -12838,38 +12838,60 @@
     },
     {
       "type": "Feature",
-      "id": 98206,
+      "id": 98207,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21337433305683,
-          -33.85427433966605
+          151.2075198,
+          -33.8634418
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Motorcycle - SYDNEY TO NORTH SYDNEY Sydney Harbour Tunnel",
-        "periods": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Crane work - SYDNEY Bridge Street between George Street AND Loftus Street ",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "7:00pm",
+            "fromDay": "Saturday",
+            "startTime": "6:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "7:00pm",
+            "fromDay": "Sunday",
+            "startTime": "6:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1628062483067,
+        "created": 1628062878387,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": "Reduce your speed",
+        "subCategoryA": "(p)",
+        "adviceB": "Reduce your speed; Check signage",
         "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1628062483113,
-        "otherAdvice": " ",
+        "end": 1629622800000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1628062878433,
+        "otherAdvice": "Contraflow traffic conditions will be in place.&nbsp;Traffic controllers will be on site to direct motorists. ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12877,32 +12899,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
-        "displayName": "BREAKDOWN Motorcycle",
+        "duration": null,
+        "start": 1629468000000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Crane work",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "George Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "-",
-            "mainStreet": "Sydney Harbour Tunnel",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bridge Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney to North Sydney",
+            "secondLocation": "Loftus Street",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
@@ -12975,79 +12990,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bendemeer",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98132,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2855915,
-          -33.7533474
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Van - DEE WHY Pittwater Road at Oaks Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1627971773353,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Van",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1627976600117,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Van",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Oaks Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Pittwater Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Dee Why",
             "trafficVolume": ""
           }
         ]
@@ -16589,6 +16531,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21337433305683,
+          -33.85427433966605
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Motorcycle - SYDNEY TO NORTH SYDNEY Sydney Harbour Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1628062483067,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1628063188143,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney to North Sydney",
             "trafficVolume": ""
           }
         ]
