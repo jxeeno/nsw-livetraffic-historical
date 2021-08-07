@@ -12642,14 +12642,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1628239486593,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": null,
         "adviceB": "Plan your journey; Exercise caution",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1628285010713,
+        "lastUpdated": 1628296718987,
         "otherAdvice": "<p>Essential road maintenance will be carried out at multiple locations 24/7.</p><p>This is expected to add up to 15 minutes additional travel time.</p><p>Traffic controllers will be on site to direct motorists and there will be intermittent stoppages.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -12667,7 +12667,16 @@
             "conditionTendency": "",
             "crossStreet": "",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Great Western Highway",
             "quadrant": "",
@@ -12717,7 +12726,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1628292388220,
+        "lastUpdated": 1628296865863,
         "otherAdvice": "<strong>This drive-through COVID testing clinic can only be accessed by vehicles travelling south on Turton Rd.</strong>",
         "arrangementElements": [],
         "diversions": " ",
@@ -12743,7 +12752,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Broadmeadow - McDonald Jones Stadium",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -12785,7 +12794,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1628292424223,
+        "lastUpdated": 1628296451200,
         "otherAdvice": "<strong>There is no right turn into the queue for this drive-through testing clinic for eastbound traffic on Hillsborough Rd.</strong>",
         "arrangementElements": [],
         "diversions": " ",
@@ -12794,6 +12803,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Local Council",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -12978,6 +12988,83 @@
     },
     {
       "type": "Feature",
+      "id": 98373,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.82067940927448,
+          -34.574258102400016
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Albion Park Rail bypass",
+            "linkURL": "https://www.rms.nsw.gov.au/projects/albion-park-rail-bypass/index.html"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Albion Park Rail bypass - OAK FLATS TO YALLAH M1 Princes Motorway (Albion Park Rail Bypass) between Oak Flats interchange AND Yallah Bay Road, Dapto ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1628295720563,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Reduce your speed; Check signage",
+        "adviceA": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1628295720610,
+        "otherAdvice": "<p><strong>Northbound lanes of\nthe Albion Park Rail bypass are now open.</strong> </p><p>Northbound motorists wishing to travel to Albion Park\nRail must exit at the Oak Flats interchange or Tongarra Rd.<br></p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Albion Park Rail bypass",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Oak Flats interchange",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "M1 Princes Motorway (Albion Park Rail Bypass)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": "Yallah Bay Road",
+            "suburb": "Oak Flats to Yallah",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 98145,
       "geometry": {
         "type": "Point",
@@ -13049,80 +13136,6 @@
             "secondLocation": " ",
             "suburb": "North Nowra",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98302,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.49918976924278,
-          -33.41022362379021
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Semi trailer - WEST OF BATHURST Mitchell Highway just past Dunkeld Road, Dunkeld",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1628202455847,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Semi trailer",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1628210426307,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Mechanic",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Semi trailer",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Dunkeld Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Affected",
-                "numberOfLanes": "2",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Mitchell Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": " ",
-            "suburb": "West of Bathurst",
-            "trafficVolume": "Moderate"
           }
         ]
       }
