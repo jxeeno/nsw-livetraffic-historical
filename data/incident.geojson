@@ -12857,8 +12857,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.78725474131406,
-          -34.06245377543178
+          150.78597532761395,
+          -34.06380475028984
         ]
       },
       "properties": {
@@ -12883,7 +12883,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1629075111437,
+        "lastUpdated": 1629076391213,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12926,17 +12926,17 @@
     },
     {
       "type": "Feature",
-      "id": 98806,
+      "id": 98808,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.136748812,
-          -33.4811589785
+          151.1564196638237,
+          -33.96087425876463
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - LITHGOW Great Western Highway at Main Street",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - BRIGHTON-LE-SANDS The Grand Parade at Bay Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12948,15 +12948,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1629074015437,
+        "created": 1629076764130,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Police operation",
+        "adviceB": "Use an alternative route; Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1629075166347,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1629077177680,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12965,18 +12965,27 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Main Street",
+            "crossStreet": "Bay Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -12985,85 +12994,13 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
+            "mainStreet": "The Grand Parade",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Lithgow",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98807,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.77163539516755,
-          -34.08252724968637
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Metal - MENANGLE PARK Hume Motorway approaching Glenlee Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1629074904093,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Metal",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1629075225833,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Metal",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Glenlee Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Hume Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Menangle Park",
-            "trafficVolume": ""
+            "suburb": "Brighton-Le-Sands",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14953,6 +14890,150 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bar Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98806,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.136748812,
+          -33.4811589785
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - LITHGOW Great Western Highway at Main Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629074015437,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1629076544397,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Main Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Lithgow",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98807,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.77163539516755,
+          -34.08252724968637
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Metal - MENANGLE PARK Hume Motorway approaching Glenlee Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629074904093,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Metal",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1629075879903,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Metal",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Glenlee Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Menangle Park",
             "trafficVolume": ""
           }
         ]
