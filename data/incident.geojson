@@ -12845,8 +12845,13 @@
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck - LONG JETTY The Entrance Road (Central Coast Highway) at Gordon Road",
+        "webLinks": [
+          {
+            "linkText": "Ausgrid",
+            "linkURL": "https://www.ausgrid.com.au/Outages/Current-Outages"
+          }
+        ],
+        "headline": "POLE REPLACEMENT due to earlier crash - LONG JETTY The Entrance Road (Central Coast Highway) at Gordon Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12861,13 +12866,13 @@
         "created": 1629291046253,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": null,
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1629319536967,
-        "otherAdvice": " ",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1629325400693,
+        "otherAdvice": "The power supply is affected in the immediate area. &nbsp;",
         "arrangementElements": [],
         "diversions": "<p><strong>Northbound:</strong>&nbsp;Toowoon Bay Rd, Kitchener Rd, then Archbold Rd.|<br><strong>Southbound:&nbsp;</strong>Archbold Rd, Kitchener Rd, then Toowoon Bay Rd.</p><p>This diversion is suitable for light vehicles only. Heavy vehicles should delay their journey or use the M1 Pacific Mwy as an alternative route.</p>",
         "additionalInfo": [
@@ -12875,10 +12880,9 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Utility Company"
         ],
-        "displayName": "CRASH Truck",
+        "displayName": "POLE REPLACEMENT due to earlier crash",
         "media": [],
         "roads": [
           {
@@ -12909,17 +12913,17 @@
     },
     {
       "type": "Feature",
-      "id": 98936,
+      "id": 98938,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.59945801904908,
-          -34.959537527308605
+          151.19360124867322,
+          -33.87244536008046
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Kangaroo carcass - FALLS CREEK Princes Highway approaching Comberton Grange Road",
+        "headline": "BREAKDOWN Truck - MILLERS POINT Western Distributor just past Pyrmont Bridge Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12931,15 +12935,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1629322178517,
+        "created": 1629325112160,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Animal carcass",
+        "subCategoryA": "Truck",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1629324516537,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1629325112207,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12950,30 +12954,103 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Kangaroo carcass",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Comberton Grange Road",
+            "crossStreet": "Pyrmont Bridge Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Affected",
-                "numberOfLanes": "2",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "Western Distributor",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Falls Creek",
+            "suburb": "Millers Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98939,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.52682030646827,
+          -30.621925902385062
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - URALLA New England Highway near Barleyfields Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629325516120,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1629325516150,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Barleyfields Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Uralla",
             "trafficVolume": ""
           }
         ]
@@ -13051,150 +13128,6 @@
             "region": "SYD_MET",
             "secondLocation": "Bay Street",
             "suburb": "Double Bay",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98883,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.61862169126942,
-          -30.530668303054604
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Kangaroo - ARMIDALE New England Highway near Mills Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1629234046327,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Animal",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1629238571763,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Kangaroo",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Mills Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "New England Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Armidale",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 98888,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8296937982799,
-          -33.695176553699916
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Cow - MARSDEN PARK Richmond Road approaching Garfield Road West",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1629237961483,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1629238901313,
-        "otherAdvice": "A black cow is currently on the grass verge.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Cow",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Garfield Road West",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Richmond Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Marsden Park",
             "trafficVolume": ""
           }
         ]
@@ -16319,6 +16252,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Mcgraths Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98936,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.59945801904908,
+          -34.959537527308605
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Kangaroo carcass - FALLS CREEK Princes Highway approaching Comberton Grange Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629322178517,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Animal carcass",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1629325303923,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Kangaroo carcass",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Comberton Grange Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Falls Creek",
             "trafficVolume": ""
           }
         ]
