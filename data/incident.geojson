@@ -6265,7 +6265,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1628740774200,
+        "lastUpdated": 1629342971300,
         "otherAdvice": "Local roads in the Dubbo Regional Council area may be closed due to flooding or affected by recent adverse weather. Please see the <a href=\"https://www.dubbo.nsw.gov.au/public-notices/current-flood-warnings\" target=\"_blank\">council's website</a> for details.",
         "arrangementElements": [],
         "diversions": " ",
@@ -12944,7 +12944,7 @@
         "adviceA": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1629341717613,
+        "lastUpdated": 1629343161657,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12963,7 +12963,16 @@
             "conditionTendency": "",
             "crossStreet": "Kanahooka Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Princes Motorway",
             "quadrant": "",
@@ -13062,7 +13071,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck - RHODES M4 East Motorway at Homebush Bay Drive off ramp",
+        "headline": "CRASH Car, Motorcycle - HOMEBUSH M4 East Motorway at Homebush Bay Drive off ramp",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13077,12 +13086,12 @@
         "created": 1629342335257,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": "Car, Motorcycle",
         "adviceB": " ",
         "adviceA": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1629342335287,
+        "lastUpdated": 1629343554487,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13094,7 +13103,7 @@
           "Emergency services",
           "Motorway Crew"
         ],
-        "displayName": "CRASH Truck",
+        "displayName": "CRASH Car, Motorcycle",
         "media": [],
         "roads": [
           {
@@ -13117,7 +13126,80 @@
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Rhodes",
+            "suburb": "Homebush",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98955,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.42189753476254,
+          -34.93294081673751
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck - COLLECTOR Federal Highway approaching Collector Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629343200323,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1629343200370,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Collector Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Federal Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Collector",
             "trafficVolume": ""
           }
         ]
