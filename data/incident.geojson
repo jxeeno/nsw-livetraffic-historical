@@ -10958,17 +10958,7 @@
             "direction": "Southbound",
             "finishTime": "7:00pm",
             "fromDay": "Saturday",
-            "startTime": "6:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Southbound",
-            "finishTime": "7:00pm",
-            "fromDay": "Saturday",
-            "startTime": "6:00am",
+            "startTime": "5:00am",
             "toDay": ""
           }
         ],
@@ -10991,7 +10981,7 @@
         "end": 1631350800000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1629381511760,
+        "lastUpdated": 1629663208487,
         "otherAdvice": "Traffic controllers will be on site to direct motorists. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11003,7 +10993,7 @@
           " "
         ],
         "duration": null,
-        "start": 1629468000000,
+        "start": 1630677600000,
         "displayName": "CHANGED TRAFFIC CONDITIONS",
         "media": [],
         "roads": [
@@ -12485,79 +12475,6 @@
     },
     {
       "type": "Feature",
-      "id": 99100,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.19133199266847,
-          -33.51247462628376
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - BAR POINT M1 Pacific Motorway at Jolls Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1629660020327,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1629661172927,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Jolls Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Bar Point",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 99079,
       "geometry": {
         "type": "Point",
@@ -13776,6 +13693,80 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Medlow Bath",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19133199266847,
+          -33.51247462628376
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - BAR POINT M1 Pacific Motorway near Jolls Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629660020327,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1629663036910,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jolls Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Bar Point",
             "trafficVolume": ""
           }
         ]
