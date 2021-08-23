@@ -12795,7 +12795,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1629760786210,
+        "lastUpdated": 1629762808427,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12868,7 +12868,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1629760933173,
+        "lastUpdated": 1629762826620,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12982,17 +12982,17 @@
     },
     {
       "type": "Feature",
-      "id": 99186,
+      "id": 99187,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.099338223,
-          -33.7023443729
+          151.0367246,
+          -33.93453
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - HORNSBY George Street at Burdett Street",
+        "headline": "HAZARD Water on road - BANKSTOWN Canterbury Road at Fairford Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13004,15 +13004,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1629762286540,
+        "created": 1629762706907,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Water on road",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1629762286590,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1629762706953,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13021,33 +13021,101 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "displayName": "HAZARD Water on road",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Burdett Street",
+            "crossStreet": "Fairford Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "George Street",
+            "mainStreet": "Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Hornsby",
+            "suburb": "Bankstown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.38864777682332,
+          -30.954880773152354
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Coonamble Shire Council",
+            "linkURL": "https://www.coonambleshire.nsw.gov.au/Engineering/RoadConditions"
+          }
+        ],
+        "headline": "ADVERSE WEATHER - COONAMBLE SHIRE COUNCIL Local roads",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629762863540,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Plan your journey",
+        "adviceA": "\tNever drive through floodwater",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1629762863587,
+        "otherAdvice": "<p>Local roads in the Coonamble Shire may be closed due to flooding or affected by adverse weather. For details,&nbsp;please refer to the <a href=\"http://www.coonambleshire.nsw.gov.au/index.html\" target=\"_blank\">council&nbsp;website</a> or call (02) 6827 1900.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
+        "displayName": "ADVERSE WEATHER",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Local roads",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Coonamble Shire Council",
             "trafficVolume": ""
           }
         ]
@@ -17333,6 +17401,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "McLeods Shoot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.099338223,
+          -33.7023443729
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - HORNSBY George Street at Burdett Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1629762286540,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1629762760067,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Burdett Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "George Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Hornsby",
             "trafficVolume": ""
           }
         ]
