@@ -13217,7 +13217,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1630196272970,
+        "lastUpdated": 1630197530047,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13235,7 +13235,16 @@
             "conditionTendency": "",
             "crossStreet": "Bundidgerry Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Newell Highway",
             "quadrant": "",
@@ -13250,37 +13259,37 @@
     },
     {
       "type": "Feature",
-      "id": 99513,
+      "id": 99531,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9028379,
-          -33.77287090000001
+          150.8239154,
+          -33.7815885
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, 2 cars - BLACKTOWN Balmoral Street at Newton Road",
+        "headline": "CRASH 2 cars - MINCHINBURY Great Western Highway at Archbold Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1630109506767,
+        "created": 1630197763203,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1630111200470,
+        "lastUpdated": 1630197763233,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13292,21 +13301,103 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Truck, 2 cars",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Newton Road",
+            "crossStreet": "Archbold Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
-            "mainStreet": "Balmoral Street",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Blacktown",
+            "suburb": "Minchinbury",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99532,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89589974127784,
+          -33.802949206617555
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - PROSPECT M4 Motorway at Reservoir Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1630197970190,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1630197970220,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Reservoir Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Prospect",
             "trafficVolume": ""
           }
         ]
