@@ -12763,7 +12763,7 @@
             "direction": "Northbound",
             "finishTime": "2:00am",
             "fromDay": "Monday",
-            "startTime": "12:00pm",
+            "startTime": "12:00am",
             "toDay": ""
           }
         ],
@@ -12786,7 +12786,7 @@
         "end": 1631462400000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1630537960737,
+        "lastUpdated": 1630538488150,
         "otherAdvice": "<p>Special event clearways will be in effect&nbsp;on both sides of&nbsp;Chalmers St between Cleveland St and Devonshire St&nbsp;to facilitate rail replacement&nbsp;bus operations for Sydney Trains trackwork.&nbsp;</p><p>Clearways are strict no-parking zones and apply even to local residents or RMS Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -12891,14 +12891,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2024645343933,
-          -33.884496962320945
+          151.20249403869246,
+          -33.88457266910594
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations - CHIPPENDALE Regent Street between Broadway AND Lee Street ",
-        "periods": [],
+        "headline": "SPECIAL EVENT CLEARWAYS - CHIPPENDALE Regent Street between Broadway AND Lee Street ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "11:59pm",
+            "fromDay": "Saturday",
+            "startTime": "2:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "",
+            "fromDay": "Sunday",
+            "startTime": "all day",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "2:00am",
+            "fromDay": "Monday",
+            "startTime": "12:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -12918,8 +12949,8 @@
         "end": 1631462400000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1630298637153,
-        "otherAdvice": "<p><strong>Special event clearways will be in effect&nbsp;on the eastern side of Regent St from Broadway/George St to Lee St&nbsp;from 2am Saturday 11 September until 2am Monday 13 September&nbsp;</strong><strong>to&nbsp;facilitate rail replacement&nbsp;bus operations for Sydney Trains trackwork </strong><strong>.</strong></p><p>Clearways are strict no-parking zones and apply even to local residents or RMS Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.</p>",
+        "lastUpdated": 1630538373150,
+        "otherAdvice": "<p>Special event clearways will be in effect&nbsp;on the eastern side of Regent St from Broadway/George St to Lee St&nbsp;to&nbsp;facilitate rail replacement&nbsp;bus operations for Sydney Trains trackwork.</p><p>Clearways are strict no-parking zones and apply even to local residents or RMS Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12931,7 +12962,7 @@
         ],
         "duration": null,
         "start": 1631282400000,
-        "displayName": "SPECIAL EVENT CLEARWAYS - Rail replacement bus operations",
+        "displayName": "SPECIAL EVENT CLEARWAYS",
         "media": [],
         "roads": [
           {
@@ -13501,6 +13532,153 @@
             "region": "REG_NORTH",
             "secondLocation": "Cessnock Road",
             "suburb": "Freemans Waterhole",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99770,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5105118,
+          -28.8640019
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - OURIMBAH M1 Pacific Motorway just past Pacific Highway interchange",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1630538015397,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1630538015477,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway interchange",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ourimbah",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99771,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0056598,
+          -33.7293472
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - CASTLE HILL Pennant Street at Les Shore Place",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1630538188327,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1630538315417,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Les Shore Place",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Castle Hill",
             "trafficVolume": ""
           }
         ]
