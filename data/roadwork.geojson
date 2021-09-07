@@ -9597,12 +9597,12 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - SYDNEY Cahill Expressway between Conservatorium Road AND Upper Fort Street ",
+        "headline": "SCHEDULED ROADWORK Maintenance - SYDNEY Cahill Expressway between Conservatorium Road AND Upper Fort Street ",
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Freeway",
+            "roadtype": "Road",
             "direction": "Northbound",
             "finishTime": "4:30am",
             "fromDay": "Monday",
@@ -9612,7 +9612,7 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Freeway",
+            "roadtype": "Road",
             "direction": "Northbound",
             "finishTime": "4:30am",
             "fromDay": "Tuesday",
@@ -9626,7 +9626,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -9635,14 +9635,14 @@
         "name": null,
         "subCategoryA": null,
         "adviceB": "Use diversions",
-        "adviceA": "Plan your journey",
-        "end": 1631644200000,
+        "adviceA": "Check signage",
+        "end": 1632162600000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1628513866370,
+        "lastUpdated": 1631022705357,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Sydney Harbour Tunnel&nbsp;<br>or Sydney Harbour Bridge via Macquarie St, Bridge St and Grosvenor St.&nbsp; </p>",
+        "diversions": "<p>Either: </p><ul><li>Sydney Harbour Tunnel <strong>or</strong> </li><li>Macquarie St, Bridge St, then Grosvenor St.</li></ul>",
         "additionalInfo": [
           " "
         ],
@@ -9652,7 +9652,7 @@
         ],
         "duration": null,
         "start": 1631455200000,
-        "displayName": "SCHEDULED ROADWORK",
+        "displayName": "SCHEDULED ROADWORK Maintenance",
         "media": [],
         "roads": [
           {
@@ -22342,6 +22342,83 @@
             "region": "SYD_MET",
             "secondLocation": "Penkivil Street",
             "suburb": "Bondi",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20405705434732,
+          -33.864246138614035
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Maintenance - SYDNEY Western Distributor between Kent Street underpass AND Grosvenor Street underpass ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "4:30am",
+            "fromDay": "Wednesday",
+            "startTime": "10:30pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1631022313177,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Check signage",
+        "end": 1631730600000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1631022313210,
+        "otherAdvice": "2 of 3 northbound lanes will be closed.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1631628000000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kent Street underpass",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Western Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": "Grosvenor Street underpass",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
