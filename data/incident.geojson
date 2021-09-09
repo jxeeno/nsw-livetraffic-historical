@@ -13734,7 +13734,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -13749,7 +13749,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1631164451103,
+        "lastUpdated": 1631166026677,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13889,21 +13889,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1631165166067,
+        "lastUpdated": 1631165982233,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
@@ -13915,11 +13914,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 4",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": "Road"
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
               }
             ],
             "locationQualifier": "in",
@@ -17240,6 +17239,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Edmondson Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9429629,
+          -33.8518486
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 trucks - SMITHFIELD Cumberland Highway at Victoria Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1631164451057,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 trucks",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1631166026677,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 trucks",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Victoria Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Smithfield",
             "trafficVolume": ""
           }
         ]
