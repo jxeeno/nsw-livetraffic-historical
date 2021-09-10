@@ -13506,8 +13506,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8969015,
-          -33.7979574
+          150.89730383135222,
+          -33.79825161788829
         ]
       },
       "properties": {
@@ -13529,10 +13529,10 @@
         "name": null,
         "subCategoryA": "Semi trailer",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1631247624397,
+        "lastUpdated": 1631248905830,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13541,7 +13541,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Semi trailer",
         "media": [],
@@ -13557,7 +13557,7 @@
                 "description": "Right turn lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "5",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "approaching",
@@ -13574,17 +13574,17 @@
     },
     {
       "type": "Feature",
-      "id": 100278,
+      "id": 100279,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.2433587,
-          -33.5838206
+          151.4036698599274,
+          -33.30513101641301
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - MOUNT VICTORIA Great Western Highway at Victoria Street",
+        "headline": "HAZARD Paint Spillage - TUGGERAH Wyong Road at M1 Pacific Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13596,15 +13596,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1631247585430,
+        "created": 1631248710417,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Spillage",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1631247730797,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1631248710463,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13613,24 +13613,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Heavy vehicle tow truck"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "HAZARD Paint Spillage",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Victoria Street",
+            "crossStreet": "M1 Pacific Motorway",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
             "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
+            "mainStreet": "Wyong Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Mount Victoria",
+            "suburb": "Tuggerah",
             "trafficVolume": ""
           }
         ]
@@ -18134,6 +18142,70 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Granville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2433587,
+          -33.5838206
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MOUNT VICTORIA Great Western Highway at Victoria Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1631247585430,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1631248766440,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Victoria Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Mount Victoria",
             "trafficVolume": ""
           }
         ]
