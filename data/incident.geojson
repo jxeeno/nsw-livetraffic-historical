@@ -13502,50 +13502,38 @@
     },
     {
       "type": "Feature",
-      "id": 98544,
+      "id": 100277,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.71049302081468,
-          -34.19396236939982
+          150.8969015,
+          -33.7979574
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS due to road damage - DOUGLAS PARK Hume Motorway approximately 1.5km before Moreton Park Road overpass",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "",
-            "fromDay": "Every Day",
-            "startTime": "all day",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 80,
+        "headline": "BREAKDOWN Semi trailer - BLACKTOWN Great Western Highway approaching Reservoir Road",
+        "periods": [],
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1628633327603,
+        "created": 1631247015487,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "end": 1631194200000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1631160712653,
-        "otherAdvice": "The reduced speed limit will remain in place until at least Thu, 9 Sep.",
+        "subCategoryA": "Semi trailer",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1631247465397,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13553,25 +13541,96 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "duration": null,
-        "start": 1628604000000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS due to road damage",
+        "displayName": "BREAKDOWN Semi trailer",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "1.5km before Moreton Park Road overpass",
+            "crossStreet": "Reservoir Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "approximately",
-            "mainStreet": "Hume Motorway",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Douglas Park",
+            "suburb": "Blacktown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2433587,
+          -33.5838206
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MOUNT VICTORIA Great Western Highway at Victoria Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1631247585430,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1631247585477,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Victoria Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Mount Victoria",
             "trafficVolume": ""
           }
         ]
