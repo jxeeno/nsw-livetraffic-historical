@@ -13742,11 +13742,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1631438503623,
+        "lastUpdated": 1631438966687,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13767,11 +13767,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
@@ -13792,8 +13792,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9570549,
-          -33.8676715
+          150.95706059969416,
+          -33.867677346164015
         ]
       },
       "properties": {
@@ -13818,7 +13818,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1631438662680,
+        "lastUpdated": 1631439035697,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13844,6 +13844,14 @@
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -13860,37 +13868,37 @@
     },
     {
       "type": "Feature",
-      "id": 100358,
+      "id": 100388,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.04944298332828,
-          -34.170640024719326
+          151.03548054180013,
+          -33.939859312267586
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Fallen tree - ROYAL NATIONAL PARK Sir Bertram Stevens Drive just past Garie Rd",
+        "headline": "BREAKDOWN Car - PADSTOW M5 Motorway off-ramp to Fairford Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1631348642783,
+        "created": 1631438828037,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Fallen tree",
+        "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1631352337840,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1631438975170,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13899,32 +13907,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Tow Truck",
+          "Motorway Crew"
         ],
-        "displayName": "HAZARD Fallen tree",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Garie Rd",
+            "crossStreet": "Fairford Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Left turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Sir Bertram Stevens Drive",
+            "locationQualifier": "to",
+            "mainStreet": "M5 Motorway off-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Royal National Park",
+            "suburb": "Padstow",
             "trafficVolume": ""
           }
         ]
