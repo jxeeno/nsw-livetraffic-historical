@@ -13458,7 +13458,7 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1631411700337,
+        "lastUpdated": 1631413773593,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Northern Distributor Rd. This route is suitable for all vehicles, including B-doubles.",
@@ -13508,37 +13508,37 @@
     },
     {
       "type": "Feature",
-      "id": 100340,
+      "id": 100370,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.07963868643031,
-          -33.763382483321784
+          151.07620665757221,
+          -33.85932217468693
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CHELTENHAM Beecroft Road near M2 Motorway",
+        "headline": "HAZARD Tool - HOMEBUSH M4 Motorway approaching Homebush Bay Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1631325275717,
+        "created": 1631413745257,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1631327270237,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1631413745287,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13547,33 +13547,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Tow Truck"
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Tool",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M2 Motorway",
+            "crossStreet": "Homebush Bay Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
+                "description": "Lane 4",
+                "extent": "Affected",
+                "numberOfLanes": "4",
+                "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Beecroft Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Cheltenham",
+            "suburb": "Homebush",
             "trafficVolume": ""
           }
         ]
@@ -15556,6 +15555,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Millers Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1515175162791,
+          -33.93882115728968
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Oil spill - ARNCLIFFE West Botany Street just past Marsh Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1631413408237,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Oil spill",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1631413832983,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Oil spill",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marsh Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Affected",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "West Botany Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
             "trafficVolume": ""
           }
         ]
