@@ -12707,7 +12707,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1632106526837,
+        "lastUpdated": 1632110648760,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12750,17 +12750,17 @@
     },
     {
       "type": "Feature",
-      "id": 100786,
+      "id": 100787,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.6669871723389,
-          -33.77027268123558
+          151.1869364068848,
+          -33.932187929635276
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Metal - GLENMORE PARK M4 Motorway just past Mulgoa Road",
+        "headline": "CRASH Truck, Car - MASCOT Joyce Drive just past O'Riordan Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12772,15 +12772,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1632109217800,
+        "created": 1632110409020,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Metal",
+        "subCategoryA": "Truck, Car",
         "adviceB": " ",
-        "adviceA": " ",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1632109217830,
+        "mainCategory": "Crash",
+        "lastUpdated": 1632110761850,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12789,32 +12789,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "HAZARD Metal",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mulgoa Road",
+            "crossStreet": "O'Riordan Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "just past",
-            "mainStreet": "M4 Motorway",
+            "mainStreet": "Joyce Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Glenmore Park",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -15486,6 +15488,78 @@
             "secondLocation": " ",
             "suburb": "Bass Hill",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100786,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6669871723389,
+          -33.77027268123558
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Metal - GLENMORE PARK M4 Motorway just past Mulgoa Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632109217800,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Metal",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1632110736760,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Metal",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mulgoa Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Glenmore Park",
+            "trafficVolume": ""
           }
         ]
       }
