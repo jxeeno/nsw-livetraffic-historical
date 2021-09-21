@@ -9166,13 +9166,34 @@
       "properties": {
         "webLinks": [
           {
-            "linkText": "ARTC Botany Rail Duplication",
+            "linkText": "Botany Rail Duplication",
             "linkURL": "https://proj.artc.com.au/botany-duplication/"
           }
         ],
         "headline": "SCHEDULED ROADWORK - MASCOT Botany Road between Wentworth Avenue AND Mill Pond Road ",
-        "periods": [],
-        "speedLimit": -1,
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "6:00pm",
+            "fromDay": "Saturday",
+            "startTime": "6:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -9186,13 +9207,13 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution; Allow extra travel time",
-        "adviceA": "Check signage",
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
         "end": 1634383800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1632196116790,
-        "otherAdvice": "One lane will be closed in each direction.&nbsp;",
+        "lastUpdated": 1632196511340,
+        "otherAdvice": "1 of 2 southbound lanes will be closed.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
