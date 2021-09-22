@@ -12764,38 +12764,50 @@
     },
     {
       "type": "Feature",
-      "id": 100849,
+      "id": 100910,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.835064843,
-          -33.7702144289
+          151.20637748717192,
+          -33.88813061922803
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - ROOTY HILL Francis Road at Railway Street",
-        "periods": [],
+        "headline": "SPECIAL EVENT CLEARWAYS - SURRY HILLS Chalmers Street between Cleveland Street AND Devonshire Street ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "11:00pm",
+            "fromDay": "Tuesday",
+            "startTime": "2:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1632201313617,
+        "created": 1632294955950,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1632208386293,
-        "otherAdvice": " ",
+        "subCategoryA": "(p)",
+        "adviceB": " ",
+        "adviceA": "Check signage",
+        "end": 1632834000000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1632294955980,
+        "otherAdvice": "<p>Special event clearways will be in effect&nbsp;on the western side of&nbsp;Chalmers St between Cleveland St and Devonshire St, and the eastern side of Chalmers St between Belvoir St and Devonshire St to facilitate Sydney Trains rail replacement&nbsp;bus operations. </p><p>Clearways are strict no-parking zones and apply even to local residents or Mobility Scheme Permit holders. Check signs before parking as vehicles left in clearways will be towed and a fee applies.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12803,32 +12815,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          " "
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "duration": null,
+        "start": 1632751200000,
+        "displayName": "SPECIAL EVENT CLEARWAYS",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Railway Street",
+            "crossStreet": "Cleveland Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Francis Road",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Chalmers Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Rooty Hill",
+            "region": "SYD_MET",
+            "secondLocation": "Devonshire Street",
+            "suburb": "Surry Hills",
             "trafficVolume": ""
           }
         ]
@@ -15792,6 +15797,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Homebush",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100909,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1574803256829,
+          -33.87527095641786
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - LEICHHARDT City West Link Road approaching Norton Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632294795293,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1632295032017,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Norton Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "City West Link Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Leichhardt",
             "trafficVolume": ""
           }
         ]
