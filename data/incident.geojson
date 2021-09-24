@@ -13118,50 +13118,38 @@
     },
     {
       "type": "Feature",
-      "id": 100952,
+      "id": 101056,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.98915178146527,
-          -33.379449614834826
+          150.8888166,
+          -34.4981485
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Maintenance - WISEMANS FERRY Wisemans Ferry between Old Northern Road AND Wisemans Ferry Road ",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Ferry",
-            "direction": "Both directions",
-            "finishTime": "2:00pm",
-            "fromDay": "Thursday",
-            "startTime": "1:00pm",
-            "toDay": ""
-          }
-        ],
+        "headline": "BREAKDOWN Car - WARRAWONG King Street approaching Shellharbour Road, Port Kembla",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1632355684493,
+        "created": 1632457869323,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Delay your journey; Check signage",
-        "adviceA": "Expect delays",
-        "end": 1632371400000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1632371437360,
-        "otherAdvice": "The ferry will be out of service today from 1pm to 2pm due to required maintenance.",
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1632458491640,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13171,23 +13159,30 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "duration": null,
-        "start": 1632319200000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Maintenance",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Old Northern Road",
+            "crossStreet": "Shellharbour Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Wisemans Ferry",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "King Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": "Wisemans Ferry Road",
-            "suburb": "Wisemans Ferry",
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Warrawong",
             "trafficVolume": ""
           }
         ]
@@ -17457,6 +17452,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Merrylands",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101056,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8888166,
+          -34.4981485
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WARRAWONG King Street approaching Shellharbour Road, Port Kembla",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632457869323,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1632458491640,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Shellharbour Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "King Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Warrawong",
             "trafficVolume": ""
           }
         ]
