@@ -13049,18 +13049,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0197567,
-          -33.8313699
+          151.0200088276474,
+          -33.831356531658365
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH - CLYDE James Ruse Drive at M4 Motorway",
+        "headline": "CRASH - CLYDE James Ruse Drive at M4 Motorway off-ramp",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -13075,8 +13075,8 @@
         "adviceA": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632623005913,
-        "otherAdvice": " ",
+        "lastUpdated": 1632623884257,
+        "otherAdvice": "There is no right turn available from the M4 Mwy westbound offramp. All motorists must turn left.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13092,15 +13092,31 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M4 Motorway",
+            "crossStreet": "M4 Motorway off-ramp",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "3",
+                "description": "Off-ramp",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
                 "roadType": ""
               }
             ],
@@ -15062,6 +15078,95 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Macquarie Pass",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0200088276474,
+          -33.831356531658365
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - CLYDE James Ruse Drive at M4 Motorway off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632623005883,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1632623884257,
+        "otherAdvice": "There is no right turn available from the M4 Mwy westbound offramp. All motorists must turn left.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M4 Motorway off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "3",
+                "description": "Off-ramp",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "James Ruse Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
