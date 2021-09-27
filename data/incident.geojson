@@ -12848,7 +12848,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632694243723,
+        "lastUpdated": 1632705440220,
         "otherAdvice": "Contraflow traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -12912,7 +12912,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1632685468033,
         "isMajor": false,
         "name": null,
@@ -12921,7 +12921,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632700416053,
+        "lastUpdated": 1632704289470,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12963,19 +12963,19 @@
     },
     {
       "type": "Feature",
-      "id": 101162,
+      "id": 101163,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1560046,
-          -33.8525062
+          150.9757976063475,
+          -33.817191979993616
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "EMERGENCY ROADWORK - DRUMMOYNE Victoria Road at Edwin Street",
+        "headline": "BREAKDOWN Truck - SOUTH WENTWORTHVILLE M4 Motorway approaching Cumberland Highway",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 80,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -12985,15 +12985,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1632702813927,
+        "created": 1632705537313,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck",
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1632702813957,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1632705537437,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13002,40 +13002,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
         ],
-        "displayName": "EMERGENCY ROADWORK",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Edwin Street",
+            "crossStreet": "Cumberland Highway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              },
-              {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Victoria Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Drummoyne",
+            "suburb": "South Wentworthville",
             "trafficVolume": ""
           }
         ]
@@ -15664,6 +15657,86 @@
             "secondLocation": " ",
             "suburb": "East Albury",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1560046,
+          -33.8525062
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK - DRUMMOYNE Victoria Road at Edwin Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632702813927,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1632704731320,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "EMERGENCY ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Edwin Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Drummoyne",
+            "trafficVolume": ""
           }
         ]
       }
