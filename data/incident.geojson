@@ -12975,7 +12975,7 @@
         "webLinks": [],
         "headline": "BREAKDOWN Truck - SOUTH WENTWORTHVILLE M4 Motorway approaching Cumberland Highway",
         "periods": [],
-        "speedLimit": 80,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -12993,7 +12993,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1632705537437,
+        "lastUpdated": 1632707574347,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13016,9 +13016,9 @@
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -13036,17 +13036,22 @@
     },
     {
       "type": "Feature",
-      "id": 101164,
+      "id": 101166,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9574686,
-          -33.8397601
+          151.0484760172243,
+          -34.053087152779774
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - SMITHFIELD Cumberland Highway near Woodpark Road",
+        "webLinks": [
+          {
+            "linkText": "NSW National Parks & Wildlife Service - Royal National Park local alerts",
+            "linkURL": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/royal-national-park/local-alerts"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Royal National Park Heavy traffic - October long weekend - ROYAL NATIONAL PARK Princes Hwy at McKell Ave and Farnell Ave",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13058,16 +13063,17 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1632706066450,
+        "created": 1632707702770,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1632706066497,
-        "otherAdvice": " ",
+        "subCategoryA": "(p)",
+        "adviceB": "Check signage",
+        "adviceA": "Allow extra travel time",
+        "end": 1633338000000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1632707702800,
+        "otherAdvice": "<p><strong>The Royal National Park is expected to be busy over the October long weekend from Saturday 2 to Monday 4 October.</strong></p><p><strong>Road closures will be in place as precincts and car parks reach capacity including Wattamolla Beach, Garie Beach, Audley, Maianbar and Bundeena.</strong><br></p><p>When parking capacity is reached across all precincts, traffic will only be permitted to travel through the park. If there are significant delays, both the northern and southern entries to the park via Farnell Ave in Loftus and via Lady Wakehurst Dr in Otford will close. Entry will be maintained via McKell Ave in Waterfall for residents only.&nbsp;</p><p>Visitors are encouraged to check the <a href=\"https://www.nationalparks.nsw.gov.au/visit-a-park/parks/royal-national-park/local-alerts\" target=\"_blank\">Royal National Park local alerts</a> before travelling for updates on precinct access. </p><p><strong>Road closures when precincts reach capacity:</strong></p><ul><li>Wattamolla Rd between Sir Bertram Stevens Dr and Wattamolla Beach<strong></strong><strong></strong></li><li>Garie Rd between Sir Bertram Stevens Dr and Garie Beach<strong></strong><strong></strong></li><li>Maianbar Rd between Bundeena Dr and Maianbar township</li><li>Bundeena Dr between Sir Bertram Stevens Dr and Bundeena township</li></ul><p>Traffic controllers and NSW Police will be on site managing access for local residents on Maianbar Rd and Bundeena Dr upon proof of residential address.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13075,33 +13081,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
+        "duration": null,
+        "start": 1633096800000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Royal National Park Heavy traffic - October long weekend",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Woodpark Road",
+            "crossStreet": "McKell Ave and Farnell Ave",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Cumberland Highway",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Hwy",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Smithfield",
+            "suburb": "Royal National Park",
             "trafficVolume": ""
           }
         ]
@@ -13184,78 +13182,6 @@
             "region": "REG_SOUTH",
             "secondLocation": "just past Tongarra Road",
             "suburb": "Oak Flats to Albion Park",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 101124,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.6624968,
-          -34.5658903
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Motorcycle - MACQUARIE PASS Illawarra Highway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1632614349977,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Motorcycle",
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1632621524363,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Motorcycle",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Illawarra Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Macquarie Pass",
             "trafficVolume": ""
           }
         ]
@@ -15809,6 +15735,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Drummoyne",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9574686,
+          -33.8397601
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SMITHFIELD Cumberland Highway near Woodpark Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632706066450,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1632708096250,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Woodpark Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Smithfield",
             "trafficVolume": ""
           }
         ]
