@@ -12861,10 +12861,10 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632870788170,
+        "lastUpdated": 1632870944970,
         "otherAdvice": "Traffic signals at the intersection of Parramatta Rd and James Ruse Dr are flashing yellow; police are on site directing traffic.",
         "arrangementElements": [],
-        "diversions": "<p>Eastbound motorists are being diverted onto Church St.<br>Westbound motorists are being diverted onto James Ruse Dr.</p><p>All vehicles in both directions should consider using the M4 Motorway as an alternative route.</p>",
+        "diversions": "<p>Westbound motorists are being diverted onto James Ruse Dr.</p><p>All vehicles in both directions should consider using the M4 Motorway as an alternative route.</p>",
         "additionalInfo": [
           " "
         ],
@@ -12882,12 +12882,20 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -12977,17 +12985,17 @@
     },
     {
       "type": "Feature",
-      "id": 101281,
+      "id": 101282,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1037563,
-          -33.9762429
+          150.85340918076477,
+          -33.98879561850415
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - SOUTH HURSTVILLE King Georges Road at Joffre Street",
+        "headline": "BREAKDOWN Car - INGLEBURN Hume Motorway just past Brooks Road overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12998,16 +13006,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1632870156140,
+        "isInitialReport": false,
+        "created": 1632871254933,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
+        "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1632870156187,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1632871254980,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13016,33 +13024,110 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Joffre Street",
+            "crossStreet": "Brooks Road overpass",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "South Hurstville",
+            "suburb": "Ingleburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98113463314684,
+          -33.387637965629764
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "FERRY OUT OF SERVICE Breakdown - WEBBS CREEK FERRY Wisemans Ferry between St Albans Road AND River Road ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632871347790,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Breakdown",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1632871347853,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "|zwjEs`ox[F[??ZmAl@wBZiAdAyF^qB",
+            "levels": ""
+          }
+        ],
+        "displayName": "FERRY OUT OF SERVICE Breakdown",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "St Albans Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Ferry"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Wisemans Ferry",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": "River Road",
+            "suburb": "Webbs Creek Ferry",
             "trafficVolume": ""
           }
         ]
@@ -13274,78 +13359,6 @@
             "region": "SYD_MET",
             "secondLocation": "Kain Avenue",
             "suburb": "Matraville",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 101218,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.10475773445293,
-          -33.936919791833375
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Reduced speed limit - KINGSGROVE M5 East Motorway near Kingsgrove Road",
-        "periods": [],
-        "speedLimit": 60,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1632781326987,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "(u\\p)",
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1632784617470,
-        "otherAdvice": "The reduced speed limit will remain in place while road plates are in place across the westbound lanes.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Reduced speed limit",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Kingsgrove Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "M5 East Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Kingsgrove",
             "trafficVolume": ""
           }
         ]
@@ -16908,6 +16921,79 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Raglan",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1037563,
+          -33.9762429
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - SOUTH HURSTVILLE King Georges Road at Joffre Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1632870156140,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1632870898230,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Joffre Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "South Hurstville",
             "trafficVolume": ""
           }
         ]
