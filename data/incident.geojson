@@ -13005,7 +13005,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1632797980663,
+        "lastUpdated": 1632800605693,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "Local diversions are in place.",
@@ -13084,7 +13084,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1632798046487,
+        "lastUpdated": 1632800613090,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13199,37 +13199,110 @@
     },
     {
       "type": "Feature",
-      "id": 101170,
+      "id": 101233,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0662988,
-          -34.0350426
+          151.2054011767212,
+          -33.770794371724115
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - SUTHERLAND Princes Highway just past President Avenue",
+        "headline": "HAZARD Car on fire - KILLARNEY HEIGHTS Warringah Road just past Roseville Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1632711213100,
+        "created": 1632800766547,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": "Car on fire",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1632800990563,
+        "otherAdvice": "Northbound motorists are advised to expect intermittent closures of the road.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Car on fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Roseville Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Warringah Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Killarney Heights",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1961926202114,
+          -33.54685451390194
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway approaching Hawkesbury River Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632800942653,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1632714196070,
+        "lastUpdated": 1632800942700,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13238,32 +13311,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "President Avenue",
+            "crossStreet": "Hawkesbury River Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Sutherland",
+            "suburb": "Cowan",
             "trafficVolume": ""
           }
         ]
