@@ -13247,14 +13247,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1632896624560,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "4 vehicles",
         "adviceB": "Expect delays; Exercise caution",
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632897398337,
+        "lastUpdated": 1632899110750,
         "otherAdvice": "The northbound on-ramp from James Ruse Dr to the M4 Mwy is also closed.",
         "arrangementElements": [],
         "diversions": "<p>Southbound motorists are being diverted onto the M4 Mwy eastbound.<br></p>",
@@ -13263,6 +13263,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -13298,7 +13299,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Rosehill",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -13335,7 +13336,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632897105207,
+        "lastUpdated": 1632898996597,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13377,78 +13378,6 @@
     },
     {
       "type": "Feature",
-      "id": 101318,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0475286,
-          -33.7664936
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - CARLINGFORD Pennant Hills Road just past North Rocks Road, North Rocks",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1632897293400,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1632897293450,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "North Rocks Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Pennant Hills Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Carlingford",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 101319,
       "geometry": {
         "type": "Point",
@@ -13479,7 +13408,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1632898322477,
+        "lastUpdated": 1632898810110,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13503,6 +13432,14 @@
                 "affectedDirection": "Westbound",
                 "closedLanes": "2",
                 "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -17722,6 +17659,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Liverpool",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101318,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0475286,
+          -33.7664936
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - CARLINGFORD Pennant Hills Road just past North Rocks Road, North Rocks",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632897293400,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1632899015923,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "North Rocks Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Pennant Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Carlingford",
             "trafficVolume": ""
           }
         ]
