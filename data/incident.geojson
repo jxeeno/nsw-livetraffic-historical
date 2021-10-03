@@ -13385,11 +13385,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Police operation",
-        "adviceB": "Exercise caution",
-        "adviceA": "Use an alternative route",
+        "adviceB": "Exercise caution; Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1633265887497,
+        "lastUpdated": 1633267361363,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13409,12 +13409,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -13424,6 +13432,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Penrith",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.962733817,
+          -33.8446672674
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - GUILDFORD WEST Fairfield Road at Liverpool-Parramatta Transitway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1633267439710,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1633267439757,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Liverpool-Parramatta Transitway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Fairfield Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Guildford West",
             "trafficVolume": ""
           }
         ]
