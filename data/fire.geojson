@@ -18,7 +18,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -33,10 +33,10 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Building fire",
-        "lastUpdated": 1633232762540,
+        "lastUpdated": 1633234002570,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Westbound motorists are diverted left into Leicester Ave or right into Concord Rd.</p><p><strong>From Leicester Ave</strong> use Cooper St, Parramatta Rd</p><p><strong>From Concord Rd</strong> use Wellbank St, Queens St, Pomeroy St, George St, Parramatta Rd.</p><p>Motorists can also consider using the M4 Motorway.</p>",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -54,11 +54,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -140,6 +140,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Five Dock",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101582,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0936021,
+          -33.8664116
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BUILDING FIRE - STRATHFIELD Parramatta Road at Concord Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1633230419240,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Building fire",
+        "lastUpdated": 1633234002570,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BUILDING FIRE",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Concord Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Strathfield",
             "trafficVolume": ""
           }
         ]
