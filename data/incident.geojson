@@ -12904,7 +12904,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1633387958527,
+        "lastUpdated": 1633389987240,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p><strong>Southbound</strong>: John Renshaw Dr to Kurri Kurri, Tarro St, Railway St, Stanford St, Leggetts Dr, Whitebridge Rd, Richmond Vale Rd, and back to George Booth Dr.</p><p><strong>Northbound</strong>: Richmond Vale Rd, Whitebridge Rd, Leggetts Dr to Kurri Kurri, Stanford St, Railway St, Tarro St, John Renshaw Dr, and continue your journey.</p><p>This will add around 15 minutes to your travel time.</p><p>B-doubles can use Hunter Expy and M1 Pacific Mwy.</p>",
@@ -12915,7 +12915,8 @@
         "attendingGroups": [
           "Local Council",
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Crime Scene Unit"
         ],
         "encodedPolylines": [
           {
@@ -12981,10 +12982,10 @@
         "name": null,
         "subCategoryA": "Semi trailer",
         "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1633388258150,
+        "lastUpdated": 1633390057860,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13020,7 +13021,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Burwood",
-            "trafficVolume": "Moderate"
+            "trafficVolume": ""
           }
         ]
       }
@@ -13054,18 +13055,19 @@
         "name": null,
         "subCategoryA": "3 vehicles",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1633387931643,
-        "otherAdvice": " ",
+        "lastUpdated": 1633389942973,
+        "otherAdvice": "Southbound traffic is particularly heavy.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Person trapped"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "CRASH 3 vehicles",
@@ -13092,7 +13094,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Fern Bay",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13175,13 +13177,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20920184815625,
-          -33.760158225950164
+          151.20872374439935,
+          -33.76041132048162
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - FORESTVILLE Warringah Road near Forestville Avenue",
+        "headline": "BREAKDOWN Truck - FORESTVILLE Warringah Road approaching Forestville Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13201,7 +13203,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1633389744490,
+        "lastUpdated": 1633389835217,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13230,13 +13232,86 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "approaching",
             "mainStreet": "Warringah Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Forestville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101646,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.86786259171146,
+          -34.39714437374288
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MOUNT OUSLEY M1 Princes Motorway approaching New Mount Pleasant Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1633390319057,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1633390319107,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "New Mount Pleasant Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Princes Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mount Ousley",
             "trafficVolume": ""
           }
         ]
