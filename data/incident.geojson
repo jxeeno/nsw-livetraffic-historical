@@ -12812,7 +12812,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1633473068343,
+        "lastUpdated": 1633474506000,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12848,24 +12848,24 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Auburn",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 101712,
+      "id": 101713,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2682149,
-          -33.7680861
+          150.9389508393909,
+          -33.91096300057777
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Debris, glass - BROOKVALE Pittwater Road at Condamine Street",
+        "headline": "BREAKDOWN Truck - WARWICK FARM Hume Highway approaching Governor Macquarie Drive, Chipping Norton",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12877,15 +12877,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1633473011033,
+        "created": 1633474288680,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Debris",
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1633473493637,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1633474288760,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12894,33 +12894,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Maintenance"
+          "Transport for NSW"
         ],
-        "displayName": "HAZARD Debris, glass",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Condamine Street",
+            "crossStreet": "Governor Macquarie Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Warwick Farm",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101714,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.63326410236894,
+          -32.84095025452006
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - LENAGHAN M1 Pacific Motorway at Black Hill Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1633474400473,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1633474507783,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Black Hill Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Pittwater Road",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Brookvale",
+            "suburb": "Lenaghan",
             "trafficVolume": ""
           }
         ]
@@ -17503,6 +17574,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "St Andrews",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101712,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2682149,
+          -33.7680861
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Debris, glass - BROOKVALE Pittwater Road at Condamine Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1633473011033,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1633474449137,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Maintenance"
+        ],
+        "displayName": "HAZARD Debris, glass",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Condamine Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pittwater Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Brookvale",
             "trafficVolume": ""
           }
         ]
