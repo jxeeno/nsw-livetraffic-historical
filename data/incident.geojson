@@ -12885,7 +12885,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1633464891657,
+        "lastUpdated": 1633465040337,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12905,7 +12905,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -12999,37 +12999,37 @@
     },
     {
       "type": "Feature",
-      "id": 101634,
+      "id": 101707,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8974479356167,
-          -33.79599218286252
+          150.9177343291419,
+          -33.79813735661623
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Motorcycle - BLACKTOWN Reservoir Road near Penny Place",
+        "headline": "CRASH 2 cars - PROSPECT Prospect Highway at Harrod Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1633373743760,
+        "created": 1633465133070,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car, Motorcycle",
+        "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1633378835847,
+        "lastUpdated": 1633465133117,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13038,34 +13038,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "CRASH Car, Motorcycle",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Penny Place",
+            "crossStreet": "Harrod Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Reservoir Road",
+            "locationQualifier": "at",
+            "mainStreet": "Prospect Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Blacktown",
+            "suburb": "Prospect",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101708,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8479762701423,
+          -33.732254068672965
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - COLEBEE Richmond Road approaching Rooty Hill Road North",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1633465566407,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1633465566437,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Rooty Hill Road North",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Richmond Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Colebee",
             "trafficVolume": "Moderate"
           }
         ]
