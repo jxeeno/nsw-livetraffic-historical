@@ -12253,7 +12253,7 @@
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
-        "publicTransport": "Buses are diverting away from Flinders Street. Routes 373, 374, 377, 392, 394, 396, 397, 399 and L94&nbsp;Buses are\nusing Anzac Parade, Cleveland Street and Elizabeth Street instead, missing 16\nstops. Route 338, 339, 376 and 391 buses are using Albion Street, Crown\nStreet, Cleveland Street and Anzac Parade instead, missing three stops.",
+        "publicTransport": "Route 373, 377, 392, 394, 396, 397, 399 and L94\nservices travelling away from the City are diverting via Anzac Parade, Fitzroy\nStreet, Foveaux St, Crown St, and Oxford St, missing two stops.\n\n",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
@@ -12266,8 +12266,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1633980098420,
-        "otherAdvice": "<p>Repairs will take place overnight and are expected to continue until Tue afternoon.<br></p><p>One northbound left turn lane is also closed on South Dowling St.</p>",
+        "lastUpdated": 1633981946870,
+        "otherAdvice": "<p>Repairs will take place overnight and are expected to continue until Tue afternoon.<br></p>",
         "arrangementElements": [],
         "diversions": "<p>Southbound motorists can use Elizabeth St.</p><p>Northbound motorists will continue on South Dowling St to access Oxford St.</p>",
         "additionalInfo": [
@@ -12293,12 +12293,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -12494,7 +12502,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1633980562763,
+        "lastUpdated": 1633981647510,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12515,7 +12523,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
@@ -12530,78 +12538,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Kyeemagh",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 102021,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.7687679,
-          -33.8026272
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Multiple vehicles - ST CLAIR Mamre Road at Luddenham Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1633892391647,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1633895182170,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH Multiple vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Luddenham Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Mamre Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "St Clair",
             "trafficVolume": "Heavy"
           }
         ]
