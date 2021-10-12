@@ -12492,7 +12492,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1634050824307,
+        "lastUpdated": 1634052236593,
         "otherAdvice": "The eastbound right-hand turn into Harrow Rd has been restricted.",
         "arrangementElements": [],
         "diversions": " ",
@@ -12513,18 +12513,26 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               },
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -12542,37 +12550,37 @@
     },
     {
       "type": "Feature",
-      "id": 102107,
+      "id": 102183,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8146491,
-          -33.9689538
+          151.2065954,
+          -33.8587581
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Animals - cows - LEPPINGTON Camden Valley Way at Ingleburn Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - SYDNEY Western Distributor approaching Sydney Harbour Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1633958947450,
+        "created": 1634052143663,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Animal",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Police operation",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1633965655607,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1634052143710,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12581,32 +12589,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Tow Truck"
         ],
-        "displayName": "HAZARD Animals - cows",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Ingleburn Road",
+            "crossStreet": "Sydney Harbour Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Camden Valley Way",
+            "locationQualifier": "approaching",
+            "mainStreet": "Western Distributor",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Leppington",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
