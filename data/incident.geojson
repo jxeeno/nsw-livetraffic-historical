@@ -12396,7 +12396,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -12411,7 +12411,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634061645420,
+        "lastUpdated": 1634062925680,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12529,13 +12529,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7400231,
-          -34.0393528
+          150.74129446707303,
+          -34.03885048608521
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Caravan on fire - NARELLAN Camden Valley Way near Narellan Road",
+        "headline": "HAZARD Earlier caravan on fire - NARELLAN Camden Valley Way between Narellan Road AND George Hunter Drive ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12546,16 +12546,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1634062025180,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Caravan on fire",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1634062025227,
+        "lastUpdated": 1634062831430,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12567,21 +12567,102 @@
           "Transport for NSW",
           "Emergency services"
         ],
-        "displayName": "HAZARD Caravan on fire",
+        "displayName": "HAZARD Earlier caravan on fire",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Narellan Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
             "mainStreet": "Camden Valley Way",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
-            "secondLocation": " ",
+            "secondLocation": "George Hunter Drive",
             "suburb": "Narellan",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1958538,
+          -33.9028164
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK Burst water main - ALEXANDRIA McEvoy Street approaching Fountain Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634062585617,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1634062585663,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "EMERGENCY ROADWORK Burst water main",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Fountain Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "McEvoy Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Alexandria",
             "trafficVolume": ""
           }
         ]
@@ -16803,6 +16884,78 @@
             "secondLocation": " ",
             "suburb": "Narrabeen",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18983520964375,
+          -33.502451011256596
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - BAR POINT M1 Pacific Motorway approaching Jolls Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634058660937,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1634062925680,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jolls Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Bar Point",
+            "trafficVolume": "Heavy"
           }
         ]
       }
