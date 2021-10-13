@@ -12543,7 +12543,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -12551,21 +12551,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time; Exercise caution",
-        "adviceA": "Use diversions",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1634084585450,
+        "lastUpdated": 1634085351383,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Traffic diverted into Stubbs Street then Adderley Street West and Station Road to return to Parramatta Road.&nbsp;",
+        "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
@@ -12579,7 +12578,7 @@
                 "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
@@ -12608,7 +12607,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Timber - WYEE M1 Pacific Motorway near Hue Hue Road",
+        "headline": "HAZARD Timber - WYEE M1 Pacific Motorway between Hue Hue Road AND Motorway Link Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12628,7 +12627,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1634084179787,
+        "lastUpdated": 1634085460940,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12637,6 +12636,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "HAZARD Timber",
@@ -12649,20 +12649,92 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "between",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
+            "secondLocation": "Motorway Link Road",
+            "suburb": "Wyee",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8869755,
+          -34.4807654
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "EMERGENCY ROADWORK Pole replacement - WARRAWONG King Street near Bent Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634085119637,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Emergency roadwork",
+        "lastUpdated": 1634085119670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "EMERGENCY ROADWORK Pole replacement",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bent Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "King Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "wYEE",
+            "suburb": "Warrawong",
             "trafficVolume": ""
           }
         ]
