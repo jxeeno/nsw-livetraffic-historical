@@ -12745,7 +12745,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -12760,7 +12760,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1634282258787,
+        "lastUpdated": 1634282884697,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12832,7 +12832,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634280615627,
+        "lastUpdated": 1634282457547,
         "otherAdvice": "Contraflow traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -12886,7 +12886,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - EASTWOOD Rowe St at Shaftesbury Rd",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - EASTWOOD Rowe Street at Shaftesbury Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12906,7 +12906,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1634280560953,
+        "lastUpdated": 1634282512860,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12915,14 +12915,14 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Utility Company"
         ],
         "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Shaftesbury Rd",
+            "crossStreet": "Shaftesbury Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -12935,13 +12935,13 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Rowe St",
+            "mainStreet": "Rowe Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Eastwood",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13196,10 +13196,10 @@
         "name": null,
         "subCategoryA": "Multiple vehicles",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634280602243,
+        "lastUpdated": 1634282723047,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13234,7 +13234,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Picketts Valley",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13378,17 +13378,17 @@
     },
     {
       "type": "Feature",
-      "id": 102507,
+      "id": 102508,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.08265845461457,
-          -33.76423300636074
+          151.21557268780518,
+          -33.63765537382703
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Van - EPPING M2 Motorway off-ramp at Beecroft Road",
+        "headline": "HAZARD Fallen tree - KU-RING-GAI CHASE General San Martin Drive at 1km north of Cottage Point Road, Cottage Point",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13400,15 +13400,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1634281795060,
+        "created": 1634282444037,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Fallen tree",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1634281795107,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1634282444067,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13417,32 +13417,168 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Van",
+        "displayName": "HAZARD Fallen tree",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beecroft Road",
+            "crossStreet": "1km north of Cottage Point Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M2 Motorway off-ramp",
+            "mainStreet": "General San Martin Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Epping",
+            "suburb": "Ku-ring-gai Chase",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102509,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7178021,
+          -32.9511261
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ADAMSTOWN HEIGHTS Pacific Highway near Brunker Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1634282667830,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634282667877,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Brunker Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Adamstown Heights",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102510,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1907996,
+          -34.1737448
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BURONGA Sturt Highway (Hendy Road) near Melaleuca Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634282692870,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634282692963,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Melaleuca Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Sturt Highway (Hendy Road)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Buronga",
             "trafficVolume": ""
           }
         ]
@@ -13637,78 +13773,6 @@
             "region": "SYD_MET",
             "secondLocation": "Bourke Road",
             "suburb": "Alexandria",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 102375,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1922865724915,
-          -33.942855464310355
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Water on road - MASCOT General Holmes Drive at Southern Cross Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1634192193473,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Water on road",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1634196224400,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Water on road",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Southern Cross Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "General Holmes Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -19720,6 +19784,150 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Castle Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102507,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.08265845461457,
+          -33.76423300636074
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - EPPING M2 Motorway off-ramp at Beecroft Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634281795060,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634282595307,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beecroft Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M2 Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Epping",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102463,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1984421058631,
+          -33.8839517363237
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Loose scaffolding - ULTIMO Wattle Street just past Broadway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634265816217,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1634282884697,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Loose scaffolding",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Broadway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Wattle Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Ultimo",
             "trafficVolume": ""
           }
         ]
