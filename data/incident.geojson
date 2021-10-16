@@ -5912,7 +5912,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1634355992180,
+        "lastUpdated": 1634367746557,
         "otherAdvice": "<p>Portable traffic signals are in place to allow motorists to pass in one direction at a time.<br></p><p>Motorists are advised to allow approximately 10 minutes of additional travel time.</p><p>A width restriction of 3.1m is in place. Vehicles wider than 3.1m need to use an alternative route.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -12739,7 +12739,12 @@
         ]
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "Vehicle ferries",
+            "linkURL": "https://roads-waterways.transport.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html#Sydneyregion"
+          }
+        ],
         "headline": "CHANGED TRAFFIC CONDITIONS Reduced ferry capacity - BEROWRA WATERS Berowra Ferry between Berowra Waters Road AND Bay Road ",
         "periods": [],
         "speedLimit": -1,
@@ -12760,8 +12765,8 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1634366396150,
-        "otherAdvice": "<p>The Berowra Ferry is operating with the smaller ferry at a reduced capacity this weekend. One lane of the ferry is provided for bicycles and pedestrians.&nbsp;</p><p>Motorists may experience delays and should consider using an alternative route.</p>",
+        "lastUpdated": 1634367564627,
+        "otherAdvice": "<p>The Berowra Ferry is operating at a reduced capacity this weekend due to one lane of the ferry being reserved for bicycles and pedestrians.&nbsp;</p><p>Motorists may experience delays and could consider using an alternative route.</p>",
         "arrangementElements": [],
         "diversions": "Boundary Rd, New Line Rd, Galston Rd, Arcadia Rd and Bay Rd, in both directions.",
         "additionalInfo": [
@@ -12802,42 +12807,37 @@
     },
     {
       "type": "Feature",
-      "id": 102572,
+      "id": 102577,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0704883,
-          -33.807086
+          151.20332795767212,
+          -33.87722771896033
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Ausgrid outages",
-            "linkURL": "https://www.ausgrid.com.au/Outages/Current-Outages"
-          }
-        ],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - ERMINGTON Victoria Road at Marsden Road",
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SYDNEY Harbour Street approaching Goulburn Street, Haymarket",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1634361788207,
+        "created": 1634367355853,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1634367216860,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634367355903,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12846,33 +12846,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Marsden Road",
+            "crossStreet": "Goulburn Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Victoria Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Harbour Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Ermington",
-            "trafficVolume": ""
+            "suburb": "Sydney",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102578,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06514418202468,
+          -33.866614644636016
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HOMEBUSH WEST Centenary Drive approaching Arthur Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634367655333,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634367655367,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Arthur Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Homebush West",
+            "trafficVolume": "Moderate"
           }
         ]
       }
