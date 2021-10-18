@@ -12650,60 +12650,38 @@
     },
     {
       "type": "Feature",
-      "id": 102256,
+      "id": 102722,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20513319077264,
-          -33.86754677319945
+          150.949244,
+          -33.8986254
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Filming - SYDNEY Clarence Street between King Street AND Erskine Street ",
-        "periods": [
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "7:00pm",
-            "fromDay": "Saturday",
-            "startTime": "10:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "7:00pm",
-            "fromDay": "Sunday",
-            "startTime": "10:00am",
-            "toDay": ""
-          }
-        ],
+        "headline": "CRASH 3 vehicles - LANSVALE Hume Highway at Cabramatta Road",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1634104399960,
+        "created": 1634544412290,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "March",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "end": 1634457600000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1634457671627,
-        "otherAdvice": "<p>Motorists are advised to expect intermittent closures.&nbsp;Buses will be given priority.</p>",
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1634544412337,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12711,25 +12689,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "duration": null,
-        "start": 1634302800000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Filming",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "King Street",
+            "crossStreet": "Cabramatta Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Clarence Street",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Erskine Street",
-            "suburb": "Sydney",
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Lansvale",
             "trafficVolume": ""
           }
         ]
