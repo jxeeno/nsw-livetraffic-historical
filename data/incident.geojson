@@ -12758,10 +12758,10 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634595808643,
+        "lastUpdated": 1634596759503,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Light vehicles only can use Nethercote Road in both directions between Broadwater and Eden.</p><p>Heavy vehicles are being stored.</p><p>&nbsp;</p>",
+        "diversions": "<p><strong>Northbound:</strong>&nbsp;Nethercote Rd from Eden.<br><strong>Southbound:</strong>&nbsp;Nethercote Rd from Greigs Flat.</p><p>This diversion is suitable for light vehicles only. Heavy vehicles are being instructed to park up and wait.</p><p></p>",
         "additionalInfo": [
           " "
         ],
@@ -12872,90 +12872,17 @@
     },
     {
       "type": "Feature",
-      "id": 102747,
+      "id": 102750,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9399142,
-          -33.8109017
+          151.000055,
+          -33.7935756
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - GREYSTANES M4 Motorway approaching Beresford Road",
-        "periods": [],
-        "speedLimit": 60,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1634594414593,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1634594698777,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Beresford Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Greystanes",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 102749,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.85101036983642,
-          -33.81277109073328
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - EASTERN CREEK Wallgrove Road at M7 Motorway off-ramp / Mini Link Road",
+        "headline": "CRASH Truck, Car - NORTH PARRAMATTA Church Street at North Rocks Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12967,15 +12894,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1634595443897,
+        "created": 1634596621797,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634596078750,
+        "lastUpdated": 1634596621843,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12987,31 +12914,39 @@
           "Transport for NSW",
           "Emergency services"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M7 Motorway off-ramp / Mini Link Road",
+            "crossStreet": "North Rocks Road",
             "delay": "",
             "impactedLanes": [
               {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Wallgrove Road",
+            "mainStreet": "Church Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Eastern Creek",
-            "trafficVolume": ""
+            "suburb": "North Parramatta",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -17931,6 +17866,79 @@
     },
     {
       "type": "Feature",
+      "id": 102747,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9399142,
+          -33.8109017
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - GREYSTANES M4 Motorway approaching Beresford Road",
+        "periods": [],
+        "speedLimit": 60,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634594414593,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1634596507680,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beresford Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Greystanes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 102748,
       "geometry": {
         "type": "Point",
@@ -17996,6 +18004,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Darlinghurst",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102749,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85101036983642,
+          -33.81277109073328
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - EASTERN CREEK Wallgrove Road at M7 Motorway off-ramp / Mini Link Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634595443897,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1634596662453,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M7 Motorway off-ramp / Mini Link Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Wallgrove Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ]
