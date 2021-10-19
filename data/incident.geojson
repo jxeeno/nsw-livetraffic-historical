@@ -12685,8 +12685,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1634627678950,
-        "otherAdvice": "<p>Ongoing clean up operations are expected to take some time.<br></p>",
+        "lastUpdated": 1634630944213,
+        "otherAdvice": "<p>Expected to remain this way while\nthe extensive clean-up is completed.<br></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12694,8 +12694,6 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Emergency services",
           "Transport for NSW"
         ],
         "displayName": "CHANGED TRAFFIC CONDITIONS Due to earlier oil spill",
@@ -12739,9 +12737,9 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Due to earlier crash - BROADWATER Princes Highway near Haycock Road (5km north of Eden)",
+        "headline": "HAZARD Road damage - BROADWATER Princes Highway near Haycock Road (5km north of Eden)",
         "periods": [],
-        "speedLimit": 80,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -12754,13 +12752,13 @@
         "created": 1634593907300,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "subCategoryA": "Road damage",
+        "adviceB": "Exercise caution",
+        "adviceA": "Check signage",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1634627656947,
-        "otherAdvice": "The road conditions will be reassessed tomorrow, 20 October.",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1634631403827,
+        "otherAdvice": "A speed\nrestriction of 80km/h is enforced due to current road conditions following and earlier crash.<br>The road is expected to be reinspected tomorrow, Wed 20 Oct.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12770,7 +12768,7 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Due to earlier crash",
+        "displayName": "HAZARD Road damage",
         "media": [],
         "roads": [
           {
@@ -12801,17 +12799,17 @@
     },
     {
       "type": "Feature",
-      "id": 102787,
+      "id": 102791,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.01180659401476,
-          -34.18731784667508
+          150.9695223232788,
+          -33.88870629163022
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Fallen tree - LILYVALE (ROYAL NATIONAL PARK) Lady Wakehurst Drive",
+        "headline": "CRASH 2 cars - LANSVALE Hume Highway at The Horsley Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -12823,15 +12821,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1634626075690,
+        "created": 1634631530683,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Fallen tree",
+        "subCategoryA": "2 cars",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1634630779050,
+        "mainCategory": "Crash",
+        "lastUpdated": 1634631530730,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12840,32 +12838,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Fallen tree",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "The Horsley Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Lady Wakehurst Drive",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Lilyvale (Royal National Park)",
+            "suburb": "Lansvale",
             "trafficVolume": ""
           }
         ]
@@ -16419,6 +16418,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102787,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01180659401476,
+          -34.18731784667508
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Fallen tree - LILYVALE (ROYAL NATIONAL PARK) Lady Wakehurst Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634626075690,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1634631000443,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Lady Wakehurst Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Lilyvale (Royal National Park)",
             "trafficVolume": ""
           }
         ]
