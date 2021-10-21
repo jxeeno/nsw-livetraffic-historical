@@ -11408,7 +11408,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634856462063,
+        "lastUpdated": 1634858820153,
         "otherAdvice": "Motorists are advised to expect intermittent closures. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11482,8 +11482,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1634854813463,
-        "otherAdvice": "Traffic signals at the intersection are flashing yellow as a result.",
+        "lastUpdated": 1634859142847,
+        "otherAdvice": "<p>Traffic signals at the intersection are flashing yellow as a result.</p><p>The left-hand turn into Ferris St has been restricted.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -11507,6 +11507,14 @@
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Left turn lane, Lane 1",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
@@ -11590,78 +11598,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Waterloo",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 102986,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.5818461,
-          -33.4144453
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - BATHURST Great Western Highway at George Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1634858238970,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1634858239003,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "George Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": " ",
-            "suburb": "Bathurst",
             "trafficVolume": ""
           }
         ]
@@ -15791,6 +15727,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Mayfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102986,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5818461,
+          -33.4144453
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BATHURST Great Western Highway at George Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634858238970,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634858807540,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "George Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Bathurst",
             "trafficVolume": ""
           }
         ]
