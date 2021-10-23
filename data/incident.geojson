@@ -11336,7 +11336,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1634975781297,
+        "lastUpdated": 1634977742450,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11451,17 +11451,17 @@
     },
     {
       "type": "Feature",
-      "id": 103141,
+      "id": 103142,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8547224573537,
-          -33.9880505935584
+          151.06150431807703,
+          -33.94357291328092
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - INGLEBURN Hume Motorway southbound off-ramp to Brooks Road",
+        "headline": "CRASH 3 vehicles - NARWEE M5 Motorway near Bonds Road, Riverwood",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11473,15 +11473,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1634976234773,
+        "created": 1634977079797,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "3 vehicles",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1634976234820,
+        "mainCategory": "Crash",
+        "lastUpdated": 1634977079860,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11490,32 +11490,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Motorway Crew",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 3 vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Brooks Road",
+            "crossStreet": "Bonds Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Off-ramp"
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "Hume Motorway southbound off-ramp",
+            "locationQualifier": "near",
+            "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Ingleburn",
+            "suburb": "Narwee",
             "trafficVolume": ""
           }
         ]
@@ -16617,6 +16618,78 @@
             "secondLocation": " ",
             "suburb": "East of Mendooran",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8547224573537,
+          -33.9880505935584
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - INGLEBURN Hume Motorway southbound off-ramp to Brooks Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1634976234773,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1634977042100,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Brooks Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Hume Motorway southbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Ingleburn",
+            "trafficVolume": ""
           }
         ]
       }
