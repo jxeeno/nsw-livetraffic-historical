@@ -11157,7 +11157,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BURST WATER MAIN - CHESTER HILL Gurney Road at Woodville Road",
+        "headline": "BURST WATER MAIN - CHESTER HILL Woodville Road at Gurney Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11177,7 +11177,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1635044808033,
+        "lastUpdated": 1635054317217,
         "otherAdvice": "Motorists on Woodville Rd are not able to access Gurney Rd and are being diverted via&nbsp;Warrawidgee Rd.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -11193,11 +11193,20 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Woodville Road",
+            "crossStreet": "Gurney Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
-            "mainStreet": "Gurney Road",
+            "mainStreet": "Woodville Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
@@ -11435,79 +11444,6 @@
             "secondLocation": "Christie Road",
             "suburb": "Artarmon to Macquarie Park",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 103125,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0418677,
-          -33.9325442
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - PUNCHBOWL Canterbury Road at Moxon Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1634965150803,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1634968062453,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Mechanic",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Moxon Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Canterbury Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Punchbowl",
-            "trafficVolume": "Heavy"
           }
         ]
       }
