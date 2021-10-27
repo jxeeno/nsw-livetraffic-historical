@@ -11369,7 +11369,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1635304501113,
+        "lastUpdated": 1635306619157,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p>Northbound: Suttor Road, Illawarra Highway, Sheepwash Road and Kangaloon Road.</p><p>Southbound: Eridge Park Road, Kangaloon Road, Sheepwash Road and Illawarra Highway.</p>",
@@ -11424,8 +11424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.96234897449347,
-          -33.8183650066524
+          150.96233489289614,
+          -33.81895051560719
         ]
       },
       "properties": {
@@ -11450,7 +11450,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1635305063377,
+        "lastUpdated": 1635306623353,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11486,24 +11486,24 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Wentworthville",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 103453,
+      "id": 103454,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.14792658325882,
-          -33.89001894759958
+          150.82195268696364,
+          -33.7910629488918
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - LEICHHARDT Parramatta Road approaching Flood Street",
+        "headline": "HAZARD Debris furniture - MINCHINBURY M4 Motorway at Archbold Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11515,15 +11515,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1635305752733,
+        "created": 1635306572057,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Debris",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1635306509243,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1635306572087,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11532,33 +11532,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
           "Transport for NSW"
+        ],
+        "displayName": "HAZARD Debris furniture",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Archbold Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Minchinbury",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103455,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.84655654728422,
+          -33.74482688549397
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - GLENDENNING M7 Motorway at Lamb Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1635306924393,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1635306924423,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Flood Street",
+            "crossStreet": "Lamb Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Parramatta Road",
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Leichhardt",
+            "suburb": "Glendenning",
             "trafficVolume": ""
           }
         ]
@@ -17049,6 +17120,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Strathfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103453,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14792658325882,
+          -33.89001894759958
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LEICHHARDT Parramatta Road approaching Flood Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1635305752733,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1635306742610,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Flood Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Leichhardt",
             "trafficVolume": ""
           }
         ]
