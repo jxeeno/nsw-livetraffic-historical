@@ -11138,7 +11138,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1635456622427,
+        "lastUpdated": 1635458335800,
         "otherAdvice": "<p>This is expected to be quite a protracted incident/closure.</p><p>Motorists could use The Horsley Dr as an alternative route.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -11167,12 +11167,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -11183,90 +11191,6 @@
             "secondLocation": "Newton Road",
             "suburb": "Wetherill Park",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 103595,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0419921055225,
-          -33.904610278268244
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 trucks, Car - GREENACRE Hume Highway at Boronia Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1635446522450,
-        "isMajor": true,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1635457182553,
-        "otherAdvice": "There is no right turn into Boronia Rd for eastbound motorists.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Heavy vehicle tow truck",
-          "Emergency services",
-          "Transport for NSW",
-          "Sweeper"
-        ],
-        "displayName": "CRASH 2 trucks, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Boronia Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Greenacre",
-            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -11517,11 +11441,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1635457701887,
+        "lastUpdated": 1635458408773,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11530,6 +11454,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -18135,6 +18060,90 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Greystanes",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103595,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0419921055225,
+          -33.904610278268244
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 trucks, Car - GREENACRE Hume Highway at Boronia Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1635446522450,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1635458075267,
+        "otherAdvice": "There is no right turn into Boronia Rd for eastbound motorists.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Heavy vehicle tow truck",
+          "Emergency services",
+          "Transport for NSW",
+          "Sweeper"
+        ],
+        "displayName": "CRASH 2 trucks, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Boronia Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Greenacre",
             "trafficVolume": "Moderate"
           }
         ]
