@@ -11017,7 +11017,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1635544991560,
+        "lastUpdated": 1635548336300,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11197,17 +11197,17 @@
     },
     {
       "type": "Feature",
-      "id": 103740,
+      "id": 103741,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2719548,
-          -33.8760068
+          151.21308077579292,
+          -33.83129417857704
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - ROSE BAY Old South Head Road at Onslow Street",
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Falcon Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11218,16 +11218,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1635546595183,
+        "isInitialReport": false,
+        "created": 1635548783670,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
+        "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1635546595247,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1635548783717,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11237,23 +11237,32 @@
         "webLinkName": null,
         "attendingGroups": [
           "Transport for NSW",
-          "Emergency services"
+          "Tow Truck"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Onslow Street",
+            "crossStreet": "Falcon Street",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Old South Head Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 5",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Rose Bay",
+            "suburb": "North sydney",
             "trafficVolume": ""
           }
         ]
@@ -17594,6 +17603,70 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Swansea",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103740,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2719548,
+          -33.8760068
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - ROSE BAY Old South Head Road at Onslow Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1635546595183,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1635548839400,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Onslow Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Old South Head Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Rose Bay",
             "trafficVolume": ""
           }
         ]
