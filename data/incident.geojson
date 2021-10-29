@@ -10382,88 +10382,6 @@
     },
     {
       "type": "Feature",
-      "id": 101381,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2097674,
-          -33.8403124
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Western Harbour Tunnel and Warringah Freeway Upgrade",
-            "linkURL": "https://caportal.com.au/rms/wht"
-          }
-        ],
-        "headline": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade - NORTH SYDNEY Mount Street to Cahill Expressway",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "On-ramp",
-            "direction": "Southbound",
-            "finishTime": "3:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "10:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "<p>The bus lane on Mount St between Arthur St and Alfred St North will be closed.</p><p>Buses will use the general traffic lane on Mount St and on the on-ramp to Cahill Expy. They will return to the bus lane and to Lane 7 on the Sydney Harbour Bridge after passing the work site.</p>",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1632971175547,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Plan your journey; Allow extra travel time",
-        "adviceA": "Check signage",
-        "end": 1635490800000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1635148639453,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1633377600000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cahill Expressway",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "Mount Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "North Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 101502,
       "geometry": {
         "type": "Point",
@@ -11553,17 +11471,17 @@
     },
     {
       "type": "Feature",
-      "id": 103685,
+      "id": 103686,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9312676,
-          -33.9291871
+          150.605019,
+          -33.7363305
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Truck - MOOREBANK Heathcote Road approaching Moorebank Avcenue",
+        "headline": "HAZARD Fallen tree - BLAXLAND Great Western Highway at Baden Place",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11575,15 +11493,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1635490298327,
+        "created": 1635490350923,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Fallen tree",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1635490298543,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1635490350957,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11594,30 +11512,112 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car, Truck",
+        "displayName": "HAZARD Fallen tree",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moorebank Avcenue",
+            "crossStreet": "Baden Place",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 3",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Heathcote Road",
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Moorebank",
+            "suburb": "Blaxland",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101381,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2097674,
+          -33.8403124
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Western Harbour Tunnel and Warringah Freeway Upgrade",
+            "linkURL": "https://caportal.com.au/rms/wht"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade - NORTH SYDNEY Mount Street to Cahill Expressway",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "On-ramp",
+            "direction": "Southbound",
+            "finishTime": "3:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "10:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "<p>The bus lane on Mount St between Arthur St and Alfred St North will be closed.</p><p>Buses will use the general traffic lane on Mount St and on the on-ramp to Cahill Expy. They will return to the bus lane and to Lane 7 on the Sydney Harbour Bridge after passing the work site.</p>",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1632971175547,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(p)",
+        "adviceB": "Plan your journey; Allow extra travel time",
+        "adviceA": "Check signage",
+        "end": 1635490800000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1635148639453,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1633377600000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cahill Expressway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "to",
+            "mainStreet": "Mount Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
@@ -11691,78 +11691,6 @@
             "secondLocation": "Halls Road",
             "suburb": "Coffs Harbour",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 103574,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1948879,
-          -33.8843595
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - CAMPERDOWN Broadway at City Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1635403423487,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1635404476080,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "City Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Broadway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Camperdown",
-            "trafficVolume": ""
           }
         ]
       }
@@ -17426,6 +17354,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Mooney Mooney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103685,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9312676,
+          -33.9291871
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Truck - MOOREBANK Heathcote Road approaching Moorebank Avcenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1635490298327,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1635490767813,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car, Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorebank Avcenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Heathcote Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ]
