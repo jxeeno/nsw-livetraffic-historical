@@ -19702,8 +19702,8 @@
         "headline": "SCHEDULED ROADWORK - TINTINHULL New England Highway near Tintinhull Road",
         "periods": [
           {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
             "roadtype": "",
             "direction": "Both directions",
             "finishTime": "5:00pm",
@@ -19712,8 +19712,8 @@
             "toDay": ""
           },
           {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
             "roadtype": "",
             "direction": "Both directions",
             "finishTime": "5:00pm",
@@ -19728,7 +19728,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -19738,10 +19738,10 @@
         "subCategoryA": null,
         "adviceB": "Check signage",
         "adviceA": "Reduced speed limit",
-        "end": 1636178400000,
+        "end": 1636696800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1635472392170,
+        "lastUpdated": 1636039979857,
         "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.<br>Motorists are advised to allow approximately 5 minutes of additional travel time.",
         "arrangementElements": [],
         "diversions": " ",
@@ -19753,7 +19753,7 @@
           " "
         ],
         "duration": null,
-        "start": 1635708600000,
+        "start": 1636313400000,
         "displayName": "SCHEDULED ROADWORK",
         "media": [],
         "roads": [
@@ -28177,6 +28177,93 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Emerald Beach",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.43252021257018,
+          -30.731193091504867
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - KENTUCKY New England Highway at Kentucky Road",
+        "periods": [
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:30am",
+            "toDay": ""
+          },
+          {
+            "closureType": "LANE_CLOSURE",
+            "roadextent": "Lanes closed",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00pm",
+            "fromDay": "Saturday",
+            "startTime": "6:30am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1636040190510,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time; Check signage",
+        "adviceA": "Reduced speed limit",
+        "end": 1636806600000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1636040190560,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place.<br>Motorists are advised to allow around five minutes extra travel time.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1636290000000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kentucky Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Kentucky",
             "trafficVolume": ""
           }
         ]
