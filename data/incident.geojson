@@ -11495,7 +11495,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1636052829217,
+        "lastUpdated": 1636055095450,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11561,14 +11561,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1636046743603,
-        "isMajor": true,
+        "isMajor": false,
         "name": null,
         "subCategoryA": "Truck on fire",
         "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1636054726393,
+        "lastUpdated": 1636055078990,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11683,90 +11683,17 @@
     },
     {
       "type": "Feature",
-      "id": 104205,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9520642862257,
-          -33.75214664851838
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Van - SEVEN HILLS Old Windsor Road approaching M2 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1636054448563,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Van",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1636054593453,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Van",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M2 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Old Windsor Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Seven Hills",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 104206,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0929305,
-          -33.9636523
+          151.09232432076263,
+          -33.96366119841193
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car rollover - HURSTVILLE King Georges Road at Forest Road",
+        "headline": "CRASH Car rollover - HURSTVILLE Forest Road just past King Georges Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11786,7 +11713,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1636054774667,
+        "lastUpdated": 1636055265373,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11803,20 +11730,20 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Forest Road",
+            "crossStreet": "King Georges Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
+            "locationQualifier": "just past",
+            "mainStreet": "Forest Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
@@ -18112,6 +18039,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9520642862257,
+          -33.75214664851838
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - SEVEN HILLS Old Windsor Road approaching M2 Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1636054448563,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1636055096730,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M2 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Old Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Seven Hills",
             "trafficVolume": ""
           }
         ]
