@@ -11729,7 +11729,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - ROCKDALE Frederick Street at Watkin Street",
+        "headline": "CRASH 2 cars - ROCKDALE Frederick Street at Watkin Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11744,12 +11744,12 @@
         "created": 1636281118847,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "2 cars",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1636281118877,
+        "lastUpdated": 1636281196757,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11761,14 +11761,23 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Watkin Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Frederick Street",
             "quadrant": "",
@@ -11776,6 +11785,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Rockdale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104416,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.708713002,
+          -33.7558817287
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - PENRITH Henry Street at High Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1636281148193,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1636281148223,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "High Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Henry Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Penrith",
             "trafficVolume": ""
           }
         ]
@@ -11848,78 +11929,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Mount Victoria",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 104353,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1453711,
-          -33.8016957
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - LANE COVE NORTH Epping Road at Mowbray Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1636192432287,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1636194752157,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Mowbray Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Epping Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Lane Cove North",
             "trafficVolume": ""
           }
         ]
