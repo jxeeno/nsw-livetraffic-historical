@@ -13359,7 +13359,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1636612606957,
+        "lastUpdated": 1636613161573,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13381,9 +13381,9 @@
               {
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Shoulder",
                 "extent": "Lanes closed",
-                "numberOfLanes": "5",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -13401,17 +13401,17 @@
     },
     {
       "type": "Feature",
-      "id": 104807,
+      "id": 104808,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2036338,
-          -33.868724
+          150.87832486883724,
+          -34.3394574902864
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - SYDNEY King Street at Sussex Street",
+        "headline": "BREAKDOWN Car - CATARACT M1 Princes Motorway at Bellambi Creek",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13423,15 +13423,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1636612185460,
+        "created": 1636613079637,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
+        "subCategoryA": "Car",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1636612185897,
+        "lastUpdated": 1636613079667,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13440,32 +13440,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sussex Street",
+            "crossStreet": "Bellambi Creek",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
+                "description": "Breakdown lane",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "King Street",
+            "mainStreet": "M1 Princes Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Sydney",
+            "suburb": "Cataract",
             "trafficVolume": ""
           }
         ]
@@ -13619,78 +13619,6 @@
             "secondLocation": " ",
             "suburb": "Chatswood",
             "trafficVolume": "Moderate"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 104702,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.13387979740597,
-          -33.78001260313926
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - MACQUARIE PARK Lane Cove Road approaching M2 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1636523014580,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1636526257963,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M2 Motorway",
-            "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Lane Cove Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Macquarie Park",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -18931,6 +18859,78 @@
             "secondLocation": "Wardell Road",
             "suburb": "Lewisham",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104807,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2036338,
+          -33.868724
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - SYDNEY King Street at Sussex Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1636612185460,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1636612708587,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sussex Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "King Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": ""
           }
         ]
       }
