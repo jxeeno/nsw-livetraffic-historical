@@ -4246,7 +4246,7 @@
         "adviceA": "\tNever drive through floodwater",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1636603161920,
+        "lastUpdated": 1636677408943,
         "otherAdvice": "Local roads in the Dubbo Regional Council area may be closed due to flooding or affected by recent adverse weather. Please see the <a href=\"https://www.dubbo.nsw.gov.au/public-notices/current-flood-warnings\" target=\"_blank\">council's website</a> for details.",
         "arrangementElements": [],
         "diversions": " ",
@@ -13703,7 +13703,7 @@
         "webLinks": [],
         "headline": "BREAKDOWN Truck - KEW Pacific Highway approximately 1km north of Ocean Drive",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 60,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -13718,10 +13718,10 @@
         "name": null,
         "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1636674228567,
+        "lastUpdated": 1636677203427,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13730,6 +13730,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -13742,7 +13743,15 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
                 "description": "Lane 2",
                 "extent": "Lanes closed",
@@ -13787,17 +13796,17 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1636674725040,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Fallen tree",
         "adviceB": "Allow extra travel time",
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1636676072047,
+        "lastUpdated": 1636676781027,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Exit to Memorial Drive at Gwynneville then continue onto the Princes Hwy via Bulli Pass back to the M1 Princes Mwy. Bulli pass is not suitable for heavy vehicles.",
         "additionalInfo": [
           " "
         ],
@@ -13974,78 +13983,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Moree",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 104760,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21232757847608,
-          -33.83203600797524
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Fwy off-ramp to Falcon Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1636590642590,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1636591053950,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Falcon Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Bus lane",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "to",
-            "mainStreet": "Warringah Fwy off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
