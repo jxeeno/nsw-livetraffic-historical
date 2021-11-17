@@ -11611,7 +11611,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1637120711317,
+        "lastUpdated": 1637123635137,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11875,13 +11875,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.06625100366813,
-          -33.73923307797491
+          151.06638109080535,
+          -33.7394706211331
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - PENNANT HILLS Boundary Road near Pennant Hills Road",
+        "headline": "CRASH 2 cars - PENNANT HILLS Boundary Road at Pennant Hills Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11894,17 +11894,17 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1637122252400,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Exercise caution; Expect delays",
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637123593437,
-        "otherAdvice": "No access into Boundary Rd from\nPennant Hills Road.",
+        "lastUpdated": 1637123762190,
+        "otherAdvice": "1 of 4 northbound lanes have also been closed on Pennant Hills Rd.",
         "arrangementElements": [],
-        "diversions": "Castle Hill Rd, New Line Rd",
+        "diversions": "Castle Hill Rd then New Line Rd.",
         "additionalInfo": [
           " "
         ],
@@ -11923,7 +11923,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -11931,7 +11931,7 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "at",
             "mainStreet": "Boundary Road",
             "quadrant": "",
             "queueLength": 0,
@@ -11975,8 +11975,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637122371100,
-        "otherAdvice": "Contraflow traffic conditions will be in place.",
+        "lastUpdated": 1637124165317,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12090,37 +12090,37 @@
     },
     {
       "type": "Feature",
-      "id": 105285,
+      "id": 105387,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16480046015357,
-          -33.727854301021665
+          151.0671226464493,
+          -33.8753423512739
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ST IVES Mona Vale Road at Link Road",
+        "headline": "CRASH 3 vehicles - STRATHFIELD Centenary Drive near Weeroona Road, Rookwood",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1637035606637,
+        "created": 1637124131973,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "3 vehicles",
         "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1637037374237,
+        "mainCategory": "Crash",
+        "lastUpdated": 1637124132037,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -12129,33 +12129,104 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Weeroona Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Strathfield",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105388,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2197364,
+          -33.87498710000001
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - DARLINGHURST Cross City Tunnel at Tunnel entrance",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637124410423,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1637124410473,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Link Road",
+            "crossStreet": "Tunnel entrance",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
+                "numberOfLanes": "2",
+                "roadType": "Tunnel"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Mona Vale Road",
+            "mainStreet": "Cross City Tunnel",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "St Ives",
+            "suburb": "Darlinghurst",
             "trafficVolume": "Heavy"
           }
         ]
@@ -12229,79 +12300,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "St Clair",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 105289,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0395079142944,
-          -33.88706414064607
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - REGENTS PARK Rookwood Road at Lewis Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1637036894693,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1637037503710,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Lewis Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Rookwood Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Regents Park",
             "trafficVolume": ""
           }
         ]
