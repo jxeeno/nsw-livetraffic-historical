@@ -11179,7 +11179,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1637300760660,
+        "lastUpdated": 1637300954620,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11197,7 +11197,16 @@
             "conditionTendency": "",
             "crossStreet": "Morrison Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "approaching",
             "mainStreet": "Church Street",
             "quadrant": "",
@@ -11284,17 +11293,17 @@
     },
     {
       "type": "Feature",
-      "id": 105630,
+      "id": 105633,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.05599237305103,
-          -34.02490995429545
+          151.212543,
+          -33.8466671
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Metal - SUTHERLAND Linden Street near River Road",
+        "headline": "BREAKDOWN Car - KIRRIBILLI Cahill Expressway approaching Sydney Harbour Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11306,15 +11315,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1637299344177,
+        "created": 1637301084540,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Metal",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1637301007647,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1637301479843,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11323,32 +11332,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Tow Truck"
         ],
-        "displayName": "HAZARD Metal",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "River Road",
+            "crossStreet": "Sydney Harbour Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 8",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Linden Street",
+            "locationQualifier": "approaching",
+            "mainStreet": "Cahill Expressway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Sutherland",
+            "suburb": "Kirribilli",
             "trafficVolume": ""
           }
         ]
@@ -11356,17 +11365,17 @@
     },
     {
       "type": "Feature",
-      "id": 105632,
+      "id": 105634,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2019253,
-          -33.8866607
+          150.8360392508395,
+          -34.562481068329426
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - CHIPPENDALE Regent Street at Wellington Street",
+        "headline": "BREAKDOWN Car - SHELLHARBOUR New Lake Entrance Road near College Avenue, Blackbutt",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -11378,15 +11387,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1637300390533,
+        "created": 1637301270690,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1637301095400,
+        "lastUpdated": 1637301520670,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11402,11 +11411,11 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wellington Street",
+            "crossStreet": "College Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -11414,13 +11423,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Regent Street",
+            "locationQualifier": "near",
+            "mainStreet": "New Lake Entrance Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Chippendale",
+            "suburb": "Shellharbour",
             "trafficVolume": ""
           }
         ]
@@ -17765,6 +17774,150 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Chippendale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105633,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.212543,
+          -33.8466671
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KIRRIBILLI Cahill Expressway approaching Sydney Harbour Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637301084540,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1637301479843,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 8",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Cahill Expressway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Kirribilli",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105634,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8360392508395,
+          -34.562481068329426
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SHELLHARBOUR New Lake Entrance Road near College Avenue, Blackbutt",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637301270690,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1637301520670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "College Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "New Lake Entrance Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Shellharbour",
             "trafficVolume": ""
           }
         ]
