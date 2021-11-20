@@ -21,6 +21,7 @@ jobs:
       run: yarn
     - name: Run script
       run: node index.js
+      timeout-minutes: 1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TFNSW_API_KEY: ${{ secrets.TFNSW_API_KEY }}

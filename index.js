@@ -55,6 +55,8 @@ async function run() {
                 sha = contents.data.sha;
                 existingInput = Buffer.from(contents.data.content, "base64").toString();
             }
+
+            console.log(contents)
         }catch(e){
             console.warn('error thrown when fetching contents of '+path);
         }
