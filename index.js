@@ -65,7 +65,7 @@ async function run() {
             return
         }
 
-        await octokit.rest.repos.createOrUpdateFile({
+        await octokit.rest.repos.createOrUpdateFileContents({
             ...COMMON_CREATE_OR_UPDATE_FILE,
             path,
             message: `auto(): update ${path}`,
