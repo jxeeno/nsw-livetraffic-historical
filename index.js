@@ -38,13 +38,13 @@ const COMMON_CREATE_OR_UPDATE_FILE = {
 async function run() {
     const repoToken = process.env.GITHUB_TOKEN;
     const tfnswApiKey = process.env.TFNSW_API_KEY;
-    const octokit = new github.GitHub(repoToken);
+    const octokit = github.getOctokit(repoToken);
 
     const updateFile = async (path, input) => {
         let sha;
         let existingInput;
         try{
-            const contents = await octokit.repos.getContents({
+            const contents = await octokit.rest.git.getBlob({
                 ...COMMON_CREATE_OR_UPDATE_FILE,
                 author: undefined,
                 path,
@@ -65,7 +65,7 @@ async function run() {
             return
         }
 
-        await octokit.repos.createOrUpdateFile({
+        await octokit.rest.repos.createOrUpdateFile({
             ...COMMON_CREATE_OR_UPDATE_FILE,
             path,
             message: `auto(): update ${path}`,
