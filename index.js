@@ -65,7 +65,7 @@ async function run() {
             return;
         }
 
-        const file = files.find(f => f.path === filePath);
+        const file = files.data.find(f => f.path === filePath);
         
         if(!file){
             console.error('Could not find file '+filePath);
