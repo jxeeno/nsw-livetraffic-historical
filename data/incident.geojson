@@ -10961,8 +10961,8 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637365729027,
-        "otherAdvice": "Local diversions for light vehicles. <br>Heavy vehicles should use Princes Highway.&nbsp;",
+        "lastUpdated": 1637369429927,
+        "otherAdvice": "<p>Northbound is now open. </p><p>Southbound local diversions for light vehicles. <br>Heavy vehicles should use Princes Highway.&nbsp;</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -10973,12 +10973,6 @@
           "Emergency services",
           "Utility Company"
         ],
-        "encodedPolylines": [
-          {
-            "coords": "jycnEcwpy[~@LtAPl@FbANvC^jEf@LBzDd@RBt@HRBlALNBL?P@",
-            "levels": ""
-          }
-        ],
         "displayName": "CRASH Car",
         "media": [],
         "roads": [
@@ -10988,7 +10982,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -11101,7 +11095,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -11113,7 +11107,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1637365774140,
+        "lastUpdated": 1637368159830,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11159,8 +11153,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.814166654863,
-          -32.76664478014368
+          151.81812291315995,
+          -32.766825213624884
         ]
       },
       "properties": {
@@ -11185,10 +11179,10 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637367977807,
+        "lastUpdated": 1637368827077,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Eastbound traffic is diverted onto Grahamstown Rd.",
         "additionalInfo": [
           " "
         ],
@@ -11205,12 +11199,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
@@ -11292,6 +11294,151 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Helensburgh",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105689,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17849838190918,
+          -33.5867890337524
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Car on fire - COWAN M1 Pacific Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637368453553,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car on fire",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1637368874453,
+        "otherAdvice": "Northbound traffic is also heavy.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Car on fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105690,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14636977888185,
+          -33.74951098260125
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - PYMBLE Pacific Highway just past Ryde Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637369281583,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1637369281630,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ryde Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Pymble",
             "trafficVolume": ""
           }
         ]
