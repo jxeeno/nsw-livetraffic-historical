@@ -44,7 +44,7 @@ async function run() {
         let sha;
         let existingInput;
         try{
-            const contents = await octokit.rest.git.getBlob({
+            const contents = await octokit.rest.repos.getContent({
                 ...COMMON_CREATE_OR_UPDATE_FILE,
                 author: undefined,
                 path,
