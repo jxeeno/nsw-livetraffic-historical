@@ -11254,7 +11254,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637389729053,
+        "lastUpdated": 1637391971797,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11323,10 +11323,10 @@
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637391316210,
+        "lastUpdated": 1637392395820,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11349,9 +11349,9 @@
               {
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -11362,7 +11362,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Greystanes",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11441,37 +11441,37 @@
     },
     {
       "type": "Feature",
-      "id": 105637,
+      "id": 105714,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.71009828413088,
-          -32.90965062865602
+          151.0333039254884,
+          -33.93981200343381
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - LAMBTON Newcastle Road near Morehead Street",
+        "headline": "CRASH Car - PADSTOW M5 Motorway at Fairford Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1637301751567,
+        "created": 1637391873770,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637305454540,
+        "lastUpdated": 1637391873817,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -11480,15 +11480,15 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Emergency services"
+          "Emergency services",
+          "Motorway Crew"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Morehead Street",
+            "crossStreet": "Fairford Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -11500,13 +11500,77 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Newcastle Road",
+            "locationQualifier": "at",
+            "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Lambton",
+            "suburb": "Padstow",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105715,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2094456,
+          -33.8767224
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SYDNEY Elizabeth Street at Liverpool Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637392142263,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1637392142297,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Liverpool Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Elizabeth Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
