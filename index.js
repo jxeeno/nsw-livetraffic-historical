@@ -1,5 +1,6 @@
 const github = require('@actions/github');
 const axios = require('axios');
+const nodePath = require('path');
 
 const LIVE_TRAFFIC_ENDPOINTS = {
     'incident': 'https://api.transport.nsw.gov.au/v1/live/hazards/incident/all',
@@ -43,24 +44,52 @@ async function run() {
     const updateFile = async (path, input) => {
         let sha;
         let existingInput;
+
+        let parentDir = nodePath.join(path, '..')
+        let filePath = nodePath.join(path)
+        let files;
+        // list dir
         try{
-            const contents = await octokit.rest.repos.getContent({
+            files = await octokit.rest.repos.getContent({
                 ...COMMON_CREATE_OR_UPDATE_FILE,
                 author: undefined,
-                path,
+                path: parentDir,
                 ref: branch
+            });
+        }catch(e){
+            console.error('Could not list parent dir');
+        }
+
+        if(!files ||!files.data){
+            console.error('GitHub did not return any files');
+            return;
+        }
+
+        const file = files.find(f => f.path === filePath);
+        
+        if(!file){
+            console.error('Could not find file '+filePath);
+            return;
+        }
+
+        try{
+            const contents = await octokit.rest.git.getBlob({
+                ...COMMON_CREATE_OR_UPDATE_FILE,
+                author: undefined,
+                file_sha: file.sha
             });
 
             if(contents && contents.data && contents.data.sha){
-                sha = contents.data.sha;
+                sha = file.sha;
                 existingInput = Buffer.from(contents.data.content, "base64").toString();
             }
 
-            console.log(contents)
+            // console.log(contents)
         }catch(e){
             console.warn('error thrown when fetching contents of '+path);
             console.error(e)
         }
+
         const content = toBase64(input);
 
         if(input === existingInput){
