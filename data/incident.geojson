@@ -13797,7 +13797,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - EMU PLAINS Great Western Highway near Stanton Place (Nepean River)",
+        "headline": "CRASH 3 vehicles - EMU PLAINS Great Western Highway near Victoria Bridge (over Nepean River)",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13817,10 +13817,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1637819305067,
+        "lastUpdated": 1637820143357,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Mulgoa Rd, M4 Mwy, Russell St",
+        "diversions": "<p><strong>Eastbound:</strong>&nbsp;Motorists are diverterd into River Rd. Alternatively, use Russell St for access to the M4 Mwy then Mulgoa Rd.</p><p><strong>Westbound: </strong>Mulgoa Rd, M4 Mwy, Russell St.</p><p><br></p>",
         "additionalInfo": [
           " "
         ],
@@ -13834,11 +13834,11 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Stanton Place (Nepean River)",
+            "crossStreet": "Victoria Bridge (over Nepean River)",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -14076,17 +14076,17 @@
     },
     {
       "type": "Feature",
-      "id": 106256,
+      "id": 106257,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0963132,
-          -33.8136057
+          148.9516673248086,
+          -32.59484840959881
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - WEST RYDE Victoria Road approaching Bowden Street",
+        "headline": "ADVERSE WEATHER Water over road - APSLEY Mithcell Highway at Burrendong Way",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14098,15 +14098,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1637819222227,
+        "created": 1637819741677,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Water over road",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1637819222867,
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1637819741710,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14115,19 +14115,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "ADVERSE WEATHER Water over road",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bowden Street",
+            "crossStreet": "Burrendong Way",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -14135,13 +14134,85 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Victoria Road",
+            "locationQualifier": "at",
+            "mainStreet": "Mithcell Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_WEST",
             "secondLocation": " ",
-            "suburb": "West Ryde",
+            "suburb": "Apsley",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.183898935,
+          -33.9238607269
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - MASCOT Coward St at Kent Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637820114217,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1637820116327,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kent Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Coward St",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -14292,79 +14363,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Milroy",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 106112,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9768862,
-          -33.724981
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - CASTLE HILL Showground Road at Victoria Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1637732231017,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1637733540537,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Victoria Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Showground Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Castle Hill",
             "trafficVolume": ""
           }
         ]
@@ -20647,6 +20645,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Liverpool",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0963132,
+          -33.8136057
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - WEST RYDE Victoria Road approaching Bowden Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1637819222227,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1637819918160,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bowden Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "West Ryde",
             "trafficVolume": ""
           }
         ]
