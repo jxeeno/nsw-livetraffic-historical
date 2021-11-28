@@ -14354,17 +14354,17 @@
     },
     {
       "type": "Feature",
-      "id": 106613,
+      "id": 106614,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19342792760983,
-          -33.87262306501034
+          151.0475286,
+          -33.7664936
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - PYRMONT Western Distributor Westbound on-ramp from Pyrmont Bridge Road",
+        "headline": "CRASH 2 cars - CARLINGFORD Pennant Hills Road at North Rocks Road, North Rocks",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14376,15 +14376,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1638089679600,
+        "created": 1638091724460,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "2 cars",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1638089679630,
+        "mainCategory": "Crash",
+        "lastUpdated": 1638091724493,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14393,32 +14393,40 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pyrmont Bridge Road",
+            "crossStreet": "North Rocks Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "On-ramp"
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "from",
-            "mainStreet": "Western Distributor Westbound on-ramp",
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Pyrmont",
+            "suburb": "Carlingford",
             "trafficVolume": ""
           }
         ]
@@ -16948,6 +16956,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Casula",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106613,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19342792760983,
+          -33.87262306501034
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - PYRMONT Western Distributor Westbound on-ramp from Pyrmont Bridge Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1638089679600,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1638091735980,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pyrmont Bridge Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "On-ramp"
+              }
+            ],
+            "locationQualifier": "from",
+            "mainStreet": "Western Distributor Westbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Pyrmont",
             "trafficVolume": ""
           }
         ]
