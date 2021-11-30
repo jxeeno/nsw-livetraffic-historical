@@ -13367,14 +13367,14 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Vehicle salvage due to earlier incident",
-        "adviceB": "Allow extra travel time; Exercise caution",
-        "adviceA": "Use diversions",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1638251151217,
-        "otherAdvice": " ",
+        "lastUpdated": 1638253539323,
+        "otherAdvice": "The westbound safety ramp is closed.",
         "arrangementElements": [],
-        "diversions": "All vehicles are being diverted via Station St, Darling Causeway, then Chifley Rd, Mort St, Lithgow St, and Main St through Lithgow.",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -13393,9 +13393,9 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Highway"
               }
@@ -13660,7 +13660,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1638252800310,
+        "lastUpdated": 1638253246533,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p>Southbound: Pacific Hwy</p><p>This diversion is suitable for light vehicles only.<br><strong>B Double trucks are are being parked up at the Mount White Safety Station.</strong></p>",
@@ -13805,7 +13805,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1638249723853,
+        "lastUpdated": 1638253285500,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13826,8 +13826,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Affected",
                 "numberOfLanes": "3",
                 "roadType": "Road"
@@ -13873,16 +13873,16 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Use an alternative route; Expect delays",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1638251334650,
+        "lastUpdated": 1638253380877,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Ballina Rd, Tevan Rd, Tintenbar Rd, then Tamarind Dr.</p>",
+        "diversions": " ",
         "additionalInfo": [
-          "Person trapped"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
@@ -13899,11 +13899,19 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
+                "closedLanes": "1",
                 "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -13985,6 +13993,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Villawood",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106783,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.68849958786203,
+          -31.693273794947626
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ADVERSE WEATHER Water over road - GILGANDRA Newell Highway near East Coonamble Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1638249797163,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceB": "Exercise caution; \tNever drive through floodwater",
+        "adviceA": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1638253187307,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "East Coonamble Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Newell Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Gilgandra",
             "trafficVolume": ""
           }
         ]
