@@ -13371,10 +13371,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1638247132103,
+        "lastUpdated": 1638248247043,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "All vehicles are being diverted via Darling Causeway then Chifley Rd.",
+        "diversions": "All vehicles are being diverted via Station St, Darling Causeway, then Chifley Rd, Mort St, Lithgow St, and Main St through Lithgow.",
         "additionalInfo": [
           " "
         ],
@@ -14065,37 +14065,110 @@
     },
     {
       "type": "Feature",
-      "id": 106667,
+      "id": 106776,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.95862743494686,
-          -33.81501952404932
+          153.4729494,
+          -28.8635831
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - GREYSTANES M4 Motorway just past Cumberland Highway",
+        "headline": "CRASH 2 cars - ALSTONVILLE Bruxner Highway at Duck Creek Mountain Road",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1638159206970,
+        "created": 1638248121213,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Use an alternative route; Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1638248121243,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "<p>Eastbound traffic is being diverted onto Kays Ln and Lismore Rd at Alstonville.</p><p>Westbound traffic is being diverted onto the Pacific Hwy at Ballina.</p>",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Duck Creek Mountain Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bruxner Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Alstonville",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106777,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2585016,
+          -33.7533954
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BEACON HILL Warringah Road at Government Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1638248254637,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1638161922290,
+        "lastUpdated": 1638248254730,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14104,34 +14177,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Tow Truck"
+          "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cumberland Highway",
+            "crossStreet": "Government Drive",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": ""
+                "numberOfLanes": "4",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Warringah Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Greystanes",
-            "trafficVolume": "Heavy"
+            "suburb": "Beacon Hill",
+            "trafficVolume": ""
           }
         ]
       }
