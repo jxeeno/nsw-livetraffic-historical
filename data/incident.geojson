@@ -13534,10 +13534,10 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1639134382530,
+        "lastUpdated": 1639135025657,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Motorists in both directions are being turned left onto Reservoir Rd.",
+        "diversions": "Westbound motorists are being turned left onto Reservoir Rd.",
         "additionalInfo": [
           " "
         ],
@@ -13557,12 +13557,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "3",
+                "description": "Lane 2, Lane 3, Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -13646,6 +13654,78 @@
             "secondLocation": " ",
             "suburb": "Singleton",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107908,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.66665871283467,
+          -32.8117267428823
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HEAVY TRAFFIC due to roadwork - TARRO New England Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1639135461593,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "due to roadwork",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Heavy traffic",
+        "lastUpdated": 1639135461640,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HEAVY TRAFFIC due to roadwork",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Tarro",
+            "trafficVolume": "Heavy"
           }
         ]
       }
