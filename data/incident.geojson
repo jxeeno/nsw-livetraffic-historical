@@ -13990,8 +13990,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1639105521433,
-        "otherAdvice": " ",
+        "lastUpdated": 1639107580203,
+        "otherAdvice": "Breakdown lane northbound is closed due to a Truck breakdown.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -14012,8 +14012,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Motorway"
@@ -14250,38 +14250,43 @@
     },
     {
       "type": "Feature",
-      "id": 107709,
+      "id": 107843,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9006352,
-          -34.3735479
+          150.98810739531896,
+          -33.37716158148764
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - CORRIMAL Memorial Drive at Railway Street",
+        "webLinks": [
+          {
+            "linkText": "Central Coast Council",
+            "linkURL": "https://www.centralcoast.nsw.gov.au/residents/roads-and-water/road-closures"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS Landslide - WISEMANS FERRY Settlers Road near Wisemans Ferry",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1639017325283,
+        "created": 1639107407370,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Allow extra travel time; Check signage",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1639021231100,
-        "otherAdvice": " ",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1639107448607,
+        "otherAdvice": "<p>Local residents only can pass this landslide using one available lane, one direction at a time.</p><p>Other motorists are advised to avoid the area.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -14289,15 +14294,14 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Local Council"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Landslide",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Railway Street",
+            "crossStreet": "Wisemans Ferry",
             "delay": "",
             "impactedLanes": [
               {
@@ -14309,13 +14313,85 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Memorial Drive",
+            "locationQualifier": "near",
+            "mainStreet": "Settlers Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Corrimal",
+            "suburb": "Wisemans Ferry",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107845,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2119995,
+          -33.9320177
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - EASTLAKES Southern Cross Drive at Wentworth Avenue, Mascot",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1639107703507,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1639107703540,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wentworth Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Southern Cross Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Eastlakes",
             "trafficVolume": ""
           }
         ]
