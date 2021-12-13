@@ -14096,15 +14096,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7852633021409,
-          -33.78679532134777
+          150.78355272334164,
+          -33.786423319810545
         ]
       },
       "properties": {
         "webLinks": [],
         "headline": "CRASH Car - ST CLAIR M4 Motorway just past Bennett Road, Saint Clair",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -14119,10 +14119,10 @@
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1639429650063,
+        "lastUpdated": 1639430070690,
         "otherAdvice": "The vehicle is in the centre median.",
         "arrangementElements": [],
         "diversions": " ",
@@ -14131,6 +14131,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Motorway Crew",
           "Transport for NSW",
           "Emergency services"
         ],
@@ -14146,7 +14147,7 @@
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
                 "description": "Lane 3",
-                "extent": "Affected",
+                "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
@@ -14165,37 +14166,37 @@
     },
     {
       "type": "Feature",
-      "id": 108023,
+      "id": 108122,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.370455448,
-          -33.3617215496
+          150.75970419059362,
+          -33.78303642100109
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - OURIMBAH Pacific Highway at Glen Road",
+        "headline": "CRASH 2 cars - ORCHARD HILLS M4 Motorway just past Kent Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1639337452430,
+        "created": 1639430310363,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1639343914990,
+        "mainCategory": "Crash",
+        "lastUpdated": 1639430310397,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14204,18 +14205,91 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Glen Road",
+            "crossStreet": "Kent Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Orchard Hills",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8245749384842,
+          -33.87835514574225
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - CECIL HILLS Elizabeth Drive near Duff Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1639430360327,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1639430360373,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Duff Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -14223,67 +14297,67 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
+            "locationQualifier": "near",
+            "mainStreet": "Elizabeth Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Ourimbah",
-            "trafficVolume": ""
+            "suburb": "Cecil Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 108027,
+      "id": 108124,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21373860435122,
-          -33.86157917343475
+          150.69575378224135,
+          -34.07441016582077
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - SYDNEY Sydney Harbour Tunnel just past the tunnel entrance",
+        "headline": "BREAKDOWN Car - CAMDEN SOUTH Camden Bypass near Old Hume Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1639341549760,
+        "created": 1639430414720,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1639343777340,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1639430414770,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "the tunnel entrance",
+            "crossStreet": "Old Hume Highway",
             "delay": "",
             "impactedLanes": [
               {
@@ -14295,14 +14369,86 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Sydney Harbour Tunnel",
+            "locationQualifier": "near",
+            "mainStreet": "Camden Bypass",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": "Heavy"
+            "suburb": "Camden South",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22882815026244,
+          -33.828869624929226
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MOSMAN Military Road just past Cabramatta Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1639430473507,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1639430473553,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cabramatta Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Military Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Mosman",
+            "trafficVolume": ""
           }
         ]
       }
@@ -14447,70 +14593,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Blacktown",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 108033,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.12768568089228,
-          -34.00783131975331
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Ladder - SANS SOUCI Rocky Point Road on Captain Cook Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1639343508270,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Ladder",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1639343890453,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Ladder",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Captain Cook Bridge",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "on",
-            "mainStreet": "Rocky Point Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Sans Souci",
             "trafficVolume": ""
           }
         ]
