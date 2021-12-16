@@ -13932,7 +13932,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1639627225997,
+        "lastUpdated": 1639631713067,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13941,8 +13941,10 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew",
-          "Tow Truck"
+          "Tow Truck",
+          "Transport for NSW",
+          "Mechanic",
+          "Motorway Crew"
         ],
         "displayName": "BREAKDOWN Crane",
         "media": [],
@@ -13968,7 +13970,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Drummoyne",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -14005,7 +14007,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1639627059777,
+        "lastUpdated": 1639631651490,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14119,17 +14121,17 @@
     },
     {
       "type": "Feature",
-      "id": 108396,
+      "id": 108397,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1091762072229,
-          -33.983625252757385
+          147.37940272165207,
+          -35.120443210301836
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - BLAKEHURST King Georges Road near Terry Street",
+        "headline": "BREAKDOWN Truck - WAGGA WAGGA Sturt Highway approaching lake Albert Road/Tarcutta Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14141,15 +14143,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1639631087843,
+        "created": 1639631378540,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1639631087890,
+        "lastUpdated": 1639631378587,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14165,26 +14167,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Terry Street",
+            "crossStreet": "lake Albert Road/Tarcutta Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "King Georges Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Sturt Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Wagga Wagga",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09346933065376,
+          -33.86633309317166
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - STRATHFIELD Parramatta Road approaching Concord Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1639631962893,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1639631962940,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Concord Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Blakehurst",
-            "trafficVolume": ""
+            "suburb": "Strathfield",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14579,79 +14653,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Muswellbrook",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 108280,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.92735343181914,
-          -33.80634000768303
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - GREYSTANES M4 approaching Clunies Ross Street, Prospect",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1639544300200,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1639545181007,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Clunies Ross Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Greystanes",
             "trafficVolume": ""
           }
         ]
@@ -21808,6 +21809,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Lane Cove North",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1091762072229,
+          -33.983625252757385
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BLAKEHURST King Georges Road near Terry Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1639631087843,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1639632008763,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Terry Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Blakehurst",
             "trafficVolume": ""
           }
         ]
