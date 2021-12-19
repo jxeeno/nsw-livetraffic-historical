@@ -7646,7 +7646,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1639952755057,
+        "lastUpdated": 1639954558310,
         "otherAdvice": "<p>Border control measures can change quickly with people intending to travel from NSW to Queensland advised to visit the&nbsp;<a href=\"https://www.covid19.qld.gov.au/\" target=\"_blank\">covid19.qld.gov.au website</a>&nbsp;for up to date information on those eligible to travel, those who must obtain a border declaration pass, those who must quarantine and those ineligible to cross the border.<strong></strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -7681,7 +7681,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cobaki Lakes",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -14526,7 +14526,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1639952792963,
+        "lastUpdated": 1639954723637,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14579,7 +14579,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 trucks, car - BOOLAMBAYTE Pacific Highway just past Stoney Creek Road",
+        "headline": "CRASH 2 trucks, car - BOOLAMBAYTE Pacific Highway just past Stoney Creek Road, Boolambayte",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14592,14 +14592,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1639953424463,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 trucks",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Delay your journey",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1639953424510,
+        "lastUpdated": 1639954671997,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14622,9 +14622,9 @@
                 "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "just past",
@@ -14713,17 +14713,17 @@
     },
     {
       "type": "Feature",
-      "id": 108704,
+      "id": 108705,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2130130500153,
-          -33.83105410491105
+          151.1919435556946,
+          -33.9433283820526
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Falcon Street, Crows Nest",
+        "headline": "CRASH 2 cars - MASCOT General Holmes Drive approaching airport tunnel",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14735,15 +14735,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1639954264823,
+        "created": 1639954799407,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "2 cars",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1639954264853,
+        "mainCategory": "Crash",
+        "lastUpdated": 1639954799453,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14752,32 +14752,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Falcon Street",
+            "crossStreet": "airport tunnel",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 4",
-                "extent": "Lanes closed",
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
-            "mainStreet": "Warringah Freeway",
+            "mainStreet": "General Holmes Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "North Sydney",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -20671,6 +20672,78 @@
             "secondLocation": " ",
             "suburb": "Menangle",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108704,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2130130500153,
+          -33.83105410491105
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Falcon Street, Crows Nest",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1639954264823,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1639954936737,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Falcon Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": ""
           }
         ]
       }
