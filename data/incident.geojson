@@ -14168,7 +14168,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck - ALEXANDRIA Botany Road at Chapel Lane",
+        "headline": "CRASH Truck - WATERLOO Botany Road at Chapel Lane, Alexandria",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -14188,7 +14188,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640027763083,
+        "lastUpdated": 1640028529787,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -14222,7 +14222,7 @@
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Alexandria",
+            "suburb": "Waterloo",
             "trafficVolume": ""
           }
         ]
@@ -14261,11 +14261,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Breakdown",
-        "adviceB": "Delay your journey; Use diversions",
-        "adviceA": "or",
+        "adviceB": "Use diversions",
+        "adviceA": "Delay your journey or",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1640028201287,
+        "lastUpdated": 1640028477697,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p><strong>Westbound: </strong>Berowra Waters Rd, Pacific Hwy, M1 Pacific Mwy, Pennant Hills Rd, Boundary Rd, New Line Rd, Galston Rd, Arcadia Rd, Bay Rd</p><p><strong>Eastbound: </strong>Bay Rd, Arcadia Rd, Galston Rd, New Line Rd, Boundary Rd, Pennant Hills Rd, M1 Pacific Mwy, Pacific Hwy, Berowra Waters Rd</p>",
@@ -14283,7 +14283,16 @@
             "conditionTendency": "",
             "crossStreet": "Bay Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Ferry"
+              }
+            ],
             "locationQualifier": "between",
             "mainStreet": "Berowra Waters Ferry",
             "quadrant": "",
@@ -14291,6 +14300,78 @@
             "region": "SYD_NORTH",
             "secondLocation": "Berowra Waters Road",
             "suburb": "Berowra Waters",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108782,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6360530914711,
+          -32.81354111018395
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BERESFIELD John Renshaw Drive approaching Weakleys Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640028368533,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640028368563,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Weakleys Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "John Renshaw Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Beresfield",
             "trafficVolume": ""
           }
         ]
