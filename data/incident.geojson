@@ -13663,22 +13663,17 @@
     },
     {
       "type": "Feature",
-      "id": 108923,
+      "id": 108925,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.13778411719665,
-          -33.955398137952194
+          150.99887568836058,
+          -33.82781534889554
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "NSW Health: COVID-19 Clinics",
-            "linkURL": "https://www.nsw.gov.au/covid-19/stay-safe/testing/clinics"
-          }
-        ],
-        "headline": "COVID-19 testing clinic - ROCKDALE Princes Highway approaching Rockdale 4Cye Pathology Drive-throug clinic",
+        "webLinks": [],
+        "headline": "CRASH Multiple vehicles - HOLROYD Western Motorway approaching Church Street, Parramatta",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13690,16 +13685,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640121290503,
+        "created": 1640123753947,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Plan your journey",
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1640121290550,
-        "otherAdvice": "<p>The COVID-19 testing clinic on the Princes Hwy is extremely busy this morning, with traffic also affecting Lister Ave.</p><p>Delays may be experienced for those queuing for testing and other general traffic in the area.</p><p>Visit the&nbsp;<a href=\"https://www.nsw.gov.au/covid-19/stay-safe/testing/clinics\" target=\"_blank\">NSW Health website</a>&nbsp;for a full list of testing locations.<br></p>",
+        "mainCategory": "Crash",
+        "lastUpdated": 1640124120997,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13707,33 +13702,109 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck",
+          "Motorway Crew"
         ],
-        "displayName": "COVID-19 testing clinic",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Rockdale 4Cye Pathology Drive-throug clinic",
+            "crossStreet": "Church Street",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "3",
+                "description": "Lane 1, Lane 4, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Western Motorway",
+            "quadrant": "",
+            "queueLength": 2,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Holroyd",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108926,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.101645201,
+          -33.8876568891
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BURST WATER MAIN - BURWOOD Hume Hwy at Burwood Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640124223403,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Burst water main",
+        "lastUpdated": 1640124223437,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company",
+          "Emergency services"
+        ],
+        "displayName": "BURST WATER MAIN",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Burwood Rd",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Highway"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Hume Hwy",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Rockdale",
-            "trafficVolume": "Heavy"
+            "suburb": "Burwood",
+            "trafficVolume": ""
           }
         ]
       }
