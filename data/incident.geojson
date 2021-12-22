@@ -13456,7 +13456,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -13471,7 +13471,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640198694890,
+        "lastUpdated": 1640200818687,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13513,17 +13513,17 @@
     },
     {
       "type": "Feature",
-      "id": 109022,
+      "id": 109023,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2176676701662,
-          -33.883769368409126
+          150.66502142923528,
+          -34.56527157717226
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - DARLINGHURST Eastern Distributor at Moore Park/Bondi/Randwick off-ramp",
+        "headline": "HAZARD Fallen tree - MACQUARIE PASS Illawarra Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13535,15 +13535,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640200060047,
-        "isMajor": true,
+        "created": 1640200579653,
+        "isMajor": false,
         "name": null,
-        "subCategoryA": "Water over road",
-        "adviceB": "Plan your journey",
-        "adviceA": "Use an alternative route",
+        "subCategoryA": "Fallen tree",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Adverse weather",
-        "lastUpdated": 1640200295473,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1640200579700,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13552,32 +13552,182 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "ADVERSE WEATHER Water over road",
+        "displayName": "HAZARD Fallen tree",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moore Park/Bondi/Randwick off-ramp",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Off-ramp"
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Eastern Distributor",
+            "mainStreet": "Illawarra Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Macquarie Pass",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109024,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1681377,
+          -33.8983806
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "NSW Health: COVID-19 Clinics",
+            "linkURL": "https://www.nsw.gov.au/covid-19/stay-safe/testing/clinics"
+          }
+        ],
+        "headline": "COVID-19 testing clinic - STANMORE Stanmore Road approaching Stanmore 4Cyte Pathology drive-through and walk-in clinic",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640200660043,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1640200660090,
+        "otherAdvice": "<p>The COVID-19 testing clinic on Stanmore Rd is busy, with traffic also affecting Enmore and Edgeware roads.</p><p>Delays may be experienced for those queuing for testing and other general traffic in the area.</p><p>Visit the&nbsp;<a href=\"https://www.nsw.gov.au/covid-19/stay-safe/testing/clinics\" target=\"_blank\">NSW Health website</a>&nbsp;for a full list of testing locations.<br></p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "COVID-19 testing clinic",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Stanmore 4Cyte Pathology drive-through and walk-in clinic",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Stanmore Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Darlinghurst",
+            "suburb": "Stanmore",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109025,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.78530890298563,
+          -34.54914690557887
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - ALBION PARK RAIL Princes Highway at Illawarra Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640200716490,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1640200716523,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Illawarra Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Albion Park Rail",
             "trafficVolume": ""
           }
         ]
@@ -20542,6 +20692,150 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Roseville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109021,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19294318630017,
+          -33.57072675741358
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - COWAN M1 Pacific Motorway just past Pacific Highway overpass",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640197608640,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1640200818687,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109022,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2176676701662,
+          -33.883769368409126
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ADVERSE WEATHER Water over road - DARLINGHURST Eastern Distributor at Moore Park/Bondi/Randwick off-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640200060047,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceB": "Plan your journey",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1640200514017,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moore Park/Bondi/Randwick off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Darlinghurst",
             "trafficVolume": ""
           }
         ]
