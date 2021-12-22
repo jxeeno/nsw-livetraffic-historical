@@ -13394,7 +13394,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1640148755713,
+        "lastUpdated": 1640151379853,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13611,7 +13611,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1640150486440,
+        "lastUpdated": 1640151471930,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13679,11 +13679,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Police are directing traffic",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640150659377,
+        "lastUpdated": 1640151450010,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13869,37 +13869,110 @@
     },
     {
       "type": "Feature",
-      "id": 108830,
+      "id": 108982,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.06536336137694,
-          -33.917913954401456
+          150.7686578,
+          -33.7981493
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - WILEY PARK King Georges Road at Punchbowl Road",
+        "headline": "CRASH Truck - ST CLAIR Mamre Road at Solander Drive, Saint Clair",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640055015787,
+        "created": 1640151426563,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1640064981667,
+        "mainCategory": "Crash",
+        "lastUpdated": 1640151508987,
+        "otherAdvice": "Motorists are advised to expect intermittent closures for vehicle recovery.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "CRASH Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Solander Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Mamre Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "St Clair",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108983,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.156863,
+          -33.8956564
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - PETERSHAM New Canterbury Road at Crystal Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640151726767,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1640151726813,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13908,32 +13981,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Punchbowl Road",
+            "crossStreet": "Crystal Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
+                "numberOfLanes": "2",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
+            "mainStreet": "New Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Wiley Park",
+            "suburb": "Petersham",
             "trafficVolume": "Moderate"
           }
         ]
