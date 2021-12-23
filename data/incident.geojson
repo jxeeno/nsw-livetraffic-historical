@@ -13465,7 +13465,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - ROZELLE The Crescent and City West Link approaching James Craig Road",
+        "headline": "ADVERSE WEATHER Water over road - ROZELLE City West Link and The Crescent approaching James Craig Road, Rozelle",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -13478,14 +13478,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1640223046813,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Water over road",
-        "adviceB": "Reduce your speed; Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1640223046843,
+        "lastUpdated": 1640225328360,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13502,10 +13502,10 @@
           {
             "conditionTendency": "",
             "crossStreet": "James Craig Road",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "City bound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -13514,7 +13514,7 @@
               }
             ],
             "locationQualifier": "approaching",
-            "mainStreet": "The Crescent and City West Link",
+            "mainStreet": "City West Link and The Crescent",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
@@ -13557,7 +13557,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640223720320,
+        "lastUpdated": 1640225097893,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -13576,7 +13576,16 @@
             "conditionTendency": "",
             "crossStreet": "Ku-Ring-Gai Chase Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "just past",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
@@ -13591,43 +13600,38 @@
     },
     {
       "type": "Feature",
-      "id": 108928,
+      "id": 109059,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.11503443565132,
-          -29.494475692383826
+          150.2066207,
+          -33.5696458
         ]
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Bluff Point Ferry",
-            "linkURL": "https://roads-waterways.transport.nsw.gov.au/projects/northern-ferries/bluff-point-ferry.html"
-          }
-        ],
-        "headline": "FERRY OUT OF SERVICE Reduced ferry capacity - LAWRENCE Bluff Point Ferry on Clarence River",
+        "webLinks": [],
+        "headline": "CRASH 2 cars - MOUNT VICTORIA Great Western Highway near Coxs River Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640129436063,
+        "created": 1640224494117,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Breakdown",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Check signage",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Ferry out of service",
-        "lastUpdated": 1640138061353,
-        "otherAdvice": "Only the larger vessel is operating over the Clarence River.&nbsp;The smaller ferry is out of service,&nbsp;due to an operational issue.",
+        "mainCategory": "Crash",
+        "lastUpdated": 1640224494150,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -13635,14 +13639,15 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "FERRY OUT OF SERVICE Reduced ferry capacity",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Clarence River",
+            "crossStreet": "Coxs River Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -13651,17 +13656,17 @@
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Ferry"
+                "roadType": ""
               }
             ],
-            "locationQualifier": "on",
-            "mainStreet": "Bluff Point Ferry",
+            "locationQualifier": "near",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "REG_WEST",
             "secondLocation": " ",
-            "suburb": "Lawrence",
-            "trafficVolume": ""
+            "suburb": "Mount Victoria",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13736,78 +13741,6 @@
     },
     {
       "type": "Feature",
-      "id": 108945,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.1106872,
-          -30.300797
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - COFFS HARBOUR Pacific Highway at Combine Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640135042400,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1640138729860,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Combine Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Coffs Harbour",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 108949,
       "geometry": {
         "type": "Point",
@@ -13873,78 +13806,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Leura",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 108943,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.9815807674388,
-          -30.490737675467553
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - URUNGA Pacific Highway approaching Short Cut Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640134494763,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1640138979640,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Short Cut Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Urunga",
             "trafficVolume": ""
           }
         ]
@@ -20697,6 +20558,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Pola Creek (near Kempsey)",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109058,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.77901356442558,
+          -33.785523630264414
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ST CLAIR M4 Motorway approaching Mamre Road",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640224318310,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640224535920,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mamre Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "St Clair",
             "trafficVolume": ""
           }
         ]
