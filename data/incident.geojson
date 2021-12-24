@@ -8004,7 +8004,7 @@
         "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1640213718110,
+        "lastUpdated": 1640313159047,
         "otherAdvice": "A number of local roads in the Warren Shire Council area are closed due to flooding or affected by recent adverse weather. For a complete list, see the&nbsp;<a href=\"https://www.warren.nsw.gov.au/residents/road-condition-report\" target=\"_blank\">council website</a> or call (02) 6847 6600.",
         "arrangementElements": [],
         "diversions": " ",
@@ -10654,7 +10654,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1640310327117,
+        "lastUpdated": 1640312722353,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -10696,17 +10696,17 @@
     },
     {
       "type": "Feature",
-      "id": 109142,
+      "id": 109144,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0524574883606,
-          -33.77909794129851
+          151.1058468,
+          -33.8107401
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - CARLINGFORD Pennant Hills Road approaching Marsden Rd",
+        "headline": "CRASH 2 cars - RYDE Devlin Street at Pope Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -10718,87 +10718,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640310971057,
+        "created": 1640313168953,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1640312490857,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Marsden Rd",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Pennant Hills Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Carlingford",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 109143,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20150959629512,
-          -33.88858755103971
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - REDFERN Regent Street at Cleveland Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640312379710,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1640312379743,
+        "mainCategory": "Crash",
+        "lastUpdated": 1640313169657,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -10807,33 +10735,34 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cleveland Street",
+            "crossStreet": "Pope Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Regent Street",
+            "mainStreet": "Devlin Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Redfern",
-            "trafficVolume": ""
+            "suburb": "Ryde",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -16035,6 +15964,150 @@
             "secondLocation": " ",
             "suburb": "Cataract",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20150959629512,
+          -33.88858755103971
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - REDFERN Regent Street at Cleveland Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640312379710,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640313197640,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cleveland Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Regent Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Redfern",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0524574883606,
+          -33.77909794129851
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - CARLINGFORD Pennant Hills Road approaching Marsden Rd",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640310971057,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640312889540,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marsden Rd",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Pennant Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Carlingford",
+            "trafficVolume": "Heavy"
           }
         ]
       }
