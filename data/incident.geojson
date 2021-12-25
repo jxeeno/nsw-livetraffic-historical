@@ -10561,7 +10561,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH - LEICHHARDT Parramatta Road at West Street, Petersham",
+        "headline": "CRASH Car - LEICHHARDT Parramatta Road at West Street, Petersham",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -10576,12 +10576,12 @@
         "created": 1640410047087,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": " ",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640410047133,
+        "lastUpdated": 1640413058493,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -10593,19 +10593,19 @@
           "Emergency services",
           "Tow Truck"
         ],
-        "displayName": "CRASH",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "West Street",
-            "delay": "Minimal",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Closed",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Road"
               }
@@ -10617,78 +10617,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Leichhardt",
-            "trafficVolume": "Light"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 109207,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.12558469275967,
-          -33.78716329103927
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - MACQUARIE PARK Epping Road at Lane Cove Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640411175653,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1640411516323,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Lane Cove Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Epping Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Macquarie Park",
             "trafficVolume": ""
           }
         ]
@@ -10794,12 +10722,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640412533530,
-        "otherAdvice": " ",
+        "lastUpdated": 1640413133713,
+        "otherAdvice": "Left turn lane to Carlingford Road is blocked by emergency services.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -10819,10 +10747,18 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
+                "closedLanes": "3",
+                "description": "Lane 2, Lane 3, Left turn lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Affected",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
@@ -14318,6 +14254,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Stanhope Gardens",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12558469275967,
+          -33.78716329103927
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MACQUARIE PARK Epping Road at Lane Cove Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640411175653,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640412759690,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lane Cove Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Epping Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Macquarie Park",
             "trafficVolume": ""
           }
         ]
