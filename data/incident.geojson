@@ -9104,12 +9104,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Plan your journey",
+        "adviceB": "Plan your journey",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy holiday traffic",
-        "lastUpdated": 1640465824453,
-        "otherAdvice": "High traffic volumes are expected in the NorthConnex Tunnel approaching the M1 Pacific Mwy during peak holiday travel times.&nbsp;<a href=\"https://roads-waterways.transport.nsw.gov.au/about/news-events/holiday-journeys/index.html\" target=\"_blank\">Plan your journey</a>&nbsp;to travel outside of peak times or allow plenty of additional travel time.",
+        "lastUpdated": 1640478841533,
+        "otherAdvice": "High traffic volumes in the NorthConnex Tunnel approaching the M1 Pacific Mwy.&nbsp;<br><a href=\"https://roads-waterways.transport.nsw.gov.au/about/news-events/holiday-journeys/index.html\" target=\"_blank\">Plan your journey</a>&nbsp;to travel outside of peak times or allow plenty of additional travel time.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9133,7 +9133,7 @@
                 "description": null,
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Tunnel"
               }
             ],
             "locationQualifier": "approaching",
@@ -9143,7 +9143,7 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Carlingford -Wahroonga",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10718,78 +10718,6 @@
     },
     {
       "type": "Feature",
-      "id": 109236,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.57963341531368,
-          -32.88008714520408
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - SEAHAMPTON Hunter Expressway just past Seahampton Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640474681100,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1640477555553,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Seahampton Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Hunter Expressway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Seahampton",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 109238,
       "geometry": {
         "type": "Point",
@@ -10820,7 +10748,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640477841427,
+        "lastUpdated": 1640478487723,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -10829,6 +10757,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services"
         ],
         "displayName": "CRASH 2 cars",
@@ -10841,10 +10770,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
@@ -10855,6 +10784,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Kotara",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109239,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12075099365595,
+          -33.68640611036183
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car towing a trailer - MOUNT COLAH M1 Pacific Motorway approaching Ku-Ring-Gai Chase Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640478104433,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640478104467,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car towing a trailer",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ku-Ring-Gai Chase Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Mount Colah",
             "trafficVolume": ""
           }
         ]
@@ -11001,150 +11002,6 @@
             "secondLocation": " ",
             "suburb": "Wahroonga",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 109188,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8073372,
-          -33.6191916
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - SOUTH WINDSOR Macquarie Street at Campbell Street,",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640390078567,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1640391905063,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Campbell Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Macquarie Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "South Windsor",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 109189,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.41193596721092,
-          -34.94750866739413
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Fallen tree - COLLECTOR Federal Highway approaching Collector Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640390922773,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Fallen tree",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1640391916493,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Fallen tree",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Collector Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Federal Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Collector",
-            "trafficVolume": ""
           }
         ]
       }
@@ -14272,6 +14129,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bar Point",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109236,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.57963341531368,
+          -32.88008714520408
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - SEAHAMPTON Hunter Expressway just past Seahampton Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640474681100,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1640478296583,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Seahampton Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hunter Expressway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Seahampton",
             "trafficVolume": "Heavy"
           }
         ]
