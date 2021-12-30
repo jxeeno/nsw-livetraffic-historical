@@ -5580,8 +5580,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1640824562427,
-        "otherAdvice": "<p><strong>The ACT government has imposed restrictions at the NSW-ACT border as a result of the coronavirus pandemic.</strong></p><p>Border control measures can change quickly and people intending to travel from NSW to ACT are advised to visit the <a href=\"https://www.covid19.act.gov.au/home\" target=\"_blank\">ACT Government's COVID-19 website</a>&nbsp;for up to date information.</p><p><strong>There is also a crash further north. Allow an additional 10 minutes travel time.</strong></p>",
+        "lastUpdated": 1640827489037,
+        "otherAdvice": "<p><strong>The ACT government has imposed restrictions at the NSW-ACT border as a result of the coronavirus pandemic.</strong></p><p>Border control measures can change quickly and people intending to travel from NSW to ACT are advised to visit the <a href=\"https://www.covid19.act.gov.au/home\" target=\"_blank\">ACT Government's COVID-19 website</a>&nbsp;for up to date information.</p><p><strong>There is also a crash further north, closing the highway.</strong></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -10347,79 +10347,6 @@
     },
     {
       "type": "Feature",
-      "id": 109445,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1755546872803,
-          -33.916656141073396
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - ST PETERS Canal Road just past Burrows Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1640820439360,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1640825603843,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Burrows Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Canal Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "St Peters",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 109447,
       "geometry": {
         "type": "Point",
@@ -10511,14 +10438,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1640823289210,
-        "isMajor": true,
+        "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
         "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640826459617,
+        "lastUpdated": 1640827276000,
         "otherAdvice": "<strong>Motorists are advised to allow approximately 30 minutes additional travel time. Delays are back to Cowan.</strong>",
         "arrangementElements": [],
         "diversions": " ",
@@ -10662,10 +10589,10 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1640826931087,
-        "otherAdvice": "<p>Northbound delays are back to Wahroonga; southbound almost to Berowra.</p><p><strong>Allow an extra&nbsp; 50 minutes travel time.</strong></p>",
+        "lastUpdated": 1640828512307,
+        "otherAdvice": "<p>Northbound delays are back to Wahroonga; southbound delays are past Berowra.</p><p><strong>Allow an additional 50 minutes travel time.</strong></p>",
         "arrangementElements": [],
-        "diversions": "Motorists should use the Pacific Hwy as an alternative route.",
+        "diversions": "Motorists should use the Pacific Hwy as an alternative route due to the long delays.",
         "additionalInfo": [
           " "
         ],
@@ -10682,12 +10609,20 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "just past",
@@ -10698,6 +10633,78 @@
             "secondLocation": " ",
             "suburb": "Mount Colah",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109451,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0515665,
+          -33.7497964
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS - BEECROFT NorthConnex in tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640827721567,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1640828107673,
+        "otherAdvice": "The NorthConnex mwy has been closed northbound due to the vehicle fire at Mount Colah.<br>Motorists should use the Pacific Hwy instead.",
+        "arrangementElements": [],
+        "diversions": "Pacific Hwy.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "in",
+            "mainStreet": "NorthConnex",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Beecroft",
+            "trafficVolume": ""
           }
         ]
       }
@@ -14368,6 +14375,79 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Campbelltown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109445,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1755546872803,
+          -33.916656141073396
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ST PETERS Canal Road just past Burrows Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640820439360,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640827395943,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Heavy vehicle tow truck",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Burrows Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Canal Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "St Peters",
             "trafficVolume": ""
           }
         ]
