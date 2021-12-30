@@ -8084,8 +8084,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy holiday traffic",
-        "lastUpdated": 1640820741210,
-        "otherAdvice": "<p>High traffic volumes are expected on the Princes Hwy approaching and through Nowra during peak holiday travel times. <br>Plan your journey and find out the predicted peak travel times with the<a href=\"https://roads-waterways.transport.nsw.gov.au/about/news-events/holiday-journeys/index.html\">&nbsp;Holiday Journey Planner.</a></p><p><strong><a href=\"https://roads-waterways.transport.nsw.gov.au/about/news-events/holiday-journeys/index.html\"></a>Allow an additional 10 minutes of travel time.&nbsp;</strong></p>",
+        "lastUpdated": 1640822582647,
+        "otherAdvice": "<p>High traffic volumes are expected on the Princes Hwy approaching and through Nowra during peak holiday travel times. <br>Plan your journey and find out the predicted peak travel times with the<a href=\"https://roads-waterways.transport.nsw.gov.au/about/news-events/holiday-journeys/index.html\">&nbsp;Holiday Journey Planner.</a></p><p><strong><a href=\"https://roads-waterways.transport.nsw.gov.au/about/news-events/holiday-journeys/index.html\"></a>Allow an additional 10 minutes travel time northbound and southbound.&nbsp;</strong></p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8104,7 +8104,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -8318,7 +8318,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy holiday traffic",
-        "lastUpdated": 1640820792150,
+        "lastUpdated": 1640822909437,
         "otherAdvice": "<p>High volumes of holiday traffic are expected and could cause delays travelling through Ulladulla during peak holiday travel periods. Plan your journey and find out the predicted peak travel times with the <a href=\"https://www.myjourneynsw.info\" target=\"_blank\">Holiday Journey Planner</a>.</p><p><strong>Allow an additional 10 minutes. </strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -10440,7 +10440,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1640820439407,
+        "lastUpdated": 1640822896783,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -10483,17 +10483,22 @@
     },
     {
       "type": "Feature",
-      "id": 109446,
+      "id": 109447,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8600304,
-          -33.9732284
+          151.11416606387638,
+          -34.138748438380006
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - CAMPBELLTOWN Campbelltown Road at Soldiers Parade",
+        "webLinks": [
+          {
+            "linkText": "Royal National Park local alerts",
+            "linkURL": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/royal-national-park/local-alerts"
+          }
+        ],
+        "headline": "CHANGED TRAFFIC CONDITIONS - ROYAL NATIONAL PARK Sir Bertram Stevens Drive at Wattamolla Beach and Garie Beach car parks",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -10505,16 +10510,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640821756700,
+        "created": 1640822156953,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Police operation",
-        "adviceB": "Reduce your speed; Police are directing traffic",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Exercise caution",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1640821756747,
-        "otherAdvice": " ",
+        "lastUpdated": 1640822527290,
+        "otherAdvice": "Wattamolla Beach and Garie Beach have reached capacity. The carparks have been closed as a result.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -10522,32 +10527,23 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "displayName": "CHANGED TRAFFIC CONDITIONS",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Soldiers Parade",
+            "crossStreet": "Wattamolla Beach and Garie Beach car parks",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "at",
-            "mainStreet": "Campbelltown Road",
+            "mainStreet": "Sir Bertram Stevens Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Campbelltown",
+            "suburb": "Royal National Park",
             "trafficVolume": ""
           }
         ]
@@ -14580,6 +14576,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Eastwood",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109446,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8600304,
+          -33.9732284
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - CAMPBELLTOWN Campbelltown Road at Soldiers Parade",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640821756700,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Reduce your speed; Police are directing traffic",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1640822845767,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Soldiers Parade",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Campbelltown Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Campbelltown",
             "trafficVolume": ""
           }
         ]
