@@ -7416,7 +7416,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy holiday traffic",
-        "lastUpdated": 1640910705007,
+        "lastUpdated": 1640912005173,
         "otherAdvice": "<p><strong></strong>High volumes of holiday traffic are expected and could cause delays travelling through Ulladulla during peak holiday travel periods.</p><p>Plan your journey and find out the predicted peak travel times with the <a href=\"https://www.myjourneynsw.info\" target=\"_blank\">Holiday Journey Planner</a>.</p><p>&nbsp;</p><p><strong>Allow an additional 10 minutes to your travel time. </strong></p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -7434,7 +7434,16 @@
             "conditionTendency": "",
             "crossStreet": "",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "-",
             "mainStreet": "Princes Highway",
             "quadrant": "",
@@ -9894,7 +9903,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1640909983007,
+        "lastUpdated": 1640912547890,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9929,24 +9938,24 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Abermain",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 109510,
+      "id": 109512,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8242708,
-          -34.0524946
+          150.91967310682372,
+          -33.91964059157999
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - LEUMEAH Campbelltown Road at Blaxland Road",
+        "headline": "BREAKDOWN Car - LIVERPOOL Elizabeth Street at Hume Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9958,7 +9967,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1640911114257,
+        "created": 1640912253403,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
@@ -9966,7 +9975,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1640911114293,
+        "lastUpdated": 1640912253450,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9983,25 +9992,25 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Blaxland Road",
+            "crossStreet": "Hume Highway",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Right turn lane",
+                "description": "Lane 4",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Campbelltown Road",
+            "mainStreet": "Elizabeth Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Leumeah",
+            "suburb": "Liverpool",
             "trafficVolume": ""
           }
         ]
@@ -13911,6 +13920,151 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Spring Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109510,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8242708,
+          -34.0524946
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LEUMEAH Campbelltown Road at Blaxland Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640911114257,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1640911909387,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Blaxland Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Campbelltown Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Leumeah",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109511,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2122493962952,
+          -33.850115228083745
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Debris bumper bar - MILSONS POINT Bradfield Highway approaching northern pylon",
+        "periods": [],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1640911621067,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1640912510763,
+        "otherAdvice": "In lane 1.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Debris bumper bar",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "northern pylon",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Bradfield Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Milsons Point",
             "trafficVolume": ""
           }
         ]
