@@ -8625,7 +8625,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1641163200683,
+        "lastUpdated": 1641166702380,
         "otherAdvice": "Contraflow traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -8812,17 +8812,17 @@
     },
     {
       "type": "Feature",
-      "id": 109638,
+      "id": 109639,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7727872,
-          -34.0534817
+          151.1962106238037,
+          -33.87516605335692
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - MOUNT ANNAN Narellan Road at Mount Annan Drive",
+        "headline": "BREAKDOWN Car - ULTIMO Fig Street approaching Harris Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8834,15 +8834,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1641166205633,
+        "created": 1641166567977,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "3 vehicles",
+        "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1641166205697,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1641166568023,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8851,42 +8851,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "CRASH 3 vehicles",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mount Annan Drive",
+            "crossStreet": "Harris Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 4",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 4",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Narellan Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Fig Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Ultimo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109640,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9712015,
+          -34.0538443
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HEAVY TRAFFIC - LUCAS HEIGHTS New Illawarra Road approaching Heathcote Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641166866893,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Heavy traffic",
+        "lastUpdated": 1641166961830,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "HEAVY TRAFFIC",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Heathcote Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "New Illawarra Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Mount Annan",
-            "trafficVolume": ""
+            "suburb": "Lucas Heights",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -11695,6 +11759,87 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Tomago",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7727872,
+          -34.0534817
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - MOUNT ANNAN Narellan Road at Mount Annan Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641166205633,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1641166764587,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mount Annan Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Narellan Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mount Annan",
             "trafficVolume": ""
           }
         ]
