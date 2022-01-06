@@ -8586,7 +8586,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1641436667043,
+        "lastUpdated": 1641440256083,
         "otherAdvice": "Traffic is being turned around in both directions.",
         "arrangementElements": [],
         "diversions": "<p>Motorists can use the following alternative route;</p><p><strong>Northbound:</strong>&nbsp;Rawson Rd, Railway St, Brisbane Water Dr and Central Coast Hwy.</p><p><strong>Southbound:</strong> Central Coast Hwy, Brisbane Water Dr, Railway St, Rawson Rd.</p><p><br></p>",
@@ -8731,7 +8731,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1641436618960,
+        "lastUpdated": 1641440232933,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8847,37 +8847,37 @@
     },
     {
       "type": "Feature",
-      "id": 109788,
+      "id": 109898,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.33600436421813,
-          -32.32287930928579
+          151.1881757920349,
+          -33.58287425679311
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - WOOTTON Pacific Highway near Wattley Hill Road",
+        "headline": "BREAKDOWN Car - COWAN M1 Pacific Motorway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1641347618540,
+        "created": 1641439945320,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1641353421877,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1641439945367,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8886,34 +8886,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wattley Hill Road",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Affected",
-                "numberOfLanes": "2",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cowan",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109899,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17582398095092,
+          -33.867560593289014
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - ROZELLE Victoria Road near Lilyfield Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641440190413,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1641440190477,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Bus company"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lilyfield Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
                 "roadType": ""
               }
             ],
             "locationQualifier": "near",
-            "mainStreet": "Pacific Highway",
+            "mainStreet": "Victoria Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Wootton",
+            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
