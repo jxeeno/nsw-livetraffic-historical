@@ -8667,17 +8667,17 @@
     },
     {
       "type": "Feature",
-      "id": 110179,
+      "id": 110180,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21023898898963,
-          -33.83928877175964
+          151.06390667784044,
+          -33.86925598913935
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - NORTH SYDNEY Mount Street above Warringah Freeway, Milsons Point",
+        "headline": "BREAKDOWN Car - STRATHFIELD Centenary Drive approaching Arthur Street, Homebush West",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8689,15 +8689,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1641750421860,
+        "created": 1641755525970,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1641753656053,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1641755526017,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8706,34 +8706,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Warringah Freeway",
+            "crossStreet": "Arthur Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "City bound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Bus lane",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "above",
-            "mainStreet": "Mount Street",
+            "locationQualifier": "approaching",
+            "mainStreet": "Centenary Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "North Sydney",
-            "trafficVolume": ""
+            "suburb": "Strathfield",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -12435,6 +12434,80 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bendemeer",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21028123378161,
+          -33.839302695823164
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - NORTH SYDNEY Mount Street on-ramp to Warringah Freeway, Milsons Point",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641750421860,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Plan your journey",
+        "adviceA": "Use diversions",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1641755205723,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "Motorists can access Warringah Fwy southbound via High St.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Warringah Freeway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "On-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Mount Street on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
