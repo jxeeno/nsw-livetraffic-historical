@@ -8385,7 +8385,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1641862719503,
+        "lastUpdated": 1641865023410,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8504,13 +8504,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.8575504,
-          -32.6538561
+          151.84602327148238,
+          -32.6599171021511
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - TWELVE MILE CREEK Pacific Highway near Gold Mine Road",
+        "headline": "CRASH Car - TWELVE MILE CREEK Pacific Highway approaching Gold Mine Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8521,7 +8521,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1641863333820,
         "isMajor": false,
         "name": null,
@@ -8530,8 +8530,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1641863536413,
-        "otherAdvice": " ",
+        "lastUpdated": 1641865668807,
+        "otherAdvice": "All vehicles are in the heavy vehicle inspection bay.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8539,8 +8539,8 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Tow Truck",
+          "Emergency services"
         ],
         "displayName": "CRASH Car",
         "media": [],
@@ -8549,8 +8549,17 @@
             "conditionTendency": "",
             "crossStreet": "Gold Mine Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
             "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
@@ -8568,8 +8577,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.8743715,
-          -34.1254029
+          145.86102482794186,
+          -34.114833306940135
         ]
       },
       "properties": {
@@ -8594,7 +8603,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1641863460577,
+        "lastUpdated": 1641864901837,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8636,37 +8645,116 @@
     },
     {
       "type": "Feature",
-      "id": 110198,
+      "id": 110270,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.037661519,
-          -33.9591911797
+          150.97402553500498,
+          -34.24455596183849
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - PADSTOW Davies Road at Burradoo Street",
+        "headline": "CRASH Car, Bicycle - COALCLIFF Lawrence Hargrave Drive near Bombora Way",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1641773988883,
+        "created": 1641864824317,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Car, Bicycle",
+        "adviceB": "Allow extra travel time; Use an alternative route",
+        "adviceA": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1641865423587,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "Motorists can use the M1 Princes Mwy as an alternative route.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "hb_pEeunx[HXJb@J`@HTDLHXP`@Pb@HTj@vAXz@Vn@Ph@NZR^LPVXJHPJNFLDNBB?TDJ?H@RANALCPELCNELGDA",
+            "levels": ""
+          }
+        ],
+        "displayName": "CRASH Car, Bicycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bombora Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Lawrence Hargrave Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Coalcliff",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.82397977301636,
+          -33.78151716066171
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - MINCHINBURY Great Western Highway at George Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641865124693,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1641778416163,
+        "mainCategory": "Crash",
+        "lastUpdated": 1641865124743,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8675,14 +8763,15 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Burradoo Street",
+            "crossStreet": "George Street",
             "delay": "",
             "impactedLanes": [
               {
@@ -8695,229 +8784,13 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Davies Road",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Padstow",
+            "suburb": "Minchinbury",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 110199,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.017139402,
-          -33.9526871402
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - REVESBY The River Road at Blamey Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1641774010347,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1641778409647,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Utility Company"
-        ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Blamey Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "The River Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Revesby",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 110200,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.017042516,
-          -33.9538466592
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - REVESBY The River Road at MacArthur Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1641774043420,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1641778403260,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Utility Company"
-        ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "MacArthur Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "The River Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Revesby",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 110194,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2154622238037,
-          -33.899880733182535
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Water from damaged sprinklers - MOORE PARK Eastern Distributor in Dacey Todman tunnel",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1641772071740,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1641778662530,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "HAZARD Water from damaged sprinklers",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Dacey Todman tunnel",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "in",
-            "mainStreet": "Eastern Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Moore Park",
-            "trafficVolume": "Heavy"
           }
         ]
       }
