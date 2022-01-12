@@ -8292,7 +8292,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1641951522080,
+        "lastUpdated": 1641955265413,
         "otherAdvice": "There will be intermittent stoppages for salvage.",
         "arrangementElements": [],
         "diversions": " ",
@@ -8512,7 +8512,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1641952917940,
+        "lastUpdated": 1641955386003,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8661,10 +8661,10 @@
         "name": null,
         "subCategoryA": "3 vehicles",
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1641954711773,
+        "lastUpdated": 1641955153587,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8683,7 +8683,24 @@
             "conditionTendency": "",
             "crossStreet": "Clarabel Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Canterbury Road",
             "quadrant": "",
@@ -8846,79 +8863,6 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Goolgowi",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 110271,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.82370685824915,
-          -33.78154196223527
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - MINCHINBURY Great Western Highway just past George Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1641865124693,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1641869030077,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "George Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Great Western Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Minchinbury",
             "trafficVolume": ""
           }
         ]
