@@ -8406,78 +8406,6 @@
     },
     {
       "type": "Feature",
-      "id": 110365,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.14754046403195,
-          -33.87038167624576
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - HABERFIELD City-West Link Road near Boomerang Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1641982068293,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Water over road",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Adverse weather",
-        "lastUpdated": 1641988224037,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "ADVERSE WEATHER Water over road",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Boomerang Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "City-West Link Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Haberfield",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 110368,
       "geometry": {
         "type": "Point",
@@ -8713,7 +8641,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - WEST PYMBLE Lane Cove Road on De Burghs bridge approaching Lady Game Drive, Killara",
+        "headline": "ADVERSE WEATHER Water over road - WEST PYMBLE Lane Cove Road on De Burghs bridge near Lady Game Drive, Killara",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8729,11 +8657,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Water over road",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "\tNever drive through floodwater",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1641988175137,
+        "lastUpdated": 1641989309313,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8755,14 +8683,22 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
+            "locationQualifier": "near",
             "mainStreet": "Lane Cove Road on De Burghs bridge",
             "quadrant": "",
             "queueLength": 0,
@@ -8842,6 +8778,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Naremburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110376,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1994927891632,
+          -33.774691486085295
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ROSEVILLE Warringah Road just past Ormonde Road Chase",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641989186863,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1641989186910,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ormonde Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Warringah Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Roseville",
             "trafficVolume": ""
           }
         ]
@@ -13336,6 +13344,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Acacia Gardens",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110365,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14754046403195,
+          -33.87038167624576
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ADVERSE WEATHER Water over road - HABERFIELD City-West Link Road near Boomerang Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1641982068293,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1641989247097,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Boomerang Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "City-West Link Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Haberfield",
             "trafficVolume": ""
           }
         ]
