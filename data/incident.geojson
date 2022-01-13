@@ -6152,7 +6152,18 @@
       "properties": {
         "webLinks": [],
         "headline": "CHANGED TRAFFIC CONDITIONS - WEST WYALONG Mid Western Highway at Langes Lane",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": 80,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -6169,11 +6180,11 @@
         "subCategoryA": "(p)",
         "adviceB": "Exercise caution",
         "adviceA": "Reduced speed limit",
-        "end": 1642124611647,
+        "end": 1643720400000,
         "incidentKind": "Planned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1641859274150,
-        "otherAdvice": "Motorists are advised to allow approximately 5 minutes of additional travel time.",
+        "lastUpdated": 1642103013073,
+        "otherAdvice": "<p>The speed limit outside work hours remains 80km/h.<br></p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6192,16 +6203,7 @@
             "conditionTendency": "",
             "crossStreet": "Langes Lane",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "at",
             "mainStreet": "Mid Western Highway",
             "quadrant": "",
@@ -8925,78 +8927,6 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Cataract",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 110393,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1674059257477,
-          -33.862308312593306
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - ROZELLE Victoria Road approaching Iron Cove Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1642012587290,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Water over road",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Adverse weather",
-        "lastUpdated": 1642016669743,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "ADVERSE WEATHER Water over road",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Iron Cove Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Victoria Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
@@ -14859,6 +14789,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "West Ryde",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110500,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21121723784916,
+          -33.83414588109021
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Falcon Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1642102799373,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1642102929057,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Falcon Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
