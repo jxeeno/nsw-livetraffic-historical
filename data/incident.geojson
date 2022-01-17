@@ -5034,7 +5034,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1642460028850,
+        "lastUpdated": 1642461870430,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5185,11 +5185,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Police are directing traffic",
+        "adviceB": "Police are directing traffic; Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1642459941987,
+        "lastUpdated": 1642461655407,
         "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5261,7 +5261,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1642459601777,
+        "lastUpdated": 1642461629903,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5390,7 +5390,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Pedestrian, car - SMEATON GRANGE Camden Valley Way at Smeaton Grange Road",
+        "headline": "CRASH Pedestrian, car - SMEATON GRANGE Camden Valley Way between Fairwater Drive, Harrington Park AND Anderson Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5410,7 +5410,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1642461156370,
+        "lastUpdated": 1642461610063,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5427,7 +5427,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Smeaton Grange Road",
+            "crossStreet": "Fairwater Drive",
             "delay": "",
             "impactedLanes": [
               {
@@ -5439,12 +5439,12 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Camden Valley Way",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
-            "secondLocation": " ",
+            "secondLocation": "Anderson Road",
             "suburb": "Smeaton Grange",
             "trafficVolume": "Moderate"
           }
@@ -5453,37 +5453,37 @@
     },
     {
       "type": "Feature",
-      "id": 110734,
+      "id": 110805,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9781911,
-          -33.8807271
+          151.18778069999996,
+          -33.877145329815306
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car on fire - VILLAWOOD Woodville Road near Christina Road",
+        "headline": "CRASH Truck stuck under overpass - GLEBE Bridge Road at Burton Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1642373769500,
+        "isInitialReport": false,
+        "created": 1642461552253,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
+        "subCategoryA": "Truck",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1642374901107,
+        "mainCategory": "Crash",
+        "lastUpdated": 1642461711087,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5495,21 +5495,103 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Car on fire",
+        "displayName": "CRASH Truck stuck under overpass",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Christina Road",
+            "crossStreet": "Burton Street",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Woodville Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bridge Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Villawood",
+            "suburb": "Glebe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110806,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18392356560665,
+          -33.931168905955204
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MASCOT Qantas Drive at Robey Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1642461655733,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1642461655843,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Robey Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Qantas Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
