@@ -3989,7 +3989,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1641880183013,
+        "lastUpdated": 1642490614383,
         "otherAdvice": "Portable traffic lights will allow motorists to pass in one direction at a time.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5439,13 +5439,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.123535,
-          -33.8799196
+          151.12454418114186,
+          -33.87942274590205
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - ASHFIELD Frederick Street at John Street, Burwood",
+        "headline": "CRASH Car - ASHFIELD Frederick Street between Church Street AND John Street, Burwood ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5461,11 +5461,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1642489943953,
+        "lastUpdated": 1642490564170,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5482,26 +5482,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "John Street",
+            "crossStreet": "Church Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Frederick Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
+            "secondLocation": "John Street",
             "suburb": "Ashfield",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110849,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14420199214564,
+          -33.80115520704879
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LANE COVE NORTH Epping Road just past Mowbray Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1642490712990,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1642490713037,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mowbray Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Epping Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Lane Cove North",
+            "trafficVolume": "Moderate"
           }
         ]
       }
