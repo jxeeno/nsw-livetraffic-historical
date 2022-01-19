@@ -5010,7 +5010,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -5025,7 +5025,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1642379031677,
+        "lastUpdated": 1642563080840,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5457,7 +5457,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1642560880043,
+        "lastUpdated": 1642562791493,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p><strong>Southbound:&nbsp;</strong>Newcastle Link Rd, Lake Rd, The Boulevarde onto Awaba Rd/Cessnock Rd to rejoin the M1 Pacific Mtwy.</p><p>This diversion is suitable for all vehicles. </p>",
@@ -5466,6 +5466,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -5484,14 +5485,6 @@
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Motorway"
-              },
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
               }
             ],
             "locationQualifier": "just past",
@@ -5502,78 +5495,6 @@
             "secondLocation": " ",
             "suburb": "Killingworth",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 110924,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.02431325899963,
-          -34.177874652252456
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Fallen tree - LILYVALE  (ROYAL NATIONAL PARK) Lady Wakehurst Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1642557661227,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Fallen tree",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1642561543337,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "HAZARD Fallen tree",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Lady Wakehurst Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Lilyvale  (Royal National Park)",
-            "trafficVolume": ""
           }
         ]
       }
@@ -5796,6 +5717,79 @@
     },
     {
       "type": "Feature",
+      "id": 110933,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.86246467188536,
+          -34.394720539797355
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MOUNT OUSLEY M1 Princes Motorway just past New Mount Pleasant Road, Mount Pleasant",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1642562987410,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1642562987457,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "New Mount Pleasant Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Princes Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mount Ousley",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 108984,
       "geometry": {
         "type": "Point",
@@ -6010,6 +6004,78 @@
             "region": "REG_SOUTH",
             "secondLocation": "Mid Western Highway",
             "suburb": "Back Creek (east of Wyalong)",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110629,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.217806,
+          -34.3605693
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ADVERSE WEATHER Water over road - ARIAH PARK Burley Griffin Way near Mary Gilmore Way",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1642226493443,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceB": "Exercise caution; \tNever drive through floodwater",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1642563080840,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mary Gilmore Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Burley Griffin Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Ariah Park",
             "trafficVolume": ""
           }
         ]
@@ -11877,6 +11943,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "North Parramatta",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110924,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02431325899963,
+          -34.177874652252456
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Fallen tree - LILYVALE  (ROYAL NATIONAL PARK) Lady Wakehurst Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1642557661227,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1642562846490,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Lady Wakehurst Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Lilyvale  (Royal National Park)",
             "trafficVolume": ""
           }
         ]
