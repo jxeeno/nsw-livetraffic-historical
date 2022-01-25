@@ -521,7 +521,18 @@
       "properties": {
         "webLinks": [],
         "headline": "SCHEDULED ROADWORK Maintenance - HOMEBUSH WEST TO ASHFIELD M4 East Tunnel between Homebush Bay Drive AND Parramatta Road/Wattle Street ",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Eastbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -541,10 +552,10 @@
         "end": 1644256800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1643095449623,
+        "lastUpdated": 1643095619823,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Motorists travelling east on M4 will continue on the motorway to Parramatta Rd.<br>Motorists travelling north on Concord Rd will use Parramatta Rd.<br>Motorists travelling south on Concord Rd will continue on to Parramatta Rd.</p>",
+        "diversions": "<p>Motorists travelling east on the M4 will continue on the motorway to Parramatta Rd.<br>Motorists travelling north on Concord Rd will use Parramatta Rd.<br>Motorists travelling south on Concord Rd will continue on to Parramatta Rd.</p>",
         "additionalInfo": [
           " "
         ],
@@ -1273,6 +1284,83 @@
             "region": "REG_SOUTH",
             "secondLocation": "Moss Street",
             "suburb": "Nowra",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68667,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.12210183745253,
+          -33.87423322628635
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Maintenance - ASHFIELD TO HOMEBUSH WEST M4 East Tunnel between Parramatta Road/Wattle Street AND Homebush Bay Drive ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1599839838547,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time; Use diversions",
+        "adviceA": "Plan your journey",
+        "end": 1644343200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1643095941050,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "<p><strong></strong>Motorists travelling south on Wattle St will continue on Wattle St and then Parramatta Rd to access the M4 Mwy. <br>Motorists travelling west on Parramatta Rd will continue on Parramatta Rd to access the M4 Mwy.<br></p>",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1644238800000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Parramatta Road/Wattle Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "M4 East Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": "Homebush Bay Drive",
+            "suburb": "Ashfield to Homebush West",
             "trafficVolume": ""
           }
         ]
