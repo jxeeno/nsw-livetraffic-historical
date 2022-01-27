@@ -5351,17 +5351,17 @@
     },
     {
       "type": "Feature",
-      "id": 111517,
+      "id": 111519,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.749556176,
-          -32.9171208673
+          151.66524399367069,
+          -32.909023817875024
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - ISLINGTON Maitland Rd at Beaumont St",
+        "headline": "CRASH 2 cars - WALLSEND Lake Rd just past Thomas Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5373,16 +5373,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1643268667800,
+        "created": 1643272408223,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "2 cars",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1643268667830,
-        "otherAdvice": " ",
+        "mainCategory": "Crash",
+        "lastUpdated": 1643272408270,
+        "otherAdvice": "CAM 1300",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -5390,25 +5390,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
           "Emergency services"
         ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beaumont St",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Maitland Rd",
+            "crossStreet": "Thomas Street",
+            "delay": "Minimal",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Lake Rd",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Islington",
-            "trafficVolume": ""
+            "suburb": "Wallsend",
+            "trafficVolume": "Light"
           }
         ]
       }
@@ -11255,6 +11263,70 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Jamisontown",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111517,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.749556176,
+          -32.9171208673
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - ISLINGTON Maitland Rd at Beaumont St",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1643268667800,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1643272557033,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beaumont St",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Maitland Rd",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Islington",
             "trafficVolume": ""
           }
         ]
