@@ -7764,11 +7764,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1643429414363,
+        "lastUpdated": 1643431120437,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7777,7 +7777,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          " "
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
@@ -7789,10 +7789,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -7803,7 +7803,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Bexley North",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7814,13 +7814,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.97251511952132,
-          -33.77267744930254
+          150.97252081921548,
+          -33.77266936705539
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BAULKHAM HILLS M2 Motorway approaching Langdon Rd",
+        "headline": "CRASH 2 cars - BAULKHAM HILLS M2 Motorway approaching Langdon Road",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -7836,11 +7836,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1643430543403,
+        "lastUpdated": 1643431170280,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7856,13 +7856,13 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Langdon Rd",
+            "crossStreet": "Langdon Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -7875,7 +7875,80 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Baulkham Hills",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111711,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.59962922054362,
+          -34.860201014481575
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BOMADERRY Princes Highway at Bolong Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1643430877523,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "or allow extra travel time",
+        "adviceA": "Delay your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1643431070000,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bolong Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bomaderry",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8025,78 +8098,6 @@
             "secondLocation": " ",
             "suburb": "Strathfield",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 111605,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.66293144813235,
-          -32.81240837754613
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH cars - TARRO New England Highway approaching Hexham bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1643343117253,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1643344341313,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hexham bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "New England Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Tarro",
-            "trafficVolume": "Heavy"
           }
         ]
       }
