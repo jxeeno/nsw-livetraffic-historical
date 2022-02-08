@@ -6770,7 +6770,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN - ST PETERS M8 Motorway near tunnel exit",
+        "headline": "BREAKDOWN Car - ST PETERS M8 Motorway near tunnel exit",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -6785,12 +6785,12 @@
         "created": 1644354848780,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1644354985437,
+        "lastUpdated": 1644355492330,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6801,7 +6801,7 @@
         "attendingGroups": [
           "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
@@ -6904,37 +6904,37 @@
     },
     {
       "type": "Feature",
-      "id": 112535,
+      "id": 112625,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2034197923431,
-          -33.77331328623403
+          149.709587,
+          -34.7386703
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ROSEVILLE CHASE Warringah Road on Roseville Bridge",
+        "headline": "CRASH Truck, Car - GOULBURN Fitzroy Street (Crookwell Road) near Lamarra Place",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1644267208367,
+        "created": 1644355441590,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck, Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1644269006923,
+        "mainCategory": "Crash",
+        "lastUpdated": 1644355768637,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6943,32 +6943,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Roseville Bridge",
+            "crossStreet": "Lamarra Place",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "on",
-            "mainStreet": "Warringah Road",
+            "locationQualifier": "near",
+            "mainStreet": "Fitzroy Street (Crookwell Road)",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Roseville Chase",
+            "suburb": "Goulburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112626,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87964766331984,
+          -31.350552812178787
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - GOONOO GOONOO New England Highway approximately 23kms south of Tamworth",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1644355718183,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1644355718230,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "23kms south of Tamworth",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approximately",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Goonoo Goonoo",
             "trafficVolume": ""
           }
         ]
