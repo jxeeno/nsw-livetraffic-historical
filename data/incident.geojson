@@ -7010,7 +7010,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - ENMORE Stanmore Road near Liberty Street, Stanmore",
+        "headline": "ADVERSE WEATHER Water over road - ENMORE Stanmore Road between Enmore Road AND Liberty Street, Stanmore ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7030,10 +7030,10 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1644538012840,
+        "lastUpdated": 1644539659153,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<p>Westbound traffic on Stanmore Rd blocked at Enmore Rd. Consider using Addison Rd to travel westbound.</p><p>Eastbound traffic on Stanmore Rd is being diverted into Liberty St.</p>",
         "additionalInfo": [
           " "
         ],
@@ -7047,24 +7047,32 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Liberty Street",
+            "crossStreet": "Enmore Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "between",
             "mainStreet": "Stanmore Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": " ",
+            "secondLocation": "Liberty Street",
             "suburb": "Enmore",
             "trafficVolume": ""
           }
@@ -7073,17 +7081,17 @@
     },
     {
       "type": "Feature",
-      "id": 112849,
+      "id": 112851,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0044043465576,
-          -33.826469991229104
+          151.2022311,
+          -33.906087
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - HOLROYD Church Street off-ramp from M4 Motorway",
+        "headline": "ADVERSE WEATHER Water over road - ALEXANDRIA O'Riordan Street approaching Wyndham Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7095,15 +7103,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1644538311837,
+        "created": 1644538825300,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Water over road",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1644538311870,
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1644538825347,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7114,30 +7122,30 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "ADVERSE WEATHER Water over road",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M4 Motorway",
+            "crossStreet": "Wyndham Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "from",
-            "mainStreet": "Church Street off-ramp",
+            "locationQualifier": "approaching",
+            "mainStreet": "O'Riordan Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Holroyd",
+            "suburb": "Alexandria",
             "trafficVolume": ""
           }
         ]
@@ -7145,50 +7153,38 @@
     },
     {
       "type": "Feature",
-      "id": 112548,
+      "id": 112852,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2122802005249,
-          -33.86391766667272
+          151.05458136455687,
+          -33.85136851218798
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Filming - SYDNEY Phillip Lane between Macquarie Street AND Phillip Street ",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Road",
-            "direction": "Both directions",
-            "finishTime": "11:30am",
-            "fromDay": "Thursday",
-            "startTime": "7:30am",
-            "toDay": ""
-          }
-        ],
+        "headline": "CRASH Car - LIDCOMBE Parramatta Road approaching Hill Road",
+        "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1644274560337,
+        "created": 1644539241250,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Check signage",
-        "end": 1644453000000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1644453055633,
-        "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.<br>Traffic and pedestrians will be stopped intermittently during filming.",
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1644539241280,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7196,25 +7192,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "duration": null,
-        "start": 1644411600000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Filming",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Macquarie Street",
+            "crossStreet": "Hill Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Phillip Lane",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
-            "secondLocation": "Phillip Street",
-            "suburb": "Sydney",
+            "secondLocation": " ",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -7288,363 +7291,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Lane Cove North",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 112729,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.26565551,
-          -33.6791712124
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - INGLESIDE Mona Vale Road at Manor Road,",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1644443162000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1644452628240,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Manor Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Mona Vale Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Ingleside",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 112732,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.97981513588604,
-          -33.387231462382225
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Vehicle ferries",
-            "linkURL": "https://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
-          }
-        ],
-        "headline": "FERRY OUT OF SERVICE Breakdown - WISEMANS FERRY Webbs Creek Ferry between River Road AND St Albans Road ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1644444426013,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Breakdown",
-        "adviceB": "Allow extra travel time; Use diversions",
-        "adviceA": "Check signage",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Ferry out of service",
-        "lastUpdated": 1644452530880,
-        "otherAdvice": "Unscheduled maintenance is taking place for a short time.",
-        "arrangementElements": [],
-        "diversions": "<strong>Westbound:</strong> River Rd, Old Northern Rd, Wisemans Ferry Rd, Settlers Rd to St Albans Rd.<br><strong>Eastbound:</strong> St Albans Rd, Settlers Rd, Wisemans Ferry Rd, Old Northern Rd, to River Rd.<br>",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "FERRY OUT OF SERVICE Breakdown",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "River Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Webbs Creek Ferry",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": "St Albans Road",
-            "suburb": "Wisemans Ferry",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 112748,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.85841122298584,
-          -33.98453962370037
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - BARDIA Hume Motorway just past Brooks Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1644452095650,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1644453244480,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Brooks Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 4",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Hume Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Bardia",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 112746,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1815819,
-          -33.9071085
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - ST PETERS Princes Highway at Sydney Park Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1644451321953,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1644452256397,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Sydney Park Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "St Peters",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 112749,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21724458988245,
-          -33.8821340027957
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Pedestrian - DARLINGHURST Eastern Distributor at Main Tunnel",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1644452231790,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Pedestrian",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1644452415443,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "HAZARD Pedestrian",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Main Tunnel",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Tunnel"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Eastern Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Darlinghurst",
             "trafficVolume": ""
           }
         ]
@@ -13652,6 +13298,78 @@
             "secondLocation": " ",
             "suburb": "Wahroonga",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112849,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0044043465576,
+          -33.826469991229104
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - HOLROYD Church Street off-ramp from M4 Motorway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1644538311837,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1644539155170,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M4 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "from",
+            "mainStreet": "Church Street off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Holroyd",
+            "trafficVolume": ""
           }
         ]
       }
