@@ -6068,7 +6068,7 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645102181700,
+        "lastUpdated": 1645104501637,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p><strong>Eastbound</strong>: <strong></strong>Boyd st, Limekins Rd, Yarras Ln, Glanmire Lane, to rejoin Great Western Hwy.<br><strong>Westbound:&nbsp;</strong>Great Western Hwy, Glanmire Ln, Yarras Ln, Limekilns Rd, Boyd St to rejoin Great Western Hwy.</p><p>This diversion is suitable for all vehicles.</p>",
@@ -6119,38 +6119,50 @@
     },
     {
       "type": "Feature",
-      "id": 113460,
+      "id": 113463,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6651565,
-          -32.7610174
+          151.2096777,
+          -33.8839721
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car on fire - THORNTON Raymond Terrace Road near Eales Road",
-        "periods": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS - SURRY HILLS Foveaux Street between Commonwealth Street AND Elizabeth Street ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Westbound",
+            "finishTime": "3:00pm",
+            "fromDay": "Sunday",
+            "startTime": "8:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1645101518817,
+        "isInitialReport": false,
+        "created": 1645104410120,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
+        "subCategoryA": "(p)",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1645101518847,
-        "otherAdvice": " ",
+        "end": 1647144000000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1645104410167,
+        "otherAdvice": "3 of 4 westbound lanes will be closed for access to a nearby worksite.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6158,32 +6170,25 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "HAZARD Car on fire",
+        "duration": null,
+        "start": 1645909200000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Eales Road",
+            "crossStreet": "Commonwealth Street",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Raymond Terrace Road",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Foveaux Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Thornton",
+            "region": "SYD_MET",
+            "secondLocation": "Elizabeth Street",
+            "suburb": "Surry Hills",
             "trafficVolume": ""
           }
         ]
@@ -14071,6 +14076,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Darlinghurst",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113460,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6651565,
+          -32.7610174
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Car on fire - THORNTON Raymond Terrace Road near Eales Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1645101518817,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car on fire",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1645104429570,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Car on fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Eales Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Raymond Terrace Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Thornton",
             "trafficVolume": ""
           }
         ]
