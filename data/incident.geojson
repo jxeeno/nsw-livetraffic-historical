@@ -6561,7 +6561,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -6576,7 +6576,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1645134665657,
+        "lastUpdated": 1645135881477,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6690,37 +6690,37 @@
     },
     {
       "type": "Feature",
-      "id": 113347,
+      "id": 113513,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.938262266778,
-          -33.771272490289405
+          151.22639525501708,
+          -33.75119903128096
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - SEVEN HILLS Prospect Highway near Lucas Road",
+        "headline": "BREAKDOWN Car - FRENCHS FOREST Forest Way at Warringah Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1645044428947,
+        "created": 1645135635280,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1645049414930,
+        "lastUpdated": 1645135635310,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6729,32 +6729,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Mechanic"
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lucas Road",
+            "crossStreet": "Warringah Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Prospect Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Forest Way",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Seven Hills",
+            "suburb": "Frenchs Forest",
             "trafficVolume": ""
           }
         ]
@@ -14514,6 +14515,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Auburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113510,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7609379,
+          -34.020183
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Ute - HARRINGTON PARK Camden Valley Way at Oran Park Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645134665623,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1645135881477,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Ute",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Oran Park Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Camden Valley Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Harrington Park",
             "trafficVolume": ""
           }
         ]
