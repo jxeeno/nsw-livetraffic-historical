@@ -6145,8 +6145,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1645151933117,
-        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
+        "lastUpdated": 1645152753487,
+        "otherAdvice": "Traffic will be held for 20 minutes while the truck is moved.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6170,9 +6170,9 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "-",
@@ -6694,37 +6694,37 @@
     },
     {
       "type": "Feature",
-      "id": 113380,
+      "id": 113569,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2075220121643,
-          -33.93568950705178
+          150.85224476295167,
+          -33.812531917331114
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - EASTLAKES Wentworth Avenue at Southern Cross Drive",
+        "headline": "CRASH Multiple vehicles - EASTERN CREEK Westlink M7 just past Old Wallgrove Road on-ramp",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1645065061560,
+        "created": 1645153067103,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Multiple vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1645066459367,
+        "mainCategory": "Crash",
+        "lastUpdated": 1645153067133,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6733,107 +6733,35 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services",
+          "Transport for NSW",
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Southern Cross Drive",
+            "crossStreet": "Old Wallgrove Road on-ramp",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Wentworth Avenue",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Eastlakes",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 113362,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.22995134296292,
-          -33.58150647742202
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Semi-trailer - MOUNT VICTORIA Great Western Highway on Victoria Pass",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645054623847,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Semi-trailer",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1645066637870,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Mechanic",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Semi-trailer",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Victoria Pass",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "on",
-            "mainStreet": "Great Western Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "Westlink M7",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Mount Victoria",
-            "trafficVolume": ""
+            "suburb": "Eastern Creek",
+            "trafficVolume": "Heavy"
           }
         ]
       }
