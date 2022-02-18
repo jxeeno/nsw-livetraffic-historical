@@ -6139,7 +6139,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1645222175910,
+        "lastUpdated": 1645222846803,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6161,8 +6161,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -6477,38 +6477,38 @@
     },
     {
       "type": "Feature",
-      "id": 113510,
+      "id": 113651,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7609379,
-          -34.020183
+          150.838782128,
+          -33.6257660506
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Ute - HARRINGTON PARK Camden Valley Way at Oran Park Drive",
+        "headline": "CRASH Truck, Car - MULGRAVE Windsor Road at Groves Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1645134665623,
+        "created": 1645222883383,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Truck, Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1645135881477,
-        "otherAdvice": " ",
+        "mainCategory": "Crash",
+        "lastUpdated": 1645222883413,
+        "otherAdvice": "<strong>Westbound:</strong> Traffic is moving past the crash site using the shoulder.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6516,32 +6516,40 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Ute",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Oran Park Drive",
+            "crossStreet": "Groves Avenue",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Right turn lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Camden Valley Way",
+            "mainStreet": "Windsor Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Harrington Park",
+            "suburb": "Mulgrave",
             "trafficVolume": ""
           }
         ]
@@ -6615,78 +6623,6 @@
             "secondLocation": " ",
             "suburb": "Hinchinbrook",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 113512,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1613327,
-          -33.9516385
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - KYEEMAGH General Holmes Drive at Bestic Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645135233783,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1645136411877,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bestic Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "General Holmes Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Kyeemagh",
-            "trafficVolume": ""
           }
         ]
       }
