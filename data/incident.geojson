@@ -6144,7 +6144,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645140560297,
+        "lastUpdated": 1645142787230,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6162,7 +6162,16 @@
             "conditionTendency": "",
             "crossStreet": "College Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Lake Road",
             "quadrant": "",
@@ -6203,11 +6212,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645141620840,
+        "lastUpdated": 1645142236103,
         "otherAdvice": "There is debris scattered in all lanes.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -6230,7 +6239,7 @@
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -6243,7 +6252,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "St Clair",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -6254,8 +6263,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1386783,
-          -33.8724057
+          151.14180810264426,
+          -33.87075047611544
         ]
       },
       "properties": {
@@ -6276,12 +6285,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Police are directing traffic",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645141825617,
-        "otherAdvice": " ",
+        "lastUpdated": 1645142498873,
+        "otherAdvice": "Intermittent lane closures may occur during salvage.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6316,6 +6325,71 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Haberfield",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113533,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.78625679215392,
+          -31.594014185758695
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier truck crash - WILLOW TREE New England Highway at north of the town",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645142733147,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1645142733193,
+        "otherAdvice": "No lanes are closed as vehicles are in the breakdown lane.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck",
+          "Crane"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier truck crash",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "north of the town",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Willow Tree",
             "trafficVolume": ""
           }
         ]
@@ -6393,151 +6467,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Artarmon",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 113363,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9491943791332,
-          -33.89849404806173
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - CABRAMATTA Hume Highway at Cabramatta Road East",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645054732753,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1645056228703,
-        "otherAdvice": "Vehicles exiting Cabramatta Rd East are also affected.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Person trapped"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cabramatta Road East",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Cabramatta",
-            "trafficVolume": "Moderate"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 113364,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.25262239629512,
-          -33.79651766229568
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - SEAFORTH Manly Road approaching Sydney Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645054824250,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1645055675700,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Sydney Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "5",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Manly Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Seaforth",
             "trafficVolume": ""
           }
         ]
