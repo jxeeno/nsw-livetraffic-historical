@@ -6038,13 +6038,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7816554,
-          -33.877679
+          150.7897771288971,
+          -33.880061138537236
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck - KEMPS CREEK Elizabeth Drive near Western Road",
+        "headline": "CRASH Truck - KEMPS CREEK Elizabeth Drive between Western Road AND Devonshire Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6055,16 +6055,16 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1645647663397,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645647663443,
+        "lastUpdated": 1645648682647,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6083,13 +6083,22 @@
             "conditionTendency": "",
             "crossStreet": "Western Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
             "mainStreet": "Elizabeth Drive",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
-            "secondLocation": " ",
+            "secondLocation": "Devonshire Road",
             "suburb": "Kemps Creek",
             "trafficVolume": ""
           }
@@ -6102,13 +6111,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.170917271,
-          -33.812450875
+          151.1709521,
+          -33.8123918
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "Hazard damaged traffic signals - LANE COVE Epping Road at Longueville Road",
+        "headline": "Hazard damaged traffic signals - LANE COVE Longueville Road at Epping Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6128,7 +6137,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645648533143,
+        "lastUpdated": 1645648972963,
         "otherAdvice": "Traffic signal post has been hit and has fallen into lane 2",
         "arrangementElements": [],
         "diversions": " ",
@@ -6137,6 +6146,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
         "displayName": "Hazard damaged traffic signals",
@@ -6144,7 +6154,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Longueville Road",
+            "crossStreet": "Epping Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -6157,13 +6167,87 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Epping Road",
+            "mainStreet": "Longueville Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Lane Cove",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85250647832936,
+          -33.79743951206666
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - MINCHINBURY M4 Motorway below Wallgrove Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645648953390,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1645648953423,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wallgrove Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "below",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Minchinbury",
+            "trafficVolume": "Moderate"
           }
         ]
       }
