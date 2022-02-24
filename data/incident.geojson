@@ -7169,7 +7169,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - LONDONDERRY Londonderry Road at Boscobel Road",
+        "headline": "CRASH 2 cars - LONDONDERRY Londonderry Road between Boscobel Road AND Whitegates Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7189,7 +7189,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645737710640,
+        "lastUpdated": 1645738171227,
         "otherAdvice": "The road is closed for salvage.&nbsp;",
         "arrangementElements": [],
         "diversions": "Northbound Boscobel Road, southbound Whitegates Road.",
@@ -7200,6 +7200,12 @@
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "nfolEkv~v[IC[Ei@IYE}@Oe@Gw@K}@KQCMCi@Gu@IeAOgAMWG",
+            "levels": ""
+          }
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -7218,12 +7224,12 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Londonderry Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
-            "secondLocation": " ",
+            "secondLocation": "Whitegates Road",
             "suburb": "Londonderry",
             "trafficVolume": ""
           }
@@ -7378,17 +7384,17 @@
     },
     {
       "type": "Feature",
-      "id": 114333,
+      "id": 114334,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.0120808,
-          -33.3799942
+          151.19711341535015,
+          -33.54515518891638
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS - FORBES Newell Highway at Union Street",
+        "headline": "BREAKDOWN Car - BROOKLYN M1 Motorway just past Hawkesbury River Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7400,15 +7406,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1645737744137,
+        "created": 1645737886840,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
+        "subCategoryA": "Car",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1645737744150,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1645737886873,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7417,18 +7423,91 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Union Street",
+            "crossStreet": "Hawkesbury River Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Brooklyn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.91214022789305,
+          -33.93777386538156
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - CASULA M5 Motorway at Hume Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645737890947,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1645737965590,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Motorway Crew"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hume Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7437,12 +7516,84 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Newell Highway",
+            "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Forbes",
+            "suburb": "Casula",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2906447,
+          -33.7478075
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ADVERSE WEATHER Water over road - DEE WHY Pittwater Road at Lismore Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645737998040,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1645737998073,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lismore Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pittwater Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Dee Why",
             "trafficVolume": ""
           }
         ]
@@ -7667,78 +7818,6 @@
             "region": "SYD_MET",
             "secondLocation": "Barrack Street",
             "suburb": "Sydney CBD",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 114196,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1118464037222,
-          -33.987369581797495
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - BLAKEHURST Princes Highway just past King Georges Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645650351713,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Water over road",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Adverse weather",
-        "lastUpdated": 1645651883453,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "ADVERSE WEATHER Water over road",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "King Georges Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Affected",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Blakehurst",
             "trafficVolume": ""
           }
         ]
@@ -14341,6 +14420,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Eastgardens",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114333,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.0120808,
+          -33.3799942
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Level Crossing Failure - FORBES Newell Highway at Union Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645737744137,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "(u\\p)",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1645738194477,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Level Crossing Failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Union Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Newell Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_WEST",
+            "secondLocation": " ",
+            "suburb": "Forbes",
             "trafficVolume": ""
           }
         ]
