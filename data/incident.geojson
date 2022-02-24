@@ -6622,78 +6622,6 @@
     },
     {
       "type": "Feature",
-      "id": 114262,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0284837501475,
-          -33.699123129537554
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - DURAL New Line Road between Old Northern Road AND Bunnings ",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645681319213,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Police operation",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1645683786573,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Old Northern Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "New Line Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": "Bunnings",
-            "suburb": "Dural",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 114263,
       "geometry": {
         "type": "Point",
@@ -7210,15 +7138,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.92469488317147,
-          -33.94034191817478
+          150.93891461426392,
+          -33.941638094621986
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Motorcycle - MOOREBANK M5 Motorway On-ramp from Moorebank Avenue",
+        "headline": "CRASH Car, Motorcycle - MOOREBANK M5 Motorway just past Heathcote Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -7232,11 +7160,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car, Motorcycle",
-        "adviceB": " ",
-        "adviceA": " ",
+        "adviceB": "Expect delays",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1645684207703,
+        "lastUpdated": 1645684782347,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7253,25 +7181,99 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moorebank Avenue",
+            "crossStreet": "Heathcote Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "On-ramp, Lane 1",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "from",
-            "mainStreet": "M5 Motorway On-ramp",
+            "locationQualifier": "just past",
+            "mainStreet": "M5 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Moorebank",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.045899,
+          -33.8129338
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car, Pedestrian - RYDALMERE Victoria Road at John Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645684319117,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Pedestrian",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1645684319163,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Helicopter"
+        ],
+        "displayName": "CRASH Car, Pedestrian",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "John Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rydalmere",
             "trafficVolume": ""
           }
         ]
@@ -7713,78 +7715,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Marrickville",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 114143,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2180211,
-          -33.871052
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - WOOLLOOMOOLOO Eastern Distributor approaching tunnel exit",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645596998230,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1645598145677,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "tunnel exit",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Eastern Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Woolloomooloo",
             "trafficVolume": ""
           }
         ]
@@ -14204,6 +14134,78 @@
             "secondLocation": " ",
             "suburb": "Sydney",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0284837501475,
+          -33.699123129537554
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - DURAL New Line Road between Old Northern Road AND Bunnings ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645681319213,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1645684330937,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Old Northern Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "New Line Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": "Bunnings",
+            "suburb": "Dural",
+            "trafficVolume": "Heavy"
           }
         ]
       }
