@@ -6969,11 +6969,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Water over road",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Reduce your speed; Exercise caution",
+        "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1645774037040,
+        "lastUpdated": 1645779088957,
         "otherAdvice": "Never drive through floodwater. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6982,8 +6982,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
         ],
         "displayName": "ADVERSE WEATHER Water over road",
         "media": [],
@@ -6994,7 +6993,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7319,6 +7318,79 @@
     },
     {
       "type": "Feature",
+      "id": 114434,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.180469400805,
+          -33.94602714927267
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - MASCOT General Holmes Drive approaching the airport tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1645779042723,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Overheight vehicle",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1645779042753,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "the airport tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 114257,
       "geometry": {
         "type": "Point",
@@ -7385,80 +7457,6 @@
             "secondLocation": " ",
             "suburb": "Kemps Creek",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 114264,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8774822745282,
-          -33.955176123550295
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH B-Double, Car - CASULA M7 Motorway southbound off-ramp to M5 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645681840817,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "B-Double, Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1645692388510,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Emergency services",
-          "Motorway Crew"
-        ],
-        "displayName": "CRASH B-Double, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M5 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Shoulder",
-                "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": "Off-ramp"
-              }
-            ],
-            "locationQualifier": "to",
-            "mainStreet": "M7 Motorway southbound off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Casula",
-            "trafficVolume": "Moderate"
           }
         ]
       }
