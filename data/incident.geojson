@@ -7340,11 +7340,11 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Truck, Car",
-        "adviceB": "Plan your journey",
-        "adviceA": "Use an alternative route",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1646038408683,
+        "lastUpdated": 1646042979083,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "M7 Motorway OR The Horsley Dr, Cowpasture Rd and Elizabeth Dr, in both directions.",
@@ -7353,6 +7353,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Crash Investigation Unit",
           "Emergency services",
           "Transport for NSW"
@@ -7387,24 +7388,24 @@
             "region": "SYD_WEST",
             "secondLocation": "The Horsley Drive",
             "suburb": "Horsley Park",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 114731,
+      "id": 114733,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1433243,
-          -34.0391051
+          151.046227,
+          -33.847105
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - WOOLOOWARE Captain Cook Drive at Woolooware Road",
+        "headline": "CRASH Multiple vehicles - LIDCOMBE Parramatta Road at Day Street South",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7416,15 +7417,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1646038347147,
+        "created": 1646043370197,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Multiple vehicles",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1646038347193,
+        "mainCategory": "Crash",
+        "lastUpdated": 1646043370227,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7433,32 +7434,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Woolooware Road",
+            "crossStreet": "Day Street South",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Captain Cook Drive",
+            "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Woolooware",
+            "suburb": "Lidcombe",
             "trafficVolume": ""
           }
         ]
@@ -13595,6 +13596,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Rydalmere",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114731,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1433243,
+          -34.0391051
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS FLASHING YELLOW - WOOLOOWARE Captain Cook Drive at Woolooware Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646038347147,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights flashing yellow",
+        "lastUpdated": 1646043036383,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Woolooware Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Captain Cook Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Woolooware",
             "trafficVolume": ""
           }
         ]
