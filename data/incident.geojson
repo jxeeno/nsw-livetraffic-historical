@@ -7110,7 +7110,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car on fire - BENDEMEER New England Highway approximately 5km north of Airlie Stock Route Road",
+        "headline": "HAZARD Earlier car fire - BENDEMEER New England Highway approximately 5km north of Airlie Stock Route Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7125,12 +7125,12 @@
         "created": 1646463278193,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
-        "adviceB": "Delay your journey",
-        "adviceA": "Avoid the area",
+        "subCategoryA": "Earlier car fire",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1646465407333,
+        "lastUpdated": 1646467004130,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7139,16 +7139,11 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Transport for NSW",
           "Emergency services"
         ],
-        "encodedPolylines": [
-          {
-            "coords": "jkl{Datuy[C[KiAM_BKiACWCWKuASsB[yDCe@C_@C[Ac@?Y?e@?W@YBW@WBWDWLo@La@H[Pc@Tc@P[^k@TYRUX[JMlAsAxB_Cd@i@f@m@DGNWHML[Pc@Na@f@{Ap@{BdAkDXcAVgABODWBSFg@@i@@q@?U?]C]Es@QeBc@}DEg@[sCYkC[cDAESkBMkACKKi@ESQi@IUM[KU[g@CCYc@[]a@g@o@s@i@k@_@i@Wc@MWCEM[CGISMa@Mk@QgAEWGo@OaBYyCOoAKoAQeAMe@EMEMIWYs@_@q@UYe@i@GGGGa@]QMYSe@USIICICSG]KSESC_@G_@Ci@GSCi@Ei@G_@CIAk@G}@ISCi@EKASCIAKAgAKUCSCUCSCSEIAUGIAICSISG[OOGCAGEIEo@[eB_Ae@UQK[Q[OSKOIAAQI]QsAs@QKkAm@w@c@]QQKQMQMGEGGMKAAOMWYEEQWYa@MUe@_A[s@k@kAGOWi@c@}@_@u@[o@MSQ]e@w@IMSWMSMQ]a@GIWWMQOOOOOOi@i@GGOOOOGGOOWW_@_@YUWU",
-            "levels": ""
-          }
-        ],
-        "displayName": "HAZARD Car on fire",
+        "displayName": "HAZARD Earlier car fire",
         "media": [],
         "roads": [
           {
@@ -7157,12 +7152,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Highway"
+                "roadType": ""
               }
             ],
             "locationQualifier": "approximately",
@@ -7172,7 +7175,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bendemeer",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -7317,6 +7320,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Smithfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115377,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.43097598308103,
+          -33.33603415297981
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BERKELEY VALE Wyong Road at Kingsford Smith Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646466832057,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1646466832310,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kingsford Smith Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Wyong Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Berkeley Vale",
             "trafficVolume": ""
           }
         ]
@@ -7535,78 +7610,6 @@
             "secondLocation": " ",
             "suburb": "Medlow Bath",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 115317,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.20178790552072,
-          -33.87377746371329
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Western Distributor just past Druitt Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1646379299190,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1646380350820,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Druitt Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Western Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": "Moderate"
           }
         ]
       }
