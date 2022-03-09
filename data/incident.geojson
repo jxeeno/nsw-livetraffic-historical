@@ -7564,7 +7564,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Road damage - MACQUARIE PASS Illawarra Highway between Jamberoo Mountain Road and Escarpment Drive",
+        "headline": "HAZARD Road damage - MACQUARIE PASS Illawarra Highway between Jamberoo Mountain Road AND Escarpment Drive ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7577,17 +7577,17 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1646822059123,
-        "isMajor": true,
+        "isMajor": false,
         "name": null,
         "subCategoryA": "Road damage",
         "adviceB": "Delay your journey",
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1646847101497,
-        "otherAdvice": " ",
+        "lastUpdated": 1646858972617,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place for light vehicles only.</p><p>There is still no heavy vehicle access via Macquarie Pass.</p>",
         "arrangementElements": [],
-        "diversions": "Hume Mwy, Picton Rd and M1 Princes Mwy, in both directions.",
+        "diversions": "Southbound heavy vehicles: Hume Mwy, Picton Rd, M1 Princes Mwy<br>Northbound heavy vehicles: M1 Princes Mwy, Picton Rd, Hume Mwy",
         "additionalInfo": [
           " "
         ],
@@ -7613,7 +7613,7 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Highway"
               }
@@ -7927,7 +7927,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS - SYDNEY Western Distributor below Market Street",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - SYDNEY Western Distributor below Market Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7942,13 +7942,13 @@
         "created": 1646858842080,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "(u\\p)",
+        "subCategoryA": "Police operation",
         "adviceB": " ",
-        "adviceA": "Expect delays",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1646858842110,
-        "otherAdvice": "Traffic has been stopped by protesters.&nbsp;",
+        "lastUpdated": 1646859321303,
+        "otherAdvice": "Traffic is heavy from North Sydney",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7956,21 +7956,21 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Market Street",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
@@ -7983,6 +7983,80 @@
             "secondLocation": " ",
             "suburb": "Sydney",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115943,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.94111402565613,
+          -33.94160026657605
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 4 vehicles - MOOREBANK M5 Motorway approaching Moorebank Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646859188193,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "4 vehicles",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1646859250607,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH 4 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorebank Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Moorebank",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8426,78 +8500,6 @@
             "secondLocation": " ",
             "suburb": "Douglas Park",
             "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 115835,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1780717,
-          -33.9137219
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - ST PETERS Princes Highway approaching Bishop Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1646771641077,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1646772644947,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bishop Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "St Peters",
-            "trafficVolume": ""
           }
         ]
       }
