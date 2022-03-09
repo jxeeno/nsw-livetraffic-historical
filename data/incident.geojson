@@ -7497,7 +7497,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -7512,7 +7512,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1646821064637,
+        "lastUpdated": 1646832721530,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7921,17 +7921,17 @@
     },
     {
       "type": "Feature",
-      "id": 115924,
+      "id": 115927,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1934642976855,
-          -33.87277471009605
+          151.2089559881589,
+          -33.936330400875384
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - PYRMONT Pyrmont Bridge Road approaching Western Distributor on-ramp",
+        "headline": "CRASH Truck, Car - EASTLAKES Wentworth Avenue approaching Southern Cross Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7943,15 +7943,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1646827897923,
+        "created": 1646832505883,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck, Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1646827897970,
+        "mainCategory": "Crash",
+        "lastUpdated": 1646832505930,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7960,32 +7960,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Western Distributor on-ramp",
+            "crossStreet": "Southern Cross Drive",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
-            "mainStreet": "Pyrmont Bridge Road",
+            "mainStreet": "Wentworth Avenue",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Pyrmont",
+            "suburb": "Eastlakes",
             "trafficVolume": ""
           }
         ]
@@ -15627,6 +15628,78 @@
     },
     {
       "type": "Feature",
+      "id": 115877,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0780512303826,
+          -33.73273347694839
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - THORNLEIGH Pennant Hills Road at Wells Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646794895263,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1646832721530,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wells Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pennant Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Thornleigh",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 115919,
       "geometry": {
         "type": "Point",
@@ -15846,6 +15919,78 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Cecil Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115924,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1934642976855,
+          -33.87277471009605
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - PYRMONT Pyrmont Bridge Road approaching Western Distributor on-ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646827897923,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1646832415063,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Western Distributor on-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Pyrmont Bridge Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Pyrmont",
             "trafficVolume": ""
           }
         ]
