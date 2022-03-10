@@ -7870,7 +7870,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -7882,12 +7882,12 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1646947757343,
-        "otherAdvice": "Contraflow traffic conditions are in place.",
+        "lastUpdated": 1646948842210,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
@@ -7903,15 +7903,7 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -8221,78 +8213,6 @@
     },
     {
       "type": "Feature",
-      "id": 116053,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3366415,
-          -33.4076941
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - NARARA Manns Road at Narara Creek Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1646947405017,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1646947405063,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Narara Creek Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Manns Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Narara",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 116055,
       "geometry": {
         "type": "Point",
@@ -8358,6 +8278,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Merrylands",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116056,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92825059043207,
+          -33.69905891848939
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - KELLYVILLE RIDGE Windsor Road at Merriville Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646948724667,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1646948724713,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Merriville Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Kellyville Ridge",
             "trafficVolume": ""
           }
         ]
@@ -13048,6 +13040,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Marrickville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116053,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3366415,
+          -33.4076941
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - NARARA Manns Road at Narara Creek Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1646947405017,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1646948613700,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Narara Creek Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Manns Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Narara",
             "trafficVolume": ""
           }
         ]
