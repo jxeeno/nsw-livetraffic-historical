@@ -7813,7 +7813,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1647080703917,
+        "lastUpdated": 1647090038203,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7855,17 +7855,17 @@
     },
     {
       "type": "Feature",
-      "id": 116196,
+      "id": 116199,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.981512373,
-          -33.7626673775
+          151.05975355141726,
+          -33.94331864112151
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - BAULKHAM HILLS Seven Hills Road at Jasper Road",
+        "headline": "CRASH Truck, Car - RIVERWOOD M5 Motorway near Bonds Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7877,15 +7877,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1647082680137,
+        "created": 1647090206713,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Power failure",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1647085155223,
+        "mainCategory": "Crash",
+        "lastUpdated": 1647090206773,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7894,18 +7894,91 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Utility Company"
+          "Emergency services",
+          "Motorway Crew"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Jasper Road",
+            "crossStreet": "Bonds Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Riverwood",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.20474109151831,
+          -33.931713129660494
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Truck on fire - WEST WYALAONG Showground Road at Bellarwi Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647090550780,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck on fire",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1647090550827,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Truck on fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bellarwi Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7914,12 +7987,12 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Seven Hills Road",
+            "mainStreet": "Showground Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Baulkham Hills",
+            "suburb": "West Wyalaong",
             "trafficVolume": ""
           }
         ]
@@ -11532,6 +11605,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Woy Woy",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.981512373,
+          -33.7626673775
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - BAULKHAM HILLS Seven Hills Road at Jasper Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647082680137,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1647090013140,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jasper Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Seven Hills Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Baulkham Hills",
             "trafficVolume": ""
           }
         ]
