@@ -7539,79 +7539,6 @@
     },
     {
       "type": "Feature",
-      "id": 116304,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0715582,
-          -33.8069191
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck - WEST RYDE Victoria Road approaching Cobham Avenue, Melrose Park",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647228401017,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1647230357377,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cobham Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Victoria Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "West Ryde",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 116306,
       "geometry": {
         "type": "Point",
@@ -7710,19 +7637,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Burst water main",
-        "lastUpdated": 1647229294010,
+        "lastUpdated": 1647230913577,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Westbound: Scott St",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Utility Company",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -7738,9 +7666,17 @@
                 "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "near",
@@ -7823,83 +7759,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Mascot",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 113463,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2096777,
-          -33.8839721
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS - SURRY HILLS Foveaux Street between Commonwealth Street AND Elizabeth Street ",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Westbound",
-            "finishTime": "3:00pm",
-            "fromDay": "Sunday",
-            "startTime": "8:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1645104410120,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "(p)",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
-        "end": 1647144000000,
-        "incidentKind": "Planned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1647144031370,
-        "otherAdvice": "3 of 4 westbound lanes will be closed for access to a nearby worksite.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1645909200000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Commonwealth Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Foveaux Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": "Elizabeth Street",
-            "suburb": "Surry Hills",
             "trafficVolume": ""
           }
         ]
@@ -13124,6 +12983,79 @@
             "secondLocation": " ",
             "suburb": "South Wentworthville",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0715582,
+          -33.8069191
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck - WEST RYDE Victoria Road approaching Cobham Avenue, Melrose Park",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647228401017,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647230770410,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cobham Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "West Ryde",
+            "trafficVolume": ""
           }
         ]
       }
