@@ -6810,8 +6810,8 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1647304382310,
-        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time.<br>Expected to remain this way until then end of April.</p>",
+        "lastUpdated": 1647318615343,
+        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time.</p><p>There is a 4 metre width restriction for vehicles at this location.</p><p>Expected to remain this way until then end of April.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7833,7 +7833,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -7844,20 +7844,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Van",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1647317417277,
+        "lastUpdated": 1647318781193,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
         "displayName": "BREAKDOWN Van",
         "media": [],
@@ -7883,7 +7883,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Bar Point",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7916,20 +7916,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Van",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1647317757217,
+        "lastUpdated": 1647318526660,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
         "displayName": "BREAKDOWN Van",
         "media": [],
@@ -7941,10 +7941,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": "Road"
               }
             ],
@@ -7956,6 +7956,80 @@
             "secondLocation": " ",
             "suburb": "Rozelle",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116414,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.89424501784669,
+          -33.735488152210046
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 trucks - ACACIA GARDENS M7 Motorway just past Sunnyholt Road, Blacktown",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647318335543,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 trucks",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647318335593,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Motorway Crew",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 trucks",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sunnyholt Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Acacia Gardens",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8180,79 +8254,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Silverton to Broken Hill",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 116308,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.19290359206542,
-          -33.93634598571322
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - MASCOT General Holmes Drive approaching Wentworth Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647230281817,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1647231656953,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wentworth Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "City bound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "5",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "General Holmes Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Mascot",
             "trafficVolume": ""
           }
         ]
@@ -13701,6 +13702,78 @@
             "secondLocation": " ",
             "suburb": "Weethalle (East of Goolgowi)",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116411,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18896366121484,
+          -33.50395380254582
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - BAR POINT M1 Pacific Motorway just past Jolls Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647317417230,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1647318781193,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jolls Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Bar Point",
+            "trafficVolume": "Heavy"
           }
         ]
       }
