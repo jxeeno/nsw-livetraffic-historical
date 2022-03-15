@@ -7616,7 +7616,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -7631,7 +7631,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1647319325740,
+        "lastUpdated": 1647319926863,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7900,7 +7900,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 trucks - ACACIA GARDENS M7 Motorway just past Sunnyholt Road, Blacktown",
+        "headline": "CRASH 2 trucks - ACACIA GARDENS M7 Motorway between Sunnyholt Road, Blacktown AND Richmond Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7920,10 +7920,10 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1647319069543,
-        "otherAdvice": "Vehicles are able to pass the crash using the shoulder lane.",
+        "lastUpdated": 1647319784617,
+        "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Motorists can consider using Sunnyholt Road, Third Avenue and Richmond Road to return to the M7 Motorway",
+        "diversions": "Motorists can use Sunnyholt Road, Third Avenue and Richmond Road to return to the M7 Motorway.",
         "additionalInfo": [
           " "
         ],
@@ -7945,17 +7945,25 @@
                 "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Motorway"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "between",
             "mainStreet": "M7 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
-            "secondLocation": " ",
+            "secondLocation": "Richmond Road",
             "suburb": "Acacia Gardens",
             "trafficVolume": "Heavy"
           }
@@ -7994,7 +8002,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1647319195987,
+        "lastUpdated": 1647319889983,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8021,7 +8029,7 @@
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
-                "roadType": ""
+                "roadType": "Motorway"
               }
             ],
             "locationQualifier": "approaching",
@@ -8032,6 +8040,79 @@
             "secondLocation": " ",
             "suburb": "Macquarie Park",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21870839255982,
+          -33.439876747906375
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car towing caravan - CALGA M1 Pacific Motorway just past Peats Ridge Road (Calga interchange)",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647319742880,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647319742927,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car towing caravan",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Peats Ridge Road (Calga interchange)",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Calga",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8263,151 +8344,6 @@
     },
     {
       "type": "Feature",
-      "id": 116311,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.92687686020508,
-          -33.939962518588416
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - MOOREBANK M5 Motorway near Moorebank Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647231793550,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1647233436780,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Moorebank Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "M5 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Moorebank",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 116310,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.08402892156522,
-          -33.95301002722811
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - BEVERLY HILLS King Georges Road just past Stoney Creek Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647231264670,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1647233257473,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Stoney Creek Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "King Georges Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Beverly Hills",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 116314,
       "geometry": {
         "type": "Point",
@@ -8474,78 +8410,6 @@
             "secondLocation": " ",
             "suburb": "North Sydney",
             "trafficVolume": "Moderate"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 116315,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.97154869777833,
-          -33.94677979319079
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - MILPERRA M5 Motorway just past Henry Lawson Drive, Georges Hall",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647232948217,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1647233430637,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Henry Lawson Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "M5 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Milperra",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13632,6 +13496,79 @@
             "secondLocation": " ",
             "suburb": "Bar Point",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116405,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.11813633425444,
+          -33.88752227383872
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS truck salvage due to earlier incident - ASHFIELD Frederick Street approaching Hume Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647314393740,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1647319926863,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS truck salvage due to earlier incident",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hume Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Frederick Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Ashfield",
+            "trafficVolume": ""
           }
         ]
       }
