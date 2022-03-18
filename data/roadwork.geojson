@@ -28335,9 +28335,9 @@
         "headline": "SCHEDULED ROADWORK Bridge work - GRAFTON McClymont Place",
         "periods": [
           {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "Road",
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "5:00pm",
             "fromDay": "Monday",
@@ -28345,9 +28345,9 @@
             "toDay": ""
           },
           {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
-            "roadtype": "Road",
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "5:00pm",
             "fromDay": "Tuesday",
@@ -28369,12 +28369,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Bridge work",
-        "adviceB": "Check signage; Use an alternative route",
-        "adviceA": "Allow extra travel time",
+        "adviceB": "Allow extra travel time; Use an alternative route",
+        "adviceA": "Check signage",
         "end": 1647928800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1647576630903,
+        "lastUpdated": 1647578680670,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -29146,7 +29146,28 @@
       "properties": {
         "webLinks": [],
         "headline": "SCHEDULED ROADWORK Upgrade - KOORAWATHA Olympic Highway between Bang Bang Road AND Koorawatha road ",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "4:00pm",
+            "fromDay": "Saturday",
+            "startTime": "8:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
@@ -29163,10 +29184,10 @@
         "subCategoryA": "Upgrade",
         "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
-        "end": 1648213200000,
+        "end": 1648270800000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1647578393273,
+        "lastUpdated": 1647578700257,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place.</p><p>Traffic controllers will be on site to direct motorists. </p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -29271,6 +29292,93 @@
             "region": "REG_WEST",
             "secondLocation": "Darling Street",
             "suburb": "Dubbo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116732,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.06376715822753,
+          -35.372817274036485
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Upgrade - YERONG CREEK Olympic Highway between Hay Street AND Mcrories Rd ",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "",
+            "finishTime": "4:00pm",
+            "fromDay": "Saturday",
+            "startTime": "8:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647578899350,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Upgrade",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Reduce your speed",
+        "end": 1648213200000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1647578899397,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place.</p><p>Traffic controllers will be on site to direct motorists. </p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1647781200000,
+        "displayName": "SCHEDULED ROADWORK Upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hay Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Olympic Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": "Mcrories Rd",
+            "suburb": "Yerong Creek",
             "trafficVolume": ""
           }
         ]
