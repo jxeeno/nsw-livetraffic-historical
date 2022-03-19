@@ -8403,79 +8403,6 @@
     },
     {
       "type": "Feature",
-      "id": 116844,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.80800393119605,
-          -33.880492053022856
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - KEMPS CREEK Elizabeth Drive at Mamre Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647723115707,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1647726904483,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Mamre Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Elizabeth Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Kemps Creek",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 116845,
       "geometry": {
         "type": "Point",
@@ -8629,8 +8556,13 @@
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "TRAFFIC LIGHTS BLACKED OUT - MARSFIELD Balaclava Road at Agincourt Road",
+        "webLinks": [
+          {
+            "linkText": "Ausgrid",
+            "linkURL": "https://www.ausgrid.com.au/Outages/Current-Outages"
+          }
+        ],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - MARSFIELD Balaclava Road at Agincourt Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8645,12 +8577,12 @@
         "created": 1647727249433,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Power failure",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1647727249480,
+        "lastUpdated": 1647728029080,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8661,7 +8593,7 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
         "media": [],
         "roads": [
           {
@@ -8969,78 +8901,6 @@
             ],
             "locationQualifier": "approximately",
             "mainStreet": "Picton Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Cataract",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 116797,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.858902,
-          -34.3850266
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - CATARACT M1 Princes Motorway (Mount Ousley Road) approaching Clive Bissell Drive, Mount Keira",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647640307497,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1647641659273,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Clive Bissell Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Princes Motorway (Mount Ousley Road)",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_SOUTH",
@@ -12160,6 +12020,79 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Wardell",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116844,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.80800393119605,
+          -33.880492053022856
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - KEMPS CREEK Elizabeth Drive at Mamre Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647723115707,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647728015660,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mamre Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Elizabeth Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Kemps Creek",
             "trafficVolume": ""
           }
         ]
