@@ -8013,17 +8013,17 @@
     },
     {
       "type": "Feature",
-      "id": 116969,
+      "id": 116971,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.5241770018189,
-          -35.25760269906572
+          151.2192618,
+          -33.874786
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BUNGENDORE Kings Highway (aprox 20km east) near Harrowfield Drive",
+        "headline": "CRASH Car, Pedestrian - WOOLLOOMOOLOO William Street at Forbes Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8035,15 +8035,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1647845510830,
+        "created": 1647847159170,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car, Pedestrian",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1647845510880,
+        "lastUpdated": 1647847271917,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8052,33 +8052,42 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH Car, Pedestrian",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Harrowfield Drive",
+            "crossStreet": "Forbes Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Kings Highway (aprox 20km east)",
+            "locationQualifier": "at",
+            "mainStreet": "William Street",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_SOUTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Bungendore",
-            "trafficVolume": ""
+            "suburb": "Woolloomooloo",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13686,6 +13695,78 @@
             "secondLocation": " ",
             "suburb": "Waterfall",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116969,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5241770018189,
+          -35.25760269906572
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BUNGENDORE Kings Highway (aprox 20km east) near Harrowfield Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647845510830,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647847491107,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Harrowfield Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Kings Highway (aprox 20km east)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Bungendore",
+            "trafficVolume": ""
           }
         ]
       }
