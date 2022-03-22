@@ -8477,8 +8477,8 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1647917072770,
-        "otherAdvice": "There is no access from Richmond Road in to Elara Boulevard due to the breakdown.",
+        "lastUpdated": 1647917986317,
+        "otherAdvice": "<p>There is no access from Richmond Road in to Elara Boulevard due to the breakdown.</p><p>There is also no access from Richmond Road in to Abell Road due to a separate crash. </p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8496,7 +8496,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Elara Boulevard",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
@@ -8521,37 +8521,37 @@
     },
     {
       "type": "Feature",
-      "id": 116938,
+      "id": 117042,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.79513026331853,
-          -33.60912759992759
+          150.95052900209961,
+          -33.89824027237152
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car on fire - CLARENDON Hawkesbury Valley Way approaching Racecourse Road, Richmond",
+        "headline": "BREAKDOWN Truck - LANSVALE Hume Highway approaching Cutler Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1647830421050,
+        "created": 1647917702717,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
-        "adviceB": "Allow extra travel time",
+        "subCategoryA": "Truck",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1647831598850,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1647917702763,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8560,18 +8560,163 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "HAZARD Car on fire",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Racecourse Road",
+            "crossStreet": "Cutler Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Lansvale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117043,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9576753,
+          -33.8944404
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - LANSVALE Hume Highway at Hollywood Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647918097133,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647918097180,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hollywood Drive",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Lansvale",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117044,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9576753,
+          -33.8944404
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH - LANSVALE Hume Highway at Hollywood Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647918350233,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1647918350280,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hollywood Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -8579,14 +8724,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Hawkesbury Valley Way",
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Clarendon",
-            "trafficVolume": "Moderate"
+            "suburb": "Lansvale",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8875,78 +9020,6 @@
             "secondLocation": " ",
             "suburb": "Horningsea Park",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 116930,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.13804230074834,
-          -33.934641404262386
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Semi-trailer - BARDWELL VALLEY M5 East Motorway in the main tunnel",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1647825447880,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Semi-trailer",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1647831736427,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "BREAKDOWN Semi-trailer",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "the main tunnel",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "in",
-            "mainStreet": "M5 East Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Bardwell Valley",
-            "trafficVolume": "Moderate"
           }
         ]
       }
