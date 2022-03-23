@@ -7387,7 +7387,7 @@
         "adviceA": "Delay your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648067139083,
+        "lastUpdated": 1648067173003,
         "otherAdvice": "<p>Northbound motorists heading towards Hexham can use M1 Pacific Mwy, Newcastle Link Rd, Newcastle Inner City Bypass and Maitland Rd, however traffic is extremely heavy.</p><p>Northbound motorists heading to Raymond Terrace and beyond can use M1 Pacific Mwy, Weakleys Dr, Glenwood Dr, Thornton Rd/Railway Ave/Edwards Ave/Government Rd, Raymond Terrace Rd, William Bailey St and Adelaide St to join the Pacific Hwy.</p><p>Southbound/westbound motorists should consider using Maitland Rd, Newcastle Inner City Bypass, Newcastle Link Rd and the M1 Pacific Mwy to travel between Hexham and Newcastle Interchange/Beresfield.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -7408,15 +7408,7 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              },
-              {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -7612,7 +7604,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648066127853,
+        "lastUpdated": 1648067321747,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7621,6 +7613,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -7750,7 +7743,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -7765,7 +7758,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1648066923317,
+        "lastUpdated": 1648067713487,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7830,17 +7823,17 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1648067028483,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648067028533,
+        "lastUpdated": 1648067611000,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Motorists car use the Pacific Hwy as an alternative route.",
         "additionalInfo": [
           " "
         ],
@@ -7855,7 +7848,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Pacific Highway overpass",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
@@ -7874,6 +7867,79 @@
             "secondLocation": " ",
             "suburb": "Cowan",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.49015085433658,
+          -33.01276068348908
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - FREEMANS WATERHOLE M1 Pacific Motorway northbound off-ramp to Freemans Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648067381453,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648067381483,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Freemans Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M1 Pacific Motorway northbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Freemans Waterhole",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8095,83 +8161,6 @@
             "region": "REG_WEST",
             "secondLocation": " ",
             "suburb": "Silverton",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 114874,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.71143174828217,
-          -34.19136404736025
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Wollondilly Shire Council",
-            "linkURL": "https://www.wollondilly.nsw.gov.au/home/alerts/"
-          }
-        ],
-        "headline": "CHANGED TRAFFIC CONDITIONS Due to an earlier flooding - DOUGLAS PARK Douglas Park Causeway above Nepean River",
-        "periods": [],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1646129945653,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Due to an earlier incident",
-        "adviceB": " ",
-        "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1647980780760,
-        "otherAdvice": "<p><strong>The road is open with a reduced speed limit.</strong><br></p><p>Other local roads in the Wollondilly Shire Council a<a href=\"https://www.wollondilly.nsw.gov.au/home/alerts/\"></a>rea may be closed due to flooding or affected by recent adverse weather.&nbsp;Visit the council's&nbsp;<a href=\"https://www.wollondilly.nsw.gov.au/home/alerts/\" target=\"_blank\">website&nbsp;</a>or&nbsp;social media channels&nbsp;for further information.</p>",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Local Council"
-        ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Due to an earlier flooding",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Nepean River",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "above",
-            "mainStreet": "Douglas Park Causeway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Douglas Park",
             "trafficVolume": ""
           }
         ]
@@ -13533,6 +13522,151 @@
             "secondLocation": " ",
             "suburb": "Mooney Mooney Creek",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2116835293211,
+          -33.83372267186235
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - NORTH SYDNEY Warringah Freeway at Ridge Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648066923287,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648067713487,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ridge Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "6",
+                "roadType": "Freeway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99523521169147,
+          -33.85507908052278
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - GUILDFORD Woodville Road just past Guildford Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648067190873,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1648067351287,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Guildford Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Woodville Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Guildford",
+            "trafficVolume": ""
           }
         ]
       }
