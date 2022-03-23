@@ -7311,15 +7311,15 @@
         "name": null,
         "subCategoryA": "Multiple vehicles",
         "adviceB": "Avoid the area",
-        "adviceA": "Delay your journey",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648070982540,
-        "otherAdvice": "<p>Northbound motorists heading towards Hexham can use M1 Pacific Mwy, Newcastle Link Rd, Newcastle Inner City Bypass and Maitland Rd, however traffic is extremely heavy.</p><p>Northbound motorists heading to Raymond Terrace and beyond can use M1 Pacific Mwy, Weakleys Dr, Glenwood Dr, Thornton Rd/Railway Ave/Edwards Ave/Government Rd, Raymond Terrace Rd, William Bailey St and Adelaide St to join the Pacific Hwy.</p><p>Southbound/westbound motorists should consider using Maitland Rd, Newcastle Inner City Bypass, Newcastle Link Rd and the M1 Pacific Mwy to travel between Hexham and Newcastle Interchange/Beresfield.</p>",
+        "lastUpdated": 1648071487560,
+        "otherAdvice": "<p>Northbound motorists heading towards Hexham can use M1 Pacific Mwy, Newcastle Link Rd, Newcastle Inner City Bypass and Maitland Rd, however traffic is extremely heavy.</p><p>Northbound motorists heading to Raymond Terrace and beyond can use M1 Pacific Mwy, Weakleys Dr, Glenwood Dr, Thornton Rd/Railway Ave/Edwards Ave/Government Rd, Raymond Terrace Rd, William Bailey St and Adelaide St to join the Pacific Hwy.Southbound/westbound motorists should consider using Maitland Rd, Newcastle Inner City Bypass, Newcastle Link Rd and the M1 Pacific Mwy to travel between Hexham and Newcastle Interchange/Beresfield.</p><p>Southbound/westbound should consider using Maitland Rd, Newcastle Inner City Bypass, Newcastle Link Rd and the M1 Pacific Mwy to travel between Hexham and Newcastle Interchange.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Person trapped"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
@@ -7335,10 +7335,18 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Highway"
               }
@@ -7716,6 +7724,79 @@
             "secondLocation": " ",
             "suburb": "Fern Bay",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1869010027466,
+          -33.94485926082004
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - MASCOT General Holmes Drive at Foreshore Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648071173097,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648071173143,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Foreshore Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
+            "trafficVolume": "Moderate"
           }
         ]
       }
