@@ -5175,10 +5175,10 @@
         "subCategoryA": null,
         "adviceB": "Check signage",
         "adviceA": "Reduced speed limit",
-        "end": 1651305600000,
+        "end": 1651651200000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1646954078513,
+        "lastUpdated": 1648163676110,
         "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.<br>Motorists are advised to allow approximately 5 minutes of additional travel time.",
         "arrangementElements": [],
         "diversions": " ",
@@ -6150,8 +6150,8 @@
         "end": 1653573600000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1647583488510,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
+        "lastUpdated": 1648163407647,
+        "otherAdvice": "<p>Traffic control will be in place 24hrs/day.</p><p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -12351,7 +12351,7 @@
         "end": 1652621400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1646890300377,
+        "lastUpdated": 1648163551683,
         "otherAdvice": "<p>Work will be carried out between 7am to 6pm everyday. A single lane closure will be in place for the duration of the work&nbsp;with traffic controllers on site to direct motorists. </p><p>Allow approximately 5 minutes of additional travel time.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -17120,19 +17120,9 @@
             "roadextent": "Affected",
             "roadtype": "",
             "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Weekdays",
-            "startTime": "7:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Saturday",
-            "startTime": "7:00pm",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
             "toDay": ""
           }
         ],
@@ -17152,10 +17142,10 @@
         "subCategoryA": null,
         "adviceB": "Allow extra travel time; Check signage",
         "adviceA": "Reduced speed limit",
-        "end": 1653591600000,
+        "end": 1653573600000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1646954298477,
+        "lastUpdated": 1648163642560,
         "otherAdvice": "Alternating (stop/slow) traffic conditions will be in place.<br>Motorists are advised to allow approximately 10 minutes of additional travel time.",
         "arrangementElements": [],
         "diversions": " ",
@@ -17167,7 +17157,7 @@
           " "
         ],
         "duration": null,
-        "start": 1647244800000,
+        "start": 1647176400000,
         "displayName": "SCHEDULED ROADWORK",
         "media": [],
         "roads": [
@@ -27170,6 +27160,83 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Punchbowl",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6198782142639,
+          -31.466515199131933
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Bridge work - QUIRINDI Kamilaroi Highway approximately Connabarabran Road",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "Both directions",
+            "finishTime": "5:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:30am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648163382577,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bridge work",
+        "adviceB": "Check signage; Allow extra travel time",
+        "adviceA": "Reduced speed limit",
+        "end": 1648731600000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1648163382607,
+        "otherAdvice": "40km/h through works area<br>Alternating (stop/slow) traffic conditions will be in place.<br>Motorists should drive to the conditions.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1648386000000,
+        "displayName": "SCHEDULED ROADWORK Bridge work",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Connabarabran Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "approximately",
+            "mainStreet": "Kamilaroi Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Quirindi",
             "trafficVolume": ""
           }
         ]
