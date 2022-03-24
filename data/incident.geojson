@@ -7478,8 +7478,8 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648085870400,
-        "otherAdvice": "<p>Contraflow traffic conditions will be in place.<br>Utility crew are on site to replace the damaged power pole and lines. &nbsp;</p>",
+        "lastUpdated": 1648094567970,
+        "otherAdvice": "<p>Utility crew are on site to replace the damaged power pole and lines. &nbsp;</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7488,8 +7488,6 @@
         "webLinkName": null,
         "attendingGroups": [
           "Utility Company",
-          "Tow Truck",
-          "Emergency services",
           "Transport for NSW"
         ],
         "displayName": "CRASH Car",
@@ -7501,12 +7499,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "between",
@@ -7828,7 +7834,7 @@
         "webLinks": [],
         "headline": "CRASH 2 cars, Motorcycle - TEA GARDENS Pacific Highway between Viney Creek Road West and Viney Creek Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -7842,14 +7848,14 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Delay your journey",
-        "adviceA": "Avoid the area",
+        "adviceB": "Exercise caution; Allow extra travel time",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648093001870,
-        "otherAdvice": " ",
+        "lastUpdated": 1648095235103,
+        "otherAdvice": "Contraflow traffic conditions are in place.",
         "arrangementElements": [],
-        "diversions": "Heavy vehicles travelling between Sydney and Brisbane may wish to use the New England Hwy, as an alternative route. ",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -7858,16 +7864,6 @@
           "Crash Investigation Unit",
           "Emergency services",
           "Transport for NSW"
-        ],
-        "encodedPolylines": [
-          {
-            "coords": "jl}eEomm_\\[SCCc@W]OwCsAsAo@YO]QWOOIUOOI_@UUQOKUOUQWQUSUQUQSSOMSQUUSSCCQOSUSSSUMMKMSWSUKMSWQUKOSWKOQWACOSOWKOQYOWKQOWOYOYOYgBsDUa@{D_IOYIOKQIOKOKOEGQWQWKOQUSUSUSUMMEEGG",
-            "levels": ""
-          },
-          {
-            "coords": "pw{eEmio_\\DD`@b@r@|@\\b@RXj@~@\\j@t@xAHPN\\@DTb@h@hAVd@x@bBZl@x@dB`@x@l@dA@DRZHLJR`@n@b@n@DHl@v@d@l@n@r@dAhABBTTNNd@`@h@b@`@Zn@f@n@b@n@`@f@ZNHXPb@T~@b@n@Zr@ZDBj@VlAj@b@V",
-            "levels": ""
-          }
         ],
         "displayName": "CRASH 2 cars, Motorcycle",
         "media": [],
@@ -7881,9 +7877,9 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Highway"
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -8044,78 +8040,6 @@
     },
     {
       "type": "Feature",
-      "id": 117266,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2099291,
-          -33.8732601
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Park Street just past Elizabeth Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1648094008563,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1648094008610,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Elizabeth Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Park Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 117267,
       "geometry": {
         "type": "Point",
@@ -8181,6 +8105,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Blaxlands Ridge",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.34118178891362,
+          -35.47424567865208
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Potholes - TERMEIL Princes Highway approaching Monkey Mountain Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648095078347,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Pothole",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1648095078397,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Potholes",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Monkey Mountain Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Termeil",
             "trafficVolume": ""
           }
         ]
@@ -8400,152 +8396,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Guyra",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 117153,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.12783085581972,
-          -33.948306000367246
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - BEXLEY Forest Road at Bexley Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1648006379100,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1648008854727,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bexley Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Forest Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Bexley",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 117154,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9028379,
-          -33.77287090000001
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - BLACKTOWN Balmoral Street at Newtown Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1648006581193,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1648008876410,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Newtown Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Balmoral Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Blacktown",
             "trafficVolume": ""
           }
         ]
@@ -14991,6 +14841,78 @@
             "secondLocation": "Cheatle Street",
             "suburb": "East Hills",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2099291,
+          -33.8732601
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SYDNEY Park Street just past Elizabeth Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648094008563,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648094722377,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Elizabeth Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Park Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": ""
           }
         ]
       }
