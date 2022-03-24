@@ -7533,8 +7533,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.89947214229485,
-          -32.48269132916315
+          150.91197123630425,
+          -32.49859138845578
         ]
       },
       "properties": {
@@ -7559,7 +7559,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1648092455073,
+        "lastUpdated": 1648097113663,
         "otherAdvice": "Never drive through floodwater. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7778,12 +7778,12 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1648095235103,
-        "otherAdvice": "Contraflow traffic conditions are in place.",
+        "lastUpdated": 1648097419580,
+        "otherAdvice": "<p>Contraflow traffic conditions are in place.</p><p>NOTE: Road closure lines provided by Google Maps may not be up to date.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Fatality"
         ],
         "webLinkName": null,
         "attendingGroups": [
@@ -7797,7 +7797,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Viney Creek Road West",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Both directions",
@@ -7852,7 +7852,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1648091773320,
+        "lastUpdated": 1648097019420,
         "otherAdvice": "Never drive through floodwater. ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8173,17 +8173,17 @@
     },
     {
       "type": "Feature",
-      "id": 117275,
+      "id": 117276,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.01692512484092,
-          -33.82895738612729
+          144.16147251214764,
+          -34.66451506434685
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - GRANVILLE M4 Motorway upper viaduct just past James Ruse Drive",
+        "headline": "CRASH Truck - MAUDE Sturt Highway near St Pauls Rest Area",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8195,15 +8195,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1648096882177,
+        "created": 1648096909750,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1648096882207,
+        "mainCategory": "Crash",
+        "lastUpdated": 1648096950403,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8212,32 +8212,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "James Ruse Drive",
+            "crossStreet": "St Pauls Rest Area",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Sturt Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Maude",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97999808815888,
+          -33.79173084255221
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - NORTHMEAD Old Windsor Road approaching Hammers Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648097363637,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1648097363667,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hammers Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Right turn lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M4 Motorway upper viaduct",
+            "locationQualifier": "approaching",
+            "mainStreet": "Old Windsor Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Granville",
+            "suburb": "Northmead",
             "trafficVolume": ""
           }
         ]
@@ -8311,79 +8384,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Round Mountain (south of Clothiers Creek)",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 117150,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.47733644057618,
-          -36.61173820985992
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - BEMBOKA Snowy Mountains Highway to Brown Mountain",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1648002823197,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1648011025500,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Brown Mountain",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "to",
-            "mainStreet": "Snowy Mountains Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Bemboka",
             "trafficVolume": ""
           }
         ]
@@ -14901,6 +14901,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117275,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.01692512484092,
+          -33.82895738612729
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - GRANVILLE M4 Motorway upper viaduct just past James Ruse Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648096882177,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648096984260,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway upper viaduct",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Granville",
             "trafficVolume": ""
           }
         ]
