@@ -7875,7 +7875,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Heavy traffic",
-        "lastUpdated": 1648174327163,
+        "lastUpdated": 1648179007643,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7947,8 +7947,8 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1648177547403,
-        "otherAdvice": "Motorists can use Port Hacking Road",
+        "lastUpdated": 1648178921607,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7968,17 +7968,9 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              },
-              {
                 "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -8028,7 +8020,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1648175626730,
+        "lastUpdated": 1648179039647,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8513,6 +8505,78 @@
     },
     {
       "type": "Feature",
+      "id": 117382,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1555253159302,
+          -33.93997520719346
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ARNCLIFFE M5 East approaching Marsh Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648178686957,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648178687003,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Marsh Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 East",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 117240,
       "geometry": {
         "type": "Point",
@@ -8723,78 +8787,6 @@
             "secondLocation": " ",
             "suburb": "Tomago",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 117263,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1915136899353,
-          -33.87084329367832
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - PYRMONT Western Distributor at Allen Street exit",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1648091959410,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Police operation",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1648092499257,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Allen Street exit",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Western Distributor",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Pyrmont",
-            "trafficVolume": "Moderate"
           }
         ]
       }
