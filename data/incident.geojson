@@ -8711,37 +8711,37 @@
     },
     {
       "type": "Feature",
-      "id": 117418,
+      "id": 117522,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.8235645422585,
-          -31.24187100702741
+          151.04620992156373,
+          -33.84417932795149
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - KUNDABUNG Pacific Highway at Mobbs Drive",
+        "headline": "HAZARD Car on fire - AUBURN M4 Motorway at Silverwater Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1648188403327,
+        "created": 1648279566940,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Car on fire",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1648193240190,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1648279566987,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8750,20 +8750,20 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Tow Truck"
+          "Emergency services",
+          "Motorway Crew"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "HAZARD Car on fire",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mobbs Drive",
+            "crossStreet": "Silverwater Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
@@ -8771,12 +8771,85 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Pacific Highway",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Kundabung",
+            "suburb": "Auburn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117523,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1718448409658,
+          -33.871634901529
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LILYFIELD City Westlink near The Crescent, Annandale",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648279950960,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648279951007,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The Crescent",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "City Westlink",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Lilyfield",
             "trafficVolume": ""
           }
         ]
