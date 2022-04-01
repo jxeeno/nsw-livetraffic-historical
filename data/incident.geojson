@@ -6878,15 +6878,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1648787105963,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Dirt spill",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Reduce your speed; Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1648790664337,
-        "otherAdvice": " ",
+        "lastUpdated": 1648791443007,
+        "otherAdvice": "Intermittent stoppages to remove debris from motorway",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6908,9 +6908,9 @@
                 "affectedDirection": "Westbound",
                 "closedLanes": "2",
                 "description": "Lane 3, Lane 4",
-                "extent": "Affected",
-                "numberOfLanes": "5",
-                "roadType": ""
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Motorway"
               }
             ],
             "locationQualifier": "approaching",
@@ -6920,7 +6920,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Clyde",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7071,17 +7071,17 @@
     },
     {
       "type": "Feature",
-      "id": 118202,
+      "id": 118204,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0047338,
-          -33.827562
+          151.7266386,
+          -32.9479779
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car - GRANVILLE Woodville Road at Parramatta Road",
+        "headline": "BREAKDOWN Bus - MEREWETHER City Road at Scenic Drive Heights",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7093,15 +7093,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1648789947453,
+        "created": 1648791215903,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Bus",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1648789947483,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648791216030,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7110,19 +7110,18 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "CRASH Truck, Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Parramatta Road",
+            "crossStreet": "Scenic Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
@@ -7131,12 +7130,12 @@
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Woodville Road",
+            "mainStreet": "City Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Granville",
+            "suburb": "Merewether",
             "trafficVolume": ""
           }
         ]
@@ -14248,6 +14247,79 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Mount Ousley",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0047338,
+          -33.827562
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - GRANVILLE Woodville Road at Parramatta Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648789947453,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1648791090380,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Parramatta Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Woodville Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Granville",
             "trafficVolume": ""
           }
         ]
