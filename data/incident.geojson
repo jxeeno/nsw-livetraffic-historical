@@ -6737,7 +6737,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1648970306953,
+        "lastUpdated": 1648972354303,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -6747,12 +6747,6 @@
         "webLinkName": null,
         "attendingGroups": [
           "Utility Company"
-        ],
-        "encodedPolylines": [
-          {
-            "coords": "`znmEqudx[YQIEyA{@aB{@_Ae@g@Ya@WEGEGAACGEGIQGSESKg@Ic@S}@",
-            "levels": ""
-          }
         ],
         "displayName": "EMERGENCY UTILITY WORK",
         "media": [],
@@ -6785,17 +6779,17 @@
     },
     {
       "type": "Feature",
-      "id": 118338,
+      "id": 118339,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21711004015881,
-          -33.87929171012868
+          151.1503600393562,
+          -33.82015768988188
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - WOOLLOOMOOLOO Bourke Street on-ramp at Eastern Distributor",
+        "headline": "BREAKDOWN Car - LANE COVE WEST Burns Bay Road opposite Waterview Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6807,7 +6801,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1648971910457,
+        "created": 1648972211360,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
@@ -6815,7 +6809,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1648971910490,
+        "lastUpdated": 1648972211390,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6824,32 +6818,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Tow Truck"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Eastern Distributor",
+            "crossStreet": "Waterview Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "opposite",
+            "mainStreet": "Burns Bay Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Lane Cove West",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118340,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.145909,
+          -33.8930159
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - LEWISHAM Old Canterbury Road at Longport Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648972522103,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1648972522133,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Longport Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Bourke Street on-ramp",
+            "mainStreet": "Old Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Woolloomooloo",
+            "suburb": "Lewisham",
             "trafficVolume": ""
           }
         ]
@@ -10777,6 +10845,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Haberfield",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21711004015881,
+          -33.87929171012868
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WOOLLOOMOOLOO Bourke Street on-ramp at Eastern Distributor",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1648971910457,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1648972398930,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Eastern Distributor",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bourke Street on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Woolloomooloo",
             "trafficVolume": ""
           }
         ]
