@@ -6924,7 +6924,7 @@
         "adviceA": "\tNever drive through floodwater",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1649276117787,
+        "lastUpdated": 1649280134310,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6944,7 +6944,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -6959,7 +6959,7 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Dee Why",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -7039,37 +7039,37 @@
     },
     {
       "type": "Feature",
-      "id": 118539,
+      "id": 118673,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2065954,
-          -33.8587581
+          150.964592558,
+          -33.8144666572
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - MILLERS POINT Western Distributor approaching Sydney Harbour Bridge, The Rocks",
+        "headline": "BREAKDOWN Truck - WENTWORTHVILLE Great Western Hwy at Cumberland Hwy",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1649193118030,
+        "created": 1649279828057,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1649193648787,
+        "lastUpdated": 1649279828103,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7080,30 +7080,102 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sydney Harbour Bridge",
+            "crossStreet": "Cumberland Hwy",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Hwy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Wentworthville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118674,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1962317461997,
+          -33.87370100931577
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "ADVERSE WEATHER Water over road - ULTIMO Harris Street just past Fig",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1649279926600,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceB": " ",
+        "adviceA": "\tNever drive through floodwater",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1649279926630,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Fig",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Western Distributor",
+            "locationQualifier": "just past",
+            "mainStreet": "Harris Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Millers Point",
+            "suburb": "Ultimo",
             "trafficVolume": ""
           }
         ]
