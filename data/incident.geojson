@@ -7281,14 +7281,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1649226285697,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1649226285733,
+        "lastUpdated": 1649227057953,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7306,8 +7306,17 @@
           {
             "conditionTendency": "",
             "crossStreet": "Picton Road",
-            "delay": "",
-            "impactedLanes": [],
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": null,
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "just past",
             "mainStreet": "Hume Motorway",
             "quadrant": "",
@@ -7322,37 +7331,37 @@
     },
     {
       "type": "Feature",
-      "id": 118510,
+      "id": 118622,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.4738963324302,
-          -33.04579921378789
+          151.0378649617349,
+          -33.896345182379235
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Oversize Truck - COORANBONG M1 Pacific Motorway approaching Freemans Drive",
+        "headline": "BREAKDOWN Truck - YAGOONA Rookwood Road approaching Brunker Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1649139411907,
+        "created": 1649226901957,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1649140251607,
+        "lastUpdated": 1649226902003,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7363,22 +7372,31 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Oversize Truck",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Freemans Drive",
+            "crossStreet": "Brunker Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Motorway",
+            "mainStreet": "Rookwood Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Cooranbong",
-            "trafficVolume": ""
+            "suburb": "Yagoona",
+            "trafficVolume": "Moderate"
           }
         ]
       }
