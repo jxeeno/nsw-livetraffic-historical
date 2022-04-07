@@ -7780,7 +7780,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1649327234387,
+        "lastUpdated": 1649331672283,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7802,11 +7802,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "closedLanes": "2",
+                "description": "Lane 1, Off-ramp",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "near",
@@ -7823,19 +7823,19 @@
     },
     {
       "type": "Feature",
-      "id": 118791,
+      "id": 118792,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.2912491,
-          -33.7039792
+          150.87541504262435,
+          -33.80163528639527
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Fallen tree - KATOOMBA Great Western Highway at Nellies Glen Road",
+        "headline": "CRASH Car - EASTERN CREEK M4 Motorway just past Reservoir Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -7845,16 +7845,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1649329766000,
+        "created": 1649331433720,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Fallen tree",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1649330566443,
-        "otherAdvice": "Motorists are advised to expect intermittent closures while debris is cleared.&nbsp;",
+        "mainCategory": "Crash",
+        "lastUpdated": 1649331433770,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7862,32 +7862,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "HAZARD Fallen tree",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Nellies Glen Road",
+            "crossStreet": "Reservoir Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
+            "locationQualifier": "just past",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Katoomba",
+            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ]
@@ -15861,6 +15862,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Raleigh",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118791,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2912491,
+          -33.7039792
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Fallen tree - KATOOMBA Great Western Highway at Nellies Glen Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1649329766000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1649331719267,
+        "otherAdvice": "Motorists are advised to expect intermittent closures while debris is cleared.&nbsp;",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Fallen tree",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Nellies Glen Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Katoomba",
             "trafficVolume": ""
           }
         ]
