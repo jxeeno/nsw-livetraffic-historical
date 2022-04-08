@@ -6335,8 +6335,8 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1649318194947,
-        "otherAdvice": "<p>The road is closed due to predicted heavy rainfall on Thursday and Friday to ensure the safety of\nmotorists.</p><p>There is no access to Jenolan Caves and Jenolan Caves House while the road is closed.</p><p>The road will be assessed following the rain event to determine whether it can be safely opened.</p>",
+        "lastUpdated": 1649453403723,
+        "otherAdvice": "<p>The road is closed until further notice for the safety of motorists due to heavy rainfall.</p><p>There is no access to Jenolan Caves and Jenolan Caves House while the road is closed.</p><p>The road will be assessed following the rain event to determine whether it can be safely opened.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7147,8 +7147,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1649452229110,
-        "otherAdvice": " ",
+        "lastUpdated": 1649453253890,
+        "otherAdvice": "The highway is temporarily closed to allow for the helicopter to land.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7156,6 +7156,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Helicopter",
           "Emergency services"
         ],
         "displayName": "CRASH Car",
@@ -7165,7 +7166,16 @@
             "conditionTendency": "",
             "crossStreet": "Hapgood Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Princes Highway",
             "quadrant": "",
@@ -7752,78 +7762,6 @@
             "secondLocation": " ",
             "suburb": "Bar Point",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 118818,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2136982694063,
-          -33.85396030141917
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 cars - SYDNEY Sydney Harbour Tunnel at midway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1649364255050,
-        "isMajor": true,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1649366654497,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "midway",
-            "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": "Heavy"
           }
         ]
       }
