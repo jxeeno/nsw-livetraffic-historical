@@ -8094,8 +8094,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.594859,
-          -34.9715912
+          150.59521908656026,
+          -34.971344485405766
         ]
       },
       "properties": {
@@ -8120,7 +8120,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1649966431667,
+        "lastUpdated": 1649967831337,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8234,17 +8234,17 @@
     },
     {
       "type": "Feature",
-      "id": 119472,
+      "id": 119474,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.46782709620604,
-          -33.18202337087851
+          151.39936533851196,
+          -33.31285300675458
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - WYEE M1 Pacific Motorway near Hue Hue Road",
+        "headline": "HAZARD Ladder - TUGGERAH M1 Pacific Motorway at Wyong Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8256,15 +8256,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1649965161093,
+        "created": 1649967805833,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Ladder",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1649967348200,
+        "mainCategory": "Hazard",
+        "lastUpdated": 1649967805867,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8275,30 +8275,30 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "HAZARD Ladder",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hue Hue Road",
+            "crossStreet": "Wyong Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
                 "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "at",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Wyee",
+            "suburb": "Tuggerah",
             "trafficVolume": ""
           }
         ]
@@ -8306,37 +8306,37 @@
     },
     {
       "type": "Feature",
-      "id": 119347,
+      "id": 119475,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.20275684261637,
-          -33.885690942018456
+          150.8598765,
+          -34.5524623
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "ADVERSE WEATHER Water over road - CHIPPENDALE Regent Street just past Lee Street",
+        "headline": "CRASH Car - WARILLA Shellharbour Road near George Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1649876784227,
+        "created": 1649967993237,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Water over road",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Adverse weather",
-        "lastUpdated": 1649881484910,
+        "mainCategory": "Crash",
+        "lastUpdated": 1649967993267,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8345,32 +8345,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "ADVERSE WEATHER Water over road",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lee Street",
+            "crossStreet": "George Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Regent Street",
+            "locationQualifier": "near",
+            "mainStreet": "Shellharbour Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Chippendale",
+            "suburb": "Warilla",
             "trafficVolume": ""
           }
         ]
@@ -14273,6 +14273,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Jeir",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.46782709620604,
+          -33.18202337087851
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WYEE M1 Pacific Motorway near Hue Hue Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1649965161093,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1649967660670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hue Hue Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Wyee",
             "trafficVolume": ""
           }
         ]
