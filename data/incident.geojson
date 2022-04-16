@@ -8001,7 +8001,7 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1650095563350,
+        "lastUpdated": 1650097114200,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "M1 Princes Mwy and Lawrence Hargrave Dr.&nbsp;",
@@ -8044,17 +8044,17 @@
     },
     {
       "type": "Feature",
-      "id": 119551,
+      "id": 119552,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9553426,
-          -33.7585236
+          151.46567850810376,
+          -33.195188441834546
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SEVEN HILLS Old Windsor Road at Seven Hills Road, Baulkham Hills",
+        "headline": "CRASH Car, Pedestrian - WYEE M1 Pacific Motorway just past Hue Hue Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8066,15 +8066,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1650094569830,
+        "created": 1650097667610,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car, Pedestrian",
+        "adviceB": "Reduce your speed; Expect delays",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1650097075307,
+        "mainCategory": "Crash",
+        "lastUpdated": 1650097667657,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8083,34 +8083,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Car, Pedestrian",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Seven Hills Road",
+            "crossStreet": "Hue Hue Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "5",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Old Windsor Road",
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Seven Hills",
+            "suburb": "Wyee",
             "trafficVolume": ""
           }
         ]
@@ -10823,6 +10821,80 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119551,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9553426,
+          -33.7585236
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SEVEN HILLS Old Windsor Road at Seven Hills Road, Baulkham Hills",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1650094569830,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1650097783573,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Seven Hills Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Old Windsor Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Seven Hills",
             "trafficVolume": ""
           }
         ]
