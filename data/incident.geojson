@@ -7887,7 +7887,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -7902,7 +7902,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1650314297370,
+        "lastUpdated": 1650315387377,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7922,7 +7922,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "City bound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -8020,8 +8020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2101387277797,
-          -33.83920035786436
+          151.21020812993797,
+          -33.839076990434556
         ]
       },
       "properties": {
@@ -8046,7 +8046,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1650314273070,
+        "lastUpdated": 1650315193317,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8081,7 +8081,7 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "North Sydney",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8190,7 +8190,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1650314491617,
+        "lastUpdated": 1650315289020,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8208,7 +8208,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "The River Road",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
@@ -8237,8 +8237,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.01394461923437,
-          -33.94010208239539
+          151.0333101683219,
+          -33.9398083530037
         ]
       },
       "properties": {
@@ -8263,10 +8263,10 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1650314832107,
+        "lastUpdated": 1650315177373,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<p>Motorists can use either The River Rd or Belmore Rd exits.</p><p>Through traffic on the M5 Motorway is not affected.</p>",
         "additionalInfo": [
           " "
         ],
@@ -8288,9 +8288,9 @@
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Off-ramp",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "to",
@@ -8300,7 +8300,7 @@
             "region": "SYD_SOUTH",
             "secondLocation": " ",
             "suburb": "Padstow",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -11551,6 +11551,78 @@
             "secondLocation": " ",
             "suburb": "Greystanes",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119655,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15830539600665,
+          -33.855027868531984
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - DRUMMOYNE Victoria Road at Day Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1650313303370,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1650315387377,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Day Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Drummoyne",
+            "trafficVolume": "Heavy"
           }
         ]
       }
