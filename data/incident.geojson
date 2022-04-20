@@ -8017,7 +8017,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - MERRYLANDS M4 Motorway near Coleman Street",
+        "headline": "CRASH Multiple vehicles - MERRYLANDS M4 Motorway on-ramp from Great Western Highway",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -8037,18 +8037,15 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1650435030830,
-        "otherAdvice": "<p><strong>Eastbound:&nbsp;</strong>The on-ramp from the Great Western Hwy is also affected.</p><p>Motorists are advised to allow approximately 45 minutes additional travel time.</p>",
+        "lastUpdated": 1650436160397,
+        "otherAdvice": "<p><strong></strong>Motorists are advised to allow approximately 45 minutes additional travel time.</p>",
         "arrangementElements": [],
         "diversions": "Motorists could consider using the Great Western Hwy instead.",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew",
-          "Transport for NSW",
-          "Heavy vehicle tow truck",
           "Emergency services"
         ],
         "displayName": "CRASH Multiple vehicles",
@@ -8056,20 +8053,20 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Coleman Street",
+            "crossStreet": "Great Western Highway",
             "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": "Motorway"
+                "numberOfLanes": "2",
+                "roadType": "On-ramp"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway on-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
@@ -8154,19 +8151,19 @@
     },
     {
       "type": "Feature",
-      "id": 119869,
+      "id": 119870,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.36815690495519,
-          -33.34464251133992
+          151.03737111116658,
+          -33.76085590713125
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - OURIMBAH M1 Pacific Motorway off-ramp to Pacific Highway",
+        "headline": "CRASH Car - WEST PENNANT HILLS M2 Motorway just past Oakes Road",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -8176,15 +8173,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1650434186537,
+        "created": 1650435987317,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time; Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1650434186567,
+        "mainCategory": "Crash",
+        "lastUpdated": 1650436236470,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8193,33 +8190,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Motorway Crew"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pacific Highway",
+            "crossStreet": "Oakes Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Off-ramp"
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "M1 Pacific Motorway off-ramp",
+            "locationQualifier": "just past",
+            "mainStreet": "M2 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Ourimbah",
-            "trafficVolume": ""
+            "suburb": "West Pennant Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13999,6 +13996,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Castle Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119869,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.36815690495519,
+          -33.34464251133992
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - OURIMBAH M1 Pacific Motorway off-ramp to Pacific Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1650434186537,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1650435655140,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M1 Pacific Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Ourimbah",
             "trafficVolume": ""
           }
         ]
