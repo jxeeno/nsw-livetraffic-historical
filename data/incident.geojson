@@ -9210,8 +9210,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.3219445,
-          -32.21881
+          152.3221392954297,
+          -32.218097752817535
         ]
       },
       "properties": {
@@ -9236,7 +9236,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1651218449210,
+        "lastUpdated": 1651220453227,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9453,7 +9453,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1651218219547,
+        "lastUpdated": 1651220484563,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9474,7 +9474,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -9489,7 +9489,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Millers Forest",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -9704,57 +9704,129 @@
     },
     {
       "type": "Feature",
-      "id": 120546,
+      "id": 120700,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2143579221061,
-          -33.866000786978674
+          150.8759207316465,
+          -34.40138369126703
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Sydney Harbour Tunnel",
+        "headline": "CRASH 2 cars - MOUNT OUSLEY M1 Princes Motorway approaching Mount Ousley Road exit",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1651126764120,
+        "created": 1651220351357,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Expect delays",
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1651134261830,
+        "mainCategory": "Crash",
+        "lastUpdated": 1651220351383,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mount Ousley Road exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Princes Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mount Ousley",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99446228712944,
+          -34.05840782795781
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - LUCAS HEIGHTS Heathcote Road approaching New Illawarra Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651220693497,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1651220693527,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
           " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "New Illawarra Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -9762,14 +9834,87 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
+            "locationQualifier": "approaching",
+            "mainStreet": "Heathcote Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Sydney",
+            "suburb": "Lucas Heights",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120702,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1912688,
+          -33.8131678
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - ARTARMON Gore Hill Freeway at Hampden Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651220899637,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1651220899670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hampden Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Gore Hill Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Artarmon",
+            "trafficVolume": ""
           }
         ]
       }
