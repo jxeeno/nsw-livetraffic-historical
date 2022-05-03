@@ -8688,20 +8688,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1651556491477,
+        "lastUpdated": 1651556864043,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          " "
         ],
         "displayName": "CRASH 2 cars",
         "media": [],
@@ -8807,17 +8807,17 @@
     },
     {
       "type": "Feature",
-      "id": 120936,
+      "id": 120937,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.21091945101296,
-          -33.8419680548463
+          151.225414,
+          -33.9148482
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Sydney Harbour Tunnel, Sydney",
+        "headline": "BREAKDOWN Bus - KENSINGTON Anzac Parade just past High Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8829,15 +8829,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1651556361627,
+        "created": 1651556916267,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Bus",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1651556361657,
+        "lastUpdated": 1651556916297,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8846,32 +8846,105 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Mechanic"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Bus",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sydney Harbour Tunnel",
+            "crossStreet": "High Street",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Anzac Parade",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kensington",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120938,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1745669,
+          -33.7132296
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Motorcycle - ST IVES Mona Vale Road just past Kitchener Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651557276647,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1651557276693,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kitchener Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Warringah Freeway",
+            "locationQualifier": "just past",
+            "mainStreet": "Mona Vale Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "North Sydney",
+            "suburb": "St Ives",
             "trafficVolume": ""
           }
         ]
@@ -13349,6 +13422,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "St Marys",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120936,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21091945101296,
+          -33.8419680548463
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Sydney Harbour Tunnel, Sydney",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651556361627,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1651557070980,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
