@@ -8929,27 +8929,49 @@
       "properties": {
         "webLinks": [],
         "headline": "EMERGENCY ROADWORK - COOPERS GULLY Snowy Mountains Highway between Upper Cobargo Road AND Coopers Gully Road ",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Thursday",
+            "startTime": "all day",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Friday",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
         "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1651624825200,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "(p)",
         "adviceB": "Check signage; Exercise caution",
         "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1651645778830,
-        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time.</p>",
+        "end": 1651842000000,
+        "incidentKind": "Planned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1651697406483,
+        "otherAdvice": "<p>Portable traffic lights are in place to allow motorists to pass in one\ndirection at a time.</p>",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8959,6 +8981,8 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
+        "duration": null,
+        "start": 1651672800000,
         "displayName": "EMERGENCY ROADWORK",
         "media": [],
         "roads": [
@@ -8966,16 +8990,7 @@
             "conditionTendency": "",
             "crossStreet": "Upper Cobargo Road",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
+            "impactedLanes": [],
             "locationQualifier": "between",
             "mainStreet": "Snowy Mountains Highway",
             "quadrant": "",
@@ -9128,6 +9143,78 @@
             "secondLocation": " ",
             "suburb": "Crows Nest",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121059,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02141914365538,
+          -33.9370924566091
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - REVESBY Canterbury Road approaching The River Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651697329273,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1651697329307,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The River Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Revesby",
+            "trafficVolume": ""
           }
         ]
       }
