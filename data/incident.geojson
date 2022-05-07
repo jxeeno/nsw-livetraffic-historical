@@ -8472,14 +8472,14 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Car on fire",
-        "adviceB": "Expect delays; Allow extra travel time",
-        "adviceA": "Use diversions",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1651901998467,
-        "otherAdvice": "<p>The road is temporarily closed and traffic is being held.</p><p>Smoke is affecting traffic in both directions. </p>",
+        "lastUpdated": 1651902794200,
+        "otherAdvice": "<p>Smoke is affecting traffic in both directions.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Lovedale Rd to New England Hwy, to Wine Country Dr to return to Hunter Exp.&nbsp;</p><p><strong>This diversion is not suitable for vehicles over 4.5m height. </strong></p>",
+        "diversions": "<p><strong> </strong></p>",
         "additionalInfo": [
           " "
         ],
@@ -8497,11 +8497,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               },
               {
                 "affectedDirection": "Eastbound",
@@ -8519,7 +8519,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Allandale",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8665,6 +8665,79 @@
             "secondLocation": " ",
             "suburb": "Penrith",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9986263,
+          -33.7434723
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - CASTLE HILL Old Northern Road at Excelsior Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651902807483,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1651902809640,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Excelsior Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Old Northern Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Castle Hill",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8824,78 +8897,6 @@
             "secondLocation": " ",
             "suburb": "Warrawee",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 121210,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.05019278001606,
-          -33.84906138314615
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - LIDCOMBE Parramatta Road approaching John Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1651814595983,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1651816412260,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "John Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Parramatta Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Lidcombe",
-            "trafficVolume": "Moderate"
           }
         ]
       }
