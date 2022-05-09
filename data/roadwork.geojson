@@ -12791,6 +12791,16 @@
             "roadtype": "Road",
             "direction": "Both directions",
             "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
             "fromDay": "Monday",
             "startTime": "10:00pm",
             "toDay": ""
@@ -12824,16 +12834,6 @@
             "fromDay": "Thursday",
             "startTime": "10:30pm",
             "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Road",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "10:00pm",
-            "toDay": ""
           }
         ],
         "speedLimit": 40,
@@ -12855,7 +12855,7 @@
         "end": 1654801200000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1652069636583,
+        "lastUpdated": 1652069714720,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place.</p><p>Traffic lights at the intersection of Narellan Rd &amp; Kellicar Rd will be blacked out and traffic controllers will direct motorists. </p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -30223,6 +30223,83 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Wilton",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120625,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8597248,
+          -29.8780208
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Install Temporary Bridge - COUTTS CROSSING Clearview Road at 491 Clearview Road NSW 2460",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "5:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:30am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1651198574173,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bridge work",
+        "adviceB": "Avoid the area; Exercise caution",
+        "adviceA": "Check signage",
+        "end": 1652338800000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1651834219423,
+        "otherAdvice": "Motorists\nshould drive to the conditions.\n<br>CLOSURE.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1651005000000,
+        "displayName": "SCHEDULED ROADWORK Install Temporary Bridge",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "491 Clearview Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Clearview Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Coutts Crossing",
             "trafficVolume": ""
           }
         ]
