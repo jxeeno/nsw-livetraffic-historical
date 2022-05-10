@@ -7938,7 +7938,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1652143643803,
+        "lastUpdated": 1652146150483,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place.</p><p>Intermittent stoppages for recovery. </p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -8083,7 +8083,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1652144579850,
+        "lastUpdated": 1652146573037,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8105,9 +8105,9 @@
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -8125,17 +8125,17 @@
     },
     {
       "type": "Feature",
-      "id": 121508,
+      "id": 121513,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.96077023619367,
-          -33.761792948865036
+          151.1369992,
+          -33.7965541
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - BAULKHAM HILLS M7 Motorway just past Abbott Road, Seven Hills",
+        "headline": "BREAKDOWN Car - NORTH RYDE Epping Road at Pittwater Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8147,15 +8147,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1652144151280,
+        "created": 1652147368810,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": null,
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1652145518787,
+        "lastUpdated": 1652147368983,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8164,14 +8164,15 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Tow Truck",
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Abbott Road",
+            "crossStreet": "Pittwater Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -8179,17 +8180,89 @@
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Epping Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Ryde",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121514,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0287241,
+          -35.0777145
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car, caravan - JEIR Barton Highway at Mundays Lane",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1652147695867,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1652147695913,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car, caravan",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mundays Lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M7 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Barton Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Baulkham Hills",
+            "suburb": "Jeir",
             "trafficVolume": ""
           }
         ]
@@ -12834,6 +12907,78 @@
             "secondLocation": " ",
             "suburb": "Mascot",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121508,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.961640613019,
+          -33.7630160230271
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - BAULKHAM HILLS M7 Motorway just past Abbott Road, Seven Hills",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1652144151280,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1652146630330,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Abbott Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Baulkham Hills",
+            "trafficVolume": "Heavy"
           }
         ]
       }
