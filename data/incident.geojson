@@ -9081,7 +9081,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1652243163920,
+        "lastUpdated": 1652245740093,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9149,12 +9149,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "B-Double",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1652244272550,
-        "otherAdvice": " ",
+        "lastUpdated": 1652245618603,
+        "otherAdvice": "Traffic is being held in both directions for vehicle salvage. If possible, delay your journey until the road reopens.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9175,20 +9175,12 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "-",
@@ -9235,7 +9227,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1652242490703,
+        "lastUpdated": 1652245680220,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9351,17 +9343,17 @@
     },
     {
       "type": "Feature",
-      "id": 121634,
+      "id": 121635,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.16724521775208,
-          -33.947651907903584
+          151.16850049157105,
+          -33.94699329899863
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - KYEEMAGH General Holmes Drive on Cooks River Bridge",
+        "headline": "BREAKDOWN Car - KYEEMAGH General Holmes Drive approaching Cooks River Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9373,7 +9365,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1652244592397,
+        "created": 1652245575687,
         "isMajor": false,
         "name": null,
         "subCategoryA": null,
@@ -9381,7 +9373,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1652244592443,
+        "lastUpdated": 1652245575733,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9403,13 +9395,13 @@
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "on",
+            "locationQualifier": "approaching",
             "mainStreet": "General Holmes Drive",
             "quadrant": "",
             "queueLength": 0,
@@ -14185,6 +14177,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Granville",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121634,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.16724521775208,
+          -33.947651907903584
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - KYEEMAGH General Holmes Drive on Cooks River Bridge",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1652244592397,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1652245623190,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cooks River Bridge",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kyeemagh",
             "trafficVolume": ""
           }
         ]
