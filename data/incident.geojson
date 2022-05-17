@@ -9325,17 +9325,22 @@
     },
     {
       "type": "Feature",
-      "id": 122185,
+      "id": 122187,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0834442,
-          -33.9525606
+          153.11524172648936,
+          -29.494738097879132
         ]
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - BEVERLY HILLS King Georges Road at Stoney Creek Road",
+        "webLinks": [
+          {
+            "linkText": "Bluff Point Ferry",
+            "linkURL": "https://www.rms.nsw.gov.au/projects/northern-ferries/bluff-point-ferry.html"
+          }
+        ],
+        "headline": "FERRY OUT OF SERVICE High tide - BLUFF POINT Lawrence Ferry between Lawrence AND Woodford Island ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -9347,122 +9352,55 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1652781485437,
+        "created": 1652783147797,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Breakdown",
+        "adviceB": "Use an alternative route",
+        "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1652781485467,
+        "mainCategory": "Ferry out of service",
+        "lastUpdated": 1652783147843,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "<p>Call 1300 290 358 for updates, or sign up at the website for sms messaging.</p><p>The Ulmarra Ferry is also out of service. Motorists can use Grafton Bridge as an alternate route.</p>",
         "additionalInfo": [
           " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          " "
         ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
+        "encodedPolylines": [
           {
-            "conditionTendency": "",
-            "crossStreet": "Stoney Creek Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 5",
-                "extent": "Lanes closed",
-                "numberOfLanes": "7",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "King Georges Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Beverly Hills",
-            "trafficVolume": ""
+            "coords": "tn_sD}dpe\\jIaE",
+            "levels": ""
           }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 122186,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1362624,
-          -33.7691625
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - WEST PYMBLE Ryde Road at Yanco Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1652781878390,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1652782862257,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
         ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "FERRY OUT OF SERVICE High tide",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Yanco Road",
+            "crossStreet": "Lawrence",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Ferry"
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Ryde Road",
+            "locationQualifier": "between",
+            "mainStreet": "Lawrence Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "West Pymble",
+            "region": "REG_NORTH",
+            "secondLocation": "Woodford Island",
+            "suburb": "Bluff Point",
             "trafficVolume": ""
           }
         ]
@@ -14435,6 +14373,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Arncliffe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0834442,
+          -33.9525606
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - BEVERLY HILLS King Georges Road at Stoney Creek Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1652781485437,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1652783311403,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Stoney Creek Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 5",
+                "extent": "Lanes closed",
+                "numberOfLanes": "7",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Beverly Hills",
             "trafficVolume": ""
           }
         ]
