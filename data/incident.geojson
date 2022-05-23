@@ -8861,11 +8861,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Semi-trailer",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1653344928670,
+        "lastUpdated": 1653347126913,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8900,7 +8900,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Eastern Creek",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8979,38 +8979,38 @@
     },
     {
       "type": "Feature",
-      "id": 122646,
+      "id": 122742,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.32464492593382,
-          -33.64881704822781
+          151.2114372871429,
+          -33.91923390973445
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - BILGOLA BEACH Barrenjoey Road near Attunga Road, Newport",
+        "headline": "BREAKDOWN Car - KENSINGTON Southern Cross Drive just past Trevilyan Avenue overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1653254157893,
+        "created": 1653347398863,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bus",
-        "adviceB": "Expect delays",
+        "subCategoryA": "Car",
+        "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1653261151137,
-        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
+        "lastUpdated": 1653347398897,
+        "otherAdvice": "The vehicle is partially in lane 1.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -9018,20 +9018,90 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Mechanic",
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Bus",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Attunga Road",
+            "crossStreet": "Trevilyan Avenue overpass",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Southern Cross Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Kensington",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122743,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.65508725998635,
+          -34.55661671271042
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MACQUARIE PASS Illawarra Highway between Calderwood Trail AND Mount Murray Road, ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653347427327,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed; Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1653347427407,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Calderwood Trail",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -9039,13 +9109,85 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Barrenjoey Road",
+            "locationQualifier": "between",
+            "mainStreet": "Illawarra Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_SOUTH",
+            "secondLocation": "Mount Murray Road",
+            "suburb": "Macquarie Pass",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122744,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0397704,
+          -33.8433868
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - AUBURN Parramatta Road near Station Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653347808503,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1653347808533,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Station Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Bilgola Beach",
+            "suburb": "Auburn",
             "trafficVolume": ""
           }
         ]
