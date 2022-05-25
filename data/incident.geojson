@@ -9036,7 +9036,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1653456625987,
+        "lastUpdated": 1653457077143,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9058,10 +9058,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -9079,37 +9079,109 @@
     },
     {
       "type": "Feature",
-      "id": 122772,
+      "id": 122864,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.19344317683058,
-          -33.55124412103413
+          151.137787569,
+          -33.7615067414
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - COWAN M1 Pacific Motorway approaching Pacific Highway overpass",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - WEST PYMBLE Ryde Road at Kiparra Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1653367030417,
+        "created": 1653456851723,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Power failure",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1653370446430,
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1653456851773,
+        "otherAdvice": "A number of other traffic lights in the area are blacked out due to a local power failure. ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kiparra Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Ryde Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "West Pymble",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122865,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4675944,
+          -33.1217644
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Grain Spill - MORISSET M1 Pacific Motorway near Mandalong Road, Mandalong",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653457059227,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1653457059257,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9118,32 +9190,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "HAZARD Grain Spill",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pacific Highway overpass",
+            "crossStreet": "Mandalong Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
+            "locationQualifier": "near",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Cowan",
+            "suburb": "Morisset",
             "trafficVolume": ""
           }
         ]
