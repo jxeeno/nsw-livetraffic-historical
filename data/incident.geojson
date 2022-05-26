@@ -8635,7 +8635,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1653541368590,
+        "lastUpdated": 1653542709230,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8656,8 +8656,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Road"
@@ -8903,7 +8903,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Car on fire - PIMLICO Pacific Highway approaching Wardell turnoff",
+        "headline": "HAZARD Earlier car fire - PIMLICO Pacific Highway approaching Wardell turnoff",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8918,13 +8918,13 @@
         "created": 1653540162460,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car on fire",
+        "subCategoryA": "Earlier car fire",
         "adviceB": "Reduce your speed",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1653541229943,
-        "otherAdvice": "Southbound is closed for a short time. Vehicles are being held.",
+        "lastUpdated": 1653542241450,
+        "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8934,7 +8934,7 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "HAZARD Car on fire",
+        "displayName": "HAZARD Earlier car fire",
         "media": [],
         "roads": [
           {
@@ -8944,11 +8944,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
+                "closedLanes": "1",
                 "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "approaching",
@@ -8958,7 +8958,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Pimlico",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8995,7 +8995,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1653541072987,
+        "lastUpdated": 1653542433040,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -9018,7 +9018,7 @@
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -14717,6 +14717,78 @@
             "secondLocation": " ",
             "suburb": "Cataract",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122950,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21053468888553,
+          -33.836882524228635
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway at Berry Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653542357093,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1653542572243,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Berry Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": ""
           }
         ]
       }
