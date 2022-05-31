@@ -8538,7 +8538,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1653978864207,
+        "lastUpdated": 1653982364553,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8761,7 +8761,7 @@
         "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1653981399573,
+        "lastUpdated": 1653982168877,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8770,8 +8770,9 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Motorway Crew"
+          "Motorway Crew",
+          "Emergency services",
+          "Tow Truck"
         ],
         "displayName": "CRASH Multiple vehicles",
         "media": [],
@@ -8783,8 +8784,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Motorway"
@@ -8830,21 +8831,20 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Spillage",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1653981288153,
+        "lastUpdated": 1653981990717,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          " "
         ],
         "displayName": "HAZARD Batteries/Spillage",
         "media": [],
@@ -8852,14 +8852,14 @@
           {
             "conditionTendency": "",
             "crossStreet": "Five Islands Road",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": "Motorway"
               }
             ],
@@ -8871,6 +8871,79 @@
             "secondLocation": " ",
             "suburb": "Spring Hill",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.43010105038022,
+          -33.22349413224118
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Timber - HALLORAN M1 Pacific Motorway approaching Sparks Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653982250507,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Timber",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1653982250553,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Timber",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sparks Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Halloran",
+            "trafficVolume": ""
           }
         ]
       }
@@ -9102,78 +9175,6 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Crows Nest",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 123294,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21020552776235,
-          -33.839099486271934
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Bus - NORTH SYDNEY Warringah Freeway approaching Lavender Street, Lavender Bay",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1653895455763,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Bus",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1653895766517,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Bus",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Lavender Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Warringah Freeway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "North Sydney",
             "trafficVolume": ""
           }
         ]
