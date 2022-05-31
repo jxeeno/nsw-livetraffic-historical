@@ -8757,11 +8757,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Multiple vehicles",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1653979599573,
+        "lastUpdated": 1653981130200,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8783,8 +8783,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": "Motorway"
@@ -8797,80 +8797,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Silverwater",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 123438,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2106771,
-          -33.8909877
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Bus, Car - REDFERN Cleveland Street approaching Young Street, Waterloo",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1653979981443,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Bus, Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1653979981473,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Mechanic",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Bus, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Young Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Cleveland Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Redfern",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8900,14 +8827,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1653980198197,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Spillage",
         "adviceB": "Expect delays",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1653980198230,
+        "lastUpdated": 1653981288153,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8925,14 +8852,14 @@
           {
             "conditionTendency": "",
             "crossStreet": "Five Islands Road",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Motorway"
               }
             ],
@@ -19495,6 +19422,79 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123438,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2106771,
+          -33.8909877
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Bus, Car - REDFERN Cleveland Street approaching Young Street, Waterloo",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653979981443,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus, Car",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1653980821197,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Bus, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Young Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Cleveland Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Redfern",
             "trafficVolume": ""
           }
         ]
