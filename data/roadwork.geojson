@@ -1124,7 +1124,7 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -1134,10 +1134,10 @@
         "subCategoryA": "Routine maintenance",
         "adviceB": "Plan your journey",
         "adviceA": "Use diversions",
-        "end": 1654090200000,
+        "end": 1657112400000,
         "incidentKind": "Planned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1653240153727,
+        "lastUpdated": 1654061457970,
         "otherAdvice": "The ferry will be out of service on the first Wednesday of every month&nbsp;between 12.45pm and 3pm.",
         "arrangementElements": [],
         "diversions": "<p><strong>Northbound</strong>: West Portland Rd, Lower Portland Ferry, River Rd, to Sackville Ferry Rd.<br><strong>Southbound</strong>: Sackville Ferry Rd, River Rd, Lower Portland Ferry, West Portland Rd, to Sackville Rd.</p><p>Motorists are advised to allow approximately 45 minutes of additional travel time.</p>",
@@ -1149,7 +1149,7 @@
           " "
         ],
         "duration": null,
-        "start": 1654005600000,
+        "start": 1657029600000,
         "displayName": "FERRY OUT OF SERVICE Routine maintenance",
         "media": [],
         "roads": [
@@ -23739,103 +23739,6 @@
     },
     {
       "type": "Feature",
-      "id": 123133,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.67221669344502,
-          -34.7789386651055
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "SCHEDULED ROADWORK - RUN-O-WATERS Hume Highway at Run O Waters Creek",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "3:30pm",
-            "fromDay": "Monday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "3:30pm",
-            "fromDay": "Tuesday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "3:30pm",
-            "fromDay": "Wednesday",
-            "startTime": "7:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": false,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1653728181030,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Check signage; Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "end": 1654061400000,
-        "incidentKind": "Planned",
-        "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1653802245983,
-        "otherAdvice": "Motorists are advised to allow approximately 5 minutes additional travel time.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "duration": null,
-        "start": 1653858000000,
-        "displayName": "SCHEDULED ROADWORK",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Run O Waters Creek",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Run-O-Waters",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 123134,
       "geometry": {
         "type": "Point",
@@ -28734,6 +28637,103 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Mogo",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.67221669344502,
+          -34.7789386651055
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK - RUN-O-WATERS Hume Highway at Run O Waters Creek",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "3:30pm",
+            "fromDay": "Monday",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "3:30pm",
+            "fromDay": "Tuesday",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "3:30pm",
+            "fromDay": "Wednesday",
+            "startTime": "7:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": false,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1653728181030,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Check signage; Exercise caution",
+        "adviceA": "Reduced speed limit",
+        "end": 1654061400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1654061476620,
+        "otherAdvice": "Motorists are advised to allow approximately 5 minutes additional travel time.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1653858000000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Run O Waters Creek",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Run-O-Waters",
             "trafficVolume": ""
           }
         ]
