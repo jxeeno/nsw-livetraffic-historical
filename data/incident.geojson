@@ -8179,15 +8179,15 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1654226450127,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Expect delays; Allow extra travel time",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1654227785173,
-        "otherAdvice": " ",
+        "lastUpdated": 1654228462720,
+        "otherAdvice": "Expect intermittent stoppages as the car is retrieved.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -8237,17 +8237,17 @@
     },
     {
       "type": "Feature",
-      "id": 123701,
+      "id": 123705,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1311726116394,
-          -33.78232608808844
+          151.0642815,
+          -33.9077239
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - MACQUARIE PARK Lane Cove Road just past Talavera Road",
+        "headline": "BREAKDOWN Car - GREENACRE Roberts Road at Juno Parade",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8259,15 +8259,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1654226848397,
+        "created": 1654228624873,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution; Reduce your speed",
-        "adviceA": "Keep right",
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1654227748143,
+        "lastUpdated": 1654228624907,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8278,31 +8278,31 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Talavera Road",
+            "crossStreet": "Juno Parade",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "5",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Lane Cove Road",
+            "locationQualifier": "at",
+            "mainStreet": "Roberts Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Macquarie Park",
-            "trafficVolume": ""
+            "suburb": "Greenacre",
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -12777,6 +12777,78 @@
             "secondLocation": " ",
             "suburb": "Chatswood",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1311726116394,
+          -33.78232608808844
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - MACQUARIE PARK Lane Cove Road just past Talavera Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1654226848397,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Exercise caution; Reduce your speed",
+        "adviceA": "Keep right",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1654228501563,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Talavera Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Lane Cove Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Macquarie Park",
+            "trafficVolume": ""
           }
         ]
       }
