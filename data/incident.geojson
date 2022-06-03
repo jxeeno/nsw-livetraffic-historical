@@ -8484,7 +8484,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1654235115683,
+        "lastUpdated": 1654236877403,
         "otherAdvice": "A road plate is being affixed.",
         "arrangementElements": [],
         "diversions": " ",
@@ -8527,17 +8527,17 @@
     },
     {
       "type": "Feature",
-      "id": 123726,
+      "id": 123729,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.97099902626394,
-          -33.80296230749336
+          150.8946937671814,
+          -33.946872524586006
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - WENTWORTHVILLE Cumberland Highway approaching Darcy Road",
+        "headline": "HAZARD Timber debris - CASULA M5 Motorway approaching Kurrajong Road overpass",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8549,15 +8549,88 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1654236132763,
+        "created": 1654236425603,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Timber",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1654236584350,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Timber debris",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kurrajong Road overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Casula",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123731,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9773926,
+          -33.8818345
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - VILLAWOOD Woodville Road at Villawood Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1654236816310,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Truck",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1654236132793,
+        "lastUpdated": 1654236816357,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8568,30 +8641,30 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Darcy Road",
+            "crossStreet": "Villawood Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Right turn lane",
+                "description": "",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Cumberland Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Woodville Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Wentworthville",
+            "suburb": "Villawood",
             "trafficVolume": ""
           }
         ]
@@ -8664,78 +8737,6 @@
             "region": "REG_NORTH",
             "secondLocation": "Fenwicks Road",
             "suburb": "Yarrowitch to Mount Seaview",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 123601,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.8731437,
-          -33.43414120000001
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "EMERGENCY ROADWORK Barrier repairs - MEADOW FLAT Great Western Highway at Diamond Swamp Road",
-        "periods": [],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1654124155473,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Check signage; Allow extra travel time",
-        "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1654150101213,
-        "otherAdvice": "Contraflow traffic conditions will be in place.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "EMERGENCY ROADWORK Barrier repairs",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Diamond Swamp Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_WEST",
-            "secondLocation": " ",
-            "suburb": "Meadow Flat",
             "trafficVolume": ""
           }
         ]
@@ -13211,6 +13212,78 @@
             "secondLocation": " ",
             "suburb": "North Sydney",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123726,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.97099902626394,
+          -33.80296230749336
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - WENTWORTHVILLE Cumberland Highway approaching Darcy Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1654236132763,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1654236519330,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Darcy Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Wentworthville",
+            "trafficVolume": ""
           }
         ]
       }
