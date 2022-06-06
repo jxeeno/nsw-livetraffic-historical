@@ -7964,7 +7964,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1654486507677,
+        "lastUpdated": 1654489386533,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8036,7 +8036,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1654486111820,
+        "lastUpdated": 1654489369690,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8105,10 +8105,10 @@
         "name": null,
         "subCategoryA": null,
         "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1654487063973,
+        "lastUpdated": 1654488653447,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8144,7 +8144,7 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Cooranbong",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8178,13 +8178,13 @@
         "name": null,
         "subCategoryA": "Truck, Motorcycle",
         "adviceB": "Expect delays",
-        "adviceA": "Use diversions",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1654488537713,
+        "lastUpdated": 1654489113080,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Southbound traffic is diverted into Alice Street.&nbsp;",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -8202,20 +8202,12 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Affected",
-                "numberOfLanes": "2",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
@@ -8225,7 +8217,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Newtown",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -8288,6 +8280,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Wyoming",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123898,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02175022327881,
+          -33.81940833478539
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ROSEHILL James Ruse Drive at Grand Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1654489345237,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1654489345267,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Grand Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "James Ruse Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Rosehill",
             "trafficVolume": ""
           }
         ]
