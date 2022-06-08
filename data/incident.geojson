@@ -7879,8 +7879,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0787626,
-          -33.9063489
+          151.07871834355126,
+          -33.906252899355394
         ]
       },
       "properties": {
@@ -7905,7 +7905,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1654666030413,
+        "lastUpdated": 1654667869550,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7914,6 +7914,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Tow Truck",
           "Emergency services",
           "Transport for NSW"
         ],
@@ -7926,7 +7927,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "City bound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
@@ -7941,7 +7942,7 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Belfield",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ]
       }
@@ -8095,17 +8096,17 @@
     },
     {
       "type": "Feature",
-      "id": 124075,
+      "id": 124076,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2976544798143,
-          -33.70324541058276
+          151.0836015,
+          -33.8376562
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH NARRABEEN Pittwater Road just past Garden Street",
+        "headline": "BREAKDOWN Car - RHODES Homebush Bay Drive approaching Oulton Avenue",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -8117,15 +8118,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1654667256107,
+        "created": 1654667741253,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1654667256153,
+        "lastUpdated": 1654667741300,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -8134,7 +8135,6 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "BREAKDOWN Car",
@@ -8142,26 +8142,98 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Garden Street",
+            "crossStreet": "Oulton Avenue",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "Pittwater Road",
+            "locationQualifier": "approaching",
+            "mainStreet": "Homebush Bay Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "North Narrabeen",
-            "trafficVolume": "Moderate"
+            "suburb": "Rhodes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124077,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.96760241078945,
+          -33.9473971768955
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Van - HAMMONDVILLE M5 Motorway near Geroges River",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1654667909497,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1654667909530,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Van",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Geroges River",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Hammondville",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -13315,6 +13387,79 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Gordon",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124075,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2976544798143,
+          -33.70324541058276
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH NARRABEEN Pittwater Road just past Garden Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1654667256107,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1654667485467,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Garden Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Pittwater Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Narrabeen",
             "trafficVolume": "Moderate"
           }
         ]
