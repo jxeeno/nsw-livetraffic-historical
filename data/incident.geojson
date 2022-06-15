@@ -3441,7 +3441,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -3456,7 +3456,7 @@
         "adviceA": "Check signage",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1654567269140,
+        "lastUpdated": 1655284595560,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7063,7 +7063,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1655281134897,
+        "lastUpdated": 1655283954013,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -7299,13 +7299,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.202212233,
-          -33.8839900203
+          151.2026910073092,
+          -33.88384027564494
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Bus - SYDNEY Broadway just past Harris St",
+        "headline": "BREAKDOWN Bus - SYDNEY George Street just past Harris Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7321,11 +7321,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Bus",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1655278348143,
+        "lastUpdated": 1655283948230,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7341,7 +7341,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Harris St",
+            "crossStreet": "Harris Street",
             "delay": "",
             "impactedLanes": [
               {
@@ -7354,7 +7354,7 @@
               }
             ],
             "locationQualifier": "just past",
-            "mainStreet": "Broadway",
+            "mainStreet": "George Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_MET",
@@ -7371,8 +7371,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9817154624631,
-          -33.9615016063694
+          150.98181403364438,
+          -33.961516900901046
         ]
       },
       "properties": {
@@ -7397,7 +7397,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1655282111880,
+        "lastUpdated": 1655283980507,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7583,6 +7583,78 @@
             "region": "REG_WEST",
             "secondLocation": "Narrabri",
             "suburb": "Wee Waa",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116527,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.29040421748513,
+          -33.696929287691916
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Landslip - KATOOMBA Great Western Highway between Explorers Road AND Foy Avenue ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1647407493320,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Landslide",
+        "adviceB": "Reduce your speed; Exercise caution",
+        "adviceA": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1655284595560,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Landslip",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Explorers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": "Foy Avenue",
+            "suburb": "Katoomba",
             "trafficVolume": ""
           }
         ]
