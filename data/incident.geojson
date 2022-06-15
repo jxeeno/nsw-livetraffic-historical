@@ -6991,7 +6991,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Emergency roadwork",
-        "lastUpdated": 1655274416363,
+        "lastUpdated": 1655275977573,
         "otherAdvice": "Contraflow traffic conditions are in place. Expected to continue overnight.&nbsp;",
         "arrangementElements": [],
         "diversions": " ",
@@ -7059,12 +7059,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Expect delays; Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1655271638323,
-        "otherAdvice": " ",
+        "lastUpdated": 1655276070380,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -7072,8 +7072,8 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Heavy vehicle tow truck",
+          "Local Council"
         ],
         "displayName": "CRASH Truck",
         "media": [],
@@ -7374,78 +7374,6 @@
     },
     {
       "type": "Feature",
-      "id": 124650,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.21364803942566,
-          -33.862259779330124
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - SYDNEY Cahill Expressway at Macquarie Street on ramp",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1655275229827,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1655275229857,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Macquarie Street on ramp",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Cahill Expressway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 124651,
       "geometry": {
         "type": "Point",
@@ -7513,6 +7441,78 @@
             "secondLocation": " ",
             "suburb": "Eastern Creek",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124652,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.17717250569606,
+          -33.81399314642737
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Bus - LANE COVE Pacific Highwawy at Allison Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655275962587,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1655275962617,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Mechanic"
+        ],
+        "displayName": "BREAKDOWN Bus",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Allison Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highwawy",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Lane Cove",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12592,6 +12592,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "St Ives",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124650,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21364803942566,
+          -33.862259779330124
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - SYDNEY Cahill Expressway at Macquarie Street on ramp",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655275229827,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1655276043053,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Macquarie Street on ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Cahill Expressway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
