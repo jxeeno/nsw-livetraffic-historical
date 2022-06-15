@@ -7248,10 +7248,10 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1655274108233,
+        "lastUpdated": 1655275028023,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Light Vehicles:&nbsp;&nbsp; Nea Siding Rd, Fulwoods Rd, Furphy Rd, Voca\nRd, Railway St, Seachs Way to join Kamilaroi Hwy",
+        "diversions": "<p>As an alternative light vehicles can use:<br>Northbound: Nea Siding Rd, Fulwoods Rd, Furphy Rd, Voca Rd, Railway St, Seachs Way to join Kamilaroi Hwy<br>Southbound: Seachs Way, Railway St, Voca Rd, Furphy Rd, Fulwoods Rd,&nbsp;Nea Siding Rd to join Kamilaroi Hwy</p><p>Heavy\nvehicles can use New England Hwy, Oxley Hwy to travel between Willow Tree and\nGunnedah via Tamworth.</p>",
         "additionalInfo": [
           " "
         ],
@@ -7259,6 +7259,12 @@
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "nx}|De~dt[pBqABC|@q@pCsBx@m@|@k@xBoApBaAj@WzEeBTIlC_AzBy@bAa@pAk@nAq@nBiA~@o@`BqA~AwAfBgBLO~@eALQV]~@mAlAcBt@eAzDqFdFeHp@_AnKaOZc@bGkIDGjD}E`@m@b@m@LQnCwDzCiE\\c@tGeJh@w@x@gA`@m@p@aAlAaBNUtGeJbDsEfCmDpAiBPU|CiEp@_AlAeB`@m@vDcFlAeB`CgDx@eApFkHfA{AzB_DzCiE`DmEpAoB|BaDpBoC`CgDpC{DnCuD~A}B`AuAjBiC|DsF~BcDvBsCn@}@jAcBfA}AhBiCfA{A~A_CpAeB`AuAJMbB_CtAmBp@}@",
+            "levels": ""
+          }
         ],
         "displayName": "CRASH Truck, Car",
         "media": [],
@@ -7398,7 +7404,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1655273391403,
+        "lastUpdated": 1655275023530,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7407,6 +7413,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Transport for NSW",
           "Emergency services"
         ],
         "displayName": "CRASH 2 cars",
@@ -7419,10 +7426,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -7433,6 +7440,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "St Ives",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124648,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1477261,
+          -33.9391334
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - ARNCLIFFE Princes Highway approaching Wickham Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655274616653,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1655274616687,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wickham Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Arncliffe",
             "trafficVolume": ""
           }
         ]
