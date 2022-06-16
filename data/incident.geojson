@@ -7412,13 +7412,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1359016,
-          -33.9057301
+          151.13613729911722,
+          -33.90572147379687
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - DULWICH HILL New Canterbury Road near Union Street",
+        "headline": "CRASH Car - DULWICH HILL New Canterbury Road near Myra Road/Union Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7429,7 +7429,7 @@
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1655382070837,
         "isMajor": false,
         "name": null,
@@ -7438,7 +7438,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1655382070867,
+        "lastUpdated": 1655383157243,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7455,9 +7455,26 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Union Street",
+            "crossStreet": "Myra Road/Union Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "New Canterbury Road",
             "quadrant": "",
@@ -7577,78 +7594,6 @@
             "region": "SYD_WEST",
             "secondLocation": "Harris Street",
             "suburb": "Parramatta",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 124676,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.6577815410243,
-          -32.812756108434485
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH B-Double - TARRO New England Highway just past Quarter Sessions Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1655293543760,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "B-Double",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1655296618570,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH B-Double",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Quarter Sessions Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "New England Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Tarro",
             "trafficVolume": ""
           }
         ]
