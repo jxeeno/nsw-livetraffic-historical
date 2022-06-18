@@ -7684,14 +7684,14 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution; Expect delays",
+        "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1655516612250,
+        "lastUpdated": 1655518422617,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": " ",
+        "diversions": "Northbound via Maitland St, Segol St to return to Newell Hwy. This diversion is suitable for all vehicles.&nbsp;",
         "additionalInfo": [
           " "
         ],
@@ -7709,12 +7709,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
@@ -7731,17 +7739,17 @@
     },
     {
       "type": "Feature",
-      "id": 124927,
+      "id": 124929,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2109403,
-          -33.813694
+          151.17422357724612,
+          -33.71396140790185
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - NORTHBRIDGE Strathallen Avenue at Calbina Road",
+        "headline": "BREAKDOWN Car - ST IVES Mona Vale Road approaching Kitchener Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7753,15 +7761,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1655516823590,
+        "created": 1655518775373,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1655516823623,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1655518775420,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7772,16 +7780,88 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Calbina Road",
+            "crossStreet": "Kitchener Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Mona Vale Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "St Ives",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124930,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20691005848946,
+          -33.87390632612303
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - SYDNEY CBD George Street, Park Street, Elizabeth Street, St James Road from Town Hall to Queen's Square",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655520191147,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1655520191180,
+        "otherAdvice": "<p>Road closures will be in place in the Sydney CBD from 1:30pm for a planned Police Operation protest march.</p><p>Rolling closures will be in place along sections of George St, Park St, Elizabeth St and St James Rd to Queen's Square.</p><p>Roads will progressively re-open.</p><p>Motorists should avoid the area during this time or expect\ndelays and follow the directions of NSW Police on site.</p>",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Town Hall to Queen's Square",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7789,13 +7869,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Strathallen Avenue",
+            "locationQualifier": "from",
+            "mainStreet": "George Street, Park Street, Elizabeth Street, St James Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Northbridge",
+            "suburb": "Sydney CBD",
             "trafficVolume": ""
           }
         ]
@@ -8013,224 +8093,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Frederickton",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 124783,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.22557529588815,
-          -34.883086692673395
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, B-Double - COOLAC Hume Highway approximately 10km North of Coolac",
-        "periods": [],
-        "speedLimit": 40,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1655413191447,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, B-Double",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduced speed limit",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1655433482197,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Heavy vehicle tow truck",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Truck, B-Double",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "10km North of Coolac",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approximately",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_SOUTH",
-            "secondLocation": " ",
-            "suburb": "Coolac",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 124821,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.70326077993164,
-          -33.78641276068007
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Multiple vehicles - GLENMORE PARK The Northern Road above M4 Motorway",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1655429626780,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": "Expect delays",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1655432532557,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "displayName": "CRASH Multiple vehicles",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M4 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "above",
-            "mainStreet": "The Northern Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Glenmore Park",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 124833,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.17558874752956,
-          -33.915986387701
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - ST PETERS M8 Motorway at Gardeners Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1655432158473,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Overheight vehicle",
-        "adviceB": " ",
-        "adviceA": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1655432659417,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Gardeners Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "On-ramp"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "M8 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "St Peters",
             "trafficVolume": ""
           }
         ]
@@ -12289,6 +12151,78 @@
             "secondLocation": " ",
             "suburb": "Wombarra to Coledale",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124927,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2109403,
+          -33.813694
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - NORTHBRIDGE Strathallen Avenue at Calbina Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655516823590,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Expect delays",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1655520267550,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Calbina Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Strathallen Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Northbridge",
+            "trafficVolume": "Heavy"
           }
         ]
       }
