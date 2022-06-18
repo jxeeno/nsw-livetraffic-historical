@@ -7688,10 +7688,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1655518422617,
+        "lastUpdated": 1655525547267,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "Northbound via Maitland St, Segol St to return to Newell Hwy. This diversion is suitable for all vehicles.&nbsp;",
+        "diversions": "<p><strong>Northbound: </strong>Maitland St, Namoi St</p><p><strong>Southbound:</strong> Namoi St, Maitland St.</p><p>This diversion is suitable for all vehicles.</p>",
         "additionalInfo": [
           " "
         ],
@@ -7709,15 +7709,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -8029,6 +8021,79 @@
     },
     {
       "type": "Feature",
+      "id": 124933,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15813004285278,
+          -33.92769417227144
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - TEMPE Princes Highway near Holbeach Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655525415283,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1655525415330,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Holbeach Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Tempe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 86973,
       "geometry": {
         "type": "Point",
@@ -8307,78 +8372,6 @@
             "secondLocation": " ",
             "suburb": "Berrima",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 124834,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.62723775476863,
-          -32.84688314369946
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 trucks - LENAGHAN M1 Pacific Motorway approaching Black Hill road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1655433303180,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 trucks",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1655438903137,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "CRASH 2 trucks",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Black Hill road",
-            "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Lenaghan",
-            "trafficVolume": "Heavy"
           }
         ]
       }
