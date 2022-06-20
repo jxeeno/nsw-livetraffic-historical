@@ -3538,17 +3538,7 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "4:30am",
-            "fromDay": "Sunday",
-            "startTime": "9:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "4:30am",
             "fromDay": "Monday",
@@ -3558,7 +3548,7 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "4:30am",
             "fromDay": "Tuesday",
@@ -3568,7 +3558,7 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "4:30am",
             "fromDay": "Wednesday",
@@ -3578,20 +3568,30 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "4:30am",
             "fromDay": "Thursday",
-            "startTime": "9:00pm",
+            "startTime": "9:30pm",
             "toDay": ""
           },
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "",
+            "roadtype": "Bridge",
             "direction": "Both directions",
             "finishTime": "8:00am",
             "fromDay": "Friday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Bridge",
+            "direction": "Both directions",
+            "finishTime": "7:00am",
+            "fromDay": "Saturday",
             "startTime": "10:00pm",
             "toDay": ""
           }
@@ -3615,7 +3615,7 @@
         "end": 1656095400000,
         "incidentKind": "Planned",
         "mainCategory": "Scheduled roadwork",
-        "lastUpdated": 1655619025793,
+        "lastUpdated": 1655697361337,
         "otherAdvice": "<p>During work, up to 3 of 4 southbound lanes will be closed and&nbsp;1 northbound lane (lane 4) may be closed for safety.<br>Access on Cahill Exp above Circular Quay will be maintained.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -3627,7 +3627,7 @@
           " "
         ],
         "duration": null,
-        "start": 1655560800000,
+        "start": 1655647200000,
         "displayName": "SCHEDULED ROADWORK Sydney Harbour Bridge",
         "media": [],
         "roads": [
@@ -24388,6 +24388,93 @@
             "region": "SYD_NORTH",
             "secondLocation": "River Road",
             "suburb": "Ermington",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125058,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.92430694250797,
+          -33.93992966169215
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "SCHEDULED ROADWORK Resurfacing - MOOREBANK M5 Motorway westbound on-ramp from Moorebank Avenue",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655696788373,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Resurfacing",
+        "adviceB": "Use diversions",
+        "adviceA": "Plan your journey",
+        "end": 1657220400000,
+        "incidentKind": "Planned",
+        "mainCategory": "Scheduled roadwork",
+        "lastUpdated": 1655696788420,
+        "otherAdvice": "Only this on-ramp is closing, the motorway will remain open.",
+        "arrangementElements": [],
+        "diversions": "<p>Moorebank Ave, Anzac Rd, Wattle Grove Dr, Heathcote Rd, to the M5 westbound.</p>",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "duration": null,
+        "start": 1656165600000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorebank Avenue",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "from",
+            "mainStreet": "M5 Motorway westbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ]
