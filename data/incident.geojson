@@ -6652,7 +6652,7 @@
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
@@ -6667,7 +6667,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1655849999177,
+        "lastUpdated": 1655851289930,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6709,57 +6709,57 @@
     },
     {
       "type": "Feature",
-      "id": 125108,
+      "id": 125209,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9766093780989,
-          -33.77246552587746
+          151.712016423,
+          -32.9387174868
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Multiple vehicles - BAULKHAM HILLS M2 Motorway approaching Cropley Drive, Baulkham Hills",
+        "headline": "TRAFFIC LIGHTS BLACKED OUT - KOTARA Northcott Drive at Kullaiba Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1655760724367,
-        "isMajor": true,
+        "created": 1655850827610,
+        "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": null,
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1655764502127,
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1655850827657,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cropley Drive",
+            "crossStreet": "Kullaiba Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -6767,14 +6767,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M2 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Northcott Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Baulkham Hills",
-            "trafficVolume": "Heavy"
+            "suburb": "Kotara",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12795,6 +12795,78 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Boorooma",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1480969,
+          -33.627856
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - BEROWRA Pacific Highway at Yallambee Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655849306030,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1655851289930,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Yallambee Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Berowra",
             "trafficVolume": ""
           }
         ]
