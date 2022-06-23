@@ -5597,7 +5597,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Ferry out of service",
-        "lastUpdated": 1655958483983,
+        "lastUpdated": 1655962165267,
         "otherAdvice": "<p>A sandbank is preventing the ferry from operating until the tide rises.</p><p>Motorists can use Grafton Bridge as an alternative.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -5789,57 +5789,130 @@
     },
     {
       "type": "Feature",
-      "id": 125236,
+      "id": 125315,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.14754538616762,
-          -33.93935202995643
+          151.12835200591311,
+          -34.00566202445151
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Car - ARNCLIFFE Princes Highway approaching Forest Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - SANS SOUCI Rocky Point Road on Captain Cook Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1655873288430,
+        "created": 1655962013217,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Police operation",
         "adviceB": " ",
-        "adviceA": " ",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1655875738893,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1655962013247,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Forest Road",
+            "crossStreet": "Captain Cook Bridge",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "Rocky Point Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sans Souci",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9594352,
+          -33.7137158
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - KELLYVILLE Windsor Road at President Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1655962131210,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1655962131260,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "President Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -5847,14 +5920,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Princes Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Windsor Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Arncliffe",
-            "trafficVolume": "Heavy"
+            "suburb": "Kellyville",
+            "trafficVolume": ""
           }
         ]
       }
