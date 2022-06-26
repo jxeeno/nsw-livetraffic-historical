@@ -4473,10 +4473,10 @@
         "adviceA": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656283363603,
+        "lastUpdated": 1656285452917,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Northbound traffic can consider using Wallanbah Road, Avalon Rd to The Bucketts Way.<br>Southbound can consider The Bucketts Way to Avalon Rd, Wallanbah Rd to return to Pacific Hwy.&nbsp;</p><p><strong>This diversion is not suitable for heavy vehicles. </strong></p>",
+        "diversions": "<p>Northbound traffic can consider using Wallanbah Road, Avalon Rd to The Bucketts Way.</p><p><strong>This diversion is not suitable for heavy vehicles. </strong></p>",
         "additionalInfo": [
           " "
         ],
@@ -4496,7 +4496,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -4620,7 +4620,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656284847107,
+        "lastUpdated": 1656285391080,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4637,7 +4637,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Grandview Road",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
@@ -4672,7 +4672,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - NORTH SYDNEY Sydney Harbour Tunnel",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - NORTH SYDNEY All southbound approaches to Sydney Harbour Tunnel and Sydney Harbour Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4692,7 +4692,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1656284795990,
+        "lastUpdated": 1656285272550,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4708,7 +4708,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Sydney Harbour Tunnel and Sydney Harbour Bridge",
             "delay": "Significant",
             "impactedLanes": [
               {
@@ -4720,8 +4720,8 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
+            "locationQualifier": "to",
+            "mainStreet": "All southbound approaches",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_NORTH",
@@ -4873,6 +4873,78 @@
             "secondLocation": " ",
             "suburb": "Casula",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19135296475017,
+          -33.81324919992563
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Overheight vehicle - ARTARMON Lane Cove Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656285541083,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Overheight vehicle",
+        "adviceB": "Use diversions",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1656285771713,
+        "otherAdvice": "Overheight vehicle detectors have been triggered and the tunnel is closed.",
+        "arrangementElements": [],
+        "diversions": "Epping Rd.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Overheight vehicle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Lane Cove Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Artarmon",
+            "trafficVolume": "Heavy"
           }
         ]
       }
