@@ -4401,7 +4401,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1656311638210,
+        "lastUpdated": 1656314044827,
         "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
@@ -4471,11 +4471,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656312069620,
+        "lastUpdated": 1656313751980,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4512,7 +4512,7 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Carlingford",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ]
       }
@@ -4596,17 +4596,17 @@
     },
     {
       "type": "Feature",
-      "id": 125644,
+      "id": 125645,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.00885278422183,
-          -33.82710334999039
+          151.21546547305886,
+          -33.866551276391284
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - HARRIS PARK M4 Motorway (lower viaduct) approaching Church Street, Parramatta",
+        "headline": "CRASH 2 cars - SYDNEY Eastern Distributor just past Domain Tunnel",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -4618,35 +4618,108 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1656312905150,
+        "created": 1656313888733,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1656313054653,
+        "mainCategory": "Crash",
+        "lastUpdated": 1656313888767,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          "Site cleared"
+          " "
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Transport for NSW",
+          "Emergency services"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH 2 cars",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Church Street",
+            "crossStreet": "Domain Tunnel",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Eastern Distributor",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125646,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.570084561,
+          -33.6979194542
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "TRAFFIC LIGHTS BLACKED OUT Power failure - SPRINGWOOD Great Western Highway at George Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656313973913,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Traffic lights blacked out",
+        "lastUpdated": 1656313973977,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "George Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4654,14 +4727,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M4 Motorway (lower viaduct)",
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Harris Park",
-            "trafficVolume": "Heavy"
+            "suburb": "Springwood",
+            "trafficVolume": ""
           }
         ]
       }
@@ -5994,78 +6067,6 @@
             "secondLocation": " ",
             "suburb": "Lidcombe",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 125575,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.10965903867512,
-          -33.80697309894693
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Earlier car fire - RYDE Lane Cove Road near Kuppa Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1656225125613,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Earlier car fire",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1656227671430,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          "Site cleared"
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          " "
-        ],
-        "displayName": "HAZARD Earlier car fire",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Kuppa Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Lane Cove Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "Ryde",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10208,6 +10209,78 @@
             "secondLocation": " ",
             "suburb": "Castle Hill",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125644,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00885278422183,
+          -33.82710334999039
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - HARRIS PARK M4 Motorway (lower viaduct) approaching Church Street, Parramatta",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656312905150,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1656313896043,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Church Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway (lower viaduct)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Harris Park",
+            "trafficVolume": "Heavy"
           }
         ]
       }
