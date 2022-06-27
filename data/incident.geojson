@@ -4622,7 +4622,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1656363498113,
+        "lastUpdated": 1656368123470,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -4631,8 +4631,8 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Heavy vehicle tow truck",
+          "Transport for NSW"
         ],
         "displayName": "BREAKDOWN B-Double",
         "media": [],
@@ -4767,8 +4767,8 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656367876230,
-        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
+        "lastUpdated": 1656368296577,
+        "otherAdvice": "The road is closed eastbound&nbsp; for a short time while the vehicles are being removed. ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -4787,7 +4787,15 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -4876,6 +4884,70 @@
             "secondLocation": " ",
             "suburb": "Minchinbury",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125685,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21204280888895,
+          -33.86943970499921
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - SYDNEY CBD various roads",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656368088077,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Expect delays",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1656368245870,
+        "otherAdvice": "Rolling road closures may be implemented while Police undertake an operation in the Sydney CBD.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "various roads",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Sydney CBD",
+            "trafficVolume": ""
           }
         ]
       }
@@ -5382,78 +5454,6 @@
             "secondLocation": " ",
             "suburb": "Mascot",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 125607,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.02137800555724,
-          -33.82363694440844
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Truck - ROSEHILL James Ruse Drive at Prospect Street",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1656281084397,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1656282259507,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Prospect Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "James Ruse Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Rosehill",
-            "trafficVolume": "Moderate"
           }
         ]
       }
