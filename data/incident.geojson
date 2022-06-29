@@ -4937,14 +4937,14 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Wires down",
-        "adviceB": "Use an alternative route",
-        "adviceA": "Avoid the area",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1656540094247,
+        "lastUpdated": 1656541790420,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p><strong>Eastbound</strong>: The Horsley Dr.<br><strong>Westbound</strong>: Henry Lawson Dr or Woodville Rd.&nbsp;</p>",
+        "diversions": "<p><strong>Westbound</strong>: Henry Lawson Dr or Woodville Rd.&nbsp;</p>",
         "additionalInfo": [
           " "
         ],
@@ -4973,12 +4973,20 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -5219,17 +5227,17 @@
     },
     {
       "type": "Feature",
-      "id": 125845,
+      "id": 125846,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.85250574230636,
-          -33.79744025963736
+          150.64057912903482,
+          -34.56187279895891
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 3 vehicles - EASTERN CREEK M4 Motorway near Wallgrove Road, Horsley Park",
+        "headline": "BREAKDOWN Semi-trailer - MACQUARIE PASS Illawarra Highway",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5241,15 +5249,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1656540245183,
+        "created": 1656541592800,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "3 vehicles",
+        "subCategoryA": "Semi-trailer",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1656540245277,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1656541639860,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5258,34 +5266,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "displayName": "CRASH 3 vehicles",
+        "displayName": "BREAKDOWN Semi-trailer",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wallgrove Road",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M4 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Illawarra Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Eastern Creek",
-            "trafficVolume": "Moderate"
+            "suburb": "Macquarie Pass",
+            "trafficVolume": ""
           }
         ]
       }
@@ -5495,79 +5502,6 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 125762,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.177792144458,
-          -33.86802603457818
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - ROZELLE Victoria Road approaching Anzac Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1656454414130,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": null,
-        "adviceB": "Exercise caution",
-        "adviceA": "Reduce your speed",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1656455242100,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Anzac Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "City bound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Victoria Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
@@ -9939,6 +9873,79 @@
             "secondLocation": " ",
             "suburb": "Wolli Creek",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125845,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85250574230636,
+          -33.79744025963736
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles - EASTERN CREEK M4 Motorway near Wallgrove Road, Horsley Park",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656540245183,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1656541670213,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wallgrove Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Eastern Creek",
+            "trafficVolume": "Moderate"
           }
         ]
       }
