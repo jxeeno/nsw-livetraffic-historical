@@ -5058,7 +5058,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car, Bicycle - NEWTOWN Wilson Street between King Street and Erskineville Road",
+        "headline": "CRASH Car, Bicycle - NEWTOWN Wilson Street between King Street AND Erskineville Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5071,14 +5071,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1656480486013,
-        "isMajor": true,
+        "isMajor": false,
         "name": null,
         "subCategoryA": "Car, Bicycle",
         "adviceB": " ",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656483199500,
+        "lastUpdated": 1656483580077,
         "otherAdvice": "There is heavy traffic in all directions on King St, Enmore Rd and Erskineville Rd, as a result of this earlier crash.",
         "arrangementElements": [],
         "diversions": " ",
@@ -5095,7 +5095,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "King Street",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "All directions",
@@ -5120,17 +5120,17 @@
     },
     {
       "type": "Feature",
-      "id": 125801,
+      "id": 125802,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.5456898,
-          -33.6920737
+          152.7321206,
+          -31.5778783
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - FAULCONBRIDGE Great Western Highway at Grose Road",
+        "headline": "CRASH 2 cars - HERONS CREEK Pacific Highway at Bobs Creek Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5142,7 +5142,7 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1656481242983,
+        "created": 1656483609357,
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
@@ -5150,7 +5150,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656483370223,
+        "lastUpdated": 1656483609387,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5166,25 +5166,97 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Grose Road",
+            "crossStreet": "Bobs Creek Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Great Western Highway",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Faulconbridge",
+            "suburb": "Herons Creek",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125803,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21225213079916,
+          -33.82534261170301
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Motorcycle - CAMMERAY Warringah Freeway approaching Miller Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656483883097,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1656483883127,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Miller Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 5",
+                "extent": "Lanes closed",
+                "numberOfLanes": "5",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Cammeray",
             "trafficVolume": ""
           }
         ]
@@ -9918,6 +9990,78 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Calga",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5456898,
+          -33.6920737
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - FAULCONBRIDGE Great Western Highway at Grose Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656481242983,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1656484224023,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Grose Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Faulconbridge",
             "trafficVolume": ""
           }
         ]
