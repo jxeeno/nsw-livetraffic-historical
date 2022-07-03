@@ -5210,10 +5210,10 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1656828461670,
+        "lastUpdated": 1656832765967,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p>Southbound to Sutherland: Menai Rd, Akuna Rd, River Rd.</p><p>Southbound to Banden Ridge:&nbsp;Menai Rd, Old Illawarra Rd to join&nbsp;New Illawarra Rd</p>",
+        "diversions": " ",
         "additionalInfo": [
           " "
         ],
@@ -5231,16 +5231,16 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               },
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
                 "roadType": ""
@@ -6520,29 +6520,29 @@
     },
     {
       "type": "Feature",
-      "id": 126108,
+      "id": 126257,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.97349465511166,
-          -30.62559476390463
+          151.26496079440383,
+          -33.887604911067264
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - VALLA Pacific Highway near Corkwood Road",
+        "headline": "CRASH Car - BELLEVUE HILL Old South Head Road at O'Briens Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
         "expectedDelay": null,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": " ",
         "impactingNetwork": true,
         "subCategoryB": " ",
         "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1656744536610,
+        "isInitialReport": false,
+        "created": 1656832832403,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
@@ -6550,7 +6550,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1656746347003,
+        "lastUpdated": 1656832938960,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6560,23 +6560,113 @@
         "webLinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Tow Truck"
+          "Transport for NSW"
         ],
         "displayName": "CRASH Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Corkwood Road",
+            "crossStreet": "O'Briens Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Pacific Highway",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Old South Head Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Valla",
+            "suburb": "Bellevue Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1149879,
+          -33.7976861
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - MACQUARIE PARK Lane Cove Road at Bridge Road, North Ryde",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656832904890,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1656832904920,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bridge Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Lane Cove Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Macquarie Park",
             "trafficVolume": ""
           }
         ]
