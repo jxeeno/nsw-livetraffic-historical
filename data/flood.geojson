@@ -1763,7 +1763,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Flooding",
-        "lastUpdated": 1656913530177,
+        "lastUpdated": 1656914872247,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": "<p>Motorists can use the following alternative route:</p><p><strong>Eastbound</strong>: New Illawarra Rd, Bangor Bypass, River Rd, Linden St and The Grand Pde to Princes Hwy.<br><strong>Westbound</strong>: Princes Hwy, The Grand Pde, Linden St, River Rd and Bangor Bypass to New Illawarra Rd.</p>",
@@ -1787,7 +1787,16 @@
             "conditionTendency": "",
             "crossStreet": "New Illawarra Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
             "locationQualifier": "between",
             "mainStreet": "Heathcote Road",
             "quadrant": "",
@@ -1873,6 +1882,78 @@
             "region": "REG_SOUTH",
             "secondLocation": "M1 Princes Motorway",
             "suburb": "Albion Park",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126364,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87214541874087,
+          -33.861549245490195
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "FLOODING - WETHERILL PARK Cowpasture Road between Restwell Road, Bossley Park AND The Horsley Drive ",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656914958993,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Delay non-essential travel; \tNever drive through floodwater",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Flooding",
+        "lastUpdated": 1656914959023,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "FLOODING",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Restwell Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Cowpasture Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_SOUTH",
+            "secondLocation": "The Horsley Drive",
+            "suburb": "Wetherill Park",
             "trafficVolume": ""
           }
         ]
