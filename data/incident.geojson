@@ -7285,7 +7285,7 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1656974118610,
+        "lastUpdated": 1656974563470,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7308,10 +7308,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -7401,84 +7401,12 @@
     },
     {
       "type": "Feature",
-      "id": 126472,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2111722492126,
-          -33.843412479820906
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Sydney Harbour Tunnel",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1656973970947,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Breakdown",
-        "lastUpdated": 1656973970977,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Sydney Harbour Tunnel",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Warringah Freeway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_NORTH",
-            "secondLocation": " ",
-            "suburb": "North Sydney",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 126473,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2116009845169,
-          -33.70111929826583
+          151.2143529309662,
+          -33.700043734670295
         ]
       },
       "properties": {
@@ -7499,11 +7427,11 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Water over road",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1656974023047,
+        "lastUpdated": 1656974288950,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7523,7 +7451,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7545,17 +7473,17 @@
     },
     {
       "type": "Feature",
-      "id": 126474,
+      "id": 126475,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.84855519882814,
-          -33.73494614892051
+          151.4227344,
+          -33.294752
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - DEAN PARK M7 Motorway approaching Richmond Road, Blacktown",
+        "headline": "ADVERSE WEATHER Water over road - TUGGERAH Pacific Highway at Johnson Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -7567,15 +7495,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1656974085340,
+        "created": 1656974621397,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Allow extra travel time",
-        "adviceA": "Expect delays",
+        "subCategoryA": "Water over road",
+        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1656974085370,
+        "mainCategory": "Adverse weather",
+        "lastUpdated": 1656974621430,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -7584,25 +7512,33 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
           "Emergency services"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "ADVERSE WEATHER Water over road",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Richmond Road",
-            "delay": "Significant",
-            "impactedLanes": [],
-            "locationQualifier": "approaching",
-            "mainStreet": "M7 Motorway",
+            "crossStreet": "Johnson Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Dean Park",
-            "trafficVolume": "Heavy"
+            "suburb": "Tuggerah",
+            "trafficVolume": ""
           }
         ]
       }
@@ -8100,78 +8036,6 @@
             "secondLocation": " ",
             "suburb": "Lane Cove North",
             "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 126306,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.68717702960816,
-          -32.82173483190686
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Truck, Car - HEXHAM Pacific Highway on Hexham Bridge",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1656886727517,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Car",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1656888055320,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Truck, Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hexham Bridge",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "on",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Hexham",
-            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -15393,6 +15257,142 @@
             "secondLocation": " ",
             "suburb": "Heddon Greta",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2111722492126,
+          -33.843412479820906
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Car - NORTH SYDNEY Warringah Freeway approaching Sydney Harbour Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656973970947,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1656974452370,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Harbour Tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Warringah Freeway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.84855519882814,
+          -33.73494614892051
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - DEAN PARK M7 Motorway approaching Richmond Road, Blacktown",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1656974085340,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1656974286670,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Richmond Road",
+            "delay": "Significant",
+            "impactedLanes": [],
+            "locationQualifier": "approaching",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Dean Park",
+            "trafficVolume": "Heavy"
           }
         ]
       }
