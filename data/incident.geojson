@@ -1763,7 +1763,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1657046686520,
+        "lastUpdated": 1657057294843,
         "otherAdvice": "<p><strong>Moss Vale Rd has reopened between Bunkers Hill Rd and </strong><strong>Myra Vale Rd.&nbsp;</strong><strong></strong></p><p>At some locations, portable traffic lights will allow motorists to pass in one direction at a time at 40km/h.</p>",
         "arrangementElements": [],
         "diversions": " ",
@@ -5596,7 +5596,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Landslide - HOWES VALLEY Putty Road between Milbrodale Road AND Colo Heights Road ",
+        "headline": "HAZARD Landslide - COLO HEIGHTS TO MILBRODALE Putty Road between Colo Heights Road AND Milbrodale Road ",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5616,7 +5616,7 @@
         "adviceA": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1657046547057,
+        "lastUpdated": 1657057092383,
         "otherAdvice": "<a href=\"https://www.livetraffic.com/incident-details/126512\" target=\"_blank\">Flooding has also closed Putty Rd from Milbrodale to Bulga.</a>",
         "arrangementElements": [],
         "diversions": "<p><strong>Southbound</strong> motorists will be diverted at Milbrodale Rd.</p><p><strong>Northbound </strong>motorists will be diverted at Colo Heights Rd.</p><p>Motorists travelling between Sydney and Hunter Valley are advised to use the M1 Pacific Mwy.</p>",
@@ -5638,7 +5638,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Milbrodale Road",
+            "crossStreet": "Colo Heights Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -5655,8 +5655,8 @@
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
-            "secondLocation": "Colo Heights Road",
-            "suburb": "Howes Valley",
+            "secondLocation": "Milbrodale Road",
+            "suburb": "Colo Heights to Milbrodale",
             "trafficVolume": ""
           }
         ]
@@ -6387,17 +6387,17 @@
     },
     {
       "type": "Feature",
-      "id": 126559,
+      "id": 126560,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.62767250259398,
-          -32.846142916444364
+          151.21247736745912,
+          -33.84950592780476
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - BLACK HILL M1 Pacific Motorway near Black Hill Road",
+        "headline": "BREAKDOWN Car - MILSONS POINT Sydney Harbour Bridge",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6409,15 +6409,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1657054998870,
+        "created": 1657057378840,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
         "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1657055682463,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1657057378890,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6426,34 +6426,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW",
-          "Emergency services"
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Black Hill Road",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Motorway"
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Bridge"
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Sydney Harbour Bridge",
             "quadrant": "",
             "queueLength": 0,
-            "region": "REG_NORTH",
+            "region": "SYD_NORTH",
             "secondLocation": " ",
-            "suburb": "Black Hill",
+            "suburb": "Milsons Point",
             "trafficVolume": ""
           }
         ]
@@ -13479,6 +13477,80 @@
             "secondLocation": " ",
             "suburb": "Calga",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126559,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.62767250259398,
+          -32.846142916444364
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - BLACK HILL M1 Pacific Motorway near Black Hill Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657054998870,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1657057155217,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Black Hill Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Black Hill",
+            "trafficVolume": ""
           }
         ]
       }
