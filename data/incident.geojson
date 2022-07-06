@@ -5897,10 +5897,10 @@
         "adviceA": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1657134740623,
+        "lastUpdated": 1657135358077,
         "otherAdvice": " ",
         "arrangementElements": [],
-        "diversions": "<p><strong>Northbound: </strong>Bucca Rd, Grafton St, Orara Way, Armidale Rd, Gwydir Hwy to rejoin Pacific Hwy</p><p><strong>Southbound: </strong>Gwydir Hwy, Bent St, Armidale Rd, Orara Way, Grafton St, Bucca Rd to rejoin Pacific Hwy.</p><p>This route is <strong>NOT SUITABLE </strong>for B-Doubles.<strong></strong></p>",
+        "diversions": "<p><strong>Northbound: </strong>Bucca Rd, Grafton St, Orara Way, Armidale Rd, Gwydir Hwy to rejoin Pacific Hwy<strong></strong></p><p>This route is <strong>NOT SUITABLE </strong>for B-Doubles.<strong></strong></p>",
         "additionalInfo": [
           " "
         ],
@@ -5923,11 +5923,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Closed",
+                "numberOfLanes": "2",
                 "roadType": "Highway"
               }
             ],
