@@ -5392,7 +5392,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1657052659173,
+        "lastUpdated": 1657086374357,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5536,7 +5536,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1657068876583,
+        "lastUpdated": 1657086217427,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5582,8 +5582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.63737277444062,
-          -34.283733621093425
+          150.6344867175406,
+          -34.28664122167815
         ]
       },
       "properties": {
@@ -5608,7 +5608,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1657075217260,
+        "lastUpdated": 1657086520107,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5617,8 +5617,8 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services"
+          "Heavy vehicle tow truck",
+          "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Truck",
         "media": [],
@@ -5634,7 +5634,7 @@
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
-                "roadType": ""
+                "roadType": "Motorway"
               }
             ],
             "locationQualifier": "near",
@@ -5972,7 +5972,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights blacked out",
-        "lastUpdated": 1657084581460,
+        "lastUpdated": 1657086563307,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6234,15 +6234,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0541722155525,
-          -33.94238278239186
+          151.0537913418724,
+          -33.94311263148501
         ]
       },
       "properties": {
         "webLinks": [],
         "headline": "CRASH 2 cars - RIVERWOOD Belmore Road at M5 Motorway on-ramp",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "webLinkUrl": null,
         "expectedDelay": null,
         "ended": false,
@@ -6256,12 +6256,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": "Reduce your speed",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1657085892307,
-        "otherAdvice": " ",
+        "lastUpdated": 1657086546573,
+        "otherAdvice": "There is no access to the motorway from southbound on Belmore Rd.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6282,9 +6282,17 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "2",
                 "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -6885,78 +6893,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Kurrajong Heights",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 126508,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.2472232,
-          -28.9230338
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "HAZARD Oil spill - SANDY HILL Bruxner Highway approximately 25km east of Tenterfield",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1656996905707,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Oil spill",
-        "adviceB": " ",
-        "adviceA": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1656999788980,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "HAZARD Oil spill",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "25km east of Tenterfield",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approximately",
-            "mainStreet": "Bruxner Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "REG_NORTH",
-            "secondLocation": " ",
-            "suburb": "Sandy Hill",
             "trafficVolume": ""
           }
         ]
