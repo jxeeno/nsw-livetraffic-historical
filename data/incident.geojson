@@ -5926,7 +5926,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Adverse weather",
-        "lastUpdated": 1657347192867,
+        "lastUpdated": 1657348229160,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5946,11 +5946,19 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -6257,6 +6265,79 @@
     },
     {
       "type": "Feature",
+      "id": 126890,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2107570910611,
+          -33.838165040130605
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck, Car - NORTH SYDNEY Sydney Harbour Tunnel in mid tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657347844227,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Use diversions",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1657348381863,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": "Sydney Harbour Bridge.",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH Truck, Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "mid tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "in",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "North Sydney",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 126682,
       "geometry": {
         "type": "Point",
@@ -6538,79 +6619,6 @@
             "region": "REG_NORTH",
             "secondLocation": " ",
             "suburb": "Morisset",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 126807,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8540398294651,
-          -33.839415601572654
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 2 trucks - HORSLEY PARK Wallgrove Road just past The Horsley Drive",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1657257553873,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 trucks",
-        "adviceB": "Exercise caution; Allow extra travel time",
-        "adviceA": "Use an alternative route",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1657261837540,
-        "otherAdvice": "The road will close northbound when the truck is being removed.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Heavy Vehicle Inspectors"
-        ],
-        "displayName": "CRASH 2 trucks",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The Horsley Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Wallgrove Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Horsley Park",
             "trafficVolume": "Heavy"
           }
         ]
