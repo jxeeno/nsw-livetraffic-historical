@@ -5770,7 +5770,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1657508453947,
+        "lastUpdated": 1657511092547,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5843,7 +5843,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1657508484653,
+        "lastUpdated": 1657511141807,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5852,6 +5852,7 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Heavy vehicle tow truck",
           "Transport for NSW"
         ],
         "displayName": "BREAKDOWN Truck",
@@ -5915,7 +5916,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1657510318010,
+        "lastUpdated": 1657511058090,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5934,7 +5935,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Anderson Drive",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
@@ -5942,6 +5943,14 @@
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -5959,17 +5968,17 @@
     },
     {
       "type": "Feature",
-      "id": 126933,
+      "id": 127017,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.901252,
-          -33.7783486
+          151.03899110905414,
+          -33.84910977600714
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - BLACKTOWN Reservoir Road at Nicholas Street",
+        "headline": "CRASH 2 cars - AUBURN St Hilliers Road near Hall Street",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5981,15 +5990,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1657422760930,
+        "created": 1657510874213,
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceB": " ",
-        "adviceA": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1657424485890,
+        "lastUpdated": 1657512102137,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6006,17 +6015,100 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Nicholas Street",
+            "crossStreet": "Hall Street",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Reservoir Road",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "St Hilliers Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_WEST",
+            "region": "SYD_MET",
             "secondLocation": " ",
-            "suburb": "Blacktown",
-            "trafficVolume": ""
+            "suburb": "Auburn",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127018,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1873405497489,
+          -33.9448272750809
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - MASCOT General Holmes Drive above Foreshore Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657511015010,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1657511878423,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Foreshore Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2, Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "above",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Mascot",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10908,6 +11000,79 @@
             "secondLocation": " ",
             "suburb": "Villawood",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127017,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.03899110905414,
+          -33.84910977600714
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 2 cars - AUBURN St Hilliers Road near Hall Street",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657510874213,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1657512102137,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hall Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "St Hilliers Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Auburn",
+            "trafficVolume": "Moderate"
           }
         ]
       }
