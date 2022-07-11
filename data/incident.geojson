@@ -5900,14 +5900,14 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1657570395683,
-        "isMajor": true,
+        "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
         "adviceB": " ",
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1657572465847,
+        "lastUpdated": 1657574453290,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5924,7 +5924,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "Henry Lawson Drive",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
@@ -5979,7 +5979,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Traffic lights flashing yellow",
-        "lastUpdated": 1657572737637,
+        "lastUpdated": 1657574771817,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6021,17 +6021,17 @@
     },
     {
       "type": "Feature",
-      "id": 127075,
+      "id": 127081,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1463991185526,
-          -33.751237076448206
+          150.85387470524896,
+          -33.91753606442484
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck - PYMBLE Ryde Road off-ramp to Pacific Highway",
+        "headline": "BREAKDOWN Semi-trailer - LEN WATERS ESTATE Cowpasture Road approaching Airfield Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6043,15 +6043,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1657571504670,
+        "created": 1657574923230,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceB": " ",
+        "subCategoryA": "Semi-trailer",
+        "adviceB": "Allow extra travel time",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Breakdown",
-        "lastUpdated": 1657573568143,
+        "lastUpdated": 1657574923263,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6060,107 +6060,32 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Transport for NSW",
-          "Heavy vehicle tow truck"
+          "Transport for NSW"
         ],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "BREAKDOWN Semi-trailer",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Pacific Highway",
+            "crossStreet": "Airfield Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "description": "Right turn lane",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "Ryde Road off-ramp",
+            "locationQualifier": "approaching",
+            "mainStreet": "Cowpasture Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_NORTH",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Pymble",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 127077,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.02364751606413,
-          -33.80148843628925
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - OATLANDS James Ruse Drive southbound off-ramp to Kissing Point Road",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1657572443740,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": "Plan your journey",
-        "adviceA": "Use an alternative route",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1657573240760,
-        "otherAdvice": "Southbound motorists can exit at Victoria Rd.",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Tow Truck",
-          "Transport for NSW",
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Kissing Point Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Off-ramp"
-              }
-            ],
-            "locationQualifier": "to",
-            "mainStreet": "James Ruse Drive southbound off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_WEST",
-            "secondLocation": " ",
-            "suburb": "Oatlands",
+            "suburb": "Len Waters Estate",
             "trafficVolume": "Moderate"
           }
         ]
@@ -11599,6 +11524,153 @@
             "secondLocation": " ",
             "suburb": "Mascot",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127077,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02364751606413,
+          -33.80148843628925
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - OATLANDS James Ruse Drive southbound off-ramp to Kissing Point Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657572443740,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Plan your journey",
+        "adviceA": "Use an alternative route",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1657574503953,
+        "otherAdvice": "Southbound motorists can exit at Victoria Rd.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Tow Truck",
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kissing Point Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "James Ruse Drive southbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Oatlands",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127075,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1463991185526,
+          -33.751237076448206
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - PYMBLE Ryde Road off-ramp to Pacific Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657571504670,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1657574963600,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Ryde Road off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Pymble",
+            "trafficVolume": ""
           }
         ]
       }
