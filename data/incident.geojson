@@ -6200,7 +6200,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1657607467543,
+        "lastUpdated": 1657609791770,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6386,7 +6386,7 @@
     },
     {
       "type": "Feature",
-      "id": 127124,
+      "id": 127125,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -6396,7 +6396,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Metal - CLYDE M4 Motorway eastbound on-ramp from James Ruse Drive",
+        "headline": "BREAKDOWN Car - CLYDE M4 Motorway eastbound on-ramp from James Ruse Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6408,15 +6408,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1657609366120,
+        "created": 1657609605360,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Metal",
+        "subCategoryA": "Car",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Hazard",
-        "lastUpdated": 1657609366150,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1657609605407,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6427,7 +6427,7 @@
         "attendingGroups": [
           "Motorway Crew"
         ],
-        "displayName": "HAZARD Metal",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
@@ -6437,10 +6437,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": "On-ramp"
               }
             ],
@@ -6451,6 +6451,78 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Clyde",
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1692047,
+          -33.8632611
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - ROZELLE Victoria Road approaching The Crescent",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657610065907,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1657610065940,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The Crescent",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ]
@@ -10867,6 +10939,78 @@
             "secondLocation": " ",
             "suburb": "Beecroft",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.02136595739438,
+          -33.83137505348708
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Metal - CLYDE M4 Motorway eastbound on-ramp from James Ruse Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657609366120,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Metal",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1657609608967,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "HAZARD Metal",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "On-ramp"
+              }
+            ],
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway eastbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Clyde",
+            "trafficVolume": ""
           }
         ]
       }
