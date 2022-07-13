@@ -5829,7 +5829,7 @@
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1657661093887,
+        "lastUpdated": 1657679725907,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5871,17 +5871,17 @@
     },
     {
       "type": "Feature",
-      "id": 127183,
+      "id": 127185,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9879689002678,
-          -33.824565304783896
+          150.44485513449746,
+          -35.16479667280793
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - MERRYLANDS M4 Motorway off ramp to Burnett Street",
+        "headline": "CRASH 2 cars - TWELVE MILE PEG (SOUTH OF TOMERONG) Princes Highway near Twelve Mile Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5893,15 +5893,95 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1657678024337,
+        "created": 1657680206790,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceB": "Delay your journey",
+        "adviceA": "Avoid the area",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1657681175347,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Person trapped"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Helicopter",
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "encodedPolylines": [
+          {
+            "coords": "xosuEqqfu[U?I?K?UAI?K?_@EKAQCKAAASEICSGSI[MUKIGGCIEGGECCAGGIGGGOOGGQQKMAAGIW[MQ[e@U[U[W[EGOQUUACYYOOYWGGSSUQk@c@o@]ICg@QSGi@K]I_@GSCSEsASq@Mg@M_ASg@QICSISIy@_@IEg@SIEcAc@EAk@Wa@QoB}@[OKEQIe@WQKe@We@WqAw@aAk@SKQKMGWMSIg@SKC[K_@MSEICi@MSGSESGgA[IEICSKSKSMIEcAo@A?WO",
+            "levels": ""
+          }
+        ],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Twelve Mile Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Twelve Mile Peg (south of Tomerong)",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.031542593673,
+          -33.83626494090923
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - CLYDE Western Motorway approaching James Ruse Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657681296210,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Police operation",
+        "subCategoryA": "Truck",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
-        "mainCategory": "Changed traffic conditions",
-        "lastUpdated": 1657678024430,
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1657681296243,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5910,14 +5990,15 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Motorway Crew",
+          "Heavy vehicle tow truck"
         ],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "displayName": "BREAKDOWN Truck",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Burnett Street",
+            "crossStreet": "James Ruse Drive",
             "delay": "",
             "impactedLanes": [
               {
@@ -5925,17 +6006,17 @@
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "to",
-            "mainStreet": "M4 Motorway off ramp",
+            "locationQualifier": "approaching",
+            "mainStreet": "Western Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "SYD_WEST",
             "secondLocation": " ",
-            "suburb": "Merrylands",
+            "suburb": "Clyde",
             "trafficVolume": ""
           }
         ]
@@ -10788,6 +10869,78 @@
             "region": "SYD_NORTH",
             "secondLocation": " ",
             "suburb": "Balgowlah",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.98758500910253,
+          -33.82447617537351
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation - MERRYLANDS M4 Motorway off-ramp to Burnett Street soutbound",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657678024337,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1657679321423,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Burnett Street soutbound",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M4 Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Merrylands",
             "trafficVolume": ""
           }
         ]
