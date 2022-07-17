@@ -6305,7 +6305,7 @@
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1658037098987,
+        "lastUpdated": 1658039958857,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6450,7 +6450,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1658038790327,
+        "lastUpdated": 1658039672370,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -6471,10 +6471,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -6492,17 +6492,17 @@
     },
     {
       "type": "Feature",
-      "id": 127502,
+      "id": 127503,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.44553049601993,
-          -34.43244897821281
+          151.1976335460327,
+          -33.545333971096284
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - MITTAGONG Hume Motorway just past Old Hume Highway",
+        "headline": "CRASH Motorcycle - BROOKLYN Pacific Highway near Brooklyn Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -6514,16 +6514,16 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1658039048887,
+        "created": 1658039592053,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Motorcycle",
         "adviceB": "Exercise caution",
         "adviceA": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1658039048917,
-        "otherAdvice": " ",
+        "lastUpdated": 1658039592087,
+        "otherAdvice": "Alternating (stop/slow) traffic conditions are in place.",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
@@ -6531,33 +6531,106 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "CRASH Motorcycle",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Old Hume Highway",
+            "crossStreet": "Brooklyn Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Brooklyn",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127504,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.66159445562874,
+          -34.23823358527338
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HEAVY HOLIDAY TRAFFIC - PHEASANTS NEST TO WILTON Hume Motorway approaching Picton Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658040233070,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Allow extra travel time",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Heavy holiday traffic",
+        "lastUpdated": 1658040233100,
+        "otherAdvice": "Traffic is also heavy westbound on Picton Rd approaching the motorway.",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "HEAVY HOLIDAY TRAFFIC",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Picton Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "approaching",
             "mainStreet": "Hume Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_SOUTH",
             "secondLocation": " ",
-            "suburb": "Mittagong",
-            "trafficVolume": ""
+            "suburb": "Pheasants Nest to Wilton",
+            "trafficVolume": "Heavy"
           }
         ]
       }
@@ -10495,6 +10568,78 @@
             "secondLocation": " ",
             "suburb": "Tarcutta",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127502,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.44553049601993,
+          -34.43244897821281
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - MITTAGONG Hume Motorway just past Old Hume Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658039048887,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": "Exercise caution",
+        "adviceA": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1658039854203,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Old Hume Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_SOUTH",
+            "secondLocation": " ",
+            "suburb": "Mittagong",
+            "trafficVolume": ""
           }
         ]
       }
