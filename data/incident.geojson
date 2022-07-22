@@ -5722,7 +5722,7 @@
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1658460853307,
+        "lastUpdated": 1658466512203,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5765,17 +5765,17 @@
     },
     {
       "type": "Feature",
-      "id": 127968,
+      "id": 127971,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.44893332246903,
-          -33.2150110061098
+          151.7190375,
+          -32.8821
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "HAZARD Pipe - BUSHELLS RIDGE M1 Pacific Motorway below Motorway Link Road",
+        "headline": "HAZARD Spillage - MAYFIELD Maitland Road at Industrial Drive",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5787,15 +5787,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1658465362437,
+        "created": 1658466326843,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
+        "subCategoryA": "Spillage",
         "adviceB": " ",
         "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Hazard",
-        "lastUpdated": 1658465362467,
+        "lastUpdated": 1658466326907,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5804,32 +5804,113 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "HAZARD Pipe",
+        "displayName": "HAZARD Spillage",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Motorway Link Road",
+            "crossStreet": "Industrial Drive",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "below",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Maitland Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "REG_NORTH",
             "secondLocation": " ",
-            "suburb": "Bushells Ridge",
+            "suburb": "Mayfield",
+            "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127972,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.04933741291168,
+          -33.75898099050043
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "BREAKDOWN Truck - CARLINGFORD M2 Motorway off-ramp to Pennant Hills Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658466460530,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Breakdown",
+        "lastUpdated": 1658466460560,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pennant Hills Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M2 Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_NORTH",
+            "secondLocation": " ",
+            "suburb": "Carlingford",
             "trafficVolume": ""
           }
         ]
@@ -13261,6 +13342,78 @@
             "region": "SYD_MET",
             "secondLocation": " ",
             "suburb": "Arncliffe",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127968,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.44893332246903,
+          -33.2150110061098
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Pipe - BUSHELLS RIDGE M1 Pacific Motorway below Motorway Link Road",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658465362437,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": " ",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1658466500703,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "displayName": "HAZARD Pipe",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Motorway Link Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "below",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "REG_NORTH",
+            "secondLocation": " ",
+            "suburb": "Bushells Ridge",
             "trafficVolume": ""
           }
         ]
