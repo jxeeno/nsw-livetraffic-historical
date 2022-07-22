@@ -5702,7 +5702,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars - ACACIA GARDENS M7 Motorway at Sunnyholt Road on-ramp",
+        "headline": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident - ACACIA GARDENS M7 Motorway at Sunnyholt Road on-ramp",
         "periods": [],
         "speedLimit": 40,
         "webLinkUrl": null,
@@ -5717,12 +5717,12 @@
         "created": 1658476225127,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": "Vehicle salvage due to earlier incident",
         "adviceB": "Expect delays",
         "adviceA": "Reduced speed limit",
         "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1658482460877,
+        "mainCategory": "Changed traffic conditions",
+        "lastUpdated": 1658482561130,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5731,9 +5731,10 @@
         ],
         "webLinkName": null,
         "attendingGroups": [
-          " "
+          "Tow Truck",
+          "Motorway Crew"
         ],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier incident",
         "media": [],
         "roads": [
           {
@@ -5743,10 +5744,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -5757,78 +5758,6 @@
             "region": "SYD_WEST",
             "secondLocation": " ",
             "suburb": "Acacia Gardens",
-            "trafficVolume": "Heavy"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 127989,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1296016,
-          -33.9735367
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH Car - CARLTON Princes Highway just past Jubilee Avenue",
-        "periods": [],
-        "speedLimit": -1,
-        "webLinkUrl": null,
-        "expectedDelay": null,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": " ",
-        "impactingNetwork": true,
-        "subCategoryB": " ",
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1658479572987,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceB": " ",
-        "adviceA": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Crash",
-        "lastUpdated": 1658479573020,
-        "otherAdvice": " ",
-        "arrangementElements": [],
-        "diversions": " ",
-        "additionalInfo": [
-          " "
-        ],
-        "webLinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "displayName": "CRASH Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Jubilee Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "SYD_MET",
-            "secondLocation": " ",
-            "suburb": "Carlton",
             "trafficVolume": ""
           }
         ]
@@ -11972,6 +11901,78 @@
             "secondLocation": " ",
             "suburb": "Drummoyne",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127989,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1296016,
+          -33.9735367
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - CARLTON Princes Highway just past Jubilee Avenue",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658479572987,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceB": " ",
+        "adviceA": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1658482660527,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jubilee Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Carlton",
+            "trafficVolume": ""
           }
         ]
       }
