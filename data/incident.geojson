@@ -5795,17 +5795,16 @@
         "adviceA": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1658472527827,
+        "lastUpdated": 1658473949820,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
         "additionalInfo": [
-          " "
+          "Site cleared"
         ],
         "webLinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          " "
         ],
         "displayName": "CRASH Car",
         "media": [],
@@ -5817,10 +5816,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -5831,24 +5830,24 @@
             "region": "REG_SOUTH",
             "secondLocation": " ",
             "suburb": "Paddys River",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": 127978,
+      "id": 127981,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.07437125899963,
-          -33.93695646222466
+          151.12135640740968,
+          -34.02297083764734
         ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car - ROSELANDS King Georges Road near Roselands Drive",
+        "headline": "CRASH Truck, Car - TAREN POINT Taren Point Road at Bay Road",
         "periods": [],
         "speedLimit": -1,
         "webLinkUrl": null,
@@ -5860,15 +5859,15 @@
         "subCategoryB": " ",
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1658471449350,
+        "created": 1658474248533,
         "isMajor": false,
         "name": null,
-        "subCategoryA": null,
-        "adviceB": "Keep right",
-        "adviceA": "Allow extra travel time",
+        "subCategoryA": "Truck, Car",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "Crash",
-        "lastUpdated": 1658472470573,
+        "lastUpdated": 1658474248583,
         "otherAdvice": " ",
         "arrangementElements": [],
         "diversions": " ",
@@ -5880,31 +5879,103 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "displayName": "CRASH Car",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Roselands Drive",
+            "crossStreet": "Bay Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "King Georges Road",
+            "locationQualifier": "at",
+            "mainStreet": "Taren Point Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "SYD_MET",
+            "region": "SYD_SOUTH",
             "secondLocation": " ",
-            "suburb": "Roselands",
-            "trafficVolume": "Heavy"
+            "suburb": "Taren Point",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127982,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.31236379910274,
+          -33.71112471968712
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Debris, shelf unit - KATOOMBA Great Western Highway",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1658474366310,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceB": "Reduce your speed",
+        "adviceA": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Hazard",
+        "lastUpdated": 1658474366357,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          " "
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "displayName": "HAZARD Debris, shelf unit",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_WEST",
+            "secondLocation": " ",
+            "suburb": "Katoomba",
+            "trafficVolume": ""
           }
         ]
       }
@@ -12637,6 +12708,78 @@
             "secondLocation": " ",
             "suburb": "Blacktown",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127978,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.07437125899963,
+          -33.93695646222466
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Car - ROSELANDS King Georges Road near Roselands Drive",
+        "periods": [],
+        "speedLimit": -1,
+        "webLinkUrl": null,
+        "expectedDelay": null,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": " ",
+        "impactingNetwork": true,
+        "subCategoryB": " ",
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658471449350,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": null,
+        "adviceB": "Keep right",
+        "adviceA": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "Crash",
+        "lastUpdated": 1658474183023,
+        "otherAdvice": " ",
+        "arrangementElements": [],
+        "diversions": " ",
+        "additionalInfo": [
+          "Site cleared"
+        ],
+        "webLinkName": null,
+        "attendingGroups": [
+          " "
+        ],
+        "displayName": "CRASH Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Roselands Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "SYD_MET",
+            "secondLocation": " ",
+            "suburb": "Roselands",
+            "trafficVolume": "Heavy"
           }
         ]
       }
