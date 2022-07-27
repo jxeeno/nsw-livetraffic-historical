@@ -4658,6 +4658,79 @@
     },
     {
       "type": "Feature",
+      "id": 127097,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.481855,
+          -32.970014
+        ],
+        "collections": null
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1657591384000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Landslide",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1658068774000,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Landslip",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "north of Palmers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "",
+            "mainStreet": "Freemans Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Freemans Waterhole",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 127886,
       "geometry": {
         "type": "Point",
@@ -5078,19 +5151,45 @@
     },
     {
       "type": "Feature",
-      "id": 127097,
+      "id": 128181,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.481855,
-          -32.970014
+          151.214316,
+          -33.828362
         ],
         "collections": null
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "Warringah Freeway Upgrade",
+            "linkURL": "https://caportal.com.au/rms/wfu"
+          }
+        ],
         "headline": "",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "On-ramp",
+            "direction": "Southbound",
+            "finishTime": "11:59pm",
+            "fromDay": "Friday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "On-ramp",
+            "direction": "Southbound",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "12:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
@@ -5101,49 +5200,41 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1657591384000,
+        "created": 1658792903000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Landslide",
+        "subCategoryA": "(p)",
         "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
-        "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1658068774000,
-        "otherAdvice": "",
+        "adviceB": "Check signage",
+        "adviceC": " ",
+        "end": 1661520600000,
+        "incidentKind": "Planned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1658809655000,
+        "otherAdvice": "<p>The southbound on-ramp from Ernest St to the Warringah Freeway will be reduced to one lane.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": [
-          "Local Council"
-        ],
+        "attendingGroups": null,
         "encodedPolylines": [],
-        "displayName": "HAZARD Landslip",
+        "duration": null,
+        "start": 1659016800000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "north of Palmers Road",
+            "crossStreet": "Warringah Freeway",
             "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "",
-            "mainStreet": "Freemans Drive",
+            "impactedLanes": [],
+            "locationQualifier": "to",
+            "mainStreet": "Ernest Street on-ramp",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Hunter",
+            "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Freemans Waterhole",
+            "suburb": "Cammeray",
             "trafficVolume": ""
           }
         ]
@@ -6761,97 +6852,6 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Matraville",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 128181,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.214316,
-          -33.828362
-        ],
-        "collections": null
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Warringah Freeway Upgrade",
-            "linkURL": "https://caportal.com.au/rms/wfu"
-          }
-        ],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "On-ramp",
-            "direction": "Southbound",
-            "finishTime": "11:59pm",
-            "fromDay": "Friday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "On-ramp",
-            "direction": "Southbound",
-            "finishTime": "",
-            "fromDay": "Every Day",
-            "startTime": "12:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1658792903000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "(p)",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1661520600000,
-        "incidentKind": "Planned",
-        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1658809655000,
-        "otherAdvice": "<p>The southbound on-ramp from Ernest St to the Warringah Freeway will be reduced to one lane.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1659016800000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Warringah Freeway",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "Ernest Street on-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Cammeray",
             "trafficVolume": ""
           }
         ]
@@ -10825,82 +10825,6 @@
     },
     {
       "type": "Feature",
-      "id": 78358,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.935233,
-          -36.153618
-        ],
-        "collections": null
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Eurobodalla Shire Council",
-            "linkURL": "https://www.esc.nsw.gov.au/news-and-events/Roads-and-current-works/All-temporary-road-closures"
-          }
-        ],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1608539735000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Avoid the area",
-        "adviceB": "Use an alternative route",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1658070349000,
-        "otherAdvice": "<p>Please visit the <a href=\"https://www.esc.nsw.gov.au/news-and-events/Roads-and-current-works/All-temporary-road-closures\" target=\"_blank\">Eurobodalla Shire Council website</a> or social media channels for up to date information.</p>",
-        "arrangementElements": [],
-        "diversions": "Detour via  Nerrigundah Mountain Rd, Cadgee Mountain Rd and Eurobodalla Rd.",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "displayName": "HAZARD Bridge destroyed by fire",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Murphy Bridge over Tuross River",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Bridge"
-              }
-            ],
-            "locationQualifier": "on",
-            "mainStreet": "Eurobodalla Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "South Coast",
-            "secondLocation": "",
-            "suburb": "Cadgee",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 77159,
       "geometry": {
         "type": "Point",
@@ -10970,6 +10894,82 @@
             "region": "Southern Highlands",
             "secondLocation": "Goodmans Ford",
             "suburb": "Wombeyan Caves",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78358,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.935233,
+          -36.153618
+        ],
+        "collections": null
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Eurobodalla Shire Council",
+            "linkURL": "https://www.esc.nsw.gov.au/news-and-events/Roads-and-current-works/All-temporary-road-closures"
+          }
+        ],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1608539735000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Avoid the area",
+        "adviceB": "Use an alternative route",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1658070349000,
+        "otherAdvice": "<p>Please visit the <a href=\"https://www.esc.nsw.gov.au/news-and-events/Roads-and-current-works/All-temporary-road-closures\" target=\"_blank\">Eurobodalla Shire Council website</a> or social media channels for up to date information.</p>",
+        "arrangementElements": [],
+        "diversions": "Detour via  Nerrigundah Mountain Rd, Cadgee Mountain Rd and Eurobodalla Rd.",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "HAZARD Bridge destroyed by fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Murphy Bridge over Tuross River",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Bridge"
+              }
+            ],
+            "locationQualifier": "on",
+            "mainStreet": "Eurobodalla Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "",
+            "suburb": "Cadgee",
             "trafficVolume": ""
           }
         ]
@@ -11779,85 +11779,6 @@
     },
     {
       "type": "Feature",
-      "id": 130993,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.2086417,
-          -32.7570984
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1658936375000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck on fire",
-        "adviceA": "Use diversions",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1658937470537,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Heavy vehicles travelling southbound can use Mitchell Hwy and Renshaw McGirr Way to Parkes, and opposite to travel northbound, this diversion is also suitable for light vehicles.</p><p><br></p><p>Light vehicles travelling northbound from Parkes can also use Bogan Rd, Taweni Rd, Robertson Rd, Coradgery Rd and Mingelo St</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "coords": "xm}fEecrg[s@HiAPi@Fs@J}ARK@s@Ji@H}Dj@sC^oC`@gC^}BZQBu@Li@FSD"
-          }
-        ],
-        "displayName": "HAZARD Truck on fire",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hervey Park Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Highway"
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Newell Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central NSW",
-            "secondLocation": "",
-            "suburb": "Peak Hill",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 128339,
       "geometry": {
         "type": "Point",
@@ -11869,7 +11790,7 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "",
+        "headline": "CRASH Car ROSEMEADOW Appin Road near Kellerman Drive",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -11882,7 +11803,7 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1658916703000,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "Car",
         "adviceA": "Exercise caution",
@@ -11890,7 +11811,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1658937488787,
+        "lastUpdated": 1658938064565,
         "otherAdvice": "<p>Due to planned maintenance, there will be no real-time updates to information on the Live Traffic NSW website and app between 8:30pm and 2am tonight.</p><p>For real-time updates for this crash, you can follow us on <a href=\"https://twitter.com/livetrafficSyd\" target=\"_blank\">@LiveTrafficSyd</a> and <a href=\"https://twitter.com/livetrafficNSW\" target=\"_blank\">@LiveTrafficNSW</a>.</p>",
         "arrangementElements": [],
         "diversions": "",
@@ -11931,6 +11852,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Rosemeadow",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2086417,
+          -32.7570984
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1658936375000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Earlier truck fire",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1658938721405,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Earlier truck fire",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hervey Park Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Newell Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central NSW",
+            "secondLocation": "",
+            "suburb": "Peak Hill",
             "trafficVolume": ""
           }
         ]
