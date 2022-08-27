@@ -4427,79 +4427,6 @@
     },
     {
       "type": "Feature",
-      "id": 133491,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8059916,
-          -33.7905541
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1661550611000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Exercise caution",
-        "adviceB": "Reduce your speed",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1661551606070,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Roper Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "from",
-            "mainStreet": "M4 Motorway on-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Colyton",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 133493,
       "geometry": {
         "type": "Point",
@@ -8869,16 +8796,21 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1661636937789,
+        "lastUpdated": 1661637568571,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Motorists are diverted onto Villawood Rd. However, Motorists on Hume Hwy should use The Horsley Dr and River Ave for Access to Woodville Rd north of the incident.</p>",
+        "diversions": "<p><strong>Northbound: </strong> Villawood Rd. </p><p><strong>Southbound: </strong> Christina Rd.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "coords": "vaxmEcbox[n@^f@ZxA|@JHz@h@v@d@l@\\JFPJRJRHRJRH"
+          }
+        ],
         "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "media": [],
         "roads": [
@@ -8888,7 +8820,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Lanes closed",
@@ -8896,12 +8828,12 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Woodville Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
+            "secondLocation": "Villawood Road",
             "suburb": "Villawood",
             "trafficVolume": ""
           }
