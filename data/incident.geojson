@@ -9066,8 +9066,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.028863,
-          -29.620328
+          153.0299211,
+          -29.6209983
         ],
         "collections": []
       },
@@ -9084,7 +9084,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": false,
         "subCategoryB": null,
@@ -9099,7 +9099,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "FERRY OUT OF SERVICE",
-        "lastUpdated": 1662270806545,
+        "lastUpdated": 1662270876174,
         "otherAdvice": "<p>Ulmarra ferry is out of service due to a mechanical fault.</p>",
         "arrangementElements": [],
         "diversions": "Motorists can use the Grafton Bridge or the Bluff Point Ferry at Lawrence.",
@@ -9108,7 +9108,12 @@
         "attendingGroups": [
           "Transport for NSW"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "coords": "~~wsDqb_e\\fUoa@"
+          }
+        ],
         "displayName": "FERRY OUT OF SERVICE Breakdown",
         "media": [],
         "roads": [
@@ -9133,6 +9138,79 @@
             "region": "North Coast NSW",
             "secondLocation": "Wharf Road",
             "suburb": "Ulmarra",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2134654,
+          -33.8553543
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1662271217000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1662271218033,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Motorcycle",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "mid tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approximately",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ]
