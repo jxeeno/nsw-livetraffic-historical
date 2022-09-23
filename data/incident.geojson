@@ -13598,7 +13598,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -13613,7 +13613,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1663956431317,
+        "lastUpdated": 1663958249676,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -13635,9 +13635,9 @@
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 2",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -13648,6 +13648,79 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Eastlakes",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135823,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1666105,
+          -30.8962239
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1663958730000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Water over road",
+        "adviceA": "Never drive through floodwater",
+        "adviceB": "Reduce your speed",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "ADVERSE WEATHER",
+        "lastUpdated": 1663958731112,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
+        "encodedPolylines": [],
+        "displayName": "ADVERSE WEATHER Water over road",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Quia Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Kamilaroi Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "New England North West",
+            "secondLocation": "Laidlaw Street",
+            "suburb": "Gunnedah to Boggabri",
             "trafficVolume": ""
           }
         ]
