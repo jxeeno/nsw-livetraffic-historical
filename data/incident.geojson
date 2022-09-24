@@ -10895,7 +10895,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10910,8 +10910,8 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1664005701911,
-        "otherAdvice": "",
+        "lastUpdated": 1664006060606,
+        "otherAdvice": "<p>Lane 1 (left turn) remains open.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -10930,11 +10930,19 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
+                "closedLanes": "3",
+                "description": "Lane 2;Lane 3;Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
