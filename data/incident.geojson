@@ -12102,8 +12102,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0096415,
-          -33.7929327
+          151.0096464,
+          -33.7928345
         ],
         "collections": []
       },
@@ -12115,12 +12115,12 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1664366556000,
         "isMajor": false,
         "name": null,
@@ -12130,7 +12130,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1664366556516,
+        "lastUpdated": 1664367697951,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -12146,10 +12146,19 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "North Rocks Road",
+            "crossStreet": "Pennant Hills Road",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
             "mainStreet": "James Ruse Drive",
             "quadrant": "",
             "queueLength": 0,
