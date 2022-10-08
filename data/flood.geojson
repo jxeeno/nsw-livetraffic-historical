@@ -1355,10 +1355,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.5633853,
-          -32.2217569
+          148.5632008,
+          -32.2216264
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              148.247289,
+              -32.236661
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
@@ -1368,7 +1376,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -1383,7 +1391,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "FLOODING",
-        "lastUpdated": 1665208610587,
+        "lastUpdated": 1665208899971,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "<p>Newell Hwy and Oxley Hwy in each direction</p>",
@@ -1403,7 +1411,16 @@
             "conditionTendency": "",
             "crossStreet": "Arthur Butler Drive",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Mitchell Highway",
             "quadrant": "",
