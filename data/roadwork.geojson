@@ -26031,9 +26031,9 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
@@ -26047,7 +26047,7 @@
         "end": 1667325600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1666714204532,
+        "lastUpdated": 1666715576960,
         "otherAdvice": "<p>Only the northbound off-ramp will be closed. Through traffic on the M7 Mwy will not be affected.</p>",
         "arrangementElements": [],
         "diversions": "<p>Northbound off-ramp to The Horsley Dr, Wallgrove Rd.</p>",
@@ -26072,6 +26072,97 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Rooty Hill",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139527,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9171504,
+          -33.802386
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Prospect Highway upgrade",
+            "linkURL": "https://roads-waterways.transport.nsw.gov.au/projects/prospect-highway-upgrade/index.html"
+          }
+        ],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Highway",
+            "direction": "Eastbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Highway",
+            "direction": "Eastbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1666716369000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Upgrade",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": " ",
+        "end": 1667239200000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1666716369414,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Eastbound: Great Western Hwy eastbound off-ramp to Prospect Hwy , Blacktown Rd to re-join the Great Western Hwy.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1667048400000,
+        "displayName": "SCHEDULED ROADWORK Prospect Highway Upgrade",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Prospect Highway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Blacktown Road",
+            "suburb": "Prospect",
             "trafficVolume": ""
           }
         ]
