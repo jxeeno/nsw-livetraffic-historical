@@ -16056,12 +16056,12 @@
     },
     {
       "type": "Feature",
-      "id": 140700,
+      "id": 140702,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.911042,
-          -31.795125
+          151.099188,
+          -33.939717
         ],
         "collections": []
       },
@@ -16069,7 +16069,7 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -16079,49 +16079,49 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1667709765000,
+        "created": 1667710528000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceA": "Check signage",
-        "adviceB": " ",
+        "subCategoryA": "Car",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1667709765406,
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1667710528794,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Motorway Crew"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Haydons Lane",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "New England Highway",
+            "locationQualifier": "at",
+            "mainStreet": "M8 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Hunter",
+            "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Murulla",
+            "suburb": "Kingsgrove",
             "trafficVolume": ""
           }
         ]
@@ -16146,7 +16146,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -16156,16 +16156,18 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Medical Emergency",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1667710036002,
+        "lastUpdated": 1667710587630,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
-        "additionalInfo": [],
+        "additionalInfo": [
+          "Site Cleared"
+        ],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
@@ -16179,10 +16181,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -16193,6 +16195,79 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Zetland",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140700,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.911042,
+          -31.795125
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1667709765000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bus",
+        "adviceA": "Check signage",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1667710689759,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Bus, Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Haydons Lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Murulla",
             "trafficVolume": ""
           }
         ]
