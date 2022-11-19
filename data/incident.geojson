@@ -47363,7 +47363,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -47378,10 +47378,10 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1668876774420,
+        "lastUpdated": 1668878649464,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Southbound motorists are diverted into Westminster Ave.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -47398,12 +47398,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
