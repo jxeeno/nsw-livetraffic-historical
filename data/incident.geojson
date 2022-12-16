@@ -42622,7 +42622,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -42634,10 +42634,10 @@
         "subCategoryA": "Car",
         "adviceA": "Reduce your speed",
         "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1671227018288,
+        "lastUpdated": 1671227873527,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -42645,7 +42645,8 @@
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Motorway Crew"
+          "Motorway Crew",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH Car",
@@ -42673,6 +42674,79 @@
             "secondLocation": "",
             "suburb": "Moorebank",
             "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144605,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2881023,
+          -33.4260086
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1671227895000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, In clearway",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1671227895566,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wisemens Ferry Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Central Coast Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "Somersby",
+            "trafficVolume": ""
           }
         ]
       }
