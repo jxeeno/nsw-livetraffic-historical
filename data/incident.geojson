@@ -39914,7 +39914,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -39930,7 +39930,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1671368044326,
+        "lastUpdated": 1671369198803,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -39952,8 +39952,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "3",
-                "description": "Lane 2;Lane 3;Breakdown lane",
+                "closedLanes": "2",
+                "description": "Lane 1;Breakdown lane",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
                 "roadType": "Motorway"
@@ -39977,8 +39977,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0064565,
-          -33.7667683
+          151.010004,
+          -33.7662137
         ],
         "collections": []
       },
@@ -39986,7 +39986,7 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -40001,11 +40001,11 @@
         "name": null,
         "subCategoryA": "Car",
         "adviceA": "Exercise caution",
-        "adviceB": "Reduce your speed",
+        "adviceB": "Reduced speed limit",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1671368218829,
+        "lastUpdated": 1671369295932,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -40049,6 +40049,78 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Baulkham Hills",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143974,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6853832,
+          -35.1013742
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Shoalhaven Council",
+            "linkURL": "https://www.shoalhaven.com/"
+          }
+        ],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1670576478000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Check signage",
+        "adviceB": "Reduced speed limit",
+        "adviceC": " ",
+        "end": 1674737940000,
+        "incidentKind": "Planned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1671369347994,
+        "otherAdvice": "<p>There will be changed traffic conditions during the summer holiday period<strong> from Mon 26 Dec to Thu 26 Jan</strong> to manage vehicles approaching Hyams Beach.</p><p>The intersection of Booderee Avenue and Illowra Lane will be under traffic control with a speed reduction in place to help manage the heavy traffic.</p><p>Motorists should arrive early or expect significant delays on roads approaching the township and beach.</p><p>If Hyams Beach reaches capacity, or in the event of a catastrophic fire danger rating, temporary closures at Booderee Ave may be implemented. </p><p>Alternative white sand beaches can be found on the <a href=\"https://www.shoalhaven.com/\" target=\"_blank\">Shoalhaven – South Coast NSW </a>website.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1671973200000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Illowra Lane",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Booderee Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "",
+            "suburb": "Hyams Beach",
             "trafficVolume": ""
           }
         ]
