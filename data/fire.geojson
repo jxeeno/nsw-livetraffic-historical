@@ -19,8 +19,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -35,7 +35,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BUSHFIRE",
-        "lastUpdated": 1673326817636,
+        "lastUpdated": 1673329499873,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -85,11 +85,19 @@
           146.956048,
           -36.0541269
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              146.969903,
+              -36.043814
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "TRAIN FIRE LAVINGTON Racecourse Road off-ramp from Hume Highway",
+        "headline": "TRAIN FIRE LAVINGTON Hume Highway between Racecourse Road and Thurgoona Drive",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -110,10 +118,10 @@
         "adviceC": "Use an alternative route",
         "incidentKind": "Unplanned",
         "mainCategory": "FIRE",
-        "lastUpdated": 1673328542089,
-        "otherAdvice": "<p>Smoke in the area may affect visibility. Motorists should drive to the conditions. </p>",
+        "lastUpdated": 1673329592138,
+        "otherAdvice": "<p>Northbound Highway exits to Racecourse Rd &amp; Thurgoona Dv are also closed.</p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>North Albury and Lavington: Exit at the Riverina Hwy</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -136,24 +144,24 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hume Highway",
+            "crossStreet": "Racecourse Road",
             "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Off-ramp"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "from",
-            "mainStreet": "Racecourse Road off-ramp",
+            "locationQualifier": "between",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "The Murray",
-            "secondLocation": "",
+            "secondLocation": "Thurgoona Drive",
             "suburb": "Lavington",
             "trafficVolume": "Heavy"
           }
