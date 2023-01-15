@@ -85,38 +85,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.7263874,
-          -34.7772314
+          149.7223473,
+          -34.7766492
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              149.689329,
+              -34.776003
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "",
+        "headline": "GRASS FIRE GOULBURN Hume Highway CLOSED NORTHBOUND just past Hume Street",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1673747739000,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceA": "Avoid the area",
+        "adviceB": "Use an alternative route",
+        "adviceC": "Delay non-essential travel",
         "incidentKind": "Unplanned",
         "mainCategory": "GRASS FIRE",
-        "lastUpdated": 1673747739560,
+        "lastUpdated": 1673749100273,
         "otherAdvice": "<p>Smoke in the area may affect visibility. Motorists should drive to the conditions. </p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Northbound motorists can travel through Goulburn.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -128,11 +136,19 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Windellama Road",
+            "crossStreet": "Hume Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -140,7 +156,7 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "just past",
             "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
