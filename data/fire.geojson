@@ -239,8 +239,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.5851183,
-          -32.8952384
+          151.565287,
+          -32.9021923
         ],
         "collections": []
       },
@@ -252,7 +252,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -267,7 +267,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BUSHFIRE",
-        "lastUpdated": 1673840094467,
+        "lastUpdated": 1673840507257,
         "otherAdvice": "<p>Smoke in the area may affect visibility. Motorists should drive to the conditions. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -283,11 +283,19 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "George Booth Drive",
+            "crossStreet": "O'Donnelltown Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -295,14 +303,14 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "near",
             "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Hunter",
             "secondLocation": "",
-            "suburb": "Cameron Park",
-            "trafficVolume": ""
+            "suburb": "West Wallsend",
+            "trafficVolume": "Heavy"
           }
         ]
       }
