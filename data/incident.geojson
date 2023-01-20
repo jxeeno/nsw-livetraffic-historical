@@ -15103,7 +15103,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -15113,19 +15113,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Bicycle",
-        "adviceA": "Exercise caution",
+        "adviceA": "Avoid the area",
         "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1674252371777,
+        "lastUpdated": 1674252606302,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Helicopter"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH Bicycle",
@@ -15140,9 +15141,9 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "approximately",
@@ -15152,6 +15153,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "North Turramurra",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.167703,
+          -33.920537
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1674253103000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "4 vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1674253103275,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 4 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bellevue Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Tempe",
             "trafficVolume": ""
           }
         ]
