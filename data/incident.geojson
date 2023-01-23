@@ -18333,81 +18333,6 @@
     },
     {
       "type": "Feature",
-      "id": 147283,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9820222,
-          -33.9441595
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1674444788000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceA": "Exercise caution",
-        "adviceB": "Reduce your speed",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1674448226046,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Motorway Crew",
-          "Transport for NSW",
-          "Heavy vehicle tow truck"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Henry Lawson Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": "Off-ramp"
-              }
-            ],
-            "locationQualifier": "to",
-            "mainStreet": "M5 Motorway off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Milperra",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 147296,
       "geometry": {
         "type": "Point",
@@ -18495,7 +18420,7 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -18511,10 +18436,10 @@
         "subCategoryA": "Truck, Car",
         "adviceA": "Exercise caution",
         "adviceB": "Expect delays",
-        "adviceC": " ",
+        "adviceC": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1674448466219,
+        "lastUpdated": 1674449063885,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -18530,14 +18455,14 @@
           {
             "conditionTendency": "",
             "crossStreet": "Ettalong Road over-pass",
-            "delay": "",
+            "delay": "Significant",
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": "Motorway"
               }
             ],
@@ -18549,6 +18474,81 @@
             "secondLocation": "",
             "suburb": "Greystanes",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9820222,
+          -33.9441595
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1674444788000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1674449067926,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Henry Lawson Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M5 Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Milperra",
+            "trafficVolume": ""
           }
         ]
       }
@@ -18571,7 +18571,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -18587,7 +18587,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1674448474417,
+        "lastUpdated": 1674449074733,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
