@@ -17041,7 +17041,15 @@
           152.4661447,
           -32.0236418
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              152.425725,
+              -32.082145
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
@@ -17051,7 +17059,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -17060,24 +17068,26 @@
         "created": 1675871619000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceA": "Avoid the area",
-        "adviceB": "Delay your journey",
-        "adviceC": " ",
+        "subCategoryA": "B-double",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1675871619832,
+        "lastUpdated": 1675871920852,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
+        "diversions": "<p>Failford Rd, The Lakes Way, and back to the Pacific Hwy.</p><p>B-doubles are being parked.</p><p><br></p>",
+        "additionalInfo": [
+          "Persons Trapped"
+        ],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Truck",
+        "displayName": "CRASH B-double",
         "media": [],
         "roads": [
           {
@@ -17101,7 +17111,80 @@
             "region": "North Coast NSW",
             "secondLocation": "",
             "suburb": "Rainbow Flat",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148925,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7587573,
+          -34.0236891
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1675872082000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "lastUpdated": 1675872082446,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Rodeo Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Camden Valley Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Gregory Hills",
+            "trafficVolume": ""
           }
         ]
       }
