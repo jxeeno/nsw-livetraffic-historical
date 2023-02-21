@@ -14612,7 +14612,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -14627,7 +14627,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1677007106624,
+        "lastUpdated": 1677007238511,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -14647,9 +14647,9 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
+                "closedLanes": "1",
+                "description": "Shoulder",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
@@ -14661,6 +14661,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Colebee",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4351861,
+          -28.8465866
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1677007335000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceA": "Avoid the area",
+        "adviceB": "Use an alternative route",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1677007335421,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 3 vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wardell Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Bruxner Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "Alstonville",
             "trafficVolume": ""
           }
         ]
