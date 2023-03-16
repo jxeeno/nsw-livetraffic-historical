@@ -9812,79 +9812,6 @@
     },
     {
       "type": "Feature",
-      "id": 152752,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9231217,
-          -33.9396094
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1679007858000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Expect delays",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "EMERGENCY ROADWORK",
-        "lastUpdated": 1679008904000,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Motorway Crew"
-        ],
-        "encodedPolylines": [],
-        "displayName": "HAZARD Potholes",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Moorebank Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "3",
-                "description": "Lane 1;Lane 2;Lane 3",
-                "extent": "Affected",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "M5 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Casula",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 149183,
       "geometry": {
         "type": "Point",
@@ -9978,7 +9905,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9993,7 +9920,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1679009118351,
+        "lastUpdated": 1679009351895,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10015,9 +9942,9 @@
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Breakdown lane",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Motorway"
               }
             ],
@@ -10029,6 +9956,79 @@
             "secondLocation": "",
             "suburb": "Bar Point",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152752,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.925313,
+          -33.9398335
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1679007858000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Expect delays",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "EMERGENCY ROADWORK",
+        "lastUpdated": 1679009646937,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "EMERGENCY ROADWORK Pothole repairs",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moorebank Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "3",
+                "description": "Lane 1;Lane 2;Lane 3",
+                "extent": "Affected",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Moorebank",
+            "trafficVolume": "Heavy"
           }
         ]
       }
