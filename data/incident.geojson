@@ -1339,70 +1339,6 @@
     },
     {
       "type": "Feature",
-      "id": 152943,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.432099,
-          -36.607983
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1679194494000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1679207026866,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CRASH 2 cars",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Wattle Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Snowy Mountains Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "South Coast",
-            "secondLocation": "",
-            "suburb": "Bemboka",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 152953,
       "geometry": {
         "type": "Point",
@@ -8671,10 +8607,10 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1679293075142,
+        "lastUpdated": 1679293374752,
         "otherAdvice": "<p>Ongoing police investigations are expected to take some time.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Motorists in both directions can use Wells St and Barralong Rd.</p><p><em>This diversion is </em><strong><em>not suitable</em></strong><em> for heavy vehicles.</em></p>",
+        "diversions": "<p>Motorists can use Wells St and Barralong Rd.</p><p><em>This diversion is </em><strong><em>not suitable</em></strong><em> for heavy vehicles.</em></p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -8687,10 +8623,6 @@
           {
             "levels": "",
             "coords": "t_bkEy`yz[EMUg@Sc@Q]KWIWISMk@GWCS]gBG_@q@aEKk@[iBSoAQoA[eCYeCkAsJGs@Eo@Cs@?Q?W@_@DwAf@yHL{B^eFJ_B@QRcCDq@Do@FoA@SB]d@cD"
-          },
-          {
-            "levels": "",
-            "coords": "dxakEab|z[Ij@OtAGhAInAQ~CARGn@ARUjBOpAs@jLOtCA\\Af@@j@@d@Dl@B^Hn@nApKn@hFL|@ZjBLt@p@xDXdB\\jBNv@Nh@N\\Zl@JT\\r@JR"
           }
         ],
         "displayName": "CRASH Multiple vehicles",
@@ -8702,11 +8634,19 @@
             "delay": "Significant",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": "Highway"
               }
             ],
@@ -8718,6 +8658,161 @@
             "secondLocation": "Avoca Drive",
             "suburb": "East Gosford",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153046,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.350922,
+          -32.674584
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1679293567000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Tyre debris",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1679293568209,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Tyre",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wine Country Drive off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Hunter Expressway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Branxton",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153047,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8412619,
+          -33.7513961
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1679293640000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Exercise caution",
+        "adviceC": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1679293839815,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Rooty Hill Road North",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Power Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Glendenning",
+            "trafficVolume": "Moderate"
           }
         ]
       }
