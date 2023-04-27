@@ -8571,7 +8571,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -8582,12 +8582,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car, Motorcycle",
-        "adviceA": "Expect delays",
+        "adviceA": "Reduce your speed",
         "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1682590938493,
+        "lastUpdated": 1682592525063,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8595,7 +8595,9 @@
           "Site Cleared"
         ],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
         "encodedPolylines": [],
         "displayName": "CRASH Car, Motorcycle",
         "media": [],
@@ -8607,10 +8609,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": "Road"
               }
             ],
