@@ -9199,8 +9199,8 @@
         "headline": "",
         "periods": [
           {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
             "roadtype": "",
             "direction": "Northbound",
             "finishTime": "",
@@ -9229,7 +9229,7 @@
         "end": 1903998180000,
         "incidentKind": "Planned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1683251108611,
+        "lastUpdated": 1683251697867,
         "otherAdvice": "<p>The left hand turn lane from Warringah Fwy southbound off-ramp to Alfred St Nth <strong>northbound </strong>has closed permanently.</p>",
         "arrangementElements": [],
         "diversions": "<p>Access to Alfred St Nth <strong>northbound</strong> will be maintained via High St, Arthur St and Mount St.  </p>",
@@ -9239,7 +9239,7 @@
         "encodedPolylines": [],
         "duration": null,
         "start": 1683122400000,
-        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway UpgradeFD",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Warringah Freeway Upgrade",
         "media": [],
         "roads": [
           {
@@ -9255,6 +9255,158 @@
             "secondLocation": "",
             "suburb": "North Sydney",
             "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.469196,
+          -32.327006
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1683251846000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1683251846443,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Local Council"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Multiple vehicles",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Castlereagh Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central NSW",
+            "secondLocation": "",
+            "suburb": "Beryl",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0236677,
+          -33.8331097
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1683251555000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduced speed limit",
+        "adviceC": "Prepare to merge",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1683251871820,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [
+          "Persons Trapped"
+        ],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck",
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 2 cars",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2;Off-ramp",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Clyde",
+            "trafficVolume": "Heavy"
           }
         ]
       }
