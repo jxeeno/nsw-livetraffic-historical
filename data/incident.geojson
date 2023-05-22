@@ -8862,16 +8862,19 @@
         "subCategoryA": "Truck",
         "adviceA": "Reduce your speed",
         "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceC": "Prepare to merge",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1684799201784,
+        "lastUpdated": 1684799307596,
         "otherAdvice": "<p><strong>There is no access to Amy St at this intersection.</strong></p>",
         "arrangementElements": [],
         "diversions": "<p>Motorists could consider using Georges Ave and Nottinghill Rd to access Amy St.</p>",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
         "encodedPolylines": [],
         "displayName": "BREAKDOWN Truck",
         "media": [],
@@ -8885,7 +8888,7 @@
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
                 "description": "Lane 1",
-                "extent": "Affected",
+                "extent": "Lanes closed",
                 "numberOfLanes": "4",
                 "roadType": ""
               }
@@ -8897,7 +8900,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Lidcombe",
-            "trafficVolume": "Moderate"
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5656568,
+          -33.2421595
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1684799449000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
+        "incidentKind": "Unplanned",
+        "mainCategory": "EMERGENCY ROADWORK",
+        "lastUpdated": 1684799500788,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "encodedPolylines": [],
+        "displayName": "EMERGENCY UTILITY WORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "south of Ourringo Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "Central Coast Highway (Budgewoi Road)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "Budgewoi",
+            "trafficVolume": ""
           }
         ]
       }
