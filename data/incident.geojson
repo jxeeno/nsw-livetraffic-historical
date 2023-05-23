@@ -8707,8 +8707,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8723,7 +8723,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1684873456096,
+        "lastUpdated": 1684873605385,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8764,6 +8764,79 @@
     },
     {
       "type": "Feature",
+      "id": 159188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2793807,
+          -33.4259903
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1684873639000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Semi-trailer",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1684873683416,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Heavy vehicle tow truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Semi-trailer",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Central Coast Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": "Off-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "M1 Pacific Motorway off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "Somersby",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 159186,
       "geometry": {
         "type": "Point",
@@ -8775,9 +8848,9 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH 2 cars PROSPECT M4 Motorway just past Prospect Highway",
+        "headline": "CRASH Multiple vehicles PROSPECT M4 Motorway just past Prospect Highway",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -8790,23 +8863,24 @@
         "created": 1684872942000,
         "isMajor": true,
         "name": null,
-        "subCategoryA": "2 cars",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Prepare to merge",
-        "adviceC": "Allow extra travel time",
+        "subCategoryA": "Multiple vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1684873468961,
+        "lastUpdated": 1684873929316,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH 2 cars",
+        "displayName": "CRASH Multiple vehicles",
         "media": [],
         "roads": [
           {
@@ -8817,9 +8891,9 @@
               {
                 "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 4",
+                "description": "Shoulder",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
