@@ -8556,79 +8556,6 @@
     },
     {
       "type": "Feature",
-      "id": 159535,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1382754,
-          -33.7559606
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1685145602000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1685145602951,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Yarran Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Ryde Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Pymble",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 159537,
       "geometry": {
         "type": "Point",
@@ -8933,12 +8860,12 @@
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Truck, Car LEICHHARDT City West Link near James Street",
+        "headline": "",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -8946,7 +8873,7 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1685145463000,
-        "isMajor": true,
+        "isMajor": false,
         "name": null,
         "subCategoryA": "Truck, Car",
         "adviceA": "Exercise caution",
@@ -8954,7 +8881,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1685147085349,
+        "lastUpdated": 1685147762441,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8970,7 +8897,7 @@
           {
             "conditionTendency": "",
             "crossStreet": "James Street",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
@@ -8981,7 +8908,7 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "approaching",
             "mainStreet": "City West Link",
             "quadrant": "",
             "queueLength": 0,
@@ -8989,6 +8916,80 @@
             "secondLocation": "",
             "suburb": "Leichhardt",
             "trafficVolume": "Heavy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159535,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1396725,
+          -33.7551833
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1685145602000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": "Prepare to merge",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1685148199274,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Yarran Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Ryde Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Pymble",
+            "trafficVolume": ""
           }
         ]
       }
