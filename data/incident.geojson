@@ -9114,79 +9114,6 @@
     },
     {
       "type": "Feature",
-      "id": 159934,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.3516484,
-          -33.356665
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1685560356000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": "Prepare to merge",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1685560356746,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Truck",
-        "media": [],
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Dog Trap Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central Coast",
-            "secondLocation": "",
-            "suburb": "Ourimbah",
-            "trafficVolume": ""
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 159933,
       "geometry": {
         "type": "Point",
@@ -9264,8 +9191,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.27984,
-          -32.374642
+          152.2614217,
+          -32.3848166
         ],
         "collections": []
       },
@@ -9277,37 +9204,46 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
-        "isInitialReport": true,
+        "isInitialReport": false,
         "created": 1685561033000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck on fire",
+        "subCategoryA": "Truck, Car",
         "adviceA": "Exercise caution",
         "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1685561034079,
-        "otherAdvice": "",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1685561462477,
+        "otherAdvice": "<p>The truck is also on fire. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
-        "displayName": "HAZARD Truck on fire",
+        "displayName": "CRASH Truck, Car",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Squires Hill Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "near",
             "mainStreet": "Pacific Highway",
             "quadrant": "",
@@ -9315,6 +9251,79 @@
             "region": "North Coast NSW",
             "secondLocation": "",
             "suburb": "Boolambayte",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159934,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3516484,
+          -33.356665
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1685560356000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": "Prepare to merge",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1685561542366,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Dog Trap Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "Ourimbah",
             "trafficVolume": ""
           }
         ]
@@ -9339,7 +9348,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9354,7 +9363,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "EMERGENCY ROADWORK",
-        "lastUpdated": 1685561217126,
+        "lastUpdated": 1685561677085,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9364,13 +9373,18 @@
           "Utility Company",
           "Transport for NSW"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "coords": "bkfnEcpcy[fcAex@"
+          }
+        ],
         "displayName": "EMERGENCY ROADWORK",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Beverly Hills Road",
+            "crossStreet": "Stoney Creek Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -9382,12 +9396,12 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "King Georges Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
+            "secondLocation": "Forest Road",
             "suburb": "Beverly Hills",
             "trafficVolume": ""
           }
