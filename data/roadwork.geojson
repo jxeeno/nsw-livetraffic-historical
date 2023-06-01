@@ -22639,8 +22639,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6859138,
-          -33.0034335
+          151.5084994,
+          -33.2165637
         ],
         "collections": []
       },
@@ -22649,8 +22649,8 @@
         "headline": "",
         "periods": [
           {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
             "roadtype": "",
             "direction": "Northbound",
             "finishTime": "5:00am",
@@ -22659,8 +22659,8 @@
             "toDay": ""
           },
           {
-            "closureType": "LANE_CLOSURE",
-            "roadextent": "Lanes closed",
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
             "roadtype": "",
             "direction": "Northbound",
             "finishTime": "5:00am",
@@ -22671,9 +22671,9 @@
         ],
         "speedLimit": 40,
         "weblinkUrl": null,
-        "expectedDelay": 5,
+        "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": false,
         "subCategoryB": null,
@@ -22689,8 +22689,8 @@
         "end": 1686510000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1685657944834,
-        "otherAdvice": "<p>Traffic will be reduced to 1 lane through the work area.</p>",
+        "lastUpdated": 1685659548033,
+        "otherAdvice": "<p>Traffic will be reduced to 1 lane through the work area.</p><p><br></p><p><br></p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -22711,10 +22711,96 @@
             "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Hunter",
+            "region": "Central Coast",
             "secondLocation": "",
             "suburb": "Bennetts Green",
-            "trafficVolume": "Light"
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160022,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5084994,
+          -33.2165637
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "11:59pm",
+            "fromDay": "Wednesday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "12:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1685659674000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Check signage",
+        "adviceC": "Reduced speed limit",
+        "end": 1686164400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1685659674848,
+        "otherAdvice": "<p>Traffic will be reduced to 1 lane through the work area.</p><p><br></p><p><br></p><p><br></p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1686132000000,
+        "displayName": "SCHEDULED ROADWORK",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Costa Avenue",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "San Remo",
+            "trafficVolume": ""
           }
         ]
       }
