@@ -9819,12 +9819,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceA": "Use an alternative route",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
+        "adviceA": "Avoid the area",
+        "adviceB": "Use an alternative route",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1686172381757,
+        "lastUpdated": 1686173143106,
         "otherAdvice": "<p>Intermittent closures southbound on Cumberland Hwy as heavy vehicle is recovered.</p>",
         "arrangementElements": [],
         "diversions": "",
@@ -9845,16 +9845,16 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "3",
-                "description": "Lane 2;Lane 3;Lane 4",
+                "closedLanes": "2",
+                "description": "Lane 2;Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
                 "roadType": ""
               },
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 4;Lane 5",
+                "closedLanes": "4",
+                "description": "Lane 2;Lane 3;Lane 4;Lane 5",
                 "extent": "Lanes closed",
                 "numberOfLanes": "5",
                 "roadType": ""
@@ -9882,6 +9882,80 @@
     },
     {
       "type": "Feature",
+      "id": 160560,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.185171,
+          -33.919925
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1686173083000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Exercise caution",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1686173304768,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gardeners Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Kent Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 160559,
       "geometry": {
         "type": "Point",
@@ -9898,7 +9972,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -9914,7 +9988,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1686172869978,
+        "lastUpdated": 1686173328429,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
