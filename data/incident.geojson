@@ -13492,6 +13492,79 @@
     },
     {
       "type": "Feature",
+      "id": 161698,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8520891,
+          -33.8154958
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1687238132000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "EMERGENCY ROADWORK",
+        "lastUpdated": 1687341482878,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "EMERGENCY ROADWORK due to an earlier incident",
+        "media": [],
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Old Wallgrove Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Eastern Creek",
+            "trafficVolume": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": 161850,
       "geometry": {
         "type": "Point",
@@ -13508,8 +13581,8 @@
         "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -13524,7 +13597,7 @@
         "adviceC": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1687341213928,
+        "lastUpdated": 1687342098868,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -13566,12 +13639,12 @@
     },
     {
       "type": "Feature",
-      "id": 161698,
+      "id": 161851,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8520891,
-          -33.8154958
+          151.1390367,
+          -33.7416783
         ],
         "collections": []
       },
@@ -13579,7 +13652,7 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -13589,49 +13662,59 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1687238132000,
+        "created": 1687341690000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "due to an earlier incident",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
+        "subCategoryA": "null",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1687341414360,
+        "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
+        "lastUpdated": 1687342374373,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Motorway Crew"
+          "Emergency services",
+          "Transport for NSW",
+          "Utility Company"
         ],
         "encodedPolylines": [],
-        "displayName": "CHANGED TRAFFIC CONDITIONS due to an earlier spillage",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT, Wires Down",
         "media": [],
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Old Wallgrove Road",
+            "crossStreet": "Telegraph Road",
             "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Motorway"
+                "numberOfLanes": "3",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": "Highway"
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M7 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Eastern Creek",
+            "suburb": "Pymble",
             "trafficVolume": ""
           }
         ]
