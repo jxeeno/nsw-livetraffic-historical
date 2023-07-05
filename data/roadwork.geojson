@@ -20131,7 +20131,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -20147,18 +20147,22 @@
         "end": 1689620400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1688538307333,
+        "lastUpdated": 1688553927364,
         "otherAdvice": "<p>Traffic lights at the intersection will be blacked out and alternating (stop/slow) traffic conditions will be in place.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck",
+          "Utility Company",
+          "Helicopter"
+        ],
         "encodedPolylines": [],
         "duration": null,
         "start": 1688883480000,
         "displayName": "SCHEDULED ROADWORK Utilities",
-        "media": [],
         "roads": [
           {
             "conditionTendency": "",
@@ -20174,7 +20178,9 @@
             "suburb": "Chatswood West",
             "trafficVolume": ""
           }
-        ]
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
       }
     }
   ]
