@@ -11650,7 +11650,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -11665,7 +11665,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1689774679289,
+        "lastUpdated": 1689775791996,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11682,7 +11682,16 @@
             "conditionTendency": "",
             "crossStreet": "Sydney Harbour Bridge",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "approaching",
             "mainStreet": "Cahill Expressway",
             "quadrant": "",
