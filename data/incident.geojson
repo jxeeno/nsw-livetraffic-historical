@@ -9256,8 +9256,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.141157,
-          -33.744185
+          151.1449124,
+          -33.7465529
         ],
         "collections": []
       },
@@ -9269,7 +9269,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9278,13 +9278,13 @@
         "created": 1690139403000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "2 cars",
+        "subCategoryA": "Truck, Car",
         "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1690139404183,
+        "lastUpdated": 1690140012723,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9292,17 +9292,27 @@
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH 2 cars, truck",
+        "displayName": "CRASH Truck, 2 cars",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Grandview Street",
+            "crossStreet": "Bloomsbury Avenue",
             "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
             "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
