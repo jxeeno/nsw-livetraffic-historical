@@ -10890,12 +10890,12 @@
     },
     {
       "type": "Feature",
-      "id": 165218,
+      "id": 165220,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.7036063,
-          -33.7860809
+          151.1925744,
+          -33.561139
         ],
         "collections": []
       },
@@ -10906,62 +10906,136 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1690488184000,
+        "created": 1690489133000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
+        "subCategoryA": "Truck",
         "adviceA": "Exercise caution",
         "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1690488299748,
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1690489218303,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services",
           "Transport for NSW",
-          "Tow Truck"
+          "Heavy vehicle tow truck"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "BREAKDOWN Truck",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M4 Motorway",
+            "crossStreet": "Pacific Highway overpass",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "The Northern Road",
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Orchard Hills",
+            "suburb": "Cowan",
             "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1925744,
+          -33.561139
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1690489133000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1690489219089,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Heavy vehicle tow truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway overpass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Cowan",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     },
     {
@@ -10998,7 +11072,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1690488949535,
+        "lastUpdated": 1690489367829,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11035,6 +11109,82 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Wiley Park",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7036063,
+          -33.7860809
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1690488184000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1690489451246,
+        "otherAdvice": "<p>Motorists are advised to expect intermittent stoppages to clean up some debris.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Multiple vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M4 Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "The Northern Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Orchard Hills",
             "trafficVolume": ""
           }
         ],
