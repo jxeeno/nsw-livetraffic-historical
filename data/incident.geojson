@@ -9031,80 +9031,6 @@
     },
     {
       "type": "Feature",
-      "id": 165417,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.351154,
-          -33.436965
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1690684324000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Vehicle salvage due to earlier incident",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1690706585576,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Utility Company"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Utility repairs due to earlier incident",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Henry Parry Drive",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "York Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central Coast",
-            "secondLocation": "",
-            "suburb": "East Gosford",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "ChangedConditions"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 165433,
       "geometry": {
         "type": "Point",
@@ -9329,8 +9255,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.230753,
-          -33.827928
+          151.2309155,
+          -33.8278146
         ],
         "collections": []
       },
@@ -9351,13 +9277,13 @@
         "created": 1690705087000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "Bus, Car",
+        "adviceA": "Prepare to merge",
         "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1690708417386,
+        "lastUpdated": 1690709457579,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9367,7 +9293,7 @@
           "Emergency services"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Car, Bus",
+        "displayName": "CRASH Bus, Car",
         "roads": [
           {
             "conditionTendency": "",
@@ -9383,18 +9309,92 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "approaching",
             "mainStreet": "Military Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Mosman",
-            "trafficVolume": ""
+            "trafficVolume": "Moderate"
           }
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.351043,
+          -33.4369342
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1690684324000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "EMERGENCY ROADWORK",
+        "lastUpdated": 1690709799040,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "encodedPolylines": [],
+        "displayName": "EMERGENCY UTILITY WORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Henry Parry Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "York Street (Central Coast Highway)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "East Gosford",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
