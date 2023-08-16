@@ -9745,91 +9745,6 @@
     },
     {
       "type": "Feature",
-      "id": 166942,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.8773916,
-          -32.6517219
-        ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.864471,
-              -32.652735
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": 60,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1692119388000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Vehicle salvage due to earlier incident",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1692156728535,
-        "otherAdvice": "<p>Contraflow traffic conditions are in place using the northbound carriageway to allow motorists to pass in both directions.</p><p>Southbound traffic is particularly heavy.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Heavy vehicle tow truck",
-          "Crane"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier truck crash",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The Bucketts Way",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Hunter",
-            "secondLocation": "",
-            "suburb": "Twelve Mile Creek",
-            "trafficVolume": "Heavy"
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "ChangedConditions"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 143279,
       "geometry": {
         "type": "Point",
@@ -10368,7 +10283,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10380,10 +10295,10 @@
         "subCategoryA": "2 cars",
         "adviceA": "Prepare to merge",
         "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1692157788917,
+        "lastUpdated": 1692157951228,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10403,8 +10318,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
                 "roadType": ""
@@ -10422,6 +10337,91 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166942,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8773916,
+          -32.6517219
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.864471,
+              -32.652735
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 60,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1692119388000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1692158141094,
+        "otherAdvice": "<p>Contraflow traffic conditions are in place using the northbound carriageway to allow motorists to pass in both directions.</p><p>Southbound traffic is particularly heavy.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Heavy vehicle tow truck",
+          "Crane"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier truck crash",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "The Bucketts Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Twelve Mile Creek",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
