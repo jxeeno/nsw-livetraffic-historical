@@ -22654,72 +22654,6 @@
     },
     {
       "type": "Feature",
-      "id": 168835,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.3469548,
-          -29.4802834
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1693957448000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Allow extra travel time",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1696230000000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1693957449066,
-        "otherAdvice": "<p>Motorists are advised of changed traffic condition on the Gwydir Highway between Glen Innes and Grafton to carry out culvert replacement work.</p><p>Work is being carried out on the highway 75 kilometres east of Glen Innes, to help maintain the drainage system for Gibraltar Range National Park.</p><p>Work will be carried out from 6am to 6pm on weekdays and Saturdays, weather permitting, and is expected to be complete by Monday 2 October.</p><p><strong>During work hours the road will be restricted to one three-metre wide lane, with traffic control and a 40km/h reduced speed limit. </strong></p><p><strong>Vehicles wider than three metres requiring access during work hours should contact the project team on 0419 600 590.</strong></p><p>Outside of work hours all lanes will be open, with a reduced 60km/h speed limit.</p><p>Motorists are advised to drive to the conditions and follow the directions of signs and traffic control.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1693957380000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Gwydir Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "New England North West",
-            "secondLocation": "",
-            "suburb": "Glen Innes",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 168836,
       "geometry": {
         "type": "Point",
@@ -22838,6 +22772,93 @@
             "region": "Sydney",
             "secondLocation": "Fifth Avenue",
             "suburb": "Galston",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168835,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3469548,
+          -29.4802834
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Saturday",
+            "startTime": "6:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1693957448000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": "Allow extra travel time",
+        "end": 1696230000000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1693958538464,
+        "otherAdvice": "<p>During work hours, the road will be restricted to one 3m wide lane and traffic controllers will be on site to direct motorists. </p><p>Vehicles wider than 3m requiring access during work hours should contact the project team on 0419 600 590.</p><p>The speed limit outside work hours will be 60km/h. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1693957380000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "75km east of Glen Innes",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "approximately",
+            "mainStreet": "Gwydir Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "New England North West",
+            "secondLocation": "",
+            "suburb": "Glen Innes",
             "trafficVolume": ""
           }
         ],
