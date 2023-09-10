@@ -17248,72 +17248,6 @@
     },
     {
       "type": "Feature",
-      "id": 168950,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.03262,
-          -29.6227315
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1694051248000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Routine maintenance",
-        "adviceA": "Plan your journey",
-        "adviceB": "Use an alternative route",
-        "adviceC": " ",
-        "end": 1694664000000,
-        "incidentKind": "Planned",
-        "mainCategory": "FERRY OUT OF SERVICE",
-        "lastUpdated": 1694129053698,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1694386800000,
-        "displayName": "FERRY OUT OF SERVICE Routine maintenance",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Big River Way",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "Wharf Road",
-            "suburb": "Ulmarra",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Hazard"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 169058,
       "geometry": {
         "type": "Point",
@@ -23651,6 +23585,113 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168950,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0287125,
+          -29.62023
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Ferry",
+            "direction": "Both directions",
+            "finishTime": "11:59pm",
+            "fromDay": "Monday",
+            "startTime": "9:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Ferry",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Tuesday",
+            "startTime": "all day",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Ferry",
+            "direction": "Both directions",
+            "finishTime": "",
+            "fromDay": "Wednesday",
+            "startTime": "all day",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Ferry",
+            "direction": "Both directions",
+            "finishTime": "2:00pm",
+            "fromDay": "Thursday",
+            "startTime": "12:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1694051248000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Routine maintenance",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
+        "adviceC": " ",
+        "end": 1694664000000,
+        "incidentKind": "Planned",
+        "mainCategory": "FERRY OUT OF SERVICE",
+        "lastUpdated": 1694388668197,
+        "otherAdvice": "<p>Motorists can use Grafton Bridge or the Bluff Point Ferry at Lawrence.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1694386800000,
+        "displayName": "FERRY OUT OF SERVICE Routine maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Big River Way",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Ulmarra Ferry",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "Wharf Road",
+            "suburb": "Ulmarra",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
