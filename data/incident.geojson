@@ -8535,10 +8535,10 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1694407590481,
+        "lastUpdated": 1694408025767,
         "otherAdvice": "<p>The M4 Mwy eastbound off-ramp to Prospect Hwy is also closed. Motorists can exit at Reservoir Rd or Cumberland Hwy.</p><p>Northbound traffic on Prospect Hwy is particularly heavy.</p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p><strong>Northbound</strong>: Reservoir Rd, Bungarribee Rd, Blacktown Rd, to Prospect Hwy.</p><p><strong>Southbound</strong>: Blacktown Rd, Bungarribee Rd, Reservoir Rd, to Prospect Hwy.</p><p>This route is suitable for all vehicles, including B-doubles.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -8617,13 +8617,13 @@
         "created": 1694406230000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "2 cars",
+        "adviceA": "Expect delays",
         "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1694407762002,
+        "lastUpdated": 1694408064295,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8634,7 +8634,7 @@
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Multiple vehicles",
+        "displayName": "CRASH 2 cars",
         "roads": [
           {
             "conditionTendency": "",
@@ -8643,9 +8643,17 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
+                "closedLanes": "2",
+                "description": "Lane 2;Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
