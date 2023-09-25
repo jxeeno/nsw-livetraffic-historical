@@ -122,23 +122,17 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BUILDING FIRE",
-        "lastUpdated": 1695671867050,
+        "lastUpdated": 1695672632097,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p><strong>Westbound: </strong>Fore St, High St, Canton St, Canterbury Rd</p><p><strong>Eastbound:</strong> Beamish St or Bexley Rd</p>",
+        "diversions": "<p><strong>Westbound: </strong>Fore St, High St, Canton St, Canterbury Rd</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "~{~mEwkiy[IU]kAK[Mc@[aAEMY}@AAMg@"
-          }
-        ],
+        "encodedPolylines": [],
         "displayName": "BUILDING FIRE",
         "roads": [
           {
@@ -147,12 +141,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
