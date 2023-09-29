@@ -11676,8 +11676,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -11692,7 +11692,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1696026752637,
+        "lastUpdated": 1696028627636,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11730,6 +11730,81 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8024018,
+          -34.1021315
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1696028402000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Vehicle salvage due to earlier incident",
+        "adviceA": "Expect delays",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1696028806557,
+        "otherAdvice": "<p>All southbound traffic is currently being held while a vehicle is removed.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Vehicle salvage due to earlier crash",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Kellerman Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Appin Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Rosemeadow",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
