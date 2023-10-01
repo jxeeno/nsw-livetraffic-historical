@@ -8339,84 +8339,6 @@
     },
     {
       "type": "Feature",
-      "id": 171271,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.029469,
-          -29.6206894
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1696192521000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Low tide",
-        "adviceA": "Use diversions",
-        "adviceB": "Plan your journey",
-        "adviceC": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "FERRY OUT OF SERVICE",
-        "lastUpdated": 1696192556006,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Motorists can use Grafton Bridge or the Bluff Point Ferry at Lawrence <a href=\"https://www.livetraffic.com/incident-details/170931\" target=\"_blank\">(which is running at a reduced capacity)</a></p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "htxsDuc`e\\CF??iTf`@??ABCD?B"
-          }
-        ],
-        "displayName": "FERRY OUT OF SERVICE Low tide",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Big River Way (Old Pacific Highway)",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Ferry"
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Ulmarra Ferry",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "Wharf Road",
-            "suburb": "Ulmarra",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Hazard"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 168947,
       "geometry": {
         "type": "Point",
@@ -8595,8 +8517,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9887149,
-          -33.8663097
+          150.988723,
+          -33.8663019
         ],
         "collections": []
       },
@@ -8608,7 +8530,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8623,7 +8545,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1696199867873,
+        "lastUpdated": 1696200576456,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8643,10 +8565,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -8662,6 +8584,78 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.029469,
+          -29.6206894
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1696192521000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Low tide",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "FERRY OUT OF SERVICE",
+        "lastUpdated": 1696200748202,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Motorists can use Grafton Bridge or the Bluff Point Ferry at Lawrence <a href=\"https://www.livetraffic.com/incident-details/170931\" target=\"_blank\">(which is running at a reduced capacity)</a></p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "FERRY OUT OF SERVICE Low tide",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Big River Way (Old Pacific Highway)",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Ferry"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Ulmarra Ferry",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "Wharf Road",
+            "suburb": "Ulmarra",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
