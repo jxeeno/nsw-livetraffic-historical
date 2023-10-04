@@ -11508,8 +11508,8 @@
         "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -11524,7 +11524,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1696454357907,
+        "lastUpdated": 1696454563585,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11562,6 +11562,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171604,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0641663,
+          -33.8679677
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1696454838000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Car",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1696454838374,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Truck, Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Arthur Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Centenary Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Strathfield",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
       }
     }
   ]
