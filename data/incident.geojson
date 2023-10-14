@@ -7613,6 +7613,80 @@
     },
     {
       "type": "Feature",
+      "id": 172603,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9190913,
+          -33.9216377
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1697271613000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1697271614040,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Moore Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Liverpool",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 172602,
       "geometry": {
         "type": "Point",
@@ -7629,7 +7703,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -7645,23 +7719,16 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1697271280018,
+        "lastUpdated": 1697271929963,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Light vehicles: Can consider using Bestic St as an alternative route.</p><p>Westbound - England St, Kurnell St, Crawford Rd to President Ave. </p><p>Eastbound - West Botany St</p><p><br></p><p>Heavy vehicles are being escorted by police on site.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Emergency services"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "tfgnEm}oy[b@yA`@iAFW`A{CbA{ClB_G"
-          }
-        ],
+        "encodedPolylines": [],
         "displayName": "CRASH Car, Bicycle",
         "roads": [
           {
@@ -7673,7 +7740,7 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": "Road"
               }
@@ -7685,7 +7752,7 @@
             "region": "Sydney",
             "secondLocation": "West Botany Street",
             "suburb": "Brighton-Le-Sands",
-            "trafficVolume": "Moderate"
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
