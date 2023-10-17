@@ -10750,7 +10750,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10759,13 +10759,13 @@
         "created": 1697576032000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "4 vehicles",
+        "subCategoryA": "Multiple vehicles",
         "adviceA": "Reduce your speed",
         "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1697576033254,
+        "lastUpdated": 1697576315602,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10777,7 +10777,7 @@
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH 4 vehicles",
+        "displayName": "CRASH Multiple vehicles",
         "roads": [
           {
             "conditionTendency": "",
@@ -10805,6 +10805,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172933,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0465482,
+          -33.7989413
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1697576539000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Van",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1697576539416,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Van",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sturt Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Kissing Point Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Dundas",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
