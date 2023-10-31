@@ -23652,12 +23652,12 @@
     },
     {
       "type": "Feature",
-      "id": 173801,
+      "id": 173938,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.175372,
-          -33.866907
+          151.1279384,
+          -33.9053876
         ],
         "collections": []
       },
@@ -23669,14 +23669,14 @@
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
             "roadtype": "",
-            "direction": "All directions",
+            "direction": "Both directions",
             "finishTime": "5:00am",
             "fromDay": "Monday",
-            "startTime": "11:00pm",
+            "startTime": "9:00pm",
             "toDay": ""
           }
         ],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": true,
@@ -23686,18 +23686,18 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1698298431000,
+        "created": 1698364776000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Reduced speed limit",
+        "subCategoryA": "Power pole/line repairs",
+        "adviceA": "Reduce your speed",
         "adviceB": "Exercise caution",
         "adviceC": "Check signage",
         "end": 1698688800000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698688803283,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time and traffic lights at the intersection of Victoria Rd and Robert St will be blacked out, with traffic controllers directing motorists. </p>",
+        "lastUpdated": 1698688803511,
+        "otherAdvice": "<p>Contraflow traffic conditions will be in place to allow motorists to pass in both directions. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -23705,21 +23705,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1698643860000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "start": 1698623880000,
+        "displayName": "SCHEDULED ROADWORK Power pole/line repairs",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Joseph Street",
+            "crossStreet": "New Canterbury Road/Griffiths Street",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Victoria Road",
+            "mainStreet": "Old Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Hornsey Street",
-            "suburb": "Rozelle",
+            "secondLocation": "Queen Street/Crinan Street",
+            "suburb": "Ashfield",
             "trafficVolume": ""
           }
         ],
@@ -23846,12 +23846,12 @@
     },
     {
       "type": "Feature",
-      "id": 173217,
+      "id": 173896,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.943458,
-          -33.9418346
+          150.8858317,
+          -34.4120152
         ],
         "collections": []
       },
@@ -23861,16 +23861,93 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "On-ramp",
-            "direction": "Eastbound",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
             "finishTime": "5:00am",
             "fromDay": "Monday",
-            "startTime": "10:00pm",
+            "startTime": "7:00pm",
             "toDay": ""
           }
         ],
-        "speedLimit": -1,
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1698360015000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
+        "end": 1698688800000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1698688803354,
+        "otherAdvice": "<p>Single-lane closures will be in place. </p><p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1698652800000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "University Avenue",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Memorial Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "Mount Ousley Interchange",
+            "suburb": "Gwynneville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.175372,
+          -33.866907
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "11:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": true,
@@ -23880,40 +23957,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1697772864000,
+        "created": 1698298431000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Utilities",
-        "adviceA": "Use diversions",
-        "adviceB": "Check signage",
-        "adviceC": " ",
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
         "end": 1698688800000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698688803903,
-        "otherAdvice": "<p>Only the M5 Mwy eastbound on-ramp will be closed, the motorway will remain open.</p>",
+        "lastUpdated": 1698688803283,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time and traffic lights at the intersection of Victoria Rd and Robert St will be blacked out, with traffic controllers directing motorists. </p>",
         "arrangementElements": [],
-        "diversions": "<p><strong>Detour for light vehicles</strong> : Heathcote Rd, Nuwarra Rd, Newbridge Rd, Henry Lawson Dr to join M5 Mtwy.</p><p>Northbound motorists on Heathcote Rd can continue to Moorebank Ave then join the M5 Mwy.</p><p><strong>Detour for heavy vehicles</strong> : Heathcote Rd, Newbridge Rd, Henry Lawson Dr to join M5 Mtwy.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1698663600000,
-        "displayName": "SCHEDULED ROADWORK Utilities",
+        "start": 1698643860000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Heathcote Road",
+            "crossStreet": "Joseph Street",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "from",
-            "mainStreet": "M5 Motorway eastbound on-ramp",
+            "locationQualifier": "between",
+            "mainStreet": "Victoria Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Moorebank",
+            "secondLocation": "Hornsey Street",
+            "suburb": "Rozelle",
             "trafficVolume": ""
           }
         ],
@@ -24025,239 +24102,74 @@
     },
     {
       "type": "Feature",
-      "id": 173938,
+      "id": 173217,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1279384,
-          -33.9053876
+          150.943458,
+          -33.9418346
         ],
         "collections": []
       },
       "properties": {
         "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "9:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1698364776000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Power pole/line repairs",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
-        "end": 1698688800000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698688803511,
-        "otherAdvice": "<p>Contraflow traffic conditions will be in place to allow motorists to pass in both directions. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1698623880000,
-        "displayName": "SCHEDULED ROADWORK Power pole/line repairs",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "New Canterbury Road/Griffiths Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Old Canterbury Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Queen Street/Crinan Street",
-            "suburb": "Ashfield",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 173896,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8858317,
-          -34.4120152
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "7:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1698360015000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
-        "end": 1698688800000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698688803354,
-        "otherAdvice": "<p>Single-lane closures will be in place. </p><p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1698652800000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "University Avenue",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Memorial Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "South Coast",
-            "secondLocation": "Mount Ousley Interchange",
-            "suburb": "Gwynneville",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 173864,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.342294,
-          -31.415142
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Oxley Highway flood recovery work",
-            "linkURL": "https://www.transport.nsw.gov.au/projects/current-projects/oxley-highway-flood-recovery"
-          }
-        ],
         "headline": "",
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Highway",
-            "direction": "Both directions",
-            "finishTime": "4:30pm",
-            "fromDay": "Tuesday",
-            "startTime": "7:00am",
+            "roadtype": "On-ramp",
+            "direction": "Eastbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1698356455000,
+        "created": 1697772864000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Slope stabilisation",
-        "adviceA": "Plan your journey",
-        "adviceB": "Use an alternative route",
+        "subCategoryA": "Utilities",
+        "adviceA": "Use diversions",
+        "adviceB": "Check signage",
         "adviceC": " ",
-        "end": 1698730200000,
+        "end": 1698688800000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698696012955,
-        "otherAdvice": "<p><strong>From 24 October until 15 December:</strong></p><p>The Oxley Highway will be temporarily closed <strong>every Tuesday, Wednesday and Thursday between 7am and 4.30pm</strong> and <strong>every Friday between 7am and 3pm</strong> between Knodingbul Road (travelling east) and Forbes River Road (travelling west).</p><p>Access to Mount Seaview Road will be maintained for motorists and residents after clearing the Forbes River Road checkpoint.</p><p>The Oxley Highway will return to single lane alternating flow traffic arrangements during the NSW summer school holidays with full road closures to resume Tuesday, 30 January 2024.</p><p>We expect the full road closures to be in place until about Easter 2024.</p><p><strong>Special Event Exemptions</strong> – The Oxley Highway will remain open to accommodate the events listed below:</p><ul><li>Thursday 16 and Friday 17 November (Walcha Motorcycle Rally)</li><li>Thursday 30 November and Friday 1 December (NSW State Cup Touch Football)</li><li>Friday 9 February (Walcha Cup Race Meeting)</li><li>Friday 16 February (Walcha Antique Machinery and Truck Show)</li><li>Thursday 7 and Friday 8 March (Walcha Show)</li></ul>",
+        "lastUpdated": 1698688803903,
+        "otherAdvice": "<p>Only the M5 Mwy eastbound on-ramp will be closed, the motorway will remain open.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Motorists could consider Waterfall Way or the New England Highway as an alternative route.</p>",
+        "diversions": "<p><strong>Detour for light vehicles</strong> : Heathcote Rd, Nuwarra Rd, Newbridge Rd, Henry Lawson Dr to join M5 Mtwy.</p><p>Northbound motorists on Heathcote Rd can continue to Moorebank Ave then join the M5 Mwy.</p><p><strong>Detour for heavy vehicles</strong> : Heathcote Rd, Newbridge Rd, Henry Lawson Dr to join M5 Mtwy.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "pqu~D}gs_\\K]GWAQ@OBK@E@E@?DGJKHC^SVODEZY@Av@q@d@[VQB?XOl@YZ[d@e@PSDOBO@MA_@?CEe@AG?M@OBKDKFIHILEJAFAFCPEFCZMRQDEJMJSBEJ_@Lk@D[L_@DIHO`A}@h@[`@WRSLQFO@EDY@GDe@?CD_@@IDSHO?APUVWJG\\S@ANIHI@AHQH_@J_@LULKDEBA\\STIpA]tA[TGRKBAJINM?Ab@e@TYl@s@BEVUNOr@w@JMBGHU?EBOBYDi@@ID]Fi@J{@RmBDMFOJOTSTQZ[v@s@LO`@c@BGPYBEFODQ@CBQBO@QAKAEEIAEIOIICCMCMAK?O@WFSHKBUL]Ri@VULA@[NA?c@LA?YBE?QAOEAAKGGKEKCKAG?G@KBMJSN_@H_@BQ?U?MAs@A_@GsA?EKg@IUIIIKOIA?y@_@ECIGKIEGAAKMIK?A_@u@IOGMOQOWSUMMOQGKCEGKCICK?SA_@?[?{B?A?i@AM?WCSGOIMEAGCKCGCSCkAUc@IKCy@MSCo@Ms@SUKWUMKMOGKMUKUEMCKESAGAGAS@SBYFSJ]FOXk@f@y@^i@@AV]X_@JOHM?ABKBQAEAKCMIO?AKKMECAKCUGe@Ga@CGA}@A[?GCC?ICEGEIAAAGAK?I@K@GFSFSHMFINWHUDS@G@KB]Fc@FOPc@p@qADGX_@LQd@e@FGRSFINS@?Ra@FKNg@DU@ABW@O?W@gB?i@@]@k@BSD[@ALe@H]BIH]BGBM@Q@OAU?MAOEWAKE]Km@G_@E[AWAu@@WDg@?CFa@?AJe@~@sC@CLg@BIDQ@IBM?O?WAYACASGe@CWAYAW@MDOBKFQHMNOFGJKPKXQBA^UxA{@bAg@^S@Az@c@VMHE`CcAVKh@Uz@]j@[n@a@^_@PUDKHOb@_AJ[Pc@Pg@R_@@ALQb@]BA^Q`@QTKf@]r@g@NMNO@CHOFS@A@KBK@MBUFUHULSLQBCRSDGNQFG@AJK@CFGFG\\a@FI@AHOFIDIBIDIDIDKDGFIDGFGHGPK@AFCd@SHCHEFCRKNMFGFGNOHKDENODGNMJI@ALEJCDA\\EB?b@IFANE|@o@DGZ[NOLKVKREJ?H?PDND`@J`@LXFFBb@FLBTBJAJCHENMPM`@_@NQNOJK@A@ANQHODKH_@B[D]FQBILQPMFEHEPKBANGPIHGPK@AHIJMBIBK?I@OCYAM?AIg@Ie@Mi@AGCK?G?KBIDIDIBCBCFGFEHG\\U\\U|@k@HGnBwA\\YTSFKBIBK?G?ICMAICEACGIECECEAG?I?I?IDA?IDMFEDA?QJMDK@KAKAKGKIOMuBgBQWGSAKAI@MBQDM@GJOFINWDGFIDIFIFEHGHCFCJCHCJCHAHCHCBADCFEFGFGHIJO@AL[j@}AT}@Jc@L]DKBEl@s@JQHWF[No@@GH]BKHg@Dk@HeADwADy@BWBKBI?AFKDGFIROPKRILEJCPE^Gx@Ul@SRGLEl@STI^QBADCHGDKd@}@FMLMPQVMXW^_@ZUXKhAc@XGf@Ib@G^EREJADABAHCRGRIJGDAPMFC@AFGFGDKBI@I?GAGAE?EQw@E[?M?OBi@@Q?KAGAICGEIMMe@a@MOIKU]MSOUGIEESQCAMGKEEACAI?G?G@E@C@KFIFCDCDKPS^EJQb@INSd@ILMLKHGFa@PSPQLKLEJMT?@Q^ELKPCDGJ[^MN]^UVOLMFA@E?G?GAKEKIQOA?MOMQSW_@k@]m@QSGGIEA?SGOCS?K?M@gALw@HQ?MACAEAMGIIKOGQISIOS[YWUSSKKEQGE?E?G?M?i@BMAICCAKCQMAAUMEAGAI?G@MBMDUN_@Zg@d@SPMFE@A@I?K?IAA?IEMIe@WCAKGQEA?[GUGQKIGKKCEEIYg@MMACg@c@q@g@SQKMMSQ]_@k@g@y@OOKGKCICE?G?G?M?MBG?e@FM@OCKEQGc@QQGe@KMC]Ec@CE?]Ac@AMAU?q@AQCCAICIGIIGMEQCOEg@EWGSGKGIAAg@g@IMEGCMAM?C@[?M?YAO?ACKCIGMEMMSEKOSg@k@MKy@s@MOOSIQIQGSCIEIMSAAMMOMQMOOMSAEAECKAKAI?A?K?K@}@?K?Y?W?KAE?E?MAKAKAKCWACAGGUCGGKKUWg@KUCIGWAOAGAKASAOAMAKA?AKEOGSOUACIKMMmAmAWYY_@IQCOAQ?M?KBG@CDKFIFG?AFCTId@KLEtBe@vBe@`@OJG?AHEBCDE@C@EBI@G?GAEAE?CEGQOSMYKsAa@_@ISCUAQ?]BUB}@HW@Q?MACAKCQIIGIKGKAAKQEMEKGS?EE_@?I?i@?E@eB?Q?ECSCMEKEGMIOCO?A?M@UHQFOBK?KEQIKOEGEIISK[IYMYIMIIKE}@[IEEEGKCECKC[EWCSCKEKIQMMAAUMuDcA_@Ka@KGEIIIMGUGOCIMe@ESAM?Q?KBI?CDGJMZUTQHK@ABGDI@M?E?G@OCKAEIQWk@GQEQAY?[BsA?C?]A]EUIk@EW?M@MBWPw@RgAHm@@ADi@@EDc@?ADUFYLYJ[Tm@BGPg@DWBW?W?EC[Ei@Ia@CKAIGKGGECKCcABWAC?UCWGOKAAKMISUw@[{ACGKYEIGKIIKGEAEAG?A@E?GDIJKJW^CBSXcBzBUREBA@GBK@K@KAKCIESIKK[UAAIAIAK?MBIFQNWJA?G@Q?GAAAIEOKS[Uc@ECGIQQAAgB}A]a@ACGOEQ?E?I?]Fc@F_@FKb@iAHU?K?C?GCQAKCEIKICGCKAy@FA?}AVI?E?IAMEKICCAIEMAQAW?SBWD[Nq@DQFSJg@FWDOXoAXaARm@HS^m@?ATa@FOJQNYRu@Lo@B[BM@Y?S?a@CWGSKUCEQ[IKQWGIGQ?AEQAY?M@KHa@To@FYBM?E?E?OEMACGMOO[UAAu@a@IECCGKAEAGAO?U@IBUJw@Dk@D]@K?OB[?UAQAKGc@Ga@Cq@A]GWQu@ACCSGg@Cm@By@Hq@Dc@Bg@Bi@?ABe@?ADWL[JUPa@@ATa@Ta@V]^k@`@c@HIHKLQ@CLSBOFa@?ADa@BGFWTm@PWRUd@ULG`@Qb@]`@e@HKX_@V]n@w@Z_@RSDIX]JWJ]LUP[@ALUBM@GBQAM?ACQGQQWIOEOAMAQ@W@]@[AO?MCWEOAEEQEMEKGS?GEOAQAE?M?[?_@Bk@@G@Y@YASCOEMMOWUCAWOGCSMKEQGOEGCOGi@WKCG?I?G@ODYDWBMCGCKE_@QQIuBq@gBi@]MUGWEQAM@[@O@_@?{@GUCUGo@U_@MQEu@Ec@IIAUGo@OWGc@CaAEOEKECAIGIKQ_@CG]_AMa@EMCICICQ@SFUDOHIFGHERIJClBS\\EB?^?v@@v@C`@Cb@I^Q@ATQHKDKBI?G?IAKIk@COQ}@Mk@EU?K@M@KDGBGHIPOLG\\QZQNIHKDIDMDSFWDYDW@S?O?MCKCGEEECIESCIAWAo@?MAUASCMCIASIKKGKGKEIKYAEMWMSSQy@o@}@u@SSKIQWKSEUAS@OBKDIBGFGNGLCNAZAp@@`@?VBRFPDVNVJNDH@HAFC@?DEDGBGBI@AH_@@EJg@DUDQReAJg@BW@U?W?K?GAA?AAC?]@WFUDIDINOXSRGRCRATCLCDAh@KRERETCRERERGBANGNM@?LSDM@GBQ?G?KEUKSOOYQmAe@w@]e@SCAOGe@SECKESKQIe@SSKQMMMEKCKAK?KBIBKDIBE@CDIR[LSDKBIBKBK@KCYGWKWKSEIGIQQQMQKSOQMOOOQ_@e@MQGIECW[GGMOGQGQCSC]BWDSDOJOTS\\MZG`@CR?R?h@AVEf@M\\KRGHAH?TAH?T@PB@?T@H@@?F?T@R?T?TAJ?H?`@An@Cl@Er@OZKPIRO@?FGFEPOFIHM@CFIHSDIFUFSFYBW@K@K@K?K@Y?W?Q?CAg@CiAAKAc@?YAWAYAo@?W?Q?S?K@Y@K?KBWBWBWBK@KHc@H_@FYBMNe@@CL_@P_@JSDIJSJS@ARY@AJOTYNONOPOXUPMLIJGPK@?b@W\\QjAm@pAu@ZQd@UPKJGPM^]BCLMJORY@CHQL_@La@`@mBLg@FWBMH[BKDMJ[d@sAHWV}@DMNe@FONo@DMPi@FUHUHUX_APc@DQBOFU?ADU@QDg@FwA?C@U@o@?e@?K?YAO?SCe@Ec@Go@Ic@Gc@GWQk@Sk@Q_@KQMU?AS[KSEKEIEKIWAKCKAKAK?M?K?MBOR}AT_BH[FWNa@HSHSRc@Rc@JWf@iA`@}@Zu@DIPk@DWDW@W@YAWE[G[GWKWQ]UYQOQMSIQGKCi@KSCQEA?UGIEGEIGGGEICG[u@AC[w@K[IUO_@Kc@Go@G_AAGGqBAiABw@@EBe@BWDWDWDWFU`@iBVcANo@DMH_@Ry@Ry@b@}ADQb@eAf@oAf@{@`@o@b@k@d@k@d@g@`@_@h@c@l@a@\\S`@Wn@Yd@Sf@Sf@O\\MnAc@xBu@bBm@`@OTIx@YTI^MfDiA@?zFuBZKbBo@lAi@RM\\UTODABAb@]`@]^]VWVYPSJMJOPUR[T[HQFKLSP_@N]N[@CDMHQFQ@CHUHUHUFUHWFUPo@@CTw@F[J_@DMd@eBLe@DQFU@EDQBOJe@@EDWBIFYJw@Fc@Js@HkAB[?C@I@UDyA?eBCoAAUASEm@ASKy@Ee@ACIg@Mo@Mm@W_AEMa@kA[s@o@oA_@o@GIW_@IMMQUY}@aA{AsAuCcCsAiAs@k@sAiAq@k@GGa@]q@m@WUa@[OOWUk@g@ECaA}@y@s@a@]y@s@q@k@a@_@s@k@OOq@k@QMa@]CEm@g@k@e@oBaBMMYUi@g@CAY[YYWWWYc@m@i@w@k@eAi@eA[u@Wu@i@eB]{AQgAIo@K{@GaAE_@Cq@CuA?aBDiADiAd@yIB[HiBNkDFuC@kA?{@AW?e@?CAa@?GA[Aq@Cc@Ae@Eq@CWG_AAIKaBIgAC_@?EEc@KaBMmBCe@Eq@Ac@Aq@Ae@Ac@?_@?QAq@?e@?q@@aA?Q"
-          }
-        ],
+        "encodedPolylines": [],
         "duration": null,
-        "start": 1698696000000,
-        "displayName": "SCHEDULED ROADWORK Slope stabilisation",
+        "start": 1698663600000,
+        "displayName": "SCHEDULED ROADWORK Utilities",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Forbes River Road",
+            "crossStreet": "Heathcote Road",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Oxley Highway",
+            "locationQualifier": "from",
+            "mainStreet": "M5 Motorway eastbound on-ramp",
             "quadrant": "",
             "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "Knodingbul Road",
-            "suburb": "Mount Seaview",
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ],
@@ -26049,6 +25961,159 @@
             "region": "Southern Highlands",
             "secondLocation": "",
             "suburb": "Macquarie Pass",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173865,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.342294,
+          -31.415142
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Oxley Highway flood recovery work",
+            "linkURL": "https://www.transport.nsw.gov.au/projects/current-projects/oxley-highway-flood-recovery"
+          }
+        ],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1698356928000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Slope stabilisation",
+        "adviceA": "Plan your journey",
+        "adviceB": "Use an alternative route",
+        "adviceC": " ",
+        "end": 1698782400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1698730202264,
+        "otherAdvice": "<p><strong>From 24 October until 15 December:</strong></p><p>The Oxley Highway will be temporarily closed <strong>every Tuesday, Wednesday and Thursday between 7am and 4.30pm</strong> and <strong>every Friday between 7am and 3pm</strong> between Knodingbul Road (travelling east) and Forbes River Road (travelling west).</p><p>Access to Mount Seaview Road will be maintained for motorists and residents after clearing the Forbes River Road checkpoint.</p><p>The Oxley Highway will return to single lane alternating flow traffic arrangements during the NSW summer school holidays with full road closures to resume Tuesday, 30 January 2024.</p><p>We expect the full road closures to be in place until about Easter 2024.</p><p><strong>Special Event Exemptions</strong> – The Oxley Highway will remain open to accommodate the events listed below:</p><ul><li>Thursday 16 and Friday 17 November (Walcha Motorcycle Rally)</li><li>Thursday 30 November and Friday 1 December (NSW State Cup Touch Football)</li><li>Friday 9 February (Walcha Cup Race Meeting)</li><li>Friday 16 February (Walcha Antique Machinery and Truck Show)</li><li>Thursday 7 and Friday 8 March (Walcha Show)</li></ul>",
+        "arrangementElements": [],
+        "diversions": "<p>Motorists could consider Waterfall Way or the New England Highway as an alternative route.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1698730200000,
+        "displayName": "SCHEDULED ROADWORK Slope stabilisation",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Forbes River Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Oxley Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "Knodingbul Road",
+            "suburb": "Mount Seaview",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173864,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.342294,
+          -31.415142
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Oxley Highway flood recovery work",
+            "linkURL": "https://www.transport.nsw.gov.au/projects/current-projects/oxley-highway-flood-recovery"
+          }
+        ],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Highway",
+            "direction": "Both directions",
+            "finishTime": "4:30pm",
+            "fromDay": "Tuesday",
+            "startTime": "7:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1698356455000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Slope stabilisation",
+        "adviceA": "Plan your journey",
+        "adviceB": "Use an alternative route",
+        "adviceC": " ",
+        "end": 1698730200000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1698730202540,
+        "otherAdvice": "<p><strong>From 24 October until 15 December:</strong></p><p>The Oxley Highway will be temporarily closed <strong>every Tuesday, Wednesday and Thursday between 7am and 4.30pm</strong> and <strong>every Friday between 7am and 3pm</strong> between Knodingbul Road (travelling east) and Forbes River Road (travelling west).</p><p>Access to Mount Seaview Road will be maintained for motorists and residents after clearing the Forbes River Road checkpoint.</p><p>The Oxley Highway will return to single lane alternating flow traffic arrangements during the NSW summer school holidays with full road closures to resume Tuesday, 30 January 2024.</p><p>We expect the full road closures to be in place until about Easter 2024.</p><p><strong>Special Event Exemptions</strong> – The Oxley Highway will remain open to accommodate the events listed below:</p><ul><li>Thursday 16 and Friday 17 November (Walcha Motorcycle Rally)</li><li>Thursday 30 November and Friday 1 December (NSW State Cup Touch Football)</li><li>Friday 9 February (Walcha Cup Race Meeting)</li><li>Friday 16 February (Walcha Antique Machinery and Truck Show)</li><li>Thursday 7 and Friday 8 March (Walcha Show)</li></ul>",
+        "arrangementElements": [],
+        "diversions": "<p>Motorists could consider Waterfall Way or the New England Highway as an alternative route.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1698696000000,
+        "displayName": "SCHEDULED ROADWORK Slope stabilisation",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Forbes River Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Oxley Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "Knodingbul Road",
+            "suburb": "Mount Seaview",
             "trafficVolume": ""
           }
         ],
