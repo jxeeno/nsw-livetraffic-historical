@@ -23860,28 +23860,20 @@
     },
     {
       "type": "Feature",
-      "id": 174393,
+      "id": 174147,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.181112,
-          -33.9178686
+          150.7471895,
+          -33.8386087
         ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.127951,
-              -33.876379
-            ]
-          }
-        ]
+        "collections": []
       },
       "properties": {
         "webLinks": [
           {
-            "linkText": "M4 - M8 Link",
-            "linkURL": "https://www.westconnex.com.au/explore-westconnex/interactive-map/"
+            "linkText": "Sydney Metro – Western Sydney Airport",
+            "linkURL": "https://www.sydneymetro.info/westernsydneyairportline"
           }
         ],
         "headline": "",
@@ -23889,9 +23881,19 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Tunnel",
+            "roadtype": "Road",
             "direction": "Both directions",
-            "finishTime": "5:00am",
+            "finishTime": "1:00am",
+            "fromDay": "Monday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "1:00am",
             "fromDay": "Tuesday",
             "startTime": "9:00pm",
             "toDay": ""
@@ -23907,40 +23909,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1698743343000,
+        "created": 1698577665000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Check signage",
+        "adviceA": "Use diversions",
         "adviceB": "Plan your journey",
-        "adviceC": "Use diversions",
+        "adviceC": "Allow extra travel time",
         "end": 1698775200000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698775206131,
-        "otherAdvice": "<p>M4-M8 Link on-ramps from Gardeners Rd and Euston Rd towards Parramatta will be closed.</p><p>M4-M8 Link on-ramp from Wattle St towards St Peters will be closed.</p>",
+        "lastUpdated": 1698775206271,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p><strong>Northbound</strong>: Parramatta Rd.</p><p><strong>Southbound</strong>: Princes Hwy.</p>",
+        "diversions": "<p>Mamre Rd and Elizabeth Dr.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1698746400000,
-        "displayName": "SCHEDULED ROADWORK M4-M8 Link",
+        "start": 1698656400000,
+        "displayName": "SCHEDULED ROADWORK Sydney Metro – Western Sydney Airport",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Gardeners Road",
+            "crossStreet": "Mamre Road",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "M4 - M8 Link",
+            "mainStreet": "Luddenham Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Wattle Street",
-            "suburb": "St Peters to Haberfield",
+            "secondLocation": "Elizabeth Drive",
+            "suburb": "Luddenham",
             "trafficVolume": ""
           }
         ],
@@ -24204,6 +24206,96 @@
     },
     {
       "type": "Feature",
+      "id": 174393,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.181112,
+          -33.9178686
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.127951,
+              -33.876379
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "M4 - M8 Link",
+            "linkURL": "https://www.westconnex.com.au/explore-westconnex/interactive-map/"
+          }
+        ],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1698743343000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Check signage",
+        "adviceB": "Plan your journey",
+        "adviceC": "Use diversions",
+        "end": 1698775200000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1698775206131,
+        "otherAdvice": "<p>M4-M8 Link on-ramps from Gardeners Rd and Euston Rd towards Parramatta will be closed.</p><p>M4-M8 Link on-ramp from Wattle St towards St Peters will be closed.</p>",
+        "arrangementElements": [],
+        "diversions": "<p><strong>Northbound</strong>: Parramatta Rd.</p><p><strong>Southbound</strong>: Princes Hwy.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1698746400000,
+        "displayName": "SCHEDULED ROADWORK M4-M8 Link",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gardeners Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "M4 - M8 Link",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Wattle Street",
+            "suburb": "St Peters to Haberfield",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 172959,
       "geometry": {
         "type": "Point",
@@ -24322,98 +24414,6 @@
             "region": "Sydney",
             "secondLocation": "Church Street",
             "suburb": "Linley Point",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 174147,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.7471895,
-          -33.8386087
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Sydney Metro – Western Sydney Airport",
-            "linkURL": "https://www.sydneymetro.info/westernsydneyairportline"
-          }
-        ],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Road",
-            "direction": "Both directions",
-            "finishTime": "1:00am",
-            "fromDay": "Monday",
-            "startTime": "9:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Road",
-            "direction": "Both directions",
-            "finishTime": "1:00am",
-            "fromDay": "Tuesday",
-            "startTime": "9:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1698577665000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Use diversions",
-        "adviceB": "Plan your journey",
-        "adviceC": "Allow extra travel time",
-        "end": 1698775200000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1698775206271,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Mamre Rd and Elizabeth Dr.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1698656400000,
-        "displayName": "SCHEDULED ROADWORK Sydney Metro – Western Sydney Airport",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Mamre Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Luddenham Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Elizabeth Drive",
-            "suburb": "Luddenham",
             "trafficVolume": ""
           }
         ],
