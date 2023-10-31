@@ -248,7 +248,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -258,18 +258,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": " ",
-        "adviceB": " ",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BUSHFIRE",
-        "lastUpdated": 1698716333995,
+        "lastUpdated": 1698716739035,
         "otherAdvice": "<p>Smoke in the area from a nearby bushfire may affect visibility. Motorists should drive to the conditions. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
         "encodedPolylines": [],
         "displayName": "BUSHFIRE",
         "roads": [
@@ -277,7 +279,16 @@
             "conditionTendency": "",
             "crossStreet": "Bruxner Highway",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "New England Highway",
             "quadrant": "",
