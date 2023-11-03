@@ -7663,7 +7663,18 @@
       "properties": {
         "webLinks": [],
         "headline": "",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Road",
+            "direction": "All directions",
+            "finishTime": "4:00pm",
+            "fromDay": "Saturday",
+            "startTime": "2:00pm",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
@@ -7677,14 +7688,15 @@
         "created": 1699046904000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Police operation",
+        "subCategoryA": "Planned Police operation",
         "adviceA": "Allow extra travel time",
         "adviceB": "Avoid the area",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
+        "adviceC": "Use an alternative route",
+        "end": 1699074000000,
+        "incidentKind": "Planned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1699046938665,
-        "otherAdvice": "<p>Road closures will be in place in the Sydney CBD for a protest march under police direction at:</p><ul><li>St James Rd between Elizabeth St and Macquarie St </li><li>Elizabeth St between Hunter St and Liverpool St </li><li>Elizabeth St between Liverpool St and King St </li><li>Castlereagh St between King St and Bathurst St</li><li>Market St between Elizabeth St and Pitt St</li><li>Park St between College St and George St</li><li>Druitt St between George St and Clarence St</li><li>Bathurst St between Kent St and Elizabeth St</li><li>Pitt St between Liverpool St and Market St</li></ul>",
+        "lastUpdated": 1699047280523,
+        "otherAdvice": "<p>Road closures will be in place in the Sydney CBD for a protest march under police direction at:</p><ul><li>St James Rd between Elizabeth St and Macquarie St</li><li>Elizabeth St between Hunter St and Liverpool St</li><li>Elizabeth St between Liverpool St and King St</li><li>Castlereagh St between King St and Bathurst St</li><li>Market St between Elizabeth St and Pitt St</li><li>Park St between College St and George St</li><li>Druitt St between George St and Clarence St</li><li>Bathurst St between Kent St and Elizabeth St</li><li>Pitt St between Liverpool St and Market St</li></ul><p><br></p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -7693,7 +7705,9 @@
           "Emergency services"
         ],
         "encodedPolylines": [],
-        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "duration": null,
+        "start": 1699047120000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Planned Police operation",
         "roads": [
           {
             "conditionTendency": "",
@@ -7701,13 +7715,13 @@
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "at",
-            "mainStreet": "CBD",
+            "mainStreet": "St James Rd, Elizabeth St, Castlereagh St, Market St, Park St, Druitt St, Bathurst St, Pitt St",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Sydney",
-            "trafficVolume": "Heavy"
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
