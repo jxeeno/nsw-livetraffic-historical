@@ -24281,12 +24281,12 @@
     },
     {
       "type": "Feature",
-      "id": 172496,
+      "id": 174544,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2543283,
-          -33.8919415
+          151.2282902,
+          -33.9245558
         ],
         "collections": []
       },
@@ -24298,10 +24298,20 @@
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
             "roadtype": "",
-            "direction": "Both directions",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
             "finishTime": "5:00am",
             "fromDay": "Sunday",
-            "startTime": "9:00pm",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
@@ -24311,22 +24321,22 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1697166721000,
+        "created": 1698895740000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Utilities",
-        "adviceA": "Check signage",
-        "adviceB": "Allow extra travel time",
-        "adviceC": "Reduced speed limit",
+        "subCategoryA": "Intersection upgrade",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": "Exercise caution",
         "end": 1699207200000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1699207207444,
-        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time. </p>",
+        "lastUpdated": 1699207207539,
+        "otherAdvice": "<p>Traffic lights will be blacked out at the intersection of Anzac Pde at Gardeners Rd / Rainbow St.  Alternating (stop/slow) traffic conditions will be in place.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -24334,21 +24344,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1699178400000,
-        "displayName": "SCHEDULED ROADWORK Utilities",
+        "start": 1698922800000,
+        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Waverley Street",
+            "crossStreet": "Sturt Street",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Bondi Road",
+            "mainStreet": "Anzac PArade",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Oxford Street",
-            "suburb": "Bondi Junction",
+            "secondLocation": "Borrodale Road",
+            "suburb": "Kingsford",
             "trafficVolume": ""
           }
         ],
@@ -24563,6 +24573,83 @@
             "region": "Sydney",
             "secondLocation": "Charles Street",
             "suburb": "Leichhardt",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172496,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2543283,
+          -33.8919415
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1697166721000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Utilities",
+        "adviceA": "Check signage",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Reduced speed limit",
+        "end": 1699207200000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1699207207444,
+        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1699178400000,
+        "displayName": "SCHEDULED ROADWORK Utilities",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Waverley Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Bondi Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Oxford Street",
+            "suburb": "Bondi Junction",
             "trafficVolume": ""
           }
         ],
@@ -24814,93 +24901,6 @@
     },
     {
       "type": "Feature",
-      "id": 174544,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2282902,
-          -33.9245558
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Thursday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1698895740000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Intersection upgrade",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": "Exercise caution",
-        "end": 1699207200000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1699207207539,
-        "otherAdvice": "<p>Traffic lights will be blacked out at the intersection of Anzac Pde at Gardeners Rd / Rainbow St.  Alternating (stop/slow) traffic conditions will be in place.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1698922800000,
-        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Sturt Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Anzac PArade",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Borrodale Road",
-            "suburb": "Kingsford",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 174012,
       "geometry": {
         "type": "Point",
@@ -25142,7 +25142,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -25156,10 +25156,10 @@
         "adviceA": "Exercise caution",
         "adviceB": "Check signage",
         "adviceC": " ",
-        "end": 1699812000000,
+        "end": 1699207200000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1699207208104,
+        "lastUpdated": 1699207207293,
         "otherAdvice": "<p>Contraflow traffic conditions will be in place to allow motorists to pass in both directions.</p>",
         "arrangementElements": [],
         "diversions": "",
@@ -25168,7 +25168,7 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1699639200000,
+        "start": 1699034400000,
         "displayName": "SCHEDULED ROADWORK",
         "roads": [
           {
@@ -25239,7 +25239,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": true,
+        "ended": false,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -25253,10 +25253,10 @@
         "adviceA": "Exercise caution",
         "adviceB": "Check signage",
         "adviceC": " ",
-        "end": 1699207200000,
+        "end": 1699812000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1699207207293,
+        "lastUpdated": 1699207208104,
         "otherAdvice": "<p>Contraflow traffic conditions will be in place to allow motorists to pass in both directions.</p>",
         "arrangementElements": [],
         "diversions": "",
@@ -25265,7 +25265,7 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1699034400000,
+        "start": 1699639200000,
         "displayName": "SCHEDULED ROADWORK",
         "roads": [
           {
@@ -26502,6 +26502,176 @@
             "region": "Sydney",
             "secondLocation": "Ashley Street",
             "suburb": "Roseville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174709,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.69562,
+          -34.242249
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.859736,
+              -34.370375
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Eastbound",
+            "finishTime": "4:00am",
+            "fromDay": "Sunday",
+            "startTime": "7:30pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1698987839000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Plan your journey",
+        "adviceC": "Use diversions",
+        "end": 1699808400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1699246983346,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Appin Rd to Princes Hwy (Bulli Pass), then Memorial Dr to M1 Princes Mwy.</p><p><strong>This detour is not suitable for any OSOM vehicle or any vehicle exceeding 19 metres. Vehicles of this length are advised to delay their journey. </strong> </p><p>Any vehicle not suitable for the detour arriving on site will be requested to park until the road reopens. </p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1699777800000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Almond Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Picton Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "M1 Princes Motorway",
+            "suburb": "Wilton to Cataract",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174711,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87932,
+          -34.401664
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.89787,
+              -34.310583
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Motorway",
+            "direction": "Southbound",
+            "finishTime": "4:00am",
+            "fromDay": "Sunday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1698987944000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "end": 1699808400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1699247273076,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p><span style=\"\">Princes Hwy (Bulli Pass), then Memorial Dr to M1 Princes Mwy.</span></p><p><strong>This detour is not suitable for any OSOM vehicle or any vehicle exceeding 19 metres. Vehicles of this length are advised to delay their journey. </strong> </p><p>Any vehicle not suitable for the detour arriving on site will be requested to park until the road reopens. </p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1699779600000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Princes Highway (Bulli Pass)",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "M1 Princes Motorway (Mount Ousley Road)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "Mount Ousley Road",
+            "suburb": "Bulli Tops to Fairy Meadow",
             "trafficVolume": ""
           }
         ],
