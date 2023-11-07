@@ -1398,80 +1398,6 @@
     },
     {
       "type": "Feature",
-      "id": 174980,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9906581,
-          -33.7951041
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1699247073000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "2 cars",
-        "adviceA": "Exercise caution",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1699249891396,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [
-          "Site Cleared"
-        ],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "displayName": "CRASH 2 cars",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Redbank Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Briens Road (Cumberland Highway)",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Northmead",
-            "trafficVolume": "Heavy"
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 174985,
       "geometry": {
         "type": "Point",
@@ -6997,6 +6923,83 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175078,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1651323,
+          -33.9296973
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Sydney Gateway",
+            "linkURL": "https://caportal.com.au/rms/sydney-gateway"
+          }
+        ],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1699336061000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "due to an earlier incident",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1699336206442,
+        "otherAdvice": "<p><strong>From 5am Sun 19 Nov:</strong></p><ul><li>Eastbound Airport Dr traffic will be switched onto the new roadway,</li><li>Westbound traffic will remain on the existing alignment of Airport Dr, and</li><li>Link Rd traffic approaching from the west will use the new roadway and new bridge over the canal.</li></ul>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "CHANGED TRAFFIC CONDITIONS from Sunday 19 November",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Link Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Airport Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Qantas Drive",
+            "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
