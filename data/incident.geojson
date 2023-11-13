@@ -7929,86 +7929,6 @@
     },
     {
       "type": "Feature",
-      "id": 175734,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1760959,
-          -33.9159228
-        ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.084626,
-              -33.940265
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1699898953000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Use an alternative route",
-        "adviceB": "Expect delays",
-        "adviceC": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "LATE FINISHING ROADWORK",
-        "lastUpdated": 1699900453316,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Eastbound: King Georges Rd, Stoney Creek Rd, Forest Rd, Princes Hwy, Canal Rd, Kent Rd &amp; Gardeners Rd.</p><p>Westbound: Campbelle Rd, Princes Hwy, Forest Rd, Stoney Creek Rd and King Georges Rd.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "displayName": "LATE FINISHING ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Euston Road / Gardeners Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Tunnel"
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "M8 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "King Georges Road",
-            "suburb": "St Peters to Beverly Hills",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 175732,
       "geometry": {
         "type": "Point",
@@ -8115,15 +8035,16 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1699900612183,
-        "otherAdvice": "",
+        "lastUpdated": 1699900936671,
+        "otherAdvice": "<p>The on-ramp is temporarily closed while vehicle recovery takes place.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH Car",
@@ -8137,9 +8058,9 @@
                 "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "On-ramp"
               }
             ],
             "locationQualifier": "from",
@@ -8154,6 +8075,86 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175734,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1760959,
+          -33.9159228
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.083542,
+              -33.940694
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "LATE FINISHING ROADWORK ST PETERS TO BEVERLY HILLS M8 Motorway between Euston Road / Gardeners Road and King Georges Roa",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1699898953000,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Use diversions",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Expect delays",
+        "incidentKind": "Unplanned",
+        "mainCategory": "LATE FINISHING ROADWORK",
+        "lastUpdated": 1699901257149,
+        "otherAdvice": "<p>Only the M8 Mwy is closed.</p><p>The M5 East Mwy and M4-M8 Link Mwy remain open.</p>",
+        "arrangementElements": [],
+        "diversions": "<p>Eastbound: King Georges Rd, Stoney Creek Rd, Forest Rd, Princes Hwy, Canal Rd, Kent Rd &amp; Gardeners Rd.</p><p>Westbound: Campbell Rd, Princes Hwy, Forest Rd, Stoney Creek Rd and King Georges Rd.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "LATE FINISHING ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Euston Road / Gardeners Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Tunnel"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "M8 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "King Georges Road",
+            "suburb": "St Peters to Beverly Hills",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
       }
     }
   ]
