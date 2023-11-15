@@ -81,8 +81,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1782496,
-          -33.7977218
+          151.1781856,
+          -33.7975186
         ],
         "collections": []
       },
@@ -94,7 +94,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -106,11 +106,11 @@
         "subCategoryA": "null",
         "adviceA": "Prepare to merge",
         "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "BUILDING FIRE",
-        "lastUpdated": 1700021318496,
-        "otherAdvice": "",
+        "lastUpdated": 1700021982834,
+        "otherAdvice": "<p>Contraflow traffic conditions are in place for northbound motorists, using one southbound lane.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -129,21 +129,29 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
+                "closedLanes": "3",
+                "description": "Lane 1;Lane 2;Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "near",
             "mainStreet": "Pacific Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Chatswood",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
