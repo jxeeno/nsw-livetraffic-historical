@@ -19262,12 +19262,12 @@
     },
     {
       "type": "Feature",
-      "id": 172042,
+      "id": 175024,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2131435,
-          -33.8650307
+          150.9802341,
+          -33.9445952
         ],
         "collections": []
       },
@@ -19278,21 +19278,11 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "11:30pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Southbound",
+            "roadtype": "Off-ramp",
+            "direction": "Eastbound",
             "finishTime": "5:00am",
             "fromDay": "Tuesday",
-            "startTime": "11:30pm",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
@@ -19306,40 +19296,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1696816750000,
+        "created": 1699310812000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Maintenance",
-        "adviceA": "Check signage",
-        "adviceB": "Use diversions",
-        "adviceC": "Plan your journey",
+        "adviceA": "Use diversions",
+        "adviceB": "Check signage",
+        "adviceC": " ",
         "end": 1702404000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702404053808,
-        "otherAdvice": "<p>The Sydney Harbour Tunnel  and Eastern Distributor will also be closed.</p>",
+        "lastUpdated": 1702404053536,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Sydney Harbour Bridge and Cahill Exp in both directions.</p>",
+        "diversions": "<p>River Rd, Milperra Rd.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1702297800000,
+        "start": 1702377000000,
         "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cowper Wharf Roadway",
+            "crossStreet": "Henry Lawson Drive",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Domain Tunnel",
+            "locationQualifier": "to",
+            "mainStreet": "M5 Motorway eastbound off-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Sydney Harbour Tunnel",
-            "suburb": "Sydney",
+            "secondLocation": "",
+            "suburb": "Milperra",
             "trafficVolume": ""
           }
         ],
@@ -19573,6 +19563,93 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Moorebank",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172042,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2131435,
+          -33.8650307
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "11:30pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "11:30pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1696816750000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Check signage",
+        "adviceB": "Use diversions",
+        "adviceC": "Plan your journey",
+        "end": 1702404000000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1702404053808,
+        "otherAdvice": "<p>The Sydney Harbour Tunnel  and Eastern Distributor will also be closed.</p>",
+        "arrangementElements": [],
+        "diversions": "<p>Sydney Harbour Bridge and Cahill Exp in both directions.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1702297800000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowper Wharf Roadway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Domain Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Sydney Harbour Tunnel",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ],
@@ -19951,83 +20028,6 @@
             "region": "Sydney",
             "secondLocation": "Stewart Street",
             "suburb": "Dundas Valley to Silverwater",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 175024,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9802341,
-          -33.9445952
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Eastbound",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1699310812000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Use diversions",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1702404000000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702404053536,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>River Rd, Milperra Rd.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1702377000000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Henry Lawson Drive",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "M5 Motorway eastbound off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Milperra",
             "trafficVolume": ""
           }
         ],
