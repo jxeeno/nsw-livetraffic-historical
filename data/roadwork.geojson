@@ -20972,14 +20972,22 @@
     },
     {
       "type": "Feature",
-      "id": 177910,
+      "id": 168136,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.3226116,
-          -34.4750626
+          150.9271288,
+          -33.9402024
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.923656,
+              -33.939811
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
@@ -20987,79 +20995,69 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "7:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Southbound",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Westbound",
             "finishTime": "5:00am",
             "fromDay": "Wednesday",
-            "startTime": "7:00pm",
+            "startTime": "10:00pm",
             "toDay": ""
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Southbound",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Westbound",
             "finishTime": "5:00am",
-            "fromDay": "Thursday",
-            "startTime": "7:00pm",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1701406303000,
+        "created": 1693282632000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Bridge work",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Allow extra travel time",
-        "adviceC": "Exercise caution",
+        "subCategoryA": "null",
+        "adviceA": "Use diversions",
+        "adviceB": "Check signage",
+        "adviceC": " ",
         "end": 1702490400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702490403248,
-        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "lastUpdated": 1702490403281,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Heathcote Rd.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1702368000000,
-        "displayName": "SCHEDULED ROADWORK Bridge work",
+        "start": 1702465200000,
+        "displayName": "SCHEDULED ROADWORK",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wingecarribee Bridge",
+            "crossStreet": "Moorebank Avenue",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "at",
-            "mainStreet": "Hume Highway",
+            "mainStreet": "M5 Motorway westbound on and off-ramps",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Southern Highlands",
+            "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Berrima",
+            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ],
@@ -21187,6 +21185,103 @@
             "region": "Sydney",
             "secondLocation": "Currawang Street",
             "suburb": "Rhodes to Concord West",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177910,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3226116,
+          -34.4750626
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1701406303000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bridge work",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Exercise caution",
+        "end": 1702490400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1702490403248,
+        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1702368000000,
+        "displayName": "SCHEDULED ROADWORK Bridge work",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Wingecarribee Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Southern Highlands",
+            "secondLocation": "",
+            "suburb": "Berrima",
             "trafficVolume": ""
           }
         ],
@@ -21513,101 +21608,6 @@
             "region": "Sydney",
             "secondLocation": "Cedarwood Drive",
             "suburb": "Cherrybrook",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 168136,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9271288,
-          -33.9402024
-        ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              150.923656,
-              -33.939811
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "On-ramp",
-            "direction": "Westbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Westbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1693282632000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Use diversions",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1702490400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702490403281,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Heathcote Rd.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1702465200000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Moorebank Avenue",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "M5 Motorway westbound on and off-ramps",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ],
