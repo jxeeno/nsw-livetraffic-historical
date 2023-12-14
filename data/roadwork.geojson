@@ -20054,12 +20054,12 @@
     },
     {
       "type": "Feature",
-      "id": 172325,
+      "id": 176716,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1318319,
-          -33.7802636
+          151.0479911,
+          -33.7303692
         ],
         "collections": []
       },
@@ -20069,12 +20069,22 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Eastbound",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "8:30pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
             "finishTime": "5:00am",
             "fromDay": "Wednesday",
-            "startTime": "10:00pm",
+            "startTime": "8:30pm",
             "toDay": ""
           }
         ],
@@ -20084,24 +20094,119 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1700699751000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Utilities",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": "Exercise caution",
+        "end": 1702490400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1702490403195,
+        "otherAdvice": "<p>Contraflow traffic conditions will be in place to allow motorists to pass in both directions. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1702373400000,
+        "displayName": "SCHEDULED ROADWORK Utilities",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Francis Greenway Drive",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Boundary Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Cedarwood Drive",
+            "suburb": "Cherrybrook",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9271288,
+          -33.9402024
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.923656,
+              -33.939811
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1697073211000,
+        "created": 1693282632000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Reduced speed limit",
+        "adviceA": "Use diversions",
         "adviceB": "Check signage",
-        "adviceC": "Use diversions",
+        "adviceC": " ",
         "end": 1702490400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702490403308,
+        "lastUpdated": 1702490403281,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>M2 Mwy, Delhi Rd exit, Epping Rd, Lane Cove Rd</p>",
+        "diversions": "<p>Heathcote Rd.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
@@ -20112,16 +20217,16 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Lane Cove Road",
+            "crossStreet": "Moorebank Avenue",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "M2 Motorway off-ramp",
+            "locationQualifier": "at",
+            "mainStreet": "M5 Motorway westbound on and off-ramps",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Macquarie Park",
+            "suburb": "Moorebank",
             "trafficVolume": ""
           }
         ],
@@ -20249,6 +20354,91 @@
             "region": "Sydney",
             "secondLocation": "Currawang Street",
             "suburb": "Rhodes to Concord West",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178633,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3294476,
+          -28.6588915
+        ],
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.250268,
+              -28.793218
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1702022826000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Line marking",
+        "adviceA": "Exercise caution",
+        "adviceB": "Check signage",
+        "adviceC": "Reduced speed limit",
+        "end": 1703055600000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1702490402961,
+        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time. Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1702494000000,
+        "displayName": "SCHEDULED ROADWORK Line marking",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Newell Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "New England North West",
+            "secondLocation": "",
+            "suburb": "Boggabilla",
             "trafficVolume": ""
           }
         ],
@@ -20432,97 +20622,12 @@
     },
     {
       "type": "Feature",
-      "id": 178633,
+      "id": 172325,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.3294476,
-          -28.6588915
-        ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              150.250268,
-              -28.793218
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "6:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1702022826000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Line marking",
-        "adviceA": "Exercise caution",
-        "adviceB": "Check signage",
-        "adviceC": "Reduced speed limit",
-        "end": 1703055600000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702490402961,
-        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time. Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1702494000000,
-        "displayName": "SCHEDULED ROADWORK Line marking",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Newell Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "New England North West",
-            "secondLocation": "",
-            "suburb": "Boggabilla",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 176716,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0479911,
-          -33.7303692
+          151.1318319,
+          -33.7802636
         ],
         "collections": []
       },
@@ -20532,22 +20637,12 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "8:30pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Eastbound",
             "finishTime": "5:00am",
             "fromDay": "Wednesday",
-            "startTime": "8:30pm",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
@@ -20557,119 +20652,24 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1700699751000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Utilities",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": "Exercise caution",
-        "end": 1702490400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702490403195,
-        "otherAdvice": "<p>Contraflow traffic conditions will be in place to allow motorists to pass in both directions. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1702373400000,
-        "displayName": "SCHEDULED ROADWORK Utilities",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Francis Greenway Drive",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Boundary Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Cedarwood Drive",
-            "suburb": "Cherrybrook",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 168136,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9271288,
-          -33.9402024
-        ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              150.923656,
-              -33.939811
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "On-ramp",
-            "direction": "Westbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Westbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1693282632000,
+        "created": 1697073211000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Use diversions",
+        "adviceA": "Reduced speed limit",
         "adviceB": "Check signage",
-        "adviceC": " ",
+        "adviceC": "Use diversions",
         "end": 1702490400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702490403281,
+        "lastUpdated": 1702490403308,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Heathcote Rd.</p>",
+        "diversions": "<p>M2 Mwy, Delhi Rd exit, Epping Rd, Lane Cove Rd</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
@@ -20680,16 +20680,16 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Moorebank Avenue",
+            "crossStreet": "Lane Cove Road",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "M5 Motorway westbound on and off-ramps",
+            "locationQualifier": "to",
+            "mainStreet": "M2 Motorway off-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Moorebank",
+            "suburb": "Macquarie Park",
             "trafficVolume": ""
           }
         ],
