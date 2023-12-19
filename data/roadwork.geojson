@@ -13651,12 +13651,12 @@
     },
     {
       "type": "Feature",
-      "id": 175788,
+      "id": 177785,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8776713,
-          -33.946758
+          151.0202351,
+          -33.9412555
         ],
         "collections": []
       },
@@ -13668,24 +13668,14 @@
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
             "roadtype": "Off-ramp",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "9:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Southbound",
+            "direction": "Westbound",
             "finishTime": "5:00am",
             "fromDay": "Monday",
-            "startTime": "9:00pm",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": true,
@@ -13695,40 +13685,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1699927354000,
+        "created": 1701325827000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Maintenance",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Use diversions",
+        "adviceA": "Use diversions",
+        "adviceB": "Check signage",
         "adviceC": " ",
         "end": 1702922400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702922463313,
-        "otherAdvice": "<p>M7 Mwy southbound off-ramp will be closed. Through traffic on the M7 Mwy will not be affected.</p>",
+        "lastUpdated": 1702922463360,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>From M7 Mwy southbound use Camden Valley Way exit, Camden Valley Way, Hume Hwy, M5 Mwy.</p>",
+        "diversions": "<p>Fairford Rd and Canterbury Rd.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1702807200000,
+        "start": 1702855740000,
         "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M5 Motorway (eastbound)",
+            "crossStreet": "The River Road",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "to",
-            "mainStreet": "M7 Motorway southbound off-ramp",
+            "mainStreet": "M5 Motorway westbound off-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Casula",
+            "suburb": "Revesby",
             "trafficVolume": ""
           }
         ],
@@ -14174,6 +14164,93 @@
             "region": "Blue Mountains",
             "secondLocation": "",
             "suburb": "Little Hartley",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175788,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8776713,
+          -33.946758
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1699927354000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Use diversions",
+        "adviceC": " ",
+        "end": 1702922400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1702922463313,
+        "otherAdvice": "<p>M7 Mwy southbound off-ramp will be closed. Through traffic on the M7 Mwy will not be affected.</p>",
+        "arrangementElements": [],
+        "diversions": "<p>From M7 Mwy southbound use Camden Valley Way exit, Camden Valley Way, Hume Hwy, M5 Mwy.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1702807200000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M5 Motorway (eastbound)",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "to",
+            "mainStreet": "M7 Motorway southbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Casula",
             "trafficVolume": ""
           }
         ],
@@ -14679,83 +14756,6 @@
             "region": "Sydney",
             "secondLocation": "Ingram Road",
             "suburb": "Normanhurst to Wahroonga",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 177785,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0202351,
-          -33.9412555
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Westbound",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1701325827000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Use diversions",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1702922400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702922463360,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Fairford Rd and Canterbury Rd.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1702855740000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "The River Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "M5 Motorway westbound off-ramp",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Revesby",
             "trafficVolume": ""
           }
         ],
