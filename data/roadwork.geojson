@@ -13651,12 +13651,12 @@
     },
     {
       "type": "Feature",
-      "id": 175788,
+      "id": 175781,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8776713,
-          -33.946758
+          151.1025932,
+          -33.7222052
         ],
         "collections": []
       },
@@ -13666,22 +13666,32 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Southbound",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
             "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "9:00pm",
+            "fromDay": "Thursday",
+            "startTime": "10:30pm",
             "toDay": ""
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Southbound",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
             "finishTime": "5:00am",
             "fromDay": "Monday",
-            "startTime": "9:00pm",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
@@ -13695,40 +13705,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1699927354000,
+        "created": 1699924499000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
+        "subCategoryA": "Resurfacing",
         "adviceA": "Reduced speed limit",
-        "adviceB": "Use diversions",
+        "adviceB": "Check signage",
         "adviceC": " ",
         "end": 1702922400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702922463313,
-        "otherAdvice": "<p>M7 Mwy southbound off-ramp will be closed. Through traffic on the M7 Mwy will not be affected.</p>",
+        "lastUpdated": 1702922463311,
+        "otherAdvice": "<p>Traffic lights will be blacked out, with alternating (stop/slow) traffic conditions in place to allow motorists to pass in one direction at a time.</p>",
         "arrangementElements": [],
-        "diversions": "<p>From M7 Mwy southbound use Camden Valley Way exit, Camden Valley Way, Hume Hwy, M5 Mwy.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1702807200000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1702551600000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M5 Motorway (eastbound)",
+            "crossStreet": "Buckingham Avenue",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "M7 Motorway southbound off-ramp",
+            "locationQualifier": "between",
+            "mainStreet": "Pennant Hills Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Casula",
+            "secondLocation": "Ingram Road",
+            "suburb": "Normanhurst to Wahroonga",
             "trafficVolume": ""
           }
         ],
@@ -14183,6 +14193,93 @@
     },
     {
       "type": "Feature",
+      "id": 175788,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8776713,
+          -33.946758
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1699927354000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Use diversions",
+        "adviceC": " ",
+        "end": 1702922400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1702922463313,
+        "otherAdvice": "<p>M7 Mwy southbound off-ramp will be closed. Through traffic on the M7 Mwy will not be affected.</p>",
+        "arrangementElements": [],
+        "diversions": "<p>From M7 Mwy southbound use Camden Valley Way exit, Camden Valley Way, Hume Hwy, M5 Mwy.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1702807200000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "M5 Motorway (eastbound)",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "to",
+            "mainStreet": "M7 Motorway southbound off-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Casula",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 177567,
       "geometry": {
         "type": "Point",
@@ -14582,103 +14679,6 @@
             "region": "Sydney",
             "secondLocation": "Derribong Street",
             "suburb": "Bass Hill to Lansdowne",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 175781,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1025932,
-          -33.7222052
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Thursday",
-            "startTime": "10:30pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1699924499000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1702922400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1702922463311,
-        "otherAdvice": "<p>Traffic lights will be blacked out, with alternating (stop/slow) traffic conditions in place to allow motorists to pass in one direction at a time.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1702551600000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Buckingham Avenue",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Pennant Hills Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Ingram Road",
-            "suburb": "Normanhurst to Wahroonga",
             "trafficVolume": ""
           }
         ],
