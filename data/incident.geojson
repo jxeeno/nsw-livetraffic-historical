@@ -7308,7 +7308,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
-        "lastUpdated": 1704352575695,
+        "lastUpdated": 1704352576309,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7382,7 +7382,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
-        "lastUpdated": 1704352576309,
+        "lastUpdated": 1704352575695,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8534,81 +8534,6 @@
     },
     {
       "type": "Feature",
-      "id": 180967,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9252651,
-          -33.8706815
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1704369468000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car, Pedestrian",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Prepare to merge",
-        "adviceC": "Exercise caution",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1704369468696,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CRASH Car, Pedestrian",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Hamilton Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "2",
-                "description": "Lane 1;Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Cumberland Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Fairfield West",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 180966,
       "geometry": {
         "type": "Point",
@@ -8753,6 +8678,89 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "TrafficSignals"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180967,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9252651,
+          -33.8706815
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1704369468000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car, Pedestrian",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Plan your journey",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1704374098446,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Motorists are diverted into Hamilton Road, then use local roads. </p><p>This is not suitable for b-doubles. B-doubles should use The Horsley Dr and Hume Hwy.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Car, Pedestrian",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Hamilton Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Cumberland Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Fairfield West",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
       }
     }
   ]
