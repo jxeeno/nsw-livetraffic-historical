@@ -11068,22 +11068,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Prepare to merge",
+        "adviceA": "Allow extra travel time",
+        "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1705962255650,
-        "otherAdvice": "<p>There may be intermittent closures while the heavy vehicle is recovered.</p>",
+        "lastUpdated": 1705963105182,
+        "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW",
-          "Emergency services",
-          "Heavy vehicle tow truck"
+        "additionalInfo": [
+          "Site Cleared"
         ],
+        "weblinkName": null,
+        "attendingGroups": null,
         "encodedPolylines": [],
         "displayName": "BREAKDOWN Truck",
         "roads": [
@@ -11093,7 +11091,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -11108,7 +11106,82 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Wentworthville",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182900,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0743441,
+          -33.9368432
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1705963283000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1705963283719,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Roselands Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 2;Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "King Georges Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Roselands",
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
