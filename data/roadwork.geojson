@@ -16062,83 +16062,6 @@
     },
     {
       "type": "Feature",
-      "id": 181474,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.3971556,
-          -31.0478379
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:30pm",
-            "fromDay": "Weekdays",
-            "startTime": "6:30am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1704856854000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Bridge work",
-        "adviceA": "Check signage",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
-        "end": 1706769000000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1705860061460,
-        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1705865400000,
-        "displayName": "SCHEDULED ROADWORK Bridge work",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Newell Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central NSW",
-            "secondLocation": "",
-            "suburb": "Dandry",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 182626,
       "geometry": {
         "type": "Point",
@@ -16207,6 +16130,83 @@
             "region": "New England North West",
             "secondLocation": "",
             "suburb": "Narrabri",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.3971556,
+          -31.0478379
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:30pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:30am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1704856854000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Bridge work",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
+        "end": 1706769000000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1705860061460,
+        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1705865400000,
+        "displayName": "SCHEDULED ROADWORK Bridge work",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Newell Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central NSW",
+            "secondLocation": "",
+            "suburb": "Dandry",
             "trafficVolume": ""
           }
         ],
@@ -20505,14 +20505,22 @@
     },
     {
       "type": "Feature",
-      "id": 182206,
+      "id": 183087,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8539672,
-          -33.9201283
+          150.8530249,
+          -33.8125682
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              150.852305,
+              -33.811009
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [
@@ -20532,6 +20540,16 @@
             "fromDay": "Wednesday",
             "startTime": "10:00pm",
             "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Off-ramp",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
           }
         ],
         "speedLimit": -1,
@@ -20544,20 +20562,20 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1705386603000,
+        "created": 1706090055000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
+        "subCategoryA": "null",
         "adviceA": "Use diversions",
-        "adviceB": "Plan your journey",
-        "adviceC": "Allow extra travel time",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Plan your journey",
         "end": 1706119200000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1706119261158,
+        "lastUpdated": 1706119261139,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p><strong>Northbound on Cowpasture Rd: </strong>continue onto Airfield Dr, then Aviation Dr, Cowpasture Rd (southbound), Hoxton Park Rd, Joadja Rd and Jedda Rd to the M7 Mwy.</p><p><strong>Southbound on Cowpasture Rd:</strong> continue onto Hoxton Park Rd, then Joadja Rd, and Jedda Rd to the M7 Mwy.</p>",
+        "diversions": "<p><strong>For the southbound off-ramp:</strong> use Great Western Hwy off-ramp, then Great Western Hwy, Wallgrove Rd.</p><p><strong>For the soutbound on-ramp:</strong> use Wallgrove Rd, The Horsley Dr, M7 Mwy southbuond on-ramp.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
@@ -20568,16 +20586,16 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cowpasture Road",
+            "crossStreet": "Old Wallgrove Road",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "from",
-            "mainStreet": "M7 Motorway southbound on-ramp",
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway southbound on and off ramps",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Hinchinbrook",
+            "suburb": "Eastern Creek",
             "trafficVolume": ""
           }
         ],
@@ -20655,6 +20673,88 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "North Sydney to Sydney",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8539672,
+          -33.9201283
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "M7-M12 Integration Project",
+            "linkURL": "https://www.m7m12integrationproject.com.au/"
+          }
+        ],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1705386603000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "end": 1706119200000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1706119261158,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p><strong>Northbound on Cowpasture Rd: </strong>continue onto Airfield Dr, then Aviation Dr, Cowpasture Rd (southbound), Hoxton Park Rd, Joadja Rd and Jedda Rd to the M7 Mwy.</p><p><strong>Southbound on Cowpasture Rd:</strong> continue onto Hoxton Park Rd, then Joadja Rd, and Jedda Rd to the M7 Mwy.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1706094000000,
+        "displayName": "SCHEDULED ROADWORK M7-M12 Integration Project",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowpasture Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "from",
+            "mainStreet": "M7 Motorway southbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Hinchinbrook",
             "trafficVolume": ""
           }
         ],
@@ -21174,106 +21274,6 @@
     },
     {
       "type": "Feature",
-      "id": 183087,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8530249,
-          -33.8125682
-        ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              150.852305,
-              -33.811009
-            ]
-          }
-        ]
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "M7-M12 Integration Project",
-            "linkURL": "https://www.m7m12integrationproject.com.au/"
-          }
-        ],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "On-ramp",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1706090055000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Use diversions",
-        "adviceB": "Allow extra travel time",
-        "adviceC": "Plan your journey",
-        "end": 1706119200000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1706119261139,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p><strong>For the southbound off-ramp:</strong> use Great Western Hwy off-ramp, then Great Western Hwy, Wallgrove Rd.</p><p><strong>For the soutbound on-ramp:</strong> use Wallgrove Rd, The Horsley Dr, M7 Mwy southbuond on-ramp.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1706094000000,
-        "displayName": "SCHEDULED ROADWORK M7-M12 Integration Project",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Old Wallgrove Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "M7 Motorway southbound on and off ramps",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Eastern Creek",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 179042,
       "geometry": {
         "type": "Point",
@@ -21778,6 +21778,83 @@
     },
     {
       "type": "Feature",
+      "id": 183053,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.280495,
+          -33.758747
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "11:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1706068111000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "end": 1706121000000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1706121004297,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1706095800000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pittwater Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Warringah Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Dee Why",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 170447,
       "geometry": {
         "type": "Point",
@@ -21886,83 +21963,6 @@
             "region": "Sydney",
             "secondLocation": "March Street",
             "suburb": "Hobartville to Richmond",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 183053,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.280495,
-          -33.758747
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "11:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1706068111000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
-        "end": 1706121000000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1706121004297,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1706095800000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Pittwater Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Warringah Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Dee Why",
             "trafficVolume": ""
           }
         ],
@@ -23981,6 +23981,93 @@
     },
     {
       "type": "Feature",
+      "id": 183176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6766495,
+          -34.7235675
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Saturday",
+            "startTime": "6:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1706149324000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
+        "end": 1706943600000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1706149324771,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1706727600000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Illalong Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "near",
+            "mainStreet": "Burley Griffin Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Southern Highlands",
+            "secondLocation": "",
+            "suburb": "Yass Valley",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 173886,
       "geometry": {
         "type": "Point",
@@ -24068,8 +24155,8 @@
         "end": 1711684800000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1706149079237,
-        "otherAdvice": "<p>Access to Mount Seaview Road will be maintained for motorists and residents after clearing the Forbes River Road checkpoint.</p><p>The Oxley Highway will return to single lane alternating flow traffic arrangements during the NSW summer school holidays with full road closures to resume Tuesday, 30 January 2024.</p><p>We expect the full road closures to be in place until about Easter 2024.</p><p><strong>Special Event Exemptions</strong> – The Oxley Highway will remain open to accommodate the events listed below:</p><ul><li>Friday 9 February (Walcha Cup Race Meeting)</li><li>Friday 16 February (Walcha Antique Machinery and Truck Show)</li><li>Thursday 7 and Friday 8 March (Walcha Show)</li></ul><p><br></p><p>Outside of these closures, <a href=\"https://www.livetraffic.com/incident-details/154698\" target=\"_blank\">alternating (stop/slow) traffic conditions will be in place.</a></p>",
+        "lastUpdated": 1706149988783,
+        "otherAdvice": "<p>Access to Mount Seaview Road will be maintained for motorists and residents after clearing the Forbes River Road checkpoint.</p><p>The Oxley Highway will return to single lane alternating flow traffic arrangements during the NSW summer school holidays with full road closures to resume Tuesday, 30 January 2024.</p><p>We expect the full road closures to be in place until about Easter 2024.</p><p><strong>Special Event Exemptions</strong> – The Oxley Highway will remain open to accommodate the events listed below:</p><ul><li>Friday 9 February (Walcha Cup Race Meeting)</li><li>Friday 16 February (Walcha Antique Machinery and Truck Show)</li><li>Friday 23 February (Red Hot Summer)</li><li>Thursday 7 and Friday 8 March (Walcha Show)</li></ul><p><br></p><p>Outside of these closures, <a href=\"https://www.livetraffic.com/incident-details/154698\" target=\"_blank\">alternating (stop/slow) traffic conditions will be in place.</a></p>",
         "arrangementElements": [],
         "diversions": "<p>Motorists could consider Waterfall Way or the New England Hwy as an alternative route.</p>",
         "additionalInfo": [],
@@ -24096,93 +24183,6 @@
           }
         ],
         "isLocalRoad": "Local road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 183176,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.6766495,
-          -34.7235675
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "6:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Saturday",
-            "startTime": "6:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1706149324000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
-        "end": 1706943600000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1706149324771,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1706727600000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Illalong Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Burley Griffin Way",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Southern Highlands",
-            "secondLocation": "",
-            "suburb": "Yass Valley",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
         "CategoryIcon": "Roadworks"
       }
     }
