@@ -8084,7 +8084,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706585284830,
+        "lastUpdated": 1706585283968,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8159,7 +8159,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706585283968,
+        "lastUpdated": 1706585284830,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8615,7 +8615,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1706587680542,
+        "lastUpdated": 1706587681662,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place to allow motorists to pass in one direction at a time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -8690,7 +8690,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1706587681662,
+        "lastUpdated": 1706587680542,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place to allow motorists to pass in one direction at a time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -9363,7 +9363,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706592207905,
+        "lastUpdated": 1706592208774,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9438,7 +9438,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706592208774,
+        "lastUpdated": 1706592207905,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11151,13 +11151,13 @@
         "created": 1706610475000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "due to an earlier incident",
         "adviceA": "Reduce your speed",
         "adviceB": "Prepare to merge",
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1706613651677,
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1706613975599,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11168,7 +11168,7 @@
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Car",
+        "displayName": "CHANGED TRAFFIC CONDITIONS due to an earlier incident",
         "roads": [
           {
             "conditionTendency": "",
@@ -11177,10 +11177,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "3",
-                "description": "Lane 1;Lane 2;Lane 3",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "4",
+                "numberOfLanes": "6",
                 "roadType": ""
               }
             ],
@@ -11195,7 +11195,89 @@
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
+        "CategoryIcon": "ChangedConditions"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183617,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1771827,
+          -33.8127627
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1706614079000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Overheight vehicle",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1706614080398,
+        "otherAdvice": "<p>The on-ramps only are closed.</p><p>Motorists can consider using Longueville Rd to access the Lane Cove Tunnel.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Damage due to overheight vehicle",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Lane Cove Tunnel",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "On-ramp"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "On-ramp"
+              }
+            ],
+            "locationQualifier": "to",
+            "mainStreet": "Pacific Highway on-ramps",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Artarmon",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
