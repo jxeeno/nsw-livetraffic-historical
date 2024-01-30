@@ -4716,7 +4716,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706585284830,
+        "lastUpdated": 1706585283968,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -4791,7 +4791,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706585283968,
+        "lastUpdated": 1706585284830,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -5247,7 +5247,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1706587681662,
+        "lastUpdated": 1706587680542,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place to allow motorists to pass in one direction at a time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -5322,7 +5322,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1706587680542,
+        "lastUpdated": 1706587681662,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place to allow motorists to pass in one direction at a time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -5995,7 +5995,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706592207905,
+        "lastUpdated": 1706592208774,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6070,7 +6070,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706592208774,
+        "lastUpdated": 1706592207905,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6367,7 +6367,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1706594678831,
+        "lastUpdated": 1706594679767,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6441,7 +6441,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1706594679767,
+        "lastUpdated": 1706594678831,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9366,6 +9366,81 @@
     },
     {
       "type": "Feature",
+      "id": 183633,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1597441,
+          -33.5365082
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1706651523000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1706651541809,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Jenolan Caves Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Great Western Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Blue Mountains",
+            "secondLocation": "",
+            "suburb": "Hartley",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 183632,
       "geometry": {
         "type": "Point",
@@ -9383,7 +9458,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9398,17 +9473,18 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1706651121714,
-        "otherAdvice": "",
+        "lastUpdated": 1706651580855,
+        "otherAdvice": "<p>There is no access into Quarry Rd for westbound motorists.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
-        "displayName": "bus, car",
+        "displayName": "CRASH Bus, Car",
         "roads": [
           {
             "conditionTendency": "",
@@ -9421,6 +9497,14 @@
                 "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
