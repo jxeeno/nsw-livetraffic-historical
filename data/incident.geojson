@@ -3322,80 +3322,6 @@
     },
     {
       "type": "Feature",
-      "id": 183941,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.0640034,
-          -33.868351
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1706866505000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Exercise caution",
-        "adviceB": " ",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1706867861202,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Arthur Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Right turn lane",
-                "extent": "Lanes closed",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Centenary Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Strathfield",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 183933,
       "geometry": {
         "type": "Point",
@@ -6736,12 +6662,12 @@
     },
     {
       "type": "Feature",
-      "id": 183781,
+      "id": 183776,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1073558,
-          -33.8363976
+          150.8749303,
+          -33.5015877
         ],
         "collections": []
       },
@@ -6749,11 +6675,21 @@
         "webLinks": [
           {
             "linkText": "Vehicle ferries",
-            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
+            "linkURL": "http://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
           }
         ],
         "headline": "",
         "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Ferry",
+            "direction": "Both directions",
+            "finishTime": "6:30pm",
+            "fromDay": "Friday",
+            "startTime": "2:30pm",
+            "toDay": ""
+          },
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
@@ -6773,42 +6709,51 @@
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
-        "arrangementAttachments": [],
+        "arrangementAttachments": [
+          {
+            "displayName": "Detour for Sackville and Webbs Creek Ferry",
+            "fileName": "Detour for Sackville and Webbs Creek Ferry.jpg",
+            "fileType": "JPG",
+            "linkName": "Detour for Sackville and Webbs Creek Ferry",
+            "sizeInBytes": 100063,
+            "uniqueFileName": "871590_1706762452306_Detour for Sackville and Webbs Creek Ferry.jpg"
+          }
+        ],
         "isInitialReport": false,
-        "created": 1706763848000,
+        "created": 1706761126000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Use an alternative route",
+        "adviceA": "Use diversions",
         "adviceB": "Plan your journey",
         "adviceC": " ",
         "end": 1706930100000,
         "incidentKind": "Planned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1706930101819,
-        "otherAdvice": "<p>Motorists can use Ryde Bridge or Gladesville Bridge instead.</p>",
+        "lastUpdated": 1706930101762,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p><strong>Northbound</strong>: West Portland Rd, Lower Portland Ferry, River Rd, to Sackville Ferry Rd.<br><strong>Southbound</strong>: Sackville Ferry Rd, River Rd, Lower Portland Ferry, West Portland Rd, to Sackville Rd.</p><p>Motorists are advised to allow approximately 45 minutes of additional travel time.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1706909400000,
+        "start": 1706792400000,
         "displayName": "FERRY OUT OF SERVICE Planned industrial action",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Hilly Street",
+            "crossStreet": "Sackville Road",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Mortlake Ferry",
+            "mainStreet": "Sackville Ferry",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Pellisier Road",
-            "suburb": "Mortlake to Putney",
+            "secondLocation": "Sackville Ferry Road",
+            "suburb": "Sackville",
             "trafficVolume": ""
           }
         ],
@@ -6909,12 +6854,12 @@
     },
     {
       "type": "Feature",
-      "id": 183776,
+      "id": 183781,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8749303,
-          -33.5015877
+          151.1073558,
+          -33.8363976
         ],
         "collections": []
       },
@@ -6922,21 +6867,11 @@
         "webLinks": [
           {
             "linkText": "Vehicle ferries",
-            "linkURL": "http://www.rms.nsw.gov.au/roads/using-roads/vehicular-ferries/index.html"
+            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
           }
         ],
         "headline": "",
         "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Ferry",
-            "direction": "Both directions",
-            "finishTime": "6:30pm",
-            "fromDay": "Friday",
-            "startTime": "2:30pm",
-            "toDay": ""
-          },
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
@@ -6956,51 +6891,42 @@
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
-        "arrangementAttachments": [
-          {
-            "displayName": "Detour for Sackville and Webbs Creek Ferry",
-            "fileName": "Detour for Sackville and Webbs Creek Ferry.jpg",
-            "fileType": "JPG",
-            "linkName": "Detour for Sackville and Webbs Creek Ferry",
-            "sizeInBytes": 100063,
-            "uniqueFileName": "871590_1706762452306_Detour for Sackville and Webbs Creek Ferry.jpg"
-          }
-        ],
+        "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1706761126000,
+        "created": 1706763848000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Use diversions",
+        "adviceA": "Use an alternative route",
         "adviceB": "Plan your journey",
         "adviceC": " ",
         "end": 1706930100000,
         "incidentKind": "Planned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1706930101762,
-        "otherAdvice": "",
+        "lastUpdated": 1706930101819,
+        "otherAdvice": "<p>Motorists can use Ryde Bridge or Gladesville Bridge instead.</p>",
         "arrangementElements": [],
-        "diversions": "<p><strong>Northbound</strong>: West Portland Rd, Lower Portland Ferry, River Rd, to Sackville Ferry Rd.<br><strong>Southbound</strong>: Sackville Ferry Rd, River Rd, Lower Portland Ferry, West Portland Rd, to Sackville Rd.</p><p>Motorists are advised to allow approximately 45 minutes of additional travel time.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1706792400000,
+        "start": 1706909400000,
         "displayName": "FERRY OUT OF SERVICE Planned industrial action",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sackville Road",
+            "crossStreet": "Hilly Street",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Sackville Ferry",
+            "mainStreet": "Mortlake Ferry",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Sackville Ferry Road",
-            "suburb": "Sackville",
+            "secondLocation": "Pellisier Road",
+            "suburb": "Mortlake to Putney",
             "trafficVolume": ""
           }
         ],
