@@ -25515,14 +25515,22 @@
     },
     {
       "type": "Feature",
-      "id": 183932,
+      "id": 175812,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.6667531,
-          -34.2305423
+          151.2247067,
+          -33.8764744
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.20247,
+              -33.874036
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
@@ -25530,59 +25538,69 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Both directions",
             "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "7:00pm",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
+        "ended": false,
+        "isNewIncident": true,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1706862170000,
+        "created": 1699939806000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
-        "end": 1707242400000,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "end": 1708624800000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1707242403505,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 10 minutes of additional travel time. </p>",
+        "lastUpdated": 1707242403366,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p><strong>Eastbound:</strong> Bathurst St.</p><p><strong>Westbound: </strong>William St, Park St and Druitt St.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1707206400000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "start": 1708513200000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Picton Road",
+            "crossStreet": "Harbour Street",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Hume Motorway",
+            "locationQualifier": "between",
+            "mainStreet": "Cross City Tunnel",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Wilton",
+            "secondLocation": "William Street",
+            "suburb": "Sydney to Darlinghurst",
             "trafficVolume": ""
           }
         ],
@@ -25756,22 +25774,14 @@
     },
     {
       "type": "Feature",
-      "id": 175812,
+      "id": 183932,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2247067,
-          -33.8764744
+          150.6667531,
+          -34.2305423
         ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.20247,
-              -33.874036
-            ]
-          }
-        ]
+        "collections": []
       },
       "properties": {
         "webLinks": [],
@@ -25779,69 +25789,59 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Both directions",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
             "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Thursday",
-            "startTime": "10:00pm",
+            "fromDay": "Tuesday",
+            "startTime": "7:00pm",
             "toDay": ""
           }
         ],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1699939806000,
+        "created": 1706862170000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Use diversions",
-        "adviceB": "Plan your journey",
-        "adviceC": "Allow extra travel time",
-        "end": 1708624800000,
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
+        "end": 1707242400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1707242403366,
-        "otherAdvice": "",
+        "lastUpdated": 1707242403505,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 10 minutes of additional travel time. </p>",
         "arrangementElements": [],
-        "diversions": "<p><strong>Eastbound:</strong> Bathurst St.</p><p><strong>Westbound: </strong>William St, Park St and Druitt St.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1708513200000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1707206400000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Harbour Street",
+            "crossStreet": "Picton Road",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Cross City Tunnel",
+            "locationQualifier": "near",
+            "mainStreet": "Hume Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "William Street",
-            "suburb": "Sydney to Darlinghurst",
+            "secondLocation": "",
+            "suburb": "Wilton",
             "trafficVolume": ""
           }
         ],
@@ -25938,12 +25938,12 @@
     },
     {
       "type": "Feature",
-      "id": 183911,
+      "id": 183157,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.2530289,
-          -34.5754979
+          153.2449642,
+          -28.8780914
         ],
         "collections": []
       },
@@ -25954,11 +25954,51 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
+            "roadtype": "Highway",
+            "direction": "All directions",
+            "finishTime": "6:00am",
+            "fromDay": "Thursday",
+            "startTime": "6:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "All directions",
             "finishTime": "6:00am",
             "fromDay": "Sunday",
-            "startTime": "7:00pm",
+            "startTime": "6:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "All directions",
+            "finishTime": "6:00am",
+            "fromDay": "Monday",
+            "startTime": "6:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "All directions",
+            "finishTime": "6:00am",
+            "fromDay": "Tuesday",
+            "startTime": "6:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Highway",
+            "direction": "All directions",
+            "finishTime": "6:00am",
+            "fromDay": "Wednesday",
+            "startTime": "6:00pm",
             "toDay": ""
           }
         ],
@@ -25972,18 +26012,18 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1706854208000,
+        "created": 1706144427000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Resurfacing",
+        "subCategoryA": "null",
         "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
+        "adviceB": "Check signage",
+        "adviceC": "Exercise caution",
         "end": 1707246000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1707246003482,
-        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "lastUpdated": 1707246003516,
+        "otherAdvice": "<p>Changed overnight traffic conditions for road resurfacing and line marking on Thursday 1 February and then Sunday 4 to Wednesday 7 February, weather permitting.</p><p><br></p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -25991,25 +26031,25 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1707033600000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "start": 1706770800000,
+        "displayName": "SCHEDULED ROADWORK",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Black Bobs Creek",
+            "crossStreet": "Coraki Road",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "near",
-            "mainStreet": "Hume Highway",
+            "locationQualifier": "between",
+            "mainStreet": "Bruxner Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Southern Highlands",
-            "secondLocation": "",
-            "suburb": "Sutton Forest",
+            "region": "North Coast NSW",
+            "secondLocation": "Pelican Creek Road",
+            "suburb": "South Gundurimba",
             "trafficVolume": ""
           }
         ],
-        "isLocalRoad": "State road",
+        "isLocalRoad": "Local road",
         "CategoryIcon": "Roadworks"
       }
     },
@@ -26227,12 +26267,12 @@
     },
     {
       "type": "Feature",
-      "id": 183157,
+      "id": 183911,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.2449642,
-          -28.8780914
+          150.2530289,
+          -34.5754979
         ],
         "collections": []
       },
@@ -26243,51 +26283,11 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Affected",
-            "roadtype": "Highway",
-            "direction": "All directions",
-            "finishTime": "6:00am",
-            "fromDay": "Thursday",
-            "startTime": "6:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Highway",
-            "direction": "All directions",
+            "roadtype": "",
+            "direction": "Northbound",
             "finishTime": "6:00am",
             "fromDay": "Sunday",
-            "startTime": "6:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Highway",
-            "direction": "All directions",
-            "finishTime": "6:00am",
-            "fromDay": "Monday",
-            "startTime": "6:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Highway",
-            "direction": "All directions",
-            "finishTime": "6:00am",
-            "fromDay": "Tuesday",
-            "startTime": "6:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "Highway",
-            "direction": "All directions",
-            "finishTime": "6:00am",
-            "fromDay": "Wednesday",
-            "startTime": "6:00pm",
+            "startTime": "7:00pm",
             "toDay": ""
           }
         ],
@@ -26301,18 +26301,18 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1706144427000,
+        "created": 1706854208000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "null",
+        "subCategoryA": "Resurfacing",
         "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": "Exercise caution",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
         "end": 1707246000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1707246003516,
-        "otherAdvice": "<p>Changed overnight traffic conditions for road resurfacing and line marking on Thursday 1 February and then Sunday 4 to Wednesday 7 February, weather permitting.</p><p><br></p>",
+        "lastUpdated": 1707246003482,
+        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -26320,25 +26320,25 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1706770800000,
-        "displayName": "SCHEDULED ROADWORK",
+        "start": 1707033600000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Coraki Road",
+            "crossStreet": "Black Bobs Creek",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Bruxner Highway",
+            "locationQualifier": "near",
+            "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "Pelican Creek Road",
-            "suburb": "South Gundurimba",
+            "region": "Southern Highlands",
+            "secondLocation": "",
+            "suburb": "Sutton Forest",
             "trafficVolume": ""
           }
         ],
-        "isLocalRoad": "Local road",
+        "isLocalRoad": "State road",
         "CategoryIcon": "Roadworks"
       }
     },
