@@ -9774,80 +9774,6 @@
     },
     {
       "type": "Feature",
-      "id": 184819,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1735003,
-          -33.9160986
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1707528898000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Prepare to merge",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1707528899116,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "HAZARD Damaged overhead sign",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Canal Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "City bound",
-                "closedLanes": "2",
-                "description": "Lane 1;Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "St Peters",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Hazard"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 184818,
       "geometry": {
         "type": "Point",
@@ -10093,7 +10019,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10108,7 +10034,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1707530483890,
+        "lastUpdated": 1707530788598,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10126,11 +10052,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
@@ -10141,6 +10075,154 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Eastern Creek",
+            "trafficVolume": "Moderate"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184819,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1735003,
+          -33.9160986
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1707528898000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1707530813417,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Damaged overhead sign",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Canal Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "City bound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "St Peters",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184823,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8266394,
+          -34.0496431
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1707530629000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1707530844498,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Multiple vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Plough Inn Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Campbelltown Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Leumeah",
             "trafficVolume": "Moderate"
           }
         ],
