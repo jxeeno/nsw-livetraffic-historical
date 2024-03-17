@@ -7655,7 +7655,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -7671,7 +7671,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1710694274428,
+        "lastUpdated": 1710694790622,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7711,6 +7711,83 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187528,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.889538,
+          -34.3191728
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "Motorway",
+            "direction": "Southbound",
+            "finishTime": "",
+            "fromDay": "Every Day",
+            "startTime": "all day",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1709766632000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "end": 1714413600000,
+        "incidentKind": "Planned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1710694803301,
+        "otherAdvice": "<p>A southbound section of the road has 1 of 3 lanes closed (lane 1).</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1710694800000,
+        "displayName": "CHANGED TRAFFIC CONDITIONS Lane closure",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Princes Highway (Bulli Pass)",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "M1 Princes Motorway (Mount Ousley Road)",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "Mount Ousley Road",
+            "suburb": "Bulli Tops to Mount Ousley",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
