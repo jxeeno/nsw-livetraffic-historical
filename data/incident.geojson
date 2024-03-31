@@ -3930,81 +3930,6 @@
     },
     {
       "type": "Feature",
-      "id": 189725,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2214874,
-          -33.8943435
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1711781583000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1711782545638,
-        "otherAdvice": "<p>The breakdown is at the start of the left turn lane. Motorists can still turn left past the breakdown.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Tow Truck"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Lang Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Left turn lane",
-                "extent": "Affected",
-                "numberOfLanes": "4",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Anzac Parade",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Moore Park",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 189724,
       "geometry": {
         "type": "Point",
@@ -6645,8 +6570,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -6661,7 +6586,7 @@
         "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1711868213238,
+        "lastUpdated": 1711868861022,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6731,11 +6656,11 @@
         "name": null,
         "subCategoryA": "Car",
         "adviceA": "Exercise caution",
-        "adviceB": " ",
+        "adviceB": "Prepare to merge",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1711868319538,
+        "lastUpdated": 1711869304346,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6759,10 +6684,18 @@
                 "extent": "Affected",
                 "numberOfLanes": "",
                 "roadType": ""
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "from",
-            "mainStreet": "M4 Motorway Eastbound on-ramp",
+            "locationQualifier": "at",
+            "mainStreet": "M4 Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
