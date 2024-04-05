@@ -1358,81 +1358,6 @@
     },
     {
       "type": "Feature",
-      "id": 190743,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1626912,
-          -33.8105595
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1712341517000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Use an alternative route",
-        "adviceB": " ",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "FLOODING",
-        "lastUpdated": 1712341518083,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Westbound: Centennial Avenue</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "FLOODING",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Centennial Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Epping Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Lane Cove North",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Flood"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 190750,
       "geometry": {
         "type": "Point",
@@ -2003,7 +1928,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -2018,7 +1943,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "FLOODING",
-        "lastUpdated": 1712347381686,
+        "lastUpdated": 1712347433268,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -2027,7 +1952,13 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "vpykEidax[UGUGsBWs@IIAIAKAi@IMAMCWCa@E??GASCu@KSESGCAOGIEECAAQMIGGEOOWYGIEGGIEIGIEIEIKUO_@Wi@KUMQGIEIGGGIMMIGGGGEIESKGC_@IICSCIC_@Ci@EKACAOAUCGA"
+          }
+        ],
         "displayName": "FLOODING",
         "roads": [
           {
@@ -2044,13 +1975,88 @@
                 "roadType": "Bridge"
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "to",
             "mainStreet": "Wisemans Ferry Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Cattai",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Flood"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190743,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1626912,
+          -33.8105595
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1712341517000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Use an alternative route",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "FLOODING",
+        "lastUpdated": 1712347465078,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "FLOODING",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Centennial Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Epping Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Lane Cove North",
             "trafficVolume": ""
           }
         ],
