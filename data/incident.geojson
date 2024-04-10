@@ -12316,7 +12316,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -12326,12 +12326,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceA": " ",
-        "adviceB": " ",
+        "adviceA": "Expect delays",
+        "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1712716438688,
+        "lastUpdated": 1712717013763,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -12348,7 +12348,16 @@
             "conditionTendency": "",
             "crossStreet": "Purchase Road",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "New Line Road",
             "quadrant": "",
@@ -12356,7 +12365,7 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Cherrybrook",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
@@ -12369,14 +12378,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.1491619,
-          -33.9359353
+          151.1486067,
+          -33.9357983
         ],
         "collections": []
       },
       "properties": {
         "webLinks": [],
-        "headline": "BREAKDOWN Truck ARNCLIFFE M5 East motorway off-ramp to Princes Highway",
+        "headline": "BREAKDOWN Truck ARNCLIFFE M5 East Motorway off-ramp to Princes Highway",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -12392,28 +12401,41 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Truck",
-        "adviceA": "Use an alternative route",
-        "adviceB": "Exercise caution",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Use diversions",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1712716922504,
-        "otherAdvice": "<p>The Marsh St off-ramp can be used to exit the motorway.</p>",
+        "lastUpdated": 1712717310019,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Motorists travelling on the M5 Mtwy can use exit at Bexley Rd and use Forest Rd to Princes Hwy.</p><p>Motorists travelling on the M5 East Mtwy can exit at Marsh St and use Airport Dr, Qantas Dr, O&#39;Riordan St, Bourke Rd and Campbell Rd to rejoin the Princes Hwy.</p><p><strong>This diversion is suitable for all vehicles.</strong></p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
           "Motorway Crew",
           "Heavy vehicle tow truck"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "`acnEgcpy[@EDWBSF]H[@GJ[@CNa@Re@FOPc@??b@_A"
+          },
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "ldcnEwkpy[@S@O@O?K?E?Q"
+          }
+        ],
         "displayName": "BREAKDOWN Truck",
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "Princes Highway",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
@@ -12425,7 +12447,7 @@
               }
             ],
             "locationQualifier": "to",
-            "mainStreet": "M5 East motorway off-ramp",
+            "mainStreet": "M5 East Motorway off-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
