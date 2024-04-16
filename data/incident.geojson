@@ -6827,7 +6827,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "<p>Visit transportnsw.info to plan your trip on public transport.</p>",
         "impactingNetwork": false,
@@ -6843,7 +6843,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1713257305139,
+        "lastUpdated": 1713257344756,
         "otherAdvice": "<p>Ongoing police investigations are expected to take some time in the Bondi Junction Precinct.﻿</p>",
         "arrangementElements": [],
         "diversions": "",
@@ -6853,13 +6853,7 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "npzmEi_dz[CS??Em@??O}A???KGg@C_@??Ii@ES??EQ??IUOY??OY"
-          }
-        ],
+        "encodedPolylines": [],
         "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "roads": [
           {
@@ -6888,6 +6882,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "ChangedConditions"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192005,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0848362,
+          -33.7642831
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1713257623000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1713257623918,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Debris",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Beecroft Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M2 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Cheltenham",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
