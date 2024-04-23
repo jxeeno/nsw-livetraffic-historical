@@ -2290,19 +2290,30 @@
     },
     {
       "type": "Feature",
-      "id": 190009,
+      "id": 189512,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.3697265,
-          -33.3531268
+          148.6248836,
+          -36.4172482
         ],
         "collections": []
       },
       "properties": {
         "webLinks": [],
         "headline": "",
-        "periods": [],
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Both directions",
+            "finishTime": "10:00am",
+            "fromDay": "Thursday",
+            "startTime": "9:00am",
+            "toDay": ""
+          }
+        ],
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
@@ -2313,40 +2324,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1712110663000,
+        "created": 1711516685000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
         "adviceA": "Allow extra travel time",
-        "adviceB": "Check signage",
-        "adviceC": "Use diversions",
-        "end": 1714017600000,
+        "adviceB": "Use diversions",
+        "adviceC": " ",
+        "end": 1714003200000,
         "incidentKind": "Planned",
         "mainCategory": "SPECIAL EVENT",
-        "lastUpdated": 1713646868267,
-        "otherAdvice": "<p><strong>The Pacific Highway will be closed between Yates Road and Chittaway Road from 1.15pm to 2pm for Anzac Day commemorations.</strong></p><p><br></p>",
+        "lastUpdated": 1713646868682,
+        "otherAdvice": "<p>Kosciuszko Road will be closed in both directions between Thredbo Terrace (Northern) and Thredbo Terrace (Southern) from 9am to 10am for Anzac Day commemorations.</p><p>Motorists are advised to take extra caution in the area as there is an expected increase in pedestrian activity.</p>",
         "arrangementElements": [],
-        "diversions": "<p>A detour will be in place via Chittaway Road, Enterprise Drive and Wyong Road. Motorists are advised to take extra care in the area with an expected increase in pedestrian activity.</p>",
+        "diversions": "<p>A detour will be in place via Thredbo Terrace.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1714014900000,
+        "start": 1713999600000,
         "displayName": "ANZAC Day event",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Yates Road",
+            "crossStreet": "Thredbo Terrace (Northern)",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Pacific Highway",
+            "mainStreet": "Kosciuszko Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Central Coast",
-            "secondLocation": "Chittaway Road",
-            "suburb": "Ourimbah",
+            "region": "Snowy Mountains",
+            "secondLocation": "Thredbo Terrace (Southern)",
+            "suburb": "Jindabyne",
             "trafficVolume": ""
           }
         ],
@@ -2424,6 +2435,72 @@
             "region": "Snowy Mountains",
             "secondLocation": "Clarke Street",
             "suburb": "Nimmitabel",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "PublicEvent"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190009,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3697265,
+          -33.3531268
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1712110663000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Check signage",
+        "adviceC": "Use diversions",
+        "end": 1714017600000,
+        "incidentKind": "Planned",
+        "mainCategory": "SPECIAL EVENT",
+        "lastUpdated": 1713646868267,
+        "otherAdvice": "<p><strong>The Pacific Highway will be closed between Yates Road and Chittaway Road from 1.15pm to 2pm for Anzac Day commemorations.</strong></p><p><br></p>",
+        "arrangementElements": [],
+        "diversions": "<p>A detour will be in place via Chittaway Road, Enterprise Drive and Wyong Road. Motorists are advised to take extra care in the area with an expected increase in pedestrian activity.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1714014900000,
+        "displayName": "ANZAC Day event",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Yates Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "Chittaway Road",
+            "suburb": "Ourimbah",
             "trafficVolume": ""
           }
         ],
@@ -6889,83 +6966,6 @@
             "region": "Hunter",
             "secondLocation": "Mount Street",
             "suburb": "Murrurundi",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "PublicEvent"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 189512,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.6248836,
-          -36.4172482
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Road",
-            "direction": "Both directions",
-            "finishTime": "10:00am",
-            "fromDay": "Thursday",
-            "startTime": "9:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1711516685000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Allow extra travel time",
-        "adviceB": "Use diversions",
-        "adviceC": " ",
-        "end": 1714003200000,
-        "incidentKind": "Planned",
-        "mainCategory": "SPECIAL EVENT",
-        "lastUpdated": 1713646868682,
-        "otherAdvice": "<p>Kosciuszko Road will be closed in both directions between Thredbo Terrace (Northern) and Thredbo Terrace (Southern) from 9am to 10am for Anzac Day commemorations.</p><p>Motorists are advised to take extra caution in the area as there is an expected increase in pedestrian activity.</p>",
-        "arrangementElements": [],
-        "diversions": "<p>A detour will be in place via Thredbo Terrace.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1713999600000,
-        "displayName": "ANZAC Day event",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Thredbo Terrace (Northern)",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Kosciuszko Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Snowy Mountains",
-            "secondLocation": "Thredbo Terrace (Southern)",
-            "suburb": "Jindabyne",
             "trafficVolume": ""
           }
         ],
