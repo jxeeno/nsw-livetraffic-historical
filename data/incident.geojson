@@ -7669,7 +7669,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -7679,20 +7679,20 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceA": "Exercise caution",
-        "adviceB": "Expect delays",
+        "adviceA": "Expect delays",
+        "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1714428799043,
+        "lastUpdated": 1714429618830,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
+        "additionalInfo": [
+          "Site Cleared"
         ],
+        "weblinkName": null,
+        "attendingGroups": null,
         "encodedPolylines": [],
         "displayName": "BREAKDOWN Car",
         "roads": [
@@ -7703,10 +7703,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -7717,11 +7717,86 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Arncliffe",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0521258,
+          -33.818365
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1714429742000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1714429743014,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 3 vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "South Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Silverwater Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Ermington",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
       }
     }
   ]
