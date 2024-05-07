@@ -3104,81 +3104,6 @@
     },
     {
       "type": "Feature",
-      "id": 194277,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.544546,
-          -28.205845
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1715035117000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Power failure",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
-        "lastUpdated": 1715036640621,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Utility Company"
-        ],
-        "encodedPolylines": [],
-        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Rivendell Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Minjungbal Drive",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "",
-            "suburb": "South Tweed Heads",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "TrafficSignals"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 194272,
       "geometry": {
         "type": "Point",
@@ -10567,6 +10492,81 @@
     },
     {
       "type": "Feature",
+      "id": 194392,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0312486,
+          -33.8361004
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1715123098000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1715123098334,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 2 cars",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "James Ruse Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Granville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 194391,
       "geometry": {
         "type": "Point",
@@ -10584,7 +10584,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10594,15 +10594,15 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceA": "Exercise caution",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Exercise caution",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1715122610318,
+        "lastUpdated": 1715123146459,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Northbound motorists are being diverted into Miller St, then use Vickers St to return to Maud St.</p>",
         "additionalInfo": [
           "Persons Trapped"
         ],
@@ -10621,7 +10621,15 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -10629,12 +10637,12 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Maude Street",
+            "locationQualifier": "between",
+            "mainStreet": "Maud Street",
             "quadrant": "",
             "queueLength": 0,
             "region": "Hunter",
-            "secondLocation": "",
+            "secondLocation": "Vickers Street",
             "suburb": "Mayfield West",
             "trafficVolume": "Heavy"
           }
