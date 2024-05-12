@@ -8979,7 +8979,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8989,15 +8989,15 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Fallen tree",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Use diversions",
         "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1715502356201,
+        "lastUpdated": 1715502612267,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Flinders Rd</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -9012,12 +9012,12 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
@@ -9032,6 +9032,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195043,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.791662,
+          -31.527668
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1715502748000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1715502748425,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Houston Mitchell Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "Lake Innes",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
