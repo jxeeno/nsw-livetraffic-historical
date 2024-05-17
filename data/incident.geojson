@@ -10203,99 +10203,6 @@
     },
     {
       "type": "Feature",
-      "id": 195704,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9111118,
-          -33.8393564
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "transportnsw.info",
-            "linkURL": "https://transportnsw.info/"
-          }
-        ],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1715930248000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck, Bus",
-        "adviceA": "Exercise caution",
-        "adviceB": " ",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1715933903263,
-        "otherAdvice": "<ul><li>Davis Rd is closed in both directions</li></ul>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Heavy vehicle tow truck",
-          "Crash Investigation Unit"
-        ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "zwpmE_vax[u@Ko@G]EUEwAQq@K}AQ{@MIAGAs@GiAMcAMSAQCk@Ei@CgAIg@Cq@EUA[Aq@C"
-          },
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "`womEibbx[A|@?z@CzAAz@ExE?@?DA`@?j@CtAAvA?DAf@?b@CzBAp@?F?NCjBA`@AdBInIA~@GhFCfCA`@?f@"
-          }
-        ],
-        "displayName": "CRASH Truck, Bus",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Davis Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Liverpool-Parramatta Transitway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Frank Street",
-            "suburb": "Wetherill Park",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 195711,
       "geometry": {
         "type": "Point",
@@ -10983,8 +10890,13 @@
         "collections": []
       },
       "properties": {
-        "webLinks": [],
-        "headline": "",
+        "webLinks": [
+          {
+            "linkText": "NSW Restricted Access Vehicles map",
+            "linkURL": "https://maps.transport.nsw.gov.au/egeomaps/restricted-access-vehicles-map/"
+          }
+        ],
+        "headline": "CRASH 2 cars LEICHHARDT City West Link at Balmain Road",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -10997,18 +10909,18 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1715935315000,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceA": "Prepare to merge",
-        "adviceB": "Exercise caution",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1715935450932,
-        "otherAdvice": "<p>Southbound motorists on Balmain Rd are also affected.</p>",
+        "lastUpdated": 1715935797393,
+        "otherAdvice": "<p>Northbound motorists on Balmain Rd must turn left or right at City West Link,.</p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Eastbound motorists are being diverted left into Balmain Rd and can use Lilyfield Rd, Catherine St, and return to City West Link.</p><p>B-doubles will be parked, so consider using Parramatta Rd instead.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -11026,11 +10938,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 2;Lane 3",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "at",
@@ -11041,6 +10953,94 @@
             "secondLocation": "",
             "suburb": "Leichhardt",
             "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195704,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9111118,
+          -33.8393564
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "<p>Visit transportnsw.info to plan your trip on public transport.</p>",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1715930248000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck, Bus",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1715935901745,
+        "otherAdvice": "<p>Davis Rd is also closed in both directions.</p><p><br></p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Heavy vehicle tow truck",
+          "Crash Investigation Unit"
+        ],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "zwpmE_vax[u@Ko@G]EUEwAQq@K}AQ{@MIAGAs@GiAMcAMSAQCk@Ei@CgAIg@Cq@EUA[Aq@C"
+          },
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "`womEibbx[A|@?z@CzAAz@ExE?@?DA`@?j@CtAAvA?DAf@?b@CzBAp@?F?NCjBA`@AdBInIA~@GhFCfCA`@?f@"
+          }
+        ],
+        "displayName": "CRASH Truck, Bus",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Davis Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Liverpool-Parramatta Transitway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Frank Street",
+            "suburb": "Wetherill Park",
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
