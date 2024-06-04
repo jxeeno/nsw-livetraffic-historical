@@ -4982,14 +4982,22 @@
     },
     {
       "type": "Feature",
-      "id": 195494,
+      "id": 195488,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.8718964,
-          -30.8135067
+          146.5434011,
+          -29.992715
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              146.567916,
+              -29.982646
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
@@ -5016,17 +5024,17 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1715819718000,
+        "created": 1715818190000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Resurfacing",
         "adviceA": "Check signage",
         "adviceB": "Exercise caution",
         "adviceC": "Reduced speed limit",
-        "end": 1718352000000,
+        "end": 1717747200000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1716145203674,
+        "lastUpdated": 1716145203783,
         "otherAdvice": "<p>Motorists are advised to allow approximately 15 minutes of additional travel time. </p><p>Portable traffic lights will allow motorists to pass in one direction at a time. </p><p>Traffic controllers will be on site to direct motorists. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -5040,16 +5048,16 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "80km South of Bourke",
+            "crossStreet": "West Brewarrina",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "at",
-            "mainStreet": "Kidman Way",
+            "mainStreet": "Kamilaroi Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Far West NSW",
             "secondLocation": "",
-            "suburb": "Tindarey",
+            "suburb": "Brewarrina",
             "trafficVolume": ""
           }
         ],
@@ -5328,22 +5336,14 @@
     },
     {
       "type": "Feature",
-      "id": 195488,
+      "id": 195494,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.5434011,
-          -29.992715
+          145.8718964,
+          -30.8135067
         ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              146.567916,
-              -29.982646
-            ]
-          }
-        ]
+        "collections": []
       },
       "properties": {
         "webLinks": [],
@@ -5370,17 +5370,17 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1715818190000,
+        "created": 1715819718000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Resurfacing",
         "adviceA": "Check signage",
         "adviceB": "Exercise caution",
         "adviceC": "Reduced speed limit",
-        "end": 1717747200000,
+        "end": 1718352000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1716145203783,
+        "lastUpdated": 1716145203674,
         "otherAdvice": "<p>Motorists are advised to allow approximately 15 minutes of additional travel time. </p><p>Portable traffic lights will allow motorists to pass in one direction at a time. </p><p>Traffic controllers will be on site to direct motorists. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -5394,16 +5394,16 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "West Brewarrina",
+            "crossStreet": "80km South of Bourke",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "at",
-            "mainStreet": "Kamilaroi Highway",
+            "mainStreet": "Kidman Way",
             "quadrant": "",
             "queueLength": 0,
             "region": "Far West NSW",
             "secondLocation": "",
-            "suburb": "Brewarrina",
+            "suburb": "Tindarey",
             "trafficVolume": ""
           }
         ],
@@ -25033,32 +25033,47 @@
     },
     {
       "type": "Feature",
-      "id": 197428,
+      "id": 196764,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.6710488,
-          -33.7726852
+          151.2054914,
+          -33.8620238
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "Mulgoa Road upgrade",
-            "linkURL": "https://www.transport.nsw.gov.au/projects/current-projects/mulgoa-road-upgrade-between-jeanette-street-regentville-and-blaikie-road"
-          }
-        ],
+        "webLinks": [],
         "headline": "",
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "On-ramp",
-            "direction": "Eastbound",
+            "roadtype": "Road",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Southbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Road",
+            "direction": "Southbound",
             "finishTime": "5:00am",
             "fromDay": "Tuesday",
-            "startTime": "7:00pm",
+            "startTime": "10:00pm",
             "toDay": ""
           }
         ],
@@ -25068,53 +25083,44 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": null,
-        "arrangementAttachments": [
-          {
-            "displayName": "M4 eb on-ramp from Mulgoa Rd nb diversion map",
-            "fileName": "M4 eb on-ramp from Mulgoa Rd nb diversion map.png",
-            "fileType": "PNG",
-            "linkName": "M4 eb on-ramp from Mulgoa Rd nb diversion map",
-            "sizeInBytes": 1160391,
-            "uniqueFileName": "340947_1717401345413_M4 eb on-ramp from Mulgoa Rd nb diversion map.png"
-          }
-        ],
+        "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1717401126000,
+        "created": 1716998756000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Use diversions",
-        "adviceB": "Plan your journey",
-        "adviceC": "Allow extra travel time",
+        "adviceA": "Check signage",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Use diversions",
         "end": 1717527600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1717527604855,
-        "otherAdvice": "<p>There will be no impact to southbound motorists on Mulgoa Rd wishing to access the M4 Mwy.</p>",
+        "lastUpdated": 1717527604757,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Continue north on Mulgoa Rd, Great Western Hwy, The Northern Rd, to the M4 Mwy eastbound.</p>",
+        "diversions": "<p>York St, Market St.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1717469760000,
-        "displayName": "SCHEDULED ROADWORK Mulgoa Road upgrade",
+        "start": 1717329600000,
+        "displayName": "SCHEDULED ROADWORK",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Mulgoa Road northbound",
+            "crossStreet": "Sydney Harbour Bridge",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "from",
-            "mainStreet": "M4 Motorway eastbound on-ramp",
+            "locationQualifier": "between",
+            "mainStreet": "Western Distributor",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Regentville",
+            "secondLocation": "Bathurst Street",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ],
@@ -25609,47 +25615,32 @@
     },
     {
       "type": "Feature",
-      "id": 196764,
+      "id": 197428,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2054914,
-          -33.8620238
+          150.6710488,
+          -33.7726852
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "Mulgoa Road upgrade",
+            "linkURL": "https://www.transport.nsw.gov.au/projects/current-projects/mulgoa-road-upgrade-between-jeanette-street-regentville-and-blaikie-road"
+          }
+        ],
         "headline": "",
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Road",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Road",
-            "direction": "Southbound",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Road",
-            "direction": "Southbound",
+            "roadtype": "On-ramp",
+            "direction": "Eastbound",
             "finishTime": "5:00am",
             "fromDay": "Tuesday",
-            "startTime": "10:00pm",
+            "startTime": "7:00pm",
             "toDay": ""
           }
         ],
@@ -25659,44 +25650,53 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
-        "arrangementAttachments": [],
+        "arrangementAttachments": [
+          {
+            "displayName": "M4 eb on-ramp from Mulgoa Rd nb diversion map",
+            "fileName": "M4 eb on-ramp from Mulgoa Rd nb diversion map.png",
+            "fileType": "PNG",
+            "linkName": "M4 eb on-ramp from Mulgoa Rd nb diversion map",
+            "sizeInBytes": 1160391,
+            "uniqueFileName": "340947_1717401345413_M4 eb on-ramp from Mulgoa Rd nb diversion map.png"
+          }
+        ],
         "isInitialReport": false,
-        "created": 1716998756000,
+        "created": 1717401126000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Check signage",
-        "adviceB": "Allow extra travel time",
-        "adviceC": "Use diversions",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
         "end": 1717527600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1717527604757,
-        "otherAdvice": "",
+        "lastUpdated": 1717527604855,
+        "otherAdvice": "<p>There will be no impact to southbound motorists on Mulgoa Rd wishing to access the M4 Mwy.</p>",
         "arrangementElements": [],
-        "diversions": "<p>York St, Market St.</p>",
+        "diversions": "<p>Continue north on Mulgoa Rd, Great Western Hwy, The Northern Rd, to the M4 Mwy eastbound.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1717329600000,
-        "displayName": "SCHEDULED ROADWORK",
+        "start": 1717469760000,
+        "displayName": "SCHEDULED ROADWORK Mulgoa Road upgrade",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Sydney Harbour Bridge",
+            "crossStreet": "Mulgoa Road northbound",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Western Distributor",
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway eastbound on-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Bathurst Street",
-            "suburb": "Sydney",
+            "secondLocation": "",
+            "suburb": "Regentville",
             "trafficVolume": ""
           }
         ],
