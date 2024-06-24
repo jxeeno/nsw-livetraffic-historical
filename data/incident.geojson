@@ -11047,8 +11047,8 @@
         "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -11063,7 +11063,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1719260346633,
+        "lastUpdated": 1719261420174,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11105,6 +11105,81 @@
     },
     {
       "type": "Feature",
+      "id": 199609,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5206028,
+          -32.9855229
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1719261606000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Gravel spill",
+        "adviceA": "Exercise caution",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Reduce your speed",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1719261626148,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Gravel spill",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Palmers Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": "Motorway"
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Freemans Waterhole",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 199608,
       "geometry": {
         "type": "Point",
@@ -11132,12 +11207,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
-        "adviceA": "Allow extra travel time",
-        "adviceB": "Exercise caution",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1719261219393,
+        "lastUpdated": 1719261655261,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -11145,7 +11220,8 @@
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH 3 vehicles",
@@ -11171,7 +11247,7 @@
             "region": "Central Coast",
             "secondLocation": "",
             "suburb": "Calga",
-            "trafficVolume": "Heavy"
+            "trafficVolume": "Moderate"
           }
         ],
         "isLocalRoad": "State road",
