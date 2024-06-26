@@ -22563,12 +22563,12 @@
     },
     {
       "type": "Feature",
-      "id": 194335,
+      "id": 199582,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2131435,
-          -33.8650307
+          150.961373,
+          -33.774096
         ],
         "collections": []
       },
@@ -22578,36 +22578,26 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Southbound",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
             "finishTime": "5:00am",
             "fromDay": "Monday",
-            "startTime": "11:30pm",
+            "startTime": "10:30pm",
             "toDay": ""
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Northbound",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
             "finishTime": "5:00am",
             "fromDay": "Tuesday",
-            "startTime": "1:30am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "11:30pm",
+            "startTime": "10:30pm",
             "toDay": ""
           }
         ],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": true,
@@ -22617,40 +22607,117 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1715065182000,
+        "created": 1719210323000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Use diversions",
-        "adviceB": "Plan your journey",
-        "adviceC": "Allow extra travel time",
+        "subCategoryA": "Intersection upgrade",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": " ",
         "end": 1719342000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1719342004394,
-        "otherAdvice": "<p>The Sydney Harbour Tunnel  and Eastern Distributor will also be closed.</p>",
+        "lastUpdated": 1719342004271,
+        "otherAdvice": "<p>Portable traffic control devices will allow motorists to pass in one direction at a time. </p>",
         "arrangementElements": [],
-        "diversions": "<p>Sydney Harbour Bridge, Cahill Exp and Macquarie St, in both directions.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1719235800000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1719210240000,
+        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cowper Wharf Roadway",
+            "crossStreet": "Viewbrook Close",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Domain Tunnel",
+            "mainStreet": "Old Windsor Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "Sydney Harbour Tunnel",
-            "suburb": "Sydney",
+            "secondLocation": "Gibbon Road",
+            "suburb": "Seven Hills",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198653,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6505,
+          -33.079579
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Weekday Nights",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1718342677000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
+        "end": 1719342000000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1719342004487,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. Motorists are advised to allow approximately 5 minutes of additional travel time. </p><p>Drivers of oversize and/or overmass (OSOM) are required to contact the Works Supervisor, Dean Bailey on ph. 0417364984 prior to travel.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1718515320000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Gommera Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "Thompson Street",
+            "suburb": "Blacksmiths",
             "trafficVolume": ""
           }
         ],
@@ -22758,6 +22825,83 @@
             "region": "Sydney",
             "secondLocation": "Cahill Expressway",
             "suburb": "Zetland to Sydney",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199219,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.927377,
+          -36.076628
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Weekdays",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1718862880000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Line marking",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
+        "adviceC": "Check signage",
+        "end": 1719342000000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1719342004415,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1718960400000,
+        "displayName": "SCHEDULED ROADWORK Line marking",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bethanga Bridge",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "The Murray",
+            "secondLocation": "Hume Highway",
+            "suburb": "Albury",
             "trafficVolume": ""
           }
         ],
@@ -23205,12 +23349,12 @@
     },
     {
       "type": "Feature",
-      "id": 199582,
+      "id": 194335,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.961373,
-          -33.774096
+          151.2131435,
+          -33.8650307
         ],
         "collections": []
       },
@@ -23220,99 +23364,32 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Southbound",
             "finishTime": "5:00am",
             "fromDay": "Monday",
-            "startTime": "10:30pm",
+            "startTime": "11:30pm",
             "toDay": ""
           },
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Northbound",
             "finishTime": "5:00am",
             "fromDay": "Tuesday",
-            "startTime": "10:30pm",
+            "startTime": "1:30am",
             "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1719210323000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Intersection upgrade",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": " ",
-        "end": 1719342000000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1719342004271,
-        "otherAdvice": "<p>Portable traffic control devices will allow motorists to pass in one direction at a time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1719210240000,
-        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Viewbrook Close",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Old Windsor Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Gibbon Road",
-            "suburb": "Seven Hills",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 199219,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.927377,
-          -36.076628
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
+          },
           {
             "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Both directions",
             "finishTime": "5:00am",
-            "fromDay": "Weekdays",
-            "startTime": "7:00pm",
+            "fromDay": "Tuesday",
+            "startTime": "11:30pm",
             "toDay": ""
           }
         ],
@@ -23322,121 +23399,44 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1718862880000,
+        "created": 1715065182000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Line marking",
-        "adviceA": "Exercise caution",
-        "adviceB": "Reduce your speed",
-        "adviceC": "Check signage",
+        "subCategoryA": "Maintenance",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
         "end": 1719342000000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1719342004415,
-        "otherAdvice": "",
+        "lastUpdated": 1719342004394,
+        "otherAdvice": "<p>The Sydney Harbour Tunnel  and Eastern Distributor will also be closed.</p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Sydney Harbour Bridge, Cahill Exp and Macquarie St, in both directions.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1718960400000,
-        "displayName": "SCHEDULED ROADWORK Line marking",
+        "start": 1719235800000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bethanga Bridge",
+            "crossStreet": "Cowper Wharf Roadway",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "between",
-            "mainStreet": "Hume Highway",
+            "mainStreet": "Domain Tunnel",
             "quadrant": "",
             "queueLength": 0,
-            "region": "The Murray",
-            "secondLocation": "Hume Highway",
-            "suburb": "Albury",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 198653,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.6505,
-          -33.079579
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Weekday Nights",
-            "startTime": "7:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1718342677000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Check signage",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
-        "end": 1719342000000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1719342004487,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. Motorists are advised to allow approximately 5 minutes of additional travel time. </p><p>Drivers of oversize and/or overmass (OSOM) are required to contact the Works Supervisor, Dean Bailey on ph. 0417364984 prior to travel.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1718515320000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Gommera Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Hunter",
-            "secondLocation": "Thompson Street",
-            "suburb": "Blacksmiths",
+            "region": "Sydney",
+            "secondLocation": "Sydney Harbour Tunnel",
+            "suburb": "Sydney",
             "trafficVolume": ""
           }
         ],
@@ -23737,6 +23737,83 @@
     },
     {
       "type": "Feature",
+      "id": 199327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5135387,
+          -28.1762104
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Tunnel",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1718942010000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Check signage",
+        "adviceB": "Use diversions",
+        "adviceC": "Exercise caution",
+        "end": 1719345600000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1719345602456,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. Motorists are advised to allow approximately 10 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "<p>This diversion is suitable for all vehicles. </p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1719287460000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "Tweed Heads West",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 199200,
       "geometry": {
         "type": "Point",
@@ -23815,83 +23892,6 @@
             "region": "Central NSW",
             "secondLocation": "",
             "suburb": "Dubbo",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 199327,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.5135387,
-          -28.1762104
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Tunnel",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "7:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1718942010000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Check signage",
-        "adviceB": "Use diversions",
-        "adviceC": "Exercise caution",
-        "end": 1719345600000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1719345602456,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. Motorists are advised to allow approximately 10 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "<p>This diversion is suitable for all vehicles. </p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1719287460000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "",
-            "suburb": "Tweed Heads West",
             "trafficVolume": ""
           }
         ],
@@ -25981,6 +25981,107 @@
             "impactedLanes": [],
             "locationQualifier": "from",
             "mainStreet": "M4 Motorway eastbound on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Regentville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199798,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6698175,
+          -33.7731125
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Mulgoa Road upgrade",
+            "linkURL": "https://www.transport.nsw.gov.au/projects/current-projects/mulgoa-road-upgrade-between-jeanette-street-regentville-and-blaikie-road"
+          }
+        ],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "8:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [
+          {
+            "displayName": "M4 eb on-ramp from Mulgoa Rd nb diversion map",
+            "fileName": "M4 eb on-ramp from Mulgoa Rd nb diversion map.png",
+            "fileType": "PNG",
+            "linkName": "M4 eb on-ramp from Mulgoa Rd nb diversion map",
+            "sizeInBytes": 1160391,
+            "uniqueFileName": "340947_1717401345413_M4 eb on-ramp from Mulgoa Rd nb diversion map.png"
+          }
+        ],
+        "isInitialReport": false,
+        "created": 1719388198000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Use diversions",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "end": 1721156400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1719388252931,
+        "otherAdvice": "<p>There will be no impact to southbound motorists on Mulgoa Rd wishing to access the M4 Mwy.</p>",
+        "arrangementElements": [],
+        "diversions": "<p>Continue north on Mulgoa Rd, Great Western Hwy, The Northern Rd, to the M4 Mwy eastbound.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1721012160000,
+        "displayName": "SCHEDULED ROADWORK Mulgoa Road upgrade",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mulgoa Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "from",
+            "mainStreet": "M4 Motorway westbound on-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
