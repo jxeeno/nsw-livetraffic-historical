@@ -10789,15 +10789,15 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Use an alternative route",
+        "adviceA": "Use diversions",
         "adviceB": "Plan your journey",
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "BURST WATER MAIN",
-        "lastUpdated": 1721139481158,
+        "lastUpdated": 1721142548071,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p><strong>Northbound: </strong>Fawcett St</p><p><strong>Southbound: </strong>Belmont St</p>",
+        "diversions": "<p><strong>Southbound: </strong>Belmont St, Harrow Rd, Fawcett St, Canterbury Rd</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -10805,13 +10805,7 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "fvjnEeo_x[`Ht@lCZJ@x@Hp@HxEf@"
-          }
-        ],
+        "encodedPolylines": [],
         "displayName": "BURST WATER MAIN",
         "roads": [
           {
@@ -10820,12 +10814,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
