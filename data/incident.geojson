@@ -5349,80 +5349,6 @@
     },
     {
       "type": "Feature",
-      "id": 202145,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2137243,
-          -33.86111
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1721282154000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Multiple vehicles",
-        "adviceA": "Allow extra travel time",
-        "adviceB": " ",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1721284718434,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [
-          "Site Cleared"
-        ],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "displayName": "CRASH Multiple vehicles",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Sydney",
-            "trafficVolume": "Heavy"
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 202139,
       "geometry": {
         "type": "Point",
@@ -12253,84 +12179,6 @@
     },
     {
       "type": "Feature",
-      "id": 202272,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1630688,
-          -33.9448792
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "CRASH 3 vehicles MASCOT M5 East Motorway in Cooks River Tunnel",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1721367230000,
-        "isMajor": true,
-        "name": null,
-        "subCategoryA": "3 vehicles",
-        "adviceA": "Avoid the area",
-        "adviceB": "Use an alternative route",
-        "adviceC": "Allow extra travel time",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1721370311455,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p>Motorists can follow the signposted D5 diversion route - General Holmes Dr, Bestic St, West Botany St, Marsh St, and back to the M5 Mwy westbound.</p>",
-        "additionalInfo": [
-          "Persons Trapped"
-        ],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Motorway Crew"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CRASH 3 vehicles",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Cooks River Tunnel",
-            "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Motorway"
-              }
-            ],
-            "locationQualifier": "in",
-            "mainStreet": "M5 East Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Mascot",
-            "trafficVolume": "Heavy"
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 202276,
       "geometry": {
         "type": "Point",
@@ -12363,7 +12211,7 @@
         "adviceC": "Delay non-essential travel",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1721370789967,
+        "lastUpdated": 1721371164806,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "<p>Southbound: M1 Princes Mwy at Bulli will be diverted down Bulli Pass to use Princes Hwy, Memorial Dr to re-join the M1 Princes Mwy.</p>",
@@ -12388,6 +12236,14 @@
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Motorway"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "just past",
@@ -12397,6 +12253,80 @@
             "region": "South Coast",
             "secondLocation": "",
             "suburb": "Cataract",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1630688,
+          -33.9448792
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles MASCOT M5 East Motorway in Cooks River Tunnel",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1721367230000,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceA": "Exercise caution",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1721371281159,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [
+          "Site Cleared"
+        ],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "CRASH 3 vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cooks River Tunnel",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "in",
+            "mainStreet": "M5 East Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Mascot",
             "trafficVolume": "Heavy"
           }
         ],
