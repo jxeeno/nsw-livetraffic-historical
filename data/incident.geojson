@@ -12120,7 +12120,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -12136,7 +12136,7 @@
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1721470497217,
+        "lastUpdated": 1721470713121,
         "otherAdvice": "<p>Traffic controllers are on-site and are redirecting motorists away from the affected area. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -12146,13 +12146,7 @@
           "Transport for NSW",
           "Utility Company"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "vcvlEknux[IIIIMMMQMQIQGMCIGQOc@Qk@Qy@I[EOESEKCKYo@KQKUUWOQOMo@k@KEOGWI[Iu@Oi@I[EyASo@Gq@Io@GgAOs@KYCyAWeCg@uCg@"
-          }
-        ],
+        "encodedPolylines": [],
         "displayName": "HAZARD Wires down",
         "roads": [
           {
@@ -12176,6 +12170,80 @@
             "region": "Sydney",
             "secondLocation": "Malabar Road",
             "suburb": "Glenhaven",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202380,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9414775,
+          -30.6945759
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1721470810000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Fallen tree",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1721470811276,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Fallen tree",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Old Coast Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "on-ramp",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "from",
+            "mainStreet": "Pacific Highway on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "North Macksville",
             "trafficVolume": ""
           }
         ],
