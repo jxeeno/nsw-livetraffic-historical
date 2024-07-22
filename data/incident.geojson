@@ -9658,82 +9658,6 @@
     },
     {
       "type": "Feature",
-      "id": 202535,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8553231,
-          -33.9018594
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1721683813000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car on fire",
-        "adviceA": "Exercise caution",
-        "adviceB": "Allow extra travel time",
-        "adviceC": "Use diversions",
-        "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1721685067926,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "<p><strong>Light Vehicles: </strong>Green Valley Rd, Wilson Rd, Hoxton Park Rd then rejoin Cowpasture Rd.</p><p><strong>Heavy Vehicles:</strong> Elizabeth Dr, Hume Hwy, Hoxton Park Rd then rejoin Cowpasture Rd.</p>",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Tow Truck"
-        ],
-        "encodedPolylines": [],
-        "displayName": "HAZARD Car on fire",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Green Valley Road",
-            "delay": "Significant",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Cowpasture Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Green Valley",
-            "trafficVolume": "Heavy"
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Hazard"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 202537,
       "geometry": {
         "type": "Point",
@@ -9879,6 +9803,93 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202535,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8553231,
+          -33.9018594
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1721683813000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car on fire",
+        "adviceA": "Exercise caution",
+        "adviceB": "Allow extra travel time",
+        "adviceC": "Use diversions",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1721685674906,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p><strong>Southbound Light Vehicles: </strong>Green Valley Rd, Wilson Rd, Hoxton Park Rd then rejoin Cowpasture Rd.</p><p><strong>Northbound Light Vehicles: </strong>Hoxton Park Rd, Wilson Rd, Green Valley Rd then Rejoin Cowpasture Rd.</p><p><strong>Northbound Heavy Vehicles:</strong> Hoxton Park Rd, Hume Hwy, Elizabeth Dr then rejoin Cowpasture Rd.</p><p><strong>Southbound Heavy Vehicles:</strong> Elizabeth Dr, Hume Hwy, Hoxton Park Rd then rejoin Cowpasture Rd.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "hb}mEczvw[EM??mAAmDGkDGiACoAC_ACk@Ck@Gs@GOAi@Gi@GA?q@KWE"
+          },
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "pd|mEk~vw[z@LJ@v@Jj@F~@Hh@Bl@B~@BxCFT@dB@~HP"
+          }
+        ],
+        "displayName": "HAZARD Car on fire",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Green Valley Road",
+            "delay": "Significant",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Cowpasture Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Aviation Road",
+            "suburb": "Green Valley",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
