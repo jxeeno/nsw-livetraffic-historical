@@ -9621,8 +9621,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.058842,
-          -33.890443
+          151.058638,
+          -33.8906112
         ],
         "collections": []
       },
@@ -9634,7 +9634,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9649,14 +9649,15 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1722430133618,
+        "lastUpdated": 1722430962324,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH Multiple vehicles",
@@ -9675,13 +9676,102 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "approaching",
             "mainStreet": "Hume Highway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Greenacre",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9969713,
+          -33.8491354
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "NSW Restricted Access Vehicles map",
+            "linkURL": "https://maps.transport.nsw.gov.au/egeomaps/restricted-access-vehicles-map/"
+          }
+        ],
+        "headline": "CRASH 2 cars GUILDFORD Woodville Road at Oxford Street",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1722430872000,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1722431119688,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Northbound motorists are being turned left into Oxford St.</p><p>B-doubles should delay their journey or use an alternative route.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 2 cars",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Oxford Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Woodville Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Guildford",
             "trafficVolume": ""
           }
         ],
