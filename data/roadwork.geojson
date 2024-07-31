@@ -23272,12 +23272,12 @@
     },
     {
       "type": "Feature",
-      "id": 195374,
+      "id": 202764,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.901023,
-          -30.323503
+          148.6418206,
+          -34.6792753
         ],
         "collections": []
       },
@@ -23291,8 +23291,28 @@
             "roadtype": "",
             "direction": "Both directions",
             "finishTime": "6:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "6:00am",
+            "fromDay": "Monday",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Tuesday",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Wednesday",
+            "startTime": "7:00am",
             "toDay": ""
           }
         ],
@@ -23302,22 +23322,22 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1715729734000,
+        "created": 1721875339000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Check signage",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
+        "subCategoryA": "Utilities",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": "Exercise caution",
         "end": 1722412800000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1722412802418,
-        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p><p>Portable traffic lights will allow motorists to pass in one direction at a time. </p><p>Traffic controllers will be on site to direct motorists. </p>",
+        "lastUpdated": 1722412802345,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -23325,21 +23345,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1716148800000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "start": 1722200400000,
+        "displayName": "SCHEDULED ROADWORK Utilities",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Billybingbone Road",
+            "crossStreet": "Fitzroy Street",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "Arthur Hall Vc Way",
+            "locationQualifier": "at",
+            "mainStreet": "Burley Griffin Way (Stephens Street)",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Far West NSW",
-            "secondLocation": "Gongolgon Byrock Rd",
-            "suburb": "Brewarrina",
+            "region": "Southern Highlands",
+            "secondLocation": "",
+            "suburb": "Binalong",
             "trafficVolume": ""
           }
         ],
@@ -23436,6 +23456,83 @@
     },
     {
       "type": "Feature",
+      "id": 195374,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.901023,
+          -30.323503
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1715729734000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
+        "end": 1722412800000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1722412802418,
+        "otherAdvice": "<p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p><p>Portable traffic lights will allow motorists to pass in one direction at a time. </p><p>Traffic controllers will be on site to direct motorists. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1716148800000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Billybingbone Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "Arthur Hall Vc Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Far West NSW",
+            "secondLocation": "Gongolgon Byrock Rd",
+            "suburb": "Brewarrina",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 201216,
       "geometry": {
         "type": "Point",
@@ -23504,103 +23601,6 @@
             "region": "Blue Mountains",
             "secondLocation": "Mount Banks Road",
             "suburb": "Blue Mountains National Park",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 202764,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.6418206,
-          -34.6792753
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Monday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Tuesday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Wednesday",
-            "startTime": "7:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1721875339000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Utilities",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": "Exercise caution",
-        "end": 1722412800000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1722412802345,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1722200400000,
-        "displayName": "SCHEDULED ROADWORK Utilities",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Fitzroy Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Burley Griffin Way (Stephens Street)",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Southern Highlands",
-            "secondLocation": "",
-            "suburb": "Binalong",
             "trafficVolume": ""
           }
         ],
