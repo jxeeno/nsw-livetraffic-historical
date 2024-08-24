@@ -7718,14 +7718,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0282444,
-          -34.0591866
+          151.0281337,
+          -34.0593582
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.066873,
+              -34.032368
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
-        "headline": "CRASH Car ENGADINE Princes Highway CLOSED SOUTHBOUND near Old Bush Road",
+        "headline": "CHANGED TRAFFIC CONDITIONS Police operation ENGADINE Princes Highway near Old Bush Road",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -7740,16 +7748,16 @@
         "created": 1724540742000,
         "isMajor": true,
         "name": null,
-        "subCategoryA": "Car",
+        "subCategoryA": "Police operation",
         "adviceA": "Avoid the area",
         "adviceB": "Use an alternative route",
         "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1724542370842,
-        "otherAdvice": "",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1724542782210,
+        "otherAdvice": "<p>Southbound motorists will be turned around at Farnell Ave.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Bangor Bypass, Old Illawarra Rd, Heathcote Rd, and back to the highway.</p>",
+        "diversions": "<p>From Kirrawee: Old Princes Hwy, The Grand Pde, Linden St, River Rd, Bangor Bypass, New Illawarra Rd, Heathcote Rd, and back to the highway. This route is suitable for all vehicles.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -7757,7 +7765,7 @@
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH Car",
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
         "roads": [
           {
             "conditionTendency": "",
@@ -7788,6 +7796,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Engadine",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205799,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0367057,
+          -33.9346281
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1724542918000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "2 cars",
+        "adviceA": "Prepare to merge",
+        "adviceB": "Exercise caution",
+        "adviceC": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1724542918901,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 2 cars",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Fairford Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "below",
+            "mainStreet": "Canterbury Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Bankstown",
             "trafficVolume": "Heavy"
           }
         ],
