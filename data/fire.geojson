@@ -302,12 +302,12 @@
     },
     {
       "type": "Feature",
-      "id": 206744,
+      "id": 206862,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.420022,
-          -34.467307
+          151.4712948,
+          -33.1289059
         ],
         "collections": []
       },
@@ -315,56 +315,59 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": 40,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": false,
+        "isNewIncident": true,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1725253181000,
+        "created": 1725337057000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "GRASS FIRE",
-        "lastUpdated": 1725334721681,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place to allow motorists to pass in one direction at a time. An escort vehicle will assist motorists to pass the fire site in each direction.</p>",
+        "lastUpdated": 1725337057626,
+        "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
         "encodedPolylines": [],
         "displayName": "GRASS FIRE",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Conargo Road",
+            "crossStreet": "Mandalong Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
                 "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Sturt Highway",
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Riverina",
+            "region": "Hunter",
             "secondLocation": "",
-            "suburb": "Carrathool",
+            "suburb": "Morisset",
             "trafficVolume": ""
           }
         ],
@@ -406,7 +409,7 @@
         "adviceC": "Reduce your speed",
         "incidentKind": "Unplanned",
         "mainCategory": "BUILDING FIRE",
-        "lastUpdated": 1725336903314,
+        "lastUpdated": 1725337392154,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -426,8 +429,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "2",
-                "description": "Lane 2;Lane 3;Lane 4",
+                "closedLanes": "1",
+                "description": "Lane 4",
                 "extent": "Lanes closed",
                 "numberOfLanes": "4",
                 "roadType": ""
@@ -441,6 +444,78 @@
             "secondLocation": "",
             "suburb": "Sydney",
             "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Fire"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206744,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.420022,
+          -34.467307
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1725253181000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "GRASS FIRE",
+        "lastUpdated": 1725337542406,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions are in place to allow motorists to pass in one direction at a time. An escort vehicle will assist motorists to pass the fire site in each direction.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "GRASS FIRE",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Conargo Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Sturt Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Riverina",
+            "secondLocation": "",
+            "suburb": "Carrathool",
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
