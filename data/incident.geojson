@@ -9838,7 +9838,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9848,12 +9848,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
+        "adviceA": "Expect delays",
         "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1725432455516,
+        "lastUpdated": 1725432543698,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9873,8 +9873,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
+                "closedLanes": "2",
+                "description": "Lane 2;Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -9888,6 +9888,92 @@
             "secondLocation": "",
             "suburb": "Lambton",
             "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206996,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9348096,
+          -33.8959288
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH 3 vehicles CABRAMATTA Cabramatta Road West between Myall Street and Acacia Street",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1725432715000,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceA": "Avoid the area",
+        "adviceB": "Use an alternative route",
+        "adviceC": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1725432792183,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>All vehicles, including B-doubles, can use Cumberland Hwy and Hume Hwy, instead.</p>",
+        "additionalInfo": [
+          "Persons Trapped"
+        ],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 3 vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Myall Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Cabramatta Road West",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Acacia Street",
+            "suburb": "Cabramatta",
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
