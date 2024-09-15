@@ -2143,80 +2143,6 @@
     },
     {
       "type": "Feature",
-      "id": 207988,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.516498,
-          -32.710915
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1726287231000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "lastUpdated": 1726289754797,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "John Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "New England Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Hunter",
-            "secondLocation": "",
-            "suburb": "Rutherford",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "TrafficSignals"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 207989,
       "geometry": {
         "type": "Point",
@@ -6256,7 +6182,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -6271,15 +6197,15 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1726374962442,
+        "lastUpdated": 1726375989373,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services"
+        "additionalInfo": [
+          "Site Cleared"
         ],
+        "weblinkName": null,
+        "attendingGroups": null,
         "encodedPolylines": [],
         "displayName": "CRASH 2 cars",
         "roads": [
@@ -6290,10 +6216,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 2;Lane 3",
+                "closedLanes": "",
+                "description": "",
                 "extent": "Affected",
-                "numberOfLanes": "4",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -6304,6 +6230,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Ryde",
+            "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208036,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.037888,
+          -33.83946
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1726376081000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Multiple vehicles",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1726376081516,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Multiple vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Silverwater Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "3",
+                "description": "Lane 1;Lane 2;Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M4 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Silverwater",
             "trafficVolume": "Heavy"
           }
         ],
