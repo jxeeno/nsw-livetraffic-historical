@@ -5809,8 +5809,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -5825,7 +5825,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1726370935075,
+        "lastUpdated": 1726372852303,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -5883,7 +5883,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -5899,7 +5899,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1726371504023,
+        "lastUpdated": 1726372878721,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -5975,7 +5975,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1726371641982,
+        "lastUpdated": 1726372913819,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6034,7 +6034,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -6049,15 +6049,15 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1726372238872,
+        "lastUpdated": 1726372999232,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services"
+        "additionalInfo": [
+          "Site Cleared"
         ],
+        "weblinkName": null,
+        "attendingGroups": null,
         "encodedPolylines": [],
         "displayName": "CRASH Car",
         "roads": [
@@ -6068,10 +6068,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
+                "closedLanes": "",
                 "description": "",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
@@ -6108,7 +6108,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -6123,7 +6123,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1726372264785,
+        "lastUpdated": 1726373113507,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6161,6 +6161,81 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208031,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8911597,
+          -34.4085127
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1726372777000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Debris",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1726373142474,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Debris",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Princes Motorway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Affected",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "from",
+            "mainStreet": "Memorial Drive on-ramp",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "",
+            "suburb": "Gwynneville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
