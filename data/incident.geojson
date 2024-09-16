@@ -9175,8 +9175,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9191,7 +9191,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
-        "lastUpdated": 1726495472959,
+        "lastUpdated": 1726501410894,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9229,6 +9229,81 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "TrafficSignals"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3384793,
+          -33.3599107
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1726501687000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1726501688167,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW",
+          "Tow Truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mangrove Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Breakdown lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "Somersby",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
