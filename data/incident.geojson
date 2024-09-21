@@ -6049,7 +6049,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -6058,13 +6058,13 @@
         "created": 1726947860000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Debris",
+        "subCategoryA": "Car",
         "adviceA": "Exercise caution",
         "adviceB": "Reduce your speed",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1726947860478,
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1726948647515,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6074,7 +6074,7 @@
           "Emergency services"
         ],
         "encodedPolylines": [],
-        "displayName": "HAZARD Debris",
+        "displayName": "BREAKDOWN Car",
         "roads": [
           {
             "conditionTendency": "",
@@ -6101,7 +6101,81 @@
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Hazard"
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208732,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2135768,
+          -33.8536698
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1726949159000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": " ",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1726949159749,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Sydney",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
