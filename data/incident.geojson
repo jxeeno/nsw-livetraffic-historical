@@ -9527,8 +9527,13 @@
         "collections": []
       },
       "properties": {
-        "webLinks": [],
-        "headline": "",
+        "webLinks": [
+          {
+            "linkText": "NSW Restricted Access Vehicles map",
+            "linkURL": "https://maps.transport.nsw.gov.au/egeomaps/restricted-access-vehicles-map/"
+          }
+        ],
+        "headline": "CRASH 2 cars BLACKTOWN Reservoir Road near Western Crescent",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -9541,16 +9546,16 @@
         "arrangementAttachments": [],
         "isInitialReport": false,
         "created": 1728565014000,
-        "isMajor": false,
+        "isMajor": true,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceA": "Avoid the area",
-        "adviceB": "Use an alternative route",
-        "adviceC": "Plan your journey",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1728565033116,
-        "otherAdvice": "",
+        "lastUpdated": 1728565304956,
+        "otherAdvice": "<p>All vehicles up to 19m B-doubles can use Flushcombe Rd instead.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -9584,11 +9589,94 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Blacktown",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210632,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0766527,
+          -34.0317717
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "HAZARD Wires down KIRRAWEE Princes Highway between Bath Road and Kingsway",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1728565543000,
+        "isMajor": true,
+        "name": null,
+        "subCategoryA": "Wires down",
+        "adviceA": "Prepare to merge",
+        "adviceB": "Use diversions",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1728565955995,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Northbound motorists are being diverted left into Bath Rd and can return to the highway via Waratah St.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Wires down",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bath Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "2",
+                "description": "Lane 2;Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Kingsway",
+            "suburb": "Kirrawee",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
       }
     }
   ]
