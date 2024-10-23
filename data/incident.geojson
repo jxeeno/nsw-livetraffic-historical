@@ -6103,7 +6103,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1729678838995,
+        "lastUpdated": 1729678838194,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -6177,7 +6177,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1729678838194,
+        "lastUpdated": 1729678838995,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8095,8 +8095,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8111,7 +8111,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1729726290141,
+        "lastUpdated": 1729726609238,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8155,6 +8155,81 @@
     },
     {
       "type": "Feature",
+      "id": 212059,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.173595,
+          -33.887401
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1729726693000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
+        "lastUpdated": 1729726693940,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Utility Company"
+        ],
+        "encodedPolylines": [],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pyrmont Bridge Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Parramatta Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Annandale",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "TrafficSignals"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 212056,
       "geometry": {
         "type": "Point",
@@ -8168,7 +8243,7 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -8183,11 +8258,11 @@
         "name": null,
         "subCategoryA": "Car, Motorcycle",
         "adviceA": "Allow extra travel time",
-        "adviceB": "Exercise caution",
-        "adviceC": "Expect delays",
+        "adviceB": "Expect delays",
+        "adviceC": "Reduced speed limit",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1729726483570,
+        "lastUpdated": 1729726882856,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8197,7 +8272,8 @@
           "Emergency services",
           "Transport for NSW",
           "Tow Truck",
-          "Motorway Crew"
+          "Motorway Crew",
+          "Helicopter"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH Car, Motorcycle",
@@ -8209,10 +8285,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Off-ramp",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
                 "roadType": "Motorway"
               }
             ],
@@ -8223,7 +8299,7 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Parramatta",
-            "trafficVolume": "Moderate"
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
