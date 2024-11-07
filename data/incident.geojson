@@ -8904,20 +8904,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0911098,
-          -33.92413
+          151.0911453,
+          -33.9241146
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "NSW Restricted Access Vehicles map",
+            "linkURL": "https://maps.transport.nsw.gov.au/egeomaps/restricted-access-vehicles-map/"
+          }
+        ],
         "headline": "",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8929,16 +8934,20 @@
         "subCategoryA": "3 vehicles",
         "adviceA": "Avoid the area",
         "adviceB": "Use an alternative route",
-        "adviceC": " ",
+        "adviceC": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1731021712773,
+        "lastUpdated": 1731022083457,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Tow Truck"
+        ],
         "encodedPolylines": [],
         "displayName": "CRASH 3 vehicles",
         "roads": [
@@ -8954,16 +8963,24 @@
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "between",
             "mainStreet": "Canterbury Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
+            "secondLocation": "Nelson Avenue",
             "suburb": "Belmore",
-            "trafficVolume": ""
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
