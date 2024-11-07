@@ -8910,12 +8910,7 @@
         "collections": []
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "NSW Restricted Access Vehicles map",
-            "linkURL": "https://maps.transport.nsw.gov.au/egeomaps/restricted-access-vehicles-map/"
-          }
-        ],
+        "webLinks": [],
         "headline": "",
         "periods": [],
         "speedLimit": -1,
@@ -8932,12 +8927,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
-        "adviceA": "Avoid the area",
-        "adviceB": "Use an alternative route",
+        "adviceA": "Prepare to merge",
+        "adviceB": "Exercise caution",
         "adviceC": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1731022083457,
+        "lastUpdated": 1731022276539,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8958,11 +8953,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               },
               {
                 "affectedDirection": "Westbound",
@@ -8985,6 +8980,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213523,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2529566,
+          -33.7959266
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1731022395000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Prepare to merge",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1731022395541,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Sydney Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 4;Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Burnt Bridge Creek Deviation",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Balgowlah",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
