@@ -7384,12 +7384,12 @@
     },
     {
       "type": "Feature",
-      "id": 213890,
+      "id": 213970,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8511212,
-          -33.9160342
+          150.8668915,
+          -34.3962584
         ],
         "collections": []
       },
@@ -7397,61 +7397,64 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": 60,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": false,
+        "isNewIncident": true,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1731383152000,
+        "created": 1731439680000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "due to an earlier incident",
-        "adviceA": "Reduced speed limit",
-        "adviceB": " ",
+        "subCategoryA": "Truck",
+        "adviceA": "Exercise caution",
+        "adviceB": "Prepare to merge",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
-        "lastUpdated": 1731435134469,
-        "otherAdvice": "<p>A reduced speed limit is in place due to damaged infrastructure following an earlier crash. </p><p>Conditions will remain in place until repairs are completed on Wednesday night.</p>",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1731439680499,
+        "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW"
+        ],
         "encodedPolylines": [],
-        "displayName": "CHANGED TRAFFIC CONDITIONS due to an earlier incident",
+        "displayName": "BREAKDOWN Truck",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cowpasture Road off-ramp",
+            "crossStreet": "New Mount Pleasant Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
-            "mainStreet": "M7 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "M1 Princes Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Sydney",
+            "region": "South Coast",
             "secondLocation": "",
-            "suburb": "Hinchinbrook",
+            "suburb": "Mount Pleasant",
             "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "ChangedConditions"
+        "CategoryIcon": "Breakdown"
       }
     },
     {
@@ -7473,7 +7476,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -7488,7 +7491,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1731438528433,
+        "lastUpdated": 1731440671219,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7563,7 +7566,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1731439034900,
+        "lastUpdated": 1731440698882,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7605,12 +7608,84 @@
     },
     {
       "type": "Feature",
-      "id": 213970,
+      "id": 213890,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8668915,
-          -34.3962584
+          150.8511212,
+          -33.9160342
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": 60,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1731383152000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "due to an earlier incident",
+        "adviceA": "Reduced speed limit",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1731440699006,
+        "otherAdvice": "<p>A reduced speed limit is in place due to damaged infrastructure following an earlier crash. </p><p>Conditions will remain in place until repairs are completed on Wednesday night.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "CHANGED TRAFFIC CONDITIONS due to an earlier incident",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cowpasture Road off-ramp",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M7 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Hinchinbrook",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213971,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.947979,
+          -33.943717
         ],
         "collections": []
       },
@@ -7628,54 +7703,55 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1731439680000,
+        "created": 1731440803000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
-        "adviceA": "Exercise caution",
+        "subCategoryA": "2 cars",
+        "adviceA": "Expect delays",
         "adviceB": "Prepare to merge",
-        "adviceC": " ",
+        "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1731439680499,
+        "mainCategory": "CRASH",
+        "lastUpdated": 1731440803998,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Motorway Crew",
+          "Emergency services"
         ],
         "encodedPolylines": [],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "CRASH 2 cars",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "New Mount Pleasant Road",
+            "crossStreet": "Nuwarra Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "1",
-                "description": "Lane 1",
+                "description": "Lane 3",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "M1 Princes Motorway",
+            "mainStreet": "M5",
             "quadrant": "",
             "queueLength": 0,
-            "region": "South Coast",
+            "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Mount Pleasant",
-            "trafficVolume": ""
+            "suburb": "Hammondville",
+            "trafficVolume": "Heavy"
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
+        "CategoryIcon": "Crash"
       }
     }
   ]
