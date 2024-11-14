@@ -6780,80 +6780,6 @@
     },
     {
       "type": "Feature",
-      "id": 214209,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.501894,
-          -36.61404
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1731606663000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1731609128649,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Truck",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Buckleys Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Snowy Mountains Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "South Coast",
-            "secondLocation": "",
-            "suburb": "Bemboka",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 214208,
       "geometry": {
         "type": "Point",
@@ -6919,82 +6845,6 @@
             "region": "New England North West",
             "secondLocation": "",
             "suburb": "Boggabri",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 214212,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.8351754,
-          -33.1080466
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1731611278000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1731611279013,
-        "otherAdvice": "<p>The road is expected to be closed in both directions when a medical helicopter arrives.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW",
-          "Helicopter"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CRASH Car",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Rawson Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "near",
-            "mainStreet": "Henry Parkes Way",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central NSW",
-            "secondLocation": "",
-            "suburb": "Bogan Gate",
             "trafficVolume": ""
           }
         ],
@@ -7179,13 +7029,13 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Semi-trailer, Car",
-        "adviceA": "Exercise caution",
-        "adviceB": "Expect delays",
-        "adviceC": " ",
+        "adviceA": "Use diversions",
+        "adviceB": "Exercise caution",
+        "adviceC": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1731612471351,
-        "otherAdvice": "<p>Motorists should consider using Almond St, Argyle St, Wilton Rd and MacArthur Dr. to avoid lengthy delays past the crash site. This route is suitable for all vehicles.</p>",
+        "lastUpdated": 1731612780629,
+        "otherAdvice": "<p>Eastbound motorists can use Almond St, Argyle St, Wilton Rd, MacArthur Dr, and back to Picton Rd. This route is suitable for all vehicles.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -7202,10 +7052,18 @@
           {
             "conditionTendency": "",
             "crossStreet": "Almond Street",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7221,6 +7079,162 @@
             "secondLocation": "MacArthur Drive",
             "suburb": "Wilton",
             "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.501894,
+          -36.61404
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1731606663000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1731612926170,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Buckleys Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Snowy Mountains Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "",
+            "suburb": "Bemboka",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.8351754,
+          -33.1080466
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1731611278000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Delay your journey",
+        "adviceB": "Expect delays",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1731613008328,
+        "otherAdvice": "<p>The road is closed in both directions while a medical helicopter is on the ground.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Transport for NSW",
+          "Helicopter"
+        ],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "hfaiE{jhe[BUDa@Hk@PkAl@cDn@_D`BmIb@wBz@kEn@wCx@eELu@Ha@D_@Fa@Da@B[BY@c@Bi@@q@@o@?i@?S"
+          }
+        ],
+        "displayName": "CRASH Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Rawson Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Henry Parkes Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central NSW",
+            "secondLocation": "",
+            "suburb": "Bogan Gate",
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
