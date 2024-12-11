@@ -9494,7 +9494,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9504,12 +9504,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "2 cars",
-        "adviceA": "Expect delays",
-        "adviceB": "Use an alternative route",
+        "adviceA": "Prepare to merge",
+        "adviceB": "Expect delays",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1733960958032,
+        "lastUpdated": 1733961251719,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9529,11 +9529,19 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
+                "closedLanes": "3",
+                "description": "Lane 2;Lane 3;Lane 4",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Closed",
+                "extent": "Affected",
                 "numberOfLanes": "",
-                "roadType": "Road"
+                "roadType": ""
               }
             ],
             "locationQualifier": "at",
