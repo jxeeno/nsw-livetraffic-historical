@@ -18697,12 +18697,12 @@
     },
     {
       "type": "Feature",
-      "id": 213181,
+      "id": 215040,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.161536,
-          -33.9439978
+          149.7220365,
+          -33.5251683
         ],
         "collections": []
       },
@@ -18712,16 +18712,46 @@
         "periods": [
           {
             "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Weekdays",
+            "startTime": "6:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00pm",
+            "fromDay": "Saturday",
+            "startTime": "6:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Motorway",
-            "direction": "Westbound",
-            "finishTime": "5:00am",
+            "roadtype": "Bridge",
+            "direction": "Both directions",
+            "finishTime": "11:59pm",
             "fromDay": "Thursday",
             "startTime": "10:00pm",
             "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Friday",
+            "startTime": "12:00am",
+            "toDay": ""
           }
         ],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": true,
@@ -18731,40 +18761,40 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1730767769000,
+        "created": 1732236263000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Use diversions",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
+        "subCategoryA": "Bridge work",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
         "end": 1734026400000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734026404602,
-        "otherAdvice": "",
+        "lastUpdated": 1734026404863,
+        "otherAdvice": "<p>Full road closure will be in place from 10pm to 5am to all traffic on the night of:</p><ul><li>Thursday 12 December </li></ul><p>If the closure is impacted by weather, it will move to the following night. </p><p>Outside of this closure geotechnical investigations will be taking place on Fish River bridge.</p><p>Alternating (stop/slow) traffic conditions will be in place, during work hours, to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists.</p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Westbound: General Holmes Dr, Bestic St, West Botany St, Forest Rd, Stoney Creek Rd and King Georges Rd (follow D5 signage) </p><p>Eastbound: King Georges Rd, Stoney Creek Rd, Forest Rd and Marsh St (follow D5 signage) </p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1733999400000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1733256000000,
+        "displayName": "SCHEDULED ROADWORK Bridge work",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "General Holmes Drive",
+            "crossStreet": "Fish River",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "M5 Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "O'Connell Road",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "King Georges Road",
-            "suburb": "Mascot",
+            "region": "Central NSW",
+            "secondLocation": "",
+            "suburb": "O'Connell",
             "trafficVolume": ""
           }
         ],
@@ -19142,230 +19172,6 @@
     },
     {
       "type": "Feature",
-      "id": 215040,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.7220365,
-          -33.5251683
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Weekdays",
-            "startTime": "6:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00pm",
-            "fromDay": "Saturday",
-            "startTime": "6:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
-            "roadtype": "Bridge",
-            "direction": "Both directions",
-            "finishTime": "11:59pm",
-            "fromDay": "Thursday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Friday",
-            "startTime": "12:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1732236263000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Bridge work",
-        "adviceA": "Check signage",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
-        "end": 1734026400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734026404863,
-        "otherAdvice": "<p>Full road closure will be in place from 10pm to 5am to all traffic on the night of:</p><ul><li>Thursday 12 December </li></ul><p>If the closure is impacted by weather, it will move to the following night. </p><p>Outside of this closure geotechnical investigations will be taking place on Fish River bridge.</p><p>Alternating (stop/slow) traffic conditions will be in place, during work hours, to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists.</p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1733256000000,
-        "displayName": "SCHEDULED ROADWORK Bridge work",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Fish River",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "O'Connell Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central NSW",
-            "secondLocation": "",
-            "suburb": "O'Connell",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 214309,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1924429,
-          -33.555419
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Sunday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Monday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Northbound",
-            "finishTime": "5:00am",
-            "fromDay": "Thursday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1731651994000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Check signage",
-        "adviceC": "Exercise caution",
-        "end": 1734026400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734026404598,
-        "otherAdvice": "<p>2 of 3 northbound lanes will be closed.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1731841200000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Pacific Highway",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "between",
-            "mainStreet": "M1 Pacific Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Hawkesbury River",
-            "suburb": "Cowan to Mooney Mooney",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 217451,
       "geometry": {
         "type": "Point",
@@ -19584,6 +19390,200 @@
     },
     {
       "type": "Feature",
+      "id": 213181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.161536,
+          -33.9439978
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "Motorway",
+            "direction": "Westbound",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1730767769000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Maintenance",
+        "adviceA": "Use diversions",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "end": 1734026400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1734026404602,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p>Westbound: General Holmes Dr, Bestic St, West Botany St, Forest Rd, Stoney Creek Rd and King Georges Rd (follow D5 signage) </p><p>Eastbound: King Georges Rd, Stoney Creek Rd, Forest Rd and Marsh St (follow D5 signage) </p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1733999400000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "General Holmes Drive",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "King Georges Road",
+            "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1924429,
+          -33.555419
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Sunday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Monday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Northbound",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1731651994000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Check signage",
+        "adviceC": "Exercise caution",
+        "end": 1734026400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1734026404598,
+        "otherAdvice": "<p>2 of 3 northbound lanes will be closed.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1731841200000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Pacific Highway",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "between",
+            "mainStreet": "M1 Pacific Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "Hawkesbury River",
+            "suburb": "Cowan to Mooney Mooney",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 215997,
       "geometry": {
         "type": "Point",
@@ -19788,93 +19788,6 @@
     },
     {
       "type": "Feature",
-      "id": 215594,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.81463,
-          -33.968932
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "9:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "All directions",
-            "finishTime": "5:00am",
-            "fromDay": "Thursday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1732661156000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Intersection upgrade",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
-        "end": 1734026400000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734026407721,
-        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1733869740000,
-        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Denham Court Road/Ingleburn Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Camden Valley Way",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Leppington",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 212256,
       "geometry": {
         "type": "Point",
@@ -19973,6 +19886,93 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Padstow",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 215594,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.81463,
+          -33.968932
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
+            "startTime": "9:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "All directions",
+            "finishTime": "5:00am",
+            "fromDay": "Thursday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1732661156000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Intersection upgrade",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
+        "end": 1734026400000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1734026407721,
+        "otherAdvice": "<p>Portable traffic lights will allow motorists to pass in one direction at a time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1733869740000,
+        "displayName": "SCHEDULED ROADWORK Intersection upgrade",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Denham Court Road/Ingleburn Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Camden Valley Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Leppington",
             "trafficVolume": ""
           }
         ],
@@ -22560,83 +22560,6 @@
     },
     {
       "type": "Feature",
-      "id": 217104,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.152792,
-          -33.1210017
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "2:30pm",
-            "fromDay": "Weekdays",
-            "startTime": "9:30am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1733457729000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Check signage",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
-        "end": 1734060600000,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734060659036,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p><p>Work to relocate school zone flashing signs will be carried out over two days, weather permitting, between Monday 9 December and Friday 13 December.</p><p>The school zone change, extending the 40 km/h school zone by 140 metres to the east of Parkes Christian School, will come into effect on Friday 13 December.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1733697000000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Parkes Christian School",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Back Trundle Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Central NSW",
-            "secondLocation": "",
-            "suburb": "Parkes",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 217395,
       "geometry": {
         "type": "Point",
@@ -22705,6 +22628,83 @@
             "region": "South Coast",
             "secondLocation": "Princes Motorway",
             "suburb": "Mount Ousley",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 217104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.152792,
+          -33.1210017
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "2:30pm",
+            "fromDay": "Weekdays",
+            "startTime": "9:30am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1733457729000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
+        "end": 1734060600000,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1734060659036,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p><p>Work to relocate school zone flashing signs will be carried out over two days, weather permitting, between Monday 9 December and Friday 13 December.</p><p>The school zone change, extending the 40 km/h school zone by 140 metres to the east of Parkes Christian School, will come into effect on Friday 13 December.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1733697000000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Parkes Christian School",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Back Trundle Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central NSW",
+            "secondLocation": "",
+            "suburb": "Parkes",
             "trafficVolume": ""
           }
         ],
@@ -23551,12 +23551,12 @@
     },
     {
       "type": "Feature",
-      "id": 217816,
+      "id": 216929,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.6219163,
-          -32.1850349
+          148.787348,
+          -30.0434439
         ],
         "collections": []
       },
@@ -23570,8 +23570,18 @@
             "roadtype": "",
             "direction": "Both directions",
             "finishTime": "5:00pm",
+            "fromDay": "Saturday",
+            "startTime": "7:00am",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00pm",
             "fromDay": "Weekdays",
-            "startTime": "6:00am",
+            "startTime": "7:00am",
             "toDay": ""
           }
         ],
@@ -23585,17 +23595,17 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1733971931000,
+        "created": 1733358117000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
+        "subCategoryA": "null",
         "adviceA": "Check signage",
         "adviceB": "Exercise caution",
         "adviceC": "Reduced speed limit",
         "end": 1734069600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734069603637,
+        "lastUpdated": 1734069603307,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -23604,21 +23614,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1733971860000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1733428800000,
+        "displayName": "SCHEDULED ROADWORK Sealing",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Transport Drive",
+            "crossStreet": "Cryon",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Newell Highway",
+            "locationQualifier": "to",
+            "mainStreet": "Kamilaroi Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Central NSW",
+            "region": "Far West NSW",
             "secondLocation": "",
-            "suburb": "Brocklehurst",
+            "suburb": "Burren Junction",
             "trafficVolume": ""
           }
         ],
@@ -23705,12 +23715,12 @@
     },
     {
       "type": "Feature",
-      "id": 216929,
+      "id": 217816,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.787348,
-          -30.0434439
+          148.6219163,
+          -32.1850349
         ],
         "collections": []
       },
@@ -23724,18 +23734,8 @@
             "roadtype": "",
             "direction": "Both directions",
             "finishTime": "5:00pm",
-            "fromDay": "Saturday",
-            "startTime": "7:00am",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00pm",
             "fromDay": "Weekdays",
-            "startTime": "7:00am",
+            "startTime": "6:00am",
             "toDay": ""
           }
         ],
@@ -23749,17 +23749,17 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1733358117000,
+        "created": 1733971931000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "null",
+        "subCategoryA": "Maintenance",
         "adviceA": "Check signage",
         "adviceB": "Exercise caution",
         "adviceC": "Reduced speed limit",
         "end": 1734069600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734069603307,
+        "lastUpdated": 1734069603637,
         "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -23768,21 +23768,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1733428800000,
-        "displayName": "SCHEDULED ROADWORK Sealing",
+        "start": 1733971860000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Cryon",
+            "crossStreet": "Transport Drive",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "Kamilaroi Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Newell Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Far West NSW",
+            "region": "Central NSW",
             "secondLocation": "",
-            "suburb": "Burren Junction",
+            "suburb": "Brocklehurst",
             "trafficVolume": ""
           }
         ],
@@ -23962,12 +23962,12 @@
     },
     {
       "type": "Feature",
-      "id": 215819,
+      "id": 217817,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.9205442,
-          -34.7816063
+          148.3989052,
+          -32.4090843
         ],
         "collections": []
       },
@@ -23980,8 +23980,8 @@
             "roadextent": "Affected",
             "roadtype": "",
             "direction": "Both directions",
-            "finishTime": "5:00pm",
-            "fromDay": "Every Day",
+            "finishTime": "7:00pm",
+            "fromDay": "Weekdays",
             "startTime": "6:00am",
             "toDay": ""
           }
@@ -23992,22 +23992,22 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1732768244000,
+        "created": 1733972095000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduced speed limit",
+        "subCategoryA": "Maintenance",
+        "adviceA": "Check signage",
         "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
+        "adviceC": "Reduced speed limit",
         "end": 1734069600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734069603973,
-        "otherAdvice": "<p>Single lane closures are in place. Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "lastUpdated": 1734069603862,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -24015,21 +24015,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1731265200000,
-        "displayName": "SCHEDULED ROADWORK",
+        "start": 1733972040000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Newell Highway to the Sturt Highway",
+            "crossStreet": "",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "from",
-            "mainStreet": "Kidman Way",
+            "locationQualifier": "at",
+            "mainStreet": "Newell Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Riverina",
+            "region": "Central NSW",
             "secondLocation": "",
-            "suburb": "Coleambally",
+            "suburb": "Tomingley",
             "trafficVolume": ""
           }
         ],
@@ -24116,12 +24116,12 @@
     },
     {
       "type": "Feature",
-      "id": 217817,
+      "id": 215819,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.3989052,
-          -32.4090843
+          145.9205442,
+          -34.7816063
         ],
         "collections": []
       },
@@ -24134,8 +24134,8 @@
             "roadextent": "Affected",
             "roadtype": "",
             "direction": "Both directions",
-            "finishTime": "7:00pm",
-            "fromDay": "Weekdays",
+            "finishTime": "5:00pm",
+            "fromDay": "Every Day",
             "startTime": "6:00am",
             "toDay": ""
           }
@@ -24146,22 +24146,22 @@
         "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1733972095000,
+        "created": 1732768244000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Check signage",
+        "subCategoryA": "null",
+        "adviceA": "Reduced speed limit",
         "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
+        "adviceC": "Check signage",
         "end": 1734069600000,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1734069603862,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. Traffic controllers will be on site to direct motorists. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "lastUpdated": 1734069603973,
+        "otherAdvice": "<p>Single lane closures are in place. Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -24169,21 +24169,21 @@
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1733972040000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1731265200000,
+        "displayName": "SCHEDULED ROADWORK",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Newell Highway to the Sturt Highway",
             "delay": "",
             "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Newell Highway",
+            "locationQualifier": "from",
+            "mainStreet": "Kidman Way",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Central NSW",
+            "region": "Riverina",
             "secondLocation": "",
-            "suburb": "Tomingley",
+            "suburb": "Coleambally",
             "trafficVolume": ""
           }
         ],
