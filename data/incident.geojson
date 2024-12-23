@@ -9787,6 +9787,80 @@
     },
     {
       "type": "Feature",
+      "id": 218971,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9342602,
+          -33.9410111
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1734943345000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "3 vehicles",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1734943346087,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Motorway Crew"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH 3 vehicles",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Heathcote Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "M5 Motorway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Hammondville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 218970,
       "geometry": {
         "type": "Point",
@@ -9803,7 +9877,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -9819,7 +9893,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1734941888241,
+        "lastUpdated": 1734943382855,
         "otherAdvice": "<p>Queen St is closed in both directions at the north side of the intersection. No access to/from Great Western Hwy.</p>",
         "arrangementElements": [],
         "diversions": "",
@@ -9902,16 +9976,27 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1734942278658,
-        "otherAdvice": "<p>The road is closed west of George St.</p>",
+        "lastUpdated": 1734943458409,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Traffic is diverted via local roads.</p>",
+        "diversions": "<p>Eastbound: Moses St or Cox St.</p><p>Westbound: George St.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "juclE{gnw[p@}EPqARcBHs@?W?C?C?AFm@BQ"
+          },
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "dyclEwxnw[Gr@ADADKR"
+          }
+        ],
         "displayName": "HAZARD Wires down",
         "roads": [
           {
@@ -9928,12 +10013,12 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "near",
+            "locationQualifier": "between",
             "mainStreet": "Hawkesbury Valley Way",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
+            "secondLocation": "Moses Street",
             "suburb": "Windsor",
             "trafficVolume": ""
           }
