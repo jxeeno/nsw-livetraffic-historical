@@ -8124,12 +8124,12 @@
     },
     {
       "type": "Feature",
-      "id": 219580,
+      "id": 219582,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2136148,
-          -33.854253
+          151.1930632,
+          -33.5755061
         ],
         "collections": []
       },
@@ -8147,7 +8147,7 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1735969673000,
+        "created": 1735969727000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
@@ -8156,7 +8156,7 @@
         "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1735969674265,
+        "lastUpdated": 1735969728230,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8170,7 +8170,7 @@
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "",
+            "crossStreet": "Pacific Highway",
             "delay": "",
             "impactedLanes": [
               {
@@ -8178,17 +8178,17 @@
                 "closedLanes": "1",
                 "description": "Lane 1",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Sydney Harbour Tunnel",
+            "locationQualifier": "just past",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Sydney",
+            "suburb": "Cowan",
             "trafficVolume": ""
           }
         ],
@@ -8215,7 +8215,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8226,11 +8226,11 @@
         "name": null,
         "subCategoryA": "2 cars",
         "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1735969678888,
+        "lastUpdated": 1735969981981,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8250,10 +8250,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "Shoulder",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -8269,6 +8269,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 219580,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2138528,
+          -33.8611606
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1735969673000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1735970118702,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "tunnel exit",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Sydney Harbour Tunnel",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Sydney",
+            "trafficVolume": "Moderate"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
