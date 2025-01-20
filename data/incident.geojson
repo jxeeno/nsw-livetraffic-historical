@@ -3766,80 +3766,6 @@
     },
     {
       "type": "Feature",
-      "id": 221313,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.9014331,
-          -34.3163515
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1737321963000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1737323871743,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bulli Pass",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "South Coast",
-            "secondLocation": "",
-            "suburb": "Bulli",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 221316,
       "geometry": {
         "type": "Point",
@@ -3906,6 +3832,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Homebush West",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 221313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9014331,
+          -34.3163515
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1737321963000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1737323871743,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bulli Pass",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "",
+            "suburb": "Bulli",
             "trafficVolume": ""
           }
         ],
@@ -7122,14 +7122,22 @@
     },
     {
       "type": "Feature",
-      "id": 218126,
+      "id": 218124,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          149.8125866,
-          -35.4501409
+          151.2216761,
+          -33.4347771
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.117974,
+              -33.703096
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [
@@ -7140,6 +7148,10 @@
           {
             "linkText": "Pinch Point Journey Planner",
             "linkURL": "https://www.myjourneynsw.info/"
+          },
+          {
+            "linkText": "Wahroonga to Calga Pinch Point Fact Sheet",
+            "linkURL": "https://www.nsw.gov.au/sites/default/files/noindex/2023-12/wahroonga-pinch-point-factsheet.pdf"
           }
         ],
         "headline": "",
@@ -7150,21 +7162,21 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": true,
+        "impactingNetwork": false,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1734241119000,
+        "created": 1734240459000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
         "adviceA": "Plan your journey",
-        "adviceB": "Allow extra travel time",
+        "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HOLIDAY TRAFFIC",
-        "lastUpdated": 1737363257730,
-        "otherAdvice": "<p>High traffic volumes are expected travelling through Braidwood during peak holiday travel periods.</p><p>The Princes Highway south of Bomaderry also has several known pinch points, including Nowra, Jervis Bay Road, Wandandian and Milton/Ulladulla. </p><p>For details about known holiday traffic pinch points, see the NSW Holiday and Journey planning <a href=\"https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning\" target=\"_blank\">website</a> and the pinch point journey planning <a href=\"https://www.myjourneynsw.info/\" target=\"_blank\">tool</a>.</p>",
+        "lastUpdated": 1737363257591,
+        "otherAdvice": "<p>High volumes of holiday traffic are expected from Calga to Wahroonga on the M1 Pacific Motorway during peak holiday travel periods.</p><p>For details about known holiday traffic pinch points, see the NSW Holiday and Journey planning <a href=\"https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning\" target=\"_blank\">website</a> and the pinch point journey planning <a href=\"https://www.myjourneynsw.info/\" target=\"_blank\">tool</a>.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -7179,7 +7191,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Eastbound",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7187,13 +7199,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
-            "mainStreet": "Kings Highway",
+            "locationQualifier": "-",
+            "mainStreet": "M1 Pacific Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Southern Highlands",
+            "region": "Central Coast",
             "secondLocation": "",
-            "suburb": "Braidwood",
+            "suburb": "Calga to Wahroonga",
             "trafficVolume": ""
           }
         ],
@@ -7288,22 +7300,14 @@
     },
     {
       "type": "Feature",
-      "id": 218124,
+      "id": 218126,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2216761,
-          -33.4347771
+          149.8125866,
+          -35.4501409
         ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.117974,
-              -33.703096
-            ]
-          }
-        ]
+        "collections": []
       },
       "properties": {
         "webLinks": [
@@ -7314,10 +7318,6 @@
           {
             "linkText": "Pinch Point Journey Planner",
             "linkURL": "https://www.myjourneynsw.info/"
-          },
-          {
-            "linkText": "Wahroonga to Calga Pinch Point Fact Sheet",
-            "linkURL": "https://www.nsw.gov.au/sites/default/files/noindex/2023-12/wahroonga-pinch-point-factsheet.pdf"
           }
         ],
         "headline": "",
@@ -7328,21 +7328,21 @@
         "ended": false,
         "isNewIncident": false,
         "publicTransport": "",
-        "impactingNetwork": false,
+        "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1734240459000,
+        "created": 1734241119000,
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
         "adviceA": "Plan your journey",
-        "adviceB": " ",
+        "adviceB": "Allow extra travel time",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "HOLIDAY TRAFFIC",
-        "lastUpdated": 1737363257591,
-        "otherAdvice": "<p>High volumes of holiday traffic are expected from Calga to Wahroonga on the M1 Pacific Motorway during peak holiday travel periods.</p><p>For details about known holiday traffic pinch points, see the NSW Holiday and Journey planning <a href=\"https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning\" target=\"_blank\">website</a> and the pinch point journey planning <a href=\"https://www.myjourneynsw.info/\" target=\"_blank\">tool</a>.</p>",
+        "lastUpdated": 1737363257730,
+        "otherAdvice": "<p>High traffic volumes are expected travelling through Braidwood during peak holiday travel periods.</p><p>The Princes Highway south of Bomaderry also has several known pinch points, including Nowra, Jervis Bay Road, Wandandian and Milton/Ulladulla. </p><p>For details about known holiday traffic pinch points, see the NSW Holiday and Journey planning <a href=\"https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning\" target=\"_blank\">website</a> and the pinch point journey planning <a href=\"https://www.myjourneynsw.info/\" target=\"_blank\">tool</a>.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -7357,7 +7357,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
+                "affectedDirection": "Eastbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -7365,13 +7365,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "-",
-            "mainStreet": "M1 Pacific Motorway",
+            "locationQualifier": "at",
+            "mainStreet": "Kings Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Central Coast",
+            "region": "Southern Highlands",
             "secondLocation": "",
-            "suburb": "Calga to Wahroonga",
+            "suburb": "Braidwood",
             "trafficVolume": ""
           }
         ],
@@ -7457,91 +7457,6 @@
             "region": "North Coast NSW",
             "secondLocation": "",
             "suburb": "Coffs Harbour",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "ChangedConditions"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 218122,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.688803,
-          -32.8200268
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [
-          {
-            "linkText": "Holiday and Journey Planning",
-            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning"
-          },
-          {
-            "linkText": "Pinch Point Journey Planner",
-            "linkURL": "https://www.myjourneynsw.info/"
-          },
-          {
-            "linkText": "Hexham Pinch Point Fact Sheet",
-            "linkURL": "https://www.nsw.gov.au/sites/default/files/noindex/2023-12/hexham-pinch-point-factsheet.pdf"
-          }
-        ],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1734239226000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Plan your journey",
-        "adviceB": "Allow extra travel time",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "HOLIDAY TRAFFIC",
-        "lastUpdated": 1737363258413,
-        "otherAdvice": "<p>High volumes of holiday traffic are expected approaching Heatherbrae, Hexham and towards Beresfield during peak holiday travel periods.</p><p>There are multiple projects underway at this location, including the Pacific Hwy improvements at Hexham and the M1 extension to Raymond Terrace, which can impact travel times. A reduced speed of 60 km/h will be implemented along the length of the project and will remain in place throughout the holiday period.</p><p>For details about known holiday traffic pinch points, see the NSW Holiday and Journey planning <a href=\"https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning\" target=\"_blank\">website</a> and the pinch point journey planning <a href=\"https://www.myjourneynsw.info/\" target=\"_blank\">tool</a>.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "displayName": "HOLIDAY TRAFFIC EXPECTED",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "-",
-            "mainStreet": "Pacific Highway & New England Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Hunter",
-            "secondLocation": "",
-            "suburb": "Heatherbrae & Hexham to Beresfield",
             "trafficVolume": ""
           }
         ],
@@ -7726,6 +7641,91 @@
             "region": "South Coast",
             "secondLocation": "",
             "suburb": "Bomaderry, Jervis Bay & Milton/Ulladulla",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 218122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.688803,
+          -32.8200268
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [
+          {
+            "linkText": "Holiday and Journey Planning",
+            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning"
+          },
+          {
+            "linkText": "Pinch Point Journey Planner",
+            "linkURL": "https://www.myjourneynsw.info/"
+          },
+          {
+            "linkText": "Hexham Pinch Point Fact Sheet",
+            "linkURL": "https://www.nsw.gov.au/sites/default/files/noindex/2023-12/hexham-pinch-point-factsheet.pdf"
+          }
+        ],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1734239226000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Plan your journey",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HOLIDAY TRAFFIC",
+        "lastUpdated": 1737363258413,
+        "otherAdvice": "<p>High volumes of holiday traffic are expected approaching Heatherbrae, Hexham and towards Beresfield during peak holiday travel periods.</p><p>There are multiple projects underway at this location, including the Pacific Hwy improvements at Hexham and the M1 extension to Raymond Terrace, which can impact travel times. A reduced speed of 60 km/h will be implemented along the length of the project and will remain in place throughout the holiday period.</p><p>For details about known holiday traffic pinch points, see the NSW Holiday and Journey planning <a href=\"https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/holiday-driving/holiday-and-journey-planning\" target=\"_blank\">website</a> and the pinch point journey planning <a href=\"https://www.myjourneynsw.info/\" target=\"_blank\">tool</a>.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "HOLIDAY TRAFFIC EXPECTED",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "-",
+            "mainStreet": "Pacific Highway & New England Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Heatherbrae & Hexham to Beresfield",
             "trafficVolume": ""
           }
         ],
