@@ -7920,7 +7920,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1739386080305,
+        "lastUpdated": 1739386570449,
         "otherAdvice": "<p>Ongoing police investigations are expected to take some time. </p>",
         "arrangementElements": [],
         "diversions": "<p><strong>All vehicles up to 26m </strong>B-doubles<strong>: </strong>Federal Hwy, Barton Hwy.</p><p>All other heavy vehicles will be parked.</p>",
@@ -7931,7 +7931,8 @@
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW",
-          "Rural Fire Service"
+          "Rural Fire Service",
+          "Heavy vehicle tow truck"
         ],
         "encodedPolylines": [
           {
@@ -7954,6 +7955,14 @@
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "near",
@@ -7968,6 +7977,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 223671,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9427753,
+          -33.8518052
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1739386517000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Exercise caution",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1739386597174,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Cumberland Highway",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Victoria Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Smithfield",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
