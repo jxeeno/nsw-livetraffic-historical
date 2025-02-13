@@ -10413,7 +10413,7 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -10429,7 +10429,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1739437620104,
+        "lastUpdated": 1739437854157,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "<p><strong>Northbound: </strong>From Tamworth - Manilla Rd, Cobbadah Rd, and Allan Cunningham Rd to Warialda, Gwydir Hwy to Inverell, then Bundarra Rd and Thunderbolts Way to rejoin the New England Hwy at Uralla.</p><p><strong>Southbound: </strong>From Uralla - Thunderbolts Way and Bundarra Rd to Inverell, Gwydir Hwy to Warialda, then Allan Cunningham Rd, Cobbadah Rd, and Manilla Rd to rejoin the New England Hwy near Tamworth.</p><p>This diversion is suitable for all vehicles up to and including 26m b-doubles. Restricted access vehicles should also plan their trip.</p>",
@@ -10439,13 +10439,7 @@
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "zcq{D_oqy[HDv@^l@XZPd@TVLBBPJd@Vb@Xb@XTP\\V\\TLJLH@@PNHHBDr@n@h@j@\\`@z@dAn@z@b@p@lAvBXp@Vf@N^x@tBhA|CFPf@vA`@fA\\`AL^BFd@rAp@lBZ`ANb@h@|AN`@Zx@Ph@h@zA@FPb@L^HVx@`CNd@FPHRVv@HT\\~@Tf@b@fAh@jAVh@JTR\\HNNTJRZd@R\\LPRZDDLPV\\z@fATXBBX\\VX@@\\\\n@n@PNLLHFRPLJLJRPHDNL`@ZbBfA^RdAl@n@Zd@TZN\\LHDVJB@p@T\\LRFf@NRDRFh@LJBd@Jh@Jz@Pr@LfARt@NxAVpB\\l@LB@\\FfB^r@PvAZx@Rz@T|@T\\Jn@PlBl@LDtAb@D@fBj@lAb@xCjAXJ`@N`@NrAf@pAf@^N`@N\\L|B~@h@R`@NrBv@nBt@pCdArBv@\\N|@\\l@TB@f@R~@b@^T`@Vz@p@f@f@JJLPTXXb@T\\Tb@DJJVP^^bAb@rARv@Pj@Tt@L\\Rh@N^FPb@`Ah@fADHv@tALPFHJPTXBF@@PRJNhAxAvAhBTZFFFHd@l@DD\\d@\\b@LPNPLPLPBDHLLPDHLRJRR\\P\\N^Th@HT@@L^Pj@HTBNBFJ`@DVBJFTDVDV@JDVBVF`@@L?BBRDp@@VDb@?J?B@H@VFhA@JDz@Dd@Bn@BX?JFz@Bd@@J?B@R@JDz@Dd@BXBJBT@JFVDVBJ@JBJBHBJDN"
-          }
-        ],
+        "encodedPolylines": [],
         "displayName": "CRASH Bus, Motorcycle",
         "roads": [
           {
@@ -10474,6 +10468,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 223815,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.897414,
+          -33.894041
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1739437777000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Police operation",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Allow extra travel time",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1739438317430,
+        "otherAdvice": "<p>Police are directing traffic on site. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CHANGED TRAFFIC CONDITIONS Police operation",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Humphries Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Cabramatta Road West",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Bonnyrigg",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
