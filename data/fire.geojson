@@ -97,7 +97,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -107,19 +107,21 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Exercise caution",
+        "adviceA": "Use diversions",
         "adviceB": "Allow extra travel time",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BUILDING FIRE",
-        "lastUpdated": 1741079568940,
+        "lastUpdated": 1741080109326,
         "otherAdvice": "<p>Police are directing traffic on site. </p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Light vehicles - Clive St, Short St, Moore St in each direction</p><p>Heavy vehicles up to 26m B-double - Mansfield St, Byron St, Swanbrook Rd, Runnymede Dr in each direction</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW",
+          "Local Council"
         ],
         "encodedPolylines": [],
         "displayName": "BUILDING FIRE",
@@ -128,7 +130,16 @@
             "conditionTendency": "",
             "crossStreet": "Mulligan Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Highway"
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Gwydir Highway",
             "quadrant": "",
