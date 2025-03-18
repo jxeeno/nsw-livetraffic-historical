@@ -2728,80 +2728,6 @@
     },
     {
       "type": "Feature",
-      "id": 227775,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.979821,
-          -33.804231
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1742240863000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "lastUpdated": 1742244844877,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Bridge Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Darcy Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Westmead",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "TrafficSignals"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 227782,
       "geometry": {
         "type": "Point",
@@ -9712,8 +9638,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.6430624,
-          -33.0083392
+          151.643063,
+          -33.0083321
         ],
         "collections": []
       },
@@ -9740,7 +9666,7 @@
         "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1742330940786,
+        "lastUpdated": 1742331209346,
         "otherAdvice": "<p>Ongoing police investigations are expected to take some time. </p>",
         "arrangementElements": [],
         "diversions": "",
@@ -9761,10 +9687,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
                 "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "numberOfLanes": "4",
                 "roadType": ""
               },
               {
@@ -9776,13 +9702,87 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "approaching",
             "mainStreet": "Croudace Bay Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Hunter",
             "secondLocation": "",
             "suburb": "Valentine",
+            "trafficVolume": "Moderate"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227891,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3491367,
+          -35.100669
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1742331224000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Motorcycle",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1742331224582,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Motorcycle",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Travers Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Moorong Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Riverina",
+            "secondLocation": "",
+            "suburb": "Moorong",
             "trafficVolume": ""
           }
         ],
