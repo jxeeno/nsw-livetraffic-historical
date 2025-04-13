@@ -3339,81 +3339,6 @@
     },
     {
       "type": "Feature",
-      "id": 231231,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1984937,
-          -33.8842304
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1744445036000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1744445908965,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Abercrombie Street",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Eastbound",
-                "closedLanes": "1",
-                "description": "Lane 5",
-                "extent": "Lanes closed",
-                "numberOfLanes": "5",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Broadway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Chippendale",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 231229,
       "geometry": {
         "type": "Point",
@@ -7573,7 +7498,7 @@
         "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -7585,11 +7510,11 @@
         "name": null,
         "subCategoryA": "Metal",
         "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1744531988172,
+        "lastUpdated": 1744532390661,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7608,10 +7533,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Eastbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -7622,6 +7547,80 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Orchard Hills",
+            "trafficVolume": "Moderate"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 231286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5385393,
+          -32.8358255
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1744532678000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck on fire",
+        "adviceA": "Exercise caution",
+        "adviceB": "Reduce your speed",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1744532678938,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Truck on fire",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "John Renshaw Drive",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Hunter Expressway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Buchanan",
             "trafficVolume": ""
           }
         ],
