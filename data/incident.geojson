@@ -10038,15 +10038,15 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "Truck, Car",
-        "adviceA": "Use an alternative route",
-        "adviceB": "Allow extra travel time",
+        "adviceA": "Expect delays",
+        "adviceB": "Use an alternative route",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1745858972673,
+        "lastUpdated": 1745861700802,
         "otherAdvice": "<p>Ongoing police investigations are expected to take some time. </p>",
         "arrangementElements": [],
-        "diversions": "<p><br></p><p>This diversion is suitable for all vehicles. </p><p><strong>Northbound</strong>: Canterbury Rd</p><p><strong>Southbound: </strong>Punchbowl Rd</p>",
+        "diversions": "<p>Canterbury Rd. This diversion is suitable for all vehicles.</p><p><br></p><p><br></p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -10058,11 +10058,6 @@
             "levels": "",
             "direction": "BOTH_DIRECTIONS",
             "coords": "zp_nEe|_y["
-          },
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "|s_nEa``y[z@c@lAm@^Q@A@APIBAXMLIl@Y`@StBeAJG~@e@jBaAB?dAi@d@Uh@WDE\\MVMFEHEXOBA@?TMTMr@]nBaABAPIv@_@zAu@PI^Qv@_@l@[v@a@n@[@?d@Ub@UTK@?t@]`Ai@ZMJEb@UpAs@f@WlAm@zAw@PKr@a@\\S@?"
           }
         ],
         "displayName": "CRASH Truck, Car",
@@ -10073,12 +10068,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 3",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
