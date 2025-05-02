@@ -10307,7 +10307,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10322,7 +10322,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1746208403045,
+        "lastUpdated": 1746209128363,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10338,7 +10338,16 @@
             "conditionTendency": "",
             "crossStreet": "Avoca Street",
             "delay": "",
-            "impactedLanes": [],
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "2",
+                "description": "Lane 1;Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
             "locationQualifier": "at",
             "mainStreet": "Hume Highway",
             "quadrant": "",
