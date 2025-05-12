@@ -8464,7 +8464,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8473,13 +8473,13 @@
         "created": 1747016555000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": "B-double",
         "adviceA": "Exercise caution",
         "adviceB": "Prepare to merge",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1747016555594,
+        "lastUpdated": 1747016939048,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8489,7 +8489,7 @@
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "BREAKDOWN Truck",
+        "displayName": "BREAKDOWN B-double",
         "roads": [
           {
             "conditionTendency": "",
@@ -8538,7 +8538,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8553,14 +8553,15 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1747016783492,
+        "lastUpdated": 1747018242752,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH 2 cars",
@@ -8573,7 +8574,7 @@
               {
                 "affectedDirection": "Southbound",
                 "closedLanes": "1",
-                "description": "Lane 3",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -8591,6 +8592,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 234324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1926875,
+          -33.9385179
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1747016924000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1747018604054,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Mill Pond Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "General Holmes Drive",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Mascot",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
