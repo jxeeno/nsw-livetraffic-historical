@@ -8956,8 +8956,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.059638,
-          -33.853958
+          151.0596973,
+          -33.8538819
         ],
         "collections": []
       },
@@ -8969,7 +8969,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8980,11 +8980,11 @@
         "name": null,
         "subCategoryA": "2 cars",
         "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": "Expect delays",
+        "adviceB": "Prepare to merge",
+        "adviceC": "Exercise caution",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1748978905387,
+        "lastUpdated": 1748979089579,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8992,7 +8992,8 @@
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH 2 cars",
@@ -9003,11 +9004,19 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
