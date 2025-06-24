@@ -30631,14 +30631,22 @@
     },
     {
       "type": "Feature",
-      "id": 233798,
+      "id": 231507,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0765688,
-          -33.9435748
+          151.0186862,
+          -33.9404696
         ],
-        "collections": []
+        "collections": [
+          {
+            "type": "Point",
+            "coordinates": [
+              151.018328,
+              -33.940477
+            ]
+          }
+        ]
       },
       "properties": {
         "webLinks": [],
@@ -30647,10 +30655,20 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "On-ramp",
-            "direction": "Westbound",
+            "roadtype": "Off-ramp",
+            "direction": "Eastbound",
             "finishTime": "5:00am",
-            "fromDay": "Sunday",
+            "fromDay": "Wednesday",
+            "startTime": "10:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Closed",
+            "roadtype": "On-ramp",
+            "direction": "Eastbound",
+            "finishTime": "5:00am",
+            "fromDay": "Wednesday",
             "startTime": "10:00pm",
             "toDay": ""
           }
@@ -30665,41 +30683,41 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1746580103000,
+        "created": 1744692337000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Maintenance",
-        "adviceA": "Use an alternative route",
-        "adviceB": "Plan your journey",
+        "subCategoryA": "Utilities",
+        "adviceA": "Check signage",
+        "adviceB": "Use diversions",
         "adviceC": "Allow extra travel time",
-        "end": 1751224500000,
+        "end": 1751482800000,
         "hideEndDate": false,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1750359604067,
+        "lastUpdated": 1750359604434,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>If travelling north on King Georges Rd: Canterbury Rd, Fairford Rd, to the M5.</p><p>If travelling south on King Georges Rd: Stoney Creek Rd, Forest Rd, Henry Lawson Dr, Clancy St, Davies Rd, to the M5.</p>",
+        "diversions": "<p>Henry Lawson Dr, Milperra Rd. The River Rd</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1751159100000,
-        "displayName": "SCHEDULED ROADWORK Maintenance",
+        "start": 1751457600000,
+        "displayName": "SCHEDULED ROADWORK Utilities",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "M5 Motorway",
+            "crossStreet": "River Road",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "to",
-            "mainStreet": "King Georges Road westbound on-ramp",
+            "mainStreet": "M5 Motorway Off/On Ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Beverly Hills",
+            "suburb": "Revesby",
             "trafficVolume": ""
           }
         ],
@@ -30827,22 +30845,14 @@
     },
     {
       "type": "Feature",
-      "id": 231507,
+      "id": 233798,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0186862,
-          -33.9404696
+          151.0765688,
+          -33.9435748
         ],
-        "collections": [
-          {
-            "type": "Point",
-            "coordinates": [
-              151.018328,
-              -33.940477
-            ]
-          }
-        ]
+        "collections": []
       },
       "properties": {
         "webLinks": [],
@@ -30851,20 +30861,10 @@
           {
             "closureType": "ROAD_CLOSURE",
             "roadextent": "Closed",
-            "roadtype": "Off-ramp",
-            "direction": "Eastbound",
-            "finishTime": "5:00am",
-            "fromDay": "Wednesday",
-            "startTime": "10:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Closed",
             "roadtype": "On-ramp",
-            "direction": "Eastbound",
+            "direction": "Westbound",
             "finishTime": "5:00am",
-            "fromDay": "Wednesday",
+            "fromDay": "Sunday",
             "startTime": "10:00pm",
             "toDay": ""
           }
@@ -30879,41 +30879,41 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1744692337000,
+        "created": 1746580103000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Utilities",
-        "adviceA": "Check signage",
-        "adviceB": "Use diversions",
+        "subCategoryA": "Maintenance",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
         "adviceC": "Allow extra travel time",
-        "end": 1751482800000,
+        "end": 1751224500000,
         "hideEndDate": false,
         "incidentKind": "Planned",
         "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1750359604434,
+        "lastUpdated": 1750359604067,
         "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p>Henry Lawson Dr, Milperra Rd. The River Rd</p>",
+        "diversions": "<p>If travelling north on King Georges Rd: Canterbury Rd, Fairford Rd, to the M5.</p><p>If travelling south on King Georges Rd: Stoney Creek Rd, Forest Rd, Henry Lawson Dr, Clancy St, Davies Rd, to the M5.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": null,
         "encodedPolylines": [],
         "duration": null,
-        "start": 1751457600000,
-        "displayName": "SCHEDULED ROADWORK Utilities",
+        "start": 1751159100000,
+        "displayName": "SCHEDULED ROADWORK Maintenance",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "River Road",
+            "crossStreet": "M5 Motorway",
             "delay": "",
             "impactedLanes": [],
             "locationQualifier": "to",
-            "mainStreet": "M5 Motorway Off/On Ramp",
+            "mainStreet": "King Georges Road westbound on-ramp",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Revesby",
+            "suburb": "Beverly Hills",
             "trafficVolume": ""
           }
         ],
@@ -37584,6 +37584,172 @@
     },
     {
       "type": "Feature",
+      "id": 234786,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.478366,
+          -32.09029
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Weekdays",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1747361921000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Check signage",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
+        "end": 1750705200000,
+        "hideEndDate": false,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1750705202263,
+        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1750299420000,
+        "displayName": "SCHEDULED ROADWORK",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Failford Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "The Lakes Way",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "Darawank",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 238631,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.750997,
+          -32.7595068
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "11:59pm",
+            "fromDay": "Monday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          },
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "5:00am",
+            "fromDay": "Tuesday",
+            "startTime": "12:00am",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1749599928000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Exercise caution",
+        "adviceC": "Reduced speed limit",
+        "end": 1750705200000,
+        "hideEndDate": false,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1750705202081,
+        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1750669200000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Adelaide Street",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "to",
+            "mainStreet": "William Bailey Street",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Raymond Terrace",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 238633,
       "geometry": {
         "type": "Point",
@@ -37663,84 +37829,6 @@
             "region": "Hunter",
             "secondLocation": "Fullerton Cove Road",
             "suburb": "Fullerton Cove",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 234786,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.478366,
-          -32.09029
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Weekdays",
-            "startTime": "7:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1747361921000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Check signage",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
-        "end": 1750705200000,
-        "hideEndDate": false,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1750705202263,
-        "otherAdvice": "<p>Traffic controllers will be on site to direct motorists. Motorists are advised to allow approximately 5 minutes of additional travel time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1750299420000,
-        "displayName": "SCHEDULED ROADWORK",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Failford Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "The Lakes Way",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "",
-            "suburb": "Darawank",
             "trafficVolume": ""
           }
         ],
@@ -37903,94 +37991,6 @@
             "region": "Hunter",
             "secondLocation": "",
             "suburb": "Fennell Bay",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 238631,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.750997,
-          -32.7595068
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "11:59pm",
-            "fromDay": "Monday",
-            "startTime": "7:00pm",
-            "toDay": ""
-          },
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "5:00am",
-            "fromDay": "Tuesday",
-            "startTime": "12:00am",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1749599928000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Allow extra travel time",
-        "adviceB": "Exercise caution",
-        "adviceC": "Reduced speed limit",
-        "end": 1750705200000,
-        "hideEndDate": false,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1750705202081,
-        "otherAdvice": "<p>Alternating (stop/slow) traffic conditions will be in place to allow motorists to pass in one direction at a time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1750669200000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Adelaide Street",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "to",
-            "mainStreet": "William Bailey Street",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Hunter",
-            "secondLocation": "",
-            "suburb": "Raymond Terrace",
             "trafficVolume": ""
           }
         ],
@@ -38310,84 +38310,6 @@
     },
     {
       "type": "Feature",
-      "id": 239497,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.6007964,
-          -34.8619243
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [
-          {
-            "closureType": "ROAD_CLOSURE",
-            "roadextent": "Affected",
-            "roadtype": "",
-            "direction": "Both directions",
-            "finishTime": "6:00am",
-            "fromDay": "Monday",
-            "startTime": "7:00pm",
-            "toDay": ""
-          }
-        ],
-        "speedLimit": 40,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
-        "publicTransport": "",
-        "impactingNetwork": false,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1750296770000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Resurfacing",
-        "adviceA": "Allow extra travel time",
-        "adviceB": "Reduced speed limit",
-        "adviceC": " ",
-        "end": 1751313600000,
-        "hideEndDate": false,
-        "incidentKind": "Planned",
-        "mainCategory": "SCHEDULED ROADWORK",
-        "lastUpdated": 1750708801668,
-        "otherAdvice": "<p>Work will also be carried out on Illaroo Road up to the intersection with Fairway Drive. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": null,
-        "encodedPolylines": [],
-        "duration": null,
-        "start": 1751274000000,
-        "displayName": "SCHEDULED ROADWORK Resurfacing",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Illaroo Road",
-            "delay": "",
-            "impactedLanes": [],
-            "locationQualifier": "at",
-            "mainStreet": "Princes Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "South Coast",
-            "secondLocation": "",
-            "suburb": "Nowra",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Roadworks"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 239613,
       "geometry": {
         "type": "Point",
@@ -38457,6 +38379,84 @@
             "region": "New England North West",
             "secondLocation": "",
             "suburb": "Edgeroi",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Roadworks"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 239497,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6007964,
+          -34.8619243
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [
+          {
+            "closureType": "ROAD_CLOSURE",
+            "roadextent": "Affected",
+            "roadtype": "",
+            "direction": "Both directions",
+            "finishTime": "6:00am",
+            "fromDay": "Monday",
+            "startTime": "7:00pm",
+            "toDay": ""
+          }
+        ],
+        "speedLimit": 40,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": false,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1750296770000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Resurfacing",
+        "adviceA": "Allow extra travel time",
+        "adviceB": "Reduced speed limit",
+        "adviceC": " ",
+        "end": 1751313600000,
+        "hideEndDate": false,
+        "incidentKind": "Planned",
+        "mainCategory": "SCHEDULED ROADWORK",
+        "lastUpdated": 1750708801668,
+        "otherAdvice": "<p>Work will also be carried out on Illaroo Road up to the intersection with Fairway Drive. </p><p>Motorists are advised to allow approximately 5 minutes of additional travel time.</p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "duration": null,
+        "start": 1751274000000,
+        "displayName": "SCHEDULED ROADWORK Resurfacing",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Illaroo Road",
+            "delay": "",
+            "impactedLanes": [],
+            "locationQualifier": "at",
+            "mainStreet": "Princes Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "South Coast",
+            "secondLocation": "",
+            "suburb": "Nowra",
             "trafficVolume": ""
           }
         ],
