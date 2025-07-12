@@ -43,10 +43,10 @@
         "adviceC": "Plan your journey",
         "incidentKind": "Unplanned",
         "mainCategory": "BUILDING FIRE",
-        "lastUpdated": 1752353004540,
-        "otherAdvice": "<p>Bold St is also closed between Railway Pde and Parramatta Rd</p>",
+        "lastUpdated": 1752353915025,
+        "otherAdvice": "<p>There is no eastbound right turn into Bold St. </p><p>Bold St is also closed between Parramatta Rd and Railway Pde.</p>",
         "arrangementElements": [],
-        "diversions": "<p>Light vehicles can use local streets.</p><p>Heavy vehicles can consider using Rawson St, Boorea St, Olympic Dr, Joseph St, Rookwood Rd, Hume Hwy, Woodville Rd in each direction - suitable for all vehicles up to 26m B-Doubles  - or alternatively M4 Mtwy.</p>",
+        "diversions": "<p>Light vehicles can use local streets.</p><p>Heavy vehicles can consider using Rawson St, Boorea St, Olympic Dr, Joseph St, Rookwood Rd, Hume Hwy and Woodville Rd. This is suitable for all vehicles. Alternatively us M4 Mwy.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
@@ -56,18 +56,13 @@
         "encodedPolylines": [
           {
             "levels": "",
-            "direction": "ONE_DIRECTION",
-            "coords": "vpnmE_qux[IZaBdFOf@M`@]dAe@vAeAfDKXQl@]`A?BOd@AB[`AUr@M`@_@lAIT]~@m@jBKZKXITK`@Mf@"
-          },
-          {
-            "levels": "",
-            "direction": "ONE_DIRECTION",
-            "coords": "x}mmEyetx[@GlAgD@GNc@HYHWPc@Pi@Pk@JYBMBKBGFU^kAf@_BP_@@EBKJYNi@Z{@l@mBBGPm@ZcANe@HYBGBKTs@Tm@^gA`@kA"
-          },
-          {
-            "levels": "",
             "direction": "BOTH_DIRECTIONS",
             "coords": "lwnmEkcux[QKMGMEECSE??C?EAG?C?iAGIAMCMCCASIMGUMe@WMGAA"
+          },
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "ppnmEmpux[CHaBdFOf@M`@]dAe@vAeAfDKXQl@]`A?BOd@AB[`AUr@M`@_@lAIT]~@m@jBKZKXITAH"
           }
         ],
         "displayName": "BUILDING FIRE",
@@ -78,12 +73,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Westbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
