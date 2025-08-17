@@ -6606,12 +6606,12 @@
     },
     {
       "type": "Feature",
-      "id": 245950,
+      "id": 245951,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.2109503,
-          -33.8358562
+          149.553195,
+          -30.196827
         ],
         "collections": []
       },
@@ -6623,59 +6623,60 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1755406170000,
+        "created": 1755407603000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Exercise caution",
-        "adviceB": " ",
+        "subCategoryA": "Semi-trailer",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1755406170995,
+        "mainCategory": "CRASH",
+        "lastUpdated": 1755407678569,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
+          "Emergency services",
           "Transport for NSW"
         ],
         "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
+        "displayName": "CRASH Semi-trailer",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Berry Street",
+            "crossStreet": "Spring Plains Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 2",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
             "locationQualifier": "at",
-            "mainStreet": "Warringah Freeway reversible lanes",
+            "mainStreet": "Kamilaroi Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Sydney",
+            "region": "New England North West",
             "secondLocation": "",
-            "suburb": "North Sydney",
+            "suburb": "Narrabri",
             "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
+        "CategoryIcon": "Crash"
       }
     },
     {
@@ -6712,8 +6713,8 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BURST WATER MAIN",
-        "lastUpdated": 1755407369793,
-        "otherAdvice": "<p>Road closure lines provided by Google Maps may not be up to date. </p>",
+        "lastUpdated": 1755407936650,
+        "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -6751,6 +6752,80 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 245950,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2109503,
+          -33.8358562
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1755406170000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car",
+        "adviceA": "Exercise caution",
+        "adviceB": " ",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1755407964737,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Berry Street",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Warringah Freeway reversible lanes",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "North Sydney",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
       }
     }
   ]
