@@ -9606,8 +9606,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -9622,7 +9622,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1755505222297,
+        "lastUpdated": 1755505987817,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9664,12 +9664,12 @@
     },
     {
       "type": "Feature",
-      "id": 246079,
+      "id": 246080,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.8305874,
-          -31.0610981
+          150.946216,
+          -34.28968
         ],
         "collections": []
       },
@@ -9687,36 +9687,34 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1755505376000,
+        "created": 1755506240000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "null",
+        "subCategoryA": "Power failure",
         "adviceA": "Reduce your speed",
         "adviceB": "Exercise caution",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1755505376529,
+        "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
+        "lastUpdated": 1755506240946,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
-        "additionalInfo": [
-          "Persons Trapped"
-        ],
+        "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Utility Company"
         ],
         "encodedPolylines": [],
-        "displayName": "CRASH car",
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Bowlers Lane",
+            "crossStreet": "Rawson Street",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "All directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
@@ -9724,18 +9722,18 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Oxley Highway",
+            "locationQualifier": "at",
+            "mainStreet": "Lawrence Hargrave Drive",
             "quadrant": "",
             "queueLength": 0,
-            "region": "New England North West",
+            "region": "South Coast",
             "secondLocation": "",
-            "suburb": "Westdale",
+            "suburb": "Coledale",
             "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
+        "CategoryIcon": "TrafficSignals"
       }
     },
     {
@@ -9744,8 +9742,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.5008568,
-          -28.4548294
+          153.5023407,
+          -28.4507049
         ],
         "collections": []
       },
@@ -9772,7 +9770,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1755505632031,
+        "lastUpdated": 1755506308342,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -9806,6 +9804,80 @@
             "secondLocation": "",
             "suburb": "Mooball",
             "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 246079,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8305874,
+          -31.0610981
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1755505376000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1755506408953,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH car",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Bowlers Lane",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Oxley Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "New England North West",
+            "secondLocation": "",
+            "suburb": "Westdale",
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
