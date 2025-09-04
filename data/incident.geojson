@@ -9034,13 +9034,13 @@
         "created": 1756995374000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Truck",
+        "subCategoryA": "2 trucks",
         "adviceA": "Allow extra travel time",
         "adviceB": "Use diversions",
         "adviceC": "Avoid the area",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1756998492187,
+        "lastUpdated": 1756999096178,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "<p><strong>Light vehicles </strong>Armidale Rd, Orara Way, Sherwood Creek Rd</p><p>This diversion is suitable for light vehicles only. Heavy vehicles are being parked. </p>",
@@ -9054,15 +9054,10 @@
           {
             "levels": "",
             "direction": "ONE_DIRECTION",
-            "coords": "|pruDgnge\\URu@h@gAt@w@d@QLo@\\k@Xw@`@i@V]NcA`@_@LWJIBa@LGBi@PwAd@UFeEz@kANWHoBVkCRmBJ{AFcDLm@BYBc@@c@BmCJkFVeADkFT{CLiBFkDPcCLG@"
-          },
-          {
-            "levels": "",
-            "direction": "ONE_DIRECTION",
             "coords": "tpouDsxfe\\`@CbBKr@Cn@CfAEl@CdBInFWHAn@Cf@C\\AV?r@EL?`I]fAEb@Cb@Cb@ApDOb@CtDUlCUdDg@r@KnAW^Ib@Ib@O|Ac@`A]b@Qv@WLGNGNGNKFCTKLITKLGXOTMTOd@Yd@YJIrA{@FEVOb@]"
           }
         ],
-        "displayName": "CRASH Truck",
+        "displayName": "CRASH 2 trucks",
         "roads": [
           {
             "conditionTendency": "",
@@ -9070,12 +9065,20 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "near",
