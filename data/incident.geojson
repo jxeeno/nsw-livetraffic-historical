@@ -10097,8 +10097,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10113,7 +10113,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1758314469548,
+        "lastUpdated": 1758317470486,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10171,8 +10171,8 @@
         "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": true,
+        "ended": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10187,7 +10187,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1758316293450,
+        "lastUpdated": 1758317587731,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10206,10 +10206,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "Breakdown lane",
+                "closedLanes": "1",
+                "description": "Lane 1, Breakdown lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
@@ -10261,7 +10261,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1758317188114,
+        "lastUpdated": 1758317606087,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -10281,8 +10281,8 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Westbound",
-                "closedLanes": "2",
-                "description": "Lane 1, Lane 2",
+                "closedLanes": "1",
+                "description": "Lane 1",
                 "extent": "Lanes closed",
                 "numberOfLanes": "3",
                 "roadType": ""
@@ -10304,17 +10304,22 @@
     },
     {
       "type": "Feature",
-      "id": 250105,
+      "id": 250106,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.435654,
-          -35.657201
+          150.8867195,
+          -33.4382108
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "NSW Vehicle Ferries",
+            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
+          }
+        ],
         "headline": "",
         "periods": [],
         "speedLimit": -1,
@@ -10327,23 +10332,96 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1758317308000,
+        "created": 1758317662000,
         "isMajor": false,
         "name": null,
+        "subCategoryA": "Breakdown",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Plan your journey",
+        "adviceC": "Allow extra travel time",
+        "incidentKind": "Unplanned",
+        "mainCategory": "FERRY OUT OF SERVICE",
+        "lastUpdated": 1758317663131,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "<p><strong>Westbound: </strong>River Rd, Sackville Ferry Rd, Sackville Ferry, Sackville Rd, to West Portland Rd.</p><p><strong>Eastbound: </strong>West Portland Rd, Sackville Rd, Sackville Ferry, Sackville Ferry Rd, to River Rd.</p>",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "FERRY OUT OF SERVICE Breakdown",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "River Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Ferry"
+              }
+            ],
+            "locationQualifier": "between",
+            "mainStreet": "Lower Portland Ferry",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "West Portland Road",
+            "suburb": "Lower Portland",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 250105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4350264,
+          -35.65714
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "CRASH Truck LITTLE BILLABONG Hume Highway at Mirrabooka Road",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1758317308000,
+        "isMajor": true,
+        "name": null,
         "subCategoryA": "Truck",
-        "adviceA": "Exercise caution",
-        "adviceB": "Reduce your speed",
+        "adviceA": "Expect delays",
+        "adviceB": "Use an alternative route",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1758317309113,
+        "lastUpdated": 1758317803197,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services"
+          "Emergency services",
+          "Transport for NSW"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH Truck",
@@ -10354,12 +10432,12 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Northbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Highway"
               }
             ],
             "locationQualifier": "at",
