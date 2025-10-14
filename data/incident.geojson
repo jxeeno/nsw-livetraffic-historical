@@ -10176,7 +10176,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -10187,19 +10187,20 @@
         "name": null,
         "subCategoryA": "2 cars",
         "adviceA": "Reduce your speed",
-        "adviceB": "Prepare to merge",
-        "adviceC": " ",
+        "adviceB": "Exercise caution",
+        "adviceC": "Allow extra travel time",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1760435132671,
-        "otherAdvice": "",
+        "lastUpdated": 1760435801023,
+        "otherAdvice": "<p>Police are directing traffic on site. Motorists are advised to expect intermittent closures. </p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Light vehicles are being diverted via local roads.</p><p>Heavy vehicles - Can use President Ave, The Grand Pde, Bay St.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH 2 cars",
@@ -10211,18 +10212,18 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
-                "extent": "Affected",
-                "numberOfLanes": "3",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Affected",
                 "numberOfLanes": "",
+                "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 4, Right turn lane",
+                "extent": "Lanes closed",
+                "numberOfLanes": "4",
                 "roadType": ""
               }
             ],
