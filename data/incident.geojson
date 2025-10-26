@@ -8806,8 +8806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.231128,
-          -33.906257
+          151.2312125,
+          -33.9063051
         ],
         "collections": []
       },
@@ -8819,7 +8819,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -8831,10 +8831,10 @@
         "subCategoryA": "3 vehicles",
         "adviceA": "Exercise caution",
         "adviceB": "Reduce your speed",
-        "adviceC": " ",
+        "adviceC": "Prepare to merge",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1761515259715,
+        "lastUpdated": 1761515665145,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -8842,7 +8842,8 @@
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
         "encodedPolylines": [],
         "displayName": "CRASH 3 vehicles",
@@ -8853,10 +8854,18 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
+                "affectedDirection": "Eastbound",
+                "closedLanes": "1",
+                "description": "Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
+              {
+                "affectedDirection": "Westbound",
+                "closedLanes": "1",
+                "description": "Right turn lane",
+                "extent": "Lanes closed",
                 "numberOfLanes": "",
                 "roadType": ""
               }
