@@ -7161,7 +7161,7 @@
         "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
-        "ended": false,
+        "ended": true,
         "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
@@ -7177,7 +7177,7 @@
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1762742967664,
+        "lastUpdated": 1762744335625,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7194,6 +7194,14 @@
             "crossStreet": "Cleveland Street",
             "delay": "",
             "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              },
               {
                 "affectedDirection": "Northbound",
                 "closedLanes": "1",
@@ -7236,7 +7244,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -7246,12 +7254,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "3 vehicles",
-        "adviceA": "Exercise caution",
-        "adviceB": "Expect delays",
+        "adviceA": "Expect delays",
+        "adviceB": "Plan your journey",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1762743545517,
+        "lastUpdated": 1762745607040,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -7259,9 +7267,16 @@
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
-          "Transport for NSW"
+          "Transport for NSW",
+          "Tow Truck"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "hs~lEsy|x[D@L@L@r@Dn@DjAHjAF`@B"
+          }
+        ],
         "displayName": "CRASH 3 vehicles",
         "roads": [
           {
@@ -7271,10 +7286,10 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "closedLanes": "2",
+                "description": "Lane 1, Lane 2",
+                "extent": "Lanes closed",
+                "numberOfLanes": "3",
                 "roadType": ""
               }
             ],
