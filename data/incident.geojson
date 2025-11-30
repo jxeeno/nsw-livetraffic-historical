@@ -2854,81 +2854,6 @@
     },
     {
       "type": "Feature",
-      "id": 257608,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.8720283,
-          -33.738767
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1764418299000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Use an alternative route",
-        "adviceB": " ",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "Police operation",
-        "lastUpdated": 1764426473577,
-        "otherAdvice": "<p>Ongoing police investigations are expected to take some time. </p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "Police operation",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "M7 Motorway",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Southbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Closed",
-                "numberOfLanes": "",
-                "roadType": "Road"
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Quakers Hill Parkway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "Richmond Road",
-            "suburb": "Quakers Hill",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "Local road",
-        "CategoryIcon": "PublicEvent"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 257612,
       "geometry": {
         "type": "Point",
@@ -7580,8 +7505,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.119984,
-          -33.793098
+          151.1239005,
+          -33.7892739
         ],
         "collections": []
       },
@@ -7593,7 +7518,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -7603,22 +7528,28 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Multiple vehicles",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Allow extra travel time",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1764512093933,
-        "otherAdvice": "",
+        "lastUpdated": 1764512746226,
+        "otherAdvice": "<p>Police are directing traffic on site. </p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Light vehicles: Coxs Rd, Wicks Rd, Epping Rd</p><p>Heavy vehicles: Blaxland Rd, Epping Rd - suitable for all vehicles up to 26m B-Doubles</p><p>Unless specified otherwise, operators of Class 1,2 &amp; 3 vehicles travelling under a Notice <strong>must</strong> consult their relevant enforceable network map to confirm a suitable <strong>approved</strong> alternative route.</p><p>Operators of Class 1, 2 &amp; 3 vehicles travelling under a Permit <strong>must not</strong> travel off the approved route listed in the permit unless an updated permit is obtained from the NHVR</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "degmEgrjy[aAcAGIQSi@k@mAsAi@o@QQIKiAmAm@q@[]_@c@uC_DYa@IKOMEIIGe@i@k@q@AAMM[_@aAeAGISSMOMOQSCCCEc@a@UU"
+          }
+        ],
         "displayName": "CRASH Multiple vehicles",
         "roads": [
           {
@@ -7628,19 +7559,11 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 3",
-                "extent": "Affected",
-                "numberOfLanes": "3",
-                "roadType": ""
-              },
-              {
-                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "approaching",
