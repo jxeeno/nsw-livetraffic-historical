@@ -256,8 +256,17 @@
         "collections": []
       },
       "properties": {
-        "webLinks": [],
-        "headline": "BUSHFIRES NERONG TO BULAHDELAH Pacific Highway CLOSED",
+        "webLinks": [
+          {
+            "linkText": "Restricted Access Vehicles map",
+            "linkURL": "https://maps.nhvr.gov.au/"
+          },
+          {
+            "linkText": "NSW Rest Areas",
+            "linkURL": "https://maps.transport.nsw.gov.au/egeomaps/rest-areas/index.html"
+          }
+        ],
+        "headline": "BUSHFIRE BULAHDELAH TO NERONG Pacific Highway",
         "periods": [],
         "speedLimit": -1,
         "weblinkUrl": null,
@@ -273,13 +282,13 @@
         "isMajor": true,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Avoid the area",
-        "adviceB": "Delay non-essential travel",
-        "adviceC": " ",
+        "adviceA": "Plan your journey",
+        "adviceB": "Exercise caution",
+        "adviceC": "Expect delays",
         "incidentKind": "Unplanned",
         "mainCategory": "BUSHFIRE",
-        "lastUpdated": 1765169653608,
-        "otherAdvice": "<p><strong>The highway is currently closed in both directions due to multiple fire flare-ups. Motorists should consider delaying all non-essential travel.</strong></p><p>Smoke in the area may affect visibility. Motorists should drive to the conditions.</p>",
+        "lastUpdated": 1765172178534,
+        "otherAdvice": "<p><strong>The highway is currently closed southbound due to multiple fire flare-ups. Motorists should consider delaying all non-essential travel.</strong></p><p>Light vehicles could consider using The Bucketts Way instead.</p><p>Smoke in the area may affect visibility. Motorists should drive to the conditions.</p><p><br></p><p>Road closure lines provided by Google Maps may not be up to date.</p>",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
@@ -289,27 +298,29 @@
           "Rural Fire Service",
           "Transport for NSW"
         ],
-        "encodedPolylines": [
-          {
-            "levels": "",
-            "direction": "BOTH_DIRECTIONS",
-            "coords": "v{leEmq_`\\WEk@E}B[{BSiCYkAOc@EYEi@GsBS_AIUAq@Cm@CqAAiA?uA@oAFK?aAFsALoANeAR}@P}@Ry@R_AV}Aj@oBv@OFy@^qAp@m@`@cAl@u@l@iAz@eB|AwCrCaB`BYXA?sArAqCpC{CxCwBxBqApAe@`@{@x@s@t@}@~@aAfA}@`AkArA}@fAo@x@m@x@iAvAg@l@IJe@n@w@dAu@~@q@x@gAtA]f@_@d@wBlC}B|C}ArB_@b@m@t@g@h@s@r@c@d@SROLSPOJMHa@Xo@^c@Vm@\\q@\\kBt@QH[LQDC@MDSDIBQDE@?@I@_@HQDQB]H_@D_@Fa@Fe@Di@DgAF_@@{AB_AAsAGg@EyAO]E]Es@O]GEAg@Mu@Si@OoBq@iC{@aC{@y@WwAc@wA_@i@Oa@K[G]G]ICAa@Gq@KgAU}AQ{@KmAKyAM}AKqBG{AGyAGa@CsBKkAIg@CqAIkAM_@E]CKAYEYCq@IKAi@McAMuDk@kC[_AIcBQYEa@EA?gAM_BQ}@I{C[}Fg@C?mAEcR{Ae@Ec@C]Cc@Cc@Ac@Cc@Ac@Aa@?G?a@AE?Y?C?Q?m@?U?[@U?C?W@k@@U@[@U@Y@m@DYBU@[BUBUBYBWBYDUBYDm@HQBC?YF]F_@F]F]F]H_@Ha@J]Hg@LeAXYHg@Li@NiBf@kATaO~DeHnBaATkD|@IBWFKBa@LUFKBcAVWHKBUFa@Jc@JgCr@iFtAuA^_Cj@}HnBoB^o@JaAPsBTwANyCHgCC}BIeCUWEeAQa@GC?yBe@_Cq@}By@qB_AwBkAQM_@U_Ao@i@c@"
-          }
-        ],
-        "displayName": "BUSHFIRES",
+        "encodedPolylines": [],
+        "displayName": "BUSHFIRE",
         "roads": [
           {
             "conditionTendency": "",
             "crossStreet": "",
-            "delay": "Significant",
+            "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
+                "affectedDirection": "Southbound",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
                 "numberOfLanes": "",
                 "roadType": "Highway"
+              },
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
               }
             ],
             "locationQualifier": "between",
@@ -318,7 +329,7 @@
             "queueLength": 0,
             "region": "North Coast NSW",
             "secondLocation": "",
-            "suburb": "Nerong to Bulahdelah",
+            "suburb": "Bulahdelah to Nerong",
             "trafficVolume": "Heavy"
           }
         ],
