@@ -3,82 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "id": 258085,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.1929046,
-          -32.481907
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": 60,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1764816265000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Expect delays",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BUSHFIRE",
-        "lastUpdated": 1765336884451,
-        "otherAdvice": "<p>Smoke in the area may affect visibility. Motorists should drive to the conditions.</p>",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Rural Fire Service",
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BUSHFIRE",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "between",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "",
-            "suburb": "Nerong to Bulahdelah",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Fire"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 258753,
       "geometry": {
         "type": "Point",
@@ -171,7 +95,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -181,22 +105,38 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "null",
-        "adviceA": "Exercise caution",
-        "adviceB": "Reduce your speed",
+        "adviceA": "Use diversions",
+        "adviceB": "Allow extra travel time",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "BUSHFIRE",
-        "lastUpdated": 1765421340148,
+        "lastUpdated": 1765423672212,
         "otherAdvice": "<p>Smoke in the area may affect visibility. Motorists should drive to the conditions. </p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p>Yellow Box Rd, The Escort Way, Parkes Eugowra Rd. Suitable for both directions and all vehicles. This will add approximately 30 minutes of extra travel time.</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "b}piEum`j[kBxFuArEQl@CDERERCLy@vDq@bDKh@kA|FGXa@xBWrAq@lD_@hBCNKh@EXQhAKp@MhAM~@"
+          },
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "rdoiEqovi[?MCWAY?WAY?e@?Y?W@Y@e@@W@Y@K@MBc@@MBWNiARsA@KDWBKJq@BWDWFa@Jq@Hc@L}@DSHi@@I^eCZwBb@uCHg@?EHc@T_BJq@BS@CBWDWDYHmABi@Bi@D_A?Y?}@ByA@}@@A@i@FaCBe@DiADq@?GDs@H}AF_AHcA@EBWBWDWHo@BUBK@MRuAZ}BDY?EFc@@EBKJ_AHc@BYL}@DYFc@DURyA@ML}@Hq@L_ARcBNwAVsBBUBSFi@Fi@`@mDh@uEFe@NwAJ_AFe@@KHs@@I^_DLgAT{BFkA@S@]?W@e@?Y@iC?]"
+          },
+          {
+            "levels": "",
+            "direction": "BOTH_DIRECTIONS",
+            "coords": "zapiEob|i[?SAq@?iA?M?sE?e@?y@?Q?Y@}BAsI?E?i@?k@@qA@}A?i@@c@B_@Ba@Ba@D]Fe@LgABO^}C@Kh@eE^uC"
+          }
+        ],
         "displayName": "BUSHFIRE",
         "roads": [
           {
@@ -208,9 +148,9 @@
                 "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
-                "extent": "Affected",
+                "extent": "Closed",
                 "numberOfLanes": "",
-                "roadType": ""
+                "roadType": "Road"
               }
             ],
             "locationQualifier": "near",
