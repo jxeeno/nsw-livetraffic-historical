@@ -9079,6 +9079,81 @@
     },
     {
       "type": "Feature",
+      "id": 261751,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5865397,
+          -33.0169856
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1768509343000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Wires down",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": "Follow directions on site",
+        "incidentKind": "Unplanned",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1768519522438,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Utility Company"
+        ],
+        "encodedPolylines": [],
+        "displayName": "HAZARD Low-hanging wires",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Ridge Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Both directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "near",
+            "mainStreet": "Mount Waring Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Toronto",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Hazard"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 261742,
       "geometry": {
         "type": "Point",
@@ -9154,12 +9229,12 @@
     },
     {
       "type": "Feature",
-      "id": 261751,
+      "id": 261780,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.5865397,
-          -33.0169856
+          150.863795,
+          -33.9261383
         ],
         "collections": []
       },
@@ -9167,7 +9242,7 @@
         "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 40,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -9177,54 +9252,53 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1768509343000,
+        "created": 1768519937000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Wires down",
-        "adviceA": "Reduce your speed",
+        "subCategoryA": "due to an earlier incident",
+        "adviceA": "Reduced speed limit",
         "adviceB": "Exercise caution",
-        "adviceC": "Follow directions on site",
+        "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1768519522438,
+        "mainCategory": "CHANGED TRAFFIC CONDITIONS",
+        "lastUpdated": 1768519992276,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
-          "Emergency services",
-          "Utility Company"
+          "Motorway Crew"
         ],
         "encodedPolylines": [],
-        "displayName": "HAZARD Low-hanging wires",
+        "displayName": "CHANGED TRAFFIC CONDITIONS due to an earlier incident",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Ridge Road",
+            "crossStreet": "Bernera Road",
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Both directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
+                "affectedDirection": "Southbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Mount Waring Road",
+            "locationQualifier": "at",
+            "mainStreet": "M7 Motorway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Hunter",
+            "region": "Sydney",
             "secondLocation": "",
-            "suburb": "Toronto",
+            "suburb": "Prestons",
             "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
-        "CategoryIcon": "Hazard"
+        "CategoryIcon": "ChangedConditions"
       }
     }
   ]
