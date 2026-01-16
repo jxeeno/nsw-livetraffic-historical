@@ -9560,6 +9560,80 @@
     },
     {
       "type": "Feature",
+      "id": 261874,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5163927,
+          -33.2057795
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1768581447000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Power failure",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
+        "lastUpdated": 1768581447914,
+        "otherAdvice": "<p>A number of other traffic lights are blacked out in the area. </p>",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Utility Company"
+        ],
+        "encodedPolylines": [],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT Power failure",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Motorway Link",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Central Coast",
+            "secondLocation": "",
+            "suburb": "Blue Haven",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "TrafficSignals"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 261873,
       "geometry": {
         "type": "Point",
@@ -9588,21 +9662,32 @@
         "name": null,
         "subCategoryA": "Car on fire",
         "adviceA": "Follow directions on site",
-        "adviceB": "Use an alternative route",
-        "adviceC": " ",
+        "adviceB": "Avoid the area",
+        "adviceC": "Use diversions",
         "incidentKind": "Unplanned",
         "mainCategory": "HAZARD",
-        "lastUpdated": 1768580618704,
-        "otherAdvice": "<p>Consider using Rawson St.</p>",
+        "lastUpdated": 1768581468830,
+        "otherAdvice": "<p>Police are directing traffic on site. </p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p><strong>Eastbound:</strong> Rawson St, St Hilliers Rd.</p><p><strong>Westbound:</strong> St Hilliers Rd, Rawson St. </p><p>This diversion is suitable for all vehicles.</p><p>Unless specified otherwise, operators of Class 1,2 &amp; 3 vehicles travelling under a Notice <strong>must</strong> consult their relevant enforceable network map to confirm a suitable <strong>approved</strong> alternative route.</p><p>Operators of Class 1, 2 &amp; 3 vehicles travelling under a Permit <strong>must not</strong> travel off the approved route listed in the permit unless an updated permit is obtained from the NHVR</p>",
         "additionalInfo": [],
         "weblinkName": null,
         "attendingGroups": [
           "Emergency services",
           "Transport for NSW"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "f}omE{mxx[JF??Rm@To@^eAl@_BjB{EJ_@DODUD_@BUVuBD[Di@RgBBU?CBIBKDKR}@Ni@H[J]@E^oAf@cBPk@Nc@HUHWHWRk@JYX}@|@kCb@oAx@gCRi@DODGDI"
+          },
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "pvpmEelzx[A@EHENIRKXQj@e@pAc@tAUn@sA~DWt@u@zBa@nAi@lBQl@i@nBCHCHAFAFETYvCAFCVIp@ADMjAAHEXI^ENGRSf@Sh@c@jAGPg@nAeApC]`A??F?D?D?"
+          }
+        ],
         "displayName": "HAZARD Car on fire",
         "roads": [
           {
@@ -9611,7 +9696,7 @@
             "delay": "",
             "impactedLanes": [
               {
-                "affectedDirection": "Westbound",
+                "affectedDirection": "Both directions",
                 "closedLanes": "",
                 "description": "",
                 "extent": "Closed",
@@ -9619,12 +9704,12 @@
                 "roadType": "Road"
               }
             ],
-            "locationQualifier": "at",
+            "locationQualifier": "between",
             "mainStreet": "Parramatta Road",
             "quadrant": "",
             "queueLength": 0,
             "region": "Sydney",
-            "secondLocation": "",
+            "secondLocation": "Rawson Street",
             "suburb": "Auburn",
             "trafficVolume": ""
           }
