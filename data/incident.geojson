@@ -3273,20 +3273,25 @@
     },
     {
       "type": "Feature",
-      "id": 273239,
+      "id": 272847,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          148.1483208,
-          -29.9736576
+          147.2660376,
+          -36.0393117
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "NSW Vehicle Ferries",
+            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
+          }
+        ],
         "headline": "",
         "periods": [],
-        "speedLimit": 80,
+        "speedLimit": -1,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -3296,30 +3301,28 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1777937501000,
+        "created": 1777609891000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Road damage",
-        "adviceA": "Reduced speed limit",
-        "adviceB": "Exercise caution",
-        "adviceC": "Check signage",
+        "subCategoryA": "Low tide",
+        "adviceA": "Plan your journey",
+        "adviceB": " ",
+        "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1782162581853,
-        "otherAdvice": "",
+        "mainCategory": "FERRY OUT OF SERVICE",
+        "lastUpdated": 1782162582335,
+        "otherAdvice": "<p>The ferry has a reduced capacity of 20 tonnes due to the low water level.</p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p><strong>West:</strong> Bethanga Bridge, Albury, which adds approximately 1 hour of travel time.</p><p><strong>East:</strong> Jingellic, which adds approximately<strong> </strong>75 minutes of travel time.</p>",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
+        "attendingGroups": null,
         "encodedPolylines": [],
-        "displayName": "HAZARD Road damage",
+        "displayName": "FERRY Reduced capacity",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "EL O'Brien Bridge (Barwon River)",
+            "crossStreet": "Wymah Ferry Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -3331,13 +3334,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "on",
-            "mainStreet": "Castlereagh Highway",
+            "locationQualifier": "between",
+            "mainStreet": "Wymah Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "Far West NSW",
-            "secondLocation": "",
-            "suburb": "Walgett",
+            "region": "The Murray",
+            "secondLocation": "Murray River Road",
+            "suburb": "Wymah (east of Albury)",
             "trafficVolume": ""
           }
         ],
@@ -3421,25 +3424,20 @@
     },
     {
       "type": "Feature",
-      "id": 272847,
+      "id": 273239,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.2660376,
-          -36.0393117
+          148.1483208,
+          -29.9736576
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "NSW Vehicle Ferries",
-            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
-          }
-        ],
+        "webLinks": [],
         "headline": "",
         "periods": [],
-        "speedLimit": -1,
+        "speedLimit": 80,
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
@@ -3449,28 +3447,30 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1777609891000,
+        "created": 1777937501000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Low tide",
-        "adviceA": "Plan your journey",
-        "adviceB": " ",
-        "adviceC": " ",
+        "subCategoryA": "Road damage",
+        "adviceA": "Reduced speed limit",
+        "adviceB": "Exercise caution",
+        "adviceC": "Check signage",
         "incidentKind": "Unplanned",
-        "mainCategory": "FERRY OUT OF SERVICE",
-        "lastUpdated": 1782162582335,
-        "otherAdvice": "<p>The ferry has a reduced capacity of 20 tonnes due to the low water level.</p>",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1782162581853,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p><strong>West:</strong> Bethanga Bridge, Albury, which adds approximately 1 hour of travel time.</p><p><strong>East:</strong> Jingellic, which adds approximately<strong> </strong>75 minutes of travel time.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
         "encodedPolylines": [],
-        "displayName": "FERRY Reduced capacity",
+        "displayName": "HAZARD Road damage",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wymah Ferry Road",
+            "crossStreet": "EL O'Brien Bridge (Barwon River)",
             "delay": "",
             "impactedLanes": [
               {
@@ -3482,13 +3482,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "between",
-            "mainStreet": "Wymah Ferry",
+            "locationQualifier": "on",
+            "mainStreet": "Castlereagh Highway",
             "quadrant": "",
             "queueLength": 0,
-            "region": "The Murray",
-            "secondLocation": "Murray River Road",
-            "suburb": "Wymah (east of Albury)",
+            "region": "Far West NSW",
+            "secondLocation": "",
+            "suburb": "Walgett",
             "trafficVolume": ""
           }
         ],
@@ -11574,229 +11574,6 @@
     },
     {
       "type": "Feature",
-      "id": 279190,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.3126765,
-          -34.8276451
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1782312718000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Truck",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Prepare to merge",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1782321292871,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Heavy vehicle tow truck"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Truck",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Belmont Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "2",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "Hume Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Southern Highlands",
-            "secondLocation": "",
-            "suburb": "Jugiong",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 279186,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.15559,
-          -33.910103
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1782310526000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "lastUpdated": 1782321292476,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Petersham Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Marrickville Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Marrickville",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "TrafficSignals"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 279193,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.772862,
-          -33.946073
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": false,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1782318527000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "null",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "lastUpdated": 1782321310234,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Transport for NSW"
-        ],
-        "encodedPolylines": [],
-        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "North Avenue",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "All directions",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "at",
-            "mainStreet": "Bringelly Road",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Rossmore",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "TrafficSignals"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 279180,
       "geometry": {
         "type": "Point",
@@ -11862,6 +11639,229 @@
             "region": "Sydney",
             "secondLocation": "",
             "suburb": "Macquarie Park",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "TrafficSignals"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.15559,
+          -33.910103
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1782310526000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "lastUpdated": 1782322317551,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Petersham Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Marrickville Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Marrickville",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "TrafficSignals"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3126765,
+          -34.8276451
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1782312718000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Truck",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Prepare to merge",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "BREAKDOWN",
+        "lastUpdated": 1782322599122,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services",
+          "Heavy vehicle tow truck"
+        ],
+        "encodedPolylines": [],
+        "displayName": "BREAKDOWN Truck",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Belmont Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "1",
+                "description": "Lane 1",
+                "extent": "Lanes closed",
+                "numberOfLanes": "2",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "just past",
+            "mainStreet": "Hume Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Southern Highlands",
+            "secondLocation": "",
+            "suburb": "Jugiong",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Breakdown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.772862,
+          -33.946073
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1782318527000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "lastUpdated": 1782323579271,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Transport for NSW"
+        ],
+        "encodedPolylines": [],
+        "displayName": "TRAFFIC LIGHTS FLASHING YELLOW",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "North Avenue",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Bringelly Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Sydney",
+            "secondLocation": "",
+            "suburb": "Rossmore",
             "trafficVolume": ""
           }
         ],
