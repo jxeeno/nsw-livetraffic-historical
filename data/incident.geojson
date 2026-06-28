@@ -3817,81 +3817,6 @@
     },
     {
       "type": "Feature",
-      "id": 279526,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1300326,
-          -33.7793972
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": false,
-        "created": 1782570005000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "BREAKDOWN",
-        "lastUpdated": 1782570408787,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services",
-          "Motorway Crew"
-        ],
-        "encodedPolylines": [],
-        "displayName": "BREAKDOWN Car",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Lane Cove Road",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Westbound",
-                "closedLanes": "1",
-                "description": "Lane 1",
-                "extent": "Lanes closed",
-                "numberOfLanes": "3",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "just past",
-            "mainStreet": "M2 Motorway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "Sydney",
-            "secondLocation": "",
-            "suburb": "Macquarie Park",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Breakdown"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 279524,
       "geometry": {
         "type": "Point",
@@ -4487,17 +4412,22 @@
     },
     {
       "type": "Feature",
-      "id": 279261,
+      "id": 272847,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          152.6972985,
-          -28.3364385
+          147.2660376,
+          -36.0393117
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [],
+        "webLinks": [
+          {
+            "linkText": "NSW Vehicle Ferries",
+            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
+          }
+        ],
         "headline": "",
         "periods": [],
         "speedLimit": -1,
@@ -4510,30 +4440,28 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1782361796000,
+        "created": 1777609891000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Rock fall",
-        "adviceA": "Exercise caution",
-        "adviceB": "Expect delays",
+        "subCategoryA": "Low tide",
+        "adviceA": "Plan your journey",
+        "adviceB": " ",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "HAZARD",
-        "lastUpdated": 1782597834192,
-        "otherAdvice": "",
+        "mainCategory": "FERRY OUT OF SERVICE",
+        "lastUpdated": 1782597833791,
+        "otherAdvice": "<p>The ferry has a reduced capacity of 20 tonnes due to the low water level.</p>",
         "arrangementElements": [],
-        "diversions": "",
+        "diversions": "<p><strong>West:</strong> Bethanga Bridge, Albury, which adds approximately 1 hour of travel time.</p><p><strong>East:</strong> Jingellic, which adds approximately<strong> </strong>75 minutes of travel time.</p>",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": [
-          "Local Council"
-        ],
+        "attendingGroups": null,
         "encodedPolylines": [],
-        "displayName": "HAZARD Rock fall",
+        "displayName": "FERRY Reduced capacity",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Queensland Border",
+            "crossStreet": "Wymah Ferry Road",
             "delay": "",
             "impactedLanes": [
               {
@@ -4545,13 +4473,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "near",
-            "mainStreet": "Summerland Way",
+            "locationQualifier": "between",
+            "mainStreet": "Wymah Ferry",
             "quadrant": "",
             "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "",
-            "suburb": "Dairy Flat",
+            "region": "The Murray",
+            "secondLocation": "Murray River Road",
+            "suburb": "Wymah (east of Albury)",
             "trafficVolume": ""
           }
         ],
@@ -4635,22 +4563,17 @@
     },
     {
       "type": "Feature",
-      "id": 272847,
+      "id": 279261,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.2660376,
-          -36.0393117
+          152.6972985,
+          -28.3364385
         ],
         "collections": []
       },
       "properties": {
-        "webLinks": [
-          {
-            "linkText": "NSW Vehicle Ferries",
-            "linkURL": "https://www.nsw.gov.au/driving-boating-and-transport/plan-your-trip/planning-tools-and-information/vehicle-ferries"
-          }
-        ],
+        "webLinks": [],
         "headline": "",
         "periods": [],
         "speedLimit": -1,
@@ -4663,28 +4586,30 @@
         "subCategoryB": null,
         "arrangementAttachments": [],
         "isInitialReport": false,
-        "created": 1777609891000,
+        "created": 1782361796000,
         "isMajor": false,
         "name": null,
-        "subCategoryA": "Low tide",
-        "adviceA": "Plan your journey",
-        "adviceB": " ",
+        "subCategoryA": "Rock fall",
+        "adviceA": "Exercise caution",
+        "adviceB": "Expect delays",
         "adviceC": " ",
         "incidentKind": "Unplanned",
-        "mainCategory": "FERRY OUT OF SERVICE",
-        "lastUpdated": 1782597833791,
-        "otherAdvice": "<p>The ferry has a reduced capacity of 20 tonnes due to the low water level.</p>",
+        "mainCategory": "HAZARD",
+        "lastUpdated": 1782597834192,
+        "otherAdvice": "",
         "arrangementElements": [],
-        "diversions": "<p><strong>West:</strong> Bethanga Bridge, Albury, which adds approximately 1 hour of travel time.</p><p><strong>East:</strong> Jingellic, which adds approximately<strong> </strong>75 minutes of travel time.</p>",
+        "diversions": "",
         "additionalInfo": [],
         "weblinkName": null,
-        "attendingGroups": null,
+        "attendingGroups": [
+          "Local Council"
+        ],
         "encodedPolylines": [],
-        "displayName": "FERRY Reduced capacity",
+        "displayName": "HAZARD Rock fall",
         "roads": [
           {
             "conditionTendency": "",
-            "crossStreet": "Wymah Ferry Road",
+            "crossStreet": "Queensland Border",
             "delay": "",
             "impactedLanes": [
               {
@@ -4696,13 +4621,13 @@
                 "roadType": ""
               }
             ],
-            "locationQualifier": "between",
-            "mainStreet": "Wymah Ferry",
+            "locationQualifier": "near",
+            "mainStreet": "Summerland Way",
             "quadrant": "",
             "queueLength": 0,
-            "region": "The Murray",
-            "secondLocation": "Murray River Road",
-            "suburb": "Wymah (east of Albury)",
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "Dairy Flat",
             "trafficVolume": ""
           }
         ],
@@ -8335,6 +8260,78 @@
         ],
         "isLocalRoad": "State road",
         "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279582,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.732198,
+          -32.916678
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": false,
+        "isNewIncident": true,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": false,
+        "created": 1782655837000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "null",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "TRAFFIC LIGHTS BLACKED OUT",
+        "lastUpdated": 1782655838091,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": null,
+        "encodedPolylines": [],
+        "displayName": "TRAFFIC LIGHTS BLACKED OUT",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Griffiths Road",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "All directions",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "at",
+            "mainStreet": "Broadmeadow Road",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "Hunter",
+            "secondLocation": "",
+            "suburb": "Broadmeadow",
+            "trafficVolume": ""
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "TrafficSignals"
       }
     }
   ]
