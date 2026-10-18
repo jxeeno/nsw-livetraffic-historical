@@ -5323,80 +5323,6 @@
     },
     {
       "type": "Feature",
-      "id": 291454,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.998538,
-          -30.4754127
-        ],
-        "collections": []
-      },
-      "properties": {
-        "webLinks": [],
-        "headline": "",
-        "periods": [],
-        "speedLimit": -1,
-        "weblinkUrl": null,
-        "expectedDelay": -1,
-        "ended": true,
-        "isNewIncident": false,
-        "publicTransport": "",
-        "impactingNetwork": true,
-        "subCategoryB": null,
-        "arrangementAttachments": [],
-        "isInitialReport": true,
-        "created": 1792282710000,
-        "isMajor": false,
-        "name": null,
-        "subCategoryA": "Car towing trailer",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
-        "adviceC": " ",
-        "incidentKind": "Unplanned",
-        "mainCategory": "CRASH",
-        "lastUpdated": 1792299201324,
-        "otherAdvice": "",
-        "arrangementElements": [],
-        "diversions": "",
-        "additionalInfo": [],
-        "weblinkName": null,
-        "attendingGroups": [
-          "Emergency services"
-        ],
-        "encodedPolylines": [],
-        "displayName": "CRASH Car towing trailer",
-        "roads": [
-          {
-            "conditionTendency": "",
-            "crossStreet": "Waterfall Way",
-            "delay": "",
-            "impactedLanes": [
-              {
-                "affectedDirection": "Northbound",
-                "closedLanes": "",
-                "description": "",
-                "extent": "Affected",
-                "numberOfLanes": "",
-                "roadType": ""
-              }
-            ],
-            "locationQualifier": "approaching",
-            "mainStreet": "Pacific Highway",
-            "quadrant": "",
-            "queueLength": 0,
-            "region": "North Coast NSW",
-            "secondLocation": "",
-            "suburb": "Raleigh",
-            "trafficVolume": ""
-          }
-        ],
-        "isLocalRoad": "State road",
-        "CategoryIcon": "Crash"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 291466,
       "geometry": {
         "type": "Point",
@@ -5463,6 +5389,80 @@
             "secondLocation": "",
             "suburb": "Willow Tree",
             "trafficVolume": "Heavy"
+          }
+        ],
+        "isLocalRoad": "State road",
+        "CategoryIcon": "Crash"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 291454,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.998538,
+          -30.4754127
+        ],
+        "collections": []
+      },
+      "properties": {
+        "webLinks": [],
+        "headline": "",
+        "periods": [],
+        "speedLimit": -1,
+        "weblinkUrl": null,
+        "expectedDelay": -1,
+        "ended": true,
+        "isNewIncident": false,
+        "publicTransport": "",
+        "impactingNetwork": true,
+        "subCategoryB": null,
+        "arrangementAttachments": [],
+        "isInitialReport": true,
+        "created": 1792282710000,
+        "isMajor": false,
+        "name": null,
+        "subCategoryA": "Car towing trailer",
+        "adviceA": "Reduce your speed",
+        "adviceB": "Exercise caution",
+        "adviceC": " ",
+        "incidentKind": "Unplanned",
+        "mainCategory": "CRASH",
+        "lastUpdated": 1792299201324,
+        "otherAdvice": "",
+        "arrangementElements": [],
+        "diversions": "",
+        "additionalInfo": [],
+        "weblinkName": null,
+        "attendingGroups": [
+          "Emergency services"
+        ],
+        "encodedPolylines": [],
+        "displayName": "CRASH Car towing trailer",
+        "roads": [
+          {
+            "conditionTendency": "",
+            "crossStreet": "Waterfall Way",
+            "delay": "",
+            "impactedLanes": [
+              {
+                "affectedDirection": "Northbound",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Affected",
+                "numberOfLanes": "",
+                "roadType": ""
+              }
+            ],
+            "locationQualifier": "approaching",
+            "mainStreet": "Pacific Highway",
+            "quadrant": "",
+            "queueLength": 0,
+            "region": "North Coast NSW",
+            "secondLocation": "",
+            "suburb": "Raleigh",
+            "trafficVolume": ""
           }
         ],
         "isLocalRoad": "State road",
@@ -5930,7 +5930,7 @@
         "weblinkUrl": null,
         "expectedDelay": -1,
         "ended": false,
-        "isNewIncident": true,
+        "isNewIncident": false,
         "publicTransport": "",
         "impactingNetwork": true,
         "subCategoryB": null,
@@ -5940,12 +5940,12 @@
         "isMajor": false,
         "name": null,
         "subCategoryA": "Car",
-        "adviceA": "Reduce your speed",
-        "adviceB": "Exercise caution",
+        "adviceA": "Use an alternative route",
+        "adviceB": "Allow extra travel time",
         "adviceC": " ",
         "incidentKind": "Unplanned",
         "mainCategory": "CRASH",
-        "lastUpdated": 1792309603013,
+        "lastUpdated": 1792309938985,
         "otherAdvice": "",
         "arrangementElements": [],
         "diversions": "",
@@ -5954,7 +5954,13 @@
         "attendingGroups": [
           "Emergency services"
         ],
-        "encodedPolylines": [],
+        "encodedPolylines": [
+          {
+            "levels": "",
+            "direction": "ONE_DIRECTION",
+            "coords": "bmplEiloz[G]E[GWEQCG?AGSMUMUMSMQOQEEEECCOKQKQI"
+          }
+        ],
         "displayName": "CRASH Car",
         "roads": [
           {
@@ -5964,14 +5970,22 @@
             "impactedLanes": [
               {
                 "affectedDirection": "Northbound",
-                "closedLanes": "2",
-                "description": "Lane 2, Lane 3",
+                "closedLanes": "",
+                "description": "",
+                "extent": "Closed",
+                "numberOfLanes": "",
+                "roadType": "Road"
+              },
+              {
+                "affectedDirection": "Southbound",
+                "closedLanes": "",
+                "description": "Right turn lane",
                 "extent": "Lanes closed",
-                "numberOfLanes": "3",
+                "numberOfLanes": "",
                 "roadType": ""
               }
             ],
-            "locationQualifier": "just past",
+            "locationQualifier": "from",
             "mainStreet": "Barrenjoey Road",
             "quadrant": "",
             "queueLength": 0,
